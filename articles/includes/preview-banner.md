@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> La funcionalitat que s'indica en aquest article està disponible per als usuaris de destinació com a part d'una versió preliminar. El contingut i la funcionalitat estan subjectes a canvis. Per obtenir més informació sobre les versions preliminars, vegeu [Preguntes freqüents sobre les actualitzacions del servei d'una versió](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).

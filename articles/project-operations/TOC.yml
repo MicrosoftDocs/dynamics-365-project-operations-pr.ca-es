@@ -1,0 +1,954 @@
+- name: Dynamics 365 Project Operations
+  href: project-operations-home-page.md
+- name: Project Operations per a escenaris basats en recursos/sense cotització
+  items:
+    - name: Procés de vendes
+      items:
+        - name: Descripció general sobre vendes
+          href: sales/sales-overview.md
+        - name: Diferències clau
+          href: sales/key-differences.md
+        - name: Configuració
+          items:
+            - name: Productes
+              href: sales/sales-products.md
+            - name: Unitats i grups d'unitats
+              href: sales/sales-units-unit-groups.md
+            - name: Moneda
+              href: sales/sales-currency.md
+        - name: Administració de clients potencials
+          href: sales/managing-leads.md
+        - name: Administració d'oportunitats
+          items:
+            - name: Capçalera d'oportunitat
+              href: sales/opportunity-header.md
+            - name: Línies basades en el producte
+              href: sales/product-based-lines.md
+            - name: Línies basades en el projecte
+              href: sales/project-based-lines.md
+            - name: Enllaçament d'ofertes i oportunitats
+              href: sales/link-quotes-opportunities.md
+            - name: Tancar una oportunitat
+              href: sales/close-opportunity.md
+        - name: Administració d'ofertes
+          items:
+            - name: Conceptes clau
+              href: sales/quotes-key-concepts.md
+            - name: 'Administració dels valors de l''oferta, els pressupostos del client i els límits que no s''han de superar'
+              href: sales/quote-values-budgets-limits.md
+            - name: Administració de diversos clients en una oferta
+              href: sales/manage-multiple-customers-quote.md
+            - name: Línies d'oferta basades en productes
+              item:
+                - name: Càlcul de costos de les línies d'oferta basades en productes
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Administració d'unitats complexes per a línies d'oferta basades en productes
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Línies d'oferta basades en el projecte
+              items:
+                - name: Administració de llistes de preus del projecte
+                  href: sales/managing-project-price-lists.md
+                - name: Administració de diversos clients en una línia d'oferta
+                  href: sales/managing-multiple-customers-quote-line.md
+                - name: Assignació de projectes i tasques a una línia d'oferta
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Creació d'estimacions en una línia d'oferta
+                  href: sales/create-estimate-quote-line.md
+                - name: Importació d'estimacions d'un projecte en una línia d'oferta
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Administració dels valors de l''oferta, els pressupostos del client i els límits que no s''han de superar'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Planificacions de facturació en una línia d'oferta
+                  href: sales/invoice-schedule-quote-line
+            - name: Guany d'una oferta
+              href: sales/win-quote.md
+            - name: Pèrdua d'una oferta
+              href: sales/lose-quote.md
+        - name: Administració de contractes
+          items:
+            - name: Conceptes clau
+              href: sales/contacts-key-concepts.md
+            - name: 'Administració dels valors del contracte, els pressupostos del client i els límits que no s''han de superar'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Administració de diversos clients en un contracte
+              href: sales/manage-multiple-customers-contract.md
+            - name: Línies de contracte basades en productes
+              items:
+                - name: Càlcul de costos de línies de contracte basades en productes
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Administració d'unitats complexes per a línies de contracte basades en productes
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Línies de contracte basades en el projecte
+              items:
+                - name: Administració de llistes de preus del projecte
+                  href: sales/manage-project-price-lists.md
+                - name: Administració de diversos clients en una línia de contracte
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Assignació de projectes i tasques a una línia de contracte
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Creació d'estimacions d'un projecte en una línia de contracte
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Importació d'estimacions d'un projecte en una línia de contracte
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Administració dels valors del contracte, els pressupostos del client i els límits que no s''han de superar en una línia d''oferta'
+                  href: sales/manage-quoted-values-budgets-limits-quote-line.md
+                - name: Planificacions de facturació en una línia d'oferta
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Confirmació d'un contracte
+              href: sales/confirm-contract.md
+            - name: Tancament d'un contracte com a feina completada
+              href: sales/close-contract-work-completed.md
+            - name: Tancament d'un contracte com a cancel·lat
+              href: sales/close-contract-canceled.md
+    - name: Càlcul de preus i costos
+      items:
+        - name: Llistes de preus de productes
+          href: pricing-costing/product-price-list.md
+        - name: Llistes de preus del projecte
+          items:
+            - name: Llista de preus de cost
+              items:
+                - name: Configuració de llistes de preus de cost
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Valors per defecte de la llista de preus
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Substitució dels valors per defecte
+                  href: pricing-costing/cost-override-default.md
+            - name: Configuració de la llista de preus per a vendes
+              items:
+                - name: Configuració de la llista de preus de vendes
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Valors per defecte de la llista de preus de vendes
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Substitució dels valors per defecte
+                  href: pricing-costing/sales-override-default.md
+        - name: Dimensions de preus
+          items:
+            - name: Informació general de les dimensions de preus
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Utilització d'un camp existent al Project Operations com a dimensió de preus
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Camps personalitzats com a dimensions de preus
+              items:
+                - name: Creació de camps i entitats personalitzats com a dimensions de preus
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Addició de camps personalitzats a la configuració de preus i a entitats transaccionals
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Configuració de camps personalitzats com a dimensions de preus
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Desactivació d'una dimensió de preus
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Administració de projectes
+      items:
+        - name: Informació general sobre l'administració de projectes
+          href: project-management/project-management-overview.md
+        - name: Fases del projecte
+          href: project-management/project-stages.md
+        - name: Navegació per la interfície d'usuari
+          href: project-management/navigate-ui.md
+        - name: Comprensió de l'estat del projecte
+          href: project-management/understand-project-status.md
+        - name: Definició dels calendaris del projecte
+          href: project-management/define-project-calendars.md
+        - name: Creació d'un projecte
+          items:
+            - name: Creació de les estimacions inicials
+              href: project-management/create-initial-estimates.md
+            - name: Definició del calendari del projecte
+              href: project-management/set-project-calendar.md
+            - name: Definició de la moneda del projecte
+              href: project-management/set-project-currency.md
+            - name: Definició d'un client
+              href: project-management/set-customer.md
+            - name: Addició d'un grup
+              href: project-management/add-group.md
+        - name: Actualització d'un projecte
+          href: project-management/update-project.md
+        - name: Còpia d'un projecte
+          href: project-management/copy-project.md
+        - name: Planificació de l'estructura del desglossament del treball
+          items:
+            - name: Creació d'una estructura del desglossament del treball
+              items:
+                - name: Creació de tasques
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Operacions de retallar, copiar i enganxar tasques'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Operacions de desfer i refer tasques
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Jerarquia de l'estructura del desglossament del treball
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Actualitzacions de tasques massives
+                  href: project-management/bulk-task-updates.md
+                - name: Edició dels detalls de la tasca
+                  href: project-management/edit-task-details.md
+            - name: Creació d'assignacions
+              items:
+                - name: Addició de recursos existents
+                  href: project-management/add-existing-resources.md
+                - name: Addició de recursos genèrics
+                  href: project-management/add-generic-resources.md
+                - name: 'Comprensió de l''impacte de les assignacions en l''esforç, la duració i la data de finalització de les tasques'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Visualització dels contorns de l'assignació
+                  href: project-management/view-assignment-contours.md
+            - name: Navegació per l'experiència d'administració de tasques
+              items:
+                - name: Administració de columnes
+                  href: project-management/column-management.md
+                - name: Visualitzacions
+                  href: project-management/task-management-views.md
+                - name: Dipòsits
+                  href: project-management/task management-buckets.md
+        - name: Estimació de projectes
+          items:
+            - name: Informació general de l'estimació de projectes
+              href: project-management/estimating-projects-overview.md
+            - name: Estimacions de recursos
+              items:
+                - name: Actualització de les estimacions del projecte per reflectir els canvis en el pla del projecte
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Actualització dels preus i els preus de cost a les estimacions del projecte
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Valors per defecte de preu de cost i moneda de cost dels recursos
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Valors per defecte de tarifa de facturació i moneda de vendes dels recursos
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Creació d'estimacions de despesa
+              items:
+                - name: Valors per defecte de preu de cost i moneda de cost de les despeses
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Valors per defecte de tarifa de facturació i moneda de vendes de les despeses
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Creació d'ofertes i contractes
+          items:
+            - name: Importació de l'estructura del desglossament del treball en ofertes
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Importació de l'estructura del desglossament del treball en contractes
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Seguiment del projecte
+          items:
+            - name: Pàgina inicial de seguiment del projecte
+              href: project-management/project-tracking-overview.md
+            - name: Definicions de columnes
+              items:
+                - name: Esforç
+                  href: project-management/effort.md
+                - name: Cost
+                  href: project-management/cost.md
+                - name: Vendes
+                  href: project-management/sales.md
+            - name: Actualització de l'estimació en finalitzar
+              href: project-management/update-completed-estimate.md
+        - name: Membres de l'equip del projecte
+          items:
+            - name: Informació general dels membres de l'equip del projecte
+              href: project-management/project-team-members-overview.md
+            - name: Manteniment dels membres de l'equip
+              items:
+                - name: Addició de membres de l'equip
+                  href: project-management/add-team-members.md
+                - name: Actualització dels membres de l'equip del projecte
+                  href: project-management/update-project-team-members.md
+                - name: Supressió de membres de l'equip
+                  href: project-management/delete-team-members.md
+                - name: Manteniment de reserves
+                  href: project-management/maintain-bookings.md
+                - name: Aprovadors del projecte
+                  href: project-management/project-approvers.md
+        - name: Vendes
+          items:
+            - name: Descripció general de la pestanya Vendes
+              href: project-management/sales-tab-overview.md
+        - name: Col·laboració
+          items:
+            - name: Grups
+              href: project-management/groups.md
+        - name: Preguntes freqüents sobre la planificació del projecte
+          href: project-management/project-planning-faq.md
+    - name: Administració de recursos
+      items:
+        - name: Informació general sobre l'administració dels recursos
+          href: resource-management/resource-management-overview.md
+        - name: Conceptes clau
+          href: resource-management/resource-management-key-concepts.md
+        - name: Reserves en comparació amb assignacions
+          href: resource-management/booking-vs-assignment.md
+        - name: Modes d'administració de recursos
+          items:
+            - name: Informació general sobre el mode d'administració de recursos
+              href: resource-management/resource-management-mode-overview.md
+            - name: Híbrid
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Central
+              href: resource-management/resource-management-mode-central.md
+        - name: Reserva centralitzada
+          items:
+            - name: Informació general sobre la reserva centralitzada
+              href: resource-management/centralized-booking-overview.md
+            - name: Addició de membres de l'equip genèrics a les tasques
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Definició de requisits de recursos
+              href: resource-management/define-resource-requirements.md
+            - name: Definició de contorns de requisits
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Actualització de requisits de recursos
+              href: resource-management/update-resource-requirements.md
+            - name: Enviament de requisits de recursos
+              href: resource-management/submit-resource-requirements.md
+            - name: Sol·licituds de recursos
+              items:
+                - name: Informació general sobre les sol·licituds de recursos
+                  href: resource-management/resource-requests-overview.md
+                - name: Revisió de camps i accions
+                  href: resource-management/review-fields-actions.md
+                - name: Cerca de recursos
+                  href: resource-management/find-resources.md
+                - name: Revisió dels recursos proposats
+                  href: resource-management/review-proposed-resources.md
+        - name: Reserva de recursos descentralitzada
+          items:
+            - name: Informació general sobre la reserva de recursos descentralitzada
+              href: resource-management/centralized-booking-overview.md
+            - name: Opcions per reservar directament
+              href: resource-management/options-book-directly.md
+            - name: Compliment dels requisits de recursos genèrics
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administració de recursos
+          items:
+            - name: Creació de recursos
+              href: resource-management/create-resources.md
+            - name: Definició d'aptituds i competències
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definició de funcions
+              href: resource-management/define-roles.md
+            - name: Definició de calendaris de recursos
+              href: resource-management/define-resource-calendars.md
+            - name: Associació de recursos amb unitats organitzatives
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Associació de recursos a empreses
+              href: resource-management/associate-resources-companies.md
+        - name: Mètodes d'assignació de reserves
+          href: resource-management/booking-allocation-methods.md
+        - name: Estat de la reserva
+          href: resource-management/booking-status.md
+        - name: Aptituds i models de competència
+          href: resource-management/skills-proficiency-models.md
+        - name: Conciliació de recursos
+          items:
+            - name: Informació general sobre la conciliació de recursos
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Conceptes clau
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Navegació
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Amplia les reserves
+              href: resource-management/extend-bookings.md
+            - name: Administració de diversos fusos horaris
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Ús de recursos
+          items:
+            - name: Informació general sobre l'ús de recursos
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Cerca, configuració i navegació'
+              href: resource-management/search-settings-navigation.md
+        - name: Tauler de planificació
+          items:
+            - name: Navegació i opcions de configuració clau
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Personalització
+              href: resource-management/personalization-urs.md
+            - name: Cerca
+              href: resource-management/search-urs.md
+            - name: Accions de reserva
+              href: resource-management/booking-actions-urs.md
+            - name: Reserva
+              items:
+                - name: Reserva per a un projecte
+                  href: resource-management/book-project.md
+                - name: Requisits oberts de reserva
+                  href: resource-management/book-open-requirements.md
+                - name: Recursos substituts
+                  href: resource-management/substitute-resources.md
+                - name: Edició de reserves existents
+                  href: resource-management/edit-existing-bookings.md
+        - name: Preguntes freqüents sobre l'administració de recursos
+          href: resource-management/resource-management-faq.md
+    - name: Temps
+      items:
+        - name: Informació general sobre l'entrada de temps
+          href: time/time-entry-overview.md
+        - name: Creació d'entrades de temps
+          items:
+            - name: 'Importació de reserves, assignacions i entrades de calendari'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Comportament de la interfície d'usuari
+              href: time/ui-behavior.md
+        - name: Envia les entrades de temps
+          href: time/submit-time-entries.md
+        - name: Recupera les entrades de temps
+          items:
+            - name: Abans de l'aprovació
+              href: time/recall-time-entries-before-approval.md
+            - name: Després de l'aprovació
+              href: time/recall-time-entries-after-approval.md
+        - name: Aprovació d'entrades de temps
+          href: time/approvals.md
+        - name: Notes del desenvolupador
+          items:
+            - name: Ampliació d'entrades de temps
+              href: time/extending-time-entries.md
+            - name: Personalització de la quadrícula d'entrada de temps setmanal
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Consideracions de seguretat
+              href: time/security-considerations.md
+    - name: Despesa
+      items:
+        - name: Pàgina inicial de despeses
+          href: expense/expense-overview.md
+        - name: Entrada bàsica de despesa
+          href: expense/expense-lite-entry.md
+        - name: Enviament i recuperació d'entrades de despesa
+          href: expense/submit-recall-expense-entries.md
+        - name: Aprovació d'entrades de despesa bàsiques
+          href: expense/approvals.md
+        - name: Experiència d'administració de despeses per a projectes
+          items:
+            - name: Configuració i instal·lació
+              items:
+                - name: Configuració de normes
+                  href: expense/set-up-policies.md
+                - name: Configuració de fluxos de treball
+                  href: expense/set-up-workflows.md
+                - name: Administració de la delegació
+                  href: expense/manage-delegation.md
+                - name: Configuració dels paràmetres d'administració de despeses
+                  href: expense/configure-expense-management-parameters.md
+                - name: Configuració de la integració amb targeta de crèdit
+                  href: expense/set-up-credit-card-integration.md
+                - name: Configuració de les categories de despesa
+                  href: expense/set-up-expense-categories.md
+            - name: Creació d'informes de despeses
+              items:
+                - name: Distribucions en un informe de despeses
+                  href: expense/distributions-expense-report.md
+            - name: Aprovació d'informes de despeses
+              items:
+                - name: Informes de despeses i diversos aprovadors
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Publicació d'informes de despeses
+              href: expense/posting-expense-reports.md
+            - name: Petició de viatge
+              href: expense/travel-requisition.md
+            - name: Avançament d'efectiu
+              href: expense/cash-advance.md
+            - name: Dietes
+              href: expense/per-diems.md
+            - name: Administració financera
+              items:
+                - name: Recuperació de l'IVA
+                  href: expense/vat-recovery.md
+            - name: Nova experiència de despesa
+              items:
+                - name: Informes de despeses nous
+                  href: expense/expense-reports-reimagined.md
+                - name: Coincidència del rebut amb la despesa mitjançant OCR
+                  href: expense/match-receipt-expense-ocr.md
+        - name: Càlcul de despeses amb el mòbil
+          href: expense/expense-using-mobile.md
+    - name: Aprovacions
+      items:
+        - name: Informació general
+          href: approvals/approvals-overview.md
+        - name: Aprovació d'entrades de temps
+          href: approvals/approving-time-entries.md
+        - name: Aprovació d'entrades de despesa
+          items:
+            - name: Despesa bàsica
+              href: approvals/approve-lite-expense.md
+            - name: Despesa total
+              href: approvals/approve-full-expense.md
+        - name: Cancel·lació d'entrades de temps aprovades
+          href: approvals/cancelling-approved-time-entries.md
+        - name: Cancel·lació d'entrades de despesa aprovades
+          items:
+            - name: Despesa bàsica
+              href: approvals/cancel-lite-expense.md
+            - name: Despesa total
+              href: approvals/cancel-full-expense.md
+    - name: Valors reals
+      items:
+        - name: Informació general
+          href: actuals/actuals-overview.md
+        - name: Creació de valors reals per a un projecte intern
+          href: actuals/create-actuals-internal-project.md
+        - name: Creació de valors reals per a un component del projecte facturable
+          items:
+            - name: Temps i material
+              href: actuals/time-material.md
+            - name: Preu fix
+              href: actuals/fixed-price.md
+        - name: Administració de l'estat que no s'ha de superar i les validacions
+          href: actuals/manage-not-exceed-status-validations.md
+        - name: Diaris del projecte
+          items:
+            - name: Creació de diaris del projecte per registrar tarifes en projectes
+              href: actuals/create-project-journals-record-fees-projects.md
+            - name: Creació de diaris del projecte de temps i despesa
+              href: actuals/create-project-journals-time-expense.md
+            - name: Creació i confirmació de diaris de correcció
+              href: actuals/create-confirm-correction-journals-md
+        - name: Administració del treball pendent de facturació
+          href: actuals/manage-billing-backlog.md
+    - name: Facturació proforma
+      items:
+        - name: Creació de planificacions de facturació
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Creació d'una factura proforma manual
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Administració d'una factura proforma
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Confirmació d'una factura proforma
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Factures correctives
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Configuració d'una creació de factura automàtica
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: 'Implementació bàsica: tracte de facturació proforma'
+  items:
+    - name: Escenaris aplicables
+      href: applicable-scenarios.md
+    - name: Novetats
+      href: whats-new-mode-2-project-operations.md
+    - name: Configuració de l'entorn
+      href: set-up-environment-mode-2.md
+    - name: Dades d'exemple
+      href: sample-data-mode-2.md
+    - name: Procés de vendes
+      items:
+        - name: Informació general del procés de vendes
+          href: sales/sales-overview.md
+        - name: Diferències clau
+          href: sales/key-differences.md
+        - name: Configuració
+          items:
+            - name: Productes
+              href: sales/sales-products.md
+            - name: Unitats i grups d'unitats
+              href: sales/sales-units-unit-groups.md
+            - name: Moneda
+              href: sales/sales-currency.md
+        - name: Administració de clients potencials
+          href: sales/managing-leads.md
+        - name: Administració d'oportunitats
+          items:
+            - name: Capçalera d'oportunitat
+              href: sales/opportunity-header.md
+            - name: Línies basades en el producte
+              href: sales/product-based-lines.md
+            - name: Línies basades en el projecte
+              href: sales/project-based-lines.md
+            - name: Enllaçament d'ofertes i oportunitats
+              href: sales/link-quotes-opportunities.md
+            - name: Tancar una oportunitat
+              href: sales/close-opportunity.md
+        - name: Administració d'ofertes
+          items:
+            - name: Conceptes clau
+              href: sales/quotes-key-concepts.md
+            - name: 'Administració dels valors de l''oferta, els pressupostos del client i els límits que no s''han de superar'
+              href: sales/quote-values-budget-limits.md
+            - name: Administració de diversos clients en una oferta
+              href: sales/manage-multiple-customers-quote.md
+            - name: Línies d'oferta basades en productes
+              items:
+                - name: Càlcul de costos de les línies d'oferta basades en productes
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Administració d'unitats complexes per a línies d'oferta basades en productes
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Línies d'oferta basades en el projecte
+              items:
+                - name: Administració de llistes de preus del projecte
+                  href: sales/manage-project-price-lists.md
+                - name: Administració de diversos clients en una línia d'oferta
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: Assignació de projectes i tasques a una línia d'oferta
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Creació d'estimacions en una línia d'oferta
+                  href: sales/create-estimate-quote-line.md
+                - name: Importació d'estimacions d'un projecte en una línia d'oferta
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Administració dels valors de l''oferta, els pressupostos del client i els límits que no s''han de superar'
+                  href: sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Planificacions de facturació en una línia d'oferta
+                  href: sales/invoice-schedule-quote-line.md
+            - name: Guany d'una oferta
+              href: sales/win-quote.md
+            - name: Pèrdua d'una oferta
+              href: sales/lose-quote.md
+        - name: Administració de contractes
+          items:
+            - name: Conceptes clau
+              href: sales/contracts-key-concepts.md
+            - name: 'Administració dels valors del contracte, els pressupostos del client i els límits que no s''han de superar'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Administració de diversos clients en un contracte
+              href: sales/manage-multiple-customers-contract.md
+            - name: Línies de contracte basades en productes
+              items:
+                - name: Càlcul de costos de línies de contracte basades en productes
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Administració d'unitats complexes per a línies de contracte basades en productes
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Línies de contracte basades en el projecte
+              items:
+                - name: Administració de llistes de preus del projecte
+                  href: sales/manage-project-price-lists.md
+                - name: Administració de diversos clients en una línia de contracte
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Assignació de projectes i tasques a una línia de contracte
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Creació d'estimacions d'un projecte en una línia de contracte
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Importació d'estimacions d'un projecte en una línia de contracte
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Administració dels valors del contracte, els pressupostos del client i els límits que no s''han de superar en una línia de contracte'
+                  href: sales/manage-contract-values-project-based.md
+                - name: Planificacions de facturació en una línia d'oferta
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Confirmació d'un contracte
+              href: sales/confirm-contract.md
+            - name: Tancament d'un contracte com a feina completada
+              href: sales/close-contract-work-completed.md
+            - name: Tancament d'un contracte com a cancel·lat
+              href: sales/close-contract-canceled.md
+    - name: Càlcul de preus i costos
+      items:
+        - name: Llistes de preus de productes
+          href: pricing-costing/product-price-lists.md
+        - name: Llistes de preus del projecte
+          items:
+            - name: Llista de preus de cost
+              items:
+                - name: Configuració de llistes de preus de cost
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Valors per defecte de la llista de preus
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Substitució dels valors per defecte
+                  href: pricing-costing/cost-override-default.md
+            - name: Configuració de la llista de preus per a vendes
+              items:
+                - name: Configuració de la llista de preus de vendes
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Valors per defecte de la llista de preus de vendes
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Substitució dels valors per defecte
+                  href: pricing-costing/sales-override-default.md
+        - name: Dimensions de preus
+          items:
+            - name: Informació general de les dimensions de preus
+              href: pricing-costing/pricing-dimension-overview.md
+            - name: Utilització d'un camp existent al Project Operations com a dimensió de preus
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Camps personalitzats com a dimensió de preus
+              items:
+                - name: Creació de camps i entitats personalitzats com a dimensions de preus
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Addició de camps personalitzats a la configuració de preus i a entitats transaccionals
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Configuració de camps personalitzats com a dimensions de preus
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Desactivació d'una dimensió de preus
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Administració de projectes
+      items:
+        - name: Informació general sobre l'administració de projectes
+          href: project-management/project-management-overview.md
+        - name: Fases del projecte
+          href: project-management/project-stages.md
+        - name: Navegació per la interfície d'usuari
+          href: project-management/navigate-ui.md
+        - name: Comprensió de l'estat del projecte
+          href: project-management/understand-project-status.md
+        - name: Definició dels calendaris del projecte
+          href: project-management/define-project-calendars.md
+        - name: Creació d'un projecte
+          items:
+            - name: Creació de les estimacions inicials
+              href: project-management/create-initial-estimates.md
+            - name: Definició del calendari del projecte
+              href: project-management/set-project-calendar.md
+            - name: Definició de la moneda del projecte
+              href: project-management/set-project-currency.md
+            - name: Definició d'un client
+              href: project-management/set-customer.md
+            - name: Addició d'un grup
+              href: project-management/add-group.md
+        - name: Actualització d'un projecte
+          href: project-management/update-project.md
+        - name: Còpia d'un projecte
+          href: project-management/copy-project.md
+        - name: Planificació de l'estructura del desglossament del treball
+          items:
+            - name: Creació d'una estructura del desglossament del treball
+              items:
+                - name: Creació de tasques
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Operacions de retallar, copiar i enganxar tasques'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Operacions de desfer i refer tasques
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Jerarquia de l'estructura del desglossament del treball
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Actualitzacions de tasques massives
+                  href: project-management/bulk-task-updates.md
+                - name: Edició dels detalls de la tasca
+                  href: project-management/edit-task-details.md
+            - name: Creació d'assignacions
+              items:
+                - name: Addició de recursos existents
+                  href: project-management/add-existing-resources.md
+                - name: Addició de recursos genèrics
+                  href: project-management/add-generic-resources.md
+                - name: 'Comprensió de l''impacte de les assignacions en l''esforç, la duració i la data de finalització de les tasques'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Visualització dels contorns de l'assignació
+                  href: project-management/view-assignment-contours.md
+            - name: Navegació per l'experiència d'administració de tasques
+              items:
+                - name: Administració de columnes
+                  href: project-management/column-management.md
+                - name: Visualitzacions
+                  href: project-management/task-management-views.md
+                - name: Dipòsits
+                  href: project-management/task management-buckets.md
+        - name: Estimació de projectes
+          items:
+            - name: Informació general de l'estimació de projectes
+              href: project-management/estimate-projects-overview.md
+            - name: Estimacions de recursos
+              items:
+                - name: Actualització de les estimacions del projecte per reflectir els canvis en el pla del projecte
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Actualització dels preus i els preus de cost a les estimacions del projecte
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Valors per defecte de preu de cost i moneda de cost dels recursos
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Valors per defecte de tarifa de facturació i moneda de vendes dels recursos
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Creació d'estimacions de despesa
+              items:
+                - name: Valors per defecte de preu de cost i moneda de cost de les despeses
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Valors per defecte de tarifa de facturació i moneda de vendes de les despeses
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Creació d'ofertes i contractes
+          items:
+            - name: Importació de l'estructura del desglossament del treball en ofertes
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Importació de l'estructura del desglossament del treball en contractes
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Seguiment del projecte
+          items:
+            - name: Pàgina inicial de seguiment del projecte
+              href: project-management/cost-vs-effort-overview.md
+            - name: Definicions de columnes
+              items:
+                - name: Esforç
+                  href: project-management/effort.md
+                - name: Cost
+                  href: project-management/cost.md
+                - name: Vendes
+                  href: project-management/sales.md
+            - name: Actualització de l'estimació en finalitzar
+              href: project-management/update-completed-estimate.md
+        - name: Membres de l'equip del projecte
+          items:
+            - name: Informació general dels membres de l'equip del projecte
+              href: project-management/project-team-members-overview.md
+            - name: Manteniment dels membres de l'equip
+              items:
+                - name: Addició de membres de l'equip
+                  href: project-management/add-team-members.md
+                - name: Actualització dels membres de l'equip del projecte
+                  href: project-management/update-project-team-members.md
+                - name: Supressió de membres de l'equip
+                  href: project-management/delete-team-members.md
+                - name: Manteniment de reserves
+                  href: project-management/maintain-bookings.md
+                - name: Aprovadors del projecte
+                  href: project-management/project-approvers.md
+        - name: Vendes
+          items:
+            - name: Descripció general de la pestanya Vendes
+              href: project-management/sales-tab-overview.md
+        - name: Col·laboració
+          items:
+            - name: Grups
+              href: project-management/groups.md
+        - name: Preguntes freqüents sobre la planificació del projecte
+          href: project-management/project-planning-faq.md
+    - name: Administració de recursos
+      items:
+        - name: Informació general sobre l'administració dels recursos
+          href: resource-management/resource-management-overview.md
+        - name: Conceptes clau
+          href: resource-management/resource-management-key-concepts.md
+        - name: Reserves en comparació amb assignacions
+          href: resource-management/booking-vs-assignment.md
+        - name: Modes d'administració de recursos
+          items:
+            - name: Informació general sobre el mode d'administració de recursos
+              href: resource-management/resource-management-mode-overview.md
+            - name: Híbrid
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Central
+              href: resource-management/resource-management-mode-central.md
+        - name: Reserva centralitzada
+          items:
+            - name: Informació general sobre la reserva centralitzada
+              href: resource-management/centralized-booking-overview.md
+            - name: Addició de membres de l'equip genèrics a les tasques
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Definició de requisits de recursos
+              href: resource-management/define-resource-requirements.md
+            - name: Definició de contorns de requisits
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Actualització de requisits de recursos
+              href: resource-management/update-resource-requirements.md
+            - name: Enviament de requisits de recursos
+              href: resource-management/submit-resource-requirements.md
+            - name: Sol·licituds de recursos
+              items:
+                - name: Informació general sobre les sol·licituds de recursos
+                  href: resource-management/resource-requests-overview.md
+                - name: Revisió de camps i accions
+                  href: resource-management/review-fields-actions.md
+                - name: Cerca de recursos
+                  href: resource-management/find-resources.md
+                - name: Revisió dels recursos proposats
+                  href: resource-management/review-proposed-resources.md
+        - name: Reserva de recursos descentralitzada
+          items:
+            - name: Informació general sobre la reserva de recursos descentralitzada
+              href: resource-management/decentralized-resource-booking-overview.md
+            - name: Opcions per reservar directament
+              href: resource-management/options-book-directly.md
+            - name: Compliment dels requisits de recursos genèrics
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administració de recursos
+          items:
+            - name: Creació de recursos
+              href: resource-management/create-resources.md
+            - name: Definició d'aptituds i competències
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definició de funcions
+              href: resource-management/define-roles.md
+            - name: Definició de calendaris de recursos
+              href: resource-management/define-resource-calendars.md
+            - name: Associació de recursos amb unitats organitzatives
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Associació de recursos a empreses
+              href: resource-management/associate-resources-companies.md
+        - name: Mètodes d'assignació de reserves
+          href: resource-management/booking-allocation-methods.md
+        - name: Estats de les reserves
+          href: resource-management/booking-status.md
+        - name: Aptituds i models de competència
+          href: resource-management/skills-proficiency-models.md
+        - name: Conciliació de recursos
+          items:
+            - name: Informació general sobre la conciliació de recursos
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Conceptes clau
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Navegació
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Amplia les reserves
+              href: resource-management/extend-bookings.md
+            - name: Administració de diversos fusos horaris
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Ús de recursos
+          items:
+            - name: Informació general sobre l'ús de recursos
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Cerca, configuració i navegació'
+              href: resource-management/search-settings-navigation.md
+        - name: Tauler de planificació
+          items:
+            - name: Navegació i opcions de configuració clau
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Personalització
+              href: resource-management/personalization-urs.md
+            - name: Cerca
+              href: resource-management/search-urs.md
+            - name: Accions de reserva
+              href: resource-management/booking-actions-urs.md
+            - name: Reserva
+              items:
+                - name: Reserva per a un projecte
+                  href: resource-management/book-project.md
+                - name: Requisits oberts de reserva
+                  href: resource-management/book-open-requirements.md
+                - name: Recursos substituts
+                  href: resource-management/substitute-resources.md
+                - name: Edició de reserves existents
+                  href: resource-management/edit-existing-bookings.md
+        - name: Preguntes freqüents sobre l'administració de recursos
+          href: resource-management/resource-management-faq.md
+    - name: Temps
+      items:
+        - name: Informació general sobre l'entrada de temps
+          href: time/time-entry-overview.md
+        - name: Creació d'entrades de temps
+          items:
+            - name: 'Importació de reserves, assignacions i entrades de calendari'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Comportament de la interfície d'usuari
+              href: time/ui-behavior.md
+        - name: Envia les entrades de temps
+          href: time/submit-time-entries.md
+        - name: Recupera les entrades de temps
+          items:
+            - name: Abans de l'aprovació
+              href: time/recall-time-entries-before-approval.md
+            - name: Després de l'aprovació
+              href: time/recall-time-entries-after-approval.md
+        - name: Aprovació d'entrades de temps
+          href: time/approvals.md
+        - name: Notes del desenvolupador
+          items:
+            - name: Ampliació d'entrades de temps
+              href: time/extending-time-entries.md
+            - name: Personalització de la quadrícula d'entrada de temps setmanal
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Consideracions de seguretat
+              href: time/security-considerations.md
+    - name: Despesa
+      items:
+        - name: Pàgina inicial de despeses
+          href: expense/expense-overview.md
+        - name: Entrada de despesa
+          href: expense-entry.md
+    - name: Aprovacions
+      items:
+        - name: Informació general
+          href: approvals/approvals-overview.md
+        - name: Aprovació d'entrades de temps
+          href: approvals/approving-time-entries.md
+        - name: Aprovació d'entrades de despesa
+          href: approve-expense-entries.md
+    - name: Facturació proforma
+      items:
+        - name: Creació de planificacions de facturació
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Creació d'una factura proforma manual
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Administració d'una factura proforma
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Confirmació d'una factura proforma
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Factures correctives
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Configuració d'una creació de factura automàtica
+          href: proforma-invoicing/configure-automated-invoice-creation.md
