@@ -1,1 +1,1 @@
-Més informació:
+<span data-ttu-id="57d9e-101">Més informació:</span><span class="sxs-lookup"><span data-stu-id="57d9e-101">More information:</span></span>

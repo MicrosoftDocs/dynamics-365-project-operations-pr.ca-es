@@ -1,1 +1,1 @@
-S'aplica a les versions 3.x, 2.x i 1.x de l'aplicació Project Service
+<span data-ttu-id="b49d0-101">S'aplica a les versions 3.x, 2.x i 1.x de l'aplicació Project Service</span><span class="sxs-lookup"><span data-stu-id="b49d0-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>
