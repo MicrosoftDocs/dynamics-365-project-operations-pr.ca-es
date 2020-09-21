@@ -1,0 +1,85 @@
+---
+title: Planificar recursos per a un projecte
+description: Com planificar recursos per a un projecte al Project Service
+author: JohnPBurrows
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: 4935567d-9318-4f7c-9c02-c584a78b7841
+ms.author: jburrows
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: d9767e324b3caec4b5f9723347537dbe97ea34fb
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: ca-ES
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3749568"
+---
+# <a name="schedule-resources-for-a-project-project-service"></a>Planificar recursos per a un projecte (Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+Podeu comprovar la disponibilitat de recursos per obtenir una vista general de com estan reservats els vostres recursos, o podeu filtrar la visualització per habilitats, equip, ubicació i altres opcions.  
+  
+El tauler de planificació mostra una llista de recursos i la seva disponibilitat. Seleccioneu un mode de visualització per mostrar la disponibilitat per **hores**, **dia**, **setmana** o **mes**.  
+  
+Abans d'utilitzar el tauler de planificació, és important configurar-lo. Per obtenir-ne més informació, consulta [Configura el tauler la planificació (Field Service o Project Service Automation)](../field-service/configure-schedule-board.md).
+  
+Si utilitzeu una versió anterior, per veure la disponibilitat dels recursos, consulteu [Visualització de la disponibilitat de recursos](../project-service/view-resource-availability.md).  
+
+> [!IMPORTANT]
+>  Per utilitzar la funcionalitat de reserva de tauler de planificació, la geocodificació i els serveis d'ubicació, cal activar els mapes.  
+> 
+> 1. Des del menú principal, seleccioneu **Planificació de recursos** > **Administració**.  
+> 2. Feu clic a **Paràmetres de planificació**.  
+> 3. Obriu un registre i desplaceu-vos fins a la secció **Resource Scheduling Optimization**.  
+> 4. Al camp **Connecta't als mapes**, seleccioneu **Sí**.  
+> 5. Accepteu les condicions i guardeu el registre.  
+> 6. Des del menú principal, seleccioneu **Project Service** > **Tauler de planificació**. A partir d'aquí, hi ha diverses maneres de planificar manualment un requisit de reserva. Escolliu el mètode que més us convingui.
+  
+## <a name="find-available-resources"></a>Cerca recursos disponibles
+
+1.  Des de la llista **Requisits de la reserva**, feu clic amb el botó dret a una reserva sense planificar i trieu-ne una de les següents:  
+  
+- Trieu **Cerca la disponibilitat: recursos actuals** per cercar un recurs disponible de la llista del tauler de planificació.  
+- Trieu **Cerca la disponibilitat: tots els recursos** per cercar un recurs disponible dels recursos del sistema  
+   > [!NOTE]
+   >  Després, els filtres mostraran les opcions del requisit de la reserva seleccionat.  
+  
+2. Quan vegeu una franja de temps disponible, feu clic-hi amb el botó dret al tauler de planificació i trieu **Reserva aquí**. O bé, arrastreu i deixeu anar el requisit de la reserva a la franja de temps disponible.  
+  
+
+## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a>Reservar un recurs amb la visualització diària i veure qui ha realitzat reserves
+  
+1.  Al tauler de planificació, seleccioneu **Mode de visualització** i seleccioneu **Dies**.  
+  
+    Es mostrarà una vista de quadrícula amb el nombre d'hores de reserva d'un recurs per dia i els dies que està lliure.  
+  
+2.  Feu clic al nom del recurs que voleu reservar i, a continuació, seleccioneu **Reserva**.  
+  
+3.  Al quadre de diàleg **Reserves de recursos (crear)**, trieu el projecte del qual voleu reservar el recurs juntament amb el mètode de reserva i les hores d'inici i finalització.  
+  
+4.  Quan hàgiu acabat, seleccioneu **Reserva**.  
+  
+## <a name="view-to-the-schedule-board"></a>Visualitza-ho al tauler la planificació
+  
+1.  Seleccioneu un requisit de reserva sense planificar a la part inferior de la llista.  
+  
+2.  Arrossegueu el requisit de reserves a una franja de recurs/temps disponible al tauler de planificació.  
+  
+3.  Quan hàgiu acabat, seleccioneu **Reserva**.  
+  
+### <a name="additional-resources"></a>Recursos addicionals  
+ [Guia de l'administrador de recursos](../project-service/resource-manager-guide.md)
