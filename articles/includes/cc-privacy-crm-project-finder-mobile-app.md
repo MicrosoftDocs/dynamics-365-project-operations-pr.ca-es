@@ -1,17 +1,25 @@
-Si habiliteu l'aplicació Project Finder Mobile, podeu oferir als usuaris de l'organització visibilitat sobre la feina del projecte i la possibilitat de subscriure's per treballar. Els usuaris també poden treballar amb l'aplicació Project Finder per visualitzar i actualitzar les seves aptituds. L'aplicació Project Finder Mobile s'habilita mitjançant l'opció Paràmetres del Project Service. Per fer-ho, cal definir en Sí el valor dels atributs Requisits de recursos visibles per als recursos i Permet l'actualització d'aptituds per recurs. Si canvieu els valors d'aquests atributs a No, aquesta funcionalitat s'inhabilita.  
+---
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: ca-ES
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069269"
+---
+<span data-ttu-id="0c1b7-101">Si habiliteu l'aplicació Project Finder Mobile, podeu oferir als usuaris de l'organització visibilitat sobre la feina del projecte i la possibilitat de subscriure's per treballar.</span><span class="sxs-lookup"><span data-stu-id="0c1b7-101">By enabling the Project Finder mobile app, you provide users in the organization with visibility into project work and the ability to sign up for work.</span></span> <span data-ttu-id="0c1b7-102">Els usuaris també poden treballar amb l'aplicació Project Finder per visualitzar i actualitzar les seves aptituds.</span><span class="sxs-lookup"><span data-stu-id="0c1b7-102">Users can also work with the Project Finder app to view and update their skills.</span></span> <span data-ttu-id="0c1b7-103">L'aplicació Project Finder Mobile s'habilita mitjançant l'opció Paràmetres del Project Service. Per fer-ho, cal definir en Sí el valor dels atributs Requisits de recursos visibles per als recursos i Permet l'actualització d'aptituds per recurs.</span><span class="sxs-lookup"><span data-stu-id="0c1b7-103">The Project Finder mobile app is enabled via the Project Service Parameters Setting, by setting the value of the Resource requirements visible to resources and Allow skill update by resource attributes to Yes.</span></span> <span data-ttu-id="0c1b7-104">Si canvieu els valors d'aquests atributs a No, aquesta funcionalitat s'inhabilita.</span><span class="sxs-lookup"><span data-stu-id="0c1b7-104">Changing the value of these attributes to No disables this functionality.</span></span>  
   
- Quan utilitzeu aquesta característica, heu de tenir en compte els aspectes clau següents:  
+ <span data-ttu-id="0c1b7-105">Quan utilitzeu aquesta característica, heu de tenir en compte els aspectes clau següents:</span><span class="sxs-lookup"><span data-stu-id="0c1b7-105">When using this feature, be sure to consider the following key points:</span></span>  
   
--   Requisits de recursos visibles per als recursos. Si definiu aquest atribut en Sí, oferiu als usuaris visibilitat sobre el treball del projecte i exposa la informació següent sobre un projecte:  
+-   <span data-ttu-id="0c1b7-106">Requisits de recursos visibles per als recursos.</span><span class="sxs-lookup"><span data-stu-id="0c1b7-106">Resource requirements visible to resources.</span></span> <span data-ttu-id="0c1b7-107">Si definiu aquest atribut en Sí, oferiu als usuaris visibilitat sobre el treball del projecte i exposa la informació següent sobre un projecte:</span><span class="sxs-lookup"><span data-stu-id="0c1b7-107">Setting this attribute to Yes provides users with visibility into project work exposes the following information about a project:</span></span>  
   
-    -   Nom del producte  
+    -   <span data-ttu-id="0c1b7-108">Nom del producte</span><span class="sxs-lookup"><span data-stu-id="0c1b7-108">Project name</span></span>  
   
-    -   Nom de la funció  
+    -   <span data-ttu-id="0c1b7-109">Nom de la funció</span><span class="sxs-lookup"><span data-stu-id="0c1b7-109">Role name</span></span>  
   
-    -   Nom del client  
+    -   <span data-ttu-id="0c1b7-110">Nom del client</span><span class="sxs-lookup"><span data-stu-id="0c1b7-110">Customer name</span></span>  
   
-    -   Adreça del client  
+    -   <span data-ttu-id="0c1b7-111">Adreça del client</span><span class="sxs-lookup"><span data-stu-id="0c1b7-111">Customer address</span></span>  
   
-    -   Duració de la feina  
+    -   <span data-ttu-id="0c1b7-112">Duració de la feina</span><span class="sxs-lookup"><span data-stu-id="0c1b7-112">Work duration</span></span>  
   
--   Permet l'actualització d'aptitud per recurs. Si definiu aquest atribut en Sí, oferiu als usuaris la possibilitat d'afegir aptituds als seus perfils i definir el seu nivell de competència per a les aptituds que afegeixen.
+-   <span data-ttu-id="0c1b7-113">Permet l'actualització d'aptitud per recurs.</span><span class="sxs-lookup"><span data-stu-id="0c1b7-113">Allow skill update by resource.</span></span> <span data-ttu-id="0c1b7-114">Si definiu aquest atribut en Sí, oferiu als usuaris la possibilitat d'afegir aptituds als seus perfils i definir el seu nivell de competència per a les aptituds que afegeixen.</span><span class="sxs-lookup"><span data-stu-id="0c1b7-114">Setting this attribute to Yes provides users with the ability to add skills to their profiles and to set their level of proficiency for the skills they add.</span></span>
