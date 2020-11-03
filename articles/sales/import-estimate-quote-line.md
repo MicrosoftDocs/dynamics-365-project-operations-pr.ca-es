@@ -3,67 +3,67 @@ title: Importar les estimacions d'un projecte a una línia d'oferta basada en pr
 description: En aquest tema es proporciona informació sobre la importació d'estimacions d'un projecte a una línia d'oferta.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907897"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072128"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar les estimacions d'un projecte a una línia d'oferta basada en projectes
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="0c1d9-103">Importar les estimacions d'un projecte a una línia d'oferta basada en projectes</span><span class="sxs-lookup"><span data-stu-id="0c1d9-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
+<span data-ttu-id="0c1d9-104">_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_</span><span class="sxs-lookup"><span data-stu-id="0c1d9-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-Si es crea un projecte durant la fase de prevendes, podeu seleccionar importar l'estimació financera del projecte a la línia d'oferta basada en projectes.
+<span data-ttu-id="0c1d9-105">Si es crea un projecte durant la fase de prevendes, podeu seleccionar importar l'estimació financera del projecte a la línia d'oferta basada en projectes.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. Assegureu-vos que la línia d'oferta basada en projectes tingui la informació del projecte al camp **Projecte**.
-2. A la pestanya **Detalls de la línia d'oferta**, seleccioneu **Importa des de l'estimació del projecte**.
-3. A la pàgina de diàleg que s'obre, seleccioneu una de les opcions de resum següents.
+1. <span data-ttu-id="0c1d9-106">Assegureu-vos que la línia d'oferta basada en projectes tingui la informació del projecte al camp **Projecte**.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="0c1d9-107">A la pestanya **Detalls de la línia d'oferta** , seleccioneu **Importa des de l'estimació del projecte**.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="0c1d9-108">A la pàgina de diàleg que s'obre, seleccioneu una de les opcions de resum següents:</span><span class="sxs-lookup"><span data-stu-id="0c1d9-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **Classe de la transacció**
-  - **Categoria**
-  - **Funció** 
-  - **Tasca del projecte**
+  - <span data-ttu-id="0c1d9-109">**Classe de la transacció**</span><span class="sxs-lookup"><span data-stu-id="0c1d9-109">**Transaction class**</span></span>
+  - <span data-ttu-id="0c1d9-110">**Categoria**</span><span class="sxs-lookup"><span data-stu-id="0c1d9-110">**Category**</span></span>
+  - <span data-ttu-id="0c1d9-111">**Funció**</span><span class="sxs-lookup"><span data-stu-id="0c1d9-111">**Role**</span></span> 
+  - <span data-ttu-id="0c1d9-112">**Tasca del projecte**</span><span class="sxs-lookup"><span data-stu-id="0c1d9-112">**Project task**</span></span>
 
-En funció de la vostra selecció, es copia la estimació del projecte per a totes les classes de transaccions incloses en aquesta línia d'oferta. Per comprovar les classes de transacció que s'inclouen, seleccioneu la pestanya **General** de la línia d'oferta basada en el projecte i comproveu els valors de **Inclou el temps**, **Inclou les despeses** i **Incloeu els impostos**.
+<span data-ttu-id="0c1d9-113">En funció de la vostra selecció, es copia la estimació del projecte per a totes les classes de transaccions incloses en aquesta línia d'oferta.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="0c1d9-114">Per comprovar les classes de transacció que s'inclouen, seleccioneu la pestanya **General** de la línia d'oferta basada en el projecte i comproveu els valors de **Inclou el temps** , **Inclou les despeses** i **Incloeu els impostos**.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-Quan importeu estimacions, el sistema triarà per defecte els preus segons les llistes de preus del projecte enllaçades a l'oferta i el tipus de facturació que s'hagi definit a la línia d'oferta basada en el projecte. Si una funció o categoria es configura a la línia d'oferta basada en el projecte com a no imputable, la línia d'estimació importada es definirà com a no imputable i no es afegirà al valor de l'oferta de la línia d'oferta.
+<span data-ttu-id="0c1d9-115">Quan importeu estimacions, el sistema triarà per defecte els preus segons les llistes de preus del projecte enllaçades a l'oferta i el tipus de facturació que s'hagi definit a la línia d'oferta basada en el projecte.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="0c1d9-116">Si una funció o categoria es configura a la línia d'oferta basada en el projecte com a no imputable, la línia d'estimació importada es definirà com a no imputable i no es afegirà al valor de l'oferta de la línia d'oferta.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-Quan una línia d'oferta té detalls de línia, els camps **Valor de l'oferta** i **Impostos estimats** de la línia d'oferta es resumeixen i no es poden editar.
+<span data-ttu-id="0c1d9-117">Quan una línia d'oferta té detalls de línia, els camps **Valor de l'oferta** i **Impostos estimats** de la línia d'oferta es resumeixen i no es poden editar.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-Quan se seleccionen diverses opcions de resum, el procés intenta resumir totes les opcions seleccionades. Això vol dir que la sortida de les línies d'oferta importades serà major que si només heu seleccionat una opció de resum.
+<span data-ttu-id="0c1d9-118">Quan se seleccionen diverses opcions de resum, el sistema intenta resumir totes les opcions seleccionades.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="0c1d9-119">El resultat és que la sortida de les línies d'oferta importades serà major que si només heu seleccionat una opció de resum.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-Per exemple, si el projecte té les línies d'estimació següents per a les despeses.
+<span data-ttu-id="0c1d9-120">Per exemple, si el projecte té les línies d'estimació següents per a les despeses.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| Tasca | Categoria | Date | Quantitat | Preu per unitat | Import |
+| <span data-ttu-id="0c1d9-121">Tasca</span><span class="sxs-lookup"><span data-stu-id="0c1d9-121">Task</span></span> | <span data-ttu-id="0c1d9-122">Categoria</span><span class="sxs-lookup"><span data-stu-id="0c1d9-122">Category</span></span> | <span data-ttu-id="0c1d9-123">Date</span><span class="sxs-lookup"><span data-stu-id="0c1d9-123">Date</span></span> | <span data-ttu-id="0c1d9-124">Quantitat</span><span class="sxs-lookup"><span data-stu-id="0c1d9-124">Quantity</span></span> | <span data-ttu-id="0c1d9-125">Preu per unitat</span><span class="sxs-lookup"><span data-stu-id="0c1d9-125">Unit price</span></span> | <span data-ttu-id="0c1d9-126">Import</span><span class="sxs-lookup"><span data-stu-id="0c1d9-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Tasca A | Bitllets d'avió | 10/1/2020 | 4 | 400 | 1600 |
-| Tasca B | Hotels | 10/1/2020 | 4 | 200 | 800 |
-| Tasca C | Hotels | 11/1/2020 | 2 | 200 | 400 |
+| <span data-ttu-id="0c1d9-127">Tasca A</span><span class="sxs-lookup"><span data-stu-id="0c1d9-127">Task A</span></span> | <span data-ttu-id="0c1d9-128">Bitllets d'avió</span><span class="sxs-lookup"><span data-stu-id="0c1d9-128">Airfare</span></span> | <span data-ttu-id="0c1d9-129">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="0c1d9-129">10/1/2020</span></span> | <span data-ttu-id="0c1d9-130">4</span><span class="sxs-lookup"><span data-stu-id="0c1d9-130">4</span></span> | <span data-ttu-id="0c1d9-131">400</span><span class="sxs-lookup"><span data-stu-id="0c1d9-131">400</span></span> | <span data-ttu-id="0c1d9-132">1600</span><span class="sxs-lookup"><span data-stu-id="0c1d9-132">1600</span></span> |
+| <span data-ttu-id="0c1d9-133">Tasca B</span><span class="sxs-lookup"><span data-stu-id="0c1d9-133">Task B</span></span> | <span data-ttu-id="0c1d9-134">Hotels</span><span class="sxs-lookup"><span data-stu-id="0c1d9-134">Hotel</span></span> | <span data-ttu-id="0c1d9-135">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="0c1d9-135">10/1/2020</span></span> | <span data-ttu-id="0c1d9-136">4</span><span class="sxs-lookup"><span data-stu-id="0c1d9-136">4</span></span> | <span data-ttu-id="0c1d9-137">200</span><span class="sxs-lookup"><span data-stu-id="0c1d9-137">200</span></span> | <span data-ttu-id="0c1d9-138">800</span><span class="sxs-lookup"><span data-stu-id="0c1d9-138">800</span></span> |
+| <span data-ttu-id="0c1d9-139">Tasca C</span><span class="sxs-lookup"><span data-stu-id="0c1d9-139">Task C</span></span> | <span data-ttu-id="0c1d9-140">Hotels</span><span class="sxs-lookup"><span data-stu-id="0c1d9-140">Hotel</span></span> | <span data-ttu-id="0c1d9-141">11/1/2020</span><span class="sxs-lookup"><span data-stu-id="0c1d9-141">11/1/2020</span></span> | <span data-ttu-id="0c1d9-142">2</span><span class="sxs-lookup"><span data-stu-id="0c1d9-142">2</span></span> | <span data-ttu-id="0c1d9-143">200</span><span class="sxs-lookup"><span data-stu-id="0c1d9-143">200</span></span> | <span data-ttu-id="0c1d9-144">400</span><span class="sxs-lookup"><span data-stu-id="0c1d9-144">400</span></span> |
 
-Quan l'usuari selecciona resumir per classe de transacció, la informació següent s'importarà.
+<span data-ttu-id="0c1d9-145">Quan l'usuari selecciona resumir per classe de transacció, la informació següent s'importarà.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| Tasca | Categoria | Date | Quantitat | Preu per unitat | Import |
+| <span data-ttu-id="0c1d9-146">Tasca</span><span class="sxs-lookup"><span data-stu-id="0c1d9-146">Task</span></span> | <span data-ttu-id="0c1d9-147">Categoria</span><span class="sxs-lookup"><span data-stu-id="0c1d9-147">Category</span></span> | <span data-ttu-id="0c1d9-148">Date</span><span class="sxs-lookup"><span data-stu-id="0c1d9-148">Date</span></span> | <span data-ttu-id="0c1d9-149">Quantitat</span><span class="sxs-lookup"><span data-stu-id="0c1d9-149">Quantity</span></span> | <span data-ttu-id="0c1d9-150">Preu per unitat</span><span class="sxs-lookup"><span data-stu-id="0c1d9-150">Unit price</span></span> | <span data-ttu-id="0c1d9-151">Import</span><span class="sxs-lookup"><span data-stu-id="0c1d9-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 10/1/2020 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="0c1d9-152">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="0c1d9-152">10/1/2020</span></span> | <span data-ttu-id="0c1d9-153">3.34</span><span class="sxs-lookup"><span data-stu-id="0c1d9-153">3.34</span></span> | <span data-ttu-id="0c1d9-154">840</span><span class="sxs-lookup"><span data-stu-id="0c1d9-154">840</span></span> | <span data-ttu-id="0c1d9-155">2800</span><span class="sxs-lookup"><span data-stu-id="0c1d9-155">2800</span></span> |
 
-Quan l'usuari selecciona resumir per classe i categoria de transacció, la informació següent s'importarà.
+<span data-ttu-id="0c1d9-156">Quan l'usuari selecciona resumir per classe i categoria de transacció, la informació següent s'importarà.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| Tasca | Categoria | Date | Quantitat | Preu per unitat | Import |
+| <span data-ttu-id="0c1d9-157">Tasca</span><span class="sxs-lookup"><span data-stu-id="0c1d9-157">Task</span></span> | <span data-ttu-id="0c1d9-158">Categoria</span><span class="sxs-lookup"><span data-stu-id="0c1d9-158">Category</span></span> | <span data-ttu-id="0c1d9-159">Date</span><span class="sxs-lookup"><span data-stu-id="0c1d9-159">Date</span></span> | <span data-ttu-id="0c1d9-160">Quantitat</span><span class="sxs-lookup"><span data-stu-id="0c1d9-160">Quantity</span></span> | <span data-ttu-id="0c1d9-161">Preu per unitat</span><span class="sxs-lookup"><span data-stu-id="0c1d9-161">Unit price</span></span> | <span data-ttu-id="0c1d9-162">Import</span><span class="sxs-lookup"><span data-stu-id="0c1d9-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Tasca A | Bitllets d'avió | 10/1/2020 | 4 | 400 | 1600 |
-| | Hotels | 10/1/2020 | 6 | 200 | 1200 |
+| <span data-ttu-id="0c1d9-163">Tasca A</span><span class="sxs-lookup"><span data-stu-id="0c1d9-163">Task A</span></span> | <span data-ttu-id="0c1d9-164">Bitllets d'avió</span><span class="sxs-lookup"><span data-stu-id="0c1d9-164">Airfare</span></span> | <span data-ttu-id="0c1d9-165">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="0c1d9-165">10/1/2020</span></span> | <span data-ttu-id="0c1d9-166">4</span><span class="sxs-lookup"><span data-stu-id="0c1d9-166">4</span></span> | <span data-ttu-id="0c1d9-167">400</span><span class="sxs-lookup"><span data-stu-id="0c1d9-167">400</span></span> | <span data-ttu-id="0c1d9-168">1600</span><span class="sxs-lookup"><span data-stu-id="0c1d9-168">1600</span></span> |
+| | <span data-ttu-id="0c1d9-169">Hotels</span><span class="sxs-lookup"><span data-stu-id="0c1d9-169">Hotel</span></span> | <span data-ttu-id="0c1d9-170">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="0c1d9-170">10/1/2020</span></span> | <span data-ttu-id="0c1d9-171">6</span><span class="sxs-lookup"><span data-stu-id="0c1d9-171">6</span></span> | <span data-ttu-id="0c1d9-172">200</span><span class="sxs-lookup"><span data-stu-id="0c1d9-172">200</span></span> | <span data-ttu-id="0c1d9-173">1200</span><span class="sxs-lookup"><span data-stu-id="0c1d9-173">1200</span></span> |
 
-Quan l'usuari selecciona resumir per classe de transacció, categoria i tasca de node fulla, la informació següent s'importarà. Observeu que aquest resultat és el mateix que el que hi ha al projecte.
+<span data-ttu-id="0c1d9-174">Quan l'usuari selecciona resumir per classe de transacció, categoria i tasca de node fulla, la informació següent s'importarà.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="0c1d9-175">Observeu que aquest resultat és el mateix que el que hi ha al projecte.</span><span class="sxs-lookup"><span data-stu-id="0c1d9-175">Notice that this result is the same as what was on the project.</span></span>
 
-| Tasca | Categoria | Date | Quantitat | Preu per unitat | Import |
+| <span data-ttu-id="0c1d9-176">Tasca</span><span class="sxs-lookup"><span data-stu-id="0c1d9-176">Task</span></span> | <span data-ttu-id="0c1d9-177">Categoria</span><span class="sxs-lookup"><span data-stu-id="0c1d9-177">Category</span></span> | <span data-ttu-id="0c1d9-178">Date</span><span class="sxs-lookup"><span data-stu-id="0c1d9-178">Date</span></span> | <span data-ttu-id="0c1d9-179">Quantitat</span><span class="sxs-lookup"><span data-stu-id="0c1d9-179">Quantity</span></span> | <span data-ttu-id="0c1d9-180">Preu per unitat</span><span class="sxs-lookup"><span data-stu-id="0c1d9-180">Unit price</span></span> | <span data-ttu-id="0c1d9-181">Import</span><span class="sxs-lookup"><span data-stu-id="0c1d9-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Tasca A | Bitllets d'avió | 10/1/2020 | 4 | 400 | 1600 |
-| Tasca B | Hotels | 10/1/2020 | 4 | 200 | 800 |
-| Tasca C | Hotels | 11/1/2020 | 2 | 200 | 400 |
+| <span data-ttu-id="0c1d9-182">Tasca A</span><span class="sxs-lookup"><span data-stu-id="0c1d9-182">Task A</span></span> | <span data-ttu-id="0c1d9-183">Bitllets d'avió</span><span class="sxs-lookup"><span data-stu-id="0c1d9-183">Airfare</span></span> | <span data-ttu-id="0c1d9-184">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="0c1d9-184">10/1/2020</span></span> | <span data-ttu-id="0c1d9-185">4</span><span class="sxs-lookup"><span data-stu-id="0c1d9-185">4</span></span> | <span data-ttu-id="0c1d9-186">400</span><span class="sxs-lookup"><span data-stu-id="0c1d9-186">400</span></span> | <span data-ttu-id="0c1d9-187">1600</span><span class="sxs-lookup"><span data-stu-id="0c1d9-187">1600</span></span> |
+| <span data-ttu-id="0c1d9-188">Tasca B</span><span class="sxs-lookup"><span data-stu-id="0c1d9-188">Task B</span></span> | <span data-ttu-id="0c1d9-189">Hotels</span><span class="sxs-lookup"><span data-stu-id="0c1d9-189">Hotel</span></span> | <span data-ttu-id="0c1d9-190">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="0c1d9-190">10/1/2020</span></span> | <span data-ttu-id="0c1d9-191">4</span><span class="sxs-lookup"><span data-stu-id="0c1d9-191">4</span></span> | <span data-ttu-id="0c1d9-192">200</span><span class="sxs-lookup"><span data-stu-id="0c1d9-192">200</span></span> | <span data-ttu-id="0c1d9-193">800</span><span class="sxs-lookup"><span data-stu-id="0c1d9-193">800</span></span> |
+| <span data-ttu-id="0c1d9-194">Tasca C</span><span class="sxs-lookup"><span data-stu-id="0c1d9-194">Task C</span></span> | <span data-ttu-id="0c1d9-195">Hotels</span><span class="sxs-lookup"><span data-stu-id="0c1d9-195">Hotel</span></span> | <span data-ttu-id="0c1d9-196">11/1/2020</span><span class="sxs-lookup"><span data-stu-id="0c1d9-196">11/1/2020</span></span> | <span data-ttu-id="0c1d9-197">2</span><span class="sxs-lookup"><span data-stu-id="0c1d9-197">2</span></span> | <span data-ttu-id="0c1d9-198">200</span><span class="sxs-lookup"><span data-stu-id="0c1d9-198">200</span></span> | <span data-ttu-id="0c1d9-199">400</span><span class="sxs-lookup"><span data-stu-id="0c1d9-199">400</span></span> |

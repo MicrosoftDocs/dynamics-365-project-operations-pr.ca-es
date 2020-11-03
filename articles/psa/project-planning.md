@@ -1,0 +1,52 @@
+---
+title: Pàgina d'inici de planificació de projectes
+description: Aquest tema proporciona informació sobre la planificació de projectes.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 03/01/2019
+ms.topic: article
+ms.author: rumant
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: a1c3e0e1e0314d915bce4fb840b444b79edd4ac0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: ca-ES
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072180"
+---
+# <a name="project-planning-home-page"></a><span data-ttu-id="f4738-103">Pàgina d'inici de planificació de projectes</span><span class="sxs-lookup"><span data-stu-id="f4738-103">Project planning home page</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+<span data-ttu-id="f4738-104">El Dynamics 365 Project Service Automation ofereix suport d'extrem a extrem per a organitzacions de servei proporcionant eines per administrar el procés de vendes i de lliurament.</span><span class="sxs-lookup"><span data-stu-id="f4738-104">Dynamics 365 Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process.</span></span> <span data-ttu-id="f4738-105">Ajuda aquestes organitzacions a identificar oportunitats, enviar ofertes, arribar a acords contractuals, administrar recursos, lliurar els projectes a temps i dins del pressupost, fer el seguiment del temps i les despeses i enviar factures als clients.</span><span class="sxs-lookup"><span data-stu-id="f4738-105">It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer.</span></span> <span data-ttu-id="f4738-106">Els membres de l'equip poden col·laborar en els projectes i poden mantenir informació actualitzada i precisa de l'estat del projecte de manera que els administradors de projectes puguin identificar i administrar els riscos del projecte.</span><span class="sxs-lookup"><span data-stu-id="f4738-106">Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks.</span></span> <span data-ttu-id="f4738-107">Aquestes tasques avançades es duen a terme normalment a organitzacions més grans que tenen divisions separades que treballen juntes.</span><span class="sxs-lookup"><span data-stu-id="f4738-107">These advanced tasks are typically performed in larger organizations that have separate divisions that work together.</span></span>
+
+## <a name="project-management-tools"></a><span data-ttu-id="f4738-108">Eines d'administració de projectes</span><span class="sxs-lookup"><span data-stu-id="f4738-108">Project management tools</span></span>
+
+<span data-ttu-id="f4738-109">Les eines d'administració de projectes del PSA us ajudaran a executar de manera fàcil el projecte.</span><span class="sxs-lookup"><span data-stu-id="f4738-109">The project management tools in PSA help you easily run projects.</span></span> <span data-ttu-id="f4738-110">Les plantilles integrades i les eines de planificació ajuden els administradors i els equips del projecte a seguir sent productius.</span><span class="sxs-lookup"><span data-stu-id="f4738-110">Built-in templates and scheduling tools help project managers and teams stay productive.</span></span> <span data-ttu-id="f4738-111">A continuació, us indiquem algunes de les tasques en què les eines us ajudaran:</span><span class="sxs-lookup"><span data-stu-id="f4738-111">Here are some of the tasks that the tools help with:</span></span>
+
+- <span data-ttu-id="f4738-112">Planificar projectes utilitzant planificacions de treball i estimacions.</span><span class="sxs-lookup"><span data-stu-id="f4738-112">Plan projects by using a work schedule and estimates.</span></span>
+- <span data-ttu-id="f4738-113">Fer una estimació i seguiment dels costos i ingressos d'un projecte.</span><span class="sxs-lookup"><span data-stu-id="f4738-113">Estimate and track project costs and revenue.</span></span>
+- <span data-ttu-id="f4738-114">Utilitzar estimacions de projecte durant el procés de venda.</span><span class="sxs-lookup"><span data-stu-id="f4738-114">Use project estimates during the sales process.</span></span>
+- <span data-ttu-id="f4738-115">Preveure els requisits de recursos dels projectes es troben en el pipeline.</span><span class="sxs-lookup"><span data-stu-id="f4738-115">Forecast resource requirements for projects that are in the pipeline.</span></span>
+- <span data-ttu-id="f4738-116">Lliurar correctament els projectes mitjançant el seguiment del progrés i el consum de costos.</span><span class="sxs-lookup"><span data-stu-id="f4738-116">Successfully deliver projects by tracking progress and cost consumption.</span></span>
+
+<span data-ttu-id="f4738-117">Els temes següents proporcionen informació que ajudarà els administradors de projectes a estimar el treball, estimar els costos del projecte i preveure els requisits dels recursos mitjançant les eines admeses al PSA:</span><span class="sxs-lookup"><span data-stu-id="f4738-117">The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:</span></span>
+
+- [<span data-ttu-id="f4738-118">Crear una planificació</span><span class="sxs-lookup"><span data-stu-id="f4738-118">Creating a schedule</span></span>](project-creating.md)
+- [<span data-ttu-id="f4738-119">Fer una estimació dels costos i ingressos d'un projecte</span><span class="sxs-lookup"><span data-stu-id="f4738-119">Estimating project cost and revenue</span></span>](project-estimating.md)
+- [<span data-ttu-id="f4738-120">Aprofitar la planificació i les estimacions</span><span class="sxs-lookup"><span data-stu-id="f4738-120">Leveraging the schedule and estimates</span></span>](project-leveraging.md)
+- [<span data-ttu-id="f4738-121">Fer el seguiment del consum de cost i el progrés dels projectes</span><span class="sxs-lookup"><span data-stu-id="f4738-121">Tracking project progress and cost consumption</span></span>](project-tracking.md)
+- [<span data-ttu-id="f4738-122">Plantilles de projecte</span><span class="sxs-lookup"><span data-stu-id="f4738-122">Project templates</span></span>](project-templates.md)
+- [<span data-ttu-id="f4738-123">Fases del projecte</span><span class="sxs-lookup"><span data-stu-id="f4738-123">Project stages</span></span>](project-stages.md)
+- [<span data-ttu-id="f4738-124">Configuració del projecte</span><span class="sxs-lookup"><span data-stu-id="f4738-124">Project settings</span></span>](project-settings.md)

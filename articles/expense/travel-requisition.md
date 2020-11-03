@@ -9,50 +9,50 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072081"
 ---
-# <a name="travel-requisitions"></a>Peticions de viatge
+# <a name="travel-requisitions"></a><span data-ttu-id="e4b86-103">Peticions de viatge</span><span class="sxs-lookup"><span data-stu-id="e4b86-103">Travel requisitions</span></span>
 
-_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
+<span data-ttu-id="e4b86-104">_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_</span><span class="sxs-lookup"><span data-stu-id="e4b86-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Una petició de viatge enumera les despeses que s'hauran d'incórrer amb la finalitat de viatjar. S'envia una petició de viatge per a la revisió i es pot utilitzar per autoritzar les despeses.
+<span data-ttu-id="e4b86-105">Una petició de viatge enumera les despeses que s'hauran d'incórrer amb la finalitat de viatjar.</span><span class="sxs-lookup"><span data-stu-id="e4b86-105">A travel requisition lists the expenses that will be incurred for the purpose of travel.</span></span> <span data-ttu-id="e4b86-106">S'envia una petició de viatge per a la revisió i es pot utilitzar per autoritzar les despeses.</span><span class="sxs-lookup"><span data-stu-id="e4b86-106">A travel requisition is submitted for review and can be used to authorize expenses.</span></span>
 
-Pot ser que hàgiu d'enviar una petició de viatge abans d'incórrer en cap despesa que es cobri a l'organització. Aquest requisit s'aplica independentment de si carregueu les despeses a una targeta de crèdit corporativa, feu una despesa en efectiu que heu rebut d'un avançament d'efectiu o incorreu en una despesa per una operació que reemborsarà l'organització.
+<span data-ttu-id="e4b86-107">Pot ser que hàgiu d'enviar una petició de viatge abans d'incórrer en cap despesa que es cobri a l'organització.</span><span class="sxs-lookup"><span data-stu-id="e4b86-107">You may be required to submit a travel requisition before you incur any expense that is charged to the organization.</span></span> <span data-ttu-id="e4b86-108">Aquest requisit s'aplica independentment de si carregueu les despeses a una targeta de crèdit corporativa, feu una despesa en efectiu que heu rebut d'un avançament d'efectiu o incorreu en una despesa per una operació que reemborsarà l'organització.</span><span class="sxs-lookup"><span data-stu-id="e4b86-108">This requirement applies, regardless of whether you charge expenses to a corporate credit card, spend cash that you received from a cash advance, or incur out-of-pocket expenses that will be reimbursed by the organization.</span></span>
 
-Les peticions i polítiques de viatge es poden utilitzar per ajudar a administrar les despeses de l'organització. Per exemple, si la vostra organització està treballant en un projecte de preu fix que requereix viatjar, les despeses de viatge dels membres de l'equip del projecte han d'encaixar dins del pressupost del projecte. En exigir que s'aprovin les despeses de viatge abans que s'incorrin, l'organització pot ajudar a assegurar-se que el projecte roman dins del pressupost.
+<span data-ttu-id="e4b86-109">Les peticions i polítiques de viatge es poden utilitzar per ajudar a administrar les despeses de l'organització.</span><span class="sxs-lookup"><span data-stu-id="e4b86-109">Travel requisitions and policies can be used to help manage organization expenditures.</span></span> <span data-ttu-id="e4b86-110">Per exemple, si la vostra organització està treballant en un projecte de preu fix que requereix viatjar, les despeses de viatge dels membres de l'equip del projecte han d'encaixar dins del pressupost del projecte.</span><span class="sxs-lookup"><span data-stu-id="e4b86-110">For example, if your organization is working on a fixed-price project that requires travel, the travel expenses of the project's team members must fit within the project budget.</span></span> <span data-ttu-id="e4b86-111">En exigir que s'aprovin les despeses de viatge abans que s'incorrin, l'organització pot ajudar a assegurar-se que el projecte roman dins del pressupost.</span><span class="sxs-lookup"><span data-stu-id="e4b86-111">By requiring that travel expenses be approved before they are incurred, the organization can help make sure that the project remains within budget.</span></span>
 
-## <a name="configuration"></a>Configuració 
+## <a name="configuration"></a><span data-ttu-id="e4b86-112">Configuració</span><span class="sxs-lookup"><span data-stu-id="e4b86-112">Configuration</span></span> 
 
-Les peticions de viatge es poden configurar com a "obligatòries" habilitant el paràmetre "L'autorització prèvia del viatge és obligatòria" a Paràmetres de l'administració de despeses. 
+<span data-ttu-id="e4b86-113">Les peticions de viatge es poden configurar com a "obligatòries" habilitant el paràmetre "L'autorització prèvia del viatge és obligatòria" a Paràmetres de l'administració de despeses.</span><span class="sxs-lookup"><span data-stu-id="e4b86-113">Travel Requisitions can be configured as "mandatory" by enabling the "Pre-authorization of travel is mandatory" parameter in Expense Management Parameters.</span></span> 
 
-## <a name="create-and-submit-a-travel-requisition"></a>Crear i enviar una petició de viatge
+## <a name="create-and-submit-a-travel-requisition"></a><span data-ttu-id="e4b86-114">Crear i enviar una petició de viatge</span><span class="sxs-lookup"><span data-stu-id="e4b86-114">Create and submit a travel requisition</span></span>
 
-1. Aneu a **Les meves despeses: petició de viatge** i seleccioneu **Nova petició de viatge**.
-2. Introduïu una finalitat i una destinació per a la petició.
-3. Al camp **Descripció del viatge**, introduïu qualsevol informació addicional. 
-4. Per a cadascuna de les despeses esperades, com ara els vols, els àpats o el lloguer de cotxes, creeu un element de la línia de despeses. Incloeu la data prevista, l'import previst i la moneda per a cada despesa. 
-5. Quan hàgiu acabat d'afegir les despeses esperades, seleccioneu **Desa**.
-6. Quan estigueu a punt per enviar la petició de viatge, seleccioneu **Flux de treball** > **Envia**.
+1. <span data-ttu-id="e4b86-115">Aneu a **Les meves despeses: petició de viatge** i seleccioneu **Nova petició de viatge**.</span><span class="sxs-lookup"><span data-stu-id="e4b86-115">Go to **My expenses: Travel Requisition** , and select **New travel Requisition**.</span></span>
+2. <span data-ttu-id="e4b86-116">Introduïu una finalitat i una destinació per a la petició.</span><span class="sxs-lookup"><span data-stu-id="e4b86-116">Enter a purpose and destination for the requisition.</span></span>
+3. <span data-ttu-id="e4b86-117">Al camp **Descripció del viatge** , introduïu qualsevol informació addicional.</span><span class="sxs-lookup"><span data-stu-id="e4b86-117">In the  **Travel description** field, enter any additional information.</span></span> 
+4. <span data-ttu-id="e4b86-118">Per a cadascuna de les despeses esperades, com ara els vols, els àpats o el lloguer de cotxes, creeu un element de la línia de despeses.</span><span class="sxs-lookup"><span data-stu-id="e4b86-118">For each of the expected expenses, such as Flight, meals, or car rental, create an expense line item.</span></span> <span data-ttu-id="e4b86-119">Incloeu la data prevista, l'import previst i la moneda per a cada despesa.</span><span class="sxs-lookup"><span data-stu-id="e4b86-119">Include the estimated date, estimated amount, and the currency for each expense.</span></span> 
+5. <span data-ttu-id="e4b86-120">Quan hàgiu acabat d'afegir les despeses esperades, seleccioneu **Desa**.</span><span class="sxs-lookup"><span data-stu-id="e4b86-120">When you have finished adding the expected expenses, select **Save**.</span></span>
+6. <span data-ttu-id="e4b86-121">Quan estigueu a punt per enviar la petició de viatge, seleccioneu **Flux de treball** > **Envia**.</span><span class="sxs-lookup"><span data-stu-id="e4b86-121">When you are ready to submit the travel requisition, select **Workflow** > **Submit**.</span></span>
 
-Podeu veure les peticions de viatge aprovades a **Les meves despeses: petició de viatge**. 
+<span data-ttu-id="e4b86-122">Podeu veure les peticions de viatge aprovades a **Les meves despeses: petició de viatge**.</span><span class="sxs-lookup"><span data-stu-id="e4b86-122">You can view your approved travel requisitions under **My Expenses: Travel Requisition**.</span></span> 
 
-## <a name="view-available-travel-requisitions"></a>Visualitzar les peticions de viatge disponibles
+## <a name="view-available-travel-requisitions"></a><span data-ttu-id="e4b86-123">Visualitzar les peticions de viatge disponibles</span><span class="sxs-lookup"><span data-stu-id="e4b86-123">View available travel requisitions</span></span>
 
-Podeu veure totes les vostres peticions de viatge a **Les meves despeses: peticions de viatge**.
+<span data-ttu-id="e4b86-124">Podeu veure totes les vostres peticions de viatge a **Les meves despeses: peticions de viatge**.</span><span class="sxs-lookup"><span data-stu-id="e4b86-124">You can view all of your travel requisitions under **My Expenses: Travel Requisitions**.</span></span>
 
-## <a name="approve-travel-requisitions"></a>Aprovar peticions de viatge
+## <a name="approve-travel-requisitions"></a><span data-ttu-id="e4b86-125">Aprovar peticions de viatge</span><span class="sxs-lookup"><span data-stu-id="e4b86-125">Approve travel requisitions</span></span>
 
-Seleccioneu la petició de viatge que voleu aprovar i, a continuació, feu clic a **Flux de treball** > **Aprova**.  
+<span data-ttu-id="e4b86-126">Seleccioneu la petició de viatge que voleu aprovar i, a continuació, feu clic a **Flux de treball** > **Aprova**.</span><span class="sxs-lookup"><span data-stu-id="e4b86-126">Select the travel requisition that you want to approve, and then select **Workflow** > **Approve**.</span></span>  
 
-## <a name="submit-an-expense-report-using-your-approved-travel-requisition"></a>Enviar un informe de despeses amb la petició de viatge aprovada
+## <a name="submit-an-expense-report-using-your-approved-travel-requisition"></a><span data-ttu-id="e4b86-127">Enviar un informe de despeses amb la petició de viatge aprovada</span><span class="sxs-lookup"><span data-stu-id="e4b86-127">Submit an expense report using your approved travel requisition</span></span>
 
-1. Creeu un informe de despeses nou i a la capçalera de l'informe de despeses i a la llista de peticions de viatge aprovades, seleccioneu **Assigna a una petició de viatge**.
-2. El camp **Import de la petició de viatge** s'actualitza automàticament a la capçalera de l'informe de despeses.
-3. Afegiu cada despesa que hagi ocasionat el viatge. Si el camp **Preautoritzat** està habilitat, l'import conciliat i l'import autoritzat de la categoria de despesa concreta s'actualitzaran.
+1. <span data-ttu-id="e4b86-128">Creeu un informe de despeses nou i a la capçalera de l'informe de despeses i a la llista de peticions de viatge aprovades, seleccioneu **Assigna a una petició de viatge**.</span><span class="sxs-lookup"><span data-stu-id="e4b86-128">Create a new expense report and in the expense report header, and from the list of approved travel requisitions, select **Map to Travel requisition**.</span></span>
+2. <span data-ttu-id="e4b86-129">El camp **Import de la petició de viatge** s'actualitza automàticament a la capçalera de l'informe de despeses.</span><span class="sxs-lookup"><span data-stu-id="e4b86-129">The **Travel requisition amount** field is automatically updated in the expense report header.</span></span>
+3. <span data-ttu-id="e4b86-130">Afegiu cada despesa que hagi ocasionat el viatge.</span><span class="sxs-lookup"><span data-stu-id="e4b86-130">Add each expense incurred for the trip.</span></span> <span data-ttu-id="e4b86-131">Si el camp **Preautoritzat** està habilitat, l'import conciliat i l'import autoritzat de la categoria de despesa concreta s'actualitzaran.</span><span class="sxs-lookup"><span data-stu-id="e4b86-131">If the **Pre-authorized** field is enabled, the reconciled amount and authorized amount for the specific expense category will be updated.</span></span>
 
 > [!NOTE]
-> Quan assigneu un informe de despeses a una petició de viatge aprovada, l'import de la transacció no pot ser superior a l'import autoritzat. 
+> <span data-ttu-id="e4b86-132">Quan assigneu un informe de despeses a una petició de viatge aprovada, l'import de la transacció no pot ser superior a l'import autoritzat.</span><span class="sxs-lookup"><span data-stu-id="e4b86-132">When you map an expense report to an approved travel requisition, the transaction amount can't be greater than the authorized amount.</span></span> 
