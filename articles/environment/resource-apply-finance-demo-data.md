@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948765"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096610"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicació de les dades de demostració del Project Operations en un entorn allotjat al núvol del Finance
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
->[Important] Aquest tema només és aplicable només a la versió 10.0.13 del Microsoft Dynamics 365 Finance i només es pot fer en un entorn allotjat al núvol. Completeu els passos d'aquest tema **ABANS** d'aplicar les actualitzacions de qualitat a l'entorn.
+> [!IMPORTANT]
+> Aquest tema només és aplicable només a la versió 10.0.13 del Microsoft Dynamics 365 Finance i només es pot fer en un entorn allotjat al núvol. Completeu els passos d'aquest tema **ABANS** d'aplicar les actualitzacions de qualitat a l'entorn.
 
 1. Al projecte del LCS, obriu la pàgina **Detalls de l'entorn**. Observeu que inclou els detalls necessaris per connectar-se a l'entorn mitjançant el protocol d'escriptori remot (RDP).
 
