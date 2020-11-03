@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072096"
 ---
 # <a name="expense-entry-lite"></a>Entrada de despesa (bàsica)
 
@@ -28,7 +28,7 @@ Per obtenir més informació sobre les capacitats de despesa del Dynamics 365 Pr
 Podeu capturar les despeses per enviar-les a l'aprovador.
 
 1. Aneu a **Despeses** i seleccioneu **Nova**.
-2. A la pàgina **Despesa nova**, introduïu la informació de despesa necessària i, a continuació, seleccioneu **Desa**.
+2. A la pàgina **Despesa nova** , introduïu la informació de despesa necessària i, a continuació, seleccioneu **Desa**.
 
 ## <a name="submit-a-basic-expense"></a>Enviar una despesa bàsica
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907889"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072065"
 ---
 # <a name="edit-a-resource-requirement"></a>Editar un requisit de recursos
 
@@ -26,7 +26,7 @@ Després que un requisit de recurs es defineixi amb l'acció **Genera un requisi
 Com a administrador de projectes, seguiu els passos següents per editar el requisit de recursos d'un membre de l'equip.
 
 1. Aneu a la quadrícula de membres de l'equip, cerqueu el membre de l'equip a la llista i seleccioneu l'enllaç als requisits de recurs associats.
-2. Al formulari **Detalls del requisit**, actualitzeu els atributs següents segons calgui.
+2. Al formulari **Detalls del requisit** , actualitzeu els atributs següents segons calgui.
 
 - Destreses
 - Funcions
@@ -36,4 +36,4 @@ Com a administrador de projectes, seguiu els passos següents per editar el requ
 
 ## <a name="edit-resource-assignment-contours"></a>Editar els contorns de l'assignació de recursos
 
-A banda d'editar els detalls dels requisits dels recursos, un administrador de projectes pot actualitzar els contorns individuals del requisit del recurs mitjançant la funcionalitat **Especifica un patró**. Quan seleccioneu **Especifica un patró**, s'obre una pàgina i es poden visualitzar els contorns a escala de dia, setmana o mes. Cada contorn es pot ajustar per a l'hora d'inici, l'hora d'acabament i l'esforç total en un període determinat.
+A banda d'editar els detalls dels requisits dels recursos, un administrador de projectes pot actualitzar els contorns individuals del requisit del recurs mitjançant la funcionalitat **Especifica un patró**. Quan seleccioneu **Especifica un patró** , s'obre una pàgina i es poden visualitzar els contorns a escala de dia, setmana o mes. Cada contorn es pot ajustar per a l'hora d'inici, l'hora d'acabament i l'esforç total en un període determinat.

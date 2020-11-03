@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c6a721849bfe556fb637f21898c0fa00083760dd
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896854"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072213"
 ---
 # <a name="manage-delegation"></a>Administració de la delegació
 Un delegat de despeses pot crear i administrar informes de despeses per a un altre empleat.
@@ -30,7 +29,7 @@ Un delegat de despeses pot crear i administrar informes de despeses per a un alt
 
 Per configurar un usuari com a delegat de despesa, seguiu els passos següents. 
 1. Aneu a **Administració de despeses** > **Configuració** > **General** > **Delegats**. 
-2. A la pàgina **Delegats**, seleccioneu **Nou** i, a continuació, seleccioneu l'empleat que tindrà definit un delegat. 
+2. A la pàgina **Delegats** , seleccioneu **Nou** i, a continuació, seleccioneu l'empleat que tindrà definit un delegat. 
 3. Introduïu l'àlies de l'usuari delegat i la data d'inici i d'acabament per al període de delegació.
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>Administrar despeses en nom d'un altre empleat

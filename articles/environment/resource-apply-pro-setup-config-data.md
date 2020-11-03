@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072085"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configurar i aplicar les dades de configuració al Common Data Service per al Project Operations
 
@@ -27,7 +27,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ![Migració de la configuració](./media/1ConfigurationMigration.png)
 
-4. A la pàgina 2 de l'auxiliar CMT, seleccioneu **Office 365** com a **Tipus d'implementació**.
+4. A la pàgina 2 de l'auxiliar CMT, seleccioneu **Microsoft 365** com a **Tipus d'implementació**.
 5. Marqueu les caselles **Mostra una llista d'organitzacions disponibles** i **Mostra les opcions avançades**.
 6. Seleccioneu la regió del vostre inquilí, introduïu les credencials i seleccioneu **Inicia la sessió**.
 
@@ -79,11 +79,11 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ![Recursos que es poden reservar](./media/8BookableResources.png)
 
-3. A la pestanya **General**, seleccioneu el vostre usuari d'administració. Verifiqueu que el fus horari coincideixi amb el fus en què us trobeu. 
+3. A la pestanya **General** , seleccioneu el vostre usuari d'administració. Verifiqueu que el fus horari coincideixi amb el fus en què us trobeu. 
 
 ![Nou recurs que es pot reservar](./media/9NewBookableResource.png)
 
-4. A la pestanya **Planificació**, al camp **Empresa**, trieu l'empresa **USPM** i, a continuació, seleccioneu **Desa**. 
+4. A la pestanya **Planificació** , al camp **Empresa** , trieu l'empresa **USPM** i, a continuació, seleccioneu **Desa**. 
 
 ![Pestanya Planificació](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
  
 12. Actualitzeu els camps següents:
 
- - **Empresa per defecte**: USPM
- - **Unitat organitzativa per defecte**: Contoso Robotics Global
- - **Freqüència de factura**: setè i últim dia
- - **Plantilla d'hores de treball**: canvieu-ho a la plantilla que heu creat.
+ - **Empresa per defecte** : USPM
+ - **Unitat organitzativa per defecte** : Contoso Robotics Global
+ - **Freqüència de factura** : setè i últim dia
+ - **Plantilla d'hores de treball** : canvieu-ho a la plantilla que heu creat.
 
 13. Seleccioneu **Desa**. 
 

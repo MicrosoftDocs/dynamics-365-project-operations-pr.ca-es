@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948757"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072077"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Aplicar la configuració de demostració i les dades de configuració per a la implementació bàsica del Project Operations: acord a la facturació proforma
 
@@ -25,7 +25,7 @@ _**Implementació bàsica: acord a facturació proforma_
 
 ![Migració de la configuració](./media/1ConfigurationMigration.png)
 
-4. A la pàgina 2 de l'auxiliar CMT, seleccioneu **Office 365** com a **Tipus d'implementació**.
+4. A la pàgina 2 de l'auxiliar CMT, seleccioneu **Microsoft 365** com a **Tipus d'implementació**.
 5. Marqueu les caselles **Mostra una llista d'organitzacions disponibles** i **Mostra les opcions avançades**.
 6. Seleccioneu la regió del vostre inquilí, introduïu les credencials i, a continuació, seleccioneu **Inicia la sessió**.
 

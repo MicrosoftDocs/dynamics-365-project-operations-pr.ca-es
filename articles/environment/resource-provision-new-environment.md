@@ -3,17 +3,17 @@ title: Proveïment d'un entorn nou
 description: En aquest tema s'ofereix informació sobre com proveir un entorn nou del Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072099"
 ---
 # <a name="provision-a-new-environment"></a>Proveïment d'un entorn nou
 
@@ -26,20 +26,20 @@ En aquest tema es proporciona informació sobre com es proveeix un nou entorn de
 Seguiu aquests passos per habilitar el flux de proveïment automatitzat del Project Operations per al projecte del LCS.
 
 1. Aneu a [LCS](https://lcs.dynamics.com/v2) i seleccioneu la peça **Administració de característiques de versió preliminar**.
-2. A la llista **Característiques de versió preliminar**, seleccioneu **Project Operations** i **Característica de versió preliminar habilitada** per habilitar el Project Operations.
+2. A la llista **Característiques de versió preliminar** , seleccioneu **Característica del Project Operations** i **Característica de versió preliminar habilitada** per habilitar el Project Operations.
 
 > [!NOTE]
 > Aquest pas només es fa una vegada per projecte del LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Proveïment d'un entorn del Project Operations
 
-1. Obriu una nova implementació d'un [entorn de demostració](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) o [entorn de producció](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) del Dynamics 365 Finance. 
+1. Obriu una nova implementació d'un [entorn de demostració](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) o [entorn de producció](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) del Dynamics 365 Finance. 
 2. Seguiu els passos de l'auxiliar **Proveïment de l'entorn**. 
 
 > [!IMPORTANT]
 > Assegureu-vos que la versió de l'aplicació seleccionada sigui 10.0.13 o superior.
 
-3. Per proveir el Project Operations, a **Configuració avançada**, seleccioneu **Common Data Service**. 
+3. Per proveir el Project Operations, a **Configuració avançada** , seleccioneu **Common Data Service**. 
 4. Habiliteu la **Configuració del Common Data Service** seleccionant **Sí** i, a continuació, introduïu informació als camps obligatoris:
 
   - Nom
@@ -47,7 +47,7 @@ Seguiu aquests passos per habilitar el flux de proveïment automatitzat del Proj
   - Language
   - Moneda
  
-5. Al camp **Plantilla del Common Data Service**, seleccioneu **Project Operations** 
+5. Al camp **Plantilla del Common Data Service** , seleccioneu **Project Operations** 
 
 6. Seleccioneu el tipus d'entorn per a la implementació. Una prova basada en subscripció us permetrà implementar un entorn del CDS durant 30 dies. 
 
@@ -76,11 +76,11 @@ El Project Operations requereix un entorn del Finance amb la versió de l'aplica
 
 Pot ser que hàgiu d'aplicar actualitzacions de qualitat al vostre entorn del Finance per rebre aquesta versió.
 
-1. Al LCS, a la pàgina **Detalls de l'entorn**, a la secció **Actualitzacions disponibles**, seleccioneu **Visualitza l'actualització**.
+1. Al LCS, a la pàgina **Detalls de l'entorn** , a la secció **Actualitzacions disponibles** , seleccioneu **Visualitza l'actualització**.
 
 ![Visualitzar les actualitzacions](./media/5ViewUpdates.png)
 
-2. A la pàgina **Actualitzacions binàries**, seleccioneu **Desa el paquet.**
+2. A la pàgina **Actualitzacions binàries** , seleccioneu **Desa el paquet.**
 
 ![Desar el paquet](./media/6SavePackage.png)
 
@@ -111,7 +111,7 @@ El procés de servei de l'entorn tardarà una estona. Després d'haver acabat, l
 ## <a name="establish-a-dual-write-connection"></a>Establir una connexió d'escriptura doble 
 
 1. Al projecte del LCS, aneu a la pàgina **Detalls de l'entorn**.
-2. A **Informació de l'entorn del Common Data Service**, seleccioneu **Enllaça amb el CDS per a aplicacions**.
+2. A **Informació de l'entorn del Common Data Service** , seleccioneu **Enllaça amb el CDS per a aplicacions**.
 3. Després d'haver acabat l'enllaç, torneu a seleccionar **Enllaça amb el CDS per a aplicacions**. Se us redirigirà a l'escriptura doble al Finance.
 
 ![Enllaça amb el CDS](./media/12LinktoCDS.png)
@@ -142,7 +142,7 @@ Després d'aplicar les entitats, totes les assignacions disponibles apareixen a 
 
 ![Paràmetres del marc](./media/17FrameworkParameters.png)
 
-3. A la pàgina **Configuració de l'entitat**, seleccioneu **Actualitza la llista d'entitats**.
+3. A la pàgina **Configuració de l'entitat** , seleccioneu **Actualitza la llista d'entitats**.
 
 ![Actualitzar la llista d'entitats](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ L'actualització tardarà uns 20 minuts. Rebreu una alerta quan s'hagi completat
 ## <a name="run-project-operations-dual-write-maps"></a>Executar assignacions d'escriptura doble del Project Operations
 
 1. Al projecte del LCS, aneu a la pàgina **Detalls de l'entorn**.
-2. A **Informació de l'entorn del Common Data Service**, seleccioneu **Enllaça amb el CDS per a aplicacions.** Després de seleccionar l'enllaç, se us redirigirà a la llista d'entitats de les assignacions.
+2. A **Informació de l'entorn del Common Data Service** , seleccioneu **Enllaça amb el CDS per a aplicacions.** Després de seleccionar l'enllaç, se us redirigirà a la llista d'entitats de les assignacions.
 3. Inicieu les assignacions com es descriu a la taula següent. Assegureu-vos de seguir la seqüència que s'indica a la llista.
 
 | **Assignació d'entitats** | **Actualitzar l'entitat** | **Sincronització inicial** | **Mestre per a la sincronització inicial** | **Requisits previs de l'execució** | **Sincronització inicial dels requisits previs** |
@@ -165,18 +165,19 @@ L'actualització tardarà uns 20 minuts. Rebreu una alerta quan s'hagi completat
 | **Entitat d'integració per a les relacions de transaccions del projecte (msdyn\_transactionconnections)** | No | No | N/D | No | N/D |
 | **Fites de línia de contracte d'integració del Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | N/D | No | N/D |
 | **Entitat d'integració del Project Operations per a l'estimació de despeses (msdyn\_estimateslines)** | No | No | N/D | No | N/D |
-| **Entitat d'integració del Project Operations per a l'estimació d'hores (msdyn\_resourceassignments)** | No | No | N/D | No | N/D |
+| **Entitat d'exportació de categories de despeses del projecte d'integració del Project Operations (msdyn\_expensecategories)** | No | No | N/D | No | N/D |
 | **Entitat d'exportació de despeses del projecte d'integració del Project Operations (msdyn\_expenses)** | Sí | No | N/D | No | N/D |
 | **Entitat d'integració del Project Operations per a l'estimació d'hores (msdyn\_resourceassignments)** | Sí | No | N/D | No | N/D |
 
+
 4. Per actualitzar l'entitat, seleccioneu el nom de l'assignació i, a continuació, **Actualitza les entitats**. 
-5. Continueu amb l'execució de l'assignació després d'haver acabat l'actualització.
+
 
 ![Actualitzar l'assignació](./media/20RefreshMapping.png)
 
-Abans d'habilitar la següent assignació, verifiqueu que l'assignació de la taula estigui en estat **En execució**. L'execució d'assignacions amb un major nombre de requisits previs podria tardar una estona.
+5. Després de completar l'actualització, executeu l'assignació. Abans d'habilitar la següent assignació, verifiqueu que l'assignació de la taula estigui en estat **En execució**. L'execució d'assignacions amb un major nombre de requisits previs podria tardar una estona.
 
-Per executar una assignació amb requisits previs, habiliteu l'opció **Mostra les assignacions d'entitats relacionades**. Si la taula indica que la **Sincronització inicial de requisits previs** és **No**, verifiqueu que l'indicador **Sincronització inicial** estigui **desactivat** a totes les assignacions de requisits previs abans d'executar-la.
+Per executar una assignació amb requisits previs, habiliteu l'opció **Mostra les assignacions d'entitats relacionades**. Si la taula indica que la **Sincronització inicial de requisits previs** és **No** , verifiqueu que l'indicador **Sincronització inicial** estigui **desactivat** a totes les assignacions de requisits previs abans d'executar-la.
 
 ![Executar l'assignació](./media/21RunMap.png)
 

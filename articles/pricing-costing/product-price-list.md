@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3570aeb78804e9b267caa55a27e02d6c8df9a5c6
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072280"
 ---
 # <a name="product-price-lists"></a>Llistes de preus de productes
 
@@ -43,11 +42,11 @@ Podeu afegir productes d'un catàleg de productes a diverses llistes de preus. L
 
 El PSA admet diverses opcions d'arrodoniment quan els preus es configuren com a funció del preu de llista, cost estàndard o cost corrent. A banda de treure profit de diversos mètodes de preus i d'arrodoniment, podeu associar llistes de descomptes amb elements de la llista de preus. 
 
-Quan creeu una llista de preus personalitzada nova per a una oferta seleccionant **Crea un preu personalitzat** a la pàgina **Oferta del projecte**, es fa una còpia de la llista de preus i el camp **Entitat** a la capçalera de la llista de preus nova es defineix com a **Entitat de vendes**. Al nom de la llista de preus nova s'hi afegeix el nom de l'oferta i d'una marca horària. També podeu utilitzar el nom de la llista de preus nova i el nom de l'oferta als fluxos de treball personalitzats per activar la revisió i les aprovacions addicionals de les ofertes que utilitzin preus personalitzats.
+Quan creeu una llista de preus personalitzada nova per a una oferta seleccionant **Crea un preu personalitzat** a la pàgina **Oferta del projecte** , es fa una còpia de la llista de preus i el camp **Entitat** a la capçalera de la llista de preus nova es defineix com a **Entitat de vendes**. Al nom de la llista de preus nova s'hi afegeix el nom de l'oferta i d'una marca horària. També podeu utilitzar el nom de la llista de preus nova i el nom de l'oferta als fluxos de treball personalitzats per activar la revisió i les aprovacions addicionals de les ofertes que utilitzin preus personalitzats.
 
  
 ## <a name="default-product-price-list"></a>Llista de preus per defecte
-Cada registre de client té un camp **Llista de preus per defecte**, on es pot especificar una llista de preus que coincideixi amb la moneda del client. No s'introdueix automàticament un valor per defecte en aquest camp. Si hi ha un acord de preus personalitzat amb un client específic, podeu utilitzar aquest camp per associar una llista de preus amb el client.
+Cada registre de client té un camp **Llista de preus per defecte** , on es pot especificar una llista de preus que coincideixi amb la moneda del client. No s'introdueix automàticament un valor per defecte en aquest camp. Si hi ha un acord de preus personalitzat amb un client específic, podeu utilitzar aquest camp per associar una llista de preus amb el client.
 
 Les entitats Oportunitat, Oferta i Contracte de projecte utilitzen el següent ordre per introduir llistes de preus de productes per defecte. El mateix ordre s'utilitza per a les llistes de preus del projecte.
 

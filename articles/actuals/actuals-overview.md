@@ -1,5 +1,5 @@
 ---
-title: Pàgina inicial de valors reals
+title: Valors reals
 description: En aquest tema es proporciona informació sobre com treballar amb valors reals al Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907306"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072202"
 ---
-# <a name="actuals"></a>Valors reals
+# <a name="actuals"></a>Valors reals 
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
@@ -46,7 +45,7 @@ Quan una entrada de temps que s'envia està enllaçada a un projecte assignat a 
 
 La lògica per crear els preus per defecte resideix a la línia del llibre diari. Els valors de camp de l'entrada de temps es copien a la línia del llibre diari. Aquests valors inclouen la data de la transacció, la línia de contracte a la qual està assignada el projecte i el resultat de moneda a la llista de preus adequada.
 
-Els camps que afecten els preus per defecte, com ara **Funció** i **Unitat organitzativa**, s'utilitzen per determinar el preu adient a la línia del llibre diari. Podeu afegir un camp personalitzat a l'entrada de temps. Si voleu que el valor del camp es propagui a valors reals, creeu el camp a l'entitat Valors reals i utilitzeu assignacions de camps per copiar el camp de l'entrada de temps al valor real.
+Els camps que afecten els preus per defecte, com ara **Funció** i **Unitat organitzativa** , s'utilitzen per determinar el preu adient a la línia del llibre diari. Podeu afegir un camp personalitzat a l'entrada de temps. Si voleu que el valor del camp es propagui a valors reals, creeu el camp a l'entitat Valors reals i utilitzeu assignacions de camps per copiar el camp de l'entrada de temps al valor real.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Línies del llibre diari i enviament bàsic de despeses
 

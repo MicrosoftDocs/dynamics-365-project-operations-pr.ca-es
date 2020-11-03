@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072112"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Administració de diversos clients a les ofertes de projectes (Sales)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Les ofertes del projecte admeten l'escenari en què la proposta implica diversos clients que finançaran el tracte. La pestanya **Resum** de l'oferta té el camp **Client potencial**, que identifica el client principal del tracte. Altres clients per al tracte es poden configurar a la pestanya **Clients** de l'oferta del projecte.
+Les ofertes del projecte admeten l'escenari en què la proposta implica diversos clients que finançaran el tracte. La pestanya **Resum** de l'oferta té el camp **Client potencial** , que identifica el client principal del tracte. Altres clients per al tracte es poden configurar a la pestanya **Clients** de l'oferta del projecte.
 
 Tots els clients de l'oferta de la pestanya **Clients** de l'oferta del projecte són per defecte clients de la línia d'oferta a les línies d'oferta basades en projectes **noves** creades per a l'oferta. Totes les línies de l'oferta basades en projectes no hereten els registres de client d'oferta nova que s'hagin creat després.
 
@@ -31,7 +31,7 @@ Es poden afegir, actualitzar o suprimir els clients de l'oferta i els clients de
 
 Al client que apareix a la pestanya de resum de l'oferta del projecte com a client potencial és el client principal de l'oferta. Quan intenteu suprimir el client principal de la llista de clients de l'oferta, veureu un error indicant que no es pot suprimir un registre de client principal d'una oferta.
 
-El client principal no s'ha d'actualitzar des de la llista de clients a l'oferta. No obstant, podeu influir en el client principal canviant el client potencial a la pestanya **Resum** de l'oferta. Quan s'actualitza aquest camp al **Resum de l'oferta**, el client potencial que acabeu de seleccionar s'afegeix com a client d'oferta nou amb la marca **Principal** definida. El client potencial antic continuarà sent un client de l'oferta.
+El client principal no s'ha d'actualitzar des de la llista de clients a l'oferta. No obstant, podeu influir en el client principal canviant el client potencial a la pestanya **Resum** de l'oferta. Quan s'actualitza aquest camp al **Resum de l'oferta** , el client potencial que acabeu de seleccionar s'afegeix com a client d'oferta nou amb la marca **Principal** definida. El client potencial antic continuarà sent un client de l'oferta.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Crear, actualitzar o suprimir un registre de client d'oferta
 

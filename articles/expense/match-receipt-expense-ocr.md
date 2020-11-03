@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02c1bafbe907a657689b610ae792f88085320903
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896989"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072177"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Coincidència d'un rebut amb una despesa mitjançant OCR
 
@@ -40,18 +39,18 @@ L'entrada de despesa s'ha millorat mitjançant la introducció del reconeixement
 Per adjuntar automàticament els rebuts que inclouen transaccions de targetes de crèdit quan es crea un informe de despeses, seguiu aquests passos.
 
   1. Obriu l'àrea de treball **Administració de despeses**.
-  2. A la pestanya **Rebuts**, verifiqueu que hi hagi rebuts no adjunts. També podeu carregar els rebuts a la pestanya **Rebuts**.
-  3. A la pestanya **Despeses**, verifiqueu que hi hagi despeses no adjuntes. Normalment, l'administrador de despeses importa aquestes despeses del proveïdor de la targeta de crèdit.
+  2. A la pestanya **Rebuts** , verifiqueu que hi hagi rebuts no adjunts. També podeu carregar els rebuts a la pestanya **Rebuts**.
+  3. A la pestanya **Despeses** , verifiqueu que hi hagi despeses no adjuntes. Normalment, l'administrador de despeses importa aquestes despeses del proveïdor de la targeta de crèdit.
   4. Seleccioneu **Informe de despeses nou**. Heu de tenir en compte que podeu incloure despeses i rebuts, ara també, quan creeu un informe de despeses. Si afegiu despeses i rebuts, la coincidència automàtica dels rebuts amb les despeses s'activa.
 
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>Crear o fer coincidir rebuts amb un informe de despeses
 Per crear una despesa o fer coincidir una despesa d'un rebut, seguiu els passos següents.
 
-  1. A l'informe de despeses, a la pestanya **Rebuts**, adjunteu un rebut seleccionant **Afegeix rebuts**.
+  1. A l'informe de despeses, a la pestanya **Rebuts** , adjunteu un rebut seleccionant **Afegeix rebuts**.
   2. A la imatge carregada del rebut, observeu les opcions **Crea** i **Fes coincidir**.
 
       - Seleccioneu **Crea** per crear una transacció de despeses introduïda manualment i empleneu els valors que s'extreuen del rebut.
-      - Si seleccioneu **Fes coincidir**, el sistema prova de fer coincidir una despesa existent amb el justificant.
+      - Si seleccioneu **Fes coincidir** , el sistema prova de fer coincidir una despesa existent amb el justificant.
 
 ## <a name="installation"></a>Instal·lació
 
@@ -65,7 +64,7 @@ Per utilitzar aquestes capacitats de despesa avançada, instal·leu el complemen
 6. Seguiu la guia d'instal·lació i accepteu els termes i les condicions.
 7. Seleccioneu **Instal·la**.
 
-A l'àrea de treball **Administració de funcions**, activeu les característiques següents:
+A l'àrea de treball **Administració de funcions** , activeu les característiques següents:
 
 - Informes de despeses reimaginats
 - Coincidència automàtica i creació de despeses des del rebut

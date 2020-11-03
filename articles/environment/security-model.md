@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896719"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072097"
 ---
 # <a name="security-model"></a>Model de seguretat
 
@@ -36,10 +36,11 @@ Les capacitats del marc frontal del Project Operations inclouen les funcions seg
 
 
 El Microsoft Project per al web inclou les funcions següents:
-| Funció                          | Descripció                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Usuari del Project | Usuari col·laboratiu del Project que pot crear els seus propis projectes i visualitzar els projectes que han compartit altres persones amb ell.| Usuari|
-| Sistema del Project | Funció que s'utilitza per al context de l'aplicació. Els clients no han d'utilitzar aquesta funció del sistema. | Global|
+
+| Funció           | Descripció                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Usuari del Project   | Usuari col·laboratiu del Project que pot crear els seus propis projectes i visualitzar els projectes que han compartit altres persones amb ell. | Usuari   |
+| Sistema del Project | Funció que s'utilitza per al context de l'aplicació. Els clients no han d'utilitzar aquesta funció del sistema.                                    | Global |
 
 ## <a name="security-enforcement"></a>Aplicació de seguretat
 Les accions que es realitzen al nivell del projecte es realitzen en el context de l'usuari que ha iniciat la sessió. Això vol dir que per tal de crear, obrir o suprimir un projecte, l'usuari ha de tenir accés disponible al CDS. L'accés al CDS es pot concedir mitjançant qualsevol dels possibles mecanismes inclosos a la plataforma. Per exemple, un usuari amb un àmbit més gran pot accedir al projecte o si s'ha dut a terme una acció d'ús compartit del projecte explícita que atorga l'accés de l'usuari.
@@ -56,6 +57,8 @@ Els grups permeten treballar col·laborativament en els permisos del projecte i 
 El Project Operations no crea un grup a través d'accions implícites i només ho fa mitjançant l'acció explícita de prémer els grups.
 
 La cerca de membres del grup al quadre de diàleg **Administració de grups** està limitada a aquells que s'han definit com a part del grup de seguretat de l'entorn. Per obtenir més informació, consulteu [Control d'accés dels usuaris a entorns: grups de seguretat i llicències](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Mode de grup](./media/groupsmode.png)
 
 1. El projecte es crea i és propietat de l'usuari que el crea.
 2. El propietari del projecte està actualitzat per a l'equip.

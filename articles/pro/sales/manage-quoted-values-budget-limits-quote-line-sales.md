@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907903"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072142"
 ---
 # <a name="project-based-quote-lines-pro"></a>Línies d'oferta basades en projectes (Pro)
 
@@ -49,15 +49,15 @@ A la taula següent es proporciona informació sobre els camps de la pestanya **
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regles de validació per als camps de la pestanya General de línies d'oferta basades en projectes
 
-**Regla 1**: si el camp **Tasques incloses** està en blanc o si està definit com a **Totes les tasques del projecte**, s'inclou un projecte a la línia d'oferta.
+**Regla 1** : si el camp **Tasques incloses** està en blanc o si està definit com a **Totes les tasques del projecte** , s'inclou un projecte a la línia d'oferta.
 
-**Regla 2**: si el camp **Tasques incloses** està en blanc o si està definit com a **Totes les tasques del projecte**, un projecte i una determinada classe de transacció només es poden incloure en una línia d'oferta basada en projectes d'una oferta.
+**Regla 2** : si el camp **Tasques incloses** està en blanc o si està definit com a **Totes les tasques del projecte** , un projecte i una determinada classe de transacció només es poden incloure en una línia d'oferta basada en projectes d'una oferta.
 
-**Regla 3**: si el camp **Tasques incloses** està definit com a **Només les tasques del projecte seleccionades**, un projecte i una determinada classe de transacció es poden incloure en diverses línies d'oferta basades en projectes d'una oferta.
+**Regla 3** : si el camp **Tasques incloses** està definit com a **Només les tasques del projecte seleccionades** , un projecte i una determinada classe de transacció es poden incloure en diverses línies d'oferta basades en projectes d'una oferta.
 
-**Regla 4**: si una oportunitat té diverses ofertes, pot haver-hi línies d'ofertes de diverses ofertes que facin referència al mateix projecte i que incloguin la mateixa classe de transacció.
+**Regla 4** : si una oportunitat té diverses ofertes, pot haver-hi línies d'ofertes de diverses ofertes que facin referència al mateix projecte i que incloguin la mateixa classe de transacció.
 
-**Regla 5**: si les ofertes no pertanyen a la mateixa oportunitat, no poden incloure el mateix projecte i classe de transacció.
+**Regla 5** : si les ofertes no pertanyen a la mateixa oportunitat, no poden incloure el mateix projecte i classe de transacció.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

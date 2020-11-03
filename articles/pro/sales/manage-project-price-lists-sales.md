@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072135"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Administració de les llistes de preus de projectes a les ofertes de projectes (Sales)
 
@@ -48,8 +48,8 @@ Les llistes de preus del projecte es poden configurar per defecte en una oferta 
 ### <a name="set-up-organizational-default-for-project-price-lists"></a>Configurar un valor per defecte organitzatiu per a les llistes de preus del projecte
 
 1. Aneu a **Configuració** > **General** > **Paràmetres**.
-2. A la pàgina de llista **Paràmetres actius**, localitzeu el registre i feu-hi doble clic per obrir-lo. 
-3. A la pàgina **Paràmetres**, seleccioneu la pestanya **Llista de preus**. Podeu veure la llista de llistes de preus per defecte que es mostra. Es tracta d'una llista estàndard de llistes de preus de costos i vendes. Si teniu una llista de preus de vendes associada aquí per a cada moneda amb què veneu, s'assegurarà que aquesta llista de preus de vendes s'utilitzi per defecte en qualsevol oferta que es creï per als clients que realitzin transaccions en aquesta moneda.
+2. A la pàgina de llista **Paràmetres actius** , localitzeu el registre i feu-hi doble clic per obrir-lo. 
+3. A la pàgina **Paràmetres** , seleccioneu la pestanya **Llista de preus**. Podeu veure la llista de llistes de preus per defecte que es mostra. Es tracta d'una llista estàndard de llistes de preus de costos i vendes. Si teniu una llista de preus de vendes associada aquí per a cada moneda amb què veneu, s'assegurarà que aquesta llista de preus de vendes s'utilitzi per defecte en qualsevol oferta que es creï per als clients que realitzin transaccions en aquesta moneda.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Configurar llistes de preus de projecte específiques de clients
 
@@ -57,13 +57,13 @@ Les llistes de preus de projecte específiques de clients també es poden config
 
 Per configurar una llista de preus de projecte específica del client, seguiu els passos següents.
 
-1. A l'àrea **Vendes**, seleccioneu **Clients**.
+1. A l'àrea **Vendes** , seleccioneu **Clients**.
 2. A la llista de comptes actius, seleccioneu i obriu el registre de client per al qual teniu la llista de preus especial.
-3. A la pestanya **Llistes de preus del projecte**, podeu crear una nova associació de llista de preus per tal que la llista de preus del projecte sigui específica d'aquest client.
+3. A la pestanya **Llistes de preus del projecte** , podeu crear una nova associació de llista de preus per tal que la llista de preus del projecte sigui específica d'aquest client.
 
 ## <a name="create-custom-pricing-on-a-project-quote"></a>Crear un preu personalitzat en una oferta de projecte
 
 Quan tingueu llistes de preus de projecte per defecte específiques de l'organització i específiques del client, les ofertes del projecte es crearan automàticament amb aquestes associacions de preus de projecte. No obstant, en determinats casos, pot ser que hàgiu de crear preus personalitzats per a una oferta de projecte concreta. 
 
-1. A **Oferta del projecte**, a la pestanya **Llista de preus del projecte**, comproveu a la subquadrícula que no s'ha seleccionat cap registre de llista de preus concret.
+1. A **Oferta del projecte** , a la pestanya **Llista de preus del projecte** , comproveu a la subquadrícula que no s'ha seleccionat cap registre de llista de preus concret.
 2. Seleccioneu **Crea preus personalitzats**. Això crearà còpies de totes les llistes de preus estàndard associades actualment a l'oferta i associarà aquestes còpies a l'oferta. Les associacions existents a preus estàndard se suprimiran. A continuació, el comercial pot començar a fer edicions en els preus en aquestes còpies. Aquests preus canviats seran aplicables només a aquest oferta de projecte.

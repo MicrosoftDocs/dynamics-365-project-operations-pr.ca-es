@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896359"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072137"
 ---
 # <a name="project-based-opportunity-lines-pro"></a>Línies d'oportunitat basades en projectes (Pro)
 
@@ -21,7 +21,7 @@ _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 Les línies d'oportunitat basades en projectes només estan disponibles a les oportunitats basades en projectes. Els registres d'oportunitat basada en projectes tenen el valor del camp **Tipus** definit com a **Basat en el treball**.
 
-Les línies d'oportunitat basades en projectes són els elements de línia que s'enviaran al client mitjançant un projecte. No obstant, un projecte no es pot vincular a una línia d'oportunitat basada en projectes. Els projectes es poden vincular als elements de línia a partir de la fase **Oferta**, ja que normalment l'oportunitat es produeix en una de les primeres fases del cicle de vida d'un acord. La determinació de quants projectes s'utilitzaran per lliurar el treball per al client és una decisió que es pren posteriorment en la fase de vendes. Podeu utilitzar la fase d'oportunitat per identificar els components discrets de lliurament per al client. Les decisions pel que fa al nombre real de projectes que s'utilitzen per lliurar aquests components es pot posposar fins que es conegui més informació sobre el treball.
+Les línies d'oportunitat basades en projectes són els elements de línia que s'enviaran al client mitjançant un projecte. No obstant, un projecte no es pot vincular a una línia d'oportunitat basada en projectes. Els projectes es poden vincular als elements de línia a partir de la fase **Oferta** , ja que normalment l'oportunitat es produeix en una de les primeres fases del cicle de vida d'un acord. La determinació de quants projectes s'utilitzaran per lliurar el treball per al client és una decisió que es pren posteriorment en la fase de vendes. Podeu utilitzar la fase d'oportunitat per identificar els components discrets de lliurament per al client. Les decisions pel que fa al nombre real de projectes que s'utilitzen per lliurar aquests components es pot posposar fins que es conegui més informació sobre el treball.
 
 A continuació es mostren els camps d'una línia d'oportunitat basada en projectes:
 

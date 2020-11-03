@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966739"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072116"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimació d'una línia d'oferta basada en projectes
 
@@ -30,7 +30,7 @@ Per estimar una línia d'oferta basada en projectes, a la línia d'oferta basada
 
 Per crear una estimació en una línia d'oferta basada en projectes, seleccioneu la pestanya **Detalls de la línia d'oferta**. L'element de línia que creeu en aquesta pestanya resumirà el valor ofert per a aquesta línia d'oferta. 
 
-Per crear detalls de la línia d'oferta, seleccioneu **+ Detall nou de la línia d'oferta** a la subquadrícula **Detalls de la línia d'oferta**. S'obrirà un control lliscant de creació ràpida. Els camps següents del formulari **Línia d'oferta**:
+Per crear detalls de la línia d'oferta, seleccioneu **+ Detall nou de la línia d'oferta** a la subquadrícula **Detalls de la línia d'oferta**. S'obrirà un control lliscant de creació ràpida. Els camps següents del formulari **Línia d'oferta** :
 
 | **Camp** | **Ubicació** | **Rellevància, propòsit i orientació** | **Impacte descendent** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Per crear detalls de la línia d'oferta, seleccioneu **+ Detall nou de la línia
 
 ## <a name="update-prices-on-quote-line-details"></a>Actualitzar els preus dels detalls de la línia d'oferta
 
-Si heu canviat els preus de la llista de preus del projecte vinculada a l'oferta o a la llista de preu de cost de la unitat de contractant, podeu seleccionar **Torna a calcular** a la pàgina **Oferta** per actualitzar els preus dels detalls de la línia d'oferta individual per reflectir aquest canvi. Quan se selecciona **Torna a calcular**, es produeix un advertiment que us informa que els preus dels detalls de la línia d'oferta de totes les línies d'oferta d'aquesta oferta es restabliran. Seleccioneu **Sí** per actualitzar els preus dels detalls de la línia de vendes i d'oferta de costos.
+Si heu canviat els preus de la llista de preus del projecte vinculada a l'oferta o a la llista de preu de cost de la unitat de contractant, podeu seleccionar **Torna a calcular** a la pàgina **Oferta** per actualitzar els preus dels detalls de la línia d'oferta individual per reflectir aquest canvi. Quan se selecciona **Torna a calcular** , es produeix un advertiment que us informa que els preus dels detalls de la línia d'oferta de totes les línies d'oferta d'aquesta oferta es restabliran. Seleccioneu **Sí** per actualitzar els preus dels detalls de la línia de vendes i d'oferta de costos.
 
 ## <a name="access-quote-line-details-for-cost"></a>Accedir als detalls de la línia d'oferta per al cost
 
-A la pestanya **Detalls de la línia d'oferta**, seleccioneu una fila a la quadrícula per habilitar algunes accions a la barra d'eines de la subquadrícula. La primera acció de la barra d'eines de la subquadrícula quan se selecciona un detall de la línia d'oferta és **Obre els detalls del cost**. Seleccioneu **Obre els detalls del cost** per veure la tarifa de costos i la quantitat relacionada d'aquesta línia d'oferta.
+A la pestanya **Detalls de la línia d'oferta** , seleccioneu una fila a la quadrícula per habilitar algunes accions a la barra d'eines de la subquadrícula. La primera acció de la barra d'eines de la subquadrícula quan se selecciona un detall de la línia d'oferta és **Obre els detalls del cost**. Seleccioneu **Obre els detalls del cost** per veure la tarifa de costos i la quantitat relacionada d'aquesta línia d'oferta.
 
 > [!NOTE]
 > Si canvieu la unitat, la quantitat, les dates, la funció o els valors de categoria del detall de la línia d'oferta per al cost, canviaran els valors corresponents als detalls de la línia d'oferta.

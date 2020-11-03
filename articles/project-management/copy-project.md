@@ -3,23 +3,23 @@ title: Còpia d'un projecte
 description: En aquest tema es proporciona informació sobre la còpia de projectes al Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907901"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072153"
 ---
 # <a name="copy-a-project"></a>Còpia d'un projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Amb el Dynamics 365 Project Operations, podeu crear ràpidament nous projectes mitjançant l'acció **Copia el projecte** al formulari **Projectes**. Per copiar un projecte, seleccioneu un projecte i, a continuació, seleccioneu **Copia**. L'acció copiarà:
+Amb el Dynamics 365 Project Operations, podeu crear ràpidament nous projectes seleccionant **Copia el projecte** al formulari **Projectes**. Per copiar un projecte, obriu el projecte que voleu copiar i seleccioneu **Copia el projecte**. L'acció copiarà:
 
 - Les propietats del projecte
 - L'estructura del desglossament del treball
@@ -58,4 +58,6 @@ Quan un equip del projecte es copia des del projecte d'origen, es copien els rec
 
 ## <a name="estimates"></a>Estimacions
 
-Quan el projecte es copia, les línies d'estimació de recursos i de despesa es copien des del projecte d'origen.
+Quan el projecte es copia, les línies d'estimació de recursos i de despesa es copien des del projecte d'origen. 
+
+Per obtenir informació sobre com accedir mitjançant programació a Copia el projecte, vegeu [Desenvolupar plantilles de projecte amb Copia el projecte](dev-copy-project.md).

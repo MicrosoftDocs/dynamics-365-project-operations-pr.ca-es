@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961822"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072150"
 ---
 # <a name="manage-time-zones"></a>Administració de fusos horaris
 
@@ -22,7 +22,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ## <a name="projects"></a>Projectes
 
-Quan es crea un projecte, el fus horari es basa en el fus horari definit a la plantilla d'hores de treball aplicada. A **Projecte**, les dates sempre són relatives a la zona horària de l'usuari que ha iniciat la sessió a cada pestanya, tret de la pestanya de la **Tasca** . Quan visualitzeu l'estructura del desglossament del treball, les dates es mostraran sempre a la zona horària del projecte.
+Quan es crea un projecte, el fus horari es basa en el fus horari definit a la plantilla d'hores de treball aplicada. A **Projecte** , les dates sempre són relatives a la zona horària de l'usuari que ha iniciat la sessió a cada pestanya, tret de la pestanya de la **Tasca** . Quan visualitzeu l'estructura del desglossament del treball, les dates es mostraran sempre a la zona horària del projecte.
 
 ## <a name="tasks"></a>Tasques
 
@@ -30,7 +30,7 @@ Quan es crea una tasca, l'hora d'inici, l'hora d'acabament i les hores/dia estan
 
 ## <a name="manage-resources-with-time-zones"></a>Administrar recursos amb fusos horaris
 
-Per obtenir resultats precisos i predictibles quan s'utilitza **Amplia la reserva**, hi ha dos prerequisits clau que s'han de complir:  
+Per obtenir resultats precisos i predictibles quan s'utilitza **Amplia la reserva** , hi ha dos prerequisits clau que s'han de complir:  
 
 - L'usuari ha de configurar el fus horari del dispositiu perquè coincideixi amb el fus horari definit a la **configuració de personalització** del sistema.
  
@@ -57,7 +57,7 @@ La taula següent mostra:
 |Recurs C  |  ![Calendari del recurs C](media/reconcile-assignments-08.png) |
 |Recurs D  | ![Calendari del recurs D](media/reconcile-assignments-09.png)  |
  
-Quan navegueu a la visualització **Conciliació**, es mostren les assignacions de recursos i les mancances de reserva associades.
+Quan navegueu a la visualització **Conciliació** , es mostren les assignacions de recursos i les mancances de reserva associades.
 
 ![Visualització de conciliació abans de l'ampliació](media/reconcile-assignments-10.png)
 

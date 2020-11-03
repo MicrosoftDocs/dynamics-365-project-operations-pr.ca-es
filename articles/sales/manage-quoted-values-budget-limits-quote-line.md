@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906083"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072079"
 ---
 # <a name="project-based-quote-lines"></a>Línies d'oferta basades en el projecte
 
@@ -47,11 +47,11 @@ A la taula següent es proporciona informació sobre els camps de la pestanya **
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regles de validació per als camps de la pestanya General de línies d'oferta basades en projectes
 
-**Regla 1**: una determinada classe de transacció del projecte seleccionat només es pot incloure en una línia d'oferta basada en projectes d'una oferta.
+**Regla 1** : una determinada classe de transacció del projecte seleccionat només es pot incloure en una línia d'oferta basada en projectes d'una oferta.
 
-**Regla 2**: si una oportunitat té diverses ofertes, pot haver-hi línies d'ofertes de diverses ofertes que facin referència al mateix projecte i que incloguin la mateixa classe de transacció.
+**Regla 2** : si una oportunitat té diverses ofertes, pot haver-hi línies d'ofertes de diverses ofertes que facin referència al mateix projecte i que incloguin la mateixa classe de transacció.
 
-**Regla 3**: si les ofertes no pertanyen a la mateixa oportunitat, no poden incloure el mateix projecte i classe de transacció.
+**Regla 3** : si les ofertes no pertanyen a la mateixa oportunitat, no poden incloure el mateix projecte i classe de transacció.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

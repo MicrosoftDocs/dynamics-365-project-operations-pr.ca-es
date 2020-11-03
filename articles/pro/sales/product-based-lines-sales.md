@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072138"
 ---
 # <a name="product-based-opportunity-lines"></a>Línies d'oportunitat basades en productes
 
@@ -25,4 +25,4 @@ Les línies basades en productes poden ser elements del catàleg o productes for
 
 Un concepte de línies d'oportunitat basades en productes que és específic per a les oportunitats basades en projectes és el **Pressupost del client**. Utilitzeu aquest camp per fer el seguiment de l'import que el client està disposat a pagar per l'element de línia.
 
-Si el mètode d'ingrés del resum de l'oportunitat està definit com a **Calculat pel sistema**, els valors del pressupost del client a les línies de producte i de projecte es resumiran per calcular els ingressos previstos.
+Si el mètode d'ingrés del resum de l'oportunitat està definit com a **Calculat pel sistema** , els valors del pressupost del client a les línies de producte i de projecte es resumiran per calcular els ingressos previstos.

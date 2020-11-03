@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898520"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072124"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Creació d'ofertes de projectes a partir d'oportunitats
 
@@ -30,7 +30,7 @@ Es poden crear ofertes a partir d'oportunitats de projecte de les maneres següe
 Per crear una oferta de projecte a partir d'una oportunitat, completeu els passos següents.
 
 1. Obriu la pàgina **Oportunitat del projecte** i seleccioneu la pestanya **Ofertes**. 
-2. A la subquadrícula **Ofertes**, seleccioneu **+** per crear una oferta de projecte nova basada en l'oportunitat. Totes les línies d'oportunitat i les llistes de preus de projecte relacionades es copien a la nova oferta de l'oportunitat.
+2. A la subquadrícula **Ofertes** , seleccioneu **+** per crear una oferta de projecte nova basada en l'oportunitat. Totes les línies d'oportunitat i les llistes de preus de projecte relacionades es copien a la nova oferta de l'oportunitat.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>Des del flux del procés de vendes d'oportunitat
 
@@ -50,7 +50,7 @@ Per crear una oferta des del flux de procés de vendes d'oportunitat, completeu 
 Una oferta existent es pot enllaçar a una oportunitat. Seguiu aquests passos per actualitzar la informació d'oportunitat d'una oferta existent.
 
 1. Obriu la pàgina **Oportunitat** i seleccioneu la pestanya **Resum**.
-2. Al camp **Oportunitat**, seleccioneu l'oportunitat que voleu enllaçar amb l'oferta. Podeu veure l'oferta a la quadrícula **Ofertes** de l'oportunitat. 
+2. Al camp **Oportunitat** , seleccioneu l'oportunitat que voleu enllaçar amb l'oferta. Podeu veure l'oferta a la quadrícula **Ofertes** de l'oportunitat. 
 3. Mitjançant el procés de venda d'oportunitats, l'oportunitat pot passar a la següent fase, **Proposta**. 
 
    Quan passeu una oportunitat a aquesta fase, podeu seleccionar aquesta oferta d'una llista d'ofertes associades a aquesta oportunitat. Si seleccioneu aquesta oferta, indiqueu que avanceu.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907907"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072145"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Planificacions de facturació en línies d'oferta basades en projectes
 
@@ -28,11 +28,11 @@ En general, la finalitat de les planificacions de factura és permetre la creaci
 Quan el mètode de facturació d'una línia d'oferta basada en projectes és de temps i material, el sistema genera una planificació de factura basada en la data. Per generar automàticament una planificació de factura basada en la data, seguiu els passos següents.
 
 1. Aneu a **Configuració** > **Freqüències de factura** i configureu una freqüència de factura.
-2. A la pàgina **Ofertes**, obriu l'oferta del projecte i, a la pestanya **Resum**, definiu una data de lliurament sol·licitada.
+2. A la pàgina **Ofertes** , obriu l'oferta del projecte i, a la pestanya **Resum** , definiu una data de lliurament sol·licitada.
 3. Obriu la línia d'oferta de temps i material per a la qual heu de crear una planificació de factura basada en la data. 
-4. A la pestanya **Planificació de factures**, seleccioneu valors als camps **Inici de la facturació** i **Freqüència de facturació**. 
+4. A la pestanya **Planificació de factures** , seleccioneu valors als camps **Inici de la facturació** i **Freqüència de facturació**. 
 5. A la subquadrícula, seleccioneu **Genera una planificació de factures**.
-6. L'aplicació genera la planificació de la factura amb els camps **Data d'execució de la factura**, **Data límit de la transacció** i **Estat d'execució** definits de la següent manera:
+6. L'aplicació genera la planificació de la factura amb els camps **Data d'execució de la factura** , **Data límit de la transacció** i **Estat d'execució** definits de la següent manera:
 
     - **Data d'execució de la factura** es defineix a la data que s'especifica a partir de la freqüència de la factura.
     - **Data límit de la transacció** es defineix al dia abans de la **Data d'execució de la factura**.
@@ -40,12 +40,12 @@ Quan el mètode de facturació d'una línia d'oferta basada en projectes és de 
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Crear una planificació de factura de preu fix per a una línia d'oferta basada en projectes
 
-Quan la línia d'oferta basada en projectes té un mètode de facturació **Fix**, el sistema crea una planificació de factura basada en fites. Completeu els passos següents per generar automàticament aquesta planificació per a un conjunt fix de fites que es distribueixen de manera equitativa per al període de calendari.
+Quan la línia d'oferta basada en projectes té un mètode de facturació **Fix** , el sistema crea una planificació de factura basada en fites. Completeu els passos següents per generar automàticament aquesta planificació per a un conjunt fix de fites que es distribueixen de manera equitativa per al període de calendari.
 
 1. Aneu a **Configuració** > **Freqüències de factura** i configureu una freqüència de factura.
-2. A la pàgina **Ofertes**, obriu l'oferta del projecte i, a la pestanya **Resum**, definiu una data de lliurament sol·licitada.
+2. A la pàgina **Ofertes** , obriu l'oferta del projecte i, a la pestanya **Resum** , definiu una data de lliurament sol·licitada.
 3. Obriu la línia d'oferta de preu fix per a la qual heu de crear una planificació de fites. 
-4. A la pestanya **Planificació de factures**, seleccioneu valors als camps **Inici de la facturació** i **Freqüència de facturació**. 
+4. A la pestanya **Planificació de factures** , seleccioneu valors als camps **Inici de la facturació** i **Freqüència de facturació**. 
 5. A la subquadrícula, seleccioneu **Genera les fites periòdiques**.
 6. L'aplicació genera la planificació de factura amb un nom, una data i una quantitat de fites.
 
@@ -58,7 +58,7 @@ Quan la línia d'oferta basada en projectes té un mètode de facturació **Fix*
 
 Les fites de preu fix també es poden generar manualment quan no es divideixen periòdicament. Per crear una fita manualment:
 
-Obriu la línia d'oferta de preu fix en què heu de crear una fita. A la pestanya **Planificació de la factura**, a la subquadrícula, seleccioneu **+ Crea una nova fita de línia d'oferta** i introduïu la informació necessària segons la taula següent.
+Obriu la línia d'oferta de preu fix en què heu de crear una fita. A la pestanya **Planificació de la factura** , a la subquadrícula, seleccioneu **+ Crea una nova fita de línia d'oferta** i introduïu la informació necessària segons la taula següent.
 
 | **Camp** | **Ubicació** | **Rellevància, propòsit i orientació** | **Impacte descendent** |
 | --- | --- | --- | --- |

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072081"
 ---
 # <a name="travel-requisitions"></a>Peticions de viatge
 
@@ -33,7 +33,7 @@ Les peticions de viatge es poden configurar com a "obligatòries" habilitant el 
 
 1. Aneu a **Les meves despeses: petició de viatge** i seleccioneu **Nova petició de viatge**.
 2. Introduïu una finalitat i una destinació per a la petició.
-3. Al camp **Descripció del viatge**, introduïu qualsevol informació addicional. 
+3. Al camp **Descripció del viatge** , introduïu qualsevol informació addicional. 
 4. Per a cadascuna de les despeses esperades, com ara els vols, els àpats o el lloguer de cotxes, creeu un element de la línia de despeses. Incloeu la data prevista, l'import previst i la moneda per a cada despesa. 
 5. Quan hàgiu acabat d'afegir les despeses esperades, seleccioneu **Desa**.
 6. Quan estigueu a punt per enviar la petició de viatge, seleccioneu **Flux de treball** > **Envia**.

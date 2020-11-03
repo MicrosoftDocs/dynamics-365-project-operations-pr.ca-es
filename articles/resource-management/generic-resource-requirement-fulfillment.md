@@ -1,29 +1,19 @@
 ---
 title: Compliment dels requisits de recursos genèrics
-description: Aquest tema proporciona informació sobre la reserva de recursos amb nom per a un requisit de recurs genèric.
+description: Aquest tema proporciona informació sobre com reservar recursos amb nom per a un requisit de recurs genèric.
 author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072157"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Compliment dels requisits de recursos genèrics
 
@@ -31,9 +21,9 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Podeu reservar un recurs amb nom per reemplaçar un recurs genèric que tingui un requisit de recurs.
 
-1. A la pàgina **Projectes**, seleccioneu la pestanya **Equip**.
+1. A la pàgina **Projectes** , seleccioneu la pestanya **Equip**.
 2. Seleccioneu el recurs genèric que té un requisit de recurs de la llista i, a continuació, seleccioneu **Reserva**. O bé, obriu el requisit del recurs i, a continuació, seleccioneu **Reserva**.
-3. A la pàgina **Auxiliar de planificació**, seleccioneu un recurs amb nom per fer la reserva a l'equip del projecte i, a continuació, seleccioneu **Reserva**.
+3. A la pàgina **Auxiliar de planificació** , seleccioneu un recurs amb nom per fer la reserva a l'equip del projecte i, a continuació, seleccioneu **Reserva**.
 
 Quan la reserva s'hagi completat i complert per un recurs amb nom, el recurs genèric se substitueix pel recurs amb nom.
 

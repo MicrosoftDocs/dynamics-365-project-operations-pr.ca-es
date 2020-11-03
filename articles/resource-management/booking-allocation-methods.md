@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 74f8889022e42a7bbd37879df870401c0e103446
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897664"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072162"
 ---
 # <a name="booking-allocation-methods"></a>Mètodes d'assignació de reserves
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Si afegiu un membre de l'equip directament a un projecte a la pestanya **Equip**, o reserveu un recurs per a un projecte o requisit del Tauler de planificació, hi ha alguns mètodes d'assignació de reserva diferents que podeu utilitzar. Aquest tema explica com funciona cada mètode i quins mètodes podrien dur-vos a l'excés de reserves de recursos.
+Si afegiu un membre de l'equip directament a un projecte a la pestanya **Equip** , o reserveu un recurs per a un projecte o requisit del Tauler de planificació, hi ha alguns mètodes d'assignació de reserva diferents que podeu utilitzar. Aquest tema explica com funciona cada mètode i quins mètodes podrien dur-vos a l'excés de reserves de recursos.
 
 ## <a name="booking-allocation-methods"></a>Mètodes d'assignació de reserves
 

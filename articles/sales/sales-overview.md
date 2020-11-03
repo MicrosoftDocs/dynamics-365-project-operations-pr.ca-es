@@ -1,6 +1,6 @@
 ---
 title: Informació general dels processos de vendes
-description: En aquest tema es proporciona informació sobre els processos de venda bàsics.
+description: Aquest tema proporciona informació sobre els processos bàsics de vendes.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3890798"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072411"
 ---
 # <a name="sales-processes-overview"></a>Informació general dels processos de vendes
 
@@ -57,12 +56,12 @@ Per exemple, pot ser que l'empresa tingui les sis fases següents en el procés 
  
 La vostra organització podria utilitzar entitats diferents per representar la mateixa oferta a mesura que evoluciona. A principis del procés de vendes, un acord està representat per l'entitat Oportunitat. A mesura que passa el temps i hi ha més detalls que sorgeixen, podríeu utilitzar estimacions d'alt nivell per crear una o diverses ofertes. Si una d'aquestes ofertes la revisen parts interessades internes i del client, l'entitat Oferta representa el tracte. Quan el client accepta l'oferta, un contracte o SOW del projecte representa el tracte. Per admetre aquest comportament, els BPF s'estructuren de manera que cada fase del procés es vincula a una altra taula de base de dades.
 
-La fase **Qualificació** en el procés de venda pot basar-se en una entitat Oportunitat. Les fases **Estimació** i **Revisió interna** poden basar-se en una entitat Oferta. Les fases **Contracte**, **Lliurament** i **Tancament** poden basar-se en una entitat Contracte del projecte.
+La fase **Qualificació** en el procés de venda pot basar-se en una entitat Oportunitat. Les fases **Estimació** i **Revisió interna** poden basar-se en una entitat Oferta. Les fases **Contracte** , **Lliurament** i **Tancament** poden basar-se en una entitat Contracte del projecte.
 
 A mesura que l'oportunitat avanci a través de les fases, se us demanarà que creeu el registre de l'entitat adient per ajudar i guiar-vos pel procés. Les fases poden ser condicionals. Per exemple, si necessiteu una revisió interna d'una oferta només si l'oferta utilitza una llista de preus personalitzada, podeu configurar aquesta condició en la fase adequada del procés de negoci. Llavors, la fase **Revisió interna** només es mostra per a les ofertes que utilitzen una llista de preus personalitzada. Per a tots els altres negocis i ofertes, l'etapa **Estimació** va seguida de la fase **Contracte**.
 
 > [!NOTE]
-> El Project Operations té pàgines específiques dels registres d'entitat Oportunitat, Oferta, Comanda i Factura. Heu de crear aquests registres mitjançant les pàgines d'informació del projecte per a aquestes entitats. Si no és així, no podreu obrir els registres des de la pàgina **Informació del projecte**. Si voleu obrir un registre des de la pàgina **Informació del projecte**, heu de suprimir el registre i tornar-lo a crear amb la pàgina **Informació del projecte** on la lògica empresarial per a cadascun d'aquests tipus d'entitat garanteix que el camp **Tipus** del registre es defineix correctament i tots els conceptes obligatoris s'inicialitzen correctament.
+> El Project Operations té pàgines específiques dels registres d'entitat Oportunitat, Oferta, Comanda i Factura. Heu de crear aquests registres mitjançant les pàgines d'informació del projecte per a aquestes entitats. Si no és així, no podreu obrir els registres des de la pàgina **Informació del projecte**. Si voleu obrir un registre des de la pàgina **Informació del projecte** , heu de suprimir el registre i tornar-lo a crear amb la pàgina **Informació del projecte** on la lògica empresarial per a cadascun d'aquests tipus d'entitat garanteix que el camp **Tipus** del registre es defineix correctament i tots els conceptes obligatoris s'inicialitzen correctament.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Seguiment de revisions a ofertes i plans de projecte del cicle de venda
