@@ -1,23 +1,30 @@
 ---
-title: Aplicació de la configuració de la demostració i les dades de configuració
+title: Aplicació de la configuració de la demostració i les dades de configuració (bàsic)
 description: En aquest tema es proporciona informació sobre com aplicar la configuració de la demostració i les dades de configuració per al Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072077"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401251"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Aplicar la configuració de demostració i les dades de configuració per a la implementació bàsica del Project Operations: acord a la facturació proforma
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicació de la configuració de la demostració i les dades de configuració per al Project Operations (bàsic) 
 
 _**Implementació bàsica: acord a facturació proforma_
+
+## <a name="prerequisites"></a>Requisits previs
+
+Abans de començar la configuració, heu de tenir un entorn del Common Data Service (CDS) proveït per al Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Instruccions
 
 1. Baixeu el [paquet de dades mestres](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Aneu a la carpeta *ProjOpsDemoDataSetupAndMaster - Integrated CMT* i executeu el fitxer executable, *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Implementació bàsica: acord a facturació proforma_
 10. La importació s'executarà durant aproximadament dos-deu minuts en funció de la velocitat de la xarxa. Després de completar-se, sortiu de l'auxiliar de CMT. 
 11. Consulteu a la vostra organització les dades de les següents 20 entitats:
 
-- Moneda
-- Unitat organitzativa
-- Contacte
-- Grup d'impostos
-- Grup de clients
-- Unit
-- Grup d’unitats
-- Llista de preus
-- Llista de preus del paràmetre de projecte
-- Freqüència de facturació
-- Detall de la freqüència de facturació
-- Categoria de recursos que es poden reservar
-- Categoria de transacció
-- Categoria de despesa
-- Preu per funció
-- Preu de categoria de transacció
-- Característica
-- Recurs que es pot reservar
-- Associació de categoria de recursos que es poden reservar
-- Característica dels recursos que es poden reservar
+-   Moneda
+-   Compte
+-   Unitat organitzativa
+-   Contacte
+-   Grup d'impostos
+-   Grup de clients
+-   Unit
+-   Grup d’unitats
+-   Llista de preus
+-   Llista de preus del paràmetre de projecte 
+-   Freqüència de facturació
+-   Categoria de recursos que es poden reservar
+-   Categoria de transacció
+-   Categoria de despesa
+-   Preu per funció
+-   Preu de categoria de transacció
+-   Característica
+-   Recurs que es pot reservar
+-   Associació de categoria de recursos que es poden reservar
+-   Característica dels recursos que es poden reservar
 
 ![Importació completada](./media/6CompleteImport.png)

@@ -1,23 +1,33 @@
 ---
-title: Configurar i aplicar les dades de configuració al Common Data Service per al Project Operations
+title: Configuració i aplicació de les dades de configuració al Common Data Service
 description: En aquest tema es proporciona informació sobre com configurar i aplicar les dades de configuració al Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072085"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401116"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configurar i aplicar les dades de configuració al Common Data Service per al Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configuració i aplicació de les dades de configuració al Common Data Service 
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
+
+## <a name="prerequisites"></a>Requisits previs
+
+Abans de començar a configurar les dades al Common Data Service (CDS), s'han de complir els següents requisits previs:
+
+1.  Proveir un entorn del CDS i un entorn del Dynamics 365 Finance per al Project Operations.
+2.  La informació de les entitats jurídiques del Dynamics 365 Finance es comparteix a l'entorn del CDS. Això significa que l'entitat **Empresa** al CDS té els següents registres d'empresa:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Configuració de la instal·lació i dades de configuració
 
@@ -79,11 +89,11 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ![Recursos que es poden reservar](./media/8BookableResources.png)
 
-3. A la pestanya **General** , seleccioneu el vostre usuari d'administració. Verifiqueu que el fus horari coincideixi amb el fus en què us trobeu. 
+3. A la pestanya **General**, seleccioneu el vostre usuari d'administració. Verifiqueu que el fus horari coincideixi amb el fus en què us trobeu. 
 
 ![Nou recurs que es pot reservar](./media/9NewBookableResource.png)
 
-4. A la pestanya **Planificació** , al camp **Empresa** , trieu l'empresa **USPM** i, a continuació, seleccioneu **Desa**. 
+4. A la pestanya **Planificació**, al camp **Empresa**, trieu l'empresa **USPM** i, a continuació, seleccioneu **Desa**. 
 
 ![Pestanya Planificació](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
  
 12. Actualitzeu els camps següents:
 
- - **Empresa per defecte** : USPM
- - **Unitat organitzativa per defecte** : Contoso Robotics Global
- - **Freqüència de factura** : setè i últim dia
- - **Plantilla d'hores de treball** : canvieu-ho a la plantilla que heu creat.
+ - **Empresa per defecte**: USPM
+ - **Unitat organitzativa per defecte**: Contoso Robotics Global
+ - **Freqüència de factura**: setè i últim dia
+ - **Plantilla d'hores de treball**: canvieu-ho a la plantilla que heu creat.
 
 13. Seleccioneu **Desa**. 
 
