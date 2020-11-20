@@ -3,7 +3,7 @@ title: Crear unitats organitzatives
 description: Com crear unitats organitzatives al Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072261"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125074"
 ---
 # <a name="create-organizational-units-project-service"></a>Crear unitats organitzatives (Project Service)
 
@@ -38,13 +38,13 @@ La vostra empresa probablement organitza les tasques de consultoria per geografi
   
 2.  Feu clic a **Nou**.  
   
-3.  A l'àrea **General** , introduïu un nom per a la unitat organitzativa al camp **Nom** i, a continuació, empleneu la resta de camps segons calgui.  
+3.  A l'àrea **General**, introduïu un nom per a la unitat organitzativa al camp **Nom** i, a continuació, empleneu la resta de camps segons calgui.  
   
 4.  Feu clic a **Desa** per crear el projecte per tal que el pugueu continuar editant.  
   
-5.  A **Llistes de preus de cost** , feu clic a **+** per afegir una llista de preus. Aquí només podeu afegir llistes de preus amb el context **Cost**.  
+5.  A **Llistes de preus de cost**, feu clic a **+** per afegir una llista de preus. Aquí només podeu afegir llistes de preus amb el context **Cost**.  
   
-6.  Al camp **Nom** , feu clic al botó **Cerca** i seleccioneu una llista de preus que voleu que estiguin disponibles en aquesta unitat organitzativa. Continueu afegint llistes de preus segons sigui necessari.  
+6.  Al camp **Nom**, feu clic al botó **Cerca** i seleccioneu una llista de preus que voleu que estiguin disponibles en aquesta unitat organitzativa. Continueu afegint llistes de preus segons sigui necessari.  
   
 7.  Quan hagueu acabat, feu clic a **Desa** a la cantonada inferior dreta de la pantalla.  
   

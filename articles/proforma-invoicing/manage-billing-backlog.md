@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087822"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122331"
 ---
 # <a name="manage-the-billing-backlog"></a>Administració del treball pendent de facturació
 
@@ -23,9 +23,9 @@ Dynamics 365 Project Operations té dues visualitzacions dedicades per ajudar-vo
 
 ## <a name="fixed-price-milestones"></a>Fites de preu fix
 
-Aquesta visualització vista enumera totes les fites de preu fix en totes les línies de contracte del projecte del sistema. Es poden marcar individualment o col·lectivament les fites com a **A punt per facturar** o **No preparada per a facturar** des d'aquesta visualització. Quan es marca una fita com a **A punt per facturar** , la fita passa a estar disponible per a un esborrany de factura.
+Aquesta visualització vista enumera totes les fites de preu fix en totes les línies de contracte del projecte del sistema. Es poden marcar individualment o col·lectivament les fites com a **A punt per facturar** o **No preparada per a facturar** des d'aquesta visualització. Quan es marca una fita com a **A punt per facturar**, la fita passa a estar disponible per a un esborrany de factura.
 
-Quan les línies de contracte de diversos clients tenen un mètode de facturació de preu fix, es crea una fita per a cada client en la línia de contracte. L'usuari crea una fita i aquesta fita es divideix en registres de fita específics del client internament, d'acord amb el percentatge de facturació definit per a cada client en la línia de contracte. A la visualització **Fites de preu fix** , veureu registres de fita específics per als clients. Cadascun d'aquests registres de fita es pot marcar com a **A punt per facturar** independentment des d'aquesta visualització. Quan un o més dels desglossaments de fita relacionats es marquen com a **A punt per facturar** , la capçalera passa a l'estat **En progrés** de **No iniciat**. Quan tots els desglossaments de fites s'han facturat, l'estat de la fita de la capçalera es converteix en **Completat**.
+Quan les línies de contracte de diversos clients tenen un mètode de facturació de preu fix, es crea una fita per a cada client en la línia de contracte. L'usuari crea una fita i aquesta fita es divideix en registres de fita específics del client internament, d'acord amb el percentatge de facturació definit per a cada client en la línia de contracte. A la visualització **Fites de preu fix**, veureu registres de fita específics per als clients. Cadascun d'aquests registres de fita es pot marcar com a **A punt per facturar** independentment des d'aquesta visualització. Quan un o més dels desglossaments de fita relacionats es marquen com a **A punt per facturar**, la capçalera passa a l'estat **En progrés** de **No iniciat**. Quan tots els desglossaments de fites s'han facturat, l'estat de la fita de la capçalera es converteix en **Completat**.
 
 Una fita en un esborrany de factura es mostra en aquesta visualització amb un estat de facturació de **Factura del client creada**. Quan es confirma l'esborrany de la factura, l'estat de facturació d'aquest registre s'actualitza a **Factura comptabilitzada**. No es recomana actualitzar aquest valor d'estat mitjançant codi personalitzat. El Project Operations no funcionarà correctament si aquests valors d'estat s'actualitzen amb codi personalitzat.
 
@@ -37,4 +37,4 @@ Els valors reals de vendes no facturades que tenen un estat **No es pot superar*
 
 En el cas de les línies de contracte de diversos clients que tenen un mètode de facturació de temps i material, quan s'aproven el temps i les despeses, es crea un valor real de venda no facturada per a cada client en la línia de contracte d'acord amb el percentatge de facturació definit per a cada client en la línia de contracte. A la visualització **Treball pendent de facturació de temps i material** veureu aquests valors reals de vendes individuals no facturats. Cadascun d'aquests registres de valors reals de vendes sense facturar es pot marcar com a **A punt per facturar** independentment des d'aquesta visualització.
 
-Un valor real de vendes sense facturar en un esborrany de factura es mostra en aquesta visualització amb l' **Estat de facturació** **Factura del client creada**. Quan es confirma l'esborrany de la factura, l'estat de facturació d'aquest registre s'actualitza a **Factura del client comptabilitzada**. No es recomana actualitzar aquest valor d'estat quan té aquest estat mitjançant codi personalitzat. El Project Operations no funcionarà correctament quan aquests valors d'estat s'actualitzin amb codi personalitzat.
+Un valor real de vendes sense facturar en un esborrany de factura es mostra en aquesta visualització amb l'**Estat de facturació** **Factura del client creada**. Quan es confirma l'esborrany de la factura, l'estat de facturació d'aquest registre s'actualitza a **Factura del client comptabilitzada**. No es recomana actualitzar aquest valor d'estat quan té aquest estat mitjançant codi personalitzat. El Project Operations no funcionarà correctament quan aquests valors d'estat s'actualitzin amb codi personalitzat.

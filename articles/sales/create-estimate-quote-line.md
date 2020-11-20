@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072240"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122916"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Creació d'estimacions en una línia d'oferta
 
@@ -46,7 +46,7 @@ No es permet l'estimació de materials als detalls de la línia de contracte.
 
 Els processos admesos en un contracte de projecte són la creació i la confirmació de factures. La creació de factures crea un esborrany d'una factura basada en projectes que inclou tots els valors reals de vendes no facturades fins a la data actual.
 
-La confirmació fa que el contracte sigui només de lectura i canvia l'estat d' **Esborrany** a **Confirmat**. Després d'haver dut a terme aquesta acció, no es pot desfer. Com que aquesta acció és permanent, és una pràctica més recomanable mantenir el contracte en un estat d' **Esborrany**.
+La confirmació fa que el contracte sigui només de lectura i canvia l'estat d'**Esborrany** a **Confirmat**. Després d'haver dut a terme aquesta acció, no es pot desfer. Com que aquesta acció és permanent, és una pràctica més recomanable mantenir el contracte en un estat d'**Esborrany**.
 
 L'única diferència entre els esborranys de contractes i els contractes confirmats és el seu estat i el fet que els esborranys de contractes es puguin editar mentre que els contractes confirmats no ho permeten. Els valors reals de creació i seguiment de factures es poden fer tant en esborranys de contractes com en contractes confirmats.
 
@@ -83,8 +83,8 @@ Si heu afegit un camp personalitzat al detall de la línia d'oferta i voleu que 
 2. Seleccioneu **Cerca** i cerqueu el complement que voleu actualitzar.
 3. Seleccioneu el complement i, a continuació, a la pàgina principal, seleccioneu **Selecciona**.
 4. Seleccioneu el pas del complement que voleu actualitzar, feu clic amb el botó dret i, a continuació, seleccioneu **Actualitza**.
-5. Al quadre de diàleg **Actualitza el pas existent** , al camp **Atributs de filtratge** , seleccioneu el botó de punts suspensius ( **...** ):
-6. Al quadre de diàleg **Selecció d'atributs** , seleccioneu les caselles de selecció per als atributs personalitzats.
+5. Al quadre de diàleg **Actualitza el pas existent**, al camp **Atributs de filtratge**, seleccioneu el botó de punts suspensius (**...**):
+6. Al quadre de diàleg **Selecció d'atributs**, seleccioneu les caselles de selecció per als atributs personalitzats.
 7. Seleccioneu **D'acord** per tancar el quadre de diàleg i, a continuació, seleccioneu **Actualitza el pas**.
 8. Repetiu els passos de l'1 al 7 per al segon complement.
 9. Tanqueu el PluginRegistrationTool.

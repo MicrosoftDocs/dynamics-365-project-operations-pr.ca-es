@@ -3,7 +3,7 @@ title: Proposar recursos de projecte
 description: Aquest tema proporciona informació sobre la proposta de recursos del projecte.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,25 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072431"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120171"
 ---
 # <a name="propose-project-resources"></a>Proposar recursos de projecte
 
 Els administradors de recursos poden proposar un recurs a l'administrador del projecte mitjançant una sol·licitud de recursos.
 
 1. A la graella de sol·licitud o a la sol·licitud en si mateixa, seleccioneu **Cerca recursos**.
-2. A la pàgina **Auxiliar de planificació,** seleccioneu el recurs i, a continuació, a la subfinestra **Crea una reserva de recursos** , al camp **Estat de la reserva** , seleccioneu **Reserva**.
+2. A la pàgina **Auxiliar de planificació,** seleccioneu el recurs i, a continuació, a la subfinestra **Crea una reserva de recursos**, al camp **Estat de la reserva**, seleccioneu **Reserva**.
 
     ![Recurs proposat seleccionat](media/Resource-Management-image62.png)
 
 Es produeixen les següents actualitzacions d'estat:
 
-- A la pàgina **Auxiliar de planificació** , els indicadors d'estat s'actualitzen per indicar que es proposa la reserva, no que es reserva de manera fixa.
+- A la pàgina **Auxiliar de planificació**, els indicadors d'estat s'actualitzen per indicar que es proposa la reserva, no que es reserva de manera fixa.
 
     ![Indicadors d'estat per a la reserva de proposta a la pàgina Auxiliar de planificació](media/Resource-Management-image63.png)
 
@@ -82,7 +82,7 @@ Com que la visualització **Ús de recursos** està basada en el tauler de plani
 
 La quadrícula requereix que definiu un objectiu d'ús en la funció o en el recurs individual. Per configurar-ho, aneu a **Recursos** \> **Funcions de recurs**.
 
-A més, cal assignar una funció per defecte a cadascun dels recursos que es pot reservar. Aneu a **Recursos** \> **Recursos**. A la pestanya **Project Service** , comproveu que es defineix una funció de recurs i que el camp **Per defecte** està definit com a **Sí**. Podeu afegir funcions addicionals on **Per defecte = No**. La funció on **Per defecte = Sí** s'utilitza per avaluar l'ús del recurs en relació amb l'objectiu per a aquesta funció.
+A més, cal assignar una funció per defecte a cadascun dels recursos que es pot reservar. Aneu a **Recursos** \> **Recursos**. A la pestanya **Project Service**, comproveu que es defineix una funció de recurs i que el camp **Per defecte** està definit com a **Sí**. Podeu afegir funcions addicionals on **Per defecte = No**. La funció on **Per defecte = Sí** s'utilitza per avaluar l'ús del recurs en relació amb l'objectiu per a aquesta funció.
 
 ![Conjunt de funcions per defecte](media/Resource-Management-image67.png)
 

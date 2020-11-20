@@ -3,7 +3,7 @@ title: Novetats o canvis de la versió d'actualització 15 del Project Service A
 description: En aquest tema es proporciona informació sobre les novetats a la versió d'actualització 15 del Project Service Automation, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072169"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119901"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, versió d'actualització 15, V3
 
@@ -41,7 +41,7 @@ En aquest tema es mostren les característiques i correccions que són noves o s
 - Temps i despesa
 
   - Correcció: s'ha afegit la gestió d'errors durant la càrrega a la visualització de conciliació.
-  - Correcció: Centre de recursos del projecte: s'ha canviat el nom d' **Import** per reduir la ambigüitat.
+  - Correcció: Centre de recursos del projecte: s'ha canviat el nom d'**Import** per reduir la ambigüitat.
   - Correcció: s'ha ajustat la visualització **Copia les columnes d'entrada de temps** per incloure el tipus.
   - Correcció: l'edició de la duració d'una entrada de temps a la visualització de quadrícula utilitzant nombres decimals resulta en un error desconegut per a alguns nombres.
 

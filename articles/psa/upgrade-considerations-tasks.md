@@ -2,7 +2,7 @@
 title: Consideracions d'actualització per a l'estructura del desglossament del treball
 description: En aquest tema es proporciona informació sobre l'actualització de l'estructura del desglossament del treball del Project Service Automation 2.x al 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072294"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121791"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Consideracions d'actualització per a l'estructura del desglossament del treball
 En aquest tema es proporciona informació sobre l'actualització de l'estructura del desglossament del treball del Project Service Automation 2.x al 3.x. Aquest tema defineix l'estat saludable d'un projecte del Project Service Automation (PSA) necessari per a una actualització correcta. També hi ha informació sobre les condicions de bloqueig habituals que faran que falli l'actualització. Per obtenir més informació sobre la definició de tasques de projecte i les seves funcions dins d'una planificació del projecte, vegeu [Planificacions de projecte](project-creating.md).

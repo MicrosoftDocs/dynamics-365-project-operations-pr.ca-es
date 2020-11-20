@@ -3,7 +3,7 @@ title: Estimacions de vendes i projectes
 description: En aquest tema es proporciona informació sobre com aprofitar la planificació i les estimacions del procés de venda.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eafe60362003198a223026526f56261de414bb4a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8bb380519759659dc1b4151b62228a626ee7a26
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072230"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120666"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimacions de vendes i projectes
 
@@ -51,4 +51,4 @@ Podeu definir l'esforç de treball i les estimacions de planificació mitjançan
 
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importar estimacions d'un projecte a una oferta
 
-Després de definir estimacions de projecte, podeu importar-les a la línia d'oferta. A la pàgina **Detalls de la línia d'oferta** , seleccioneu **Importa a partir d'estimacions** a la franja per resumir les estimacions de projecte pel tipus de transacció, la funció o el nivell de tasca.
+Després de definir estimacions de projecte, podeu importar-les a la línia d'oferta. A la pàgina **Detalls de la línia d'oferta**, seleccioneu **Importa a partir d'estimacions** a la franja per resumir les estimacions de projecte pel tipus de transacció, la funció o el nivell de tasca.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 866252c1961f359cecdb729ca909d96bcb03b1f4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072176"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124266"
 ---
 # <a name="post-expense-reports"></a>Publicació d'informes de despeses
 
@@ -28,6 +28,6 @@ Després que s'hagi aprovat i transferit un informe de despesa al registre gener
 
 Si les despeses derivades d'un informe de despeses es cobren a una empresa diferent de l'empresa que contracta el treballador, hauràs de verificar tant l'empresa a la qual es deuen aquestes despeses com l'empresa que les deu. Per exemple, l'empleat que va enviar un informe de despeses treballa per a l'empresa DAT però va cobrar una despesa a l'empresa DIR. En aquest cas, DAT és l'empresa a la qual es deu la despesa i DIR és l'empresa que deu la despesa. Després de verificar aquestes línies del llibre diari, podeu publicar les línies de despesa al llibre de comptabilitat general.
 
-Per comptabilitzar un informe de despeses, a la pàgina **Informes de despeses aprovats** , seleccioneu l'informe de despeses i, a continuació, a la subfinestra d'acció, seleccioneu **Comptabilitza**.
+Per comptabilitzar un informe de despeses, a la pàgina **Informes de despeses aprovats**, seleccioneu l'informe de despeses i, a continuació, a la subfinestra d'acció, seleccioneu **Comptabilitza**.
 
 També podeu comptabilitzar tots els informes de despeses a la llista alhora. Seleccioneu tots els informes de despeses i, a continuació, seleccioneu **Comptabilitza**.

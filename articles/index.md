@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8e1001144bf5347ba1c170cdeae494deef6c2d9c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072181"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120801"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -32,7 +32,7 @@ El Microsoft Dynamics 365 Project Operations connecta els equips de vendes, recu
 -   **El Sales està habilitat** per guanyar més ofertes i accelerar el cicle de vendes amb ofertes ràpides i precises, preus flexibles i transicions sense interrupcions de l'estimació a l'execució.
 -   **Els recursos estan configurat per optimitzar** l'ús de recursos mitjançant l'alineació de les persones adients, amb les habilitats adients, als projectes adients. Això millora la qualitat i ajuda a fidelitzar els membres amb millor rendiment.
 -   **Els administradors de projectes poden accelerar** el lliurament del projecte amb l'administració de projectes integrada d'última generació que utilitza capacitats familiars i fàcils d'utilitzar del Microsoft Project.
--   **Els membres de l'equip poden millorar la productivitat** , la col·laboració i la visibilitat amb la integració amb el Microsoft Teams i enviar el temps i les despeses des de qualsevol lloc.
+-   **Els membres de l'equip poden millorar la productivitat**, la col·laboració i la visibilitat amb la integració amb el Microsoft Teams i enviar el temps i les despeses des de qualsevol lloc.
 -   **El Finance pot simplificar la comptabilitat del projecte** amb el seguiment de temps i despeses, la governança, el cost del projecte, la pressupostació, la facturació, el reconeixement d'ingressos, el compliment i la visibilitat de les mètriques clau d'estat de l'empresa.
 
 El Project Operations és potent per si mateix, però el poden ampliar els nostres clients que necessitin capacitats addicionals del Dynamics 365. Això inclou el Marketing, el Human Resources, el Customer Services i més. Tant si voleu la funcionalitat addicional d'una altra aplicació del Dynamics 365 com si voleu afegir una aplicació personalitzada creada amb el Power Apps, tot funciona en conjunt i com espereu perquè comparteixen la base comuna d'una solució al núvol segura, privada i compatible.

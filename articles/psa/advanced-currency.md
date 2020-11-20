@@ -3,7 +3,7 @@ title: Escenaris multidivisa (versió 3.x)
 description: Aquest tema proporciona informació sobre els escenaris multidivisa.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072322"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123366"
 ---
 # <a name="multiple-currency-scenarios"></a>Escenaris multidivisa
 
@@ -31,8 +31,8 @@ ms.locfileid: "4072322"
 
 El Microsoft Dynamics 365 té dos conceptes de moneda:
 
-- **Moneda de transacció** : la moneda en què es produeix una transacció. 
-- **Moneda base** : la moneda de la instància del Dynamics 365. Aquesta moneda es configura quan es proveeix una instància del Dynamics 365. No es pot canviar.
+- **Moneda de transacció**: la moneda en què es produeix una transacció. 
+- **Moneda base**: la moneda de la instància del Dynamics 365. Aquesta moneda es configura quan es proveeix una instància del Dynamics 365. No es pot canviar.
 
 Per exemple, Contoso US va vendre 100 samarretes per a un client del Regne Unit per 15 lliures esterlines (GBP) cadascuna. A la taula següent es mostra com s'enregistra aquesta transacció a l'entitat Producte de la comanda.
 
@@ -56,7 +56,7 @@ Les entitats següents es consideren transaccions empresarials:
 - Detall de la línia de factura
 - Real
 
-A cadascuna d'aquestes entitats, hi ha un registre que representa l'import del cost o l'import de les vendes. Pel que fa a qualsevol entitat del Dynamics 365 que tingui un camp **Import** , cada registre inclou imports tant en la moneda de la transacció com en la moneda base. 
+A cadascuna d'aquestes entitats, hi ha un registre que representa l'import del cost o l'import de les vendes. Pel que fa a qualsevol entitat del Dynamics 365 que tingui un camp **Import**, cada registre inclou imports tant en la moneda de la transacció com en la moneda base. 
 
 El PSA amplia el concepte de moneda de transacció per al cost i les vendes de les maneres següents:
 

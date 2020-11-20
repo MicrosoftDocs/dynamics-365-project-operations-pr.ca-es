@@ -3,7 +3,7 @@ title: Planificació del projecte
 description: En aquest tema es proporciona informació sobre com crear una planificació.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072247"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123211"
 ---
 # <a name="project-schedules"></a>Planificació del projecte 
 
@@ -83,12 +83,12 @@ Els botons **Mou amunt** i **Mou avall** canvien la posició d'una tasca dins de
 
 La graella **Planificació** és totalment accessible i es pot utilitzar amb lectors de pantalla com ara el Narrador, JAWS o NVDA. Podeu desplaçar-vos per l'àrea de la quadrícula mitjançant les tecles de fletxa (com al Microsoft Excel), podeu utilitzar la tecla de tabulació per avançar entre els elements de la interfície d'usuari interactius, i podeu utilitzar la tecla de fletxa avall, la tecla Enter o la barra espaiadora per seleccionar i invocar els menús desplegables. Les capçaleres de columna també són interactives. Podeu amagar i mostrar columnes, utilitzar la tecla de tabulació i les tecles de fletxa per desplaçar-vos per les capçaleres de columna i utilitzar els botons d'acció de la barra d'eines. A més, podeu utilitzar les dreceres de teclat següents:
 
-- **Actualitza** : Alt + Maj + F5
-- **Afegeix** : Alt + Maj + Insereix
-- **Suprimeix** : Alt + Maj + Supr
-- **Mou amunt/avall** : Alt + Maj + Fletxes amunt/avall
-- **Afegeix/suprimeix la sagnia** : Alt + Maj + Fletxes esquerra/dreta
-- **Expandeix/redueix les jerarquies** : Alt + Maj + Tecles més/menys
+- **Actualitza**: Alt + Maj + F5
+- **Afegeix**: Alt + Maj + Insereix
+- **Suprimeix**: Alt + Maj + Supr
+- **Mou amunt/avall**: Alt + Maj + Fletxes amunt/avall
+- **Afegeix/suprimeix la sagnia**: Alt + Maj + Fletxes esquerra/dreta
+- **Expandeix/redueix les jerarquies**: Alt + Maj + Tecles més/menys
 
 ## <a name="task-attributes"></a>Atributs de la tasca
 
@@ -98,25 +98,25 @@ Un nom de tasca descriu el treball que s'ha de completar. Al PSA, els atributs a
  
 ### <a name="schedule-attributes"></a>Atributs de planificació
 
-Els atributs **Esforç** , **Data d'inici** , **Data d'acabament** i **Duració** defineixen la planificació de la tasca.
+Els atributs **Esforç**, **Data d'inici**, **Data d'acabament** i **Duració** defineixen la planificació de la tasca.
 
 Els atributs de planificació addicionals inclouen:
 
-- **Hores d'esforç** : introduïu una estimació de les hores necessàries per completar la tasca. 
-- **Duració** : especifiqueu el nombre de dies laborables necessaris per completar la tasca.
-- **ID de planificació** : aquest identificador automàticament generat s'utilitza per ordenar les tasques a la jerarquia. Les dependències entre tasques gestionen l'ordre real en què es treballen les tasques.
+- **Hores d'esforç**: introduïu una estimació de les hores necessàries per completar la tasca. 
+- **Duració**: especifiqueu el nombre de dies laborables necessaris per completar la tasca.
+- **ID de planificació**: aquest identificador automàticament generat s'utilitza per ordenar les tasques a la jerarquia. Les dependències entre tasques gestionen l'ordre real en què es treballen les tasques.
  
 ### <a name="staffing-attributes"></a>Atributs de personal
 
-Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o fer clic a **Crea** i a la subfinestra **Creació ràpida** , afegir un membre d'equip de projecte com a recurs nou.
+Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o fer clic a **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.
 
-Els camps **Funció** , **Unitat de recursos** i **Nom del càrrec** s'utilitzen per descriure els requisits de dotació de la tasca. Aquests atributs de personal, juntament amb la planificació de tasques, s'utilitzen per trobar els recursos disponibles per fer aquesta tasca.
+Els camps **Funció**, **Unitat de recursos** i **Nom del càrrec** s'utilitzen per descriure els requisits de dotació de la tasca. Aquests atributs de personal, juntament amb la planificació de tasques, s'utilitzen per trobar els recursos disponibles per fer aquesta tasca.
 
-**Funció** : especifiqueu el tipus de recurs necessari per fer la tasca.
+**Funció**: especifiqueu el tipus de recurs necessari per fer la tasca.
 
-**Unitat de recursos** : especifiqueu la unitat a la qual han d'assignar-se els recursos per a la tasca. Aquest atribut afecta l'estimació de costos i vendes per a la tasca si la tarifa de cost i de facturació del recurs es defineix a partir d'unitats de recursos.
+**Unitat de recursos**: especifiqueu la unitat a la qual han d'assignar-se els recursos per a la tasca. Aquest atribut afecta l'estimació de costos i vendes per a la tasca si la tarifa de cost i de facturació del recurs es defineix a partir d'unitats de recursos.
 
-**Nom del càrrec** : introduïu un nom amigable per al recurs genèric que serveixi com a contenidor per al recurs que en última instància farà la feina.
+**Nom del càrrec**: introduïu un nom amigable per al recurs genèric que serveixi com a contenidor per al recurs que en última instància farà la feina.
 
 El camp **Recursos** conté el nom del càrrec del recurs genèric o el recurs amb nom quan se'n troba un.
 
@@ -134,7 +134,7 @@ El mode de tasca determina la planificació de les tasques de nodes fulla. El PS
 
 ### <a name="auto-scheduling"></a>Planificació automàtica 
  
-Quan definiu el mode de tasca a **Planificat automàticament** , el motor de planificació de la tasca utilitza les regles de planificació als atributs de tasca per determinar la planificació de la tasca.
+Quan definiu el mode de tasca a **Planificat automàticament**, el motor de planificació de la tasca utilitza les regles de planificació als atributs de tasca per determinar la planificació de la tasca.
 
 #### <a name="scheduling-rules"></a>Regles de planificació
 

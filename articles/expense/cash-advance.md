@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072095"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122737"
 ---
 # <a name="cash-advance"></a>Avançament d'efectiu
 
@@ -25,10 +25,10 @@ Un avançament d'efectiu permet als empleats demanar prestat diners de la seva e
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Crear i enviar una sol·licitud d'avançament d'efectiu
 
-1. A **Les meves despeses** , seleccioneu **Avançaments d'efectiu** > **Nou** per crear un avançament d'efectiu nou. 
-2. A la pàgina **Nova sol·licitud d'avançament d'efectiu** , introduïu la finalitat de la despesa i seleccioneu la ubicació on s'incorrerà la despesa.
+1. A **Les meves despeses**, seleccioneu **Avançaments d'efectiu** > **Nou** per crear un avançament d'efectiu nou. 
+2. A la pàgina **Nova sol·licitud d'avançament d'efectiu**, introduïu la finalitat de la despesa i seleccioneu la ubicació on s'incorrerà la despesa.
 3. Introduïu l'import sol·licitat i la moneda i, a continuació, seleccioneu **Desa**. 
-4. Quan estigueu a punt per enviar la sol·licitud d'avançament d'efectiu, a la pàgina **Sol·licitud d'avançament d'efectiu** , seleccioneu **Flux de treball** > **Envia**.
+4. Quan estigueu a punt per enviar la sol·licitud d'avançament d'efectiu, a la pàgina **Sol·licitud d'avançament d'efectiu**, seleccioneu **Flux de treball** > **Envia**.
 
 ## <a name="modify-a-cash-advance-request"></a>Modificar una sol·licitud d'avançament d'efectiu
 
@@ -46,7 +46,7 @@ Podeu revisar la llista de tots els avançaments d'efectiu que estiguin en esbor
 
 Els administradors o els usuaris configurats com a aprovadors al flux de treball podran aprovar els avançaments d'efectiu que se'ls presentin per revisar-los. 
 
-1. Per aprovar un avançament d'efectiu, a **Processa els avançaments d'efectiu** , seleccioneu **Avançaments d'efectiu per a la meva revisió**.
+1. Per aprovar un avançament d'efectiu, a **Processa els avançaments d'efectiu**, seleccioneu **Avançaments d'efectiu per a la meva revisió**.
 2. Seleccioneu l'avançament d'efectiu que heu de revisar i seleccioneu **Aprova**.  
 
 ## <a name="pay-cash-advances"></a>Pagar avançaments d'efectiu 

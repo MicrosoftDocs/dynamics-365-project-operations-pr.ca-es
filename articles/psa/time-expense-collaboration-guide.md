@@ -3,7 +3,7 @@ title: Guia de temps, despeses i col·laboració
 description: Una guia de temps, despeses i col·laboració per al Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3404642bf20ee23000202b3447f3167aeb4dee27
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4f975a248c6224bdea72ca1ecdb8a299f0f9254c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072301"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120036"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Guia de temps, despeses i col·laboració (Project Service)
 
@@ -59,7 +59,7 @@ Feu clic a un enllaç de sota per aprendre més sobre què podeu fer amb l'[!INC
   
 -   [Permeteu algú més introduir les despeses o els informes de temps](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [Planificar temps lliure ](../psa/schedule-time-off.md)  
+-   [Planificar temps lliure](../psa/schedule-time-off.md)  
   
 -   [Col·laborar amb els vostres membres de l'equip de projecte amb els grups de l'Office 365](../psa/collaborate-project-team-members-office-365-groups.md)  
   

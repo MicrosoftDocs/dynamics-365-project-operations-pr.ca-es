@@ -3,7 +3,7 @@ title: Recuperar entrades de temps o de despeses aprovades
 description: En aquest tema es proporciona informació sobre com recuperar una transacció de despesa i temps de projecte aprovada anteriorment.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072259"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120531"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Recuperar entrades de temps o de despeses aprovades
 
@@ -60,13 +60,13 @@ Seguiu aquests passos per sol·licitar la recuperació d'una entrada de temps o 
 Seguiu aquests passos per aprovar o rebutjar una sol·licitud de recuperació.
 
 1. Aneu a **Projectes** \> **El meu treball** \> **Aprovacions**.
-2. A la pàgina de llista **Aprovacions** , canvieu la visualització a **Sol·licituds de recuperació pendents d'aprovació**. Es mostra una llista de sol·licituds de recuperació enviades.
+2. A la pàgina de llista **Aprovacions**, canvieu la visualització a **Sol·licituds de recuperació pendents d'aprovació**. Es mostra una llista de sol·licituds de recuperació enviades.
 3. Seleccioneu una o diverses entrades i, a continuació , seleccioneu **Aprova** o **Rebutja**.
-4. Si heu seleccionat **Aprova** , rebreu un missatge d'advertiment que explica l'impacte de l'aprovació. Seleccioneu **D'acord** per confirmar l'operació. La sol·licitud de recuperació s'ha aprovat.
+4. Si heu seleccionat **Aprova**, rebreu un missatge d'advertiment que explica l'impacte de l'aprovació. Seleccioneu **D'acord** per confirmar l'operació. La sol·licitud de recuperació s'ha aprovat.
 
     -o bé-
 
-    Si heu seleccionat **Rebutja** , la sol·licitud de recuperació es rebutja.
+    Si heu seleccionat **Rebutja**, la sol·licitud de recuperació es rebutja.
 
 > [!NOTE]
 > Com quan es demana una recuperació, quan s'aprova una recuperació, el sistema comprova si hi ha activitats de facturació a les entrades de temps o de despeses. Si una entrada ja s'ha facturat o si està en un esborrany de factura, l'aprovador rebrà un missatge d'error que indica que el temps o la despesa no es poden aprovar per a la recuperació, perquè ja s'han facturat.

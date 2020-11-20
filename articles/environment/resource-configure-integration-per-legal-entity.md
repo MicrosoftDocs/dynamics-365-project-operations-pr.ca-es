@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096740"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122871"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configuració de la integració del Project Operations per entitat jurídica 
 
@@ -26,7 +26,7 @@ Aquest tema us mostra els passos necessaris per configurar el Dynamics 365 Proje
 Completeu els passos següents per habilitar les característiques necessàries.
 
 1. Al Dynamics 365 Finance, aneu a l'àrea de treball **Administració de característiques**.
-2. A **Llista de característiques** , cerqueu i habiliteu les següents característiques:
+2. A **Llista de característiques**, cerqueu i habiliteu les següents característiques:
   
     - **Habilitar diverses línies de contracte per a un projecte**
     - **Habilitar el Project Operations al Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Podeu habilitar el Project Operations al Dynamics 365 Customer Engagement a nive
 
 Cada entitat legal que utilitza el Project Operations al Dynamics 365 Customer Engagement necessita un conjunt de paràmetres per defecte. Aquests paràmetres estan configurats a la pestanya **Project Operations** a la pestanya **Paràmetres de l'administració de projectes i comptabilitat**. Els paràmetres són:
 
-  - **Valors per defecte de tipus de facturació** : el Project Operations utilitza un conjunt fix de valors per defecte de tipus de facturació que s'han d'assignar a les propietats de línia del Finance. Creeu un registre per a cada tipus de facturació: **No especificada** , **Imputable** , **No imputable** , **Complementària** i **No disponible**.
-  - **Valors per defecte de categoria del projecte** : seleccioneu les categories de projecte per defecte que s'utilitzaran per a cada tipus d'operació. Aquests valors per defecte s'utilitzaran al **Diari d'integració del Project Operations** i en estimacions on no s'especifiqui cap categoria de transacció per al valor real del projecte.
-  - **Previsions** : seleccioneu el model de previsió que s'utilitzarà per a les estimacions de temps i despeses.
+  - **Valors per defecte de tipus de facturació**: el Project Operations utilitza un conjunt fix de valors per defecte de tipus de facturació que s'han d'assignar a les propietats de línia del Finance. Creeu un registre per a cada tipus de facturació: **No especificada**, **Imputable**, **No imputable**, **Complementària** i **No disponible**.
+  - **Valors per defecte de categoria del projecte**: seleccioneu les categories de projecte per defecte que s'utilitzaran per a cada tipus d'operació. Aquests valors per defecte s'utilitzaran al **Diari d'integració del Project Operations** i en estimacions on no s'especifiqui cap categoria de transacció per al valor real del projecte.
+  - **Previsions**: seleccioneu el model de previsió que s'utilitzarà per a les estimacions de temps i despeses.

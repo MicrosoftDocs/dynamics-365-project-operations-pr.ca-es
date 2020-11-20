@@ -3,7 +3,7 @@ title: Veure l'ús imputable dels recursos
 description: En aquest tema es proporciona informació sobre la visualització d'ús dels recursos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072234"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122151"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Veure l'ús imputable dels recursos
  
@@ -46,7 +46,7 @@ L'objectiu d'ús es pot establir en la funció predeterminada del recurs o en el
 
 1. Aneu a **Recursos** \> **Recursos**. 
 2. Seleccioneu un recurs per obrir el registre. 
-3. A la pestanya **Project Service** , podeu definir l'objectiu d'ús del recurs.
+3. A la pestanya **Project Service**, podeu definir l'objectiu d'ús del recurs.
 
 > ![Captura de pantalla de la utilització del Project Service per definir l'ús objectiu](media/FAQ-utilization-2.png)
  
@@ -68,7 +68,7 @@ En primer lloc, l'objectiu d'ús s'ha d'establir en el recurs individual o en le
 
 1. Per configurar-ho, aneu a **Recursos** \> **Recursos**. 
 2. Seleccioneu un recurs, obriu el registre i, a continuació, seleccioneu la pestanya **Project Service**. 
-3. A la quadrícula **Funció del recurs** , assegureu-vos que hi hagi una funció per al recurs i que **Per defecte** s'hagi definit com a **Sí**.
+3. A la quadrícula **Funció del recurs**, assegureu-vos que hi hagi una funció per al recurs i que **Per defecte** s'hagi definit com a **Sí**.
  
 ### <a name="change-billing-type-for-resource-role"></a>Canviar el tipus de facturació d'una funció de recurs
 

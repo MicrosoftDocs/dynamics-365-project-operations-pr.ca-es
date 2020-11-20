@@ -3,7 +3,7 @@ title: Novetats o canvis de la versió d'actualització 18 del Project Service A
 description: En aquest tema es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 18.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072166"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119856"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation, versió d'actualització 18, V3
 
@@ -36,7 +36,7 @@ En aquest tema es mostren les característiques i correccions que són noves o s
 
 **Temps i despesa**
 
-- Correcció: els fluxos **Recupera** , **Sol·licita** i **Cancel·la l'aprovació** generen excepcions amb missatges d'error poc clars.
+- Correcció: els fluxos **Recupera**, **Sol·licita** i **Cancel·la l'aprovació** generen excepcions amb missatges d'error poc clars.
 - Correcció: quan **Cancel·la l'aprovació** no funciona amb una despesa, no es genera un error d'excepció rellevant.
 - Correcció: la graella d'entrada de temps gestiona incorrectament els dies no laborables a Austràlia després del canvi a horari d'estiu (DST) a l'octubre.
 - Correcció: la lògica per defecte incorrecta impedeix l'enviament de les despeses.
@@ -60,4 +60,4 @@ En aquest tema es mostren les característiques i correccions que són noves o s
 
 **Sales**
 
-- Correcció: quan es tornen a aprovar les entrades de temps ( **Aprova > Cancel·la >** Torna a aprovar), es crea un valor real no imputable duplicat.
+- Correcció: quan es tornen a aprovar les entrades de temps (**Aprova > Cancel·la >** Torna a aprovar), es crea un valor real no imputable duplicat.

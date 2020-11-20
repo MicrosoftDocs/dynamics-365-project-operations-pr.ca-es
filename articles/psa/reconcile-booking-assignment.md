@@ -3,7 +3,7 @@ title: Conciliar reserves i assignacions
 description: Aquest tema proporciona informació sobre els valors reals.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072258"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120441"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Conciliar reserves i assignacions
 
@@ -35,21 +35,21 @@ A causa de la lleugera vinculació de les reserves de projectes i de les assigna
 
 Per a cada membre de l'equip, la pestanya **Conciliació** mostra les reserves i les assignacions fins a l'assignació de tasques individuals. Mostra hores a les cel·les que poden representar períodes de temps de mesos a dies.
 
-Al camp **Escala de temps** , podeu seleccionar **Mes** , **Setmana** o **Dia**. Se selecciona **Setmana** per defecte. No obstant, podeu canviar el valor per defecte seleccionant el botó **Configuració**. Quan s'obre la pestanya **Conciliació** , es mostra la data actual, però podeu utilitzar el control de calendari per avançar o retrocedir en el temps. Quan un projecte té una data d'inici que es troba en el futur, la pestanya mostra la data en què s'ha obert. El control de calendari també té opcions que us permeten desplaçar-vos a les dates d'inici i d'acabament del projecte.
+Al camp **Escala de temps**, podeu seleccionar **Mes**, **Setmana** o **Dia**. Se selecciona **Setmana** per defecte. No obstant, podeu canviar el valor per defecte seleccionant el botó **Configuració**. Quan s'obre la pestanya **Conciliació**, es mostra la data actual, però podeu utilitzar el control de calendari per avançar o retrocedir en el temps. Quan un projecte té una data d'inici que es troba en el futur, la pestanya mostra la data en què s'ha obert. El control de calendari també té opcions que us permeten desplaçar-vos a les dates d'inici i d'acabament del projecte.
 
 Podeu utilitzar els controls d'ampliació a cada recurs per mostrar els detalls de les reserves d'aquest recurs. També podeu expandir les assignacions de cada recurs al nivell de tasca individual.
 
 A la part inferior de la pestanya **Conciliació** es mostra un total net global del projecte i la pestanya també inclou una columna total. Per a cada recurs, la pestanya pren la diferència entre les reserves d'un membre de l'equip al projecte i un valor consolidat de les assignacions de tasques d'aquest membre de l'equip. Idealment, la diferència hauria de ser 0 (zero). En altres paraules, no hi hauria d'haver diferències entre les reserves del recurs i les assignacions de tasques. Qualsevol diferència s'indica amb color i ombrejat per indicar a dues condicions:
 
-- **Manca de reserves** : les manques de reserves es produeixen quan un recurs té més assignacions que reserves. Com que aquesta capacitat no s'ha reservat, un administrador de projecte pot corregir aquesta situació ampliant les reserves del recurs fins a cobrir la manca.
-- **Excés de reserves** : un excés de reserves es produeix quan un recurs s'ha reservat al projecte però no s'ha assignat a tasques. Aquesta situació pot ser acceptable, per exemple, si el recurs s'ha reservat abans de l'assignació de tasques. No obstant, en altres casos, pot ser que el recurs no estigui planificat per assignar-se a tasques. En aquests casos, l'administrador del projecte hauria de considerar la cancel·lació de les reserves del recurs, de manera que la capacitat pugui utilitzar-se per a un altre projecte.
+- **Manca de reserves**: les manques de reserves es produeixen quan un recurs té més assignacions que reserves. Com que aquesta capacitat no s'ha reservat, un administrador de projecte pot corregir aquesta situació ampliant les reserves del recurs fins a cobrir la manca.
+- **Excés de reserves**: un excés de reserves es produeix quan un recurs s'ha reservat al projecte però no s'ha assignat a tasques. Aquesta situació pot ser acceptable, per exemple, si el recurs s'ha reservat abans de l'assignació de tasques. No obstant, en altres casos, pot ser que el recurs no estigui planificat per assignar-se a tasques. En aquests casos, l'administrador del projecte hauria de considerar la cancel·lació de les reserves del recurs, de manera que la capacitat pugui utilitzar-se per a un altre projecte.
 
 > [!NOTE]
 > La llegenda d'aquestes condicions podria estar amagada per deixar més espai per a la quadrícula. En aquest cas, podeu fer que la llegenda sigui visible seleccionant el botó **Configuració**.
 
-En alguns casos, quan el camp **Escala de temps** està definit a un nivell superior a **Dia** , les diferències es poden calcular com a 0 (zero). Per exemple, al nivell de **Mes** , la diferència neta per a un recurs podria ser 0 (zero) per indicar que les tasques equivalen a les reserves. No obstant, si ho mireu al nivell de **Setmana** , podeu veure que hi ha assignacions de 0 (zero) hores i reserves de 40 hores a la primera setmana del mes, i assignacions de 40 hores i reserves de 0 (zero) hores a la segona setmana del mes. Tot i que les reserves i assignacions totals per al mes són iguals, difereixen per setmana.
+En alguns casos, quan el camp **Escala de temps** està definit a un nivell superior a **Dia**, les diferències es poden calcular com a 0 (zero). Per exemple, al nivell de **Mes**, la diferència neta per a un recurs podria ser 0 (zero) per indicar que les tasques equivalen a les reserves. No obstant, si ho mireu al nivell de **Setmana**, podeu veure que hi ha assignacions de 0 (zero) hores i reserves de 40 hores a la primera setmana del mes, i assignacions de 40 hores i reserves de 0 (zero) hores a la segona setmana del mes. Tot i que les reserves i assignacions totals per al mes són iguals, difereixen per setmana.
 
-Quan visualitzeu el temps en nivells superiors, la pestanya **Conciliació** mostra un indicador a les cel·les per informar-vos que hi ha diferències en nivells de temps inferiors. Per exemple, en la il·lustració següent, un indicador de cel la apareix a la cel·la per al mes d'octubre de 2018 per al recurs que s'anomena Gabriela Magrinyà. Per tant, podeu veure que, tot i que les reserves i assignacions del recurs són iguals quan s'agreguen a nivell de **Mes** , no coincideixen en els nivells inferiors.
+Quan visualitzeu el temps en nivells superiors, la pestanya **Conciliació** mostra un indicador a les cel·les per informar-vos que hi ha diferències en nivells de temps inferiors. Per exemple, en la il·lustració següent, un indicador de cel la apareix a la cel·la per al mes d'octubre de 2018 per al recurs que s'anomena Gabriela Magrinyà. Per tant, podeu veure que, tot i que les reserves i assignacions del recurs són iguals quan s'agreguen a nivell de **Mes**, no coincideixen en els nivells inferiors.
 
 ![Reserves i assignacions no coincidents al nivell mensual](media/reconcile-assignments-01.JPG)
 

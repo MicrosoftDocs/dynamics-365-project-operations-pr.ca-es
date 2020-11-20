@@ -3,7 +3,7 @@ title: Preus del projecte
 description: En aquest tema s'ofereix informació sobre la manera com els preus funcionen al Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072409"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120756"
 ---
 # <a name="project-pricing"></a>Preus del projecte 
 
@@ -36,15 +36,15 @@ El Dynamics 365 Project Service Automation amplia l'entitat Llista de preus al D
 Una llista de preus inclou informació proporcionada per quatre entitats diferents:
 
 - **Llista de preus:** aquesta entitat emmagatzema informació sobre el context, la moneda, l'efectivitat de la data i la unitat de temps per al temps de fixació de preus. El context mostra si la llista de preus expressa les tarifes de cost o les tarifes de vendes. 
-- **Moneda** : aquesta entitat emmagatzema la moneda del preu a la llista de preus. 
-- **Data** : aquesta entitat s'utilitza quan el sistema prova d'introduir un preu per defecte d'una transacció. El preu del PSA selecciona la llista de preus que té l'efectivitat de la data que inclou la data de la transacció. Si el valor de PSA troba més d'una llista de preus que és efectiva per a la data de la transacció s'adjunta a la unitat de cotització, contracte o organització, llavors no s'adopta cap preu per defecte. 
-- **Hora** : aquesta entitat emmagatzema la unitat de temps en què s'expressen els preus per a les tarifes diàries o per hora. 
+- **Moneda**: aquesta entitat emmagatzema la moneda del preu a la llista de preus. 
+- **Data**: aquesta entitat s'utilitza quan el sistema prova d'introduir un preu per defecte d'una transacció. El preu del PSA selecciona la llista de preus que té l'efectivitat de la data que inclou la data de la transacció. Si el valor de PSA troba més d'una llista de preus que és efectiva per a la data de la transacció s'adjunta a la unitat de cotització, contracte o organització, llavors no s'adopta cap preu per defecte. 
+- **Hora**: aquesta entitat emmagatzema la unitat de temps en què s'expressen els preus per a les tarifes diàries o per hora. 
 
 L'entitat Llista de preus té tres taules relacionades que emmagatzemen els preus:
 
-  - **Preu per funció** : aquesta taula emmagatzema una tarifa per a una combinació de valors de funció i unitat organitzativa i s'utilitza per configurar els preus basats en funcions dels recursos humans.
-  - **Preu de la categoria de la transacció** : aquesta taula emmagatzema els preus per categoria de transacció i s'utilitza per configurar els preus de les categories de despesa.
-  - **Elements de la llista de preus** : aquesta taula emmagatzema les tarifes dels productes del catàleg.
+  - **Preu per funció**: aquesta taula emmagatzema una tarifa per a una combinació de valors de funció i unitat organitzativa i s'utilitza per configurar els preus basats en funcions dels recursos humans.
+  - **Preu de la categoria de la transacció**: aquesta taula emmagatzema els preus per categoria de transacció i s'utilitza per configurar els preus de les categories de despesa.
+  - **Elements de la llista de preus**: aquesta taula emmagatzema les tarifes dels productes del catàleg.
 
 > ![Configurar els preus utilitzant una llista de preus](media/basic-guide-12.png)
  
@@ -56,7 +56,7 @@ El terme *funció de recurs* fa referència a un conjunt d'aptituds, competènci
 
 El temps dels recursos humans se sol oferir en funció del paper que omple un recurs d'un projecte específic. Per al temps de recursos humans, el PSA admet el cost i la facturació basant-se en la funció de recurs. Es pot definir un preu per temps en qualsevol unitat del grup **Unitats de temps**.
 
-El grup **Unitats de temps** es crea quan s'instal·la el PSA. Té una unitat **Hora** per defecte. No podeu suprimir, canviar el nom o editar els atributs del grup d'unitats **Temps** o la unitat **Hora**. No obstant, podeu afegir altres unitats al grup d'unitats **Temps**. Si proveu de suprimir el grup d' unitats **Temps** o la unitat **Hora** , pot ser que provoqueu fallades en la lògica empresarial del PSA.
+El grup **Unitats de temps** es crea quan s'instal·la el PSA. Té una unitat **Hora** per defecte. No podeu suprimir, canviar el nom o editar els atributs del grup d'unitats **Temps** o la unitat **Hora**. No obstant, podeu afegir altres unitats al grup d'unitats **Temps**. Si proveu de suprimir el grup d' unitats **Temps** o la unitat **Hora**, pot ser que provoqueu fallades en la lògica empresarial del PSA.
 
 > ![Configurar els preus per funció](media/basic-guide-13.png)
  
@@ -64,9 +64,9 @@ El grup **Unitats de temps** es crea quan s'instal·la el PSA. Té una unitat **
 
 Els viatges i altres despeses que comporten els consultors dels projectes se solen facturar al client. El PSA admet definir preus de les categories de despesa mitjançant llistes de preus. Tarifes aeroportuàries, hotel i lloguer de cotxes són exemples de categories de despeses. Cada línia de llista de preus per a les despeses especifica el preu d'una categoria de despesa concreta. Per als preus de les categories de despeses, el PSA admet els tres mètodes de càlcul següents:
 
-- **Al cost** : el cost de la despesa es factura al client, i no s'aplica cap marge comercial.
-- **Percentatge de marge comercial** : el percentatge del cost real es factura al client. 
-- **Preu per unitat** : un preu de facturació es defineix per a cada unitat de la categoria de despesa. L'import que es factura al client es calcula en funció del nombre d'unitats de despesa que informa el consultor. El quilometratge utilitza el mètode de preus de preu per unitat. Per exemple, la categoria de despesa de quilometratge es pot configurar a 30 dòlars americans (USD) per dia o 2 USD per milla. Quan un consultor informa del quilometratge en un projecte, l'import a facturar es calcula a partir del nombre de milles que va informar el consultor.
+- **Al cost**: el cost de la despesa es factura al client, i no s'aplica cap marge comercial.
+- **Percentatge de marge comercial**: el percentatge del cost real es factura al client. 
+- **Preu per unitat**: un preu de facturació es defineix per a cada unitat de la categoria de despesa. L'import que es factura al client es calcula en funció del nombre d'unitats de despesa que informa el consultor. El quilometratge utilitza el mètode de preus de preu per unitat. Per exemple, la categoria de despesa de quilometratge es pot configurar a 30 dòlars americans (USD) per dia o 2 USD per milla. Quan un consultor informa del quilometratge en un projecte, l'import a facturar es calcula a partir del nombre de milles que va informar el consultor.
 
 > ![Configurar els preus per a categories de despeses](media/basic-guide-14.png)
  
@@ -110,7 +110,7 @@ Al PSA, podeu crear substitucions específiques per a un acord per a les tarifes
 
 Per defecte, un contracte de projecte sempre obté una còpia de la llista de preus de vendes mestra en comptes d'un enllaç directe. Aquest comportament ajuda a garantir que els acords de preus que es facin amb un client per a una declaració de treball (SOW) no canvien si la llista de preus mestra es canvia.
 
-No obstant, en una oferta, podeu utilitzar una llista de preus mestra. Si ho preferiu, podeu copiar una llista de preus mestra i editar-la per crear una llista de preus personalitzada que només s'apliqui a aquesta oferta. Per crear una llista de preus específica d'una oferta, a la pàgina **Oferta** , seleccioneu **Crea un preu personalitzat**. Podeu accedir a la llista de preus de projecte específica d'un acord només des de l'oferta. 
+No obstant, en una oferta, podeu utilitzar una llista de preus mestra. Si ho preferiu, podeu copiar una llista de preus mestra i editar-la per crear una llista de preus personalitzada que només s'apliqui a aquesta oferta. Per crear una llista de preus específica d'una oferta, a la pàgina **Oferta**, seleccioneu **Crea un preu personalitzat**. Podeu accedir a la llista de preus de projecte específica d'un acord només des de l'oferta. 
 
 Quan creeu una llista de preus de projecte personalitzada, només es copien els components del projecte de la llista de preus. En altres paraules, una nova llista de preus creada com a còpia de la llista de preus del projecte existent que s'adjunta a l'oferta, i aquesta llista de tarifes nova només té preus relacionats amb els preus per funció i la categoria de transacció.
 

@@ -3,7 +3,7 @@ title: Reservar requisits manera flexible
 description: En aquest tema es proporciona informació sobre com reservar requisits de manera flexible.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072422"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124086"
 ---
 # <a name="soft-book-requirements"></a>Reservar requisits manera flexible
 
@@ -31,7 +31,7 @@ Un requisit de recursos es pot reservar de manera fixa. Una reserva fixa crea un
 
 ![Estat de la reserva definit com a Flexible](media/Resource-Management-image77.png)
 
-Quan la pestanya **Equip** està a la visualització **Membres de l'equip amb nom** , el recurs hi apareix. Les hores reservades de manera flexible es comuniquen a la columna **Hores reservades de manera flexible**.
+Quan la pestanya **Equip** està a la visualització **Membres de l'equip amb nom**, el recurs hi apareix. Les hores reservades de manera flexible es comuniquen a la columna **Hores reservades de manera flexible**.
 
 ![Hores reservades de manera flexible a la visualització Membres de l'equip amb nom](media/Resource-Management-image78.png)
 
@@ -39,7 +39,7 @@ Els membres de l'equip reservats de manera flexible no poden assignar-se a tasqu
 
 ![Membre de l'equip reservat de manera flexible assignat a una tasca](media/Resource-Management-image79.png)
 
-A la pestanya **Conciliació** , no es mostra cap reserva per a un recurs reservat de manera flexible , ja que la pestanya **Conciliació** només té en compte les reserves fixes.
+A la pestanya **Conciliació**, no es mostra cap reserva per a un recurs reservat de manera flexible , ja que la pestanya **Conciliació** només té en compte les reserves fixes.
 
 ![Recurs reservat de manera flexible sense reserves a la pestanya Conciliació](media/Resource-Management-image80.png)
 
@@ -54,7 +54,7 @@ Per convertir una reserva flexible en una reserva fixa, al Tauler de planificaci
 
 ![Canviar l'estat de la reserva a Fixa](media/Resource-Management-image82.png)
 
-Es canvia la reserva i l'estat canvia al Tauler de planificació. Com que l'estat de la reserva ara és **Fixa** , el recurs es mostra com a reservat i la seva capacitat i disponibilitat s'ajusten.
+Es canvia la reserva i l'estat canvia al Tauler de planificació. Com que l'estat de la reserva ara és **Fixa**, el recurs es mostra com a reservat i la seva capacitat i disponibilitat s'ajusten.
 
 Podeu utilitzar el mateix mètode per cancel·lar una reserva fixa o una reserva flexible al Tauler de planificació.
 

@@ -2,7 +2,7 @@
 title: Novetats o canvis al Project Service Automation versió 3
 description: En aquest tema es proporciona informació sobre les novetats i els canvis a la versió 3 del Project Service Automation.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072174"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119991"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novetats o canvis al Project Service Automation versió 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -37,10 +37,10 @@ La planificació del projecte, que es coneixia com a estructura de desglossament
 
 La planificació ara té una nova superfície per a la interacció que és moderna i accessible. No obstant, el motor de planificació del Project Service Automation subjacent no ha canviat. Els botons de control de la franja de la quadrícula de planificació us permeten interactuar amb la planificació de manera similar a la versió anterior del Project Service Automation. Els canvis addicionals a la planificació inclouen:
 
-- **Diagrama de Gantt** : el diagrama de Gantt ja no està present. Una visualització de Gannt nova tornarà en una actualització futura.
-- **Capçaleres de columna** : podeu amagar les capçaleres de columna de la quadrícula fent clic a l'indicador cap avall al costat del títol de la columna. 
-- **Columnes** : podeu mostrar les columnes amagades fent clic a **Afegeix columna**. 
-- **Categoria de la transacció** : una cerca de **Categoria la de transacció** s'ha afegit a la quadrícula de planificació i es mostra per defecte. 
+- **Diagrama de Gantt**: el diagrama de Gantt ja no està present. Una visualització de Gannt nova tornarà en una actualització futura.
+- **Capçaleres de columna**: podeu amagar les capçaleres de columna de la quadrícula fent clic a l'indicador cap avall al costat del títol de la columna. 
+- **Columnes**: podeu mostrar les columnes amagades fent clic a **Afegeix columna**. 
+- **Categoria de la transacció**: una cerca de **Categoria la de transacció** s'ha afegit a la quadrícula de planificació i es mostra per defecte. 
  
 ## <a name="project-templates"></a>Plantilles de projecte
 S'han fet canvis següents a la funcionalitat de la plantilla del projecte.
@@ -94,7 +94,7 @@ Les estimacions s'han dividit en dues pestanyes, **Assignació de recursos** i *
 
 ![Pestanya Assignacions de recursos mostrant les estimacions d'esforç i assignacions de recursos per a les tasques](media/resource-assignments-tab-02.png)
 
-A la pestanya **Estimacions** es mostren els imports de costos i de vendes de les assignacions de recursos. Els imports són només de lectura. El preu de costos i de vendes estan ara basats en les assignacions dels membres de l'equip a la planificació. Això vol dir que si teniu una tasca sense assignació, la tasca es mostrarà sota el dipòsit no assignat. Això també significa que sense **funció** , que és una dimensió de preus per defecte, no hi haurà cap cost o venda aproximada si teniu un client o un contracte/oferta associat amb el projecte. 
+A la pestanya **Estimacions** es mostren els imports de costos i de vendes de les assignacions de recursos. Els imports són només de lectura. El preu de costos i de vendes estan ara basats en les assignacions dels membres de l'equip a la planificació. Això vol dir que si teniu una tasca sense assignació, la tasca es mostrarà sota el dipòsit no assignat. Això també significa que sense **funció**, que és una dimensió de preus per defecte, no hi haurà cap cost o venda aproximada si teniu un client o un contracte/oferta associat amb el projecte. 
 
 ![Pestanya d'estimacions mostrant els imports de cost i vendes](media/estimates-tab-03.png)
   
@@ -105,12 +105,12 @@ Les estimacions de despesa es poden introduir a la quadrícula a la pestanya **E
 ![Pestanya d'estimacions de despesa mostrant la quadrícula d'estimacions de despesa](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Administració de recursos
-A la versió 3 del Project Service Automation, amb la nova interfície unificada del client i els canvis en la relació entre reserves i assignacions, afegir personal a un projecte amb recursos genèrics o reals ha canviat enormement de la versió 2 i de la versió 1. No obstant això, els conceptes de recursos que es poden reservar, tant **reals** com **genèrics** , continuen sent els mateixos, igual que els membres de l'equip, els requisits, les assignacions i les reserves.   
+A la versió 3 del Project Service Automation, amb la nova interfície unificada del client i els canvis en la relació entre reserves i assignacions, afegir personal a un projecte amb recursos genèrics o reals ha canviat enormement de la versió 2 i de la versió 1. No obstant això, els conceptes de recursos que es poden reservar, tant **reals** com **genèrics**, continuen sent els mateixos, igual que els membres de l'equip, els requisits, les assignacions i les reserves.   
 
 ![Utilitzar el selector de recursos](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Assignar un recurs real que es pot reservar 
-A la versió 3 del Project Service Automation, les reserves i assignacions de tasques no estan tan estretament entrellaçades com en versions anteriors del Project Service Automation. Podeu utilitzar la quadrícula de l'equip per reservar un membre de l'equip **real** , similar al dins del mercat.
+A la versió 3 del Project Service Automation, les reserves i assignacions de tasques no estan tan estretament entrellaçades com en versions anteriors del Project Service Automation. Podeu utilitzar la quadrícula de l'equip per reservar un membre de l'equip **real**, similar al dins del mercat.
 
 Mitjançant el selector de recursos de la planificació, podeu seleccionar el membre de l'equip creat a la visualització de l'equip i després assignar-los a tasques. Podeu continuar assignant-los tasques, fins i tot més enllà de les seves reserves. Utilitzeu la pestanya **Conciliació** per conciliar els membres de l'equip que tenen diferències en les reserves i les assignacions.
 
@@ -137,7 +137,7 @@ A la pestanya **Conciliació** es mostren les reserves i totes les assignacions 
 
 Per a cada recurs, la visualització pren la diferència entre les reserves d'un membre de l'equip i un informe de les assignacions de tasques i mostra les dues diferències següents que poden ocórrer amb les reserves i les assignacions d'un projecte: 
 
-- **Manca de reserves** : les manques de reserves es produeixen quan un recurs té més assignacions que reserves. Com que aquesta capacitat no s'ha reservat, un administrador de projecte pot corregir-ho ampliant les reserves del recurs fins a cobrir el dèficit. 
+- **Manca de reserves**: les manques de reserves es produeixen quan un recurs té més assignacions que reserves. Com que aquesta capacitat no s'ha reservat, un administrador de projecte pot corregir-ho ampliant les reserves del recurs fins a cobrir el dèficit. 
 - **Excés de reserves** un excés de reserves es produeix quan un recurs s'ha reservat al projecte però no s'ha assignat a tasques.  Això pot ser una ocurrència acceptable, per exemple, si el recurs s'ha reservat abans de l'assignació de tasques. No obstant, en altres casos, pot ser que el recurs no estigui pensat per assignar-se i l'administrador del projecte hauria de considerar la possibilitat de cancel·lar les reserves del recurs per permetre l'ús de la capacitat en un altre projecte. 
 
 Quan teniu assignacions de tasques per a un recurs sense reserves (una manca de reserves), podeu seleccionar la manca de reserves agregada i fer clic a **Estén la reserva**. Des d'aquí, podeu visualitzar la reserva necessària per fer front a la manca del recurs i a la seva disponibilitat. 
@@ -158,7 +158,7 @@ Feu clic a **Nova** a la franja per obrir una pàgina de creació ràpida per a 
 Els camps de cerca es basen en visualitzacions del sistema. Per exemple, després d'introduir la informació d 'un projecte, el camp **Tasca del projecte** el defineix per defecte la visualització **Les meves tasques de projecte obertes**. Per crear entrades de temps per a les tasques que no s'assignen a l'usuari, feu clic a **Canvia la visualització** a la cerca i seleccioneu **Totes les tasques de projecte actives**. Després d'haver creat l'entrada de temps i que es mostri a la quadrícula, podeu editar tots els valors de la línia directament a la quadrícula.  
 
 ### <a name="bulk-createcopy"></a>Creació/còpia massiva 
-Després de crear algunes d'entrades de temps, podeu utilitzar la funcionalitat de còpia per crear entrades de temps addicionals massivament. Feu clic a **Copia** per obrir el diàleg **Copia**. A **Del període: data d'inici** , definiu l'interval de dates des del qual s'han de copiar els períodes de temps. A **Al període: data d'inici** , especifiqueu la data per a la qual s'han de crear les entrades de temps. Feu clic a **Copia** per copiar les entrades de temps al dia corresponent de la setmana indicat a **Al període**. Per exemple, l'entrada de temps del dilluns de la setmana passada es copiarà al dilluns de la setmana indicada a **Al període**. 
+Després de crear algunes d'entrades de temps, podeu utilitzar la funcionalitat de còpia per crear entrades de temps addicionals massivament. Feu clic a **Copia** per obrir el diàleg **Copia**. A **Del període: data d'inici**, definiu l'interval de dates des del qual s'han de copiar els períodes de temps. A **Al període: data d'inici**, especifiqueu la data per a la qual s'han de crear les entrades de temps. Feu clic a **Copia** per copiar les entrades de temps al dia corresponent de la setmana indicat a **Al període**. Per exemple, l'entrada de temps del dilluns de la setmana passada es copiarà al dilluns de la setmana indicada a **Al període**. 
 
 ![Copiar entrades de temps massivament](media/bulk-copy-time-entry-09.png)
  
@@ -172,9 +172,9 @@ A la versió 3, hem abandonat el control de calendari personalitzat i ara s'util
 > Una limitació del calendari és que aquest control no admet accions sobre els elements de calendari individuals. Per exemple, no podreu seleccionar un o diversos elements de calendari i enviar o suprimir aquests elements. En fer clic en un element del calendari s'obrirà la pàgina **Entitat d'entrada de temps** per a les accions addicionals. 
 
 ### <a name="extensibility"></a>Capacitat d'ampliació
-**Captura dades dels camps personalitzats només a les entitats de temps i de despesa** : l'entrada de temps utilitza una quadrícula editable, una quadrícula només de lectura i controls de calendari de la plataforma. Tots aquests controls són natius i, per tant, seran compatibles amb les personalitzacions. A la versió 3 del Project Service Automation, podeu afegir camps addicionals personalitzats, configurar camps de cerca i donar-los suport amb visualitzacions personalitzades. També podeu definir una lògica empresarial personalitzada en funció dels valors seleccionats dels camps personalitzats.  
+**Captura dades dels camps personalitzats només a les entitats de temps i de despesa**: l'entrada de temps utilitza una quadrícula editable, una quadrícula només de lectura i controls de calendari de la plataforma. Tots aquests controls són natius i, per tant, seran compatibles amb les personalitzacions. A la versió 3 del Project Service Automation, podeu afegir camps addicionals personalitzats, configurar camps de cerca i donar-los suport amb visualitzacions personalitzades. També podeu definir una lògica empresarial personalitzada en funció dels valors seleccionats dels camps personalitzats.  
 
-**Captura dades dels camps personalitzats a l'entrada de temps i de despeses i difon-les per mitjà d'entitats que suportin el flux d'enviament i d'aprovació** : el processament típic de les entrades de temps es mostra al diagrama següent.
+**Captura dades dels camps personalitzats a l'entrada de temps i de despeses i difon-les per mitjà d'entitats que suportin el flux d'enviament i d'aprovació**: el processament típic de les entrades de temps es mostra al diagrama següent.
 
 ![Processament d'entrades de temps](media/process-time-entries-10.png)
 
@@ -192,7 +192,7 @@ La plataforma del Common Data Service no permet que un usuari en suplanti a un a
 La personalització us permet afegir **Recursos que es poden reservar** a les experiències de creació i edició, la qual cosa permetrà a l'usuari actuar com a delegat canviant el camp **Recurs de reserva** a un altre usuari per al qual s'han de registrar les entrades de temps i de despesa. En els passos següents es cobreix la delegació d'entrada de temps. La mateixa informació s'aplica a la delegació de l'entrada de despeses. 
  
 1.  Assegureu-vos que l'usuari delegat tingui accés de seguretat global a projectes i tasques de projecte. 
-1.  Com que el **Recurs que es pot reservar** , que és un camp de l'entitat **Entrada de temps** , no s'exposa a la pàgina **Creació ràpida** , heu d'afegir-la.
+1.  Com que el **Recurs que es pot reservar**, que és un camp de l'entitat **Entrada de temps**, no s'exposa a la pàgina **Creació ràpida**, heu d'afegir-la.
 
     -o bé-
 

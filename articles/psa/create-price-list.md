@@ -3,7 +3,7 @@ title: Crear una llista de preus
 description: Com crear una llista de preus al Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072248"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122016"
 ---
 # <a name="create-a-price-list-project-service"></a>Crear una llista de preus (Project Service)
 
@@ -39,33 +39,33 @@ Les llistes de preus es basen en funcions i categories de despesa i, per tant, a
   
 2.  Feu clic a **Nou**.  
   
-3.  A **Context** , seleccioneu si aquesta llista de preus és per a **Costos** , **Compres** o **Vendes**.  
+3.  A **Context**, seleccioneu si aquesta llista de preus és per a **Costos**, **Compres** o **Vendes**.  
   
-4.  A **Nom** , introduïu un nom per a la llista de preus.  
+4.  A **Nom**, introduïu un nom per a la llista de preus.  
   
-5.  A **Moneda** , seleccioneu la moneda que utilitzareu per a la facturació o els costos.  
+5.  A **Moneda**, seleccioneu la moneda que utilitzareu per a la facturació o els costos.  
   
-6.  A **Unitat de temps** , especifiqueu el període de temps al qual s'aplica el preu, com ara dia o hora.  
+6.  A **Unitat de temps**, especifiqueu el període de temps al qual s'aplica el preu, com ara dia o hora.  
   
-7.  Empleneu la **Data d'inici** , la **Data final** i la **Descripció** segons sigui necessari.  
+7.  Empleneu la **Data d'inici**, la **Data final** i la **Descripció** segons sigui necessari.  
   
 8.  Feu clic a **Desa** per crear el projecte per tal que el pugueu continuar editant.  
   
 9. Per afegir un preu de funció a la llista de preus, feu clic a **+** a **Preus de funció**.  
   
-10. A la subfinestra **Preu de funció** , empleneu els detalls i, a continuació, feu clic a **Desa**. Continueu afegint els preus de funcions que calguin. Quan hagueu acabat, feu clic a **Desa** a la cantonada inferior dreta de la pantalla.  
+10. A la subfinestra **Preu de funció**, empleneu els detalls i, a continuació, feu clic a **Desa**. Continueu afegint els preus de funcions que calguin. Quan hagueu acabat, feu clic a **Desa** a la cantonada inferior dreta de la pantalla.  
   
 11. Per afegir un preu de categoria de despesa a la llista de preus, feu clic a **+** a **Preus de categoria**.  
   
-12. A la subfinestra **Preu de categoria de transacció** , empleneu els detalls i, a continuació, feu clic a **Desa**. Continueu afegint els preus de categoria que calguin. Quan hagueu acabat, feu clic a **Desa** a la cantonada inferior dreta de la pantalla.  
+12. A la subfinestra **Preu de categoria de transacció**, empleneu els detalls i, a continuació, feu clic a **Desa**. Continueu afegint els preus de categoria que calguin. Quan hagueu acabat, feu clic a **Desa** a la cantonada inferior dreta de la pantalla.  
   
 13. Per afegir elements de la llista de preus a la llista de preus, feu clic a **+** a **Elements de la llista de preus**.  
   
-14. A la subfinestra **Element de la llista de preus** , empleneu els detalls i, a continuació, feu clic a **Desa**. Continueu afegint els elements de la llista de preus que calguin. Quan hagueu acabat, feu clic a **Desa** a la cantonada inferior dreta de la pantalla.  
+14. A la subfinestra **Element de la llista de preus**, empleneu els detalls i, a continuació, feu clic a **Desa**. Continueu afegint els elements de la llista de preus que calguin. Quan hagueu acabat, feu clic a **Desa** a la cantonada inferior dreta de la pantalla.  
   
 15. Per afegir relacions de zones de vendes a la llista de preus, feu clic a **+** a **Relacions de zona de vendes**.  
   
-16. A la finestra **Nova connexió** , empleneu els detalls i, a continuació, feu clic a **Desa**. Continueu afegint les relacions de zona de venda que sigui necessàries. Quan hagueu acabat, feu clic a **Desa** a la cantonada inferior dreta de la pantalla.  
+16. A la finestra **Nova connexió**, empleneu els detalls i, a continuació, feu clic a **Desa**. Continueu afegint les relacions de zona de venda que sigui necessàries. Quan hagueu acabat, feu clic a **Desa** a la cantonada inferior dreta de la pantalla.  
   
 ### <a name="see-also"></a>Vegeu també  
  [Configurar el Project Service Automation](../psa/configure.md)

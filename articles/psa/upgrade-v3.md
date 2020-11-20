@@ -2,7 +2,7 @@
 title: Consideracions d'actualització - Versió 2.x o 1.x del Microsoft Dynamics 365 Project Service Automation a la versió 3
 description: En aquest tema es proporciona informació sobre les consideracions que heu de fer en actualitzar des de la versió 2.x o 1.x a la versió 3 del Project Service Automation.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072292"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121701"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideracions d'actualització - Versió 2.x o 1.x del PSA a la versió 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -77,7 +77,7 @@ A la versió 2 i la versió 1, els projectes amb recursos genèrics poden estar 
 
 Abans de començar l'actualització, us recomanem que torneu a generar l'equip de cada projecte que tingui les tasques assignades als recursos genèrics o per al qual encara no s'ha executat el procés de generació de l'equip.
 
-Per a les tasques assignades a membres de l'equip genèric que es van generar amb **Genera un equip** , l'actualització deixarà el recurs genèric a l'equip i deixarà l'assignació al membre de l'equip genèric. Us recomanem que genereu el requisit de recurs per al membre de l'equip genèric després de l'actualització, però abans de reservar o enviar una sol·licitud de recurs. Això conservarà qualsevol assignació d'unitat organitzativa als membres de l'equip genèric que són diferents a la unitat organitzativa de contractació del projecte.
+Per a les tasques assignades a membres de l'equip genèric que es van generar amb **Genera un equip**, l'actualització deixarà el recurs genèric a l'equip i deixarà l'assignació al membre de l'equip genèric. Us recomanem que genereu el requisit de recurs per al membre de l'equip genèric després de l'actualització, però abans de reservar o enviar una sol·licitud de recurs. Això conservarà qualsevol assignació d'unitat organitzativa als membres de l'equip genèric que són diferents a la unitat organitzativa de contractació del projecte.
 
 Per exemple, en el projecte Projecte Z, la unitat organitzativa de contractació és Contoso US. En el pla del projecte, a les tasques de prova dins de la fase d'implementació s'ha assignat el rol de consultor tècnic i la unitat organitzativa assignada és Contoso India.
 

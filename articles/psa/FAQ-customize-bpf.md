@@ -2,7 +2,7 @@
 title: Com puc personalitzar el flux del procés de negoci del Project Stages?
 description: Informació general sobre com personalitzar el flux del procés de negoci de les fases del projecte.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072398"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125015"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Com puc personalitzar el flux del procés de negoci del Project Stages?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Hi ha una limitació coneguda en les versions anteriors de l'aplicació del Project Service que els noms de les etapes en el flux del procés de negoci del Project Stages han de coincidir exactament amb els noms esperats en anglès ( **Quote** , **Plan** , **Close** ). En cas contrari, la lògica empresarial, que es basa en els noms de les etapes en anglès, no funcionarà com s'espera. És per això que no hi ha accions familiars com **Canvia el procés** o **Edita el procés** disponibles al formulari del projecte i no es recomana personalitzar el flux del procés de negoci. 
+Hi ha una limitació coneguda en les versions anteriors de l'aplicació del Project Service que els noms de les etapes en el flux del procés de negoci del Project Stages han de coincidir exactament amb els noms esperats en anglès (**Quote**, **Plan**, **Close**). En cas contrari, la lògica empresarial, que es basa en els noms de les etapes en anglès, no funcionarà com s'espera. És per això que no hi ha accions familiars com **Canvia el procés** o **Edita el procés** disponibles al formulari del projecte i no es recomana personalitzar el flux del procés de negoci. 
 
 Aquesta limitació s'ha corregit a la versió 2.4.5.48 i posterior. Aquest article proporciona solucions alternatives suggerides per si ha de personalitzar el flux del procés de negoci predeterminat en versions anteriors.  
 
@@ -38,7 +38,7 @@ Aquesta limitació s'ha corregit a la versió 2.4.5.48 i posterior. Aquest artic
 El flux del procés de negoci del Project Stages inclou la lògica empresarial que impulsa els següents comportaments en l'aplicació:
 - Quan el projecte està associat a una oferta, el codi estableix el flux del procés de negoci en l'etapa de **Quote**.
 - Quan el projecte està associat a un contracte, el codi estableix el flux del procés de negoci en l'etapa de **Plan**.
-- Quan el flux del procés de negoci avança fins a l'etapa **Close** , el registre del projecte es desactiva. Quan el projecte està desactivat, el formulari del projecte i l'estructura del desglossament del treball (WBS) es configuren com de només lectura, es publiquen les reserves de recursos amb nom i es desactiven les llistes de preus associades.
+- Quan el flux del procés de negoci avança fins a l'etapa **Close**, el registre del projecte es desactiva. Quan el projecte està desactivat, el formulari del projecte i l'estructura del desglossament del treball (WBS) es configuren com de només lectura, es publiquen les reserves de recursos amb nom i es desactiven les llistes de preus associades.
 
 Aquesta lògica empresarial es basa en els noms en anglès per a les etapes del projecte. Aquesta dependència dels noms d'etapa en anglès és la principal raó per la qual no es recomana personalitzar el flux del procés de negoci del Project Stages, i per la qual no es veuen les accions comunes com **Canvia el procés** o **Edita el procés** a l'entitat del projecte.
 
@@ -48,7 +48,7 @@ En la versió 1.x de l'aplicació Project Service a la plataforma 8.2, quan els 
 
 A l'aplicació del Project Service versió 2.4.4.30 o anterior a la plataforma 9.0, hi va haver un canvi arquitectònic significatiu en els fluxos del procés de negoci que va requerir una reescriptura de la lògica empresarial. Com a resultat, si els noms d'etapa del procés no coincideixen amb els noms en anglès esperats, apareixerà un missatge d'error. 
 
-Per tant, si desitgeu personalitzar el flux del procés de negoci del Project Stages per a l'entitat del projecte, només podreu afegir noves etapes al flux predeterminat per l'entitat del projecte, si manteniu les fases **Quote** , **Plan** i **Close** tal com estan. Aquesta restricció garanteix que no apareguin errors de lògica empresarial que esperen els noms de les fases en anglès en el flux del procés de negoci.
+Per tant, si desitgeu personalitzar el flux del procés de negoci del Project Stages per a l'entitat del projecte, només podreu afegir noves etapes al flux predeterminat per l'entitat del projecte, si manteniu les fases **Quote**, **Plan** i **Close** tal com estan. Aquesta restricció garanteix que no apareguin errors de lògica empresarial que esperen els noms de les fases en anglès en el flux del procés de negoci.
 
 En la versió 2.4.5.48 o posterior, la lògica empresarial descrita en aquest article s'ha eliminat del flux del procés de negoci predeterminat per l'entitat del projecte. L'actualització a aquesta versió o posterior permetrà personalitzar o reemplaçar el flux del procés de negoci predeterminat per un de propi. 
 
@@ -56,12 +56,12 @@ En la versió 2.4.5.48 o posterior, la lògica empresarial descrita en aquest ar
 
 Si l'actualització no és una opció, podeu personalitzar el flux del procés de negoci del Project Stages per a l'entitat del projecte d'una d'aquestes dues maneres:
 
-1. Afegiu fases addicionals a la configuració per defecte i conserveu els noms en anglès per a **Quote** , **Plan** i **Close**.
+1. Afegiu fases addicionals a la configuració per defecte i conserveu els noms en anglès per a **Quote**, **Plan** i **Close**.
 
 
 ![Captura de pantalla que mostra com afegir fases a la configuració per defecte](media/FAQ-Customize-BPF-1.png)
  
-2. Creu el vostre propi flux del procés de negoci i convertiu-lo en el flux principal per a l'entitat del projecte i podreu tenir els noms que vulgueu per a les fases. No obstant això, si voleu utilitzar les mateixes fases de projecte estàndard **Quote** , **Plan** i **Close** , heu de realitzar algunes personalitzacions que eliminaran els vostres noms personalitzats. La lògica més complexa es troba en el tancament del projecte però la podeu activar simplement desactivant el registre del projecte.
+2. Creu el vostre propi flux del procés de negoci i convertiu-lo en el flux principal per a l'entitat del projecte i podreu tenir els noms que vulgueu per a les fases. No obstant això, si voleu utilitzar les mateixes fases de projecte estàndard **Quote**, **Plan** i **Close**, heu de realitzar algunes personalitzacions que eliminaran els vostres noms personalitzats. La lògica més complexa es troba en el tancament del projecte però la podeu activar simplement desactivant el registre del projecte.
 
 ![Personalització del BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Per crear el vostre propi flux del procés de negoci per a l'entitat del project
 
   ![Crear un procés](media/FAQ-Customize-BPF-3.png)
 
-2. Utilitzeu el Dissenyador de processos per crear els noms de fases que desitgeu. Si desitgeu la mateixa funcionalitat que les fases predeterminades per a **Quote** , **Plan** i **Close** , haureu de crear-la en funció dels noms de fase del flux del procés de negoci personalitzats.
+2. Utilitzeu el Dissenyador de processos per crear els noms de fases que desitgeu. Si desitgeu la mateixa funcionalitat que les fases predeterminades per a **Quote**, **Plan** i **Close**, haureu de crear-la en funció dels noms de fase del flux del procés de negoci personalitzats.
 
    ![Captura de pantalla del dissenyador de processos utilitzat per personalitzar BPF](media/FAQ-Customize-BPF-4.png) 
 

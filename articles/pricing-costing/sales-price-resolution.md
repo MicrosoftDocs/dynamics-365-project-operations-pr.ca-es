@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4ae5b3c4a4378330caed97011f55ca11175e644
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087825"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119541"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolució dels preus de venda per a les estimacions i els valors reals
 
@@ -27,12 +27,12 @@ Al Project Operations, les línies d'estimació per al temps s'utilitzen per den
 
 Després de resoldre una llista de preus per a les vendes, el sistema completa els següents passos per obtenir la tarifa de facturació per defecte.
 
-1. El sistema utilitza els camps **Funció** , **Empresa de recursos** i **Unitat de recursos** en la línia d'estimació de temps per a la coincidència amb les línies de preu per funció en la llista de preus resolts. Aquesta assignació assumeix que esteu utilitzant dimensions de preus de fàbrica per a les tarifes de facturació. Si heu configurat el preu en funció de qualsevol altre camp en comptes de, o a més de **Funció** , **Empresa de recursos** i **Unitat de recursos** , llavors aquesta és la combinació que s'utilitzarà per recuperar una línia de preu per funció coincident.
-2. Si el sistema troba una línia de preu per funció que té una tarifa de facturació per la combinació de camps **Funció** , **Empresa de recursos** i **Unitat de recursos** , llavors la tarifa de facturació és el valor per defecte.
-3. Si el sistema no és capaç de fer coincidir els valors dels camps **Funció** , **Empresa de recursos** i **Unitat de recursos** , llavors recupera línies de preu per funció amb una funció coincident però valors nuls per a **Unitat de recursos**. Després que el sistema trobi un registre de preu per funció coincident, la tarifa de facturació per defecte és la d'aquest registre. Aquesta assignació assumeix una configuració de fàbrica per a la prioritat relativa de **Funció** i **Unitat de recursos** com a dimensió de preus de vendes.
+1. El sistema utilitza els camps **Funció**, **Empresa de recursos** i **Unitat de recursos** en la línia d'estimació de temps per a la coincidència amb les línies de preu per funció en la llista de preus resolts. Aquesta assignació assumeix que esteu utilitzant dimensions de preus de fàbrica per a les tarifes de facturació. Si heu configurat el preu en funció de qualsevol altre camp en comptes de, o a més de **Funció**, **Empresa de recursos** i **Unitat de recursos**, llavors aquesta és la combinació que s'utilitzarà per recuperar una línia de preu per funció coincident.
+2. Si el sistema troba una línia de preu per funció que té una tarifa de facturació per la combinació de camps **Funció**, **Empresa de recursos** i **Unitat de recursos**, llavors la tarifa de facturació és el valor per defecte.
+3. Si el sistema no és capaç de fer coincidir els valors dels camps **Funció**, **Empresa de recursos** i **Unitat de recursos**, llavors recupera línies de preu per funció amb una funció coincident però valors nuls per a **Unitat de recursos**. Després que el sistema trobi un registre de preu per funció coincident, la tarifa de facturació per defecte és la d'aquest registre. Aquesta assignació assumeix una configuració de fàbrica per a la prioritat relativa de **Funció** i **Unitat de recursos** com a dimensió de preus de vendes.
 
 > [!NOTE]
-> Si heu configurat una priorització diferent de **Funció** , **Empresa de recursos** i **Unitat de recursos** , o si teniu altres dimensions que tenen una prioritat més alta, aquest comportament canviarà en conseqüència. El sistema recupera els registres de preus per funció amb valors coincidents amb cadascun dels valors de la dimensió de preus en ordre de prioritat amb les files que tenen valors nuls per a aquestes dimensions al final.
+> Si heu configurat una priorització diferent de **Funció**, **Empresa de recursos** i **Unitat de recursos**, o si teniu altres dimensions que tenen una prioritat més alta, aquest comportament canviarà en conseqüència. El sistema recupera els registres de preus per funció amb valors coincidents amb cadascun dels valors de la dimensió de preus en ordre de prioritat amb les files que tenen valors nuls per a aquestes dimensions al final.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Resolució de tarifes de vendes en línies de valors reals i estimacions per a les despeses
 
@@ -41,7 +41,7 @@ Al Project Operations, les línies d'estimació per a les despeses s'utilitzen p
 Després de resoldre una llista de preus per a les vendes, el sistema completa els següents passos per obtenir el preu de venda per unitat per defecte.
 
 1. El sistema utilitza la combinació dels camps **Categoria** i **Unitat** a la línia de despesa estimada per assignar-los a les línies de preu de categoria en la llista de preus resolta.
-2. Si el sistema troba una línia de preu per categoria que té una tarifa de venda per a la combinació de camps **Categoria** i **Unitat** , aquesta és la tarifa de venda per defecte.
+2. Si el sistema troba una línia de preu per categoria que té una tarifa de venda per a la combinació de camps **Categoria** i **Unitat**, aquesta és la tarifa de venda per defecte.
 3. Si el sistema troba una línia de preu per categoria coincident, el mètode de preus es pot utilitzar per determinar el preu de venda per defecte. La següent taula mostra el comportament per determinar el preu per defecte de les despeses al Project Operations.
 
     | Context | Mètode de càlcul de preus | Preu per defecte |
@@ -53,4 +53,4 @@ Després de resoldre una llista de preus per a les vendes, el sistema completa e
     | &nbsp; | A partir del cost | Basat en el valor real de cost relacionat |
     | &nbsp; | Marge comercial sobre el cost | Aplicant un marge comercial tal com defineix la línia de preus de categoria a la tarifa de cost unitari del valor real de cost relacionat |
 
-4. Si el sistema no pot fer coincidir els valors dels camps **Categoria** i **Unitat** , la tarifa de vendes per defecte és zero (0).
+4. Si el sistema no pot fer coincidir els valors dels camps **Categoria** i **Unitat**, la tarifa de vendes per defecte és zero (0).

@@ -3,7 +3,7 @@ title: Línies d'oferta basades en productes
 description: En aquest tema es proporciona informació sobre les línies d'oferta basades en productes.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072392"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123186"
 ---
 # <a name="product-based-quote-lines"></a>Línies d'oferta basades en productes
 
@@ -54,7 +54,7 @@ Si una línia d'oferta es basa en un catàleg de productes, podeu substituir el 
 - Substitueix el preu  
 - Utilitza el valor per defecte
 
-Si definiu aquest camp com a **Substitueix el preu** , el Dynamics 365 no configura cap preu per defecte. Heu d'introduir un preu per al producte a la línia d'oferta. Si definiu aquest camp com a **Utilitza els valors per defecte** , el Dynamics 365 utilitza el preu de vendes per defecte i bloca el camp per evitar l'edició.
+Si definiu aquest camp com a **Substitueix el preu**, el Dynamics 365 no configura cap preu per defecte. Heu d'introduir un preu per al producte a la línia d'oferta. Si definiu aquest camp com a **Utilitza els valors per defecte**, el Dynamics 365 utilitza el preu de vendes per defecte i bloca el camp per evitar l'edició.
 
 Després d'instal·lar el PSA, els preus de vendes per defecte s'introdueixen a les línies basades en productes en una oferta. El camp **Preu** es defineix com a **Substitueix el preu** per tal que pugueu editar el preu per defecte a les línies d'oferta.
 
@@ -72,8 +72,8 @@ El PSA valida que només les propietats numèriques o les propietats dels produc
 
 Per exemple, el Dynamics 365 pot tenir les propietats següents: 
 
-- **Nombre d'usuaris** : el nombre d'usuaris 
-- **Nombre de mesos** : el nombre de mesos de subscripció
+- **Nombre d'usuaris**: el nombre d'usuaris 
+- **Nombre de mesos**: el nombre de mesos de subscripció
 - **SKU de producte** 
 
 Les propietats **Nombre d'usuaris** i **Nombre de mesos** es poden marcar com a factors de quantitat per editar les propietats de la línia de productes. 

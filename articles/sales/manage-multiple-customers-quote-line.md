@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072088"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118551"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Administració de diversos clients a les línies d'ofertes basades en projectes
 
@@ -33,11 +33,11 @@ La taula següent mostra els camps del registre del client d'oferta d'una línia
 
 | Camp | Location | Descripció i instruccions | Impacte descendent |
 | --- | --- | --- | --- |
-| **Compte** | Quadrícula editable a la pestanya **Clients de la línia d'oferta** , al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | Enumera tots els comptes actius. Aquest camp està blocat quan es crea el registre. Si heu d'actualitzar el camp, suprimiu i torneu a crear el registre. Si heu enregistrat valors reals, no podeu suprimir el registre. | En triar un compte de la llista mestra de comptes per afegir, el client de la línia d'oferta també s'afegeix com a client d'oferta. En guanyar una oferta, els clients de la línia d'oferta també es copiaran al clients de la línia de contracte del projecte. |
-| **Percentatge dividit de facturació** | Quadrícula editable a la pestanya **Clients de la línia d'oferta** , al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | Representa el percentatge de cada transacció de vendes sense facturar que s'atribuirà a aquest client de la línia d'oferta. | Es copia als clients de la línia de contracte del projecte. |
-| **Límit que no s’ha de superar** | Quadrícula editable a la pestanya **Clients de la línia d'oferta** , al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | Indica si hi ha un límit o un màxim negociat a l'import global que es facturarà a aquest client per a aquesta línia d'oferta. | Es copia als clients de la línia de contracte del projecte quan es guanya una oferta. |
-| **Empresa propietària** | Quadrícula editable a la pestanya **Clients de la línia d'oferta** , al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | L'entitat jurídica en la qual està configurat aquest client dins del mòdul **Administració de projectes i comptabilitat**. Aquest camp és només de lectura i es defineix a l'empresa propietària de l'oferta. La llista de clients que s'afegeixen al camp **Compte** ja està filtrada a la llista de l'empresa propietària al mòdul **Administració de projectes i comptabilitat** del Project Operations. | L'empresa propietària és equivalent al concepte d'entitat jurídica. Totes les despeses i ingressos acumulats d'aquest projecte es comptabilitzen al registre general de l'empresa propietària. |
-| **És arrodoniment** | Quadrícula editable a la pestanya **Clients de la línia d'oferta** , al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | Indica si aquest client és un client d'arrodoniment per defecte de la línia d'oferta basada en projectes. | Es copia als clients del contracte del projecte quan es guanya una oferta. |
+| **Compte** | Quadrícula editable a la pestanya **Clients de la línia d'oferta**, al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | Enumera tots els comptes actius. Aquest camp està blocat quan es crea el registre. Si heu d'actualitzar el camp, suprimiu i torneu a crear el registre. Si heu enregistrat valors reals, no podeu suprimir el registre. | En triar un compte de la llista mestra de comptes per afegir, el client de la línia d'oferta també s'afegeix com a client d'oferta. En guanyar una oferta, els clients de la línia d'oferta també es copiaran al clients de la línia de contracte del projecte. |
+| **Percentatge dividit de facturació** | Quadrícula editable a la pestanya **Clients de la línia d'oferta**, al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | Representa el percentatge de cada transacció de vendes sense facturar que s'atribuirà a aquest client de la línia d'oferta. | Es copia als clients de la línia de contracte del projecte. |
+| **Límit que no s’ha de superar** | Quadrícula editable a la pestanya **Clients de la línia d'oferta**, al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | Indica si hi ha un límit o un màxim negociat a l'import global que es facturarà a aquest client per a aquesta línia d'oferta. | Es copia als clients de la línia de contracte del projecte quan es guanya una oferta. |
+| **Empresa propietària** | Quadrícula editable a la pestanya **Clients de la línia d'oferta**, al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | L'entitat jurídica en la qual està configurat aquest client dins del mòdul **Administració de projectes i comptabilitat**. Aquest camp és només de lectura i es defineix a l'empresa propietària de l'oferta. La llista de clients que s'afegeixen al camp **Compte** ja està filtrada a la llista de l'empresa propietària al mòdul **Administració de projectes i comptabilitat** del Project Operations. | L'empresa propietària és equivalent al concepte d'entitat jurídica. Totes les despeses i ingressos acumulats d'aquest projecte es comptabilitzen al registre general de l'empresa propietària. |
+| **És arrodoniment** | Quadrícula editable a la pestanya **Clients de la línia d'oferta**, al formulari principal i al formulari de creació ràpida per a un client de línia d'oferta. | Indica si aquest client és un client d'arrodoniment per defecte de la línia d'oferta basada en projectes. | Es copia als clients del contracte del projecte quan es guanya una oferta. |
 
 ## <a name="edit-billing-split-percentages"></a>Edició dels percentatges de divisió de la facturació
 

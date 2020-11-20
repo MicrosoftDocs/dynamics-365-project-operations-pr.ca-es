@@ -3,7 +3,7 @@ title: Configuració del projecte
 description: Aquest tema proporciona informació sobre la configuració de l'administració de projectes.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072375"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123096"
 ---
 # <a name="project-settings"></a>Configuració del projecte
 
@@ -36,12 +36,12 @@ Utilitzeu la configuració següent per accedir a les característiques de plani
 Per crear una planificació de projecte, creeu uns plantilla de calendari de projecte que defineixi el nombre d'hores de treball al dia i qualsevol tancament de negoci. Per crear una plantilla de calendari de projecte, associeu una plantilla de treball amb el camp **Plantilla de calendari** per al projecte. Seguiu els passos que es descriuen a continuació per crear una plantilla de treball.
 
 1. Al PSA, a la subfinestra de navegació de l'esquerra, feu clic a **Recursos**. 
-2. A la pàgina de la llista **Recursos** , obriu un registre d'usuari i després seleccioneu **Mostra les hores de treball**.
+2. A la pàgina de la llista **Recursos**, obriu un registre d'usuari i després seleccioneu **Mostra les hores de treball**.
 
   > [!NOTE]
   > Assegureu-vos que permeteu les finestres emergents a la pàgina del navegador. Això us permet veure les hores de feina definides per al recurs.
   
-3. A la pestanya **Visualització mensual** , feu clic a **Configura**. Es mostra una llista de tres opcions: 
+3. A la pestanya **Visualització mensual**, feu clic a **Configura**. Es mostra una llista de tres opcions: 
 
   - Planificació setmanal nova
   - Planificació de treball per a un dia
@@ -65,4 +65,4 @@ Cada organització ha de configurar aquestes funcions a la pàgina **Categories 
 
 ## <a name="price-lists"></a>Llistes de preus
 
-Les llistes de preus us permeten definir costos i preus de venda per a les funcions de recursos, categories de despeses i altres elements d'una organització. Abans de definir previsions financeres dels treballs que s'han de lliurar per a projecte, hauríeu de crear un cost de reserva i una llista de preus de venda. A la secció de paràmetres, també heu de configurar una llista de preus i costos de vendes per defecte que s'apliqui a tots els projectes que es creen a l'organització. A la pàgina **Paràmetres del projecte actius** , assegureu-vos de configurar una llista de preus i costos de vendes per defecte.
+Les llistes de preus us permeten definir costos i preus de venda per a les funcions de recursos, categories de despeses i altres elements d'una organització. Abans de definir previsions financeres dels treballs que s'han de lliurar per a projecte, hauríeu de crear un cost de reserva i una llista de preus de venda. A la secció de paràmetres, també heu de configurar una llista de preus i costos de vendes per defecte que s'apliqui a tots els projectes que es creen a l'organització. A la pàgina **Paràmetres del projecte actius**, assegureu-vos de configurar una llista de preus i costos de vendes per defecte.

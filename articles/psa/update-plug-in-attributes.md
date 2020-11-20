@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072295"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121836"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Actualitzar els atributs de complement per incloure noves dimensions de preus
 
@@ -50,7 +50,7 @@ En els passos següents s'explica el procés per registrar els complements.
 
  ![Captura de pantalla del complement que s'actualitzarà](media/PRT-2.png)
  
-5. A la finestra de l'actualització, feu clic als punts suspensius ( **...** ) als atributs de filtratge.
+5. A la finestra de l'actualització, feu clic als punts suspensius (**...**) als atributs de filtratge.
 
  ![Captura de pantalla de la informació de configuració d'actualització d'un pas existent](media/PRT-3.png)
  

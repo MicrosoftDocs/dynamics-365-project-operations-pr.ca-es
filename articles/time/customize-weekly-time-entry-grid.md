@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072111"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124626"
 ---
 # <a name="extending-time-entries"></a>Ampliació d'entrades de temps
 
@@ -33,7 +33,7 @@ L'ampliació de les entrades de temps és possible en dos àmbits:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Afegir entrades de temps personalitzades per a l'ús propi
 
-Les entrades de temps són una entitat principal utilitzada en diversos escenaris. A la fase 1 d'abril de 2020, es va introduir la solució central de TESA. TESA proporciona una entitat **Configuració** i una nova funció de seguretat **Usuari d'entrada de temps**. També s'hi han inclòs els nous camps, **msdyn_start** i **msdyn_end** , que tenen una relació directa amb **msdyn_duration**. L'entitat nova, la funció de seguretat i els camps permeten una aproximació més unificada al temps en diversos productes.
+Les entrades de temps són una entitat principal utilitzada en diversos escenaris. A la fase 1 d'abril de 2020, es va introduir la solució central de TESA. TESA proporciona una entitat **Configuració** i una nova funció de seguretat **Usuari d'entrada de temps**. També s'hi han inclòs els nous camps, **msdyn_start** i **msdyn_end**, que tenen una relació directa amb **msdyn_duration**. L'entitat nova, la funció de seguretat i els camps permeten una aproximació més unificada al temps en diversos productes.
 
 
 ### <a name="time-source-entity"></a>Entitat d'origen de temps
@@ -103,28 +103,28 @@ Personalitzeu la visualització **Les meves entrades de temps setmanal** i afegi
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Crea una entrada de temps personalitzada per defecte nova
 
-Aquesta visualització hauria de contenir els camps **Descripció** i **Comentaris externs** , a més de les columnes que voleu tenir a la quadrícula. 
+Aquesta visualització hauria de contenir els camps **Descripció** i **Comentaris externs**, a més de les columnes que voleu tenir a la quadrícula. 
 
 1. Trieu la posició, la mida i l'ordre per defecte de la quadrícula editant aquestes propietats a la visualització. 
 2. Configureu el control personalitzat per a aquesta visualització per tal que sigui un control **Quadrícula d'entrada de temps**. 
 3. Afegiu aquest control a la visualització i seleccioneu-lo per a la web, telèfons i tauletes. 
 4. Configureu els paràmetres per a la quadrícula d'entrada de temps setmanal. 
-5. Definiu el camp **Data d'Inici** a **msdyn_date** , definiu el camp **Duració** a **msdyn_duration** i definiu el camp **Estat** a **msdyn_entrystatus**. 
+5. Definiu el camp **Data d'Inici** a **msdyn_date**, definiu el camp **Duració** a **msdyn_duration** i definiu el camp **Estat** a **msdyn_entrystatus**. 
 6. Per a la visualització per defecte, el camp **Llista d'estat de només lectura** s'estableix a **192350002,19235003,192350004**. El camp **Flux de tasca d'edició de fila** s'estableix a **msdyn_timeentryrowedit**. El camp **Flux de tasca d'edició de cel·la** s'estableix a **msdyn_timeentryedit**. 
 7. Podeu personalitzar aquests camps per afegir o suprimir l'estat de només de lectura o per utilitzar una altra experiència basada en tasques (TBX) per a la fila o l'edició de la cel·la. Aquests camps estan ara enllaçats a un valor estàtic.
 
 
 > [!NOTE] 
-> Ambdues opcions retiraran alguns filtres de fàbrica de les entitats **Projecte** i **Tasca de projecte** , de manera que es veuran totes les visualitzacions de cerca per a les entitats. De fàbrica, només es veuen les visualitzacions de cerca rellevants.
+> Ambdues opcions retiraran alguns filtres de fàbrica de les entitats **Projecte** i **Tasca de projecte**, de manera que es veuran totes les visualitzacions de cerca per a les entitats. De fàbrica, només es veuen les visualitzacions de cerca rellevants.
 
-Determineu el flux de la tasca adient per al camp personalitzat. Si heu afegit el camp a la quadrícula, hauria d'anar al flux de la tasca d'edició de files que s'utilitza per als camps que s'apliquen a tota la fila d'entrades de temps. Si el camp personalitzat té un valor únic cada dia, com ara un camp personalitzat per a l' **Hora d'acabament** , hauria d'anar al flux de la tasca d'edició de cel·les.
+Determineu el flux de la tasca adient per al camp personalitzat. Si heu afegit el camp a la quadrícula, hauria d'anar al flux de la tasca d'edició de files que s'utilitza per als camps que s'apliquen a tota la fila d'entrades de temps. Si el camp personalitzat té un valor únic cada dia, com ara un camp personalitzat per a l'**Hora d'acabament**, hauria d'anar al flux de la tasca d'edició de cel·les.
 
 Per afegir el camp personalitzat a un flux de la tasca, arrossegueu un element **Camp** a la posició adient de la pàgina i, a continuació, definiu les propietats del camp. Definiu la propietat **Origen** a **Entrada de temps** i definiu la propietat **Camp de dades** al camp personalitzat. La propietat **Camp** especifica el nom de visualització a la pàgina de TBX. Seleccioneu **Aplica** per desar els canvis al camp i, a continuació, seleccioneu **Actualitza** per desar els canvis a la pàgina.
 
-Per utilitzar una nova pàgina personalitzada de TBX en el seu lloc, creeu un procés nou. Definiu la categoria a **Flux del procés de negoci** , definiu l'entitat a **Entrada d'hora** i definiu el tipus de procés de negoci a **Executa el procés com a flux de la tasca**. A **Propietats** , la propietat **Nom de la pàgina** s'ha de definir al nom de visualització de la pàgina. Afegiu tots els camps corresponents a la pàgina de TBX. Deseu i activeu el procés. Actualitzeu la propietat del control personalitzat del flux de la tasca rellevant al valor **Nom** del procés.
+Per utilitzar una nova pàgina personalitzada de TBX en el seu lloc, creeu un procés nou. Definiu la categoria a **Flux del procés de negoci**, definiu l'entitat a **Entrada d'hora** i definiu el tipus de procés de negoci a **Executa el procés com a flux de la tasca**. A **Propietats**, la propietat **Nom de la pàgina** s'ha de definir al nom de visualització de la pàgina. Afegiu tots els camps corresponents a la pàgina de TBX. Deseu i activeu el procés. Actualitzeu la propietat del control personalitzat del flux de la tasca rellevant al valor **Nom** del procés.
 
 ### <a name="add-new-option-set-values"></a>Afegir nous valors de conjunts d'opcions
-Per afegir valors de conjunt d'opcions a un camp de fàbrica, obriu la pàgina d'edició del camp i, a continuació, a **Tipus** , seleccioneu **Edita** al costat del conjunt d'opcions. Afegiu una opció nova que tingui una etiqueta i un color personalitzats. Si voleu afegir un nou estat de l'entrada de temps, el camp de fàbrica es diu **Estat de l'entrada** , no **Estat**.
+Per afegir valors de conjunt d'opcions a un camp de fàbrica, obriu la pàgina d'edició del camp i, a continuació, a **Tipus**, seleccioneu **Edita** al costat del conjunt d'opcions. Afegiu una opció nova que tingui una etiqueta i un color personalitzats. Si voleu afegir un nou estat de l'entrada de temps, el camp de fàbrica es diu **Estat de l'entrada**, no **Estat**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designar un nou estat d'entrada de temps com a només de lectura
 Per designar un nou estat d'entrada de temps com a només de lectura, afegiu el nou valor d'entrada de temps a la propietat **Llista d'estat de només de lectura**. La part editable de la quadrícula d'entrada de temps es bloquejarà per a les files que tenen l'estat nou.

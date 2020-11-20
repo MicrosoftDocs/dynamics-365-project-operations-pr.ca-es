@@ -3,7 +3,7 @@ title: PMF de l'administració de recursos
 description: Aquest tema proporciona respostes a les preguntes més freqüents sobre l'administració de recursos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072423"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120126"
 ---
 # <a name="resource-management-faq"></a>PMF de l'administració de recursos
 
@@ -47,7 +47,7 @@ Després de reservar els recursos, seleccioneu **Mantén les reserves** per fer 
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Quins tipus de recursos admet el Project Service Automation?
 
-**Usuari** i **Contacte** són els únics tipus de recurs admesos al Dynamics 365 Project Service Automation. Tot i que podeu crear altres tipus de recursos (per exemple, **Equipament** i **Grup** ), no s'admet cap cas d'ús d'extrem a extrem.
+**Usuari** i **Contacte** són els únics tipus de recurs admesos al Dynamics 365 Project Service Automation. Tot i que podeu crear altres tipus de recursos (per exemple, **Equipament** i **Grup**), no s'admet cap cas d'ús d'extrem a extrem.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Quina diferència hi ha entre una assignació i una reserva?
 
