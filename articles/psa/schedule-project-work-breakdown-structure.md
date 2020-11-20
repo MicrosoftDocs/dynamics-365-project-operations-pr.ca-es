@@ -3,7 +3,7 @@ title: Planificar un projecte amb una estructura del desglossament del treball
 description: Com planificar un projecte amb una estructura del desglossament del treball al Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072394"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127866"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planificar un projecte amb una estructura del desglossament del treball (Project Service)
 
@@ -86,14 +86,14 @@ Utilitzareu els següents tipus de tasques per crear l'estructura del desglossam
   
 ### <a name="schedule-attributes"></a>Atributs de planificació
 
- - Assigneu valors a **Hores d'esforç** , **Nombre de recursos** , **Data d'inici** , **Data final** i **Durada** per determinar la planificació de la tasca. 
+ - Assigneu valors a **Hores d'esforç**, **Nombre de recursos**, **Data d'inici**, **Data final** i **Durada** per determinar la planificació de la tasca. 
  - **Esforç** és una estimació de les hores que es necessiten per completar la tasca.
  - **Nombre de recursos** és una estimació que l'administrador del projecte posa a la tasca per assolir la millor planificació possible. 
  - **Durada** (en dies) indica el nombre de dies laborables que es necessita per completar la tasca.  
   
 ### <a name="staffing-attributes"></a>Atributs de personal
 
- - **Funció** , **Unitat organitzativa de recurs** , **Nombre de recursos** i **Recursos** descriuen els requisits de personal per a la tasca. 
+ - **Funció**, **Unitat organitzativa de recurs**, **Nombre de recursos** i **Recursos** descriuen els requisits de personal per a la tasca. 
  - **Funció** descriu el tipus de recurs necessari per realitzar la tasca. 
  - **Unitat organitzativa de recurs** indica la unitat organitzativa de recursos des de la qual els recursos s'han de dotar a la tasca; això també influeix en l'estimació de costos i vendes de la tasca, ja que es té en compte en determinar el preu de venda unitari del recurs. 
  - **Recursos** conté un recurs genèric o un recurs amb nom quan se'n troba un.  

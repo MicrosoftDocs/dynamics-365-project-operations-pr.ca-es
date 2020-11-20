@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072339"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127461"
 ---
 # <a name="project-stages"></a>Fases del projecte
 
@@ -45,11 +45,11 @@ Quan creeu un projecte, la fase del projecte es defineix a **Nou**. Si el projec
 
 ## <a name="quote"></a>Oferta
 
-Quan associeu un projecte a una oferta o creeu un projecte a partir d'una oferta, la fase de projecte es defineix com a **Oferta** i les dates d'inici i finalització previstes s'actualitzen. Quan el projecte està en la fase **Oferta** , els detalls de l'oferta es mostren a la pestanya **Vendes** de la pàgina **Entitat del projecte**.
+Quan associeu un projecte a una oferta o creeu un projecte a partir d'una oferta, la fase de projecte es defineix com a **Oferta** i les dates d'inici i finalització previstes s'actualitzen. Quan el projecte està en la fase **Oferta**, els detalls de l'oferta es mostren a la pestanya **Vendes** de la pàgina **Entitat del projecte**.
 
 ## <a name="plan"></a>Pla
 
-Quan guanyeu una oferta associada amb un projecte, i quan el projecte avança a la fase **Contracte** , la fase de projecte s'actualitza a **Pla**. Quan el projecte està en la fase **Pla** , els detalls del contracte es mostren a la pàgina **Entitat del projecte**.
+Quan guanyeu una oferta associada amb un projecte, i quan el projecte avança a la fase **Contracte**, la fase de projecte s'actualitza a **Pla**. Quan el projecte està en la fase **Pla**, els detalls del contracte es mostren a la pàgina **Entitat del projecte**.
 
 ## <a name="deliver"></a>Lliurament
 
@@ -57,7 +57,7 @@ Quan s'hagi completat el pla del projecte i ja esteu a punt per iniciar el proje
 
 ## <a name="complete"></a>Completat 
 
-Quan s'hagi completat el treball per al projecte, l'administrador del projecte pot actualitzar la fase a **Completat**. En actualitzar la fase de projecte a **Completat** , l'administrador del projecte indica que el treball s'ha completat al 100 per cent, però que s'ha de mantenir obert el projecte de manera que es puguin registrar les entrades de temps o de despesa pendents.
+Quan s'hagi completat el treball per al projecte, l'administrador del projecte pot actualitzar la fase a **Completat**. En actualitzar la fase de projecte a **Completat**, l'administrador del projecte indica que el treball s'ha completat al 100 per cent, però que s'ha de mantenir obert el projecte de manera que es puguin registrar les entrades de temps o de despesa pendents.
 
 ## <a name="close"></a>Tanca
 

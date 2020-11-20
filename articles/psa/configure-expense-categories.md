@@ -3,7 +3,7 @@ title: Configurar categories de despesa
 description: Com configurar les categories de despesa al Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82522c0ba8587446c5038a9cf38fcadfdcb6ba8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1768d7bd7ab94d909e53cd71f9c39b44e7ed4b4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072184"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129261"
 ---
 # <a name="configure-expense-categories-project-service"></a>Configurar les categories de despesa (Project Service)
 
@@ -37,7 +37,7 @@ Cada categoria de despesa pot tenir la seva pròpia unitat i grup d'unitats. Pod
   
 2.  Feu clic a **Nou**.  
   
-3.  A l'àrea **General** , empleneu els camps necessaris. És aconsellable configurar, com a mínim, les següents categories de despesa:  
+3.  A l'àrea **General**, empleneu els camps necessaris. És aconsellable configurar, com a mínim, les següents categories de despesa:  
   
     -   Bitllets d'avió  
   

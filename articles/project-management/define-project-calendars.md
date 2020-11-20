@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 774399f2c02d8434c9c042c3a9f995792893bfce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 442a901af8754fa0335bbf43f4ac8c73b11f9499
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072386"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131646"
 ---
 # <a name="define-project-calendars"></a>Definició dels calendaris del projecte
 
@@ -31,12 +31,12 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 Per crear una planificació de projecte, creeu uns plantilla de calendari de projecte que defineixi el nombre d'hores de treball al dia i qualsevol tancament de negoci. Per crear una plantilla de calendari de projecte, associeu una plantilla de treball amb el camp **Plantilla de calendari** per al projecte. Seguiu els passos que es descriuen a continuació per crear una plantilla de treball.
 
 1. A la subfinestra de navegació esquerra, seleccioneu **Recursos**. 
-2. A la pàgina de la llista **Recursos** , obriu un registre d'usuari i després seleccioneu **Mostra les hores de treball**.
+2. A la pàgina de la llista **Recursos**, obriu un registre d'usuari i després seleccioneu **Mostra les hores de treball**.
 
   > [!NOTE]
   > Assegureu-vos que permeteu les finestres emergents a la pàgina del navegador. Això us permet veure les hores de feina definides per al recurs.
   
-3. A la pestanya **Visualització mensual** , seleccioneu **Configura**. Es mostra una llista de tres opcions: 
+3. A la pestanya **Visualització mensual**, seleccioneu **Configura**. Es mostra una llista de tres opcions: 
 
   - Planificació setmanal nova
   - Planificació de treball per a un dia

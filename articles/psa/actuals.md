@@ -3,7 +3,7 @@ title: Informació general dels valors reals
 description: Aquest tema proporciona informació sobre els valors reals del projecte.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072410"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129756"
 ---
 # <a name="actuals-overview"></a>Informació general dels valors reals
 
@@ -39,7 +39,7 @@ Al PSA, quan s'envia una entrada de temps per a un projecte assignat a una líni
 
 La lògica per introduir els preus per defecte resideix a la línia del llibre diari. Tots els valors de camp d'una entrada de temps es copien a la línia del llibre diari. Aquests camps són la data de la transacció, la línia de contracte a la qual està assignada el projecte i el resultat de moneda a la llista de preus adequada. 
 
-Els camps que afecten els preus per defecte, **com** ara Funció i **Unitat organitzativa** , fan que s'introdueixi per defecte un preu adient a la línia del llibre diari. Si afegiu un camp personalitzat a l'entrada de temps i voleu que el valor del camp es propagui a valors reals, creeu el camp a l'entitat Valors reals i utilitzeu assignacions de camps per copiar el camp de l'entrada de temps al valor real.
+Els camps que afecten els preus per defecte, **com** ara Funció i **Unitat organitzativa**, fan que s'introdueixi per defecte un preu adient a la línia del llibre diari. Si afegiu un camp personalitzat a l'entrada de temps i voleu que el valor del camp es propagui a valors reals, creeu el camp a l'entitat Valors reals i utilitzeu assignacions de camps per copiar el camp de l'entrada de temps al valor real.
 
 ## <a name="submitting-an-expense-entry"></a>Enviar una entrada de despesa
 

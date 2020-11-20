@@ -3,7 +3,7 @@ title: Ingressos i costos del projecte
 description: En aquest tema es proporciona informació sobre l'estimació dels costos i dels ingressos del projecte.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072242"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127956"
 ---
 # <a name="project-costs-and-revenue"></a>Ingressos i costos del projecte
 
@@ -80,7 +80,7 @@ A la visualització per temps, distribuïu l'esforç total que s'estima per a la
 
 ### <a name="work-hours-based-allocation"></a>Assignació basada en hores de treball
  
-En el mode de tasca de planificació automàtica, les hores per defecte diàries dels recursos de tasques es defineixen a la tarifa per hora de treball completa. Aquest comportament s'aplica quan s'ha assignat l'esforç dividint-lo entre la durada de la tasca a la visualització per temps. Per exemple, si estimeu que una tasca es completarà amb un sol recurs a l'escala de temps **Dia** , l'esforç assignat per dia no serà superior a les hores de treball diàries definides en el calendari del projecte. Per tant, l'assignació de l'esforç sempre garanteix que els recursos s'estimen per utilitzar-se per a una jornada sencera.
+En el mode de tasca de planificació automàtica, les hores per defecte diàries dels recursos de tasques es defineixen a la tarifa per hora de treball completa. Aquest comportament s'aplica quan s'ha assignat l'esforç dividint-lo entre la durada de la tasca a la visualització per temps. Per exemple, si estimeu que una tasca es completarà amb un sol recurs a l'escala de temps **Dia**, l'esforç assignat per dia no serà superior a les hores de treball diàries definides en el calendari del projecte. Per tant, l'assignació de l'esforç sempre garanteix que els recursos s'estimen per utilitzar-se per a una jornada sencera.
 
 ### <a name="even-allocation"></a>Assignació uniforme
 

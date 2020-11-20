@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072134"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131691"
 ---
 # <a name="expense-estimates"></a>Estimacions de despeses
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
@@ -32,9 +32,9 @@ Completeu els passos següents per visualitzar, afegir o suprimir una despesa de
 
 Els atributs següents es defineixen per a cada element de la línia de despesa:
 
-- **Categoria** : agrupaments comuns utilitzats per descriure totes les despeses ocasionades en un projecte.
-- **Data d'inici** : data prevista en que s'incorrerà la despesa.
-- **Quantitat** : nombre estimat d'elements de despesa per a una categoria concreta.
-- **Preu de cost per unitat** : preu per unitat utilitzat per calcular el cost de la despesa.
-- **Preu de venda per unitat** : preu per unitat utilitzat per calcular el preu de venda de la despesa.
+- **Categoria**: agrupaments comuns utilitzats per descriure totes les despeses ocasionades en un projecte.
+- **Data d'inici**: data prevista en que s'incorrerà la despesa.
+- **Quantitat**: nombre estimat d'elements de despesa per a una categoria concreta.
+- **Preu de cost per unitat**: preu per unitat utilitzat per calcular el cost de la despesa.
+- **Preu de venda per unitat**: preu per unitat utilitzat per calcular el preu de venda de la despesa.
 

@@ -3,7 +3,7 @@ title: Afegir funcions de recurs
 description: Com assignar una funció als recursos del Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072408"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129576"
 ---
 # <a name="add-resource-roles-project-service"></a>Afegir funcions de recursos (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4072408"
 
 Definiu els índexos d'ús de destinació de cada funció. Aquesta configuració determina la disponibilitat i l'ús dels recursos quan doteu de personal els projectes i analitzeu les dades reals.  
   
-1.  Aneu a la funció de recurs per al qual voleu configurar l'ús ( **Project Service > Funció de recurs** ).  
+1.  Aneu a la funció de recurs per al qual voleu configurar l'ús (**Project Service > Funció de recurs**).  
   
 2.  Feu clic a la fletxa avall situada a la funció del recurs a la part superior de la pantalla.  
   
@@ -39,7 +39,7 @@ Definiu els índexos d'ús de destinació de cada funció. Aquesta configuració
   
 4.  Feu clic a **Afegeix nou ús de funció**.  
   
-5.  A l'àrea **General** , empleneu els camps necessaris.  
+5.  A l'àrea **General**, empleneu els camps necessaris.  
   
 6.  Feu clic a **Desa** o **Desa i tanca**.  
   

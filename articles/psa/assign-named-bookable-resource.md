@@ -3,7 +3,7 @@ title: Reservar recursos que es poden reservar a un equip de projecte i assignar
 description: En aquest tema es proporciona informació sobre la reserva de recursos amb nom a equips de projecte i assignar-los a tasques.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072331"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130161"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Reservar recursos que es poden reservar a un equip de projecte i assignar tasques 
 
@@ -32,11 +32,11 @@ ms.locfileid: "4072331"
 Podeu afegir un recurs amb nom a l'equip del projecte reservant-lo directament a l'equip. Per fer-ho, feu els passos següents:
 
 1. Al Project Service Automation, aneu a **Projectes** i, a continuació, seleccioneu el projecte obert al qual voleu reservar.
-2. A la pàgina **Projecte** , a la pestanya **Equip** , feu clic a **Crea**. 
+2. A la pàgina **Projecte**, a la pestanya **Equip**, feu clic a **Crea**. 
 
 ![Afegir un membre de l'equip des de la pestanya Equip](media/RM-how-to-1.png)
 
-3. Al quadre de diàleg **Creació ràpida de membre de l'equip** , seleccioneu el recurs que es pot reservar. El camp **Funció** s'emplenarà amb la funció per defecte del recurs si en té assignada una. Podeu canviar la funció si cal. 
+3. Al quadre de diàleg **Creació ràpida de membre de l'equip**, seleccioneu el recurs que es pot reservar. El camp **Funció** s'emplenarà amb la funció per defecte del recurs si en té assignada una. Podeu canviar la funció si cal. 
 4. Seleccioneu les dates d'origen i finalització en què es necessitaran els recursos i seleccioneu el mètode d'assignació de la capacitat del recurs. 
 5. Si voleu que el membre de l'equip sigui un aprovador de projecte, seleccioneu **Sí** al camp **Aprovador de projectes**. Això significarà que el membre de l'equip pot aprovar les entrades de despesa i de despeses enviades per a aquest projecte. 
 6. Feu clic a **Desa**.
@@ -44,7 +44,7 @@ Podeu afegir un recurs amb nom a l'equip del projecte reservant-lo directament a
 ![Afegir un membre de l'equip al formulari de creació ràpida](media/RM-how-to-2.png)
 
 
-Ara podeu assignar el recurs reservat a les tasques del projecte. A la pàgina **Projecte** , feu clic a la pestanya **Planificació** per assignar tasques al recurs nou. El selector de recursos que s'inicia des del camp **Recursos** de la quadrícula de tasques mostrarà els membres de l'equip que podeu seleccionar.
+Ara podeu assignar el recurs reservat a les tasques del projecte. A la pàgina **Projecte**, feu clic a la pestanya **Planificació** per assignar tasques al recurs nou. El selector de recursos que s'inicia des del camp **Recursos** de la quadrícula de tasques mostrarà els membres de l'equip que podeu seleccionar.
 
 ![Assignar un membre d'un equip a una tasca de la pestanya Planificació](media/RM-how-to-3.png)
 

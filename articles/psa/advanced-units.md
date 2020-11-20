@@ -3,7 +3,7 @@ title: Grups d'unitats i unitats
 description: En aquest tema es proporciona informació sobre els grups d'unitats i les unitats.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072228"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130566"
 ---
 # <a name="unit-groups-and-units"></a>Grups d'unitats i unitats
 
@@ -33,16 +33,16 @@ Els grups d'unitats i les unitats són entitats bàsiques del Microsoft Dynamics
 
 Aquí hi ha alguns exemples d'unitats i grups d'unitats:
  
-- **Grup d'unitats** : distància 
-    - **Unitats** : milla, quilòmetre, etcètera.
-- **Grup d'unitats** : temps
-    - **Unitats** : hora, dia, setmana, etcètera. 
+- **Grup d'unitats**: distància 
+    - **Unitats**: milla, quilòmetre, etcètera.
+- **Grup d'unitats**: temps
+    - **Unitats**: hora, dia, setmana, etcètera. 
 
 Quan configureu diverses unitats en un grup d'unitats, també heu de configurar un factor de conversió entre ells designant la primera unitat que configureu com a unitat principal o per defecte del grup d'unitats. 
 
-Per exemple, en un grup d'unitats **Temps** , si configureu **Hora** com a primera unitat, el sistema designa **Hora** com a unitat per defecte. Si la unitat següent que configureu és **Dia** , heu de configurar un factor de conversió de **Dia** a **Hora**. Si, a continuació, afegiu **Setmana** com a tercera unitat, heu de configurar un factor de conversió per a **Setmana** en termes de **Dia** o **Hora**. 
+Per exemple, en un grup d'unitats **Temps**, si configureu **Hora** com a primera unitat, el sistema designa **Hora** com a unitat per defecte. Si la unitat següent que configureu és **Dia**, heu de configurar un factor de conversió de **Dia** a **Hora**. Si, a continuació, afegiu **Setmana** com a tercera unitat, heu de configurar un factor de conversió per a **Setmana** en termes de **Dia** o **Hora**. 
 
-A la imatge següent es mostra una configuració d'exemple per a la unitat **Dia** , on el camp **Quantitat** mostra el nombre d'hores que hi ha en un dia, i **Setmana** , en què el camp **Quantitat** mostra el nombre de dies que hi ha en una setmana.
+A la imatge següent es mostra una configuració d'exemple per a la unitat **Dia**, on el camp **Quantitat** mostra el nombre d'hores que hi ha en un dia, i **Setmana**, en què el camp **Quantitat** mostra el nombre de dies que hi ha en una setmana.
 
 > ![Grup d'unitats: pàgina d'informació](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ El Dynamics 365 Project Service Automation utilitza unitats i grups d'unitats pe
 
 Per a les despeses, cada categoria de despesa té un grup d'unitats i una unitat per defecte. Aquests valors s'introdueixen com a valors per defecte a les entrades de la llista de preus per a les categories de despesa. 
 
-Per exemple, teniu una categoria de despesa que s'anomena **Quilometratge**. Té un grup d'unitats que es diu **Distància** i una unitat per defecte que s'anomena **Milla**. Si configureu el grup d'unitats **Distància** per tal que tingui dues unitats ( **Milla** i **Quilòmetre** ), podeu definir dos preus per a la categoria **Quilometratge** en una llista de preus: preu per milla i preu per quilòmetre.
+Per exemple, teniu una categoria de despesa que s'anomena **Quilometratge**. Té un grup d'unitats que es diu **Distància** i una unitat per defecte que s'anomena **Milla**. Si configureu el grup d'unitats **Distància** per tal que tingui dues unitats (**Milla** i **Quilòmetre**), podeu definir dos preus per a la categoria **Quilometratge** en una llista de preus: preu per milla i preu per quilòmetre.
 
 | Categoria de despesa  | Grup d'unitats  | Unit      | Mètode de càlcul de preus  | Preu per unitat  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Les línies d'estimació del camp **Temps a l'oferta** es poden expressar en qua
 A l'exemple següent es mostra com el PSA utilitza el grup d'unitats, les unitats i els factors de conversió.
 - Unitats
 
-   - **Grup d'unitats** : temps 
-   - **Unitats** : hora 
+   - **Grup d'unitats**: temps 
+   - **Unitats**: hora 
     
-    - **Dia** : factor de conversió de 8 hores       
-    - **Setmana** : factor de conversió de 40 hores  
+    - **Dia**: factor de conversió de 8 hores       
+    - **Setmana**: factor de conversió de 40 hores  
         
 - Configuració de la llista de preus al Projecte A:
 
-    - **Nom** : preus de les vendes al Regne Unit el 2016 
-    - **Unitat de temps per defecte** : dia 
-    - **Moneda** : GBP
+    - **Nom**: preus de les vendes al Regne Unit el 2016 
+    - **Unitat de temps per defecte**: dia 
+    - **Moneda**: GBP
 
 | Funció      | Grup d'unitats | Unit | Unitat organitzativa | Preu   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ En alguns països o regions, hi ha un requisit legal perquè les tarifes de fact
 No. L'estimació de planificació es restringeix actualment a hores i no es pot canviar.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Poden editar-se, suprimir i afegir unitats i grups d'unitats?
-Sí. Exceptuant el grup d'unitats **Temps** i la unitat **Hores** , totes les unitats es poden suprimir o editar i es poden afegir unitats noves. A PSA, el grup d'unitats **Temps** i la unitat **Hora** no es poden suprimir. No obstant, es poden actualitzar amb un text traduït del camp **Nom**.
+Sí. Exceptuant el grup d'unitats **Temps** i la unitat **Hores**, totes les unitats es poden suprimir o editar i es poden afegir unitats noves. A PSA, el grup d'unitats **Temps** i la unitat **Hora** no es poden suprimir. No obstant, es poden actualitzar amb un text traduït del camp **Nom**.

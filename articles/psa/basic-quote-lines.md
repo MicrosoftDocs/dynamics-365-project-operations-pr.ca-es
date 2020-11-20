@@ -3,7 +3,7 @@ title: Ofertes i línies d'oferta
 description: En aquest tema es proporciona informació sobre les ofertes i les línies d'oferta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072327"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129440"
 ---
 # <a name="quotes-and-quote-lines"></a>Ofertes i línies d'oferta
 
@@ -35,15 +35,15 @@ Al Dynamics 365 Project Service Automation, hi ha dos tipus d'ofertes: ofertes d
 - Una oferta de vendes admet l'activació i les revisions. Una oferta de projecte no és compatible amb aquests processos.
 - Podeu adjuntar diverses comandes a una oferta de vendes. Podeu adjuntar només un contracte de projecte a una oferta de projecte.
 - Podeu guanyar una oferta de vendes i mantenir oberta l'oportunitat relacionada. Quan es guanya una oferta de projecte, l'oportunitat relacionada es tanca.
-- Una oferta de vendes no inclou els camps i els conceptes inclosos en una oferta de projecte que té camps. Els camps inclouen **Unitat de contractació** , **Administrador de comptes** i **Nom del contacte de la factura**.  
+- Una oferta de vendes no inclou els camps i els conceptes inclosos en una oferta de projecte que té camps. Els camps inclouen **Unitat de contractació**, **Administrador de comptes** i **Nom del contacte de la factura**.  
 - Les ofertes de vendes i d'ofertes de projectes també s'identifiquen per un camp basat en conjunt d'opcions que s'anomena **Tipus**. Per a una oferta de vendes, aquest camp té el valor **Basada en un element**. Per a una oferta de projecte, té el valor **Basada en el treball**.
 
 Aquest tema es centrarà en els detalls de les ofertes del projecte.
 
 Una oferta de projecte al PSA pot tenir diversos elements de línia o línies d'oferta. De fet, una oferta de projecte té dues quadrícules per als elements de línia. Una quadrícula és per a les línies basades en projectes que permeten estimacions detallades. L'altra quadrícula és per a les línies basades en productes que utilitzen un preu d'unitat senzill i un enfocament basat en la quantitat.
 
-- **Basada en el projecte** : l'import (valor ofert) es determina després d'estimar la quantitat de treball necessari. Podeu estimar el treball en un nivell elevat, o podeu estimar-lo directament com a detalls de la línia a sota de cada línia d'oferta. Finalment, es poden estimar els treballs basats en les estimacions des de zero, mitjançant un projecte i un pla de projecte. Les línies d'oferta basades en projectes només es troben en ofertes basades en projectes que es creen mitjançant el Project Service Automation. Aquest tipus de línia d'oferta és una forma personalitzada de les línies d'oferta que hi ha disponibles al Microsoft Dynamics 365 Sales.
-- **Basada en un producte** : l'import (valor ofert) es determina segons la quantitat d'unitats que es venen i el preu de venda de les unitats del producte. El producte d'una línia basada en productes pot provenir d'un catàleg de productes del Sales o pot ser un producte que definiu. Aquest tipus de línia d'oferta també està disponible a les ofertes basades en el projecte que es creen mitjançant el PSA.
+- **Basada en el projecte**: l'import (valor ofert) es determina després d'estimar la quantitat de treball necessari. Podeu estimar el treball en un nivell elevat, o podeu estimar-lo directament com a detalls de la línia a sota de cada línia d'oferta. Finalment, es poden estimar els treballs basats en les estimacions des de zero, mitjançant un projecte i un pla de projecte. Les línies d'oferta basades en projectes només es troben en ofertes basades en projectes que es creen mitjançant el Project Service Automation. Aquest tipus de línia d'oferta és una forma personalitzada de les línies d'oferta que hi ha disponibles al Microsoft Dynamics 365 Sales.
+- **Basada en un producte**: l'import (valor ofert) es determina segons la quantitat d'unitats que es venen i el preu de venda de les unitats del producte. El producte d'una línia basada en productes pot provenir d'un catàleg de productes del Sales o pot ser un producte que definiu. Aquest tipus de línia d'oferta també està disponible a les ofertes basades en el projecte que es creen mitjançant el PSA.
 
 L'import d'una oferta és el total de totes les línies basades en productes i les línies basades en el projecte.
 
@@ -75,12 +75,12 @@ El PSA és compatible amb els tres tipus de planificacions de factura per a les 
 
 Normalment, les organitzacions de servei d'atenció al client fan ofertes i facturen els seus clients per classificació de costos. Al PSA, els costos estan representats per les següents classificacions de transaccions:
 
-- **Temps** : aquesta classificació representa el temps de les despeses del treball o recursos humans en un projecte.
-- **Despeses** : aquesta classificació representa tots els altres tipus de despeses d'un projecte. Com que les despeses es poden classificar àmpliament, la majoria d'organitzacions creen subcategories, com ara viatge, lloguer de cotxes, hotel o subministraments d'oficina.
-- **Taxa** : aquesta classificació representa diverses sobrecàrregues, sancions i altres elements que es cobren al client. 
-- **Impost** : aquesta classificació representa els imports de l'impost que els usuaris afegeixen mentre introdueixen les despeses.
-- **Transacció de materials** : aquesta classificació representa els valors reals de les línies de producte en una factura de projecte confirmada.
-- **Fita** : aquesta classificació s'utilitza per la lògica de facturació de preu fix al PSA.
+- **Temps**: aquesta classificació representa el temps de les despeses del treball o recursos humans en un projecte.
+- **Despeses**: aquesta classificació representa tots els altres tipus de despeses d'un projecte. Com que les despeses es poden classificar àmpliament, la majoria d'organitzacions creen subcategories, com ara viatge, lloguer de cotxes, hotel o subministraments d'oficina.
+- **Taxa**: aquesta classificació representa diverses sobrecàrregues, sancions i altres elements que es cobren al client. 
+- **Impost**: aquesta classificació representa els imports de l'impost que els usuaris afegeixen mentre introdueixen les despeses.
+- **Transacció de materials**: aquesta classificació representa els valors reals de les línies de producte en una factura de projecte confirmada.
+- **Fita**: aquesta classificació s'utilitza per la lògica de facturació de preu fix al PSA.
 
 Una o més d'aquestes classificacions de transacció es poden associar a cada línia d'oferta. Quan es guanya una oferta, es transfereix l'assignació entre la classificació de transaccions i la línia d'oferta a la línia de contracte.
  
@@ -97,10 +97,10 @@ Per exemple, pot ser que una oferta contingui les dues línies d'oferta següent
 
 El camp **Tipus de facturació** defineix el concepte d'imputabilitat al PSA. És un conjunt d'opcions que té els següents valors possibles:
 
-- **Imputable** : el cost que s'ha acumulat en aquesta funció/categoria és un cost directe que impulsa l'execució del projecte i el client pagarà per aquest treball. El pagament es pot administrar en règim de temps i material o fix. No obstant això, l'empleat que gasti aquest temps rebrà el crèdit corresponent pel seu ús facturable.
-- **No imputable** : el cost que s'ha acumulat en aquesta funció/categoria es considera un cost directe que impulsa l'execució del projecte, tot i que el client no ho reconeix i no pagarà per aquest treball. L'empleat que gasti aquest temps no rebrà el crèdit d'ús facturable per això.
-- **Gratuïta** : el cost que s'ha acumulat en aquesta funció/categoria es considera un cost directe que impulsa l'execució del projecte i el client ho reconeix. L'empleat que gasti aquest temps rebrà el crèdit d'ús facturable per això. No obstant, aquest cost no es cobra al client.
-- **No disponible** : les despeses que es generen en projectes interns que no exigeixen un seguiment d'ingrés se segueixen mitjançant aquesta opció.
+- **Imputable**: el cost que s'ha acumulat en aquesta funció/categoria és un cost directe que impulsa l'execució del projecte i el client pagarà per aquest treball. El pagament es pot administrar en règim de temps i material o fix. No obstant això, l'empleat que gasti aquest temps rebrà el crèdit corresponent pel seu ús facturable.
+- **No imputable**: el cost que s'ha acumulat en aquesta funció/categoria es considera un cost directe que impulsa l'execució del projecte, tot i que el client no ho reconeix i no pagarà per aquest treball. L'empleat que gasti aquest temps no rebrà el crèdit d'ús facturable per això.
+- **Gratuïta**: el cost que s'ha acumulat en aquesta funció/categoria es considera un cost directe que impulsa l'execució del projecte i el client ho reconeix. L'empleat que gasti aquest temps rebrà el crèdit d'ús facturable per això. No obstant, aquest cost no es cobra al client.
+- **No disponible**: les despeses que es generen en projectes interns que no exigeixen un seguiment d'ingrés se segueixen mitjançant aquesta opció.
 
 ## <a name="invoice-schedule"></a>Planificació de facturació
 
@@ -116,11 +116,11 @@ El PSA utilitza aquests tres valors d'atribut per generar un conjunt provisional
 
 La freqüència de facturació és una entitat que emmagatzema els valors d'atribut que ajuden a expressar la freqüència de creació de factures. Els atributs següents expressen o defineixen l'entitat Freqüència de la factura:
 
-- **Període** : s'admeten períodes mensuals, quinzenals i setmanals. 
-- **Execucions per període** : per als períodes setmanals i quinzenals, només es pot definir una execució per període. Per als períodes mensuals, podeu definir entre una i quatre execucions per període. 
-- **Dies d'execució** : els dies en què s'ha d'executar la facturació. Podeu configurar aquest atribut de dues maneres:
-  - **Feiners** : per exemple, podeu especificar que la facturació s'executi cada dilluns o cada dos dilluns. Els clients que hagin de definir que s'executi la facturació en un dia feiner podrien preferir aquest tipus de configuració. 
-  - **Dies de calendari** : per exemple, podeu especificar que la facturació s'executa el setè i el vint-i-unè dia de cada mes. Algunes organitzacions poden preferir aquest tipus de configuració, perquè ajuda a garantir que la facturació s'executa seguint una planificació fixa cada mes.
+- **Període**: s'admeten períodes mensuals, quinzenals i setmanals. 
+- **Execucions per període**: per als períodes setmanals i quinzenals, només es pot definir una execució per període. Per als períodes mensuals, podeu definir entre una i quatre execucions per període. 
+- **Dies d'execució**: els dies en què s'ha d'executar la facturació. Podeu configurar aquest atribut de dues maneres:
+  - **Feiners**: per exemple, podeu especificar que la facturació s'executi cada dilluns o cada dos dilluns. Els clients que hagin de definir que s'executi la facturació en un dia feiner podrien preferir aquest tipus de configuració. 
+  - **Dies de calendari**: per exemple, podeu especificar que la facturació s'executa el setè i el vint-i-unè dia de cada mes. Algunes organitzacions poden preferir aquest tipus de configuració, perquè ajuda a garantir que la facturació s'executa seguint una planificació fixa cada mes.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Planificació de la factura d'una línia d'oferta a un preu fix
 

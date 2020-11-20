@@ -3,7 +3,7 @@ title: Reservar recursos amb nom a partir de requisits de recursos
 description: Aquest tema proporciona informació sobre la reserva de recursos amb nom per a un requisit de recurs genèric.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072417"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125886"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Reservar recursos amb nom a partir de requisits de recursos
 
@@ -31,14 +31,14 @@ ms.locfileid: "4072417"
 
 Podeu reservar un recurs amb nom per reemplaçar un recurs genèric que tingui un requisit de recurs.
 
-1. Al Project Service Automation (PSA), a la pàgina **Projectes** , feu clic a la pestanya **Equip**.
+1. Al Project Service Automation (PSA), a la pàgina **Projectes**, feu clic a la pestanya **Equip**.
 2. Seleccioneu el recurs genèric que té un requisit de recurs de la llista i, a continuació, feu clic a **Reserva**. O bé, obriu el requisit del recurs i, a continuació, feu clic a **Reserva**.
 
 
 ![Reservar un membre genèric de l'equip](media/RM-how-to-14.png)
 
 
-3. A la pàgina **Auxiliar de planificació** , seleccioneu un recurs amb nom per fer la reserva a l'equip del projecte i, a continuació, feu clic a **Reserva**.
+3. A la pàgina **Auxiliar de planificació**, seleccioneu un recurs amb nom per fer la reserva a l'equip del projecte i, a continuació, feu clic a **Reserva**.
 
 ![Reservar un membre genèric de l'equip mitjançant l'auxiliar de planificació](media/RM-how-to-15.png)
 

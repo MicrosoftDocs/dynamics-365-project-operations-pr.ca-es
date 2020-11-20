@@ -3,7 +3,7 @@ title: Associar aptituds amb recursos
 description: Com associar aptituds amb recursos específics al Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9b025f9856b60e97facf15b6f2edcc8a1e59874b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e322f331b37132fa0478d190c10f3bf67c22fda3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072330"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130431"
 ---
 # <a name="associate-skills-with-resources-project-service"></a>Associar aptituds amb recursos (Project Service)
 
@@ -35,7 +35,7 @@ En el pas anterior, ja heu associat algunes aptituds amb un recurs nou. De tant 
   
 2.  Feu doble clic al recurs al qual voleu afegir aptituds.  
   
-3.  A l'àrea **Habilitats** , feu clic a **+** per afegir un coneixement.  
+3.  A l'àrea **Habilitats**, feu clic a **+** per afegir un coneixement.  
   
 4.  A la pantalla que apareix, empleneu els camps amb la informació necessària i, a continuació, feu clic al botó **Desa** situat a la cantonada inferior dreta de la pantalla.  
   

@@ -3,7 +3,7 @@ title: Unitats organitzatives
 description: En aquest tema s'ofereix informació sobre les unitats organitzatives al Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072324"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130611"
 ---
 # <a name="organizational-units"></a>Unitats organitzatives 
 
@@ -50,8 +50,8 @@ A més, hi ha un atribut per a la unitat organitzativa a l'entitat Recurs. Cada 
 
 La unitat organitzativa té dues funcions al PSA:
 
-- **Unitat de contractació** : unitat organitzativa que representa el grup d'empreses o la divisió que s'encarrega principalment de guanyar la venda i administrar el lliurament de treballs i serveis al client. La unitat de contractació s'identifica pel camp **Unitat de contractació** a la secció de capçalera de les pàgines **Oportunitat** , **Oferta** , **Contracte del projecte** i **Projecte**.
-- **Unitat de recursos** : unitat organitzativa a la qual pertany un recurs o s'assigna. Aquesta unitat organitzativa pot proporcionar els seus recursos per a algunes funcions sobre les declaracions de treball (SOW) i els projectes que siguin propietat de la unitat de contractació.
+- **Unitat de contractació**: unitat organitzativa que representa el grup d'empreses o la divisió que s'encarrega principalment de guanyar la venda i administrar el lliurament de treballs i serveis al client. La unitat de contractació s'identifica pel camp **Unitat de contractació** a la secció de capçalera de les pàgines **Oportunitat**, **Oferta**, **Contracte del projecte** i **Projecte**.
+- **Unitat de recursos**: unitat organitzativa a la qual pertany un recurs o s'assigna. Aquesta unitat organitzativa pot proporcionar els seus recursos per a algunes funcions sobre les declaracions de treball (SOW) i els projectes que siguin propietat de la unitat de contractació.
 
 > ![Unitats de contractació i unitats de recursos](media/advanced-1.png)
 

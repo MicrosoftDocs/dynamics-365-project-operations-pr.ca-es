@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072080"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126111"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Recuperació de l'IVA a l'administració de despeses
 
@@ -21,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Per rebre reemborsament a les operacions amb impost sobre el valor afegit (IVA), una empresa o organització ha d'identificar, recopilar, verificar i enviar informació precisa. Aquest procés inclou diverses tasques i, en funció de la mida de l'empresa, pot incloure diversos empleats o funcions.
 
-Per recuperar l'IVA al mòdul **Administració de despeses** , cal completar els requisits previs següents:
+Per recuperar l'IVA al mòdul **Administració de despeses**, cal completar els requisits previs següents:
 
 - S'han de crear codis d'impostos per als països/regions que s'assignen a les categories de despeses.
 - Cal crear un grup de l'impost de vendes per cada codi d'impostos.

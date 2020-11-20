@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072157"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130295"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Compliment dels requisits de recursos genèrics
 
@@ -21,9 +21,9 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Podeu reservar un recurs amb nom per reemplaçar un recurs genèric que tingui un requisit de recurs.
 
-1. A la pàgina **Projectes** , seleccioneu la pestanya **Equip**.
+1. A la pàgina **Projectes**, seleccioneu la pestanya **Equip**.
 2. Seleccioneu el recurs genèric que té un requisit de recurs de la llista i, a continuació, seleccioneu **Reserva**. O bé, obriu el requisit del recurs i, a continuació, seleccioneu **Reserva**.
-3. A la pàgina **Auxiliar de planificació** , seleccioneu un recurs amb nom per fer la reserva a l'equip del projecte i, a continuació, seleccioneu **Reserva**.
+3. A la pàgina **Auxiliar de planificació**, seleccioneu un recurs amb nom per fer la reserva a l'equip del projecte i, a continuació, seleccioneu **Reserva**.
 
 Quan la reserva s'hagi completat i complert per un recurs amb nom, el recurs genèric se substitueix pel recurs amb nom.
 

@@ -3,7 +3,7 @@ title: Crear entrades de temps
 description: En aquest tema es proporciona informació sobre com crear entrades de temps.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072303"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131248"
 ---
 # <a name="create-time-entries"></a>Crear entrades de temps
 
@@ -35,13 +35,13 @@ En versions anteriors del Dynamics 365 Project Service Automation, les entrades 
 
 Seguiu els passos que es descriuen a continuació per crear una entrada de temps.
 
-1. A la pàgina **Entrades de temps** , seleccioneu **Nova**.
-2. Al quadre de diàleg **Creació ràpida: entrada de temps** , introduïu la duració de l'entrada de temps en minuts, hores o dies. La duració s'ha d'escriure en el format següent: " *x* minuts", " *x* hores" o " *x* dies". Les hores i els dies també es poden escriure amb decimals, per exemple, " *x,x* hores" o " *x,x* dies".
+1. A la pàgina **Entrades de temps**, seleccioneu **Nova**.
+2. Al quadre de diàleg **Creació ràpida: entrada de temps**, introduïu la duració de l'entrada de temps en minuts, hores o dies. La duració s'ha d'escriure en el format següent: "*x* minuts", "*x* hores" o "*x* dies". Les hores i els dies també es poden escriure amb decimals, per exemple, "*x,x* hores" o "*x,x* dies".
 3. Seleccioneu el tipus d'entrada de temps i el projecte per al qual introduïu l'entrada de temps.
-4. Al camp **Tasca del projecte** , cerqueu la tasca per a l'entrada de temps.
+4. Al camp **Tasca del projecte**, cerqueu la tasca per a l'entrada de temps.
 
     > [!NOTE]
-    > Si esteu creant una entrada de temps per a una tasca que no està assignada a un usuari , al camp **Tasca del projecte** , seleccioneu el botó **Cerca** , seleccioneu **Canvia la visualització** i, a continuació, seleccioneu **Totes les tasques actives del projecte** per llistar totes les tasques.
+    > Si esteu creant una entrada de temps per a una tasca que no està assignada a un usuari , al camp **Tasca del projecte**, seleccioneu el botó **Cerca**, seleccioneu **Canvia la visualització** i, a continuació, seleccioneu **Totes les tasques actives del projecte** per llistar totes les tasques.
 
 5. Introduïu una descripció, si cal una descripció i, a continuació, seleccioneu **Desa i tanca**.
 
@@ -56,9 +56,9 @@ Heu de tenir en compte que les fraccions d'una hora no són minuts. Per tant, 1,
 
 Després de crear algunes d'entrades de temps, podeu copiar-les per crear entrades de temps addicionals massivament.
 
-1. A la pàgina **Entrades de temps** , seleccioneu **Copia la setmana**.
-2. Al grup de camps **Del període** , utilitzeu els camps **Data d'inici** i **Data de finalització** per definir l'interval de dates des d'on copiar entrades de temps.
-3. Al grup de camps **Al període** , al camp **Data d'inici** , especifiqueu la data on crear les entrades de temps.
+1. A la pàgina **Entrades de temps**, seleccioneu **Copia la setmana**.
+2. Al grup de camps **Del període**, utilitzeu els camps **Data d'inici** i **Data de finalització** per definir l'interval de dates des d'on copiar entrades de temps.
+3. Al grup de camps **Al període**, al camp **Data d'inici**, especifiqueu la data on crear les entrades de temps.
 4. Seleccioneu **Copia** per crear una còpia de les entrades de temps que corresponen al dia de la setmana que s'especifica al grup de camps **Al període**. Per exemple, l'entrada de temps del dilluns de la setmana passada es copia al dilluns de la setmana especificada al grup de camps **Al període**.
 
 ## <a name="import-data-for-time-entries"></a>Importar dades d'entrades de temps
@@ -67,4 +67,4 @@ Podeu importar dades a partir de les reserves de projectes i assignacions. Quan 
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Agrupar, ordenar, cercar i filtrar capacitats
 
-Podeu agrupar i filtrar entrades de temps per les dimensions que s'especifiquen a les columnes. Al camp **Agrupa per** , seleccioneu la dimensió que s'utilitzarà per filtrar les entrades de temps. També podeu ordenar els registres d'entrada de temps en ordre ascendent o descendent mitjançant la fletxa d'ordenació a les capçaleres de columna. A més, podeu mostrar o amagar les entrades seleccionant el botó **Filtra** a les capçaleres de columna i, a continuació, al quadre **Cerca** , introduint el text que s'hauria d'utilitzar per cercar entrades de temps pel nom del projecte, tasca de projecte, entrada de temps o recurs.
+Podeu agrupar i filtrar entrades de temps per les dimensions que s'especifiquen a les columnes. Al camp **Agrupa per**, seleccioneu la dimensió que s'utilitzarà per filtrar les entrades de temps. També podeu ordenar els registres d'entrada de temps en ordre ascendent o descendent mitjançant la fletxa d'ordenació a les capçaleres de columna. A més, podeu mostrar o amagar les entrades seleccionant el botó **Filtra** a les capçaleres de columna i, a continuació, al quadre **Cerca**, introduint el text que s'hauria d'utilitzar per cercar entrades de temps pel nom del projecte, tasca de projecte, entrada de temps o recurs.

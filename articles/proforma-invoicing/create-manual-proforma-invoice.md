@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4072442"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128045"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Creació d'una factura proforma manual
 
@@ -44,17 +44,17 @@ Les factures de projecte es poden crear d'una en una o en massa. Podeu crear-les
 
 ### <a name="manually-create-project-invoices"></a>Crear factures de projecte manualment 
 
-Des de la pàgina de llista **Contractes del projecte** , podeu crear factures de projecte per separat per a cada contracte de projecte o podeu crear factures en massa per a diversos contractes de projecte.
+Des de la pàgina de llista **Contractes del projecte**, podeu crear factures de projecte per separat per a cada contracte de projecte o podeu crear factures en massa per a diversos contractes de projecte.
 
 Seguiu aquest pas per crear una factura per a un contracte de projecte específic.
 
-- A la pàgina de llista **Contractes del projecte** , obriu un contracte de projecte i, a continuació, seleccioneu **Crea una factura**.
+- A la pàgina de llista **Contractes del projecte**, obriu un contracte de projecte i, a continuació, seleccioneu **Crea una factura**.
 
     Es genera una factura per a totes les transaccions del contracte de projecte seleccionat que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, fites i línies de contracte basades en productes.
 
 Seguiu aquests passos per crear factures de manera massiva.
 
-1. A la pàgina de llista **Contractes del projecte** , seleccioneu un o diversos contractes de projecte per als quals heu de crear una factura i, a continuació, seleccioneu **Crea les factures del projecte**.
+1. A la pàgina de llista **Contractes del projecte**, seleccioneu un o diversos contractes de projecte per als quals heu de crear una factura i, a continuació, seleccioneu **Crea les factures del projecte**.
 
     Un missatge d'advertiment us informa que pot haver-hi un retard abans que es creïn les factures. El procés també es mostra.
 
@@ -70,8 +70,8 @@ Seguiu aquests passos per configurar una execució de factura automàtica.
 
 1. Aneu a **Configuració** \> **Treballs per lots**.
 2. Creeu un treball per lots i anomeneu-lo **Creació de factures del Project Operations**. El nom del treball per lots ha d'incloure el terme "Crea factures".
-3. Al camp **Tipus de treball** , seleccioneu **Cap**. Per defecte, les opcions **Freqüència diària** i **Actiu** estan definides com a **Sí**.
-4. Seleccioneu **Executa el flux de treball**. Al quadre de diàleg **Registre de cerca** , veureu tres fluxos de treball:
+3. Al camp **Tipus de treball**, seleccioneu **Cap**. Per defecte, les opcions **Freqüència diària** i **Actiu** estan definides com a **Sí**.
+4. Seleccioneu **Executa el flux de treball**. Al quadre de diàleg **Registre de cerca**, veureu tres fluxos de treball:
 
     - ProcessRunCaller
     - ProcessRunner
@@ -80,11 +80,11 @@ Seguiu aquests passos per configurar una execució de factura automàtica.
 5. Seleccioneu **ProcessRunCaller** i després trieu **Afegeix**.
 6. Al quadre de diàleg següent, seleccioneu **D'acord**. Un flux de treball **Repòs** va seguit d'un flux de treball **Procés**.
 
-    També podeu seleccionar **ProcessRunner** al pas 5. Després, quan seleccioneu **D'acord** , un flux de treball **Procés** va seguit d'un flux de treball **Repòs**.
+    També podeu seleccionar **ProcessRunner** al pas 5. Després, quan seleccioneu **D'acord**, un flux de treball **Procés** va seguit d'un flux de treball **Repòs**.
 
 Els fluxos de treball **ProcessRunCaller** i **ProcessRunner** creen factures. **ProcessRunCaller** crida a **ProcessRunner**. **ProcessRunner** és el flux de treball que en realitat crea les factures. Passa per totes les línies de contracte per a les quals s'han de crear factures i crea factures d'aquestes línies. Per determinar les línies de contracte per a les quals s'han de crear factures, el treball consulta les dates d'execució de la factura per a les línies de contracte. Si les línies de contracte que pertanyen a un contracte tenen la mateixa data d'execució de la factura, les transaccions es combinen en una factura que té dues línies de factura. Si no hi ha cap transacció per a la qual crear factures, el treball omet la creació de la factura.
 
-Després d'haver acabat d'executar-se **ProcessRunner** , crida a **ProcessRunCaller** , proporciona l'hora d'acabament i es tanca. **ProcessRunCaller** llavors inicia un temporitzador que s'executa durant 24 hores a partir de l'hora d'acabament especificada. Al final del temporitzador, **ProcessRunCaller** es tanca.
+Després d'haver acabat d'executar-se **ProcessRunner**, crida a **ProcessRunCaller**, proporciona l'hora d'acabament i es tanca. **ProcessRunCaller** llavors inicia un temporitzador que s'executa durant 24 hores a partir de l'hora d'acabament especificada. Al final del temporitzador, **ProcessRunCaller** es tanca.
 
 El treball de processament per lots per crear factures és una feina recurrent. Si aquest procés per lots s'executa moltes vegades, es creen diverses instàncies del treball que causen errors. Per tant, hauríeu d'iniciar el procés de processament per lots només una vegada i reiniciar-lo només si s'atura l'execució.
 
@@ -99,7 +99,7 @@ Quan creeu un esborrany de factura, totes les transaccions de vendes no facturad
 - Editar i ajustar la quantitat i el tipus de facturació.
 - Afegir directament temps, despeses i taxes com a transaccions a la factura. Podeu utilitzar aquesta característica si la línia de factura s'assigna a una línia de contracte que permet aquestes classes de transaccions.
 
-Seleccioneu **Confirma** per confirmar una factura. L'acció de confirmació és una acció d'un sol sentit. Quan seleccioneu **Confirma** , el sistema fa que la factura sigui només de lectura i creï valors reals de vendes facturades des de cada detall de línia de factura per a cada línia de factura. Si el detall de la línia de factura fa referència a un valor real de vendes no facturades, el sistema també reinverteix el valor real de vendes no facturades. (Qualsevol detall de línia de factura que s'hagi creat des d'una entrada de compte o de despesa farà referència a un valor real de vendes sense facturar.) Els sistemes d'integració general de llibres poden utilitzar aquest canvi per revertir el treball en curs del projecte amb finalitats comptables.
+Seleccioneu **Confirma** per confirmar una factura. L'acció de confirmació és una acció d'un sol sentit. Quan seleccioneu **Confirma**, el sistema fa que la factura sigui només de lectura i creï valors reals de vendes facturades des de cada detall de línia de factura per a cada línia de factura. Si el detall de la línia de factura fa referència a un valor real de vendes no facturades, el sistema també reinverteix el valor real de vendes no facturades. (Qualsevol detall de línia de factura que s'hagi creat des d'una entrada de compte o de despesa farà referència a un valor real de vendes sense facturar.) Els sistemes d'integració general de llibres poden utilitzar aquest canvi per revertir el treball en curs del projecte amb finalitats comptables.
 
 ### <a name="correct-a-confirmed-invoice"></a>Correcció d'una factura confirmada
 

@@ -3,7 +3,7 @@ title: Novetats o canvis de la versió d'actualització 24 del Project Service A
 description: En aquest tema es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 24.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072164"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126561"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation, versió d'actualització 24, V3
 
@@ -67,7 +67,7 @@ S'han corregit els problemes següents:
 
 S'han corregit els problemes següents:
 
-- A la **planificació del projecte** , quan es canvia de **Manual** a **Automàtic** , el desament automàtic no finalitza.
+- A la **planificació del projecte**, quan es canvia de **Manual** a **Automàtic**, el desament automàtic no finalitza.
 - Els costos de despesa no s'han de calcular cap a la variació a la **quadrícula de seguiment del projecte**.
 - Comportament incoherent per a les columnes **Etiqueta d'estimació** durant la càrrega en comparació amb el canvi del tipus de **fase de temps**.
 - Pot ser que el cost real d'un projecte no reflecteixi els totals dels **valors reals**.

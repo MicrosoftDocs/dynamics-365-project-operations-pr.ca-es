@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072149"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128676"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configuració dels components imputables d'una línia de contracte basada en projecte
 
@@ -27,21 +27,21 @@ Un subconjunt dels components inclosos es pot marcar com a imputable actualitzan
 
 Els components imputables es poden definir en funcions i categories de transacció.
 
-Per a una línia de contracte de projecte, la imputabilitat definida en una funció només s'aplica a la classe de transacció **Temps**. Si **Inclou el temps** d'una línia de contracte s'ha establert a **No** , la pestanya **Funcions imputables** no està disponible.
+Per a una línia de contracte de projecte, la imputabilitat definida en una funció només s'aplica a la classe de transacció **Temps**. Si **Inclou el temps** d'una línia de contracte s'ha establert a **No**, la pestanya **Funcions imputables** no està disponible.
 
-La imputabilitat definida a les categories de transacció d'una línia de contracte de projecte només s'aplica a la classe de transacció **Despesa**. Si **Inclou les despeses** d'una línia de contracte s'ha establert a **No** , la pestanya **Categories imputables** no està disponible.
+La imputabilitat definida a les categories de transacció d'una línia de contracte de projecte només s'aplica a la classe de transacció **Despesa**. Si **Inclou les despeses** d'una línia de contracte s'ha establert a **No**, la pestanya **Categories imputables** no està disponible.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Actualitzar una funció com a imputable o no imputable
 
 Una funció pot ser imputable o no imputable en una línia de contracte basada en projectes específica.
 
-En la pestanya **Funcions imputables** d'una línia de contracte basada en projectes, a la subquadrícula **Categories imputables** , en el camp **Tipus de facturació** , actualitzeu el tipus de facturació d'una funció.
+A la pestanya **Funcions imputables** d'una línia de contracte basada en projectes, a la subquadrícula **Categories imputables**, al camp **Tipus de facturació**, actualitzeu el tipus de facturació d'una funció.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Actualitzar una categoria de transacció com a imputable o no imputable
 
 Una categoria de transacció pot ser imputable o no imputable en una línia de contracte basada en projectes específica.
 
-En la pestanya **Categories imputables** d'una línia de contracte basada en projectes, a la subquadrícula **Categories imputables** , en el camp **Tipus de facturació** , actualitzeu el tipus de facturació d'una transacció.
+A la pestanya **Categories imputables** d'una línia de contracte basada en projectes, a la subquadrícula **Categories imputables**, al camp **Tipus de facturació**, actualitzeu el tipus de facturació d'una transacció.
 
 ### <a name="resolve-chargeability"></a>Resoldre la imputabilitat
 

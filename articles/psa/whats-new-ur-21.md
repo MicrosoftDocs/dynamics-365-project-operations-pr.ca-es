@@ -3,7 +3,7 @@ title: Novetats o canvis de la versió d'actualització 21 del Project Service A
 description: En aquest tema es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 21.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072163"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126696"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation, versió d'actualització 21, V3
 
@@ -54,7 +54,7 @@ S'han corregit els problemes següents:
 
 S'han corregit els problemes següents:
 
-- Les quadrícules del formulari **Projecte** ( **Assignació de recursos** , **Tasca** , visualització **Conciliació** i **Estimacions de despeses** ) es poden continuar editant fins i tot quan un projecte no està actiu.
+- Les quadrícules del formulari **Projecte** (**Assignació de recursos**, **Tasca**, visualització **Conciliació** i **Estimacions de despeses**) es poden continuar editant fins i tot quan un projecte no està actiu.
 - Els clients duplicats no es poden combinar amb els clients enllaçats a contractes de projectes confirmats.
 - Quan s'afegeix un recurs que no té cap calendari vàlid, el sistema no torna un missatge d'error descriptiu a l'usuari.
 - El botó **Afegeix una tasca** de la quadrícula de tasques està habilitat quan el projecte està enllaçat amb el **complement del Microsoft Project**.
@@ -71,7 +71,7 @@ S'han corregit els problemes següents:
 - El **Preu de venda total** és zero (0) per a la **Categoria** encara que la **Funció** tingui un preu de venda total que no és zero.
 - Els clients no poden canviar el valor del camp **Estat de la factura** a **Preparat per a la facturació** quan un altre procés personalitzat actualitza un camp addicional.
 - El botó **Actualitza les línies de factura** pot crear diverses línies duplicades si se selecciona repetidament.
-- El botó **Actualitza els preus** no funciona a la subquadrícula **Preus per funció** del formulari **Cerca ràpida**.
+- El botó **Actualitza els preus** no funciona a la subquadrícula **Preus per funció** del formulari **Visualització ràpida**.
 - La lògica **Resolució de llistes de preus de vendes** gestiona incorrectament els fusos horaris, la qual cosa deriva en la selecció incorrecta de les llistes de preus.
 - El **Cost real total** d'un projecte pot estar rebaixat per un import fraccionat després d'aprovar una sola entrada de temps.
 - La lògica **Resolució de preus** no proporciona cap missatge d'error descriptiu a l'usuari si **RolePrice recuperat** no té valors als camps **"Unitat principal"** i **"Preu a la unitat principal"**.

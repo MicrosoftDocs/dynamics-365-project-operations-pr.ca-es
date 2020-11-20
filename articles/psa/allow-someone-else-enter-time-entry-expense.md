@@ -3,7 +3,7 @@ title: Permeteu algú més introduir les despeses o els informes de temps
 description: Com permetre que algú més introdueixi les despeses o els informes de temps al Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072185"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130342"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Permeteu algú més introduir les despeses o els informes de temps (Project Service)
 
@@ -37,13 +37,13 @@ Definiu un delegat per permetre que algú mes realitzi entrades de temps o despe
   
 2.  A la barra d'ordres, feu clic a **Crea**.  
   
-3. **Nom** : introduïu un nom per al registre.  
+3. **Nom**: introduïu un nom per al registre.  
   
-4. **Tipus** : seleccioneu si el delegat pot introduir entrades de despeses o temps en el vostre nom.  
+4. **Tipus**: seleccioneu si el delegat pot introduir entrades de despeses o temps en el vostre nom.  
   
-5. **Delegat** : seleccioneu el nom de la persona que voleu que sigui el delegat.  
+5. **Delegat**: seleccioneu el nom de la persona que voleu que sigui el delegat.  
   
-6. **Dates d'inici i finalització** : trieu les dates en que s'iniciarà i finalitzarà la delegació.  
+6. **Dates d'inici i finalització**: trieu les dates en que s'iniciarà i finalitzarà la delegació.  
   
 7.  Quan hagueu acabat, feu clic a **Desa i tanca**.  
   
@@ -55,7 +55,7 @@ Definiu un delegat per permetre que algú mes realitzi entrades de temps o despe
   
 3.  A la barra d'ordres, feu clic a **Desactiva**.  
   
-4.  Al quadre de diàleg **Confirma la desactivació** , feu clic a **Desactiva**.  
+4.  Al quadre de diàleg **Confirma la desactivació**, feu clic a **Desactiva**.  
   
 ## <a name="enter-time-for-someone-else"></a>Introduir el temps d'algú més  
   

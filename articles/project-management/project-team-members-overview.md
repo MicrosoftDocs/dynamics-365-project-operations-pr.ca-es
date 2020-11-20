@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072103"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127416"
 ---
 # <a name="project-team-members"></a>Membres de l'equip del projecte
 
@@ -47,16 +47,16 @@ A la taula següent s'enumeren els atributs clau d'un membre d'un equip del proj
 
 A la quadrícula de membres de l'equip es poden dur a terme les accions següents:
 
-- **Reserva** : per a les organitzacions que aprofiten la metodologia de les reserves híbrides, l'acció de reserva permetrà als usuaris reservar un recurs amb nom en funció dels requisits necessaris generats pel membre de l'equip genèric
-- **Genera un requisit** : aquesta acció genera el requisit.
-- **Especifica un patró** : permet als administradors de projectes ajustar els contorns dels requisits dels recursos en un nivell granular. Els administradors de projecte poden ajustar-se a les necessitats específiques del projecte en casos en què la distribució per defecte no encaixi.
-- **Envia la sol·licitud** : per a les organitzacions que utilitzen la metodologia de reserves centrals.
-- **Edita** : els atributs dels membres de l'equip es poden editar, incloent-hi la unitat organitzativa, la funció i el nom del càrrec.
-- **Mantén les reserves** : quan s'han d'actualitzar les reserves de recursos, el manteniment de les reserves permet a l'administrador del projecte ajustar:
+- **Reserva**: per a les organitzacions que aprofiten la metodologia de les reserves híbrides, l'acció de reserva permetrà als usuaris reservar un recurs amb nom en funció dels requisits necessaris generats pel membre de l'equip genèric
+- **Genera un requisit**: aquesta acció genera el requisit.
+- **Especifica un patró**: permet als administradors de projectes ajustar els contorns dels requisits dels recursos en un nivell granular. Els administradors de projecte poden ajustar-se a les necessitats específiques del projecte en casos en què la distribució per defecte no encaixi.
+- **Envia la sol·licitud**: per a les organitzacions que utilitzen la metodologia de reserves centrals.
+- **Edita**: els atributs dels membres de l'equip es poden editar, incloent-hi la unitat organitzativa, la funció i el nom del càrrec.
+- **Mantén les reserves**: quan s'han d'actualitzar les reserves de recursos, el manteniment de les reserves permet a l'administrador del projecte ajustar:
 
     - Comença
     - Fi
     - Assignació d'esforç total
 
-- **Nou** : a més d'afegir recursos directament des de la planificació, els administradors del projecte poden afegir nous membres de l'equip amb nom o genèrics.
-- **Suprimeix** : en seleccionar un o diversos membres de l'equip, l'administrador del projecte pot suprimir recursos que ja no participaran en el projecte. La supressió d'un membre de l'equip també suprimirà totes les assignacions de recursos associades i cancel·larà totes les reserves existents.
+- **Nou**: a més d'afegir recursos directament des de la planificació, els administradors del projecte poden afegir nous membres de l'equip amb nom o genèrics.
+- **Suprimeix**: en seleccionar un o diversos membres de l'equip, l'administrador del projecte pot suprimir recursos que ja no participaran en el projecte. La supressió d'un membre de l'equip també suprimirà totes les assignacions de recursos associades i cancel·larà totes les reserves existents.

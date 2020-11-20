@@ -3,7 +3,7 @@ title: Utilitzar el complement Project Service per planificar el vostre treball 
 description: En aquest tema es proporciona informació sobre com afegir, configurar i utilitzar el complement del Microsoft Project per al Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072342"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129666"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilitzar el complement Project Service Automation per planificar el vostre treball al Microsoft Project
 
@@ -59,7 +59,7 @@ El [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u
 ## <a name="read-from-a-template"></a>Llegir d'una plantilla  
  Llegiu des d'una plantilla que hàgiu creat al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] i copiat al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] per començar la planificació del projecte. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Crear una plantilla de projecte (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  A la pestanya **Project Service** , feu clic a **Lectura** > **Plantilla de projecte del Project Service Automation**.  
+1.  A la pestanya **Project Service**, feu clic a **Lectura** > **Plantilla de projecte del Project Service Automation**.  
 
 2.  Trieu una plantilla de projecte de la llista i feu clic a **Obre**.  
 
@@ -78,7 +78,7 @@ El [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u
 
 1.  A la pestanya Project Service, seleccioneu una fila i feu clic a **Cerca recursos**.  
 
-2.  A la pantalla **Reserva el recurs** , seleccioneu el recurs que voleu utilitzar per al projecte.  
+2.  A la pantalla **Reserva el recurs**, seleccioneu el recurs que voleu utilitzar per al projecte.  
 
 3.  Feu clic a **Reserva** i, a continuació, a **D'acord**.  
 
@@ -90,14 +90,14 @@ El projecte s'importarà al [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gràfic de Gantt**   | Importa a la pantalla de l- **estructura del desglossament del treball** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
+|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gràfic de Gantt**   | Importa a la pantalla de l-**estructura del desglossament del treball** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Full de recursos** |   Importa a la pantalla dels **membres de l'equip del projecte** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilitzar l'ús**    |    Importa a la pantalla d' **estimacions del projecte** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilitzar l'ús**    |    Importa a la pantalla d'**estimacions del projecte** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
 
 **Per importar i publicar el vostre projecte**  
-1. A la pestanya **Project Service** , feu clic a **Publica** > **Nou projecte del Project Service Automation**.  
+1. A la pestanya **Project Service**, feu clic a **Publica** > **Nou projecte del Project Service Automation**.  
 
-2. Al quadre de diàleg **Publicació en un projecte nou del Project Service** , introduïu el **Nom del projecte** i seleccioneu el **Client**.  
+2. Al quadre de diàleg **Publicació en un projecte nou del Project Service**, introduïu el **Nom del projecte** i seleccioneu el **Client**.  
 
 3. De forma opcional, marqueu la casella **Enllaça el pla de projecte al Project Service Automation** per enllaçar el fitxer de projecte de pla al Project Service Automation.  
 
@@ -139,11 +139,11 @@ El projecte s'importarà al [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 2. Seleccioneu **Als documents del projecte de Project Service Automation**.  
 
-3. Al diàleg **Permet l'obertura al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , seleccioneu **Sí** o **No**.  
+3. Al diàleg **Permet l'obertura al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, seleccioneu **Sí** o **No**.  
 
-   - Si feu clic a **Sí** , podreu seleccionar el botó **Obre al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** al Project Service Automation, executar el [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i carregar el fitxer del Project de la biblioteca de documents del SharePoint.  
+   - Si feu clic a **Sí**, podreu seleccionar el botó **Obre al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** al Project Service Automation, executar el [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i carregar el fitxer del Project de la biblioteca de documents del SharePoint.  
 
-   - Si feu clic a **No** , l'enllaç del botó **Obre al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no funcionarà.  
+   - Si feu clic a **No**, l'enllaç del botó **Obre al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no funcionarà.  
 
 4. Es pot trobar el fitxer del [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] a **Documents** per al projecte específic del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -153,20 +153,20 @@ El projecte s'importarà al [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 2. Seleccioneu **Als documents del projecte de Project Service Automation**.  
 
-3. Al diàleg **Permet l'obertura al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , seleccioneu **Sí** o **No**.  
+3. Al diàleg **Permet l'obertura al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, seleccioneu **Sí** o **No**.  
 
-   - Si feu clic a **Sí** , podreu seleccionar el botó **Obre al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** al Project Service Automation, executar el [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i carregar el fitxer del Project de la biblioteca de documents del SharePoint.  
+   - Si feu clic a **Sí**, podreu seleccionar el botó **Obre al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** al Project Service Automation, executar el [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i carregar el fitxer del Project de la biblioteca de documents del SharePoint.  
 
-   - Si feu clic a **No** , l'enllaç del botó **Obre al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no funcionarà.  
+   - Si feu clic a **No**, l'enllaç del botó **Obre al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no funcionarà.  
 
 4. Es pot trobar el fitxer del [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] a **Documents** per al projecte específic del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ## <a name="publish--your-project-as-a-template"></a>Publicar el vostre projecte com a plantilla  
  Podeu desar el vostre projecte i reutilitzar-lo desant-lo com a plantilla de projecte al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Les plantilles de projecte són plans de projecte reutilitzables al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Crear una plantilla de projecte (Project Service Automation)](../psa/create-project-template.md)  
 
-1. A la pestanya **Project Service** , feu clic a **Publica** > **Nova plantilla de projecte del Project Service Automation**.  
+1. A la pestanya **Project Service**, feu clic a **Publica** > **Nova plantilla de projecte del Project Service Automation**.  
 
-2. Al quadre de diàleg **Publicació en una plantilla nova del Project Service** , introduïu el **Nom de la plantilla del projecte**.  
+2. Al quadre de diàleg **Publicació en una plantilla nova del Project Service**, introduïu el **Nom de la plantilla del projecte**.  
 
 3. De forma opcional, marqueu la casella **Enllaça el pla de projecte al Project Service Automation** per enllaçar el fitxer del Project al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

@@ -3,7 +3,7 @@ title: Configurar funcions de recurs
 description: Com configurar funcions de recursos al Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072210"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129126"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurar funcions de recursos (Project Service)
 
@@ -41,13 +41,13 @@ Les funcions juguen un paper important en la planificació de projectes a l'hora
   
 2.  Feu clic a **Nou**.  
   
-3.  A l'àrea **General** , introduïu un nom per a la funció a **Nom** i, a continuació, empleneu la resta de camps segons calgui.  
+3.  A l'àrea **General**, introduïu un nom per a la funció a **Nom** i, a continuació, empleneu la resta de camps segons calgui.  
   
 4.  Feu clic a **Desa** per crear el projecte per tal que el pugueu continuar editant.  
   
-5.  A l'àrea **Habilitats** , feu clic a **+** per afegir un coneixement.  
+5.  A l'àrea **Habilitats**, feu clic a **+** per afegir un coneixement.  
   
-6.  A la subfinestra **Requisit de competència de la funció** , feu clic al camp **Habilitat** , feu clic al botó **Cerca** i, a continuació, seleccioneu una habilitat.  
+6.  A la subfinestra **Requisit de competència de la funció**, feu clic al camp **Habilitat**, feu clic al botó **Cerca** i, a continuació, seleccioneu una habilitat.  
   
 7.  Seleccioneu una destresa per a aquesta habilitat i feu clic a **Desa**.  
   

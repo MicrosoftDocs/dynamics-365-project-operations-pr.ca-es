@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072104"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130701"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Assignació de projectes i tasques a una línia d'oferta basada en projectes
 
@@ -42,13 +42,13 @@ Podeu associar tasques amb línies d'oferta des de les ubicacions següents:
 La pàgina **Projecte** proporciona l'experiència òptima per associar tasques a línies d'oferta. Podeu utilitzar aquesta pàgina per seleccionar diverses tasques i associar-les totes, a més de les tasques secundàries, a la línia d'oferta seleccionada.
 
 1. A la pestanya **General** d'una línia d'oferta basada en projectes, verifiqueu que el camp **Projecte** s'hagi emplenat.
-2. Al camp **Tasques incloses** , seleccioneu **Només les tasques seleccionades**.
+2. Al camp **Tasques incloses**, seleccioneu **Només les tasques seleccionades**.
 3. Deseu la línia d'oferta basada en projectes. Quan el formulari s'actualitza, la pestanya **Tasques imputables** es mostra.
-4. A la pestanya **General** , seleccioneu l'enllaç per al projecte des del camp **Projecte**.
-5. A la pàgina **Projecte** , seleccioneu la pestanya **Facturació de tasques**.
+4. A la pestanya **General**, seleccioneu l'enllaç per al projecte des del camp **Projecte**.
+5. A la pàgina **Projecte**, seleccioneu la pestanya **Facturació de tasques**.
 6. A la segona quadrícula, que s'aplica a la configuració de facturació específica de la tasca, seleccioneu una o diverses tasques i, a continuació, seleccioneu **Associa les línies d'oferta**.
 7. A la pàgina de diàleg que apareix, seleccioneu una línia d'oferta que mostri les línies d'oferta basades en projectes a l'oferta.
-8. Al camp **Tipus de facturació** , indiqueu si aquestes tasques són imputables o no.
+8. Al camp **Tipus de facturació**, indiqueu si aquestes tasques són imputables o no.
 9. Marqueu la casella de selecció per indicar si l'associació ha d'incloure les tasques secundàries de les tasques seleccionades. Si marqueu la casella s'associaran les tasques secundàries de les tasques seleccionades a la línia d'oferta.
 10. Trieu **D'acord** per tancar el quadre de diàleg.
 
@@ -57,13 +57,13 @@ La pàgina **Projecte** proporciona l'experiència òptima per associar tasques 
 Podeu associar tasques de projecte a línies d'oferta des de la pestanya **Tasques imputables** a la pàgina **Línia d'oferta**.
 
 >[!NOTE]
->El lloc òptim per associar tasques de projecte a línies d'oferta és la pestanya **Facturació de tasques** a la pàgina **Projecte**. Si associeu tasques de la pestanya **Tasques imputables** a la pàgina **Línia d'oferta** , heu d'associar cada projecte manualment.
+>El lloc òptim per associar tasques de projecte a línies d'oferta és la pestanya **Facturació de tasques** a la pàgina **Projecte**. Si associeu tasques de la pestanya **Tasques imputables** a la pàgina **Línia d'oferta**, heu d'associar cada projecte manualment.
 
 1. A la pestanya **General** d'una línia d'oferta basada en projectes, verifiqueu que hi hagi un projecte seleccionat al camp **Projecte**.
-2. Al camp **Tasques incloses** , seleccioneu **Només les tasques seleccionades**.
+2. Al camp **Tasques incloses**, seleccioneu **Només les tasques seleccionades**.
 3. Deseu la línia d'oferta basada en projectes. Quan el formulari s'actualitza, la pestanya **Tasques imputables** es mostra.
-4. A la pestanya **Tasques imputables** , seleccioneu **Afegeix una tasca de línia d'oferta**.
-5. A la pàgina **Tasca de la línia d'oferta** , al camp **Tasques** , seleccioneu la tasca i, al camp **Tipus de facturació** , seleccioneu **Desa**. 
+4. A la pestanya **Tasques imputables**, seleccioneu **Afegeix una tasca de línia d'oferta**.
+5. A la pàgina **Tasca de la línia d'oferta**, al camp **Tasques**, seleccioneu la tasca i, al camp **Tipus de facturació**, seleccioneu **Desa**. 
 6. Tanqueu la pàgina. La tasca seleccionada s'associa ara a la línia d'oferta.
 
 ## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Desassociar tasques de línies d’oferta basades en projectes
@@ -72,8 +72,8 @@ Podeu associar tasques de projecte a línies d'oferta des de la pestanya **Tasqu
 
 Aquest mètode proporciona l'experiència més òptima per desassociar tasques de línies d'oferta. Podeu utilitzar seleccionar diverses tasques i desassociar-les totes, a més de les tasques secundàries, de la línia d'oferta seleccionada.
 
-1. A la pestanya **General** d'una línia d'oferta basada en projectes, al camp **Projecte** , seleccioneu l'enllaç del projecte.
-2. A la pàgina **Projecte** , seleccioneu la pestanya **Facturació de tasques**.
+1. A la pestanya **General** d'una línia d'oferta basada en projectes, al camp **Projecte**, seleccioneu l'enllaç del projecte.
+2. A la pàgina **Projecte**, seleccioneu la pestanya **Facturació de tasques**.
 3. A la segona quadrícula, que s'aplica a la configuració de facturació específica de la tasca, seleccioneu una o diverses tasques i, a continuació, seleccioneu **Desassocia les línies d'oferta**.
 4. A la pàgina de diàleg que apareix, seleccioneu una línia d'oferta.
 5. Marqueu la casella de selecció per indicar si l'associació també s'ha de suprimir de les tasques secundàries de les tasques seleccionades. Si marqueu la casella també es desassociaran les tasques secundàries de les tasques seleccionades a la línia d'oferta.
@@ -84,7 +84,7 @@ Aquest mètode proporciona l'experiència més òptima per desassociar tasques d
 
 També podeu desassociar tasques de projecte a línies d'oferta des de la pestanya **Tasques imputables** a la pàgina **Línia d'oferta**.
 
-1. A la pestanya **Tasques imputables** , seleccioneu **Suprimeix una tasca de línia d'oferta**.
+1. A la pestanya **Tasques imputables**, seleccioneu **Suprimeix una tasca de línia d'oferta**.
 2. Seleccioneu **D'acord**. Un missatge d'advertiment us informa que, si suprimiu aquesta associació, els valors reals registrats prèviament a la tasca podrien revertir-se. 
 3. Seleccioneu **D'acord** per continuar i suprimir l'associació entre la tasca i la línia d'oferta basada en projectes.
 

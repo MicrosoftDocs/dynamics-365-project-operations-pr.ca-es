@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072063"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127327"
 ---
 # <a name="project-tracking-overview"></a>Informació general sobre el seguiment del projecte
 
@@ -25,10 +25,10 @@ La necessitat de fer un seguiment del progrés davant d'una planificació varia 
 
 La visualització **Seguiment de l'esforç** fa el seguiment del progrés de les tasques a la planificació comparant les hores d'esforç reals dedicades a una tasca i les hores d'esforç planificades de la tasca. El Dynamics 365 Project Operations utilitza les següents fórmules per calcular les mètriques de seguiment:
 
-- **Percentatge de progrés** : Esforç real dedicat fins al moment ÷ Estimació per completar (EAC) 
-- **Estimació per completar (ETC)** : Esforç planificat - Esforç real dedicat fins al moment 
-- **EAC** : Esforç restant + Esforç real dedicat fins al moment 
-- **Variació d'esforç previst** : Esforç planificat – EAC
+- **Percentatge de progrés**: Esforç real dedicat fins al moment ÷ Estimació per completar (EAC) 
+- **Estimació per completar (ETC)**: Esforç planificat - Esforç real dedicat fins al moment 
+- **EAC**: Esforç restant + Esforç real dedicat fins al moment 
+- **Variació d'esforç previst**: Esforç planificat – EAC
 
 El Project Operations mostra una projecció de la variació de l'esforç en la tasca. Si l'EAC és major que l'esforç planificat, es preveu que la tasca comporti més temps del que s'havia planejat originalment i duu retard. Si l'EAC és menor que l'esforç planificat, es preveu que la tasca comporti menys temps del que s'havia planejat originalment i va avançada.
 
@@ -60,10 +60,10 @@ La visualització **Seguiment del cost** compara el cost real que va comportar u
 > [!NOTE]
 > Aquesta visualització només mostra els costos de treball i no inclou els costos de les estimacions de la despesa. El Project Operations utilitza les següents fórmules per calcular les mètriques de seguiment:
 
-- **Percentatge de cost consumit** : Cost real fins al moment ÷ Cost estimat en finalitzar
-- **Cost per completar (CTC)** : Cost planificat - Cost real fins al moment
-- **EAC** : Cost restant + Cost real fins al moment
-- **Variació de costos projectats** : Cost previst – EAC
+- **Percentatge de cost consumit**: Cost real fins al moment ÷ Cost estimat en finalitzar
+- **Cost per completar (CTC)**: Cost planificat - Cost real fins al moment
+- **EAC**: Cost restant + Cost real fins al moment
+- **Variació de costos projectats**: Cost previst – EAC
 
 Es mostra una projecció de la variació del cost en la tasca. Si l'EAC és més gran que el cost planificat, es preveu que la tasca costi més del que s'ha planejat originalment. Per tant, està per sobre del pressupost. Si l'EAC és més petit que el cost planificat, es preveu que la tasca costi menys del que s'ha planejat originalment. Per tant, està per sota del pressupost.
 

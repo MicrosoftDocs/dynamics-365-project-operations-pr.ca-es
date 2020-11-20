@@ -3,7 +3,7 @@ title: Configurar paràmetres addicionals
 description: Com configurar paràmetres addicionals al Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072212"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129351"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Configurar paràmetres addicionals (Project Service)
 
@@ -54,9 +54,9 @@ Per definir els paràmetres del projecte:
   
 2. Feu clic als paràmetres que voleu configurar (els que vàreu crear en instal·lar per primer cop l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]) o feu clic a **Crea** per crear-ne de nous.  
   
-3. A l'àrea **General** , definiu totes les opcions per als paràmetres del vostre projecte.  
+3. A l'àrea **General**, definiu totes les opcions per als paràmetres del vostre projecte.  
   
-4. A l'àrea **Llista de preus** , feu clic a **+** per afegir una llista de preus, seleccioneu una llista de preus a la llista desplegable **Llista de preus de paràmetres de projecte** i feu clic a **Desa**.  
+4. A l'àrea **Llista de preus**, feu clic a **+** per afegir una llista de preus, seleccioneu una llista de preus a la llista desplegable **Llista de preus de paràmetres de projecte** i feu clic a **Desa**.  
   
 5. Feu clic al botó **Desa** a la cantonada inferior dreta de la pantalla.  
 

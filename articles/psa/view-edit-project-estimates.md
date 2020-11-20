@@ -3,7 +3,7 @@ title: Visualitzar i editar estimacions de projecte
 description: Com visualitzar i editar estimacions de projecte al Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072288"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125841"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Visualitzar i editar estimacions de projecte (Project Service)
 
@@ -37,7 +37,7 @@ Amb les capacitats de l'[!INCLUDE[pn_project_service_auto](../includes/pn-projec
   
 3.  A la barra que hi ha a la part superior de la pantalla, seleccioneu la fletxa avall al costat del nom de projecte i, a continuació, feu clic a **Estimacions de projecte**.  
   
-4.  A **Fase de temps per** , seleccioneu **Esforç** , **Cost** o **Vendes** per canviar les estimacions de projecte que es mostraran.  
+4.  A **Fase de temps per**, seleccioneu **Esforç**, **Cost** o **Vendes** per canviar les estimacions de projecte que es mostraran.  
   
 5.  Per afegir o suprimir despeses, feu clic a **Mostra visualització de quadrícula**. Per crear una despesa nova, feu clic a **Despesa nova**. Per suprimir una despesa, seleccioneu-la de la llista i, a continuació, feu clic a **Suprimeix despesa**. Quan hagueu acabat d'afegir o suprimir despeses, feu clic a **Desa**.  
   

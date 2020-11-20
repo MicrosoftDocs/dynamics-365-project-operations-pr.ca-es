@@ -3,7 +3,7 @@ title: Assignar un recurs a una tasca
 description: En aquest tema es proporciona informació sobre la manera d'assignar recursos a tasques.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072401"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125121"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Assignar un recurs a una tasca
 
@@ -33,22 +33,22 @@ Hi ha tres maneres d'assignar un recurs a una tasca al Microsoft Dynamics 365 Pr
 
 Podeu afegir un recurs a l'equip del projecte i després assignar-lo a tasques en la planificació del projecte.
 
-1. A la pestanya **Membre de l'equip** , afegiu un nou membre de l'equip amb **Crea**. 
+1. A la pestanya **Membre de l'equip**, afegiu un nou membre de l'equip amb **Crea**. 
 
-2. S'obre la subfinestra **Creació ràpida d'un membre de l'equip** , on es pot seleccionar el nom del recurs que es pot reservar i establir una funció. 
+2. S'obre la subfinestra **Creació ràpida d'un membre de l'equip**, on es pot seleccionar el nom del recurs que es pot reservar i establir una funció. 
 
     Seleccioneu un dels següents mètodes d'assignació per a la reserva del recurs:
 
-    - **Capacitat total** : reserva la capacitat total del recurs per a les dates especificades des de i fins a.
-    - **Capacitat percentual** : reserva el recurs per a un percentatge de capacitat del recurs per a les dates especificades des de i fins a.
-    - **Per hores distribuïdes uniformement** : reserva el recurs durant un nombre específic d'hores i les distribueix de manera uniforme per dia durant les dates d'inici i finalització especificades.
-    - **Per hores amb la càrrega frontal** : reserva el recurs durant un nombre específic d'hores, carrega les hores per dia durant les dates especificades des de i fins a.
-    - **Cap** : afegeix el recurs a l'equip, però no crea cap reserva que absorbeixi la seva capacitat.
+    - **Capacitat total**: reserva la capacitat total del recurs per a les dates especificades des de i fins a.
+    - **Capacitat percentual**: reserva el recurs per a un percentatge de capacitat del recurs per a les dates especificades des de i fins a.
+    - **Per hores distribuïdes uniformement**: reserva el recurs durant un nombre específic d'hores i les distribueix de manera uniforme per dia durant les dates d'inici i finalització especificades.
+    - **Per hores amb la càrrega frontal**: reserva el recurs durant un nombre específic d'hores, carrega les hores per dia durant les dates especificades des de i fins a.
+    - **Cap**: afegeix el recurs a l'equip, però no crea cap reserva que absorbeixi la seva capacitat.
 
 3. A la quadrícula **Planificació** per a una tasca, seleccioneu la icona **Recurs** a la cel·la de recursos i, a continuació, a **Membres de l'equip** seleccioneu el membre de l'equip que acabeu d'afegir. 
 
 > [!NOTE]
-> A les pestanyes **Membre de l'equip** i **Conciliació** , el recurs mostra les hores reservades i les assignades. Aquestes hores han de ser iguals, però no són obligatòries perquè les reserves i les assignacions no estan estretament unides. La pestanya **Conciliació** aporta detalls quan són diferents, com quan s'assignen a un recurs més hores de les que heu reservat. Si cal, podeu prendre mesures correctives ampliant les reserves del recurs o canviar-ne l'assignació.
+> A les pestanyes **Membre de l'equip** i **Conciliació**, el recurs mostra les hores reservades i les assignades. Aquestes hores han de ser iguals, però no són obligatòries perquè les reserves i les assignacions no estan estretament unides. La pestanya **Conciliació** aporta detalls quan són diferents, com quan s'assignen a un recurs més hores de les que heu reservat. Si cal, podeu prendre mesures correctives ampliant les reserves del recurs o canviar-ne l'assignació.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Crear un membre de l'equip genèric a través de l'assignació de tasques
 
@@ -58,7 +58,7 @@ Quan creeu un membre d'equip genèric a través d'una assignació de tasques, he
 
 2. Introduïu un nom que servirà per al recurs contenidor. Per exemple: Administrador.
 
-3. Seleccioneu **Crea** i al camp **Creació ràpida del membre de l'equip de projecte** , establiu la funció per al recurs genèric.
+3. Seleccioneu **Crea** i al camp **Creació ràpida del membre de l'equip de projecte**, establiu la funció per al recurs genèric.
 
 4. Podeu seguir assignant tasques a aquest recurs de contenidor si seleccioneu el recurs al **Selector de recursos** per a la tasca. S'enumeren a l'apartat **Membres de l'equip**.
 

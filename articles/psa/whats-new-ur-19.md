@@ -3,7 +3,7 @@ title: Novetats o canvis de la versió d'actualització 19 del Project Service A
 description: En aquest tema es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 19.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072165"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126818"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation, versió d'actualització 19, V3
 
@@ -56,7 +56,7 @@ S'han corregit els problemes següents:
 - **Actualitza els preus** falta a l'estimació de la despesa.
 -  Els clients no poden seleccionar motius d'estat de contracte personalitzats des de la pàgina **Contracte del projecte**.
 - Els clients experimenten un rendiment degradat en crear una llista de preus personalitzada a partir d'una oferta.
-- Els clients experimenten una incoherència amb el valor per defecte d' **unitat** a les pàgines **Detalls de la línia d'oferta** i **Detalls de la línia de contracte**.
+- Els clients experimenten una incoherència amb el valor per defecte d'**unitat** a les pàgines **Detalls de la línia d'oferta** i **Detalls de la línia de contracte**.
 - L'addició d'elements de categoria no facturables a una línia de contracte facturable no respectarà el tipus de facturació **No facturable** de la categoria de la transacció.
 - Els clients no poden utilitzar les funcions i la categoria acabades d'afegir als contractes creats prèviament.
 - Els clients experimenten un rendiment degradat per una recuperació innecessària a PreValidateProjectTeamMemberUpdate.cs

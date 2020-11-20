@@ -3,7 +3,7 @@ title: Gestió de projectes i reserves al calendari de l'Office 365
 description: Com gestionar de projectes i reserves al calendari de l'Office 365
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072246"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129036"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gestió de projectes i reserves al calendari (Project Service)
 
@@ -60,7 +60,7 @@ Visualitzeu cites personals, reserves de projectes i assignacions d'ordres de tr
   
 3.  Feu clic a la pestanya **Sincronització**.  
   
-4.  A **Seleccioneu si voleu sincronitzar les reserves de recursos amb l'Outlook** , marqueu **Sincronitza les reserves de recursos amb l'Outlook**.  
+4.  A **Seleccioneu si voleu sincronitzar les reserves de recursos amb l'Outlook**, marqueu **Sincronitza les reserves de recursos amb l'Outlook**.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>Activar la sincronització del vostre perfil d'usuari (tasca d'usuari)  
   
@@ -70,7 +70,7 @@ Visualitzeu cites personals, reserves de projectes i assignacions d'ordres de tr
   
 3.  Feu clic a la pestanya **Sincronització**.  
   
-4.  A **Sincronització de reserves de recursos** , marqueu **Sincronitza les reserves de recursos amb l'Outlook**.  
+4.  A **Sincronització de reserves de recursos**, marqueu **Sincronitza les reserves de recursos amb l'Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>Importació de les cites personals (tasca d'usuari)  
  Simplement podeu importar les vostres cites personals del calendari a la visualització d'entrades de temps del Project Service Automation.  
@@ -83,7 +83,7 @@ Visualitzeu cites personals, reserves de projectes i assignacions d'ordres de tr
   
 4. Seleccioneu la cita que voleu afegir a la visualització d'entrades de temps del Project Service Automation.  
   
-5. Al quadre emergent **Entrada de temps** , seleccioneu les opcions adequades per convertir la cita en una visualització d'entrades de temps del Project Service Automation.  
+5. Al quadre emergent **Entrada de temps**, seleccioneu les opcions adequades per convertir la cita en una visualització d'entrades de temps del Project Service Automation.  
   
 6. Feu clic a **Desa**.  
   

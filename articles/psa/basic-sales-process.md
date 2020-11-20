@@ -3,7 +3,7 @@ title: Processos de venda
 description: En aquest tema es proporciona informació sobre els processos de venda bàsics.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072326"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129306"
 ---
 # <a name="sales-processes"></a>Processos de venda
 
@@ -70,21 +70,21 @@ Aquestes sis fases estan representades per cometes (\>) que seleccioneu per expa
  
 La vostra organització podria utilitzar entitats diferents per representar la mateixa oferta a mesura que evoluciona. A principis del procés de vendes, un acord està representat per l'entitat Oportunitat. A mesura que passa el temps i hi ha més detalls que sorgeixen, podríeu utilitzar estimacions d'alt nivell per crear una o diverses ofertes. Si una d'aquestes ofertes la revisen parts interessades internes i del client, l'entitat Oferta representa el tracte. Quan el client accepta l'oferta, un contracte o SOW del projecte representa el tracte. Per admetre aquest comportament, els BPF s'estructuren de manera que cada fase del procés es vincula a una altra taula de base de dades.
 
-La fase **Qualificació** en el procés de venda pot basar-se en una entitat Oportunitat. Les fases **Estimació** i **Revisió interna** poden basar-se en una entitat Oferta. Les fases **Contracte** , **Lliurament** i **Tancament** poden basar-se en una entitat Contracte del projecte.
+La fase **Qualificació** en el procés de venda pot basar-se en una entitat Oportunitat. Les fases **Estimació** i **Revisió interna** poden basar-se en una entitat Oferta. Les fases **Contracte**, **Lliurament** i **Tancament** poden basar-se en una entitat Contracte del projecte.
 
 A mesura que l'oportunitat avanci a través de les fases, se us demanarà que creeu el registre de l'entitat adient per ajudar i guiar-vos pel procés. Les fases poden ser condicionals. Per exemple, si necessiteu una revisió interna d'una oferta només si l'oferta utilitza una llista de preus personalitzada, podeu configurar aquesta condició en la fase adequada del procés de negoci. Llavors, la fase **Revisió interna** només es mostra per a les ofertes que utilitzen una llista de preus personalitzada. Per a tots els altres negocis i ofertes, l'etapa **Estimació** va seguida de la fase **Contracte**.
 
 > [!NOTE]
-> El PSA té pàgines específiques per a les entitats Oportunitat, Oferta, Comanda i Factura. Heu de crear oportunitats, ofertes, comandes i factures del Project Service mitjançant les pàgines d'informació del projecte per a aquestes entitats. Si utilitzeu una altra pàgina per crear un registre, no podreu obrir el registre des de la pàgina **Informació del projecte**. Si voleu obrir un registre des de la pàgina **Informació del projecte** , heu de suprimir el registre i tornar-lo a crear amb la pàgina **Informació del projecte**. A la pàgina **Informació del projecte** , la lògica empresarial per a cadascun d'aquests tipus d'entitats garanteix que el camp **Tipus** del registre es defineixi correctament i que tots els conceptes obligatoris s'inicialitzen correctament.
+> El PSA té pàgines específiques per a les entitats Oportunitat, Oferta, Comanda i Factura. Heu de crear oportunitats, ofertes, comandes i factures del Project Service mitjançant les pàgines d'informació del projecte per a aquestes entitats. Si utilitzeu una altra pàgina per crear un registre, no podreu obrir el registre des de la pàgina **Informació del projecte**. Si voleu obrir un registre des de la pàgina **Informació del projecte**, heu de suprimir el registre i tornar-lo a crear amb la pàgina **Informació del projecte**. A la pàgina **Informació del projecte**, la lògica empresarial per a cadascun d'aquests tipus d'entitats garanteix que el camp **Tipus** del registre es defineixi correctament i que tots els conceptes obligatoris s'inicialitzen correctament.
 
 > ![Informació del projecte per a una nova comanda](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Diferències entre el Project Service Automation i el Sales
 Tot i que el procés de vendes del PSA utilitza les capacitats bàsiques del procés de venda al Sales, té algunes diferències clau a causa de les variacions de pràctiques empresarials d'organitzacions basades en projectes. A continuació trobareu alguns exemples:
 
-- **Ofertes del projecte** : al Project Service Automation, l'oferta es tanca després d'haver creat un contracte de projecte a partir d'una oferta. Al Sales, podeu mantenir una oferta oberta després d'haver-la guanyat. La raó d'aquesta diferència és que una coincidència entre una oferta i un contracte de projecte és millor per a organitzacions basades en projectes. 
-- **Activació i revisions** : al PSA, l'activació i les revisions no estan admeses per a les ofertes del projecte. Al Sales, es pot bloquejar una oferta per evitar modificacions addicionals.
-- **Tancar una oferta com a perduda o guanyada** : al PSA, quan un pressupost de projecte es tanca com a guanyat o perdut, l'oportunitat queda oberta. Totes les altres ofertes a l'oportunitat es tanquen com a perdudes. Al Sales, quan una oferta es tanca com a guanyada o perduda, es demanarà a l'usuari que faci una acció sobre l'oportunitat. En funció de l'entrada de l'usuari, pot ser que l'oportunitat subjacent es tanqui o que quedi oberta.
+- **Ofertes del projecte**: al Project Service Automation, l'oferta es tanca després d'haver creat un contracte de projecte a partir d'una oferta. Al Sales, podeu mantenir una oferta oberta després d'haver-la guanyat. La raó d'aquesta diferència és que una coincidència entre una oferta i un contracte de projecte és millor per a organitzacions basades en projectes. 
+- **Activació i revisions**: al PSA, l'activació i les revisions no estan admeses per a les ofertes del projecte. Al Sales, es pot bloquejar una oferta per evitar modificacions addicionals.
+- **Tancar una oferta com a perduda o guanyada**: al PSA, quan un pressupost de projecte es tanca com a guanyat o perdut, l'oportunitat queda oberta. Totes les altres ofertes a l'oportunitat es tanquen com a perdudes. Al Sales, quan una oferta es tanca com a guanyada o perduda, es demanarà a l'usuari que faci una acció sobre l'oportunitat. En funció de l'entrada de l'usuari, pot ser que l'oportunitat subjacent es tanqui o que quedi oberta.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Seguiment de revisions a ofertes i plans de projecte del cicle de venda
 Al PSA, no podeu fer el seguiment de les revisions fetes en una oferta. En lloc d'això, heu de marcar l'oferta existent **Tancada com a perduda** i, a continuació, crear una oferta nova. Podeu copiar una oferta o clonar una oferta basada en projectes mitjançant el PSA.

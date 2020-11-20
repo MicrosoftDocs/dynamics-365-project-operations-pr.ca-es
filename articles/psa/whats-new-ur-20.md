@@ -3,7 +3,7 @@ title: Novetats o canvis de la versió d'actualització 20 del Project Service A
 description: En aquest tema es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 20
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072161"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126741"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, versió d'actualització 20, V3
 
@@ -48,7 +48,7 @@ S'han corregit els problemes següents:
 
 S'han corregit els problemes següents:
 
-- Al formulari **Contracte** , fer doble clic a **Crea una factura** crea dues factures per a un únic registre de valors reals.
+- Al formulari **Contracte**, fer doble clic a **Crea una factura** crea dues factures per a un únic registre de valors reals.
 - A l'Internet Explorer 11, els usuaris no poden crear entrades de despeses.
 - La revocació del cost i dels valors reals de vendes no facturades no s'enllaça.
 - El botó **Actualitza els valors reals** del formulari **Projecte** no actualitza **Hores reals de la tasca**.
@@ -59,4 +59,4 @@ S'han corregit els problemes següents:
 - Els valors d'unitat i grup d'unitats no canvien per defecte correctament per a les categories de despesa als formularis **Detalls de la línia de contracte** i **Detalls de la línia d'oferta**.
 - Les llistes **Preu de cost per unitat organitzativa** permeten solapaments en la data de l'efectivitat.
 - Els usuaris no poden canviar la **Unitat organitzativa** quan el tipus de comanda no està basat en el treball, ja que produirà un error d'excepció de referència nul·la.
-- Quan intenteu navegar del formulari **Detalls de la línia d'oferta** a la pestanya **Oferta** , el formulari s'actualitza i es mostrarà la pestanya **Resum**.
+- Quan intenteu navegar del formulari **Detalls de la línia d'oferta** a la pestanya **Oferta**, el formulari s'actualitza i es mostrarà la pestanya **Resum**.

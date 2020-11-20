@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072332"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128271"
 ---
 # <a name="confirm-a-project-contract"></a>Confirmació d'un contracte de projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Un contracte de projecte al Dynamics 365 Project Operations pot ser actiu amb una raó **Confirmat** , o tancat amb una raó **Perdut**. Quan es confirma un contracte de projecte, l'estat s'actualitza d' **Esborrany** a **Actiu** i la raó per a l'estat és **Confirmat**. Un contracte actiu o tancat no es pot editar o reobrir. 
+Un contracte de projecte al Dynamics 365 Project Operations pot ser actiu amb una raó **Confirmat**, o tancat amb una raó **Perdut**. Quan es confirma un contracte de projecte, l'estat s'actualitza d'**Esborrany** a **Actiu** i la raó per a l'estat és **Confirmat**. Un contracte actiu o tancat no es pot editar o reobrir. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Impacte financer de confirmar un contracte de projecte
 

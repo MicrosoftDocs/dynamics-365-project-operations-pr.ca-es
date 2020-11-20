@@ -3,7 +3,7 @@ title: Com assigno un recurs que es pot reservar a una tasca en l'aplicació web
 description: Informació general de les maneres en què podeu assignar recursos que es poden reservar.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072400"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125166"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Com assigno un recurs reservable a una a una tasca en l'aplicació web (v2.x de l'aplicació Project Service)?
 
@@ -46,10 +46,10 @@ Amb aquest mètode, afegiu un recurs a l'equip del projecte i després assigneu 
     > ![Captura de pantalla de l'addició d'un membre a l'equip](media/FAQ-Resources-to-Tasks2-1.png "Captura de pantalla de l'addició d'un membre a l'equip")
  
 4.  Seleccioneu un dels següents mètodes d'assignació per reservar el recurs:
-    - **Capacitat total** : reserva la capacitat total del recurs per a les dates especificades des de i fins a.
-    - **Capacitat percentual** : reserva el recurs per a un percentatge de capacitat del recurs per a les dates especificades des de i fins a.
-    - **Per hores distribuïdes uniformement** : reserva el recurs durant un nombre específic d'hores i les distribueix de manera uniforme per dia durant les dates especificades des de i fins a.
-    - **Per hores amb la càrrega frontal** : reserva el recurs durant un nombre específic d'hores, carrega les hores per dia durant les dates especificades des de i fins a.
+    - **Capacitat total**: reserva la capacitat total del recurs per a les dates especificades des de i fins a.
+    - **Capacitat percentual**: reserva el recurs per a un percentatge de capacitat del recurs per a les dates especificades des de i fins a.
+    - **Per hores distribuïdes uniformement**: reserva el recurs durant un nombre específic d'hores i les distribueix de manera uniforme per dia durant les dates especificades des de i fins a.
+    - **Per hores amb la càrrega frontal**: reserva el recurs durant un nombre específic d'hores, carrega les hores per dia durant les dates especificades des de i fins a.
 
     No seleccioneu **Cap** perquè afegeix el recurs a l'equip, però no crea cap reserva que absorbeixi la capacitat del recurs.
 5.  Seleccioneu **Desa**.

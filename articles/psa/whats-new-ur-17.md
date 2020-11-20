@@ -3,7 +3,7 @@ title: Novetats o canvis de la versió d'actualització 17 del Project Service A
 description: En aquest tema es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 17.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072168"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126786"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation, versió d'actualització 17, V3
 
@@ -52,6 +52,6 @@ En aquest tema es mostren les característiques i correccions que són noves o s
 **Sales**
 
 - Correcció: **Invoice.PreValidateInvoiceUpdate** ara gestiona l'escenari de reassignació dels propietaris de registres correctament.
-- Correcció: quan la classe de transacció és **Time** , **UnitGroup** no es pot editar per a les entitats que inclouen **QuoteLineDetails** , **JournalLine** , **InvoiceLineDetail** i **ContractLineDetails**. Això no obstant, **Unit** no es pot editar només per a **JournalLine** i **InvoiceLineDetails**.
+- Correcció: quan la classe de transacció és **Time**, **UnitGroup** no es pot editar per a les entitats que inclouen **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** i **ContractLineDetails**. Això no obstant, **Unit** no es pot editar només per a **JournalLine** i **InvoiceLineDetails**.
 
 

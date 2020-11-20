@@ -3,7 +3,7 @@ title: Novetats o canvis de la versió d'actualització 22 del Project Service A
 description: En aquest tema es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 22.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072160"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126606"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation, versió d'actualització 22, V3
 
@@ -69,4 +69,4 @@ S'han corregit els problemes següents:
 - No es mostra el missatge d'error de validació quan se selecciona una Llista de preus de cost a la cerca Llista de preus al formulari o entitat "Nova llista de preus de projecte d'ofertes".
 - El tancament de l'oferta com a guanyada no dirigeix al contracte creat si un BPF adjunt a l'oferta és a la fase final.
 - Revertir les **Vendes no facturades** s'enllaça al cost original quan es recupera una entrada de temps.
-- Després de seleccionar el botó **Confirma** , l'estat de la factura no canvia a **Confirmada** si no s'actualitza la factura.
+- Després de seleccionar el botó **Confirma**, l'estat de la factura no canvia a **Confirmada** si no s'actualitza la factura.
