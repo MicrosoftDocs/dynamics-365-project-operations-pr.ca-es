@@ -3,7 +3,7 @@ title: Guia d'administració de recursos
 description: En aquest tema s'enllaça a informació sobre l'administració de recursos al Project Service Automation
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,27 +18,27 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 810adf1fc00bf9d111e5da8c0d490b92bc83049a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3b1f195cf712862972e6b52d1529089ccd52c775
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072310"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132501"
 ---
-# <a name="resource-management-guide"></a><span data-ttu-id="38176-103">Guia d'administració de recursos</span><span class="sxs-lookup"><span data-stu-id="38176-103">Resource management guide</span></span>
+# <a name="resource-management-guide"></a><span data-ttu-id="6f669-103">Guia d'administració de recursos</span><span class="sxs-lookup"><span data-stu-id="6f669-103">Resource management guide</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="38176-104">S'ha suprimit l'enllaç PDF que abans es trobava en aquest tema i s'ha mogut el contingut als temes següents:</span><span class="sxs-lookup"><span data-stu-id="38176-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="6f669-104">S'ha suprimit l'enllaç PDF que abans es trobava en aquest tema i s'ha mogut el contingut als temes següents:</span><span class="sxs-lookup"><span data-stu-id="6f669-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="38176-105">Pàgina d'inici d'administració de recursos</span><span class="sxs-lookup"><span data-stu-id="38176-105">Resource management home page</span></span>](../resource-management-home-page.md)
-- [<span data-ttu-id="38176-106">Conceptes clau</span><span class="sxs-lookup"><span data-stu-id="38176-106">Key concepts</span></span>](../reports-key-concepts.md)
-- [<span data-ttu-id="38176-107">Complir sol·licituds de recursos</span><span class="sxs-lookup"><span data-stu-id="38176-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
-- [<span data-ttu-id="38176-108">Proposar recursos</span><span class="sxs-lookup"><span data-stu-id="38176-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
-- [<span data-ttu-id="38176-109">Reservar recursos</span><span class="sxs-lookup"><span data-stu-id="38176-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="38176-110">Reservar requisits manera flexible</span><span class="sxs-lookup"><span data-stu-id="38176-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
-- [<span data-ttu-id="38176-111">Aptituds i models de competència</span><span class="sxs-lookup"><span data-stu-id="38176-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
-- [<span data-ttu-id="38176-112">PMF de l'administració de recursos</span><span class="sxs-lookup"><span data-stu-id="38176-112">Resource management FAQ</span></span>](../resource-management-faq.md)
+- [<span data-ttu-id="6f669-105">Pàgina d'inici d'administració de recursos</span><span class="sxs-lookup"><span data-stu-id="6f669-105">Resource management home page</span></span>](../resource-management-home-page.md)
+- [<span data-ttu-id="6f669-106">Conceptes clau</span><span class="sxs-lookup"><span data-stu-id="6f669-106">Key concepts</span></span>](../reports-key-concepts.md)
+- [<span data-ttu-id="6f669-107">Complir sol·licituds de recursos</span><span class="sxs-lookup"><span data-stu-id="6f669-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
+- [<span data-ttu-id="6f669-108">Proposar recursos</span><span class="sxs-lookup"><span data-stu-id="6f669-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
+- [<span data-ttu-id="6f669-109">Reservar recursos</span><span class="sxs-lookup"><span data-stu-id="6f669-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="6f669-110">Reservar requisits manera flexible</span><span class="sxs-lookup"><span data-stu-id="6f669-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
+- [<span data-ttu-id="6f669-111">Aptituds i models de competència</span><span class="sxs-lookup"><span data-stu-id="6f669-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
+- [<span data-ttu-id="6f669-112">PMF de l'administració de recursos</span><span class="sxs-lookup"><span data-stu-id="6f669-112">Resource management FAQ</span></span>](../resource-management-faq.md)
 
 > [!NOTE]
-> <span data-ttu-id="38176-113">Aquest tema s'eliminarà en una futura actualització de la documentació.</span><span class="sxs-lookup"><span data-stu-id="38176-113">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="6f669-113">Aquest tema s'eliminarà en una futura actualització de la documentació.</span><span class="sxs-lookup"><span data-stu-id="6f669-113">This topic will be removed in a future documentation update.</span></span> 
