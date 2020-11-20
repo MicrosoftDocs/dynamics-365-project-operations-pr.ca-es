@@ -1,21 +1,21 @@
 ---
-title: Línies d'oferta basades en projectes (Pro)
+title: Informació general de les línies d'oferta basades en projectes (bàsic)
 description: En aquest tema s'ofereix informació sobre l'ús de línies d'oferta basades en projectes per al treball del projecte. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072142"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181080"
 ---
-# <a name="project-based-quote-lines-pro"></a>Línies d'oferta basades en projectes (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Informació general de les línies d'oferta basades en projectes (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -31,7 +31,7 @@ Les línies d'oferta basades en projectes estan dissenyades per ajudar a estimar
 
 A la taula següent es proporciona informació sobre els camps de la pestanya **General** de la línia d'oferta basada en projectes. Aquests camps ajuden a configurar la base per a una estimació detallada i des de zero per al treball del projecte.
 
-| **Camp** | **Rellevància, propòsit i orientació** | **Impacte descendent** |
+| **Camp** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- |
 | Nom | Nom de la línia d'oferta que hauria d'ajudar-vos a identificar el component discret de l'oferta que s'està estimant. | Es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
 | Mètode de facturació | En una oferta creada a partir d'una oportunitat, aquest valor es copia des del camp corresponent a la línia d'oportunitat. Aquest camp inclou els dos models principals de contractació admesos pel Dynamics 365 Project Operations:</br>- Preu fix</br>- Temps i material.| El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
@@ -49,15 +49,15 @@ A la taula següent es proporciona informació sobre els camps de la pestanya **
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regles de validació per als camps de la pestanya General de línies d'oferta basades en projectes
 
-**Regla 1** : si el camp **Tasques incloses** està en blanc o si està definit com a **Totes les tasques del projecte** , s'inclou un projecte a la línia d'oferta.
+**Regla 1**: si el camp **Tasques incloses** està en blanc o si està definit com a **Totes les tasques del projecte**, s'inclou un projecte a la línia d'oferta.
 
-**Regla 2** : si el camp **Tasques incloses** està en blanc o si està definit com a **Totes les tasques del projecte** , un projecte i una determinada classe de transacció només es poden incloure en una línia d'oferta basada en projectes d'una oferta.
+**Regla 2**: si el camp **Tasques incloses** està en blanc o si està definit com a **Totes les tasques del projecte**, un projecte i una determinada classe de transacció només es poden incloure en una línia d'oferta basada en projectes d'una oferta.
 
-**Regla 3** : si el camp **Tasques incloses** està definit com a **Només les tasques del projecte seleccionades** , un projecte i una determinada classe de transacció es poden incloure en diverses línies d'oferta basades en projectes d'una oferta.
+**Regla 3**: si el camp **Tasques incloses** està definit com a **Només les tasques del projecte seleccionades**, un projecte i una determinada classe de transacció es poden incloure en diverses línies d'oferta basades en projectes d'una oferta.
 
-**Regla 4** : si una oportunitat té diverses ofertes, pot haver-hi línies d'ofertes de diverses ofertes que facin referència al mateix projecte i que incloguin la mateixa classe de transacció.
+**Regla 4**: si una oportunitat té diverses ofertes, pot haver-hi línies d'ofertes de diverses ofertes que facin referència al mateix projecte i que incloguin la mateixa classe de transacció.
 
-**Regla 5** : si les ofertes no pertanyen a la mateixa oportunitat, no poden incloure el mateix projecte i classe de transacció.
+**Regla 5**: si les ofertes no pertanyen a la mateixa oportunitat, no poden incloure el mateix projecte i classe de transacció.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

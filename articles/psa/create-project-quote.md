@@ -3,7 +3,7 @@ title: Crear una oferta de projecte
 description: Com crear una oferta de projecte al Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072320"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133131"
 ---
 # <a name="create-a-project-quote-project-service"></a>Crear una oferta de projecte (Project Service)
 
@@ -35,7 +35,7 @@ Crear una oferta és semblant a crear una oportunitat. La diferència és que un
   
 2. Feu clic a **Fase següent** a la dreta de la barra de procés i, a continuació, seleccioneu una oferta existent o feu clic a **Crea** per crear una oferta nova.  
   
-3. A l'àrea **Resum** , canvieu la informació que sigui necessària.  
+3. A l'àrea **Resum**, canvieu la informació que sigui necessària.  
   
 4. Feu clic a **Desa** per crear l'oferta per tal que la pugueu continuar editant.  
   

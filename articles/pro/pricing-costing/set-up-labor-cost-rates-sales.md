@@ -1,33 +1,33 @@
 ---
-title: Configuració de les tarifes de cost de treball
+title: Configuració de les tarifes de cost de treball (bàsic)
 description: Aquest tema proporciona informació sobre com configurar les tarifes de cost per al treball al Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072123"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180690"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Configuració de les tarifes de cost de treball 
+# <a name="set-up-labor-cost-rates---lite"></a>Configuració de les tarifes de cost de treball (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 Cada llista de preus té un conjunt de tarifes laborals (preus per funció) que s'alineen amb el contingut i la data d'efectivitat de la llista de preus.
 
-1. Creeu una llista de preus i a la pestanya **Preu per funció** , a la subquadrícula, seleccioneu **Funció nova**.
-2. A la pàgina **Creació ràpida** , seleccioneu la funció i la unitat d'organització.
+1. Creeu una llista de preus i a la pestanya **Preu per funció**, a la subquadrícula, selecciona **Funció nova**.
+2. A la pàgina **Creació ràpida**, seleccioneu la funció i la unitat d'organització.
 3. Introduïu qualsevol altra informació de camp obligatòria.
 
 La taula següent inclou alguns dels camps que són importants quan es creen tarifes laborals en una llista de preus de cost.
 
-| Camp | Location | Rellevància, propòsit i orientació | Impacte descendent |
+| Camp | Location | Descripció | Impacte descendent |
 | --- | --- | --- | --- |
 | Funció | Pestanya **General** i pàgines **Creació ràpida** | Seleccioneu la funció a la qual s'aplica la tarifa de cost. | La funció de l'estimació o el valor real d'entrada es farà coincidir amb aquesta línia per obtenir el cost per defecte de la funció. |
 | Unitat de recursos | Pestanya **General** i pàgines **Creació ràpida** | Seleccioneu la unitat organitzativa o la divisió de l'empresa des d'on s'utilitzarà aquesta funció. Per exemple, un desenvolupador de la divisió de robòtica de Fabrikam India o un desenvolupador de la divisió de programari de Fabrikam USA. | L'unitat de recursos de l'estimació o el valor real d'entrada es farà coincidir amb aquesta línia per obtenir el cost per defecte de la funció. |
@@ -38,7 +38,7 @@ La taula següent inclou alguns dels camps que són importants quan es creen tar
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transferència de preus i costos per als recursos fora de la vostra divisió o entitat jurídica
 
-En empreses basades en projectes, és habitual utilitzar empleats de diferents entitats jurídiques o divisions en projectes. Un projecte pot ser executat per una entitat jurídica, però els empleats o consultors que treballen en el projecte poden provenir de la mateixa entitat jurídica o d'una altra, o pot haver-hi una combinació de tots dos. Al Dynamics 365 Project Operations, l'entitat jurídica que és propietària del lliurament del projecte és l' **Empresa propietària** i la divisió que és propietària del lliurament és la **Unitat de contractació**. Altres entitats jurídiques que proporcionen recursos són **Empreses de recursos** i les divisions que proporcionen recursos són **Unitats de recursos**. En la majoria dels països, les empreses estan obligades a garantir que l'entitat jurídica o la divisió de recursos cobra a l'empresa propietària i a la unitat contractant per l'ús dels recursos.
+En empreses basades en projectes, és habitual utilitzar empleats de diferents entitats jurídiques o divisions en projectes. Un projecte pot ser executat per una entitat jurídica, però els empleats o consultors que treballen en el projecte poden provenir de la mateixa entitat jurídica o d'una altra, o pot haver-hi una combinació de tots dos. Al Dynamics 365 Project Operations, l'entitat jurídica que és propietària del lliurament del projecte és l'**Empresa propietària** i la divisió que és propietària del lliurament és la **Unitat de contractació**. Altres entitats jurídiques que proporcionen recursos són **Empreses de recursos** i les divisions que proporcionen recursos són **Unitats de recursos**. En la majoria dels països, les empreses estan obligades a garantir que l'entitat jurídica o la divisió de recursos cobra a l'empresa propietària i a la unitat contractant per l'ús dels recursos.
 
 Per exemple, la corporació Fabrikam ha de garantir que Fabrikam India-robòtica tingui una targeta de tarifa de cost negociada amb Fabrikam US-robòtica o Fabrikam UK-robòtica.
 

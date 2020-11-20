@@ -1,21 +1,21 @@
 ---
-title: Administració d'unitats complexes, com ara per usuari o per mes, de les línies d'oferta basades en productes
+title: Administració d'unitats complexes, com ara per usuari o per mes, de les línies d'oferta basades en productes (bàsic)
 description: En aquest tema s'ofereix informació sobre l'administració d'unitats complexes per a línies d'oferta basades en projectes.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072144"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175564"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Administració d'unitats complexes, com ara per usuari o per mes, de les línies d'oferta basades en productes
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Administració d'unitats complexes, com ara per usuari o per mes, de les línies d'oferta basades en productes (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -29,8 +29,8 @@ El Project Operations valida que només les propietats numèriques o les propiet
 
 Per exemple, el Dynamics 365 Sales pot tenir les propietats següents:
 
-- **Nombre d'usuaris** : el nombre d'usuaris
-- **Nombre de mesos** : el nombre de mesos de subscripció
+- **Nombre d'usuaris**: el nombre d'usuaris
+- **Nombre de mesos**: el nombre de mesos de subscripció
 - **SKU de producte**
 
 Podeu marcar les propietats **Nombre d'usuaris** i **Nombre de mesos** com a factors de quantitat per editar les propietats de la línia de productes.

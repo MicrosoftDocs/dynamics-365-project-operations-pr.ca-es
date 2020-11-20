@@ -1,26 +1,26 @@
 ---
-title: Càlcul de costos de línies de contracte basades en productes
+title: Càlcul de costos de línies de contracte basades en productes (bàsic)
 description: Aquest tema proporciona informació sobre la creació
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4072443"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177229"
 ---
-# <a name="costing-product-based-contract-lines"></a>Càlcul de costos de línies de contracte basades en productes
+# <a name="cost-product-based-contract-lines---lite"></a>Càlcul de costos de línies de contracte basades en productes (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 
-Les línies de contracte basades en el producte al Dynamics 365 Project Operations inclouen el camp **Preu de cost** , que emmagatzema el preu de cost del producte per als càlculs de rendibilitat posteriors.
+Les línies de contracte basades en el producte al Dynamics 365 Project Operations inclouen el camp **Preu de cost**, que emmagatzema el preu de cost del producte per als càlculs de rendibilitat posteriors.
 
 Quan es crea una línia de contracte basada en productes per a un producte del catàleg, el cost de la línia de contracte basada en productes és per defecte el del camp **Cost estàndard** del catàleg de productes. El camp **Cost estàndard** del catàleg de productes està configurat a la moneda base de l'organització. Quan el cost unitari per defecte és el de la línia de contracte, es converteix a la moneda de venda del contracte.
 

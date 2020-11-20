@@ -3,7 +3,7 @@ title: Introduir les despeses
 description: Com introduir despeses al Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072416"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132906"
 ---
 # <a name="enter-expenses-project-service"></a>Introduir les despeses (Project Service)
 
@@ -49,7 +49,7 @@ Introduïu les vostres despeses com a mínim setmanalment, o segons la freqüèn
   
    Si utilitzeu l'aplicació mòbil:  
   
-8. Des del menú, aneu a **Despeses**.     Podeu canviar a la visualització de **Dia** , **Setmana** o **Mes** o anar al període de temps anterior o següent.  
+8. Des del menú, aneu a **Despeses**.     Podeu canviar a la visualització de **Dia**, **Setmana** o **Mes** o anar al període de temps anterior o següent.  
   
 9. Toqueu **...** i després toqueu **Nou**.  
   

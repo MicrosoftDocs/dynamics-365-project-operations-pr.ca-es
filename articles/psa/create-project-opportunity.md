@@ -3,7 +3,7 @@ title: Crear una oportunitat de projecte
 description: Com crear una oportunitat de projecte al Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072404"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133221"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Crear una oportunitat de projecte (Project Service)
 
@@ -35,15 +35,15 @@ Les oportunitats són clients potencials molt interessats de clients que volen c
   
 2.  Feu clic a **Nou**.  
   
-3.  A l'àrea **Resum** , introduïu l'empresa de l'oportunitat i informació addicional.  
+3.  A l'àrea **Resum**, introduïu l'empresa de l'oportunitat i informació addicional.  
   
 4.  Afegiu qualsevol nota i activitat (per exemple, trucades telefòniques o correus electrònics) relacionades amb aquest client potencial. Per obtenir més informació sobre com afegir notes i activitats, consulteu [Seguiment de notes, tasques, trucades o correus electrònics amb activitats](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
-5.  Per afegir les parts interessades, a l'àrea **Part interessades** , feu clic a **+**.  
+5.  Per afegir les parts interessades, a l'àrea **Part interessades**, feu clic a **+**.  
   
-6.  Per afegir membres de l'equip de vendes, a l'àrea **Equip de vendes** , feu clic a **+**.  
+6.  Per afegir membres de l'equip de vendes, a l'àrea **Equip de vendes**, feu clic a **+**.  
   
-7.  Per afegir competidors, a l'àrea **Competidors** , feu clic a **+**.  
+7.  Per afegir competidors, a l'àrea **Competidors**, feu clic a **+**.  
   
 8.  Per afegir un producte a l'oportunitat, feu clic a **Nou** sota **Línies basades en producte** de l'àrea **Línies de l'oportunitat**. Seleccioneu un element a **Nom del producte** i, a continuació, especifiqueu la quantitat, el preu de venda i el pressupost del client.  
   

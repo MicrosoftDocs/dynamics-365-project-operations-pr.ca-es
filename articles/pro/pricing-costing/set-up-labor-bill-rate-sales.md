@@ -1,33 +1,33 @@
 ---
-title: Configuració de les tarifes de facturació de treball
+title: Configuració de les tarifes de la factura de treball (bàsic)
 description: Aquest tema proporciona informació sobre la configuració de tarifes de facturació de treball al Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072274"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181164"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Configuració de tarifes de facturació per a la facturació de tarifes de treball 
+# <a name="set-up-labor-bill-rates---lite"></a>Configuració de les tarifes de la factura de treball (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 Cada llista de preus té un conjunt de preus per funció o tarifes de treball que són efectives per al context i la data d'efectivitat inclosos a la capçalera de la llista de preus. Les tarides de facturació per temps al Dynamics 365 Project Operations es poden establir en una única moneda, que és la moneda a la capçalera de la llista de preus.
 
 1. Per establir les tarifes de facturació del treball per a una llista de preus de venda, creeu una llista de preus basada en la capçalera de la llista de preus. 
-2. A la pestanya **Preus per funció** , a la subquadrícula, seleccioneu **+ Preu per funció nou**. 
-3. A la subfinestra **Creació ràpida** , introduïu la funció rol i la combinació d'unitats de l'organització per a la qual heu d'establir la tarifa de facturació.
+2. A la pestanya **Preus per funció**, a la subquadrícula, seleccioneu **+ Preu per funció nou**. 
+3. A la subfinestra **Creació ràpida**, introduïu la funció rol i la combinació d'unitats de l'organització per a la qual heu d'establir la tarifa de facturació.
 
   La taula següent inclou els camps de la pestanya **General** i la subfinestra **Creació ràpida** d'una línia de preu per funció que heu de tenir en compte quan creeu els preus per funció en una llista de preus de vendes:
 
-  | Camp | Location | Rellevància, propòsit i orientació | Impacte descendent |
+  | Camp | Location | Descripció | Impacte descendent |
   | --- | --- | --- | --- |
   | Funció | Pestanya **General** i subfinestra **Creació ràpida** | Seleccioneu la funció per a la qual definiu la tarifa de facturació. | La funció de l'estimació o el valor real d'entrada es farà coincidir amb aquesta línia per obtenir la tarifa de facturació per defecte de la funció. |
   | Unitat de recursos | Pestanya **General** i subfinestra **Creació ràpida** | Seleccioneu la unitat organitzativa o la divisió de l'empresa de la qual és la funció. Per exemple, un desenvolupador de la divisió de robòtica de Fabrikam India o un desenvolupador de la divisió de programari de Fabrikam USA. | La unitat de recursos de l'estimació o el valor real d'entrada es farà coincidir amb aquesta línia per obtenir la tarifa de facturació per defecte de la funció. |

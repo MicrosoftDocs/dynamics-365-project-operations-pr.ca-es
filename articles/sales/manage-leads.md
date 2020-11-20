@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072070"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181755"
 ---
 # <a name="manage-leads"></a>Administració de clients potencials
 
@@ -23,7 +23,7 @@ Els clients potencials basats en projectes es poden administrar i qualificar al 
 
 ## <a name="project-sales-leads"></a>Clients potencials de vendes del projecte
 
-A la secció **Vendes** , a la subfinestra de navegació esquerra, obriu la pàgina de la llista **Clients potencials** per veure una llista de tots els registres de client potencial del sistema. La llista de clients potencials que es mostren són basats en treball i altres tipus de clients potencials que es poden crear si també teniu les aplicacions Dynamics 365 Sales o Dynamics 365 Field Service.
+A la secció **Vendes**, a la subfinestra de navegació esquerra, obriu la pàgina de la llista **Clients potencials** per veure una llista de tots els registres de client potencial del sistema. La llista de clients potencials que es mostren són basats en treball i altres tipus de clients potencials que es poden crear si també teniu les aplicacions Dynamics 365 Sales o Dynamics 365 Field Service.
 
 Podeu crear una visualització filtrada per veure només els clients potencials basats en projectes mitjançant la creació d'un filtre al valor **Tipus**. Per exemple, podeu seleccionar si voleu que només es mostrin clients potencials basats en el treball.
 
@@ -38,7 +38,7 @@ Per tal que un client potencial qualificat creï automàticament una oportunitat
 
 A la taula següent s'inclou informació de camp important per a un client potencial i les implicacions descendents d'aquests camps.
  
-| **Camp** | **Ubicació** | **Rellevància, propòsit i orientació** | **Impacte descendent** |
+| **Camp** | **Ubicació** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- | --- |
 | Tema | Pestanya General | Aquest camp de text ha de contenir una breu descripció de l'acord. | El tema del client potencial serà per defecte com el tema de l'oportunitat i el nom de l'oferta i el contracte del projecte. |
 | Type | Pestanya General | Aquest camp de conjunt d'opcions té les opcions següents:</br>- Basat en treball (disponible només quan s'instal·la el Project Operations)</br>- Basat en elements (disponible només quan s'instal·len el Project Operations i el Sales)</br>- Basat en el manteniment del servei (disponible quan el Field Service està instal·lat) | Quan el valor d'aquest camp està definit com a **Basat en el treball** en el client potencial, el client potencial està qualificat per crear una oportunitat basada en projectes. Es necessita una oportunitat basada en projectes per habilitar totes les extensions i funcionalitats específiques del projecte al procés de venda descendent per a aquest acord. |

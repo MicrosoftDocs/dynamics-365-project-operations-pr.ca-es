@@ -3,7 +3,7 @@ title: Administrar els recursos
 description: En aquest tema es proporciona informació sobre com administrar els recursos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072413"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132321"
 ---
 # <a name="manage-resources"></a>Administrar els recursos
 
@@ -31,9 +31,9 @@ ms.locfileid: "4072413"
 
 El Dynamics 365 Project Service Automation inclou un escriptori digital d'administració de recursos que proporciona una visió general visual de la demanda i l'aprofitament dels recursos a tota l'organització. Podeu utilitzar els gràfics d'aquest escriptori digital per visualitzar la informació següent:
 
-- **Demanda de recursos** : el gràfic **Sol·licitud de recursos activa** mostra recursos que s'ha enviat. Els recursos s'agreguen per funció o projecte.
-- **Demanda de recursos no enviats** : el gràfic **Demanda de recursos no assignats** mostra tots els requisits de recursos que no s'han enviat. Ajuda els administradors de recursos a veure la demanda que no és ferma i podria ser enviada a través d'una sol·licitud de recursos.
-- **Ús facturable durant la setmana passada** : el gràfic **Utilització per funció** mostra el percentatge de l'ús facturable real de l'organització per funció en comparació amb l'objectiu d'ús facturable per funció.
+- **Demanda de recursos**: el gràfic **Sol·licitud de recursos activa** mostra recursos que s'ha enviat. Els recursos s'agreguen per funció o projecte.
+- **Demanda de recursos no enviats**: el gràfic **Demanda de recursos no assignats** mostra tots els requisits de recursos que no s'han enviat. Ajuda els administradors de recursos a veure la demanda que no és ferma i podria ser enviada a través d'una sol·licitud de recursos.
+- **Ús facturable durant la setmana passada**: el gràfic **Utilització per funció** mostra el percentatge de l'ús facturable real de l'organització per funció en comparació amb l'objectiu d'ús facturable per funció.
 
     > [!NOTE]
     > Per fer que el gràfic **Ús per funció** estigui disponible, creeu una feina que executi el flux de treball UpdateRoleUtilization. Aquesta feina periòdica s'executa cada set dies per calcular l'ús facturable dels set dies anteriors. Els resultats s'agreguen per funció.
@@ -46,9 +46,9 @@ Els administradors de projecte poden utilitzar l'escriptori digital d'administra
 
 Per afegir un membre de l'equip directament a un projecte , seleccioneu **Crea** a la pàgina **Projectes** de la pestanya **Equip**. Apareixerà el quadre de diàleg **Creació ràpida: membre de l'equip del projecte**. En aquest quadre de diàleg, podeu dur a terme aquestes tasques:
 
-- **Reservar un recurs amb nom** : al camp **Recursos que es poden reservar** , seleccioneu el nom del recurs. A continuació, seleccioneu la funció, definiu el període i seleccioneu un mètode d'assignació. El recurs amb nom que heu seleccionat s'afegeix al projecte mitjançant el mètode d'assignació i el calendari de recursos seleccionat.
-- **Afegir un recurs genèric** : deixeu el camp **Recurs que es pot reservar** en blanc i, a continuació, seleccioneu la funció, definiu el període i seleccioneu el mètode d'assignació preferit. Un recurs genèric s'afegeix a l'equip com a marcador de posició per mantenir el patró de demanda que s'utilitza per reservar els recursos amb nom a l'equip. El requisit es realitza d'acord amb el calendari del projecte.
-- **Afegir un recurs amb nom a l'equip sense haver de consumir la capacitat dels recursos** : al camp **Recurs que es pot reservar** , seleccioneu un recurs. A continuació, seleccioneu el període, i seleccioneu **Cap** com a mètode d'assignació. El recurs s'afegeix a l'equip, però la capacitat del recurs no es consumeix a través d'una reserva.
+- **Reservar un recurs amb nom**: al camp **Recursos que es poden reservar**, seleccioneu el nom del recurs. A continuació, seleccioneu la funció, definiu el període i seleccioneu un mètode d'assignació. El recurs amb nom que heu seleccionat s'afegeix al projecte mitjançant el mètode d'assignació i el calendari de recursos seleccionat.
+- **Afegir un recurs genèric**: deixeu el camp **Recurs que es pot reservar** en blanc i, a continuació, seleccioneu la funció, definiu el període i seleccioneu el mètode d'assignació preferit. Un recurs genèric s'afegeix a l'equip com a marcador de posició per mantenir el patró de demanda que s'utilitza per reservar els recursos amb nom a l'equip. El requisit es realitza d'acord amb el calendari del projecte.
+- **Afegir un recurs amb nom a l'equip sense haver de consumir la capacitat dels recursos**: al camp **Recurs que es pot reservar**, seleccioneu un recurs. A continuació, seleccioneu el període, i seleccioneu **Cap** com a mètode d'assignació. El recurs s'afegeix a l'equip, però la capacitat del recurs no es consumeix a través d'una reserva.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Reserveu un membre de l'equip per complir els requisits de recursos per a un recurs genèric
 
@@ -56,23 +56,23 @@ Al PSA, podeu reservar un recurs genèric en un equip del projecte i especificar
 
 Seguiu els passos que s'indiquen a continuació per especificar les aptituds necessàries en un recurs genèric per a un desenvolupador.
 
-1. A la pàgina **Projectes** , a la pestanya **Equip** , seleccioneu **Crea** per reservar un recurs genèric.
+1. A la pàgina **Projectes**, a la pestanya **Equip**, seleccioneu **Crea** per reservar un recurs genèric.
 
     ![Recurs genèric reservat a l'equip](media/Resource-Management-image9.png)
 
-2. A la visualització **Tots els membres de l'equip** , a la columna **Requisits de recursos** , seleccioneu l'enllaç per afegir les competències necessàries per al recurs genèric.
+2. A la visualització **Tots els membres de l'equip**, a la columna **Requisits de recursos**, seleccioneu l'enllaç per afegir les competències necessàries per al recurs genèric.
 
     ![Enllaç de requisit](media/Resource-Management-image10.png)
 
-3. A la pàgina **Requisit de recursos** que es mostra, a la quadrícula **Aptituds** , seleccioneu els punts suspensius ( **...** ) i, a continuació, seleccioneu **Afegeix una característica de requisit nova** per afegir les aptituds necessàries per al desenvolupador.
+3. A la pàgina **Requisit de recursos** que es mostra, a la quadrícula **Aptituds**, seleccioneu els punts suspensius (**...**) i, a continuació, seleccioneu **Afegeix una característica de requisit nova** per afegir les aptituds necessàries per al desenvolupador.
 
     ![Ordre Afegeix una característica de requisit nova](media/Resource-Management-image11.png)
 
-4. Al quadre de diàleg **Creació ràpida: característica de requisit** que apareix, al camp **Característica** , seleccioneu l'aptitud necessària. A continuació, al camp **Valor de qualificació** , seleccioneu el nivell de competència per a aquesta aptitud. Finalment, al camp **Requisit de recursos** , definiu el requisit dels recursos d'origen d'unitats organitzatives o fins i tot de recursos amb nom. Quan hagueu acabat, trieu **Desa**.
+4. Al quadre de diàleg **Creació ràpida: característica de requisit** que apareix, al camp **Característica**, seleccioneu l'aptitud necessària. A continuació, al camp **Valor de qualificació**, seleccioneu el nivell de competència per a aquesta aptitud. Finalment, al camp **Requisit de recursos**, definiu el requisit dels recursos d'origen d'unitats organitzatives o fins i tot de recursos amb nom. Quan hagueu acabat, trieu **Desa**.
 
     ![Quadre de diàleg Creació ràpida: característica de requisit](media/Resource-Management-image12.png)
 
-5. A la pàgina **Requisits de recursos** , seleccioneu **Reserva** per complir el requisit de recursos.
+5. A la pàgina **Requisits de recursos**, seleccioneu **Reserva** per complir el requisit de recursos.
 
     ![Botó Reserva a la pàgina Requisits de recursos](media/Resource-Management-image13.png)
 
@@ -83,15 +83,15 @@ Seguiu els passos que s'indiquen a continuació per especificar les aptituds nec
     > [!NOTE]
     > En aquest exemple, hi ha 40 hores necessàries però no hores reservades reals, perquè els recursos genèrics no tenen reserves. A més, no hi ha cap hora assignada, perquè el recurs genèric s'ha afegit directament a l'equip. No s'ha afegit mitjançant l'assignació de tasques.
 
-    A la pàgina **Auxiliar de planificació** , podeu filtrar els recursos disponibles mitjançant els requisits que s'especifiquen al requisit del recurs. Els recursos s'ordenen segons els paràmetres d'ordenació que s'especifiquen al Tauler de planificació.
+    A la pàgina **Auxiliar de planificació**, podeu filtrar els recursos disponibles mitjançant els requisits que s'especifiquen al requisit del recurs. Els recursos s'ordenen segons els paràmetres d'ordenació que s'especifiquen al Tauler de planificació.
 
     ![Pàgina Auxiliar de planificació](media/Resource-Management-image15.png)
 
     A continuació teniu alguns filtres que s'utilitzen sovint:
 
-    - **Característiques amb una valoració** : filtreu per competències, certificacions i altres qualitats de recursos, a més d'avaluacions de competència.
-    - **Funcions** : filtreu per les funcions per defecte que estan assignades a recursos que es poden reservar.
-    - **Unitats organitzatives** : filtreu recursos que es poden reservar per les unitats organitzatives que tenen assignades.
+    - **Característiques amb una valoració**: filtreu per competències, certificacions i altres qualitats de recursos, a més d'avaluacions de competència.
+    - **Funcions**: filtreu per les funcions per defecte que estan assignades a recursos que es poden reservar.
+    - **Unitats organitzatives**: filtreu recursos que es poden reservar per les unitats organitzatives que tenen assignades.
 
 6. Si no esteu satisfet amb els resultats de la cerca inicial de requisits, podeu canviar els criteris de filtratge. Expandiu la subfinestra **Filtra la visualització** a l'esquerra i, a continuació, seleccioneu **Cerca** per cercar recursos addicionals.
 
@@ -120,11 +120,11 @@ Seguiu els passos que s'indiquen a continuació per especificar les aptituds nec
 
 Al PSA, podeu crear tasques i, a continuació, assignar-hi recursos genèrics. D'aquesta manera, la demanda de recursos es pot representar amb marcadors de posició mentre s'estima la planificació i els números financers. A continuació, podeu generar requisits de recursos per als recursos genèrics i complir-los.
 
-1. A la pàgina **Projectes** , a la pestanya **Planificació** , seleccioneu **Afegeix** per crear una tasca.
+1. A la pàgina **Projectes**, a la pestanya **Planificació**, seleccioneu **Afegeix** per crear una tasca.
 
     ![Tasca nova creada](media/Resource-Management-image21.png)
 
-2. Al camp **Recursos** , seleccioneu el símbol **Selector de recursos**. El Selector de recursos apareix i mostra els membres de l'equip existents per al projecte.
+2. Al camp **Recursos**, seleccioneu el símbol **Selector de recursos**. El Selector de recursos apareix i mostra els membres de l'equip existents per al projecte.
 
     ![Selector de recursos](media/Resource-Management-image22.png)
 
@@ -132,7 +132,7 @@ Al PSA, podeu crear tasques i, a continuació, assignar-hi recursos genèrics. D
 
     ![Nom d'un recurs genèric nou introduït](media/Resource-Management-image23.png)
 
-4. Al quadre de diàleg **Creació ràpida: membre de l'equip del projecte** que apareix, al camp **Funció** , seleccioneu la funció per al recurs genèric. Al camp **Unitat de recursos** , seleccioneu la unitat organitzativa del recurs genèric. A continuació, seleccioneu **Desa**.
+4. Al quadre de diàleg **Creació ràpida: membre de l'equip del projecte** que apareix, al camp **Funció**, seleccioneu la funció per al recurs genèric. Al camp **Unitat de recursos**, seleccioneu la unitat organitzativa del recurs genèric. A continuació, seleccioneu **Desa**.
 
     ![Quadre de diàleg Creació ràpida: membre de l'equip del projecte](media/Resource-Management-image24.png)
 
@@ -140,7 +140,7 @@ Al PSA, podeu crear tasques i, a continuació, assignar-hi recursos genèrics. D
 
     ![Membre de l'equip genèric assignat a la tasca](media/Resource-Management-image25.png)
 
-    A la pestanya **Equip** , veureu el nou membre de l'equip genèric. Observeu que només té hores assignades. Aquestes hores són la suma de totes les tasques assignades al membre de l'equip genèric. El membre genèric de l'equip encara no té hores obligatòries o un requisit de recurs.
+    A la pestanya **Equip**, veureu el nou membre de l'equip genèric. Observeu que només té hores assignades. Aquestes hores són la suma de totes les tasques assignades al membre de l'equip genèric. El membre genèric de l'equip encara no té hores obligatòries o un requisit de recurs.
 
     ![Membre de l'equip genèric a la pestanya Equip](media/Resource-Management-image26.png)
 
@@ -150,7 +150,7 @@ Al PSA, podeu crear tasques i, a continuació, assignar-hi recursos genèrics. D
 
     Quan hàgiu acabat d'assignar el recurs genèric a les tasques, podeu generar un requisit de recurs per al recurs genèric.
 
-5. A la pestanya **Equip** , seleccioneu el recurs genèric i, a continuació , seleccioneu **Genera un requisit**.
+5. A la pestanya **Equip**, seleccioneu el recurs genèric i, a continuació , seleccioneu **Genera un requisit**.
 
     ![Ordre Genera un requisit](media/Resource-Management-image28.png)
 
@@ -162,7 +162,7 @@ Al PSA, podeu crear tasques i, a continuació, assignar-hi recursos genèrics. D
 
     ![Recurs genèric substituït pel recurs amb nom](media/Resource-Management-image30.png)
 
-    A la pestanya **Planificació** , les assignacions de recursos genèrics s'eliminen i se substitueixen pel recurs amb nom.
+    A la pestanya **Planificació**, les assignacions de recursos genèrics s'eliminen i se substitueixen pel recurs amb nom.
 
     ![Assignacions de recursos genèrics substituïdes pel recurs amb nom a la pestanya Planificació](media/Resource-Management-image31.png)
 
@@ -181,11 +181,11 @@ Al PSA, podeu crear tasques i, a continuació, assignar-hi recursos genèrics. D
 
     ![Segon recurs](media/Resource-Management-image35.png)
 
-    A la pestanya **Equip** , ara podeu veure que el recurs genèric no té hores necessàries, però les hores assignades encara es mostren juntament amb els dos recursos amb nom que formen el compliment.
+    A la pestanya **Equip**, ara podeu veure que el recurs genèric no té hores necessàries, però les hores assignades encara es mostren juntament amb els dos recursos amb nom que formen el compliment.
 
     ![Dos recursos amb nom a la pestanya Equip](media/Resource-Management-image36.png)
 
-    A la pestanya **Planificació** , el recurs genèric es manté assignat a la tasca.
+    A la pestanya **Planificació**, el recurs genèric es manté assignat a la tasca.
 
     ![Recursos genèrics a la pestanya Planificació](media/Resource-Management-image37.png)
 
@@ -197,7 +197,7 @@ Per tant, en aquests escenaris, l'administrador del projecte s'encarrega d'anali
 
 Després d'haver creat un requisit de recurs, pot ser que un administrador de projectes o un administrador de recursos vulguin editar els detalls per perfeccionar els criteris de cerca quan s'utilitza e Tauler de planificació. Per editar el requisit de recursos, seguiu aquests passos.
 
-1. A la pàgina **Projectes** , a la pestanya **Equip** , seleccioneu l'enllaç a qualsevol requisit en un recurs genèric.
+1. A la pàgina **Projectes**, a la pestanya **Equip**, seleccioneu l'enllaç a qualsevol requisit en un recurs genèric.
 2. A la pàgina **Requisits de recursos** que es mostra, podeu actualitzar diversos atributs. A continuació trobareu alguns exemples:
 
     - Nom
@@ -206,7 +206,7 @@ Després d'haver creat un requisit de recurs, pot ser que un administrador de pr
     - Duració
     - Tipus de recurs
 
-A la pàgina **Requisits de recursos** , l'administrador del projecte o administrador de recursos també pot definir la següent informació:
+A la pàgina **Requisits de recursos**, l'administrador del projecte o administrador de recursos també pot definir la següent informació:
 
 - Aptituds
 - Funcions
@@ -217,7 +217,7 @@ A la pàgina **Requisits de recursos** , l'administrador del projecte o administ
 
 Després d'afegir un recurs genèric o amb nom a un equip de projecte, podeu canviar les reserves del recurs.
 
-1. A la pàgina **Projectes** , a la pestanya **Equip** , seleccioneu un membre de l'equip i seleccioneu **Mantén les reserves**.
+1. A la pàgina **Projectes**, a la pestanya **Equip**, seleccioneu un membre de l'equip i seleccioneu **Mantén les reserves**.
 
     ![Tauler de planificació obert per al membre de l'equip seleccionat](media/Resource-Management-image40.png)
 
@@ -241,10 +241,10 @@ Podeu canviar qualsevol estat de reserva per defecte o personalitzat.
 
 El PSA inclou els estats següents:
 
-- **Cancel·lat** : l'estat cancel·la la reserva d'un recurs i allibera la capacitat del recurs.
-- **Reserva fixa** : l'estat consumeix la capacitat d'un recurs. Una reserva normalment té aquest estat quan obriu **Mantén les reserves** a la quadrícula **Tots els membres de l'equip** a la pàgina **Projectes**.
-- **Reserva flexible** : l'estat afegeix un recurs a un equip però no consumeix la capacitat del recurs. Indica que el recurs s'ha reservat per a un treball potencial però té capacitat si és necessari en altres feines. A la visualització de la disponibilitat de recursos globals, les reserves flexibles tenen un estat diferent de les reserves fixes.
-- **Proposat** : l'estat representa una proposta de l'administrador de recursos o l'administrador de projectes per a un recurs. Les propostes no consumeixen la capacitat d'un recurs i el recurs no s'afegeix a l'equip del projecte. Per reservar el recurs de l'equip, l'administrador del projecte ha d'acceptar la proposta.
+- **Cancel·lat**: l'estat cancel·la la reserva d'un recurs i allibera la capacitat del recurs.
+- **Reserva fixa**: l'estat consumeix la capacitat d'un recurs. Una reserva normalment té aquest estat quan obriu **Mantén les reserves** a la quadrícula **Tots els membres de l'equip** a la pàgina **Projectes**.
+- **Reserva flexible**: l'estat afegeix un recurs a un equip però no consumeix la capacitat del recurs. Indica que el recurs s'ha reservat per a un treball potencial però té capacitat si és necessari en altres feines. A la visualització de la disponibilitat de recursos globals, les reserves flexibles tenen un estat diferent de les reserves fixes.
+- **Proposat**: l'estat representa una proposta de l'administrador de recursos o l'administrador de projectes per a un recurs. Les propostes no consumeixen la capacitat d'un recurs i el recurs no s'afegeix a l'equip del projecte. Per reservar el recurs de l'equip, l'administrador del projecte ha d'acceptar la proposta.
 
 ### <a name="submit-resource-requests"></a>Enviar sol·licituds de recurs
 
@@ -286,7 +286,7 @@ Seleccioneu **Accepta totes les propostes** per acceptar tots els recursos propo
 
 De vegades, un administrador de projecte ha de substituir un membre de l'equip reservat en un projecte.
 
-1. A la pàgina **Projectes** , a la pestanya **Equip** , seleccioneu el recurs que cal substituir i seleccioneu **Mantén les reserves**.
+1. A la pàgina **Projectes**, a la pestanya **Equip**, seleccioneu el recurs que cal substituir i seleccioneu **Mantén les reserves**.
 2. Expandiu el recurs per visualitzar els projectes als quals està assignat.
 
     ![Recurs ampliat per mostrar els projectes assignats](media/Resource-Management-image50.png)
@@ -328,8 +328,8 @@ La pestanya també mostra un total de la xarxa global per al projecte, juntament
 
 Per a cada recurs, la pestanya calcula la diferència entre les reserves dels membres de l'equip i un valor consolidat de les assignacions de tasques del membre de l'equip. Idealment, aquesta diferència hauria de ser 0 (zero). En altres paraules, no hi hauria d'haver diferències entre les reserves i les assignacions. Les diferències es marquen amb color i un ombrejat per cridar l'atenció sobre dues condicions:
 
-- **Manca de reserves** : una manca de reserves es produeix quan un recurs té més assignacions que reserves. Com que aquesta capacitat no s'ha reservat, un administrador de projecte pot voler corregir aquesta situació ampliant les reserves del recurs fins a cobrir el dèficit.
-- **Excés de reserves** : un excés de reserves es produeix quan un recurs s'ha reservat al projecte però no s'ha assignat a tasques. Aquesta situació podria ser acceptable en els casos en què s'ha reservat el recurs al projecte abans d'haver produït una assignació de tasques. No obstant, en altres casos, el recurs no està planificat per assignar-se a tasques. En aquests casos, l'administrador del projecte hauria de considerar la cancel·lació de les reserves del recurs, de manera que la capacitat pugui utilitzar-se per a un altre projecte.
+- **Manca de reserves**: una manca de reserves es produeix quan un recurs té més assignacions que reserves. Com que aquesta capacitat no s'ha reservat, un administrador de projecte pot voler corregir aquesta situació ampliant les reserves del recurs fins a cobrir el dèficit.
+- **Excés de reserves**: un excés de reserves es produeix quan un recurs s'ha reservat al projecte però no s'ha assignat a tasques. Aquesta situació podria ser acceptable en els casos en què s'ha reservat el recurs al projecte abans d'haver produït una assignació de tasques. No obstant, en altres casos, el recurs no està planificat per assignar-se a tasques. En aquests casos, l'administrador del projecte hauria de considerar la cancel·lació de les reserves del recurs, de manera que la capacitat pugui utilitzar-se per a un altre projecte.
 
 En alguns casos, quan visualitzeu temps en un nivell superior al nivell de dia (per exemple, al nivell de mes), pot ser que vegeu una diferència neta de zero per a un recurs (en altres paraules, reserves = assignacions). No obstant, si visualitzeu temps al nivell de la setmana, podeu veure que hi ha assignacions de zero hores i reserves de 40 hores a la primera setmana, però assignacions de 40 hores i reserves de zero hores a la segona setmana. En general, les reserves i assignacions es concilien, però difereixen d'una setmana a la següent.
 
@@ -337,7 +337,7 @@ Quan visualitzeu el temps en nivells superiors, les cel·les de la pestanya **Co
 
 ![Indicador de diferències](media/Resource-Management-image57.png)
 
-Si teniu assignacions de tasca per a un recurs però no hi ha cap reserva, a la pàgina **Projectes** , a la pestanya **Conciliació** , seleccioneu la manca de reserves i, a continuació, seleccioneu **Amplia la reserva**. El quadre de diàleg **Amplia la reserva** apareix i mostra la reserva necessària per fer front a la manca del recurs. També mostra les reserves existents del recurs en tots els projectes o altres entitats planificables. Si seleccioneu **D'acord** per crear la reserva del recurs, independentment de la disponibilitat del recurs, pot ser que hi hagi un excés de reserves.
+Si teniu assignacions de tasca per a un recurs però no hi ha cap reserva, a la pàgina **Projectes**, a la pestanya **Conciliació**, seleccioneu la manca de reserves i, a continuació, seleccioneu **Amplia la reserva**. El quadre de diàleg **Amplia la reserva** apareix i mostra la reserva necessària per fer front a la manca del recurs. També mostra les reserves existents del recurs en tots els projectes o altres entitats planificables. Si seleccioneu **D'acord** per crear la reserva del recurs, independentment de la disponibilitat del recurs, pot ser que hi hagi un excés de reserves.
 
 ![Quadre de diàleg Amplia la reserva](media/Resource-Management-image58.png)
 

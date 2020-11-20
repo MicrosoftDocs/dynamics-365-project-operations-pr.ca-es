@@ -3,7 +3,7 @@ title: Estimacions
 description: Aquest tema proporciona informació sobre les estimacions al Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072414"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132700"
 ---
 # <a name="estimates"></a>Estimacions
 
@@ -47,7 +47,7 @@ El PSA no permet l'estimació de materials als detalls de la línia de contracte
 
 Els processos admesos en un contracte de projecte són la creació i la confirmació de factures. La creació de factures crea un esborrany d'una factura basada en projectes que inclou tots els valors reals de vendes no facturades fins a la data actual.
 
-La confirmació fa que el contracte sigui només de lectura i canvia l'estat d' **Esborrany** a **Confirmat**. Després d'haver dut a terme aquesta acció, no es pot desfer. Com que aquesta acció és permanent, és una pràctica més recomanable mantenir el contracte en un estat d' **Esborrany**.
+La confirmació fa que el contracte sigui només de lectura i canvia l'estat d'**Esborrany** a **Confirmat**. Després d'haver dut a terme aquesta acció, no es pot desfer. Com que aquesta acció és permanent, és una pràctica més recomanable mantenir el contracte en un estat d'**Esborrany**.
 
 L'única diferència entre els esborranys de contractes i els contractes confirmats és el seu estat i el fet que els esborranys de contractes es puguin editar mentre que els contractes confirmats no ho permeten. Els valors reals de creació i seguiment de factures es poden fer tant en esborranys de contractes com en contractes confirmats.
 
@@ -90,11 +90,11 @@ Si heu afegit un camp personalitzat al detall de la línia d'oferta i voleu que 
 
     ![Seleccionar un pas en el complement](media/basic-guide-20.png)
 
-5. Al quadre de diàleg **Actualitza el pas existent** , al camp **Atributs de filtratge** , seleccioneu el botó de punts suspensius ( **...** ):
+5. Al quadre de diàleg **Actualitza el pas existent**, al camp **Atributs de filtratge**, seleccioneu el botó de punts suspensius (**...**):
  
     ![Quadre de diàleg Actualitza el pas existent](media/basic-guide-21.png)
 
-6. Al quadre de diàleg **Selecció d'atributs** , seleccioneu les caselles de selecció per als atributs personalitzats.
+6. Al quadre de diàleg **Selecció d'atributs**, seleccioneu les caselles de selecció per als atributs personalitzats.
 
     ![Quadre de diàleg Selecció d'atributs](media/basic-guide-22.png)
 

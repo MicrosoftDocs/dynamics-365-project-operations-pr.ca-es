@@ -1,21 +1,21 @@
 ---
-title: Administració de diversos clients a les línies d'ofertes basades en projectes
+title: Administració de diversos clients a les línies d'ofertes basades en projectes (bàsic)
 description: En aquest tema es descriu com administrar diversos clients a les línies d'oferta basades en projectes.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072113"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176464"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Administració de diversos clients a les línies d'ofertes basades en projectes
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Administració de diversos clients a les línies d'ofertes basades en projectes (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -33,10 +33,10 @@ La taula següent mostra els camps del registre del client d'oferta d'una línia
 
 | Camp | Location | Descripció i instruccions | Impacte descendent |
 | --- | --- | --- | --- |
-| **Compte** | Quadrícula editable a la pestanya **Clients de la línia d'oferta** , al formulari principal i als formularis de creació ràpida per a un client de línia d'oferta. | Enumera tots els comptes actius. Aquest camp està blocat quan es crea el registre. Si heu d'actualitzar el camp, suprimiu i torneu a crear el registre. Si heu enregistrat valors reals, no podeu suprimir el registre. | En triar un compte de la llista mestra de comptes per afegir, el client de la línia d'oferta també s'afegeix com a client d'oferta en desar-lo. En guanyar una oferta, els clients de la línia d'oferta també es copiaran al clients de la línia de contracte del projecte. |
-| **Percentatge dividit de facturació** | Quadrícula editable a la pestanya **Clients de la línia d'oferta** , al formulari principal i als formularis de creació ràpida per a un client de línia d'oferta. | Representa el percentatge de cada transacció de vendes sense facturar que s'atribuirà a aquest client de la línia d'oferta. | Es copia als clients de la línia de contracte del projecte. |
-| **Límit que no s’ha de superar** | Quadrícula editable a la pestanya **Clients de la línia d'oferta** , al formulari principal i als formularis de creació ràpida per a un client de línia d'oferta. | Indica si hi ha un límit o un màxim negociat a l'import global que es facturarà a aquest client per a aquesta línia d'oferta. | Es copia als clients de la línia de contracte del projecte quan es guanya una oferta. |
-| **És arrodoniment** | Quadrícula editable a la pestanya **Clients de la línia d'oferta** , al formulari principal i als formularis de creació ràpida per a un client de línia d'oferta. | Indica si aquest client és un client d'arrodoniment per defecte de la línia d'oferta basada en projectes. | Es copia als clients del contracte del projecte quan es guanya una oferta. |
+| **Compte** | Quadrícula editable a la pestanya **Clients de la línia d'oferta**, al formulari principal i als formularis de creació ràpida per a un client de línia d'oferta. | Enumera tots els comptes actius. Aquest camp està blocat quan es crea el registre. Si heu d'actualitzar el camp, suprimiu i torneu a crear el registre. Si heu enregistrat valors reals, no podeu suprimir el registre. | En triar un compte de la llista mestra de comptes per afegir, el client de la línia d'oferta també s'afegeix com a client d'oferta en desar-lo. En guanyar una oferta, els clients de la línia d'oferta també es copiaran al clients de la línia de contracte del projecte. |
+| **Percentatge dividit de facturació** | Quadrícula editable a la pestanya **Clients de la línia d'oferta**, al formulari principal i als formularis de creació ràpida per a un client de línia d'oferta. | Representa el percentatge de cada transacció de vendes sense facturar que s'atribuirà a aquest client de la línia d'oferta. | Es copia als clients de la línia de contracte del projecte. |
+| **Límit que no s’ha de superar** | Quadrícula editable a la pestanya **Clients de la línia d'oferta**, al formulari principal i als formularis de creació ràpida per a un client de línia d'oferta. | Indica si hi ha un límit o un màxim negociat a l'import global que es facturarà a aquest client per a aquesta línia d'oferta. | Es copia als clients de la línia de contracte del projecte quan es guanya una oferta. |
+| **És arrodoniment** | Quadrícula editable a la pestanya **Clients de la línia d'oferta**, al formulari principal i als formularis de creació ràpida per a un client de línia d'oferta. | Indica si aquest client és un client d'arrodoniment per defecte de la línia d'oferta basada en projectes. | Es copia als clients del contracte del projecte quan es guanya una oferta. |
 
 ## <a name="edit-billing-split-percentages"></a>Edició dels percentatges de divisió de la facturació
 

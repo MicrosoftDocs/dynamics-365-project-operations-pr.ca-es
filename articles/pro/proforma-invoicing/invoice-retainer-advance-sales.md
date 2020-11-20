@@ -1,21 +1,21 @@
 ---
-title: Facturació d'una bestreta o avançament
+title: Facturació d'una bestreta o un avançament (bàsic)
 description: Aquest tema proporciona informació sobre com facturar una bestreta o avançament al Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087820"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180540"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Facturació d'una bestreta o avançament
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Facturació d'una bestreta o un avançament (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -24,7 +24,7 @@ El Dynamics 365 Project Operations admet els contractes basats en bestretes i av
 Completeu els passos següents per facturar una bestreta o avançament.
 
 1. Seleccioneu **Vendes** > **Facturació** > **Bestretes i avançaments**. 
-2. A la pàgina **Avançaments i bestretes** , utilitzeu el filtre per seleccionar la bestreta o avançament específic per facturar-lo i marqueu-lo com a **A punt per facturar**.
+2. A la pàgina **Avançaments i bestretes**, utilitzeu el filtre per seleccionar la bestreta o avançament específic per facturar-lo i marqueu-lo com a **A punt per facturar**.
 3. Creeu una factura manualment des de pàgina de llista o de detalls **Contracte del projecte**. La bestreta o avançament es mostra a l'esborrany de la factura en la secció **Avançaments i bestretes** de la **Factura**.
 4. Confirmeu la factura. D'aquesta manera, es podrà utilitzar la bestreta o avançament. Podeu verificar la factura a la pàgina de llista **Bestretes i avançaments**. Per a un avançament o bestreta facturat, la quantitat disponible es mostra a la quadrícula.
 
@@ -32,8 +32,8 @@ Completeu els passos següents per facturar una bestreta o avançament.
 
 Podeu crear una bestreta o avançament directament en una factura.
 
-1. En un esborrany de factura, a la subquadrícula **Avançaments i bestretes** , seleccioneu **Nou** per crear una nova bestreta o avançament. 
-2. A la pàgina **Creació ràpida** , afegiu la informació necessària i seleccioneu **Desa**. La bestreta o avançament es crea en el contracte del projecte relacionat amb la factura. La bestreta o avançament es marca automàticament com a **A punt per facturar** i després s'afegeix a la subquadrícula **Avançaments i bestretes** de la pàgina **Factura**.
+1. En un esborrany de factura, a la subquadrícula **Avançaments i bestretes**, seleccioneu **Nou** per crear una nova bestreta o avançament. 
+2. A la pàgina **Creació ràpida**, afegiu la informació necessària i seleccioneu **Desa**. La bestreta o avançament es crea en el contracte del projecte relacionat amb la factura. La bestreta o avançament es marca automàticament com a **A punt per facturar** i després s'afegeix a la subquadrícula **Avançaments i bestretes** de la pàgina **Factura**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Conciliar una bestreta o avançament facturat
 
@@ -43,7 +43,7 @@ En cada factura que es genera per a un contracte de projecte que té bestretes o
 
 Això es pot veure a la quadrícula **Bestretes i avançaments aplicats** a la pàgina **Factura**. La taula següent proporciona informació sobre els camps de la quadrícula **Bestretes i avançaments aplicats** de la pàgina **Factura del projecte**.
 
-| Camp | Location | Rellevància, propòsit i orientació | Impacte descendent |
+| Camp | Location | Descripció | Impacte descendent |
 | --- | --- | --- | --- |
 | Descripció | Quadrícula **Avançaments i bestretes aplicats** a la pàgina **Factura del projecte** |Aquest camp de només lectura proporciona una descripció de la bestreta o avançament utilitzat en aquesta factura. Aquest valor no es pot canviar a la factura. Aquest valor es pot actualitzar a la subquadrícula de la pàgina **Contracte del projecte**. | Aquest camp es pot mostrar al client a la factura impresa per indicar quina bestreta o avançament s'aplica a la factura. |
 | Lliurat el | Quadrícula **Avançaments i bestretes aplicats** a la pàgina **Factura del projecte**  | Aquest camp de només lectura proporciona la data de factura de la bestreta o avançament utilitzat en aquesta factura. Aquest valor no es pot canviar a la factura. Aquest valor es pot actualitzar a la subquadrícula de la pàgina **Contracte del projecte**. | Aquest camp es pot mostrar al client a la factura impresa per indicar la data en què es va facturar per primera vegada la bestreta o avançament al client. |

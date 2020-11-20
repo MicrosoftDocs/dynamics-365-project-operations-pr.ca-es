@@ -3,7 +3,7 @@ title: Preus del catàleg de productes
 description: En aquest tema s'ofereix informació sobre com funcionen els preus del catàleg de productes al Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072243"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132231"
 ---
 # <a name="product-catalog-pricing"></a>Preus del catàleg de productes 
 
@@ -46,11 +46,11 @@ El PSA admet diverses opcions d'arrodoniment quan els preus es configuren com a 
 
 > ![Afegir productes d'un catàleg a diverses llistes de preus](media/basic-guide-16.png)
 
-Quan creeu una llista de preus personalitzada nova per a una oferta seleccionant **Crea un preu personalitzat** a la pàgina **Oferta del projecte** , el PSA fa una còpia de la llista de preus i el camp **Entitat** a la capçalera de la llista de preus nova es defineix com a **Entitat de vendes**. Al nom de la llista de preus nova s'hi afegeix el nom de l'oferta i d'una marca horària. També podeu utilitzar el nom de la llista de preus nova i el nom de l'oferta als fluxos de treball personalitzats per activar la revisió i les aprovacions addicionals de les ofertes que utilitzin preus personalitzats.
+Quan creeu una llista de preus personalitzada nova per a una oferta seleccionant **Crea un preu personalitzat** a la pàgina **Oferta del projecte**, el PSA fa una còpia de la llista de preus i el camp **Entitat** a la capçalera de la llista de preus nova es defineix com a **Entitat de vendes**. Al nom de la llista de preus nova s'hi afegeix el nom de l'oferta i d'una marca horària. També podeu utilitzar el nom de la llista de preus nova i el nom de l'oferta als fluxos de treball personalitzats per activar la revisió i les aprovacions addicionals de les ofertes que utilitzin preus personalitzats.
 
  
 ## <a name="default-product-price-list"></a>Llista de preus per defecte
-Cada registre de client té un camp **Llista de preus per defecte** , on es pot especificar una llista de preus que coincideixi amb la moneda del client. Al PSA, no s'introdueix automàticament un valor per defecte en aquest camp. Si hi ha un acord de preus personalitzat amb un client específic, podeu utilitzar aquest camp per associar una llista de preus amb el client.
+Cada registre de client té un camp **Llista de preus per defecte**, on es pot especificar una llista de preus que coincideixi amb la moneda del client. Al PSA, no s'introdueix automàticament un valor per defecte en aquest camp. Si hi ha un acord de preus personalitzat amb un client específic, podeu utilitzar aquest camp per associar una llista de preus amb el client.
 
 Les entitats Oportunitat, Oferta i Contracte de projecte utilitzen el següent ordre per introduir llistes de preus de productes per defecte. El mateix ordre s'utilitza per a les llistes de preus del projecte.
 

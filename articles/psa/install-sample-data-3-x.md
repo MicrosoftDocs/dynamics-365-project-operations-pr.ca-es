@@ -3,7 +3,7 @@ title: Instal·lació de les dades d'exemple
 description: Aquest tema proporciona informació sobre la instal·lació de les dades d'exemple al Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072277"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132411"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instal·lació de les dades d'exemple per a l'aplicació del Project Service
 
@@ -43,15 +43,15 @@ El paquet de dades de **demostració** més recent és:
 Aquests paquets de dades d'exemple només estan disponibles en anglès.
 
 > [!IMPORTANT]
-> **No hi ha cap manera de desinstal·lar les dades d'exemple.** Només heu d'instal·lar aquests paquets en sistemes demostració, avaluació, formació o prova. Tingueu en compte també que la instal·lació d'un paquet individual i la instal·lació posterior d'un altre paquet individual no són compatibles. (En altres paraules, no podeu instal·lar **FSMasterData** seguit de **PSMasterData** , o viceversa). Si veieu que necessiteu dades d'exemple per a ambdues aplicacions en qualsevol moment del futur, heu d'instal·lar el paquet **v902FPSMasterData**.
+> **No hi ha cap manera de desinstal·lar les dades d'exemple.** Només heu d'instal·lar aquests paquets en sistemes demostració, avaluació, formació o prova. Tingueu en compte també que la instal·lació d'un paquet individual i la instal·lació posterior d'un altre paquet individual no són compatibles. (En altres paraules, no podeu instal·lar **FSMasterData** seguit de **PSMasterData**, o viceversa). Si veieu que necessiteu dades d'exemple per a ambdues aplicacions en qualsevol moment del futur, heu d'instal·lar el paquet **v902FPSMasterData**.
 
 Quan instal·leu algun dels paquets de dades d'exemple, el procés d'instal·lació realitza les accions següents:
 
 - Crea o estableix paràmetres predeterminats per utilitzar el Project Service, el Field Service o ambdues aplicacions (si s'escau).
 
-- Importa dades d'exemple de les aplicacions, com ara recursos que es poden reservar, funcions específiques de l'aplicació, vendes i llistes de preus de cost, unitats organitzatives, registres de processos de vendes i altres entitats per demostrar les funcions clau.  
+- Importa dades d'exemple de les aplicacions, com ara recursos que es poden reservar, funcions específiques de l'aplicació, vendes i llistes de preus de cost, unitats organitzatives, registres de processos de vendes i altres entitats per demostrar les funcions clau.  
 
-Amb el paquet de **dades de demostració** , obtindreu les dades transaccionals anteriors i addicionals, com ara ordres de treball i projectes.
+Amb el paquet de **dades de demostració**, obtindreu les dades transaccionals anteriors i addicionals, com ara ordres de treball i projectes.
 
 Us interessa saber quines funcions podeu demostrar amb les dades d'exemple? Vegeu l'escenari fictici Fabrikam Robotics a les [notes tècniques](#technical-notes).
 
@@ -80,7 +80,7 @@ El protocol d'instal·lació dóna per fet la informació sobre la vostra instà
 
 Cal que executeu l'instal·lador en un ordinador amb una versió recent del Windows (es prefereix el Windows 10).
 
-Heu de comptar amb que l'ordinador romangui connectat a una xarxa i que la instal·lació dura fins a **1 hora** per a les **dades de configuració/referència**. (Normalment, la instal·lació triga uns 30 minuts per al **FPSMasterData** , que inclou dades d'exemple per a ambdues aplicacions.) Per al **FPSDemoData** , la instal·lació trigarà aproximadament **3 hores**.
+Heu de comptar amb que l'ordinador romangui connectat a una xarxa i que la instal·lació dura fins a **1 hora** per a les **dades de configuració/referència**. (Normalment, la instal·lació triga uns 30 minuts per al **FPSMasterData**, que inclou dades d'exemple per a ambdues aplicacions.) Per al **FPSDemoData**, la instal·lació trigarà aproximadament **3 hores**.
 
 L'ordinador hauria de tenir desactivada la funció de protector de pantalla. En cas contrari, si s'activa el protector de pantalla, es poden perdre les credencials de sessió de la instal·lació (a menys que mantingueu activa la vostra sessió).
 
@@ -114,13 +114,13 @@ El paquet **FPSMasterData** està dissenyat per instal·lar-se amb un usuari ano
 
 Per crear o configurar usuaris, aneu a **Configuració** > **Seguretat** > **Usuaris** i feu el següent:
 
-1. Establiu UserFullname="Spencer Low" amb el nom d'usuari "spencerl" ( **minúscules** ) a les funcions de l'Administrador de projectes i del Cap de pràctiques.
+1. Establiu UserFullname="Spencer Low" amb el nom d'usuari "spencerl" (**minúscules**) a les funcions de l'Administrador de projectes i del Cap de pràctiques.
 
 2. Seleccioneu l'usuari **Spencer Low** i, a continuació, **Administra les funcions**. Cerqueu i seleccioneu la funció **Administrador del sistema** i, a continuació, seleccioneu **D'acord** per concedir drets d'administració complets a Spencer Low. Aquest pas és necessari per assegurar que es creïn registres d'exemple amb la propietat correcta de l'usuari i, per tant, es mostrin correctament les vistes.
 
 3. Des del paquet descarregat, cal actualitzar un fitxer d'assignació de dades amb adreces de correu electrònic del context d'usuari predeterminat. Per fer-ho, obriu **PkgFolder** i, a continuació, cerqueu i obriu el fitxer **ImportUserMapFile.xml** al Bloc de notes (o a Visual Studio o un altre editor XML). Establiu el camp **DefaultUserToMapTo=** a l'adreça de correu electrònic de l'usuari Spencer Low.
 
-4. Si no esteu utilitzant Spencer Low amb el nom d'usuari **spencerl** , heu d'actualitzar un fitxer addicional. Obriu el fitxer **DemoDataPreImportConfig.xml** i, a continuació, cerqueu l'etiqueta **userstocreateandconfigure**. Actualitzeu l'etiqueta **\<login\>** amb el nom d'usuari del vostre usuari Jordi Lluch. Per obtenir informació addicional, consulteu les [notes tècniques](#technical-notes).
+4. Si no esteu utilitzant Spencer Low amb el nom d'usuari **spencerl**, heu d'actualitzar un fitxer addicional. Obriu el fitxer **DemoDataPreImportConfig.xml** i, a continuació, cerqueu l'etiqueta **userstocreateandconfigure**. Actualitzeu l'etiqueta **\<login\>** amb el nom d'usuari del vostre usuari Jordi Lluch. Per obtenir informació addicional, consulteu les [notes tècniques](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Crear o configurar usuaris: paquet de dades de demostració
 
@@ -143,11 +143,11 @@ El paquet de dades de demostració requereix sis usuaris. Per instal·lar correc
    > [!div class="mx-imgBorder"]
    > ![Captura de pantalla de l'UserMapFile](media/sample-data-7.png)
 
-4. Si el nom complet de l'usuari "Spencer Low" té un identificador d'usuari diferent a **"spencerl"** , heu d'actualitzar un fitxer addicional. Obriu **DemoDataPreImportConfig.xml** i cerqueu l'etiqueta **userstocreateandconfigure**. Actualitzeu l'etiqueta **\<login\>** amb el loginId (distingeix les majúscules de les minúscules). 
+4. Si el nom complet de l'usuari "Spencer Low" té un identificador d'usuari diferent a **"spencerl"**, heu d'actualitzar un fitxer addicional. Obriu **DemoDataPreImportConfig.xml** i cerqueu l'etiqueta **userstocreateandconfigure**. Actualitzeu l'etiqueta **\<login\>** amb el loginId (distingeix les majúscules de les minúscules). 
 
-5. El calendari del primer usuari (a l'etiqueta **userstocreateandconfigure** ) s'utilitza per emplenar les hores de feina de tots els recursos que es poden reservar en la importació de les dades de demostració. Aneu a **Configuració** > **Seguretat** > **Usuaris** , busqueu l'usuari "Spencer Low" i obriu l'opció "Hores de feina". Editeu les hores de feina existents, seleccioneu l'opció **Tota la planificació setmanal periòdica de principi a fi**. Assegureu-vos que **les hores de feina estan definides de 8:00 a 17:00 (9 hores), de dilluns a divendres i amb la zona horària definida com a hora del Pacífic (EUA i Canadà)**. Aquesta acció és necessària per garantir que el tauler de projecte i planificació es mostri correctament.
+5. El calendari del primer usuari (a l'etiqueta **userstocreateandconfigure**) s'utilitza per emplenar les hores de feina de tots els recursos que es poden reservar en la importació de les dades de demostració. Aneu a **Configuració** > **Seguretat** > **Usuaris**, busqueu l'usuari "Spencer Low" i obriu l'opció "Hores de feina". Editeu les hores de feina existents, seleccioneu l'opció **Tota la planificació setmanal periòdica de principi a fi**. Assegureu-vos que **les hores de feina estan definides de 8:00 a 17:00 (9 hores), de dilluns a divendres i amb la zona horària definida com a hora del Pacífic (EUA i Canadà)**. Aquesta acció és necessària per garantir que el tauler de projecte i planificació es mostri correctament.
 
-**Recomanació** : penseu a crear una còpia de seguretat de la vostra organització en aquest moment, per si necessiteu tornar al punt d'inici si alguna cosa surt malament durant la instal·lació de les dades d'exemple. Per obtenir més informació, consulteu [Restaurar i realitzar còpies de seguretat d'instàncies](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recomanació**: penseu a crear una còpia de seguretat de la vostra organització en aquest moment, per si necessiteu tornar al punt d'inici si alguna cosa surt malament durant la instal·lació de les dades d'exemple. Per obtenir més informació, consulteu [Restaurar i realitzar còpies de seguretat d'instàncies](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Executeu l'Package Deployer
 
@@ -157,7 +157,7 @@ El paquet de dades de demostració requereix sis usuaris. Per instal·lar correc
 
 3. A la finestra següent:
 
-   a. Seleccioneu el tipus d'implementació de l' **Office 365**.
+   a. Seleccioneu el tipus d'implementació de l'**Office 365**.
 
    b. Utilitzeu l'usuari i la contrasenya de l'usuari administrador del sistema configurat a "Crear o configurar usuaris" ("Spencer Low" amb el nom d'usuari "spencerl").
 
@@ -213,7 +213,7 @@ Cerqueu el valor següent i, a continuació, canvieu la configuració de true a 
 
 Aquest canvi fa que l'instal·lador passi per alt algunes comprovacions importants de seguretat, com ara:
 
-- Confirmar que no hi ha més d'un registre d' **unitat organitzativa** actiu i, a continuació, canviar-ne el nom a **Fabrikam US**.
+- Confirmar que no hi ha més d'un registre d'**unitat organitzativa** actiu i, a continuació, canviar-ne el nom a **Fabrikam US**.
 
 - Confirmar que no hi ha més d'un registre de **Plantilla de treball** actiu.
 
@@ -241,7 +241,7 @@ Hi ha altres components de configuració en aquest fitxer de configuració previ
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Escenari fictici Fabrikam Robotics
 
-Els paquets de dades de referència d'exemple del Field Service i del Project Service instal·len la **solució Fabrikam Manufacturing Master Data (v3.0.0.0)** , juntament amb aproximadament 4.000 registres i 40 entitats diferents. Els paquets de dades d'exemple separats per al Field Service o el Project Service contenen un subconjunt de dades d'exemple **v902FPSMasterData** per a aquesta aplicació. El paquet **Dades de demostració** instal·la la **solució Fabrikam Manufacturing Demo Data (v3.0.0.7)** amb aproximadament 22.000 registres d'entre 148 entitats.
+Els paquets de dades de referència d'exemple del Field Service i del Project Service instal·len la **solució Fabrikam Manufacturing Master Data (v3.0.0.0)**, juntament amb aproximadament 4.000 registres i 40 entitats diferents. Els paquets de dades d'exemple separats per al Field Service o el Project Service contenen un subconjunt de dades d'exemple **v902FPSMasterData** per a aquesta aplicació. El paquet **Dades de demostració** instal·la la **solució Fabrikam Manufacturing Demo Data (v3.0.0.7)** amb aproximadament 22.000 registres d'entre 148 entitats.
 
 L'empresa fictícia, Fabrikam Robotics, és fabricant de robots de línia de muntatge de dispositius electrònics i és coneguda per la qualitat del producte, la innovació i el servei al client sòlid, inclosa la planificació de la instal·lació, la implementació i els serveis de manteniment en curs. Fabrikam té la seu als Estats Units (Fabrikam EUA) i té operacions de servei basades en projectes a França, Índia, Regne Unit i Suïssa.
 
@@ -291,7 +291,7 @@ De manera predeterminada, tots els recursos que es poden reservar tenen un calen
 
 Si heu de canviar l'horari laboral per obtenir recursos d'exemple que es poden reservar, aneu a **Universal Resource Scheduling** > **Programació** > **Recursos**.
 
-Seleccioneu un usuari (per exemple, Spencer Low) i canvieu-li l'horari laboral a les hores que voleu aplicar a diversos usuaris. Aneu a **Universal Resource Scheduling** > **Configuració** > **Plantilles d'hores de feina** i editeu el registre de **Plantilla de treball per defecte**. Al camp **Recursos de plantilla** , seleccioneu un usuari amb les hores de feina que voleu aplicar a altres recursos. Aneu a **Universal Resource Scheduling** > **Planificar** > **Recursos** > **Recursos que es poden reservar actius**. Seleccioneu els recursos que voleu canviar i, a continuació, seleccioneu **Establir calendari**. A la llista desplegable **Plantilla de treball** , seleccioneu la plantilla **Hores de feina per defecte** o una altra plantilla amb el recurs de plantilla correcte. Quan aneu al tauler de programació, heu de veure que ara els recursos tenen hores de feina actualitzades.
+Seleccioneu un usuari (per exemple, Spencer Low) i canvieu-li l'horari laboral a les hores que voleu aplicar a diversos usuaris. Aneu a **Universal Resource Scheduling** > **Configuració** > **Plantilles d'hores de feina** i editeu el registre de **Plantilla de treball per defecte**. Al camp **Recursos de plantilla**, seleccioneu un usuari amb les hores de feina que voleu aplicar a altres recursos. Aneu a **Universal Resource Scheduling** > **Planificar** > **Recursos** > **Recursos que es poden reservar actius**. Seleccioneu els recursos que voleu canviar i, a continuació, seleccioneu **Establir calendari**. A la llista desplegable **Plantilla de treball**, seleccioneu la plantilla **Hores de feina per defecte** o una altra plantilla amb el recurs de plantilla correcte. Quan aneu al tauler de programació, heu de veure que ara els recursos tenen hores de feina actualitzades.
 
 > [!div class="mx-imgBorder"]
 > ![Captura de pantalla de recursos actius que es poden reservar](media/sample-data-6.png)

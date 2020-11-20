@@ -1,21 +1,21 @@
 ---
-title: Configuració de les tarifes de cost i de vendes per als productes del catàleg
+title: Configuració de les tarifes de cost i de vendes per als productes del catàleg (bàsic)
 description: Aquest tema proporciona informació sobre com configurar els costos i les tarifes de venda dels articles en un catàleg de productes.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5178a9143536bf4b2573403125325017861cdd5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 135b182af73bdab7a3520589431332ad059ec497
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072279"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176689"
 ---
-# <a name="set-up-cost-and-sales-rates-for-catalog-products"></a>Configuració de les tarifes de cost i de vendes per als productes del catàleg
+# <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Configuració de les tarifes de cost i de vendes per als productes del catàleg (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 

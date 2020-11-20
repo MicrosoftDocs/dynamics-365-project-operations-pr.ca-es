@@ -3,7 +3,7 @@ title: Planificar recursos per a un projecte
 description: Com planificar recursos per a un projecte al Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072418"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132112"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planificar recursos per a un projecte (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4072418"
 
 Podeu comprovar la disponibilitat de recursos per obtenir una vista general de com estan reservats els vostres recursos, o podeu filtrar la visualització per habilitats, equip, ubicació i altres opcions.  
   
-El tauler de planificació mostra una llista de recursos i la seva disponibilitat. Seleccioneu un mode de visualització per mostrar la disponibilitat per **hores** , **dia** , **setmana** o **mes**.  
+El tauler de planificació mostra una llista de recursos i la seva disponibilitat. Seleccioneu un mode de visualització per mostrar la disponibilitat per **hores**, **dia**, **setmana** o **mes**.  
   
 Abans d'utilitzar el tauler de planificació, és important configurar-lo. Per obtenir-ne més informació, consulta [Configura el tauler la planificació (Field Service o Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -43,13 +43,13 @@ Si utilitzeu una versió anterior, per veure la disponibilitat dels recursos, co
 > 1. Des del menú principal, seleccioneu **Planificació de recursos** > **Administració**.  
 > 2. Feu clic a **Paràmetres de planificació**.  
 > 3. Obriu un registre i desplaceu-vos fins a la secció **Resource Scheduling Optimization**.  
-> 4. Al camp **Connecta't als mapes** , seleccioneu **Sí**.  
+> 4. Al camp **Connecta't als mapes**, seleccioneu **Sí**.  
 > 5. Accepteu les condicions i guardeu el registre.  
 > 6. Des del menú principal, seleccioneu **Project Service** > **Tauler de planificació**. A partir d'aquí, hi ha diverses maneres de planificar manualment un requisit de reserva. Escolliu el mètode que més us convingui.
   
 ## <a name="find-available-resources"></a>Cerca recursos disponibles
 
-1.  Des de la llista **Requisits de la reserva** , feu clic amb el botó dret a una reserva sense planificar i trieu-ne una de les següents:  
+1.  Des de la llista **Requisits de la reserva**, feu clic amb el botó dret a una reserva sense planificar i trieu-ne una de les següents:  
   
 - Trieu **Cerca la disponibilitat: recursos actuals** per cercar un recurs disponible de la llista del tauler de planificació.  
 - Trieu **Cerca la disponibilitat: tots els recursos** per cercar un recurs disponible dels recursos del sistema  
@@ -67,7 +67,7 @@ Si utilitzeu una versió anterior, per veure la disponibilitat dels recursos, co
   
 2.  Feu clic al nom del recurs que voleu reservar i, a continuació, seleccioneu **Reserva**.  
   
-3.  Al quadre de diàleg **Reserves de recursos (crear)** , trieu el projecte del qual voleu reservar el recurs juntament amb el mètode de reserva i les hores d'inici i finalització.  
+3.  Al quadre de diàleg **Reserves de recursos (crear)**, trieu el projecte del qual voleu reservar el recurs juntament amb el mètode de reserva i les hores d'inici i finalització.  
   
 4.  Quan hàgiu acabat, seleccioneu **Reserva**.  
   

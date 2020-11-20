@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087824"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181125"
 ---
 # <a name="project-contract-settings"></a>Configuració de contractes de projecte
 
@@ -23,7 +23,7 @@ En aquest tema es proporciona informació sobre els camps que s'apliquen a tot e
 
 A la taula següent s'enumeren els camps d'un contracte de projecte que són únics del Dynamics 365 Project Operations o que tenen canvis importants en el comportament de les ofertes de vendes del Dynamics 365 Sales.
 
-| Camp | Location | Rellevància, propòsit i orientació | Impacte descendent |
+| Camp | Location | Descripció | Impacte descendent |
 | --- | --- | --- | --- |
 | Type | Pestanya **Resum** (oculta) | Aquest és un camp de conjunt d'opcions amb les opcions següents:</br>- **Basat en treball** (disponible només quan s'instal·la el Project Operations)</br>- **Basat en elements** (disponible només quan s'instal·len el Project Operations i el Sales)</br>- **Basat en el manteniment del servei** (disponible quan el Dynamics 365 Field Service està instal·lat) | Al Project Operations, el valor d'aquest camp per defecte és **Basat en el treball** i classifica el contracte com a contracte basat en projectes. Un contracte ha d'estar basat en projectes per habilitar totes les extensions i funcionalitats específiques del projecte. |
 | Empresa propietària | Pestanya **Resum** | Entitat jurídica que assumeix els costos i els ingressos que s'acumulen dels projectes associats amb aquest contracte del projecte. Quan es crea un contracte a partir d'una oferta, aquest camp es copia des del camp corresponent al registre d'oferta. | L'empresa propietària equival al concepte d'entitat jurídica en el mòdul **Administració de projectes i comptabilitat** del Project Operations. Totes les despeses i ingressos acumulats d'aquest projecte es comptabilitzaran al registre general de l'empresa propietària. |
@@ -37,7 +37,7 @@ A la taula següent s'enumeren els camps d'un contracte de projecte que són ún
 
 Els KPI següents estan disponibles a la pestanya **Rendiment del contracte** d'un contracte de projecte.
 
-| Camp | Location | Rellevància, propòsit i orientació |
+| Camp | Location | Descripció |
 | --- | --- | --- |
 | Valor del contracte | Contracte general | Valor total del contracte del projecte. |
 | Import facturat | Contracte general | Suma dels imports en totes les factures d'aquest contracte. |

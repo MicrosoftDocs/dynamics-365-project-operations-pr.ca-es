@@ -1,74 +1,76 @@
 ---
-title: Creació de planificacions de facturació en una línia de contracte basada en projectes
-description: En aquest tema es proporciona informació sobre la creació e planificacions i fites de facturació per a línies de contracte.
+title: Creació de programacions de facturació en una línia de contracte basada en projecte (bàsic)
+description: En aquest tema es proporciona informació sobre la creació de planificacions de factures i fites.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4072446"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180315"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Creació de planificacions de facturació en una línia de contracte basada en projectes
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Creació de programacions de facturació en una línia de contracte basada en projecte (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
+Podeu adjuntar una planificació de facturació en una línia de contracte basada en projectes. Només es permet la facturació quan es guanya el contracte per crear un contracte de projecte. Les planificacions de factura permeten que es creïn automàticament esborranys de factures per a una línia de contracte basada en projectes. Si teniu previst crear sempre factures manualment, podeu ometre la creació de planificacions de factura en una línia de contracte basada en projectes o en una línia de contracte.
 
-Podeu afegir una planificació de factures a una línia de contracte basada en projectes. La facturació només es permet després de guanyar el contracte i que creeu un contracte de projecte. Una planificació de factures permet crear automàticament esborranys de factures per a una línia de contracte basada en projectes. No obstant això, si només creeu factures manualment, podeu ometre la creació de factures en línies de contracte.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Crear una planificació de factures de temps i material per a una línia de contracte
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Creació d'una planificació de facturació de temps i material per a una línia de contracte basada en projecte
 
 Quan una línia de contracte basada en el projecte té un mètode de facturació de temps i material, podeu crear una planificació de factures basada en la data. Per generar automàticament una planificació de factura basada en la data, seguiu els passos següents.
 
-1. Aneu a **Configuració** > **Freqüències de facturació** i configureu una freqüència de facturació.
-2. Aneu al registre del contracte del projecte i, en el camp **Resum** , en la pestanya **Data de lliurament sol·licitada** , seleccioneu una data.
-3. Obriu la línia de contracte **Temps i material** per a la qual esteu creant la planificació de factures basada en la data. 
-4. A la pestanya **Planificació de la factura** , seleccioneu la data d'inici de facturació i la freqüència de facturació.
-5. A la subquadrícula, seleccioneu **Genera la planificació de facturació**. La planificació de facturació es genera amb els camps **Data d'execució de la factura** , **Data límit de la transacció** i **Estat d'execució** definits de la següent manera:
+1. Aneu a **Configuració** > **Freqüències de factura** per configurar la freqüència de la factura.
+2. Obriu el contracte del projecte i, a la pestanya **Resum**, definiu la data de lliurament sol·licitada.
+3. Obriu la línia de contracte de temps i material per a la qual voleu crear una planificació de factura basada en la data. 
+4. A la pestanya **Planificació de factures**, seleccioneu una data d'inici de facturació i la freqüència de facturació. 
+5. A la subquadrícula, seleccioneu **Genera la planificació de facturació**.
 
-    - **Data d'execució de la factura** aquesta data ve dictada per la freqüència de la factura.
-    - **Data límit de la transacció** : dia abans de la data d'execució de la factura.
-    - **Estat d'execució** : es defineix automàticament a **No executat**. Quan la feina de creació de la factura automàtica s'executa per a una determinada data d'execució de la factura, el camp s'actualitza a **Execució correcta** o **Error d'execució**.
+    El sistema genera la planificació de factures amb la següent informació de camp:
 
+    - **Data d'execució de la factura** es defineix a la data segons la freqüència de la factura.
+    - **Data límit de la transacció** es defineix al dia abans de la **Data d'execució de la factura**.
+    - **Estat d'execució** es defineix automàticament a **No executat**. Quan la feina de creació de la factura automàtica s'executa per a una determinada **Data d'execució de la factura**, el camp s'actualitza a **Execució correcta** o **Error d'execució**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Crear una planificació de factura de preu fix per a una línia de contracte
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Creació d'una planificació de facturació de preu fix per a una línia de contracte basada en projecte
 
-Quan la línia de contracte té un mètode de facturació fix, es pot crear una planificació de factures basada en fites. Completeu els passos següents per generar una planificació de factures basada en fites per a un conjunt fix de fites distribuïdes de manera equitativa per al període de calendari.
+Quan una línia de contracte basada en projectes té un mètode de facturació de preu fix, podeu crear una planificació de factures basada en fites. Completeu els passos següents per generar automàticament una planificació de facturació basada en fites per a un conjunt de fites que es distribuiran equitativament en el període del calendari.
 
-1. Aneu a **Configuració** > **Freqüències de facturació** i configureu una freqüència de facturació.
-2. Aneu al registre del contracte del projecte i, en el camp **Resum** , en la pestanya **Data de lliurament sol·licitada** , seleccioneu una data.
-3. Obriu la línia de contracte **Preu fix** per a la qual esteu creant la planificació de les fites. A la pestanya **Fites de facturació** , seleccioneu la data d'inici de facturació i la freqüència de la factura. 
-4. A la subquadrícula, seleccioneu **Genera les fites periòdiques**. La planificació de la factura es genera amb els camps **Nom de la fita** , **Data de la fita** i **Import de la fita** definits de la manera següent:
+1. Aneu a **Configuració** > **Freqüències de factura** per configurar la freqüència de la factura.
+2. Obriu el contracte del projecte i, a la pestanya **Resum**, definiu la data de lliurament sol·licitada.
+3. Obriu la línia de contracte de preu fix en la qual heu de crear una planificació de fites. 
+4. A la pestanya **Planificació de factures (fites de facturació)**, seleccioneu la data d'inici de facturació i la freqüència de facturació. 
+5. A la subquadrícula, seleccioneu **Genera les fites periòdiques**.
 
-    - **Nom de la fita** : aquesta data ve dictada per la freqüència de la factura.
-    - **Data de la fita** : aquesta data ve dictada per la freqüència de la factura.
-    - **Import de la fita** : aquest import es calcula dividint l'import del contracte en la línia de contracte pel nombre de fites dictades per la freqüència, l'inici de facturació i les dates de lliurament sol·licitades.
+    El sistema genera la planificació de factures amb la següent informació de fites.
 
-    Si la línia de contracte té un valor en el camp **Import d'impostos estimat** , llavors aquest camp també es reparteix a cada fita per igual quan es generen fites periòdiques.
+    - **Nom de la fita** es defineix a la data que està dictada en funció de la freqüència de factura.
+    - **Data de la fita** es defineix a la data que està dictada en funció de la freqüència de factura.
+    - **Import de la fita** es calcula dividint l'import del contracte a la línia de contracte basada en projectes pel nombre de fites que determinen la freqüència, l'inici de facturació i les dates de lliurament sol·licitades.
+    - Si la línia de contracte té un valor en el camp **Import d'impostos estimats** , aquest camp també es divideix en cada fita durant la generació de fites periòdiques.
 
-Les fites de facturació han d'igualar el valor contractat de la línia de contracte. Si no ho fan, rebreu un error a la pàgina **Línia de contracte**. Podeu esmenar l'error verificant que les fites de facturació sumin en total el valor contractat de la línia creant, editant o suprimint fites. Després dels canvis, actualitzeu la pàgina per eliminar l'error.
+Les fites de facturació han d'equivaldre el valor contractat de la línia de contracte basada en projectes. Si no són iguals, es produeix un error. Podeu corregir aquest error comprovant que les fites de facturació sumen el valor contractat de la línia creant, editant o suprimint fites. Quan s'hagin fet els canvis, actualitzeu la pàgina.
 
 ### <a name="manually-create-milestones"></a>Crear fites manualment
 
-Podeu generar manualment fites de preu fix quan no es divideixen periòdicament. Completeu els passos següents per crear manualment una fita.
+Es poden generar fites de preu fix manualment quan no es divideixen periòdicament. Per crear una fita manualment, completeu els passos següents.
 
-1. Obriu la línia de contracte de preu fix per a la qual esteu creant una fita i, a la pestanya **Planificació de facturació** , a la subquadrícula, seleccioneu **+ Crea una nova fita de línia de contracte**. 
-2. A la pàgina **Creació de fita** , introduïu la informació necessària en funció de la taula següent.
+1. Obriu la línia de contracte de preu fix en la qual voleu crear una fita. 
+2. A la pestanya **Planificació de factures**, a la subquadrícula, seleccioneu **+ Crea una fita de línia de contracte nova**.
+3. Al formulari **Creació de fites**, introduïu la informació necessària segons la taula següent. 
 
-| Camp | Location | Rellevància, propòsit i orientació | Impacte descendent |
+| Camp | Location | Descripció | Impacte descendent |
 | --- | --- | --- | --- |
-| Nom de la fita | Creació ràpida | Camp de text per al nom de la fita. | Es transfereix a la fita de la línia de contracte del projecte i a la factura. |
-| Tasca del projecte | Creació ràpida | Si la fita està lligada a una tasca del projecte, utilitzeu aquesta referència per afegir una lògica personalitzada per definir l'estat de la fita segons l'estat de la tasca. | L'aplicació no té cap efecte descendent d'aquesta referència a una tasca. |
-| Data de la fita | Creació ràpida | Definiu la data en què el procés de creació de la factura automàtica hauria de cercar l'estat d'aquesta fita per considerar-la per a la facturació. | Es transfereix a la fita de la línia de contracte del projecte i a la factura. |
-| Estat de la factura | Creació ràpida | Quan es crea una fita, aquest estat sempre s'estableix a **No està a punt per a la facturació** o **No s'ha començat**. | Es transfereix a la fita de la línia de contracte del projecte i a la factura. |
-| Import de la línia | Creació ràpida | Import o valor de la fita que es facturarà al client. | Es transfereix a la fita de la línia de contracte del projecte i a la factura. |
-| Impost | Creació ràpida | Import d'impostos aplicat a la fita. | Es transfereix a la fita de la línia de contracte del projecte i a la factura. |
+| Nom de la fita | Creació ràpida | Camp de text per al nom de la fita. | Aquest camp s'inclou a la fita de la línia de contracte del projecte i a la factura. |
+| Tasca del projecte | Creació ràpida | Si la fita està lligada a una tasca de projecte, utilitzeu aquesta referència per afegir lògica personalitzada i definir l'estat de la fita segons l'estat de la tasca. | No hi ha cap efecte descendent d'aquesta referència a una tasca. |
+| Data de la fita | Creació ràpida | Data en què el procés de creació de factures automàtiques hauria de cercar l'estat d'aquesta fita per tenir-la en compte per a la facturació. | S'inclou a la fita de la línia de contracte del projecte i a la factura. |
+| Estat de la factura | Creació ràpida | Quan es crea la fita, aquest estat sempre es defineix com a **No preparada per a la facturació** o **No iniciada**. | S'inclou a la fita de la línia de contracte del projecte i a la factura. |
+| Import de la línia | Creació ràpida | Import o valor de la fita que es facturarà al client. | Aquest camp s'inclou a la fita de la línia de contracte del projecte i a la factura, |
+| Impost | Creació ràpida | Import d'impostos aplicat a la fita. | S'inclou a la fita de la línia de contracte del projecte i a la factura. |
 
-3. Seleccioneu **Desa i tanca**.
-| Import de la línia | Creació ràpida | Import o valor de la fita que es facturarà al client | Es propaga a la fita de la línia de contracte del projecte i a la factura | | Impost | Creació ràpida | Quantitat d'impost que s'aplicarà a la fita | Es propaga a la fita de la línia de contracte del projecte i a la factura |
+4. Seleccioneu **Desa i tanca**.

@@ -3,7 +3,7 @@ title: Crear un projecte
 description: Com crear un projecte al Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072224"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133086"
 ---
 # <a name="create-a-project-project-service"></a>Crear un projecte (Project Service)
 
@@ -35,7 +35,7 @@ Creeu un projecte utilitzant les capacitats de l'[!INCLUDE[pn_project_service_au
   
 2.  Feu clic a **Nou projecte**.  
   
-3.  A l'àrea **Resum** , introduïu un nom per al vostre projecte i després ompliu tots els detalls que pugueu. Els elements marcats amb un asterisc (*) vermell són obligatoris.  
+3.  A l'àrea **Resum**, introduïu un nom per al vostre projecte i després ompliu tots els detalls que pugueu. Els elements marcats amb un asterisc (*) vermell són obligatoris.  
   
 4.  Feu clic a **Desa** per crear el vostre projecte per tal que el pugueu continuar editant.  
   

@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072087"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181215"
 ---
-# <a name="opportunity-headersummary"></a>Capçalera/resum de l'oportunitat
+# <a name="opportunity-settings"></a>Configuració de les oportunitats
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
@@ -26,9 +26,9 @@ Les oportunitats basades en projectes al Dynamics 365 Project Operations són ex
 
 A la taula següent s'inclouen els camps d'una oportunitat basada en projectes que són únics per al Project Operations o que tenen canvis importants en el comportament de les oportunitats del Sales.
 
-| **Camp** | **Ubicació** | **Rellevància, propòsit i orientació** | **Impacte descendent** |
+| **Camp** | **Ubicació** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- | --- |
-| Type | Pestanya General (ocult) | Aquest camp de conjunt d'opcions té les opcions següents:</br>- Basat en treball (disponible només amb el Project Operations)</br>- Basat en elements (disponible només quan s'instal·len el Project Operations i el Sales)</br>- Basat en el manteniment del servei (disponible quan el Field Service està instal·lat) | Quan utilitzeu el Project Operations, aquest valor de camp es defineix automàticament com a **Basat en el treball** , que classifica l'oportunitat com a basada en projectes. Una oportunitat ha d'estar basada en projectes per habilitar totes les extensions i funcionalitats específiques del projecte al procés de venda descendent per a aquest acord. |
+| Type | Pestanya General (ocult) | Aquest camp de conjunt d'opcions té les opcions següents:</br>- Basat en treball (disponible només amb el Project Operations)</br>- Basat en elements (disponible només quan s'instal·len el Project Operations i el Sales)</br>- Basat en el manteniment del servei (disponible quan el Field Service està instal·lat) | Quan utilitzeu el Project Operations, aquest valor de camp es defineix automàticament com a **Basat en el treball**, que classifica l'oportunitat com a basada en projectes. Una oportunitat ha d'estar basada en projectes per habilitar totes les extensions i funcionalitats específiques del projecte al procés de venda descendent per a aquest acord. |
 | Empresa propietària | Pestanya General | És l'empresa o l'entitat jurídica que lliurarà el projecte al client. | La informació d'aquest camp es copiarà al camp corresponent a l'oferta del projecte que es crea a partir d'aquesta oportunitat. |
 | Contacte | Pestanya General | Referència al contacte principal del client per a aquest acord. | |
 | Compte | Pestanya General | Referència al registre d'empresa o compte del client. | |

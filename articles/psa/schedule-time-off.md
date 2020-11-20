@@ -3,7 +3,7 @@ title: Planificar temps lliure
 description: Com planificar temps lliure al Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072437"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132186"
 ---
 # <a name="schedule-time-off-project-service"></a>Planificar temps lliure (Project Service)
 
@@ -41,7 +41,7 @@ Planifiqueu els dies de vacances o d'excedència de la mateixa manera que introd
   
 4.  Empleneu els camps del formulari **Entrada de temps**.  
   
-5.  A **Tipus** , seleccioneu **Vacances** o **Absència**.  
+5.  A **Tipus**, seleccioneu **Vacances** o **Absència**.  
   
 6.  Feu clic a **Desa**.  
   

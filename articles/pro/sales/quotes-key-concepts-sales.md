@@ -1,21 +1,21 @@
 ---
-title: Conceptes clau de l'oferta de projectes
+title: 'Ofertes: conceptes clau (bàsic)'
 description: En aquest tema es proporciona informació sobre l'ús d'ofertes de projectes al Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072136"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177994"
 ---
-# <a name="project-quote-key-concepts"></a>Conceptes clau de l'oferta de projectes
+# <a name="quotes---key-concepts---lite"></a>Ofertes: conceptes clau (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -78,7 +78,7 @@ Les ofertes de diversos clients es produeixen quan hi ha més d'un client per fa
 
 ## <a name="invoice-schedules"></a>Planificacions de facturació
 
-Les planificacions de factura són específiques de cada línia d'oferta i també són opcionals. Les planificacions de factura es creen a partir de determinades dates d'inici i d'acabament i la freqüència de factura. Les planificacions de la factura s'utilitzen a la fase de contracte quan el procés de creació de factura automàtica està configurat. A la fase d'oferta, les planificacions són opcionals. Quan es creen les planificacions de la factura a la fase **Oferta** , es copien al contracte del projecte que es crea quan es guanya una oferta de projecte.
+Les planificacions de factura són específiques de cada línia d'oferta i també són opcionals. Les planificacions de factura es creen a partir de determinades dates d'inici i d'acabament i la freqüència de factura. Les planificacions de la factura s'utilitzen a la fase de contracte quan el procés de creació de factura automàtica està configurat. A la fase d'oferta, les planificacions són opcionals. Quan es creen les planificacions de la factura a la fase **Oferta**, es copien al contracte del projecte que es crea quan es guanya una oferta de projecte.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Canvis de l'oferta del Dynamics 365 Sales:
 

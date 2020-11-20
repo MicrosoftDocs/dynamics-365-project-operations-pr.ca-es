@@ -1,21 +1,21 @@
 ---
-title: Informació general de les línies de contracte basades en producte
+title: Informació general de les línies de contracte basades en productes (bàsic)
 description: En aquest tema es proporciona informació sobre les línies de contracte basades en productes.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072139"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177859"
 ---
-# <a name="product-based-contract-lines-overview"></a>Informació general de les línies de contracte basades en producte
+# <a name="product-based-contract-lines-overview---lite"></a>Informació general de les línies de contracte basades en productes (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -43,6 +43,6 @@ Si una línia de contracte es basa en un catàleg de productes, podeu substituir
 - **Substitueix el preu**
 - **Utilitza el valor per defecte**
 
-Si establiu el camp **Preu** a **Substitueix el preu** , el preu per defecte no està establert. Introduïu un preu per al producte en la línia de contracte. Si establiu el camp a **Utilitza el valor per defecte** , el preu de venda per defecte s'utilitza i el camp no es pot editar.
+Si establiu el camp **Preu** a **Substitueix el preu**, el preu per defecte no està establert. Introduïu un preu per al producte en la línia de contracte. Si establiu el camp a **Utilitza el valor per defecte**, el preu de venda per defecte s'utilitza i el camp no es pot editar.
 
 Després d'instal·lar el Project Operations, els preus de vendes per defecte s'introdueixen a les línies basades en productes en un contracte. El camp **Preu** es defineix com a **Substitueix el preu** per tal que pugueu editar el preu per defecte a les línies de contracte. Aquesta és una substitució específica del Project Operations per al comportament de línies basades en productes al Dynamics 365 Sales.

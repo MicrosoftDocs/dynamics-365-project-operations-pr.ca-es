@@ -1,21 +1,21 @@
 ---
-title: Informació resumida d'una oferta de projecte
+title: Configuració de les ofertes dels projectes
 description: Aquest tema proporciona informació sobre la informació i la configuració que s'apliquen i tenen un impacten en les ofertes del projecte.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072058"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180225"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Informació resumida d'una oferta de projecte
+# <a name="project-quote-settings"></a>Configuració de les ofertes dels projectes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
@@ -24,7 +24,7 @@ En aquest article s'explica la informació que s'aplica a una oferta de projecte
 
 A la taula següent s'enumeren els camps d'informació resumida d'una oferta de projecte que són únics del Dynamics 365 Project Operations o que tenen canvis importants en el comportament de les ofertes del Dynamics 365 Sales.
 
-| **Camp** | **Ubicació** | **Rellevància, propòsit i orientació** | **Impacte descendent** |
+| **Camp** | **Ubicació** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- | --- |
 | Type | Pestanya Resum (oculta) | Aquest camp de conjunt d'opcions té les opcions següents:</br>- Basat en treball (disponible només quan s'instal·la el Project Operations)</br>- Basat en elements (disponible només quan s'instal·len el Project Operations i el Sales)</br>- Basat en el manteniment del servei (disponible quan el Dynamics 365 Field Service està instal·lat) | Quan utilitzeu l'aplicació Project Operations, el valor d'aquest valor de camp es defineix automàticament com a **Basat en el treball**. Això classifica l'oferta com a oferta basada en projectes. Una oferta ha de ser basada en projectes per habilitar totes les extensions i funcionalitats específiques del projecte. |
 | Empresa propietària | Resum | Entitat jurídica que assumirà els costos i els ingressos que s'acumulen d'aquest projecte o projectes associats amb aquesta oferta. Quan es crea una oferta a partir d'una oportunitat, aquest camp es copia des del camp corresponent a l'oportunitat. | L'empresa propietària equival al concepte d'entitat jurídica en el mòdul **Administració de projectes i comptabilitat** del Project Operations. Totes les despeses i ingressos acumulats d'aquest projecte es comptabilitzaran al registre general de l'empresa propietària. |
@@ -38,7 +38,7 @@ A la taula següent s'enumeren els camps d'informació resumida d'una oferta de 
 
 A continuació es mostren les pestanyes i els KPI disponibles en una oferta de projecte que són únics per al Project Operations o que tenen canvis importants al comportament de les ofertes del Sales:
 
-| **Camp** | **Ubicació** | **Rellevància, propòsit i orientació** |
+| **Camp** | **Ubicació** | **Descripció** |
 | --- | --- | --- |
 | Anàlisi de rendibilitat | Pestanya a l'oferta | La pestanya mostra les mètriques següents:</br>- Cost imputable total</br></br>- Cost no imputable total</br>- Total d’ingressos</br>- Total d’ingressos (base)</br>- Marge brut</br>- Marge brut ajustat|
 | Comparació amb les expectatives del client | Pestanya a l'oferta | Aquesta pestanya mostra les mètriques següents:</br>- Finalització estimada</br>- Finalització sol·licitada</br>- Pressupost del client</br>- Valor ofert |
