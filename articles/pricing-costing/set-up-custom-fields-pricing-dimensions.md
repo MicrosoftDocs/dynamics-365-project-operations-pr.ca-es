@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119406"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650186"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configuració de camps personalitzats com a dimensions de preus
 
@@ -41,9 +41,15 @@ En aquest tema, podreu obtenir informació sobre la configuració de dimensions 
 Per tal que un camp es converteixi en una dimensió de preus, ha de ser:
 
 - Creat com a camp a les entitats **Preu per funció** i **Marge comercial del preu per funció**. Per obtenir més informació sobre com fer-ho, vegeu [Afegir camps personalitzats a la configuració de preus i a entitats transaccionals](add-custom-fields-price-setup-transactional-entities.md).
+
 - Creat com una fila a la taula **Dimensió de preus**. Per exemple, afegiu files de dimensió de preus com es mostra a la gràfica següent. 
 
+![Files de dimensions de preus basades en els imports](media/Amt-based-PD.png)
+
 Hores de treball del recurs (**msdyn_resourceworkhours**) s'afegeix com una dimensió basada en el marge comercial i s'ha afegit a la quadrícula a la pestanya **Dimensió de preus basada en el marge comercial**.
+
+![Files de dimensions de preus basades en el marge comercial](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Qualsevol canvi de les dades de dimensió de preus d'aquesta taula, existents o noves, es propaga a la lògica empresarial de preus només després de l'actualització de la memòria cau. El temps d'actualització de la memòria cau pot tardar fins a 10 minuts. Permeteu aquesta duració de temps per veure els canvis en la lògica de preus per defecte que han de derivar dels canvis en les dades de la dimensió de preus.

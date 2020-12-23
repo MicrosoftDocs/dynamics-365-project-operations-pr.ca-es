@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121116"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642937"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrar-se a les subscripcions de versió preliminar del Project Operations per a escenaris de recursos/sense existències
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 En aquest tema s'explica com subscriure's a l'oferta de versió preliminar/associats i implementar l'entorn del Project Operations per a escenaris de recursos/sense existències.
 
@@ -31,18 +33,18 @@ En aquest tema s'explica com subscriure's a l'oferta de versió preliminar/assoc
 
 Quan s'aprovi la [sol·licitud de versió preliminar](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), rebreu tres ofertes de Microsoft per correu electrònic. Aquestes ofertes us permeten implementar la versió preliminar del Project Operations:
 
-- Dynamics 365 Project Operations (CRM): prova de versió preliminar
+- Prova de versió preliminar del Dynamics 365 Project Operations (CRM)
 - Office 365 Project Operations: prova de versió preliminar
 - Dynamics 365 Finance: prova de versió preliminar
 
 > [!IMPORTANT]
 > Només cal que una persona de l'organització, l'administrador d'inquilins, realitzi aquesta tasca. Si no sou el subscriptor en aquesta versió, espereu fins que l'organització s'hagi registrat i hàgiu rebut les vostres credencials d'usuari.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM): prova de versió preliminar 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Prova de versió preliminar del Dynamics 365 Project Operations (CRM) 
 
 Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador amb el compte laboral de l'usuari a l'inquilí on voleu la versió preliminar del Project Operations.
 
-1. Bescanvieu el primer codi d'oferta, **Dynamics 365 Project Operations (CRM): prova de versió preliminar** enganxant-lo a l'URL del navegador.
+1. Redimiu el primer codi d'oferta, prova de versió preliminar del **Dynamics 365 Project Operations (CRM)** enganxant-lo a l'URL del navegador.
 
 ![Bescanviar l'oferta](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Repetiu els mateixos passos amb l'última oferta del correu electrònic de benvi
 
 ![Assignar llicències](./media/15AssignLicenses.png)
 
-3. Verifiqueu que s'hagi seleccionat la llicència **Versió preliminar del Dynamics 365 Project Operations (CRM)** i **Office 365 Project Operations: versió preliminar** i trieu **Desa els canvis**.
+3. Verifiqueu que heu seleccionat la llicència de la versió preliminar del **Dynamics 365 Project Operations (CRM)** i la versió preliminar de l'**Office 365** i seleccioneu **Desa els canvis**.
 
 > [!NOTE]
 > L'oferta de prova del Finance no s'ha d'assignar a un usuari.

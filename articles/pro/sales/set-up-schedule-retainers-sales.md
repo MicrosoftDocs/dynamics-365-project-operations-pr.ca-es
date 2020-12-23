@@ -1,5 +1,5 @@
 ---
-title: Configuració d'una planificació de bestretes (bàsic)
+title: Configurar una planificació de bestreta
 description: Aquest tema proporciona informació sobre com configurar una planificació de bestreta al Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181260"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596360"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Configuració d'una planificació de bestretes (bàsic)
+# <a name="set-up-a-retainer-schedule"></a>Configurar una planificació de bestreta
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Les planificacions de bestreta estan configurades a la pàgina **Contracte del projecte** al Dynamics 365 Project Operations.
+Les planificacions de bestreta es configuren a la pàgina **Contracte del projecte** del Dynamics 365 Project Operations.
 
 1. A la pàgina **Contracte del projecte**, a la pestanya **Avançaments i bestretes**, seleccioneu **Configura la planificació de bestretes**.
 2. A la pàgina de diàleg que s'obre, es mostren els camps indicats a la taula següent. La taula proporciona una idea de com els valors introduïts tenen impacte o influeixen en la planificació de bestretes que es crearà.

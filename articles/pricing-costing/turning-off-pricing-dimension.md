@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ffeff2ab465f37b8a4e40f4e64b118e3bb412cb8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119271"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650037"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Desactivació d'una dimensió de preus
 
@@ -33,6 +33,8 @@ Pot ser que hàgiu de revisar i actualitzar l'estratègia de preus cada pocs any
 Desactivar una dimensió de preus, independentment de si és personalitzada o per defecte, pot fer-se definint els camps **Aplicable al cost** i **Aplicable a les vendes** de la dimensió de preus com a **No**.
 
 No obstant, en fer-ho, pot ser que rebeu el missatge d'error **La dimensió de preus no es pot actualitzar ni suprimir si hi ha registres de preu associats.**
+
+![Error de procés empresarial probable quan desactiveu una dimensió de preus](media/Business-Process-Error.png)
 
 Aquest missatge d'error indica que hi ha registres de preus que abans s'havien configurat per a la dimensió que s'està desactivant. Tots els registres **Preu per funció** i **Marge comercial de preu per funció** que facin referència a una dimensió s'han de suprimir abans que l'aplicabilitat de la dimensió pugui definir-se com a **No**. Aquesta regla s'aplica a les dues dimensions de preus per defecte i a les dimensions de preus personalitzades que hàgiu creat. La raó d'aquesta validació és que cada registre **Preu per funció** ha de tenir una combinació única de dimensions. Per exemple, en una llista de preus anomenada **Tarifes de costos dels EUA 2018**, teniu les files **Preu per funció** següents. 
 

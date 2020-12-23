@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121206"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642261"
 ---
 # <a name="currency"></a>Moneda
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Les monedes determinen els preus dels productes del catàleg de productes i el cost de les transaccions, com ara les comandes de venda. Si els clients estan repartits per zones geogràfiques, afegiu les seves divises per gestionar les seves transaccions. Afegiu les divises més adequades per a les necessitats empresarials actuals i futures.  
 

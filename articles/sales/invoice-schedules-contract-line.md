@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180765"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513912"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Creació d'una programació de facturació en una línia de contracte basada en projecte 
 
@@ -49,7 +49,7 @@ Completeu els passos següents per generar una planificació de factures basada 
 3. Obriu la línia de contracte **Preu fix** per a la qual esteu creant la planificació de les fites. A la pestanya **Fites de facturació**, seleccioneu la data d'inici de facturació i la freqüència de la factura. 
 4. A la subquadrícula, seleccioneu **Genera les fites periòdiques**. La planificació de la factura es genera amb els camps **Nom de la fita**, **Data de la fita** i **Import de la fita** definits de la manera següent:
 
-    - **Nom de la fita**: aquesta data ve dictada per la freqüència de la factura.
+    - **Nom de la fita**: Aquest nom està dictat per la freqüència de la factura.
     - **Data de la fita**: aquesta data ve dictada per la freqüència de la factura.
     - **Import de la fita**: aquest import es calcula dividint l'import del contracte en la línia de contracte pel nombre de fites dictades per la freqüència, l'inici de facturació i les dates de lliurament sol·licitades.
 

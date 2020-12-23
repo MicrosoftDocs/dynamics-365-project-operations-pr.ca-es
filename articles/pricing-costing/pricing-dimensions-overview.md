@@ -1,28 +1,20 @@
 ---
 title: Informació general de les dimensions de preus
-description: En aquest tema es proporciona informació sobre les dimensions de preus al Dynamics 365 Project Operations.
+description: En aquest tema, podreu obtenir informació sobre les dimensions de preus a Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128451"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650173"
 ---
 # <a name="pricing-dimensions-overview"></a>Informació general de les dimensions de preus
 
@@ -40,9 +32,21 @@ A causa d'això, hi ha dos tipus de valors de dimensió de preus disponibles:
 
 ## <a name="pricing-dimensions"></a>Dimensions de preus
 
-El Dynamics 365 Project Operations inclou un conjunt per defecte de dimensions de preus. Podeu visualitzar aquestes dimensions de preus anant a **Project Operations** > **Paràmetres**. Al registre de paràmetre, a la pestanya **Dimensions de preus basades en l'import**, comproveu que la funció **msdyn_resourcecategory** i la unitat organitzativa de recursos **msdyn_organizationalunit** tinguin els camps **Aplicable a les vendes** i **Aplicable al cost** definits com a **Sí**. Amb aquests camps habilitats, podeu configurar el preu i el cost de cada combinació de funció i unitat organitzativa.
+El Dynamics 365 Project Operations inclou de sèrie un conjunt de dimensions de preus per defecte. Podeu visualitzar aquestes dimensions de preus anant a **Project Operations** > **Paràmetres**. Al registre de paràmetre, a la pestanya **Dimensions de preus basades en l'import**, comproveu que la funció **msdyn_resourcecategory** i la unitat organitzativa de recursos **msdyn_organizationalunit** tinguin els camps **Aplicable a les vendes** i **Aplicable al cost** definits com a **Sí**. Amb aquests camps habilitats, podeu configurar el preu i el cost de cada combinació de funció i unitat organitzativa.
 
-Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats.
+![Captura de pantalla dels paràmetres del Project Service amb "Aplicable a les vendes" ressaltat](media/PS-OOB-parameters.png)
+
+Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats. Per obtenir més informació, vegeu els temes següents. 
+  
+  > [!NOTE]
+  > Els procediments s'han de dur a terme en l'ordre en què es mostren.
+
+1. [Creació d'una solució per a les dimensions de preus personalitzades](../sales/create-solution-custompd.md)
+2. [Creació de camps i entitats personalitzats](create-custom-fields-entities-pricing-dimensions.md)
+3. [Addició de camps personalitzats a la configuració de preus i a entitats transaccionals ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configuració de camps personalitzats com a dimensions de preus](set-up-custom-fields-pricing-dimensions.md)
+5. [Actualitzar els atributs de complement per incloure noves dimensions de preus](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Posar preu al temps de recursos humans
 Com una organització posa preu al temps de recursos humans és sovint una consideració estratègica important que afecta directament la rendibilitat de l'organització. Treballeu amb els equips de finances i els caps de pràctiques quan la vostra organització estigui a punt per identificar com vol configurar la tarifa de facturació i el cost per al temps de recursos humans.

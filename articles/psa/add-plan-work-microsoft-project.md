@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129666"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642756"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilitzar el complement Project Service Automation per planificar el vostre treball al Microsoft Project
 
@@ -85,14 +85,14 @@ El [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u
 ## <a name="publish-your-project"></a>Publicar el projecte  
 Quan s'hagi completat la planificació del projecte, el següent pas és importar i publicar el projecte al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-El projecte s'importarà al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. S'aplica el procés de generació de preus i d'equip. Obriu el projecte al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per veure que s'ha generat l'equip, les estimacions del projecte i l'estructura del desglossament del treball. La taula següent mostra on trobar els resultats:
+El projecte s'importarà al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. S'aplica el procés de generació de preus i d'equip. Obriu el projecte a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per veure que s'han generat l'equip, les estimacions del projecte i l'estructura del desglossament del treball. La taula següent mostra on trobar els resultats:
 
 
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gràfic de Gantt**   | Importa a la pantalla de l-**estructura del desglossament del treball** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Full de recursos** |   Importa a la pantalla dels **membres de l'equip del projecte** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilitzar l'ús**    |    Importa a la pantalla d'**estimacions del projecte** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilitzar l'ús**    |    Importa a la pantalla d'**Estimacions del projecte** de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
 
 **Per importar i publicar el vostre projecte**  
 1. A la pestanya **Project Service**, feu clic a **Publica** > **Nou projecte del Project Service Automation**.  
@@ -173,6 +173,59 @@ El projecte s'importarà al [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 4. Feu clic a **Publica**.  
 
 Enllaçar el fitxer del Project al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] farà que el fitxer del Project sigui el fitxer mestre i defineix l'estructura del desglossament del treball al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] com plantilla només de lectura.  Per fer canvis al pla del projecte, cal fer-los al [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i publicar-los com a actualitzacions del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Lectura d'una planificació carregada per recursos
+
+Quan es llegeix un projecte de Project Service Automation, el calendari del recurs no se sincronitza amb el client d'escriptori. Si hi ha diferències en la durada de la tasca, l'esforç o el final, probablement és degut a que els recursos i el client d'escriptori no han aplicat al projecte el mateix calendari de plantilla d'hores de feina.
+
+
+## <a name="data-synchronization"></a>Sincronització de dades
+
+A la taula següent es descriu la manera com se sincronitzen les dades entre Project Service Automation i el complement d'escriptori de Microsoft Project.
+
+| **Entitat** | **Camp** | **De Microsoft Project a Project Service Automation** | **De Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Tasca del projecte | Venciment | ● | - |
+| Tasca del projecte | Esforç estimat | ● | - |
+| Tasca del projecte | ID de client d’MS Project | ● | - |
+| Tasca del projecte | Tasca principal | ● | - |
+| Tasca del projecte | Project | ● | - |
+| Tasca del projecte | Tasca del projecte | ● | - |
+| Tasca del projecte | Nom de la tasca del projecte | ● | - |
+| Tasca del projecte | Unitat de recursos (obsolet a la versió 3.0) | ● | - |
+| Tasca del projecte | Durada planificada | ● | - |
+| Tasca del projecte | Data d’inici | ● | - |
+| Tasca del projecte | ID de WBS | ● | - |
+
+| **Entitat** | **Camp** | **De Microsoft Project a Project Service Automation** | **De Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Membre de l'equip | ID de client d’MS Project | ● | - |
+| Membre de l'equip | Nom de la posició | ● | - |
+| Membre de l'equip | projecte | ● | ● |
+| Membre de l'equip | Equip del projecte | ● | ● |
+| Membre de l'equip | Unitat de recursos | - | ● |
+| Membre de l'equip | Funció | - | ● |
+| Membre de l'equip | Hores de feina | No sincronitzat | No sincronitzat |
+
+| **Entitat** | **Camp** | **De Microsoft Project a Project Service Automation** | **De Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Assignació de recursos | Data d'inici | ● | - |
+| Assignació de recursos | Hores | ● | - |
+| Assignació de recursos | ID de client d’MS Project | ● | - |
+| Assignació de recursos | Feina planejada | ● | - |
+| Assignació de recursos | Project | ● | - |
+| Assignació de recursos | Equip del projecte | ● | - |
+| Assignació de recursos | Assignació de recursos | ● | - |
+| Assignació de recursos | Tasca | ● | - |
+| Assignació de recursos | Data final | ● | - |
+
+| **Entitat** | **Camp** | **De Microsoft Project a Project Service Automation** | **De Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Dependències de les tasques del projecte | Dependència de les tasques del projecte | ● | - |
+| Dependències de les tasques del projecte | Tipus d’enllaç | ● | - |
+| Dependències de les tasques del projecte | Tasca predecessora | ● | - |
+| Dependències de les tasques del projecte | Project | ● | - |
+| Dependències de les tasques del projecte | Tasca successora | ● | - |
 
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)

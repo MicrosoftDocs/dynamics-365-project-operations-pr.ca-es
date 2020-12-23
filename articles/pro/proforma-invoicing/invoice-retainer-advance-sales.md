@@ -1,5 +1,5 @@
 ---
-title: Facturació d'una bestreta o un avançament (bàsic)
+title: Facturació d'una bestreta o avançament
 description: Aquest tema proporciona informació sobre com facturar una bestreta o avançament al Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180540"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596180"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Facturació d'una bestreta o un avançament (bàsic)
+# <a name="invoice-a-retainer-or-an-advance"></a>Facturació d'una bestreta o un avançament
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-El Dynamics 365 Project Operations admet els contractes basats en bestretes i avançaments puntuals. En un contracte de projecte, podeu registrar una planificació de bestretes o un avançament únic. No obstant això, l'enregistrament a nivell de contracte del projecte no fa que una bestreta o un avançament estiguin disponibles immediatament per al seu ús. Per utilitzar una bestreta o avançament en una factura que realment cobra al client, primer s'ha de facturar la bestreta o avançament.
+El Dynamics 365 Project Operations admet contractes sobre bestreta i avançaments únics. En un contracte de projecte, podeu registrar una planificació de bestretes o un avançament únic. No obstant això, l'enregistrament a nivell de contracte del projecte no fa que una bestreta o un avançament estiguin disponibles immediatament per al seu ús. Per utilitzar una bestreta o avançament en una factura que realment cobra al client, primer s'ha de facturar la bestreta o avançament.
 
 Completeu els passos següents per facturar una bestreta o avançament.
 

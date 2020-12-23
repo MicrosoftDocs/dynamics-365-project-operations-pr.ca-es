@@ -1,5 +1,5 @@
 ---
-title: Avançaments i contractes de bestreta (bàsic)
+title: Avançaments i contractes de bestreta
 description: Aquest tema proporciona informació sobre els models de contractació basats en bestretes i els avançaments al Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180855"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596090"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Avançaments i contractes de bestreta (bàsic)
+# <a name="advances-and-retainer-based-contracts"></a>Avançaments i contractes de bestreta
 
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-El Dynamics 365 Project Operations admet els contractes basats en bestretes. Un contracte basat en bestreta és un conjunt negociat de pagaments igualment distribuïts que es facturaran al client facturat durant tota la duració d'un projecte. Aquest tipus de contracte s'utilitza normalment per als models de facturació de temps i material o basats en consum quan és necessari proporcionar al client una factura previsible i un calendari de pagament. Els ingressos reals acumulats cada període es concilien amb el pagament rebut pel client al començament del període. D'acord amb el concepte del model de facturació de temps i material, els valors d'ingressos acumulats en cada període poden variar amb els costos incorreguts. Si els ingressos acumulats són superiors a la quantitat rebuda al començament del període, l'empresa de lliurament del projecte podria:
+El Dynamics 365 Project Operations admet els contractes de bestreta. Un contracte basat en bestreta és un conjunt negociat de pagaments igualment distribuïts que es facturaran al client facturat durant tota la duració d'un projecte. Aquest tipus de contracte s'utilitza normalment per als models de facturació de temps i material o basats en consum quan és necessari proporcionar al client una factura previsible i un calendari de pagament. Els ingressos reals acumulats cada període es concilien amb el pagament rebut pel client al començament del període. D'acord amb el concepte del model de facturació de temps i material, els valors d'ingressos acumulats en cada període poden variar amb els costos incorreguts. Si els ingressos acumulats són superiors a la quantitat rebuda al començament del període, l'empresa de lliurament del projecte podria:
 
 - Facturar al client només per l'excés 
 - Ajornar la conciliació dels ingressos al següent període de facturació i realitzar una factura final a la fi del projecte per a qualsevol ingrés no conciliat que quedi

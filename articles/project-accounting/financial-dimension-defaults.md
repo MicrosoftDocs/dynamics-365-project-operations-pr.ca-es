@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aa6771ba5346fd4133b82c3e670badfa7655299f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131871"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642351"
 ---
 # <a name="financial-dimension-defaults"></a>Valors per defecte de la dimensió financera
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 El Dynamics 365 Project Operations utilitza el marc de [dimensions financeres](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) del Dynamics 365 Finance per proporcionar informació addicional sobre les transaccions del subdiari del projecte i el diari general.
 

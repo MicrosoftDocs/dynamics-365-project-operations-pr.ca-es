@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180495"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513777"
 ---
 # <a name="manage-leads---lite"></a>Administració de clients potencials (bàsic)
 
@@ -23,7 +23,7 @@ Els clients potencials basats en projectes es poden administrar i qualificar al 
 
 ## <a name="list-of-project-sales-leads"></a>Llista de clients potencials de vendes del projecte
 
-A la secció **Vendes**, a la subfinestra de navegació esquerra, obriu la pàgina de la llista **Clients potencials** per veure una llista de tots els registres de client potencial del sistema. La llista de clients potencials que es mostren són basats en treball i altres tipus de clients potencials que es poden crear si també teniu les aplicacions Dynamics 365 Sales o Dynamics 365 Field Service.
+A la secció **Vendes**, a la subfinestra de navegació esquerra, obriu la pàgina de la llista **Clients potencials** per veure una llista de tots els registres de client potencial del sistema. Els clients potencials de la llista estan basats en el treball i altres tipus de clients potencials que es poden crear si també teniu les aplicacions del Dynamics 365 Sales o el Dynamics 365 Field Service.
 
 Podeu crear una visualització filtrada per veure només els clients potencials basats en projectes mitjançant la creació d'un filtre al valor **Tipus**. Per exemple, podeu seleccionar si voleu que només es mostrin clients potencials basats en el treball.
 
@@ -53,7 +53,7 @@ Els clients potencials que tenen el valor **Tipus** definit com a **Basat en el 
 
 - Un compte que utilitza el camp **Empresa** del client potencial.
 - Un registre de contacte associat al compte segons els valors dels camps **Nom** i **Cognom** del client potencial.
-- Una oportunitat basada en projectes que té el camp **Tipus** definit com a **Basat en el treball**.
+- Una oportunitat basada en projectes que té el camp **Tipus** definit com a **Basat en treball**.
 
 Per obtenir informació més detallada sobre els clients potencials qualificats, vegeu [Qualificar o convertir clients potencials](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

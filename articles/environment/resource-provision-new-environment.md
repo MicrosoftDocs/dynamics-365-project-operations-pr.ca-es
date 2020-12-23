@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121161"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642947"
 ---
 # <a name="provision-a-new-environment"></a>Proveïment d'un entorn nou
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-En aquest tema es proporciona informació sobre com es proveeix un nou entorn del Dynamics 365 Project Operations per a escenaris basats en recursos/sense existències.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+En aquest tema es proporciona informació sobre com proveir un nou entorn de Dynamics 365 Project Operations per a escenaris basats en recursos/sense existències.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Habilitar el proveïment automatitzat del Project Operations en un projecte del LCS
 
@@ -120,7 +122,7 @@ El procés de servei de l'entorn tardarà una estona. Després d'haver acabat, l
 
 ![Aplicar les solucions](./media/13ApplySolutions.png)
 
-5. Seleccioneu les dues solucions, **Assignació d'entitats d'escriptura doble del Dynamics 365 Finance and Operations** i **Assignacions d'entitats d'escriptura doble del Dynamics 365 Project Operations** i, a continuació, seleccioneu **Aplica**.
+5. Seleccioneu les dues solucions, el mapa d'entitats del **Dynamics 365 Finance and Operations d'escriptura doble** i els mapes d'entitat del **Dynamics 365 Project Operations d'escriptura doble** i, a continuació, seleccioneu **Aplicar**.
 
 ![Confirmar les solucions](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ L'actualització tardarà uns 20 minuts. Rebreu una alerta quan s'hagi completat
 | --- | --- | --- | --- | --- | --- |
 | **Funcions de recurs del projecte per a totes les empreses (bookableresourcecategories)** | No | Sí | Common Data Service | No | N/D |
 | **Entitats jurídiques (cdm\_companies)** | No | Sí | Aplicacions del Finance and Operations | No | N/D |
+| **Llibre major (msdyn_ledgers)** | No | Sí | Aplicacions del Finance and Operations | Sí | Sí, les aplicacions de Finance and Operations |
 | **Valors reals d'integració del Project Operations (msdyn\_actuals)** | No | No | N/D | Sí | No |
 | **Línies de contracte del projecte (salesorderdetails)** | No | No | N/D | No | No |
 | **Entitat d'integració per a les relacions de transaccions del projecte (msdyn\_transactionconnections)** | No | No | N/D | No | N/D |

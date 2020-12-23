@@ -1,5 +1,5 @@
 ---
-title: Creació d'un avançament ad hoc en un contracte (bàsic)
+title: Creació d'un avançament ad hoc en un contracte
 description: Aquest tema proporciona informació sobre la creació d'un avançament en un contracte segons sigui necessari.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181350"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595929"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Creació d'un avançament ad hoc en un contracte (bàsic)
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Creació d'un avançament ad hoc en un contracte
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 El Microsoft Dynamics 365 Project Operations admet escenaris de facturació que impliquin prepagaments i avançaments. El procés d'ús d'**Avançaments** al **Project Operations** és similar als contractes de **Bestreta**. 
 

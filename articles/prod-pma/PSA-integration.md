@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072353"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642441"
 ---
 # <a name="project-service-automation-overview"></a>Informació general del Project Service Automation
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 La solució d'integració del Project Service Automation al Finance utilitza la característica d'integració de dades per sincronitzar dades entre les instàncies del Dynamics 365 Finance i el Dynamics 365 Project Service Automation a través del Common Data Service. Les plantilles d'integració que estan disponible amb la característica d'integració de dades permeten el flux de projectes, contractes de projecte, línies de contracte de projecte, fites de les línies de contracte del projecte, tasques del projecte, categories de transacció de despeses, estimacions d'hores i estimacions de despeses del Project Service Automation al Finance.
 

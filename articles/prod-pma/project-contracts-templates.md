@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072346"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642621"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronitzar els contractes del projecte i els projectes directament des del Project Service Automation al Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Aquest tema descriu la plantilla i tasques subjacents que s'utilitzen per sincronitzar els contractes del projecte i els projectes directament des del Dynamics 365 Project Service Automation al Dynamics 365 Finance.
 
@@ -51,7 +53,7 @@ Per accedir a les plantilles disponibles, al centre d'administració del Microso
 Les plantilles i les tasques subjacents següents s'utilitzen per sincronitzar els contractes del projecte i els projectes del Project Service Automation al Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integració amb el Dynamics 365 Project Service Automation v2.x
-- **Nom de la plantilla en la integració de dades** : projectes i contractes (PSA a Fin and Ops)
+- **Nom de la plantilla en la integració de dades**: projectes i contractes (PSA a Fin and Ops)
 - **Nom de les tasques del projecte:**
 
     - Contractes del projecte del PSA a Fin and Ops
@@ -62,7 +64,7 @@ Les plantilles i les tasques subjacents següents s'utilitzen per sincronitzar e
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integració amb el Dynamics 365 Project Service Automation v3.x
 Hi ha un canvi d'esquema a Project Service Automation que afecta la plantilla de fita de la línia de contracte del projecte i l'ús de la versió v2 de la plantilla és necessari per integrar el Project Service Automation v3.x amb el Dynamics 365.
 
-- **Nom de la plantilla en la integració de dades** : projectes i contractes (PSA 3.x a Fin and Ops), v2
+- **Nom de la plantilla en la integració de dades**: projectes i contractes (PSA 3.x a Fin and Ops), v2
 - **Nom de les tasques del projecte:**
 
     - Contractes del projecte del PSA a Fin and Ops
@@ -95,11 +97,11 @@ Les fites de les línies de contracte del projecte estan administrats al Project
 
 El camp **Identificador del contracte del projecte** està disponible a la pàgina **Contractes del projecte**. Aquest camp té una clau natural i única per donar suport a la integració.
 
-Quan es crea un nou contracte de projecte, si encara no existeix un valor d' **Identificador del contracte del projecte** , es genera automàticament mitjançant una seqüència de números. El valor es compon d' **ORD** seguit d'una seqüència de números que incrementa i, a continuació, un sufix de sis caràcters. Aquest és un exemple: **ORD-01022-Z4M9Q0**.
+Quan es crea un nou contracte de projecte, si encara no existeix un valor d'**Identificador del contracte del projecte**, es genera automàticament mitjançant una seqüència de números. El valor es compon d'**ORD** seguit d'una seqüència de números que incrementa i, a continuació, un sufix de sis caràcters. Aquest és un exemple: **ORD-01022-Z4M9Q0**.
 
 El camp **Número del projecte** està disponible a la pàgina **Projectes**. Aquest camp té una clau natural i única per donar suport a la integració.
 
-Quan es crea un nou projecte, si encara no existeix un valor de **Número del projecte** , es genera automàticament mitjançant una seqüència de números. El valor es compon de **PRJ** seguit d'una seqüència de números que incrementa i, a continuació, un sufix de sis caràcters. Aquest és un exemple: **PRJ-01049-CCNID0**.
+Quan es crea un nou projecte, si encara no existeix un valor de **Número del projecte**, es genera automàticament mitjançant una seqüència de números. El valor es compon de **PRJ** seguit d'una seqüència de números que incrementa i, a continuació, un sufix de sis caràcters. Aquest és un exemple: **PRJ-01049-CCNID0**.
 
 Quan s'aplica la solució d'integració del Project Service Automation al Finance, un script d'actualització configura el camp **Identificador del contracte del projecte** per als contractes de projecte existents i el camp **Número de projecte** per a projectes existents al Project Service Automation.
 
@@ -133,9 +135,9 @@ Si heu d'utilitzar el Power Query, seguiu aquestes instruccions:
 ## <a name="template-mapping-in-data-integration"></a>Assignació de plantilles a la integració de dades
 
 > [!NOTE] 
-> Els camps **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** i **AddressZipCode** no s'inclouen a l'assignació per defecte per a contractes de projecte. Podeu afegir les assignacions si necessiteu que se sincronitzin aquestes dades per als contractes del projecte.
+> Els camps **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** i **AddressZipCode** no s'inclouen a l'assignació per defecte per a contractes de projecte. Podeu afegir les assignacions si necessiteu que se sincronitzin aquestes dades per als contractes del projecte.
 >
-> Els camps **Descripció** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** i **ProjectType** no s'inclouen a l'assignació per defecte per als projectes. Podeu afegir les assignacions si necessiteu que se sincronitzin aquestes dades per als projectes.
+> Els camps **Descripció**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** i **ProjectType** no s'inclouen a l'assignació per defecte per als projectes. Podeu afegir les assignacions si necessiteu que se sincronitzin aquestes dades per als projectes.
 
 A les il·lustracions següents es mostren exemples de l'assignació de tasques de plantilla a la integració de dades. L'assignació mostra la informació de camp que se sincronitzarà del Project Service Automation al Finance.
 

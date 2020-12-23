@@ -3,17 +3,17 @@ title: Entrada de despesa (bàsica)
 description: En aquest tema es proporciona informació sobre com treballar amb l'entrada de despesa en una implementació bàsica.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121071"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590934"
 ---
 # <a name="expense-entry-lite"></a>Entrada de despesa (bàsica)
 
@@ -21,7 +21,7 @@ _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 Bàsica, l'administració de despeses és la capacitat de registrar les despeses simples. Podeu registrar les despeses en un projecte i, a continuació, l'aprovador del projecte les revisarà i aprovarà.
 
-Per obtenir més informació sobre les capacitats de despesa del Dynamics 365 Project Operations, vegeu [Descripció general de les despeses](expense-overview.md).
+Per obtenir més informació sobre les capacitats de despesa al Dynamics 365 Project Operations, vegeu la [Descripció general de les despeses](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Capturar una despesa bàsica
 
@@ -36,6 +36,10 @@ Després d'haver acabat de capturar totes les despeses i que estigueu a punt per
 
 1. Aneu a **Despeses** i seleccioneu una despesa. O bé, seleccioneu totes les despeses mitjançant la casella de selecció de la capçalera.
 2. Seleccioneu **Envia**. El sistema processa les entrades seleccionades i crea sol·licituds d'aprovació de despeses.
+
+## <a name="add-an-attachment"></a>Afegeix un fitxer adjunt
+
+Potser heu de proporcionar a l'aprovador documentació addicional sobre les vostres despeses. Podeu adjuntar un rebut a la cronologia de l'entrada de la despesa. Seleccioneu **Edita** i, a la secció **Cronologia**, seleccioneu la icona de clip per adjuntar el rebut.
 
 ## <a name="recall-a-basic-expense"></a>Recuperar una despesa bàsica
 
