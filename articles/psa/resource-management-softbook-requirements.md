@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124086"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147371"
 ---
 # <a name="soft-book-requirements"></a>Reservar requisits manera flexible
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Un requisit de recursos es pot reservar de manera fixa. Una reserva fixa crea una proposta que consumeix la capacitat d'un recurs. La proposta s'envia novament al sol·licitant per a la seva aprovació. Una reserva flexible afegeix provisionalment un recurs a un equip del projecte i té un estat diferent al Tauler de planificació, però no consumeix la capacitat del recurs. Per reservar un recurs de manera flexible al Tauler de planificació, definiu el camp **Estat de la reserva** a **Flexible**.
 

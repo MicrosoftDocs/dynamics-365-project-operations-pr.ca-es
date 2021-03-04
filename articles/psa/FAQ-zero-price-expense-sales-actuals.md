@@ -3,6 +3,7 @@ title: Per què el preu predeterminat és zero en les dades de vendes de despese
 description: Els tres controls següents us ajudaran a solucionar per què el preu està predeterminat a 0 en vendes de despeses reals.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122061"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146291"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Per què el preu predeterminat és zero en les dades de vendes de despeses?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Aquesta pregunta freqüent s'aplica als valors reals de despeses on la classe de
 
 Busqueu el projecte des del camp del projecte real i aneu a la pàgina del projecte. A continuació, aneu a la pestanya Vendes. A la quadrícula Línies de contracte de projecte, feu clic a l'enllaç en el camp Contracte de projecte. La pàgina del contracte del projecte s'obrirà. A la pàgina Contracte del projecte, aneu a la pestanya Llistes de preus del projecte. Comproveu si hi ha almenys una llista de preus adjunta.
 
-Si no hi ha una llista de preus adjunta a la quadrícula de Llistes de preus del Contracte de projecte, feu el següent:
+Si no hi ha una llista de preus adjunta a la quadrícula de Llistes de preus del Contracte de projecte:
 
 - Adjunteu una llista de preus a la quadrícula Llistes de preus del projecte. Les llistes de preus que es poden adjuntar han de tenir el camp de context establert en Vendes i el camp de moneda a la llista de preus ha de coincidir amb el camp de moneda al Contracte del projecte. Un cop hagueu realitzat les correccions necessàries, torneu a crear una entrada de despeses, aproveu-la i verifiqueu que les vendes no facturades reals mostrin un preu vàlid.
 - Si teniu una o més llistes de preus adjuntes a la graella de Llistes de preus del projecte del Contracte del projecte, aneu a Comprovació 2.
@@ -47,7 +50,7 @@ Perquè el Project Service tingui en compte una llista de preus utilitzada per e
 - Comenceu per les dates d'inici i finalització de la pestanya general de les llistes de preus adjuntes i mireu que no estiguin buides. Si les dates d'inici i finalització estan buides, haureu aïllat el problema. 
 - Anoteu el camp de data d'inici en les vendes de despeses reals i verifiqueu si alguna de les llistes de preus identificades és aplicable per a aquesta data. Per exemple, la data de la despesa real ha d'estar dins de la data d'inici i la de finalització en la llista de preus. 
     - Si no hi ha cap llista de preus que cobreixi aquesta data en les vendes de despeses reals, haureu aïllat el problema. Modifiqueu les dates d'inici i finalització de la llista de preus per assegurar-vos que la llista de preus cobreix la data de la despesa real. 
-    - Si hi ha més d'una llista de preus que cobreix la data de les vendes de despeses reals, haureu aïllat el problema. Pot solucionar aquests conflictes si editeu les dates d'inici i finalització de la llista de preus perquè només hi hagi una llista de preus que cobreixi la data de la despesa real. 
+    - Si hi ha més d'una llista de preus que cobreix la data de les vendes de despeses reals, haureu aïllat el problema. Editeu les dates d'inici i finalització de la llista de preus perquè només hi hagi una llista de preus que cobreixi la data de la despesa real. 
     - Si només hi ha una llista de preus que cobreixi aquesta data, passeu a la comprovació 3.
 Un cop hagueu finalitzat amb les correccions necessàries, torneu a crear una entrada de despeses, aproveu-la i verifiqueu que les vendes no facturades reals mostrin un preu vàlid.
 
@@ -55,7 +58,7 @@ Un cop hagueu finalitzat amb les correccions necessàries, torneu a crear una en
 
 Si heu completat amb èxit les comprovacions 1 i 2, ara hauríeu de tenir només una llista de preus del projecte aplicable per a la data de les vendes de despeses reals. Obriu aquesta Llista de preus del projecte i aneu a la pestanya Preus de categoria. Assegureu-vos que hi hagi una fila a la quadrícula per a la categoria de despesa específica en la Despesa real.
  
-- Si no hi ha cap fila, haureu aïllat el problema. Creeu una fila a la quadrícula Preus de categoria per a la categoria de la vostra despesa real. Un cop fet, torneu a crear una entrada de despeses, aproveu-la i verifiqueu que les vendes no facturades reals mostrin un preu vàlid. 
+- Si no hi ha cap fila, haureu aïllat el problema. Creeu una fila a la quadrícula Preus de categoria per a la categoria de la vostra despesa real. A continuació, torneu a crear una entrada de despeses, aproveu-la i verifiqueu que les vendes no facturades reals mostrin un preu vàlid. 
 - Si hi ha una fila per a la categoria de despeses en la quadrícula de preus de la categoria, comproveu que tingui un preu vàlid.
 
 Per entendre quin preu és vàlid, utilitzeu aquests mètodes:

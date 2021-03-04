@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7032af78168c742ac64cb2a7174cabcbda579ff8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122286"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146516"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Crear una reserva de projecte des del tauler de planificació
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Podeu reservar un recurs en un projecte directament a la pestanya **Equip** del projecte o generant un requisit de recursos d'una assignació del membre de l'equip genèric i complint després amb el requisit generat amb un membre de l'equip del projecte.
 
