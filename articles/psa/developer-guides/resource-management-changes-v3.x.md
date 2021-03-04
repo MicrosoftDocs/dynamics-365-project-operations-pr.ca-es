@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072403"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148631"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Canvis a l'administració de recursos (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 A les seccions d'aquest tema es proporciona informació sobre els canvis que s'han dut a terme a l'àrea administració de recursos de la versió 3.x del Dynamics 365 Project Service Automation.
 
 ## <a name="project-estimates"></a>Estimacions del projecte
 
-En lloc de basar-se en l'entitat **msdyn\_projecttask** ( **Tasca del projecte** ), les estimacions de projecte es basen en l'entitat **msdyn\_resourceassignment** ( **Assignació de recursos** ). Les assignacions de recursos s'ha convertit en l'"origen de la veritat" per a la planificació de tasques i els preus.
+En lloc de basar-se en l'entitat **msdyn\_projecttask** (**Tasca del projecte**), les estimacions de projecte es basen en l'entitat **msdyn\_resourceassignment** (**Assignació de recursos**). Les assignacions de recursos s'ha convertit en l'"origen de la veritat" per a la planificació de tasques i els preus.
 
 ## <a name="line-tasks"></a>Tasques de línia
 
@@ -65,7 +67,7 @@ Al PSA 3.x, una assignació no assignada és una assignació assignada a un memb
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Planificar camps a l'entitat Tasca del projecte
 
-Els camps de l'entitat **msdyn\_projecttask** s'han deixat d'utilitzar o s'han mogut a l'entitat **msdyn\_resourceassignment** , o ara s'hi fa referència des de l'entitat **msdyn\_projectteam** ( **Membre de l'equip del projecte** ).
+Els camps de l'entitat **msdyn\_projecttask** s'han deixat d'utilitzar o s'han mogut a l'entitat **msdyn\_resourceassignment**, o ara s'hi fa referència des de l'entitat **msdyn\_projectteam** (**Membre de l'equip del projecte**).
 
 | Camp obsolet a msdyn\_projecttask (Tasca del projecte) | Camp nou a msdyn\_resourceassignment (Assignació de recursos) | Comentari |
 |---|---|---|
@@ -77,15 +79,15 @@ Els camps de l'entitat **msdyn\_projecttask** s'han deixat d'utilitzar o s'han m
 
 ## <a name="schedule-contour"></a>Contorn de planificació
 
-El contorn de la planificació s'emmagatzema al camp **Treball planificat** ( **msdyn\_plannedwork** ) de cada entitat **Assignació de recursos** ( **msdyn\_resourceassignment** ).
+El contorn de la planificació s'emmagatzema al camp **Treball planificat** (**msdyn\_plannedwork**) de cada entitat **Assignació de recursos** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Estructura
 
 La nova estructura del contorn de la planificació consta de porcions de temps flexibles que es defineixen per a cada dia de la planificació. Cada porció de temps té les següents propietats:
 
-- **Inici** : l'inici de les hores de treball per al dia, segons el calendari del projecte.
-- **Acabament** : l'acabament de les hores de treball per al dia, segons el calendari del projecte.
-- **Hores** : el nombre d'hores que s'assignen al dia.
+- **Inici**: l'inici de les hores de treball per al dia, segons el calendari del projecte.
+- **Acabament**: l'acabament de les hores de treball per al dia, segons el calendari del projecte.
+- **Hores**: el nombre d'hores que s'assignen al dia.
 
 **Exemple**
 
@@ -139,7 +141,7 @@ En aquest exemple, la tasca s'assigna a dos recursos i es planifica automàticam
 
 ## <a name="pricing-dimensions"></a>Dimensions de preus
 
-Al PSA 3.x, els camps de dimensió de preus específics de recursos (com ara **Funció** i **Unitat organitzativa** ) s'han suprimit de l'entitat **msdyn\_projecttask**. Ara, aquests camps es poden recuperar del membre de l'equip corresponent ( **msdyn\_projectteam** ) de l'assignació de recursos ( **msdyn\_resourceassignment** ) en el moment de generar estimacions del projecte. S'ha afegit un nou camp, **msdyn\_organizationalunit** a l'entitat **msdyn\_projectteam**.
+Al PSA 3.x, els camps de dimensió de preus específics de recursos (com ara **Funció** i **Unitat organitzativa**) s'han suprimit de l'entitat **msdyn\_projecttask**. Ara, aquests camps es poden recuperar del membre de l'equip corresponent (**msdyn\_projectteam**) de l'assignació de recursos (**msdyn\_resourceassignment**) en el moment de generar estimacions del projecte. S'ha afegit un nou camp, **msdyn\_organizationalunit** a l'entitat **msdyn\_projectteam**.
 
 | Camp obsolet a msdyn\_projecttask (Tasca del projecte) | Camp de msdyn\_projectteam (Membre de l'equip del projecte) que s'utilitza en comptes d'això |
 |---|---|
@@ -155,12 +157,12 @@ Els camps de preus i estimació de contorn s'ha deixat d'utilitzar a l'entitat *
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Els camps següents s'han desplaçat a l'entitat **msdyn\_resourceassignment** :
+Els camps següents s'han desplaçat a l'entitat **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Els camps següents per al cost i les vendes previstos, reals i restants no es modifiquen a l'entitat **msdyn\_projecttask** :
+Els camps següents per al cost i les vendes previstos, reals i restants no es modifiquen a l'entitat **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

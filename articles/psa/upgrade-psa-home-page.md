@@ -2,6 +2,7 @@
 title: Pàgina d'inici de les actualitzacions
 description: Aquest tema mostra on es troba informació important sobre les característiques noves i canviades al Dynamics 365 Project Service Automation, i el procés per actualitzar a la versió més recent.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121746"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150071"
 ---
 # <a name="upgrade-home-page"></a>Pàgina d'inici de les actualitzacions
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ A partir del 17 de maig de 2019, en seleccionar el Project Service Automation du
 
 ### <a name="existing-instances"></a>Instàncies existents
 
-Anteriorment, els clients que tenien una instància de la versió 2.x del PSA i necessitaven actualitzar a la versió 3.x, que és la versió basada en la interfície de client unificada (UCI) del PSA, havien de contactar amb el servei tècnic de Microsoft i proporcionar els detalls de la seva instància, de manera que el servei tècnic pogués habilitar l'actualització a la versió 3.x. A partir de l'1 de març del 2020, els clients que tinguin una instància de la versió 2.x del PSA i que necessitin actualitzar-la a la versió 3.x, podran actualitzar les seves instàncies directament des del portal d'administració sense haver de contactar amb el servei tècnic de Microsoft.  
+Anteriorment, els clients que tinguessin una instància de la versió 2.x del PSA i que necessitessin actualitzar a la versió 3.x, que és la versió basada en la interfície de client unificada (UCI) del PSA, havien de contactar amb el suport tècnic de Microsoft i proporcionar els detalls de la seves instàncies, de manera que el servei tècnic pogués habilitar l'actualització a la versió 3.x. A partir de l'1 de març de 2020, els clients que tenen una instància de la versió 2.x de PSA i necessiten actualitzar a la versió 3.x, podran actualitzar les seves instàncies directament des del portal d'administració sense haver de contactar amb el suport tècnic de Microsoft.  
 
 > [!NOTE]
 > La versió 3.x del PSA inclou canvis significatius. S'ha construït sobre el marc de la interfície unificada per ajudar a proporcionar una experiència d'usuari millorada. L'aplicació redissenyada ofereix una interfície d'usuari (IU) coherent i homogènia, i segueix els principis de disseny responsiu per a una òptima visualització en qualsevol mida de pantalla o dispositiu. Hi ha hagut altres canvis a l'aplicació. Algunes de les àrees que s'ha canviat inclouen els preus, la reserva i l'assignació de recursos, el temps, les despeses i les aprovacions.
@@ -58,7 +61,7 @@ Després d'haver revisat els temes que s'han esmentat abans i que estigueu prepa
 
 A partir del 17 de maig de 2019, totes les instàncies noves tindran l'UCI com a client per defecte. En coherència amb aquest canvi, la versió 3.x de PSA i la versió 8.x del Field Service seran subministrades per defecte, perquè aquestes versions estan dissenyades per treballar amb el client UCI.
 
-A partir del dia 1 de març de 2020, els clients del Dynamics PSA ja no podran crear nous entorns amb versions anteriors del PSA, per exemple, la versió 2.x o el PSA. Qualsevol entorn nou només serà per obtenir la versió 3.x del PSA.
+A partir de l'1 de març de 2020, els clients del Dynamics PSA ja no podran crear un nou entorn amb versions anteriors de PSA, per exemple versió 2.x de PSA o inferior. Qualsevol entorn nou només serà per obtenir la versió 3.x del PSA.
 
 > [!NOTE]
 > Per obtenir la millor experiència en utilitzar versions anteriors de les aplicacions del Field Service i el PSA, aneu a la pàgina **Configuració del sistema** i per al camp **Utilitza només la nova interfície unificada (recomanat)** seleccioneu **No**, perquè aquestes versions no estan dissenyades perquè es carreguin correctament a l'UCI. Després d'haver desactivat l'UCI, podeu obrir i executar aquestes versions de Field Service i el PSA mitjançant el client web antic. 

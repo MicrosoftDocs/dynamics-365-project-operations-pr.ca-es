@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121791"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149531"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Consideracions d'actualització per a l'estructura del desglossament del treball
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 En aquest tema es proporciona informació sobre l'actualització de l'estructura del desglossament del treball del Project Service Automation 2.x al 3.x. Aquest tema defineix l'estat saludable d'un projecte del Project Service Automation (PSA) necessari per a una actualització correcta. També hi ha informació sobre les condicions de bloqueig habituals que faran que falli l'actualització. Per obtenir més informació sobre la definició de tasques de projecte i les seves funcions dins d'una planificació del projecte, vegeu [Planificacions de projecte](project-creating.md).
 
 ## <a name="key-entities"></a>Entitats clau

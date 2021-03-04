@@ -17,20 +17,23 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32d0dbc3a69d713dcae8d27e52f2a0c6fc296127
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072318"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148451"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Afegir camps personalitzats a la configuració de preus i a entitats transaccionals 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 En aquest tema s'assumeix que heu completat els procediments en el tema [Crear camps i entitats personalitzats](create-custom-fields-entities.md). Si no heu completat aquests procediments, aneu enrere per completar-los torneu a aquest tema. 
 
 En aquest tema, els procediments us mostraran com afegir les referències de camp personalitzades necessàries a les entitats i als elements de la interfície d'usuari (IU), com ara formularis i visualitzacions.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Afegeix camps de dimensió de preus personalitzats 
-Quan s'han creat camps i entitats personalitzats, el pas següent és fer que les entitats de configuració de preus i transaccionals reconeguin qualsevol entitat o conjunt d'opcions personalitzades creant camps de referència. En funció de si la llista de dimensions de preus de preus inclou dimensions o dimensions de l'entitat de conjunt d'opcions o ambdues, seguiu només els passos a **Dimensions de preus personalitzades basades en el conjunt d'opcions** o **Dimensions de preus personalitzades basades en l'entitat** , o ambdues, respectivament.
+Quan s'han creat camps i entitats personalitzats, el pas següent és fer que les entitats de configuració de preus i transaccionals reconeguin qualsevol entitat o conjunt d'opcions personalitzades creant camps de referència. En funció de si la llista de dimensions de preus de preus inclou dimensions o dimensions de l'entitat de conjunt d'opcions o ambdues, seguiu només els passos a **Dimensions de preus personalitzades basades en el conjunt d'opcions** o **Dimensions de preus personalitzades basades en l'entitat**, o ambdues, respectivament.
 
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Dimensions de preus personalitzades basades en conjunts d'opcions
 Quan una dimensió de preus personalitzada està basada en un conjunt d'opcions, afegiu-la com a camp a entitats clau del Project Service. En el procediment següent, s'utilitzen **Ubicació de treball del recurs** i **Hores de treball del recurs** com a dimensions de preu basades en un conjunt d'opcions. Primer s'han d'afegir com a camps a les entitats de preus, **Preu per funció** i **Marge comercial del preu per funció**.
@@ -39,7 +42,7 @@ Quan una dimensió de preus personalitzada està basada en un conjunt d'opcions,
 2. A l'Explorador de solucions, a la subfinestra de navegació esquerra, seleccioneu **Entitats > Preu per funció**.
 3. Expandiu l'entitat **Preu per funció** i seleccioneu **Camps**.
 4. Feu clic a **Nou** per crear un camp nou anomenat **Ubicació de treball del recurs** i seleccioneu **Conjunt d'opcions** com a tipus de camp. 
-5. Seleccioneu **Utilitza una conjunt d'opcions existent** , seleccioneu el conjunt d'opcions **Ubicació de treball del recurs** i, a continuació, feu clic a **Desa**.
+5. Seleccioneu **Utilitza una conjunt d'opcions existent**, seleccioneu el conjunt d'opcions **Ubicació de treball del recurs** i, a continuació, feu clic a **Desa**.
 6. Repetiu els passos 1-5 per afegir aquest camp a l'entitat **Marge comercial del preu per funció**. 
 7. Repetiu els passos 1-5 per al conjunt d'opcions **Hores de treball del recurs**.
 
@@ -48,27 +51,27 @@ Quan una dimensió de preus personalitzada està basada en un conjunt d'opcions,
 
 > ![Afegir Ubicació de treball del recurs al preu per funció](media/RWL-Field.png)
 
-En les fases de vendes i estimació d'un projecte, les estimacions de l'esforç de treball necessari per completar treball **Local** i **In situ** a **Hores normals** i **Hores extres** s'utilitzen per calcular el valor de l'oferta o el projecte. S'afegiran els camps **Ubicació de treball del recurs** i **Hores de treball del recurs** a les entitats d'estimació, **Detall de la línia d'oferta** , **Detall de la línia de contracte** , **Tasca del projecte** , **Membre de l'equip del projecte** i **Línia d'estimació**.
+En les fases de vendes i estimació d'un projecte, les estimacions de l'esforç de treball necessari per completar treball **Local** i **In situ** a **Hores normals** i **Hores extres** s'utilitzen per calcular el valor de l'oferta o el projecte. S'afegiran els camps **Ubicació de treball del recurs** i **Hores de treball del recurs** a les entitats d'estimació, **Detall de la línia d'oferta**, **Detall de la línia de contracte**, **Tasca del projecte**, **Membre de l'equip del projecte** i **Línia d'estimació**.
 
 1. Al PSA, feu clic a **Configuració** > **Solucions** i feu doble clic a **Dimensions de preus de \<your organization name>**. 
 2. A l'Explorador de solucions, a la subfinestra de navegació esquerra, seleccioneu **Entitats > Detall de la línia d'oferta**.
 3. Expandiu l'entitat **Detall de la línia d'oferta** i seleccioneu **Camps**.
 4. Feu clic a **Nou** per crear un camp nou anomenat **Ubicació de treball del recurs** i seleccioneu el tipus de camp **Conjunt d'opcions**. 
 5. Seleccioneu **Utilitza una conjunt d'opcions existent** i **Ubicació de treball del recurs** i, a continuació, feu clic a **Desa**.
-6. Repetiu els passos 1-5 per afegir aquest camp a les entitats **Detall de la línia de contracte del projecte** , **Tasca del projecte** , **Membre de l'equip del projecte** i **Línia d'estimació**.
+6. Repetiu els passos 1-5 per afegir aquest camp a les entitats **Detall de la línia de contracte del projecte**, **Tasca del projecte**, **Membre de l'equip del projecte** i **Línia d'estimació**.
 7. Repetiu els passos 1-6 per al conjunt d'opcions **Hores de treball del recurs**. 
 
 > ![Afegir Ubicació de treball del recurs a Línia d'estimació](media/RWL-Default-Value.png)
 
 
-Per al lliurament i la facturació, el treball completat ha de tenir un preu precís per seleccionar si s'ha realitzat **Local** o **In situ** , i si es va completar durant **Hores normals** o **Hores extres** a Valors reals del projecte. S'han d'afegir els camps **Ubicació de treball del recurs** i **Hores de treball del recurs** a les entitats **Entrada de temps** , **Valor real** , **Detall de la línia de factura** i **Línia del llibre diari**.
+Per al lliurament i la facturació, el treball completat ha de tenir un preu precís per seleccionar si s'ha realitzat **Local** o **In situ**, i si es va completar durant **Hores normals** o **Hores extres** a Valors reals del projecte. S'han d'afegir els camps **Ubicació de treball del recurs** i **Hores de treball del recurs** a les entitats **Entrada de temps**, **Valor real**, **Detall de la línia de factura** i **Línia del llibre diari**.
 
 1. Al PSA, feu clic a **Configuració** > **Solucions** i feu doble clic a **Dimensions de preus de \<your organization name>**.
 2. A l'Explorador de solucions, a la subfinestra de navegació esquerra, seleccioneu **Entitats > Entrada de temps**.
 3. Expandiu l'entitat **Detall de la línia d'oferta** i, a continuació, seleccioneu **Camps**.
 4. Feu clic a **Nou** per crear un camp nou anomenat **Ubicació de treball del recurs** i seleccioneu **Conjunt d'opcions** com a tipus de camp. 
-5. Seleccioneu **Utilitza una conjunt d'opcions existent** , seleccioneu el conjunt d'opcions **Ubicació de treball del recurs** i, a continuació, feu clic a **Desa**.
-6. Repetiu els passos 1-5 per afegir aquest camp a les entitats **Valor real** , **Detall de la línia de factura** i **Línia del llibre diari**.
+5. Seleccioneu **Utilitza una conjunt d'opcions existent**, seleccioneu el conjunt d'opcions **Ubicació de treball del recurs** i, a continuació, feu clic a **Desa**.
+6. Repetiu els passos 1-5 per afegir aquest camp a les entitats **Valor real**, **Detall de la línia de factura** i **Línia del llibre diari**.
 7. Repetiu els passos 1-6 per al conjunt d'opcions **Hores de treball del recurs**. 
 
 > ![Afegir Ubicació de treball del recurs a una entrada de temps](media/RWL-time-entry.png)
@@ -101,13 +104,13 @@ En les fases de vendes i estimació per al projecte, per posar un preu a l'ofert
 - **Membre de l'equip del projecte**
 - **Línia d'estimació**
 
-5. Repetiu els passos 1-5 per crear relacions 1:N des de **Càrrec estàndard** a **Detall de la línia d'oferta** , **Detall de la línia de contracte del projecte** , **Tasca del projecte** , **Membre de l'equip del projecte** i **Línia d'estimació**.
+5. Repetiu els passos 1-5 per crear relacions 1:N des de **Càrrec estàndard** a **Detall de la línia d'oferta**, **Detall de la línia de contracte del projecte**, **Tasca del projecte**, **Membre de l'equip del projecte** i **Línia d'estimació**.
 
 > ![Afegir Càrrec estàndard com a camp de referència a Línia d'estimació](media/ST-Estimate-Line.png)
 
-En les fases de lliurament i de facturació, els treballs completats per cada càrrec estàndard han de tenir un preu precís a Valors reals del projecte. Això vol dir que hi ha d'haver relacions 1:N des de **Càrrec estàndard** a les entitats **Entrada de temps** , **Valor real** , **Detall de la línia de factura** i **Línia del llibre diari**.
+En les fases de lliurament i de facturació, els treballs completats per cada càrrec estàndard han de tenir un preu precís a Valors reals del projecte. Això vol dir que hi ha d'haver relacions 1:N des de **Càrrec estàndard** a les entitats **Entrada de temps**, **Valor real**, **Detall de la línia de factura** i **Línia del llibre diari**.
 
-6. Repetiu els passos 1-6 per crear relacions 1:N des de **Càrrec estàndard** a les entitats **Entrada de temps** , **Valor real** , **Detall de la línia de factura** i **Línia del llibre diari**.
+6. Repetiu els passos 1-6 per crear relacions 1:N des de **Càrrec estàndard** a les entitats **Entrada de temps**, **Valor real**, **Detall de la línia de factura** i **Línia del llibre diari**.
 
 > ![Afegir Càrrec estàndard com a camp de referència a Entrada de temps](media/ST-Mapping.png)
 
@@ -116,7 +119,7 @@ Per a l'entrada de temps, seria útil tenir el valor per defecte del sistema a l
 
 1. A l'Explorador de solucions, a la subfinestra de navegació esquerra, seleccioneu **Entitats > Càrrec estàndard**.
 2. Expandiu l'entitat **Càrrec estàndard** i seleccioneu **Relacions 1:N**.
-3. Feu doble clic a **Recurs que es pot reservar a Entrada de temps**. A la pàgina **Relació** , feu clic a **Utilitza assignacions de camps**. 
+3. Feu doble clic a **Recurs que es pot reservar a Entrada de temps**. A la pàgina **Relació**, feu clic a **Utilitza assignacions de camps**. 
 4. Feu clic a **Nou** per crear una assignació de camp nova entre el camp **Càrrec estàndard** a l'entitat **Recurs que es pot reservar** al camp de referència **Càrrec estàndard** a l'entitat **Entrada de temps**. 
 
 > ![Configurar les assignacions de camps per permetre l'assignació per defecte de Càrrec estàndard de Recurs disponible a Entrada de temps](media/ST-Mapping2.png)
@@ -129,7 +132,7 @@ Això completa els canvis d'esquema necessaris per a les dimensions personalitza
 Després d'haver fet tots els canvis d'esquema necessaris, el pas següent és fer que els camps siguin visibles a la interfície d'usuari afegint els camps als formularis i a les visualitzacions.
 
 1. Obriu el formulari o la visualització. A la subfinestra de navegació dreta, seleccioneu el camp i arrossegueu-lo al llenç del formulari. 
-2. Si esteu editant una visualització, utilitzeu la subfinestra de navegació dreta, feu clic a **Afegeix camps** i, al quadre de diàleg **Llista de camps** , seleccioneu els camps que necessiteu i feu clic a **D'acord**.
+2. Si esteu editant una visualització, utilitzeu la subfinestra de navegació dreta, feu clic a **Afegeix camps** i, al quadre de diàleg **Llista de camps**, seleccioneu els camps que necessiteu i feu clic a **D'acord**.
 
 La taula següent proporciona una llista exhaustiva dels formularis i les visualitzacions de fàbrica, llistats per entitat, que s'han d'actualitzar amb els nous camps. Si teniu visualitzacions o formularis addicionals a les personalitzacions d'aquestes entitats, afegiu també els camps nous.
 
