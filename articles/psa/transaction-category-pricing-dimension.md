@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072296"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150746"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilitzar una categoria de transacció com a dimensió de preus
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 En aquest tema es mostra com utilitzar una categoria de transacció com a dimensió de preu. Abans de començar, si encara no heu creat una solució de la dimensió de preus, haureu de crear-ne una de nova. Si ja teniu una solució de dimensió de preus, podeu fer els canvis en aquesta solució. Si no heu creat una solució nova per a la dimensió de preus de l'organització, completeu els procediments del tema [Crear camps i entitats personalitzats](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Afegir una categoria de transacció als formularis i a les visualitzacions
@@ -47,6 +50,6 @@ La taula següent és una llista exhaustiva dels formularis i les visualitzacion
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Configurar una categoria de transacció com a dimensió de preus
 
 1. A la interfície web, aneu a **Project Service** > **Configuració** > **Paràmetres**. 
-2. A la pàgina **Paràmetres** , a la pestanya **Dimensions de preus basades en l'import** , observeu que la quadrícula de la pestanya mostra els registres de l'entitat **Dimensions de preus**.
+2. A la pàgina **Paràmetres**, a la pestanya **Dimensions de preus basades en l'import**, observeu que la quadrícula de la pestanya mostra els registres de l'entitat **Dimensions de preus**.
 3. Afegiu **Categoria de la transacció** a aquesta llista i definiu els camps **Aplicable al cost** i **Aplicable a la venda** com a **Sí**.
-4. Al camp **Tipus de dimensió** , seleccioneu **Basada en la quantitat** i, a continuació, seleccioneu la prioritat per a la **Categoria de transacció** relacionada amb el cost i les vendes.
+4. Al camp **Tipus de dimensió**, seleccioneu **Basada en la quantitat** i, a continuació, seleccioneu la prioritat per a la **Categoria de transacció** relacionada amb el cost i les vendes.

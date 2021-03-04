@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072276"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151376"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturació al Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -44,11 +46,11 @@ Les factures de projecte es poden crear d'una en una o en massa. Podeu crear-les
 
 ### <a name="manually-create-project-invoices-in-psa"></a>Crear factures de projecte manualment al PSA
 
-Des de la pàgina de llista **Contractes del projecte** , podeu crear factures de projecte per separat per a cada contracte de projecte o podeu crear factures en massa per a diversos contractes de projecte.
+Des de la pàgina de llista **Contractes del projecte**, podeu crear factures de projecte per separat per a cada contracte de projecte o podeu crear factures en massa per a diversos contractes de projecte.
 
 Seguiu aquest pas per crear una factura per a un contracte de projecte específic.
 
-- A la pàgina de llista **Contractes del projecte** , obriu un contracte de projecte i, a continuació, seleccioneu **Crea una factura**.
+- A la pàgina de llista **Contractes del projecte**, obriu un contracte de projecte i, a continuació, seleccioneu **Crea una factura**.
 
     ![Crear factures de projecte per a un contracte específic de projecte](media/CreateProjectInvoicesOneByOne.png)
 
@@ -56,7 +58,7 @@ Seguiu aquest pas per crear una factura per a un contracte de projecte específi
 
 Seguiu aquests passos per crear factures de manera massiva.
 
-1. A la pàgina de llista **Contractes del projecte** , seleccioneu un o diversos contractes de projecte per als quals heu de crear una factura i, a continuació, seleccioneu **Crea les factures del projecte**.
+1. A la pàgina de llista **Contractes del projecte**, seleccioneu un o diversos contractes de projecte per als quals heu de crear una factura i, a continuació, seleccioneu **Crea les factures del projecte**.
 
     ![Crear factures de projecte en massa](media/CreateProjectInvoicesBulk.png)
 
@@ -74,8 +76,8 @@ Seguiu aquests passos per configurar una factura automàtica que s'executi al PS
 
 1. Aneu a **Project Service** \> **Configuració** \> **Treballs per lots**.
 2. Creeu un treball per lots i anomeneu-lo **Crea factures del PSA**. El nom del treball per lots ha d'incloure el terme "Crea factures".
-3. Al camp **Tipus de treball** , seleccioneu **Cap**. Per defecte, les opcions **Freqüència diària** i **Actiu** estan definides com a **Sí**.
-4. Seleccioneu **Executa el flux de treball**. Al quadre de diàleg **Registre de cerca** , veureu tres fluxos de treball:
+3. Al camp **Tipus de treball**, seleccioneu **Cap**. Per defecte, les opcions **Freqüència diària** i **Actiu** estan definides com a **Sí**.
+4. Seleccioneu **Executa el flux de treball**. Al quadre de diàleg **Registre de cerca**, veureu tres fluxos de treball:
 
     - ProcessRunCaller
     - ProcessRunner
@@ -84,11 +86,11 @@ Seguiu aquests passos per configurar una factura automàtica que s'executi al PS
 5. Seleccioneu **ProcessRunCaller** i després trieu **Afegeix**.
 6. Al quadre de diàleg següent, seleccioneu **D'acord**. Un flux de treball **Repòs** va seguit d'un flux de treball **Procés**.
 
-    També podeu seleccionar **ProcessRunner** al pas 5. Després, quan seleccioneu **D'acord** , un flux de treball **Procés** va seguit d'un flux de treball **Repòs**.
+    També podeu seleccionar **ProcessRunner** al pas 5. Després, quan seleccioneu **D'acord**, un flux de treball **Procés** va seguit d'un flux de treball **Repòs**.
 
 Els fluxos de treball **ProcessRunCaller** i **ProcessRunner** creen factures. **ProcessRunCaller** crida a **ProcessRunner**. **ProcessRunner** és el flux de treball que en realitat crea les factures. Passa per totes les línies de contracte per a les quals s'han de crear factures i crea factures d'aquestes línies. Per determinar les línies de contracte per a les quals s'han de crear factures, el treball consulta les dates d'execució de la factura per a les línies de contracte. Si les línies de contracte que pertanyen a un contracte tenen la mateixa data d'execució de la factura, les transaccions es combinen en una factura que té dues línies de factura. Si no hi ha cap transacció per a la qual crear factures, el treball omet la creació de la factura.
 
-Després d'haver acabat d'executar-se **ProcessRunner** , crida a **ProcessRunCaller** , proporciona l'hora d'acabament i es tanca. **ProcessRunCaller** llavors inicia un temporitzador que s'executa durant 24 hores a partir de l'hora d'acabament especificada. Al final del temporitzador, **ProcessRunCaller** es tanca.
+Després d'haver acabat d'executar-se **ProcessRunner**, crida a **ProcessRunCaller**, proporciona l'hora d'acabament i es tanca. **ProcessRunCaller** llavors inicia un temporitzador que s'executa durant 24 hores a partir de l'hora d'acabament especificada. Al final del temporitzador, **ProcessRunCaller** es tanca.
 
 El treball de processament per lots per crear factures és una feina recurrent. Si aquest procés per lots s'executa moltes vegades, es creen diverses instàncies del treball que causen errors. Per tant, hauríeu d'iniciar el procés de processament per lots només una vegada i reiniciar-lo només si s'atura l'execució.
 
@@ -103,7 +105,7 @@ Quan creeu un esborrany de factura, totes les transaccions de vendes no facturad
 - Editar i ajustar la quantitat i el tipus de facturació.
 - Afegir directament temps, despeses i taxes com a transaccions a la factura. Podeu utilitzar aquesta característica si la línia de factura s'assigna a una línia de contracte que permet aquestes classes de transaccions.
 
-Seleccioneu **Confirma** per confirmar una factura. L'acció de confirmació és una acció d'un sol sentit. Quan seleccioneu **Confirma** , el sistema fa que la factura sigui només de lectura i creï valors reals de vendes facturades des de cada detall de línia de factura per a cada línia de factura. Si el detall de la línia de factura fa referència a un valor real de vendes no facturades, el sistema també reinverteix el valor real de vendes no facturades. (Qualsevol detall de línia de factura que s'hagi creat des d'una entrada de compte o de despesa farà referència a un valor real de vendes sense facturar.) Els sistemes d'integració general de llibres poden utilitzar aquest canvi per revertir el treball en curs del projecte amb finalitats comptables.
+Seleccioneu **Confirma** per confirmar una factura. L'acció de confirmació és una acció d'un sol sentit. Quan seleccioneu **Confirma**, el sistema fa que la factura sigui només de lectura i creï valors reals de vendes facturades des de cada detall de línia de factura per a cada línia de factura. Si el detall de la línia de factura fa referència a un valor real de vendes no facturades, el sistema també reinverteix el valor real de vendes no facturades. (Qualsevol detall de línia de factura que s'hagi creat des d'una entrada de compte o de despesa farà referència a un valor real de vendes sense facturar.) Els sistemes d'integració general de llibres poden utilitzar aquest canvi per revertir el treball en curs del projecte amb finalitats comptables.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Correcció d'una factura confirmada al PSA
 

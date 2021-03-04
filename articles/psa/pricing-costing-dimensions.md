@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072253"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151286"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Pàgina d'inici de dimensions de preus i de costos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Les dimensions que s'utilitzen per definir els preus del treball i els costos en organitzacions basades en projectes tenen la influència dels atributs següents:
 
@@ -33,12 +35,12 @@ Les dimensions que s'utilitzen per definir els preus del treball i els costos en
 
 Donada la naturalesa típica d'aquestes atributs del treball i de les persones necessàries per dur a terme el treball, hi ha dos tipus de valors de dimensió de preus disponibles al Project Service Automation: 
 
-- **Conjunts d'opcions** : atributs que són enumeracions fixes per a un conjunt de valors.
-- **Valors basats en entitats** : atributs que poden tenir un conjunt variat de valors que són finits però que poden canviar amb el temps.
+- **Conjunts d'opcions**: atributs que són enumeracions fixes per a un conjunt de valors.
+- **Valors basats en entitats**: atributs que poden tenir un conjunt variat de valors que són finits però que poden canviar amb el temps.
 
 ## <a name="pricing-dimensions"></a>Dimensions de preus
 
-El PSA inclou de sèrie un conjunt de dimensions de preus per defecte. Podeu visualitzar-los anant a **Project Service** > **Paràmetres**. Al registre de paràmetre, a la pestanya **Dimensions de preus basades en l'import** , comproveu que la funció **msdyn_resourcecategory** i la unitat organitzativa de recursos **msdyn_organizationalunit** tinguin els camps **Aplicable a les vendes** i **Aplicable al cost** definits com a **Sí**. Això us permetrà configurar el preu i el cost de cada combinació de funció i unitat organitzativa.
+El PSA inclou de sèrie un conjunt de dimensions de preus per defecte. Podeu visualitzar-los anant a **Project Service** > **Paràmetres**. Al registre de paràmetre, a la pestanya **Dimensions de preus basades en l'import**, comproveu que la funció **msdyn_resourcecategory** i la unitat organitzativa de recursos **msdyn_organizationalunit** tinguin els camps **Aplicable a les vendes** i **Aplicable al cost** definits com a **Sí**. Això us permetrà configurar el preu i el cost de cada combinació de funció i unitat organitzativa.
 
 ![Captura de pantalla dels paràmetres del Project Service amb "Aplicable a les vendes" ressaltat](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals,
 ## <a name="pricing-human-resource-time"></a>Posar preu al temps de recursos humans
 Com una organització posa preu al temps de recursos humans és sovint una consideració estratègica important que afecta directament la rendibilitat de l'organització. Treballeu amb els equips de finances i els caps de pràctiques quan la vostra organització estigui a punt per identificar com vol configurar la tarifa de facturació i el cost per al temps de recursos humans.
 
-Altres consideracions sobre el preu inclouen la reutilització de camps o entitats que no són actualment dimensions de preus però que s'apliquen com una dimensió de preus per a la vostra organització. Els camps com ara **Categoria de transacció** ( **msdyn_transactioncategory** ) i **Recursos que es poden reservar** ( **bookableresource** ) són exemples de dimensions candidates. 
+Altres consideracions sobre el preu inclouen la reutilització de camps o entitats que no són actualment dimensions de preus però que s'apliquen com una dimensió de preus per a la vostra organització. Els camps com ara **Categoria de transacció** (**msdyn_transactioncategory**) i **Recursos que es poden reservar** (**bookableresource**) són exemples de dimensions candidates. 
 
 Tingueu en compte si la dimensió de preus ha de ser una taula o un conjunt d'opcions. Si preveieu canvis dels valors d'una dimensió que excedirà els 10 o 12 i necessiteu atributs addicionals sobre aquests valors, creeu una entitat en comptes d'un conjunt d'opcions. El manteniment d'un conjunt d'opcions, com afegir o eliminar valors, requereix un administrador o un desenvolupador, mentre que la majoria d'usuaris empresarials poden afegir una fila nova a una taula.
 
