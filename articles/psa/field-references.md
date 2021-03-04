@@ -150,3 +150,6 @@ La taula següent proporciona una llista exhaustiva dels formularis i les visual
 |  Real|• Informació<br>• Valors reals actius|• Visualització associada de valors reals|
 
 Els camps personalitzats també s'han d'afegir a les regles de negocis en funció del que hàgiu definit. Un exemple de fàbrica és per a la regla de negocis **Capacitat d'edició de l'entrada de temps basada en l'estat**. Aquesta regla defineix quins camps s'han de blocar quan l'entrada de temps es troba en un estat no editable com ara **Aprovada**. Afegiu camps a aquesta regla de negocis per tal que els camps estiguin blocats per editar-se quan l'entrada de temps es trobi en un estat que no sigui **Esborrany** o **Retornada**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ A més, si teniu mòduls d'aplicacions personalitzades que inclouen tots els for
 
 ### <a name="currently-extended-time-entry-changes"></a>Canvis d'entrades de temps ampliades actualment
 Per minimitzar l'impacte als usuaris actuals de l'entrada de temps, aquest canvi de funció és l'únic requisit principal necessari per continuar utilitzant l'entrada de temps. Si heu creat visualitzacions personalitzades o experiències d'entrada de temps separades, heu de definir els camps **Configuració d'entrada de temps** al valor del PSA correcte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

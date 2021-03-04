@@ -61,3 +61,6 @@ Podeu crear diverses factures entre empreses al mateix temps per a totes les ent
 ## <a name="post-the-intercompany-vendor-invoice"></a>Publicar la factura de proveïdor interempresa
 
 Un comptable del projecte de l'entitat jurídica prestatària pot revisar les factures de proveïdor interempresa pendents quan es comptabilitza la factura de client interempresa corresponent. A Finances, a l'entitat jurídica prestatària, aneu a **Compte a pagar** > **Factures** > **Factura de proveïdor pendent**. El número de factura pendent coincidirà amb el número de factura de client interempresa. Verifiqueu que la factura és correcta i després publiqueu-la. La publicació de la factura de proveïdor interempresa crea un subllibre de projecte i un llibre major que reflecteix els costos de transacció a l'entitat jurídica prestatària.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

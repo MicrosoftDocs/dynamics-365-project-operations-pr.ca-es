@@ -76,3 +76,6 @@ S'obre la pàgina **Nou nom de camp de dimensions de preus** per a **msdyn_booka
 5. Afegiu **msdyn_projectteam** al camp **Nom lògic de l'entitat** i **msdyn_bookableresourceid** al camp **Nom del camp**. Desar el registre.
 
  ![Formulari Afegeix nous noms de camps de dimensions de preus](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

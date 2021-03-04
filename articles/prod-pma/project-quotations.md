@@ -41,3 +41,6 @@ Si el client aprova el pressupost de projecte, podeu copiar la informació del p
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

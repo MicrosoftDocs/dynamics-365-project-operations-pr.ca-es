@@ -47,3 +47,6 @@ Definiu els índexos d'ús de destinació de cada funció. Aquesta configuració
   
 ### <a name="see-also"></a>Vegeu també  
  [Definir recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

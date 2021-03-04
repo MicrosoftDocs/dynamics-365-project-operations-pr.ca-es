@@ -36,3 +36,6 @@ Hi ha dues maneres de fer que un administrador del projecte pugui tornar a proje
 - Substituir el percentatge de progrés per defecte amb una nova estimació del progrés real de la tasca.
 
 Cadascuna d'aquestes aproximacions provoca un nou càlcul de l'ETC de la tasca, l'estimació en finalitzar (EAC) i el percentatge de progrés, i la variació de l'esforç projectat d'una tasca. Es torna a calcular l'EAC, l'ETC i el percentatge de progrés de les tasques de resum, i produeixen una nova projecció de la variació d'esforç.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Per utilitzar la solució d'integració del Project Service Automation al Financ
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Instal·lar la solució d'integració del Project Service Automation al Finance a la instància del Project Service Automation
 
 Baixeu la solució d'integració del Project Service Automation al Finance des del [Centre de baixades de Microsoft](https://www.microsoft.com/download/details.aspx?id=57016) i seguiu les instruccions que s'inclouen amb la solució.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

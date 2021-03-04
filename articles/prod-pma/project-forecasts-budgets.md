@@ -81,3 +81,6 @@ Si utilitzeu la previsió del projecte, podeu identificar els models com a submo
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

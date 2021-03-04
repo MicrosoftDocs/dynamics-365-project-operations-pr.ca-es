@@ -32,3 +32,6 @@ Qualsevol projecte no associat amb un contracte a Dynamics 365 Project Operation
 Després de comptabilitzar les transaccions al projecte, si el projecte està associat amb un contracte de projecte, el sistema reverteix totes les transaccions acumulades i crea noves transaccions facturables. Les transaccions facturables segueixen les regles de comptabilitat definides en el perfil de cost i ingressos del projecte respectiu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

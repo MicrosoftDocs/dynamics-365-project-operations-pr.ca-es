@@ -30,3 +30,6 @@ L'administrador del projecte pot revisar les transaccions de vendes no facturade
 Podeu [crear manualment una factura de proforma](../proforma-invoicing/create-manual-proforma-invoice.md) o utilitzar un [procés periòdic](../proforma-invoicing/configure-automated-invoice-creation.md). L'administrador del projecte pot [ajustar una factura de proforma en forma de esborrany](../proforma-invoicing/manage-proforma-invoice.md) segons calgui i, a continuació, confirmar-la.
 
 La factura de proforma confirmada s'envia al mòdul **Administració i comptabilitat del projecte** de Finances. El comptable del projecte formata i actualitza la proposta de factura del projecte i, a continuació, publica i imprimeix el document. Les factures de projecte publicades es registren al llibre major general, així com als subllibres de client i de projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

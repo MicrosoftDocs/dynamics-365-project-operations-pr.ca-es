@@ -34,3 +34,6 @@ Els preus de vendes s'apliquen un cop per acord. La jerarquia per als valors per
 1. Organització
 2. Client
 3. Oferta/contracte
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

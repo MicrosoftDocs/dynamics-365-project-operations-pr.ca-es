@@ -200,3 +200,6 @@ Quan visualitzeu el temps en nivells superiors, les cel·les de la pestanya **Co
 Si teniu assignacions de tasca per a un recurs però no hi ha cap reserva, al formulari **Projectes**, a la pestanya **Conciliació**, seleccioneu la manca de reserves i, a continuació, seleccioneu **Amplia la reserva**. El quadre de diàleg **Amplia la reserva** apareix i mostra la reserva necessària per fer front a la manca del recurs. El quadre de diàleg també mostra les reserves existents del recurs en tots els projectes o altres entitats planificables. Si seleccioneu **D'acord** per crear la reserva del recurs, independentment de la disponibilitat del recurs, pot ser que hi hagi un excés de reserves.
 
 L'administrador de projectes o administrador de recursos poden utilitzar el Tauler de planificació per administrar les situacions en què el recurs té un excés de reserves més enllà de la seva capacitat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

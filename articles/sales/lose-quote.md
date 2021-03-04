@@ -45,3 +45,6 @@ Quan seleccioneu **D'acord** a la pàgina de diàleg, el sistema crea una còpia
 > - Referència del projecte a les línies d'oferta basades en el projecte: informació pressupostària del client
 >
 >Com que aquesta informació és molt específica per a cada oferta, aquests camps i registres no es copien. Les línies d'oferta per als projectes i els productes, les estimacions sobre els detalls de la línia d'oferta i els valors que no voleu superar en el nivell d'oferta es copien. Els valors de preus i les tarifes depenen de l'opció **Copia els preus** seleccionada a la pàgina de diàleg **Paràmetres de la còpia**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

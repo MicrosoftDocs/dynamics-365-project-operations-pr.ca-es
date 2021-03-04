@@ -59,3 +59,6 @@ Les funcions juguen un paper important en la planificació de projectes a l'hora
   
 ### <a name="see-also"></a>Vegeu també  
  [Definir recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ S'han corregit els problemes següents:
 - Quan seleccioneu una línia basada en projectes a l'oferta o el contracte, el botó **Suggeriment** només hauria de ser visible en seleccionar una línia basada en productes associada amb un producte existent.
 - Dividiu el privilegi **Create_Product** del privilegi **Create_ProjectContract**.
 - La supressió d'una línia de factura provoca un error de referència nul·la a **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Aquesta guia de tasques us mostra la manera d'ajustar una transacció en un proj
 13. A la llista, marqueu la fila seleccionada. 
 14. Al camp Preu de cost, introduïu un número. 
 15. Feu clic a Comptabilitza. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

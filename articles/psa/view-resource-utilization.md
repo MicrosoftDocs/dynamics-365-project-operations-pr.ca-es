@@ -43,3 +43,6 @@ Podeu comprovar l'ús de recursos per determinar els nivells d'utilització dels
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

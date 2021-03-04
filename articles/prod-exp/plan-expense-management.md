@@ -160,3 +160,6 @@ Mitjançant la creació de normes d'informe de despeses, podeu ajudar a la vostr
 - Quan venç la norma?
 - Quina és la regla de la norma?
 - Quin és el resultat de la regla de la norma?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

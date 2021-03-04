@@ -45,3 +45,6 @@ Un cop hàgiu creat una plantilla d'hores de treball, heu d'assignar-la a recurs
   
 ### <a name="see-also"></a>Vegeu també  
  [Definir recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

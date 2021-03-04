@@ -167,3 +167,6 @@ Si la vostra empresa funciona com una unitat que té una llista de preus de cost
 Quan es crea un projecte pel seu compte, la unitat de contractació per defecte del projecte es basa en l'usuari que la crea. Aquest usuari també és l'administrador del projecte per defecte. Si el projecte s'assigna a una entitat de vendes, com ara un contracte d'oferta o de projecte, la unitat de contractació del projecte es basa en l'entitat de vendes en el seu lloc. En aquest cas, les estimacions de projecte es poden tornar a calcular, ja que la llista de preus de cost s'utilitza per calcular els canvis d'estimació de costos si es modifica la unitat de contractació. La llista de preus de vendes s'utilitza per calcular les estimacions de vendes que es canviaran de manera que estiguin sincronitzades amb la llista de preus del projecte a l'oferta.
 
 Els camps **Unitat de contractació** i **Moneda** del projecte estan blocats per editar-se, ja que han d'estar sincronitzats amb els valors de l'entitat de vendes (oferta o contracte de projecte) a la qual s'assigna el projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

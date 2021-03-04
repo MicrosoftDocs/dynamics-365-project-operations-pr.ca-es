@@ -34,3 +34,6 @@ Les oportunitats del projecte es poden copiar fàcilment per crear noves oportun
     | Copia els preus | Valor Sí/No que indica si els preus de l'oportunitat s'han de copiar de l'oportunitat d'origen. | Si se selecciona **Sí**, les llistes de preus es copien de l'oportunitat d'origen a la de destinació. Si se selecciona **No**, les llistes de preus per defecte es basen en les darreres llistes de preus configurades. |
 
 3. Seleccioneu **D'acord**. El sistema crea una còpia de l'oportunitat del projecte en funció dels paràmetres seleccionats i s'obre la nova oportunitat del projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

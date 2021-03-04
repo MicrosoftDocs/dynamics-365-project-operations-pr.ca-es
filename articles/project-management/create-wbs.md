@@ -116,3 +116,6 @@ El mode de la tasca no té cap efecte sobre les actualitzacions que es fan a la 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Dreceres de teclat i accessibilitat
 
 La graella **Planificació** és totalment accessible i es pot utilitzar amb lectors de pantalla com ara el Narrador, JAWS o NVDA. Podeu desplaçar-vos per l'àrea de la quadrícula mitjançant les tecles de fletxa (com al Microsoft Excel), podeu utilitzar la tecla de tabulació per avançar entre els elements de la interfície d'usuari interactius, i podeu utilitzar la tecla de fletxa avall, la tecla Enter o la barra espaiadora per seleccionar i obrir els menús desplegables.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

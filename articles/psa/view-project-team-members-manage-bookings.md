@@ -57,3 +57,6 @@ Podeu veure una llista dels membres de l'equip de projecte i mantenir reserves i
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

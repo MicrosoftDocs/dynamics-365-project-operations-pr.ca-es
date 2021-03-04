@@ -76,3 +76,6 @@ Podeu utilitzar un dels mètodes següents per crear una comanda de compra a Adm
 
 Per obtenir més informació, vegeu [Rebre articles en una comanda de compra per a un requisit d'articles](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

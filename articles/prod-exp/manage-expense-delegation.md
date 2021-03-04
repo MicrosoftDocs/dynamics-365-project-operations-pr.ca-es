@@ -41,3 +41,6 @@ Quan la clau d'administració de característiques **Habilita la pàgina de llis
 Un usuari delegat pot filtrar i cercar ràpidament els informes de despeses existents que els han estat delegats. També poden crear un informe de despeses nou per a altres usuaris seleccionant **Informe de despeses nou**.
 
 Els usuaris delegats també poden crear i administrar els informes de despeses per a altres empleats anant a **Administració de despeses** > **Les meves despeses** > **Informes de despeses** i seleccionant **Obre les despeses d'un altre usuari**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

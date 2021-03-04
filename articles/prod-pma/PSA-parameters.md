@@ -47,3 +47,6 @@ Per obrir la pàgina **Paràmetres d'integració del Project Service Automation*
 | Valors per defecte del tipus de facturació  | Tipus de facturació         | Feu clic a **Nou** per afegir una fila en la qual pugueu seleccionar el tipus de facturació per definir la propietat de línia per defecte. Un tipus de facturació específic es pot seleccionar només una vegada a la configuració. |
 |                        | Propietat de línia        | Seleccioneu la propietat de línia per defecte per al tipus de facturació seleccionat. Quan se sincronitzen noves estimacions d'hores, estimacions de despesa o valors reals des del Project Service Automation, el camp **Propietat de línia** es defineix al valor per defecte del tipus de facturació. |
 | Bloqueig de funcionalitat  | No aplicable       | Seleccioneu la funcionalitat per inhabilitar al Finance per a projectes i contractes que tinguin l'origen al Project Service Automation. Per exemple, podeu desactivar la possibilitat d'editar contractes i projectes, crear estructures del desglossament del treball i introduir fulls d'hores al Finance. Els camps relacionats amb la comptabilitat continuaran habilitats, fins i tot si no estan disponibles segons la configuració. Per defecte, tota la funcionalitat està habilitada. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

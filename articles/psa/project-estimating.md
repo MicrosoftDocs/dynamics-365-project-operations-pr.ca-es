@@ -97,3 +97,6 @@ A la visualització de quadrícula i a la visualització per temps, podeu selecc
 ## <a name="expense-estimates"></a>Estimacions de despeses
 
 El botó **Afegeix un valor d'estimació de despeses** a la quadrícula us permet registrar les despeses que s'han generat en el projecte, però que no estan directament relacionades amb el treball. Podeu registrar les estimacions de la despesa per a una tasca concreta o per a tot el projecte. Seleccioneu les categories de despeses i la data provisional en què espereu generar la despesa. Si la llista de preus de cost i la llista de preus de venda associades tenen preus per defecte (o percentatges de marge comercial definits per a les categories de despesa), s'introduiran automàticament a la línia d'estimació en el moment de l'associació.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

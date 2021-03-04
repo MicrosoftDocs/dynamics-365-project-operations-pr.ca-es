@@ -90,3 +90,6 @@ Seguiu aquests passos per corregir una o diverses entrades de despeses.
 8. A la pàgina del projecte, a la pestanya **Valors reals**, reviseu **Visualització associada de valors reals**. Les entrades originals i les corregides es mostren a la llista. En el següent gràfic es mostren els imports d'entrada de despeses originals i les quantitats d'entrada de despeses corregides corresponents. 
 
 ![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

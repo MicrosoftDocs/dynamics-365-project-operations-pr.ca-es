@@ -90,3 +90,6 @@ També podeu desassociar tasques de projecte a línies d'oferta des de la pestan
 
 >[!NOTE]
 > Aquest procediment no suprimeix la tasca del projecte. Només elimina l'associació de la tasca de la línia d'oferta basada en projectes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

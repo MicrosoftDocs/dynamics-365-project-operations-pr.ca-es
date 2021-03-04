@@ -69,3 +69,6 @@ Quan copieu diverses línies d'estimació del projecte, les llistes de preus s'a
 ### <a name="copying-a-project-team"></a>Copiar un equip de projecte
 
 En copiar un equip de projecte de la plantilla de projecte al projecte, es copien els recursos genèrics, juntament amb les aptituds i les competències definides a la plantilla. Les assignacions de recursos genèrics també es mantenen com estaven a la plantilla de projecte. Els recursos amb nom no són compatibles amb les plantilles de projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

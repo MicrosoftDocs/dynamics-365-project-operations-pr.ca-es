@@ -42,3 +42,6 @@ El calendari no admet accions sobre els elements de calendari individuals i no e
 ## <a name="extensibility"></a>Capacitat d'ampliació
 
 A la pàgina **Entrades de temps** que tingui la quadrícula d'entrada de temps, podeu afegir camps personalitzats, configurar camps de cerca i crear visualitzacions personalitzades. També podeu configurar la lògica empresarial personalitzada que es basi en els valors seleccionats o introduïts als camps personalitzats.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

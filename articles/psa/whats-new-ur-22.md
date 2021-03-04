@@ -72,3 +72,6 @@ S'han corregit els problemes següents:
 - El tancament de l'oferta com a guanyada no dirigeix al contracte creat si un BPF adjunt a l'oferta és a la fase final.
 - Revertir les **Vendes no facturades** s'enllaça al cost original quan es recupera una entrada de temps.
 - Després de seleccionar el botó **Confirma**, l'estat de la factura no canvia a **Confirmada** si no s'actualitza la factura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

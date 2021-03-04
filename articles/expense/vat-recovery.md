@@ -66,3 +66,6 @@ Quan l'Arnie és a punt per enviar les dades de l'informe de despeses al proveï
 L'Arnie ha de comprovar que les transaccions de l'informe de despesa són aptes per a la recuperació de l'IVA i que els rebuts digitals s'adjunten als informes. Per començar a processar les despeses elegibles per a la recuperació nacional, l'Arnie obre la pàgina **Recuperació d'impostos de despeses** i selecciona l'informe de despeses que requereix la verificació. Verifica que els rebuts estan en nom de l'empresa en comptes de l'empleat. (Per a la recuperació de l'IVA, els rebuts han d'estat en nom de l'empresa.) A continuació, l'Arnie verifica que s'han introduït el grup d'impost de vendes i els codis d'impost de vendes de l'article correctes.
 
 Quan l'Arnie rep els rebuts en paper, canvia l'estat de l'informe de despeses a **A punt per a la recuperació**. A continuació, pot presentar la devolució a l'autoritat tributària adequada. En aquest cas, l'autoritat fiscal adequada als Estats Units és el Servei d'ingressos interns (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

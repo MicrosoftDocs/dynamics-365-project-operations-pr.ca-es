@@ -37,3 +37,6 @@ Si voleu incloure productes, com ara llicències de programari, a les vostres of
   
 ### <a name="see-also"></a>Vegeu també  
  [Configurar el Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

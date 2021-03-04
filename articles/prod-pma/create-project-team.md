@@ -62,3 +62,6 @@ El següent procés explica com crear un equip de projecte.
 ## <a name="monitor-project-teams"></a>Supervisar els equips del projecte
 1. A la pàgina **Tots els projectes** , seleccioneu l'enllaç **Identificador del projecte** per al projecte **Fase 2 d'actualització d'XYZ**.
 2. Al FastTab **Equip del projecte i planificació** , comproveu que els recursos del projecte que es mostren siguin correctes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

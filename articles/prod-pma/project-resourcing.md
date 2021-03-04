@@ -55,3 +55,6 @@ Els següents temes proporcionen informació sobre les tasques que s'han de comp
 - [Rendiment de planificació dels recursos del projecte](project-scheduling-performance.md)
 - [Configurar funcions a les plantilles d'estructura del desglossament del treball](set-up-roles-wbs-template.md)
 - [Compliment de recursos per a recursos planificats](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -124,3 +124,6 @@ Per exemple, si hi ha les propietats següents:
 - **SKU de producte** 
 
 Les propietats **Nombre d'usuaris** i **Nombre de mesos** es poden marcar com a factors de quantitat per editar les propietats de la línia de productes. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

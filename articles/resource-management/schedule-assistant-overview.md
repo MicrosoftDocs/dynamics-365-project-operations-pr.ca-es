@@ -57,3 +57,6 @@ A la subfinestra de filtratge es mostren les opcions relacionades amb el treball
 -   Empresa de dotació de recursos
 -   Tipus de recursos
 -   Recursos preferits
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

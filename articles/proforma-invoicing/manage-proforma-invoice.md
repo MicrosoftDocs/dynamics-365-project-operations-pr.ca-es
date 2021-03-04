@@ -135,3 +135,6 @@ Si teniu valors reals incorporats després de crear la factura, podeu incloure a
 2. Obriu l'esborrany de factura proforma i, a la franja **Accions**, feu clic a **Actualitza les transaccions de la línia de factura**.
 
   Això crea detalls de la línia de factura per a tots els valors reals posteriors a la data i marcats com a **A punt per facturar**, però no s'inclouen a la factura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

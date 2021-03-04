@@ -84,3 +84,6 @@ Els recursos web següents són obsolets:
 > Per veure la llista completa de recursos obsolets, vegeu [Recursos web obsolets al Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Quan un proveïdor completa el seu treball en un projecte i us envia una factura
 2. A la pàgina **Factures de proveïdor amb pagament després del cobrament** , en el camp de cerca, introduïu valors per trobar la factura de proveïdor que voleu revisar i seleccioneu **Cerca**.
 3. Al FastTab **Línies de factura de proveïdor** , seleccioneu les línies que voleu canviar.
 4. Si es compleixen les condicions de **Pagament després del cobrament** per a la línia de factura, seleccioneu **Allibera el pagament del proveïdor**. L'opció **Pagament després del cobrament** s'esborra i el valor del camp **A punt per al pagament** canvia a **Sí**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

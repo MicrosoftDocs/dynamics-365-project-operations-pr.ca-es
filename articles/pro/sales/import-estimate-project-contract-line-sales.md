@@ -60,3 +60,6 @@ Quan l'usuari selecciona resumir per **Classe de transacció**, **Categoria** i 
 | Tasca A | Bitllets d'avió | 10/1/2020 | 4 | 400 | 1600 |
 | Tasca B | Hotels | 10/1/2020 | 4 | 200 | 800 |
 | Tasca C | Hotels | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

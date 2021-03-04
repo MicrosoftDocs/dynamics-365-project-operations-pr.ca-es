@@ -106,3 +106,6 @@ Quan amplieu la fila d'aquest registre de membres de l'equip, podeu veure les as
 ### <a name="estimates-grid"></a>Quadrícula d’estimacions 
 
 A la quadrícula **Estimacions**, les dues assignacions del mateix recurs tenen un preu diferent. L'assignació del recurs a la **Tasca A** rep el preu en funció del valor de l'atribut **Funció** de **Cap de consultoria**. L'assignació del mateix recurs a la **Tasca B** rep el preu en funció del valor de l'atribut **Funció** de **Tècnic de xarxes**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

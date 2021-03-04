@@ -59,3 +59,6 @@ Cada projecte té un nombre de membres de l'equip del projecte. Podeu especifica
 3. Seleccioneu **Desa**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

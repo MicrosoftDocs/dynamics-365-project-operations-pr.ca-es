@@ -62,3 +62,6 @@ Com que el Dynamics 365 Project Operations utilitza el motor del Universal Resou
 
 Per visualitzar més detalls d'un recurs individual, feu-hi clic amb el botó dret per obrir la targeta de recursos.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

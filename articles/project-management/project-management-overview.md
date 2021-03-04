@@ -26,3 +26,6 @@ Les eines d'administració de projectes del Dynamics 365 Project Operations us a
 - Utilitzar estimacions de projecte durant el procés de venda.
 - Preveure els requisits de recursos dels projectes es troben en el pipeline.
 - Lliurar correctament els projectes mitjançant el seguiment del progrés i el consum de costos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

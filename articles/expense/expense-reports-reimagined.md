@@ -78,3 +78,6 @@ Les característiques següents estan presents a la pàgina existent, però enca
 - Flux de treball de nivell de línia
 - Compatibilitat amb aprovadors intermedis
 - Desglossament avançat
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

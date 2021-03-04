@@ -52,3 +52,6 @@ Els temes següents proporcionen informació que ajudarà els administradors de 
 - [Plantilles de projecte](project-templates.md)
 - [Fases del projecte](project-stages.md)
 - [Configuració del projecte](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

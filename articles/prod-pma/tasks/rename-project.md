@@ -35,3 +35,6 @@ Les fases del projecte poden servir de guia per al cicle de vida del projecte. P
 4. A la llista, seleccioneu la fase predefinida o definida per l'usuari que voleu modificar. 
 5. Al camp Fase del projecte, escriviu el nom nou.
 6. Feu clic a Desa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

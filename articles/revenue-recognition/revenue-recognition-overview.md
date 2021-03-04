@@ -60,3 +60,6 @@ Al Dynamics 365 Project Operations, els principis de reconeixement d'ingressos v
 [Administració de les estimacions d'ingressos](rev-rec-completed-contract-method.md)
 
 [Mètodes de càlcul de costos per a la finalització](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

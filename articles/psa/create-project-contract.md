@@ -47,3 +47,6 @@ Ara que ja heu guanyat l'oferta del projecte, és l'hora de crear un contracte a
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de comptes](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

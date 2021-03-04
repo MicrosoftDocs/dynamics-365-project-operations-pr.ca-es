@@ -37,3 +37,6 @@ La bestreta al Project Operations no està disponible per al seu ús fins que es
 | --- | --- | --- |
 | Import disponible | Import disponible utilitzar-lo en el registre de bestreta o d'avançament. | Fins que l'avançament o bestreta es facturi, no està disponible per utilitzar-se, cosa que significa que la quantitat disponible serà zero. |
 | Import utilitzat | Import que ja s'utilitza en la bestreta o l'avançament. | Un avançament o bestreta es pot conciliar parcialment amb una factura amb costos reals que tindran una part marcada com a ja utilitzada o consumida. La resta de l'import de l'avançament o bestreta està disponible per a conciliar-lo en una factura futura amb costos reals. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ A continuació es mostren les pestanyes i els KPI disponibles en una oferta de p
 | Anàlisi de rendibilitat | Pestanya a l'oferta | La pestanya mostra les mètriques següents:</br>- Cost imputable total</br></br>- Cost no imputable total</br>- Total d’ingressos</br>- Total d’ingressos (base)</br>- Marge brut</br>- Marge brut ajustat|
 | Comparació amb les expectatives del client | Pestanya a l'oferta | Aquesta pestanya mostra les mètriques següents:</br>- Finalització estimada</br>- Finalització sol·licitada</br>- Pressupost del client</br>- Valor ofert |
 | Anàlisi de l’oferta | Pestanya a l'oferta | Aquesta pestanya resumeix els següents KPI principals per a una oferta de projecte</br>- Comparació amb les expectatives del client del pressupost i de la planificació</br>- Marge brut</br>- Marge brut ajustat |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

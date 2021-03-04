@@ -134,3 +134,6 @@ Abans de començar a configurar les dades al Common Data Service (CDS), s'han de
 13. Seleccioneu **Desa**. 
 
 ![Paràmetres del projecte actualitzats](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Els recursos són l'actiu més important d'una organització basada en serveis. 
 
 
 Podeu assignar personal al vostre projecte amb un equip de recursos genèrics o amb nom al Project Operations. Podeu utilitzar diversos mètodes per afegir i assignar membres de l'equip i per administrar les seves reserves i assignacions. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

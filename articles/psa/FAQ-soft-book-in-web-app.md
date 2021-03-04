@@ -87,3 +87,6 @@ Quan estigueu a punt per canviar un recurs de membre de l'equip reservat de mane
 2. Quan s'obri el tauler de planificació, expandiu el recurs per mostrar les reserves. Veureu la reserva marcada com Flexible.
 3. Feu clic amb el botó dret a la reserva, a Canvia estat, seleccioneu Reserva fixa i després Fixa. L'estat de la reserva ara és Fix.
 4. Després de tancar el tauler de planificació, veureu que les hores del recurs han canviat de Flexibles a Fixes en la quadrícula de membres de l'equip. Ara podeu assignar el recurs a les tasques (sempre que hi hagi una alineació entre les hores reservades de manera fixa i les hores d'esforç de la tasca per a l'assignació). Recordeu que si heu seguit els passos de compliment de recursos genèrics en l'element núm. 3 anterior, quan canvieu l'estat del recurs reservable de flexible a fix, el membre genèric de l'equip s'eliminarà.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

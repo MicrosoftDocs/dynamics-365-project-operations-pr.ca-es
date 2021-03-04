@@ -60,3 +60,6 @@ Els valors reals de vendes sense facturar que tenen un **Estat del límit que no
 Si les línies de contracte de diversos clients tenen un mètode de facturació de temps i material, quan s'aproven el temps i les despeses, es crea un valor real de venda no facturada per a cada client a la línia de contracte d'acord amb la divisió de facturació pel percentatge definit per a cadascun dels clients. A la visualització **Registre de facturació de temps i material**, veureu aquests valors reals de vendes no facturades específics d'un client. Cadascun d'aquests registres de valors reals de vendes sense facturar es pot marcar com a **A punt per facturar** independentment des d'aquesta visualització.
 
 Un valor de vendes sense facturar que es troba en un esborrany de factura es mostra en aquesta visualització amb un estat de facturació **Factura del client creada**. Quan es confirma l'esborrany de la factura, l'estat de facturació d'aquest registre s'actualitza a **Factura del client comptabilitzada**. No actualitzeu aquest valor d'estat mitjançant codi personalitzat. El Project Operations no funciona correctament quan aquests valors d'estat s'actualitzen amb codi personalitzat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

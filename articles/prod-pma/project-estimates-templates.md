@@ -170,3 +170,6 @@ A les il·lustracions següents es mostren exemples de l'assignació de tasques 
 [![Assignació de plantilles de transaccions d'estimació de despeses](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Assignació de plantilles d'estimacions de despeses](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

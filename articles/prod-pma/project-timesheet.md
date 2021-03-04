@@ -96,3 +96,6 @@ Feu clic a **Envia** per enviar el full d'hores al flux de treball d'aprovació.
 ## <a name="review-timesheets"></a>Revisar els fulls d'hores
 
 Hi ha disponible una llista dels fulls d'hores que s'han de revisar al menú. Aquesta opció només està disponible si heu estat designat aprovador de fluxos de treball. Es permet l'aprovació de la capçalera i la línia. L'aprovació de nivell de línia ofereix la capacitat de marcar una o diverses línies per a la seva aprovació. Després de revisar la informació del full de temps, feu clic a **Aprova** , **Delega** o **Retorna** per continuar el flux de treball.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

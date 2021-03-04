@@ -64,3 +64,6 @@ En aquest tema es mostren les característiques i correccions que són noves o s
      - Correcció: el preu total de venda no es calcula fins que l'usuari també introdueix un preu de cost per a l'estimació de despeses en un projecte.
      - Correcció: el tancament d'una oferta com a **Guanyada** falla si el contracte del projecte associat no està en estat **Esborrany**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

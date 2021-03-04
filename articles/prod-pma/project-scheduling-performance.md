@@ -69,3 +69,6 @@ Per permetre la millora del rendiment de la planificació de recursos, completeu
 
 > [!NOTE]
 > Això distribuirà les dades generals a la taula **ResRollup** entre totes les empreses del vostre entorn, de manera que el treball per lots només s'ha d'executar en una entitat jurídica. Aquest treball per lots és necessari per a totes les visualitzacions de **Disponibilitat de recursos**. Si aquest treball per lots no s'executa, les dades de **ResRollup** es generaran sobre la marxa, cosa que pot tardar temps.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

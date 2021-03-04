@@ -37,3 +37,6 @@ A la taula següent s'enumeren les actualitzacions al Project Operations a la ve
 | Entrada de temps i despesa ràpida | 2047499          | El botó **Nou** de la pàgina Entrada de temps obre la pàgina **Nova signatura de correu electrònic**.                                                                                               |
 | Entrada de temps i despesa ràpida | 2059859          | S'obre una finestra emergent inesperada en crear una entrada de despesa.                                                                                                                         |
 | Un altre                        | 2044181          | [Desinstal·lació del PO]: l'error "El registre no està disponible" es produeix quan intenteu desinstal·lar les solucions **msdyn_ProjectServiceCore_Patch** i msdyn_ProjectServiceCore.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

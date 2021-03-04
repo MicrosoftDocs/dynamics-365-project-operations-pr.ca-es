@@ -105,3 +105,6 @@ El Dynamics 365 gestiona automàticament els valors consolidats d'imports en dif
 | Despesa           | Vendes no facturades   | 17 de juny | Eudald  | Lloguer de cotxes           | 1 EA     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Per calcular el valor total de les vendes no facturades al projecte, podeu crear un camp de valor consolidat per al camp **Import** a tots els valors reals de vendes no facturades. El camp de valor consolidat és una construcció del Dynamics 365 que permet fórmules ràpides als registres relacionats.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

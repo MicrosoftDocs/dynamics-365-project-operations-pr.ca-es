@@ -68,3 +68,6 @@ Podeu utilitzar la capacitat d'ampliació de la reserva de la pestanya **Concili
 ![Ampliar les reserves d'un membre de l'equip a la pestanya Conciliació de recursos](media/RM-how-to-7.png)
 
 Després d'haver reservat un membre de l'equip al vostre projecte, podeu utilitzar el manteniment de les reserves o utilitzar el Tauler de planificació directament per administrar les seves reserves.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

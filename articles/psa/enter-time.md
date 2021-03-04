@@ -61,3 +61,6 @@ Introduïu les hores com a mínim setmanalment, o segons la freqüència sol·li
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

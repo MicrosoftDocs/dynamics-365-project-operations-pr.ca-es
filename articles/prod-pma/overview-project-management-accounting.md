@@ -440,3 +440,6 @@ Després de calcular l'extracte, podeu visualitzar la informació següent a les
 -   **Consum** : informació sobre el consum d'hores, articles, despeses i transaccions de nòmines.
 -   **Factura** : informació sobre les factures i la facturació a compte.
 -   **Tarifa per hora** : les tarifes per hora per a les hores que es comptabilitzen als comptes d'ingressos i costos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

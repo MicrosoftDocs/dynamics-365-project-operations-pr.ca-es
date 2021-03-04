@@ -35,3 +35,6 @@ Per revisar els projectes d'estimació d'ingressos de preu fix, seguiu aquests p
 
   El cost del projecte, el perfil d'ingressos, la plantilla de costos i el codi del període es poden definir manualment. Si no es defineixen manualment, els valors per defecte durant el càlcul de la primera estimació del projecte fan servir les regles configurades per als perfils de costos i ingressos del projecte.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ En aquest tema es mostra com configurar la facturació d'un projecte entre dues 
 32. Al camp **Preu** , introduïu un número.
 33. Seleccioneu **Desa**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

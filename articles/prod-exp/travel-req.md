@@ -32,3 +32,6 @@ La vostra organització podria necessitar que s'hagi enviat una petició de viat
 Les peticions i normes de viatge es poden utilitzar per ajudar amb el control de despeses. Per exemple, si la vostra organització està treballant en un projecte de preu fix que requereix viatjar, les despeses de viatge dels membres de l'equip del projecte han d'encaixar dins del pressupost del projecte. En exigir que s'aprovin les despeses de viatge abans que s'incorrin, l'organització pot ajudar a assegurar-se que el projecte roman dins del pressupost.
 
 Podeu establir normes per a les peticions de viatge des de la pàgina **Petició de viatge**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

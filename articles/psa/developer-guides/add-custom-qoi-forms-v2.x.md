@@ -96,3 +96,6 @@ Seguiu els passos que es descriuen a continuació per crear una versió personal
     ```
 
 6. Deseu i publiqueu les personalitzacions.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Per crear factors de quantitat a partir de propietats de producte, completeu els
 7. Repetiu els passos 2-6 per a totes les propietats que constitueixen la quantitat de la línia de contracte basada en productes.
 
 Amb els factors de quantitat configurats, quan l'usuari crea una línia de contracte per a aquest producte, la quantitat de la línia de contracte està bloquejada. A continuació, la quantitat es calcula com un producte dels valors de propietat d'aquesta línia de contracte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

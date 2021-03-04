@@ -47,3 +47,6 @@ Podeu crear, actualitzar o suprimir un client de contracte de la pestanya **Clie
 Podeu editar els percentatges de divisió de facturació a la quadrícula. Quan els percentatges de divisió de facturació no sumen el 100 per cent, es produeix un error. Després d'editar un percentatge de divisió de facturació, actualitzeu la pàgina **Contracte de projecte** per eliminar l'error.
 
 També podeu seleccionar **Distribueix uniformement** a la subquadrícula de clients de contracte de projecte. Les divisions de facturació s'assignen equitativament a tots els clients del contracte de projecte. Si hi ha cap factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un dels clients del contracte sempre té l'indicador **Arrodoniment** definit com a **Sí**. Aquest client és el client d'arrodoniment. Normalment, el client d'arrodoniment és també el client principal del contracte, però no és necessari.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

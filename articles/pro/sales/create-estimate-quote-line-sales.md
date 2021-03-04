@@ -67,3 +67,6 @@ La moneda del detall de la línia d'oferta per al cost es pren per defecte de la
 Els càlculs de rendibilitat converteixen l'import en els detalls de la línia d'oferta per al cost i les vendes a la moneda base de l'entorn per informar del marge previst global de l'oferta.
 
 Això podria comportar els errors d'arrodoniment de moneda i marges canviants per la manca de la data de tipus de canvi efectiu. Utilitzeu aquests càlculs a les ofertes de projecte només com a aproximacions i no valors legals reals o altres informes que requereixin una major precisió d'arrodoniment i presa de consciència de la data d'efectivitat dels tipus de canvi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

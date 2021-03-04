@@ -58,3 +58,6 @@ Les entitats Oportunitat, Oferta i Contracte de projecte utilitzen el següent o
 Per defecte, el camp **Producte** de la línia d'oferta enumera tots els productes actius de la llista de preus de producte de l'oferta. Si un producte s'ha inhabilitat o si es tracta d'un esborrany, no s'hi mostra, fins i tot si està inclòs a la llista de preus. 
 
 Les línies del catàleg de productes s'afegeixen com a línies de factura a la primera factura que es crea per a un contracte de projecte. En un esborrany de factura, les línies de factura es poden suprimir. En aquest cas, les línies apareixeran en una factura posterior fins que es facturin o fins que s'enviï la factura al client. No podeu facturar cap quantitat parcial d'una línia de factura de producte. Quan es facturen les línies de producte del contracte de projecte, es creen valors reals. No obstant, aquests valors reals no estan enllaçats a l'entitat del projecte relacionat. En altres paraules, les línies de contracte de projecte basades en productes són independents de qualsevol ús basat en projectes. No es fa el seguiment dels consums materials dels projectes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

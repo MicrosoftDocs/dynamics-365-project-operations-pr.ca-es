@@ -95,3 +95,6 @@ Aquest guia proporciona informació necessària per crear i gestionar projectes:
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)   
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Els projectes es creen i es mantenen al CDS. Els atributs de comptabilitat dels 
 4. Definiu els valors per defecte de la dimensió financera. Tingueu en compte que les dimensions financeres provenen per defecte del compte de client. Si el projecte està associat a una línia de contracte amb diversos clients del contracte del projecte, el client principal s'utilitza per obtenir les dimensions financeres per defecte.
 
 Les dimensions financeres per defecte del projecte s'utilitzen per definir els valors per defecte de la línia de diari per a les transaccions de temps, despeses i càrrecs al **Diari d'integració del Project Operations** i a les línies de factura del projecte relacionades.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

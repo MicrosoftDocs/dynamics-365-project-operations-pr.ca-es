@@ -82,3 +82,6 @@ Els recursos assignats d'aquesta manera s'afegeixen a l'equip sense cap tipus de
 
 3. Seleccioneu el recurs que voleu assignar a la tasca.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

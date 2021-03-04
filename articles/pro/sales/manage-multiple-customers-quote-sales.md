@@ -52,3 +52,6 @@ Es pot crear, actualitzar o suprimir un client d'oferta a la pestanya **Clients 
 Podeu editar els percentatges de divisió de la facturació mitjançant l'experiència d'edició de quadrícula en línia. Quan els percentatges de divisió de la facturació no sumin un total de 100%, es produirà un error. Després d'actualitzar els percentatges de divisió de la facturació, actualitzeu la pàgina per suprimir l'error.
 
 També podeu provar de seleccionar **Distribueix uniformement** a la subquadrícula dels clients de l'oferta. Aquesta acció assigna les divisions de la facturació a tots els clients de l'oferta. Si hi ha cap factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un dels clients de l'oferta sempre està etiquetat com a client d'arrodoniment. Això vol dir que el registre de client d'oferta té la marca **Arrodoniment** definida com a **Sí**. Normalment, aquest és el client principal de l'oferta, però es pot canviar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

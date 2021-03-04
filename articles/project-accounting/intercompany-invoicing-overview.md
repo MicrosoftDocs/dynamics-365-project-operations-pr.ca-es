@@ -43,3 +43,6 @@ El diagrama següent il·lustra la facturació entre empreses segons la seva rel
 - [Configuració de la facturació entre empreses](configure-intercompany-invoicing.md)
 - [Registre de transaccions entre empreses](create-intercompany-transactions.md)
 - [Creació de factures entre empreses de clients i proveïdors](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

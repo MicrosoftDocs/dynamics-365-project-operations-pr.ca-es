@@ -105,3 +105,6 @@ Introduïu les vostres despeses com a mínim setmanalment, o segons la freqüèn
  [Informació general del Project Service](../psa/overview.md)   
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

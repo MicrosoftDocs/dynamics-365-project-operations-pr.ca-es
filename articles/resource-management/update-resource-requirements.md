@@ -37,3 +37,5 @@ Com a administrador de projectes, seguiu els passos següents per editar el requ
 ## <a name="edit-resource-assignment-contours"></a>Editar els contorns de l'assignació de recursos
 
 A banda d'editar els detalls dels requisits dels recursos, un administrador de projectes pot actualitzar els contorns individuals del requisit del recurs mitjançant la funcionalitat **Especifica un patró**. Quan seleccioneu **Especifica un patró**, s'obre una pàgina i es poden visualitzar els contorns a escala de dia, setmana o mes. Cada contorn es pot ajustar per a l'hora d'inici, l'hora d'acabament i l'esforç total en un període determinat.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

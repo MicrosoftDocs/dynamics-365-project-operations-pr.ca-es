@@ -152,3 +152,6 @@ Utilitzareu els següents tipus de tasques per crear l'estructura del desglossam
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

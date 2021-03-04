@@ -42,3 +42,6 @@ En fer una selecció, el recurs s'afegeix a l'equip del projecte i se l'assigna 
 Podeu utilitzar la capacitat d'ampliació de la reserva de la pestanya **Conciliació** o el **Tauler de planificació** per reservar la capacitat del recurs al projecte.
 
 Després d'haver reservat un membre de l'equip al vostre projecte, podeu utilitzar **Mantén les reserves** o el **Tauler de planificació** directament per administrar les seves reserves.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

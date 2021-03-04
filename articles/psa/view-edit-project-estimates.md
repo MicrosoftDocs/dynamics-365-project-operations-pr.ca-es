@@ -45,3 +45,6 @@ Amb les capacitats de l'[!INCLUDE[pn_project_service_auto](../includes/pn-projec
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

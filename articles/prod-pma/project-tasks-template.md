@@ -83,3 +83,6 @@ Si heu d'utilitzar el Power Query, seguiu aquesta instrucció:
 A la il·lustració següent es mostra un exemple de les assignacions de tasques de plantilla a la integració de dades. L'assignació mostra la informació de camp que se sincronitzarà del Project Service Automation al Finance.
 
 [![Assignació de plantilla](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

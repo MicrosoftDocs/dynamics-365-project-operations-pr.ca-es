@@ -77,3 +77,6 @@ Les dates de llançament objectiu estan subjectes a canvis. Per obtenir més inf
 | --- | --- |
 | 10.0.17 | 19 de març de 2021 |
 | 10.0.18 | 16 d'abril de 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

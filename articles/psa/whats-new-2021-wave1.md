@@ -43,3 +43,6 @@ S'han corregit els problemes següents:
 
 - Les dates de finalització s'emplenen automàticament quan es crea una entrada de temps si la duració és nul·la.
 - Els usuaris poden canviar la tasca en un registre de temps que s'ha aprovat o enviat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Això tarda parell de minuts a completar-se. Rebreu un missatge de confirmació 
 18. Tanqueu la sessió d'escriptori remot i utilitzeu la pàgina **Detalls de l'entorn** del LCS per iniciar la sessió a l'entorn per confirmar que està funcionant de la manera esperada.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Tots els recursos reservables en un projecte han de tenir un calendari d'horari 
 2. Des de la visualització de quadrícula, seleccioneu fins a 25 **recursos reservables** que actualitzareu.
 3. Seleccioneu **Defineix el calendari** i un diàleg us mostrarà una llista de plantilles d'hores de feina disponibles.
 4. Seleccioneu la plantilla que voleu utilitzeu i seleccioneu **Aplica**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

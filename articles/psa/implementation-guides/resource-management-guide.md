@@ -44,3 +44,6 @@ S'ha suprimit l'enllaç PDF que abans es trobava en aquest tema i s'ha mogut el 
 
 > [!NOTE]
 > Aquest tema s'eliminarà en una futura actualització de la documentació. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

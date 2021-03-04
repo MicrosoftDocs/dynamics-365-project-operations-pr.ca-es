@@ -41,3 +41,6 @@ Podeu crear comandes de vendes basades en projectes de dues maneres diferents:
 - Aneu al projecte en si mateix. A la subfinestra acció, seleccioneu **Administra > Tasques d'article > Comanda de vendes**. La informació del projecte es definirà per defecte a la comanda de vendes del projecte. Si el contracte del projecte té més d'una font de finançament, haureu de seleccionar la font de finançament per definir el client per a la comanda de vendes. Si només hi ha una font de finançament per al projecte, el client es definirà automàticament.
 - Aneu a la pàgina de llista **Totes les comandes de vendes** i creeu una comanda de vendes nova. Haureu de seleccionar el projecte per a la comanda de vendes. Després de seleccionar el projecte, el client es definirà des de la font del finançament o haureu de seleccionar la font del finançament si el contracte del projecte té diverses fonts de finançament.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

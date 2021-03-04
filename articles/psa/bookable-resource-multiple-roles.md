@@ -74,3 +74,6 @@ Quan expandiu la fila d'aquest registre de membre de l'equip, podeu veure assign
 Quan navegueu a la quadrícula **Estimacions**, us adonareu que ambdues assignacions del mateix recurs tenen un preu diferent.
 L'assignació del recurs a la tasca A rep el preu en funció del valor de l'atribut **Funció** de **Cap de consultoria**. L'assignació del mateix recurs a la tasca B rep el preu en funció del valor de l'atribut **Funció** de **Tècnic de xarxa**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ A la taula següent es defineixen els conceptes clau que s'utilitzen a l'aplicac
 | Perfil                    | Tasca, requisit o assignació d'hores a mesura que es descomponen en una distribució diària. Per exemple, una tasca de 5 dies i 40 hores es pot contar en vuit hores al dia durant cinc dies. |
 | Visualització de conciliació        | Visualització que mostra les reserves i totes les assignacions de cada membre de l'equip del projecte. Aquesta visualització permet que l'administrador del projecte busqui qualsevol error de coincidència entre reserves i assignacions i prendre mesures correctives si es produeix una acció errònia. |
 | Hores de feina                 | Entitat que s'utilitza per identificar la capacitat de recursos, i les hores hàbils i no hàbils. Aquesta entitat també s'anomena calendari de recursos. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

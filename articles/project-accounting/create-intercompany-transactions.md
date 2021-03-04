@@ -113,3 +113,6 @@ Molly Clark, desenvolupador que treballa a GBPM registra 10 hores de feina en un
     - Crèdit: projecte - ingressos acumulats 120 USD
 
     El sistema ja està preparat per crear una factura de client interempresa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

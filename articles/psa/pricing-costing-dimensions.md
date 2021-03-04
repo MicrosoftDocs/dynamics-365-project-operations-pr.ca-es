@@ -77,3 +77,6 @@ A l'exemple següent es mostren les tarifes de facturació que estan configurade
 | ----------------|-------------|----------|----------:|----------|
 | La meva empresa_banda1 | Contoso EUA  |Hour | 145|USD     |
 | La meva empresa_banda2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

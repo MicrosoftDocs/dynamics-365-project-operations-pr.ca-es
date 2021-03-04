@@ -125,3 +125,6 @@ Les actualitzacions següents per als privilegis de seguretat per a les entitats
  
  ![Sincronització de l'assignació de llibres majors](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

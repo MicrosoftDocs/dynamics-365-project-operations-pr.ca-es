@@ -47,3 +47,6 @@ Configureu les unitats de temps al catàleg de productes que utilitzareu com a b
   
 ### <a name="see-also"></a>Vegeu també  
  [Configurar el Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

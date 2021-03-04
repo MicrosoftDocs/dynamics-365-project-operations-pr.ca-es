@@ -45,3 +45,6 @@ Per rebutjar la proposta, feu clic a **Rebutja el recurs**.
 ![Acceptar una proposta de recurs](media/RM-how-to-20.png) 
 
 De forma semblant a complir directament una sol·licitud de recurs genèric amb un recurs amb nom, el recurs genèric se substituirà i les tasques assignades s'actualitzaran amb el membre de l'equip amb nom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

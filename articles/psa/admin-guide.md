@@ -52,3 +52,6 @@ Aquesta guia us conduirà pel procés d'instal·lació i configuració:
  [Guia de l'administrador de comptes](../psa/account-manager-guide.md) [Guia de l'administrador de comptes](../psa/project-manager-guide.md)   
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)   
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

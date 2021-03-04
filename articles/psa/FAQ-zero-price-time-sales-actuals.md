@@ -57,3 +57,6 @@ Si no hi ha cap fila, haureu aïllat el problema. Creeu una fila a la quadrícul
 
 Si encara no veieu un preu vàlid a les vendes de temps reals després de seguir les tres comprovacions anteriors, registreu una sol·licitud d'assistència tècnica. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ A la taula següent s'enumeren els tipus de fluxos de treball que es poden crear
 |      <strong>Sol·licitud d'avançament d'efectiu</strong>      |         Crear fluxos de treball d'aprovació per a sol·licituds d'avançament d'efectiu.          |
 |        <strong>Recuperació de l'IVA</strong>        | Crear fluxos de treball d'aprovació per a la recuperació de l'impost sobre el valor afegit (IVA).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

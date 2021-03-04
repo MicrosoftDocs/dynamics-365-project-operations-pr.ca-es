@@ -48,3 +48,6 @@ Les aptituds per als recursos són valorades pels models de competència. Les pu
 > ![Puntuacions mínimes i màximes definides](media/Resource-Management-image85.png)
 
 Aquests valors de puntuació es mostren als filtres **Requisits de recursos**, **Tauler de planificació** i **Auxiliar de planificació**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

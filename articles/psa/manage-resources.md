@@ -344,3 +344,6 @@ Si teniu assignacions de tasca per a un recurs però no hi ha cap reserva, a la 
 ![Quadre de diàleg Amplia la reserva](media/Resource-Management-image58.png)
 
 L'administrador de projectes o administrador de recursos poden utilitzar el Tauler de planificació per administrar les situacions en què el recurs té un excés de reserves més enllà de la seva capacitat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

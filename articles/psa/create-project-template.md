@@ -62,3 +62,6 @@ Les plantilles de projecte us ajuden a estalviar temps si la vostra empresa pres
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Quan un equip del projecte es copia des del projecte d'origen, es copien els rec
 Quan el projecte es copia, les línies d'estimació de recursos i de despesa es copien des del projecte d'origen. 
 
 Per obtenir informació sobre com accedir mitjançant programació a Copia el projecte, vegeu [Desenvolupar plantilles de projecte amb Copia el projecte](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

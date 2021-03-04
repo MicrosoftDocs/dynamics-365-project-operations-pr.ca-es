@@ -47,3 +47,6 @@ Quan heu afegit funcions de recurs, probablement ja hi heu associat algunes apti
   
 ### <a name="see-also"></a>Vegeu també  
  [Definir recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

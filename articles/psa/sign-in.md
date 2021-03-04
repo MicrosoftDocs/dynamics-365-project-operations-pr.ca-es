@@ -56,3 +56,6 @@ Quan inicieu la sessió a les aplicacions del Dynamics 365, l'administrador us h
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

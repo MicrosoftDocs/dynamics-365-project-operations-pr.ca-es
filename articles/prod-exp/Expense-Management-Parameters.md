@@ -89,3 +89,6 @@ Els paràmetres controlen el comportament general a l'administració de despeses
 | <strong>Missatge anticorrupció per a la persona que fa l'enviament</strong> |                                                                                             Introduïu el text que es mostrarà a l'empleat en crear un nou informe de despeses. Feu clic al botó <strong>Traduccions</strong> per introduir el text específic de la llengua que es mostrarà segons la llengua de l'usuari.                                                                                             |
 | <strong>Missatge anticorrupció per a l'aprovador</strong>  |                                                                                             Introduïu el text que es mostrarà a l'aprovador en crear un nou informe de despeses. Feu clic al botó <strong>Traduccions</strong> per introduir el text específic de la llengua que es mostrarà segons la llengua de l'usuari.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

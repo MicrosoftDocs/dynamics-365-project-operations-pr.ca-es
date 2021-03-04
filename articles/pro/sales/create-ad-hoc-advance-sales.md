@@ -39,3 +39,6 @@ Completeu els passos següents per facturar al client un avançament.
     | **Estat de la factura** | Es tracta d'una opció que indica si aquest avançament s'afegeix a un esborrany de factura per a aquest client. Els valors possibles són:</br>- **No preparat per a la facturació**</br>- **Preparat per a la factura** | Quan un avançament o prepagament es marca com a **A punt per facturar**, s'afegeix com a línia de temps en un esborrany de factura. Només es pot utilitzar un avançament completament facturat per conciliar les despeses del projecte per al següent període de facturació. |
 
 4. Seleccioneu **Desa i tanca** al quadre de diàleg creació ràpida per registrar l'avançament o prepagament.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

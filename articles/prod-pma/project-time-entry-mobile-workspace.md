@@ -113,3 +113,6 @@ Descarregueu i instal·leu l'aplicació mòbil Finance and Operations:
 11. Seleccioneu la propietat de línia.
 12. Opcional: introduïu comentaris externs o interns.
 13. Seleccioneu **Fet**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

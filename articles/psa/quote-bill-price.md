@@ -44,3 +44,6 @@ Els temes següents proporcionen més informació sobre la funcionalitat d'ofert
 - [Grups d'unitats i unitats](advanced-units.md)
 - [Multidivisa](advanced-currency.md)
 - [Enregistrament de valors reals](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

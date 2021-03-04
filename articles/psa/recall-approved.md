@@ -107,3 +107,6 @@ A la il·lustració següent es mostren els canvis que es produeixen per a les e
 A la il·lustració següent es mostren els canvis que es produeixen per a les entrades de despeses aprovades quan es recuperen.
 
 ![Transicions d'estat de l'entrada de despeses](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

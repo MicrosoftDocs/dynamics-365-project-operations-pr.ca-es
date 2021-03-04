@@ -94,3 +94,6 @@ Definir la prioritat de dimensions ajuda que el Project Service produeixi un pre
 
 - **Prioritat de costos**: el valor d'una prioritat de costos d'una dimensió indicarà el pes d'aquesta dimensió el fer-la coincidir amb la configuració dels preus de cost. El valor de **Prioritat de cost** ha de ser únic en totes les dimensions **Aplicable al cost**.
 - **Prioritat de vendes**: el valor d'una prioritat de vendes d'una dimensió indicarà el pes d'aquesta dimensió el fer-la coincidir amb la configuració dels preus de vendes o tarifes de facturació. El valor de **Prioritat de vendes** ha de ser únic en totes les dimensions **Aplicable a les vendes**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

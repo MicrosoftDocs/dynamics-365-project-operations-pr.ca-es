@@ -68,3 +68,6 @@ Obriu la línia d'oferta de preu fix en què heu de crear una fita. A la pestany
 | Estat de la factura | Creació ràpida | Quan es crea una fita, aquest estat sempre es defineix com a **No preparat per a la facturació**. | Es propaga a la fita de la línia de contracte del projecte i a la factura. |
 | Import de la línia | Creació ràpida | Import o valor de la fita que es facturarà al client. | Es propaga a la fita de la línia de contracte del projecte i a la factura. |
 | Impost | Creació ràpida | Import de l'impost que s'aplicarà a la fita. | Es propaga a la fita de la línia de contracte del projecte i a la factura. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

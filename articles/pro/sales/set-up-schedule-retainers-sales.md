@@ -32,3 +32,6 @@ Les planificacions de bestreta es configuren a la pàgina **Contracte del projec
 | Nombre de bestretes que s’han de crear | Quan introduïu el nombre de bestretes que voleu crear, el sistema utilitza la data d'inici i la freqüència per crear el número d'aquest camp. | Quan aquest camp s'actualitza manualment, el sistema ignora el valor del camp **Final de la planificació de bestretes** i, en canvi, crea el nombre específic de bestretes o avançaments. |
 | Freqüència de facturació | Amb quina freqüència l'aplicació crearà bestretes i avançaments. | Aquest valor influeix directament en el nombre de bestretes i avançaments i en les dates de creació. |
 | Import total | L'import total és l'import que es divideix en els pagaments individuals de bestreta o avançament que es crearan. | No hi ha cap impacte descendent d'aquest camp. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

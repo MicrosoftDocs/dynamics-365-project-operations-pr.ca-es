@@ -57,3 +57,6 @@ Regla: un projecte i una classe de transacció determinada només es poden inclo
 | C1       | CL2           | P1      | No           | Sí             | No          | Vàlid           | El temps i els càrrecs del projecte P1 s'inclouen a CL1. La despesa en el projecte P1 s'inclou a CL2. </br>   No hi ha superposició en el que s'inclou en cada línia de contracte i, per tant, és vàlid.  |
 | C1       | CL1           | P1      | Sí          | Sí             | Sí         | No és vàlid       | Infringeix la regla. El temps, les despeses i els càrrecs del projecte P1 s'inclouen en les línies dels dos contractes.                                                                                               |
 | CL2      | CL2           | P1      | Sí          | Sí             | Sí         | No és vàlid       | Infringeix la regla. El temps, les despeses i els càrrecs del projecte P1 s'inclouen en les línies dels dos contractes.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

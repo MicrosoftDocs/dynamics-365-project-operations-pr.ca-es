@@ -125,3 +125,6 @@ Preu fix: percentatge d'acabament
 Les regles de perfil de cost i d'ingressos del projecte determinen el perfil cost i ingrés del projecte que s'ha d'utilitzar quan es processen transaccions del projecte facturables. Definiu les regles anant a **Administració de projectes i comptabilitat** \> **Configuració** \> **Comptabilització** \> **Regles de perfils d'ingressos i costos del projecte**.
 
 Les regles es poden definir per contracte de projecte, grup de projectes o per projecte específic. Primer, el sistema sempre tria la regla amb la granularitat més alta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

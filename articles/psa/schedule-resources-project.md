@@ -83,3 +83,6 @@ Si utilitzeu una versió anterior, per veure la disponibilitat dels recursos, co
   
 ### <a name="additional-resources"></a>Recursos addicionals  
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

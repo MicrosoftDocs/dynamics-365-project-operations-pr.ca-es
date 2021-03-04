@@ -104,3 +104,6 @@ Durant la reserva de recursos, els administradors de projectes poden filtrar els
 
 3. Seleccioneu **Desa** i, a continuació, tanqueu la pàgina.
 4. A la pestanya **Competències** , afegiu l'habilitat **ProjectMgmt** i el certificat **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

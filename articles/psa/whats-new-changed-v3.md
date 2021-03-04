@@ -257,3 +257,6 @@ La gràfica següent és després que s'hagin creat llistes de preus personalitz
 
 > [!NOTE]
 > Pot ser que es produeixi un retard breu entre quan feu clic a **Crea preus personalitzats** i quan es crea la llista de preus personalitzada. Es recomana refrescar la quadrícula en comptes de fer clic diverses vegades. S'ha creat una llista de preus personalitzada si el nom de la llista de preus associada té el nom de l'oferta o el nom del contracte del projecte afegit.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

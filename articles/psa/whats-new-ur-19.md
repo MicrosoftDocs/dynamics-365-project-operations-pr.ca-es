@@ -66,3 +66,6 @@ S'han corregit els problemes següents:
 - Els clients poden experimentar un rendiment degradat en crear un projecte perquè **GetBookableResourceIdFromUser** recupera totes les columnes de recursos disponibles en comptes de només l'identificador principal.
 - L'entitat **TransactionType** no té el complement d'actualització de la prevalidació per impedir que els usuaris ingressin **Unitats** i **Grups d'unitats** que no són vàlids per als tipus de transaccions.
 - El pas **Suprimeix** no funciona per a la importació d'entrades de temps.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

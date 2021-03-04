@@ -62,3 +62,6 @@ Un projecte també es veu afectat financerament quan es cancel·la una aprovaci�
 A continuació, les entrades d'inversió es creen a la taula Valors reals. Per crear entrades d'inversió, el sistema copia els valors de camp dels valors reals originals. Els únics valors que no es copien són els valors de quantitat. Aquests valors s'inverteixen en el seu lloc. Els valors reals invertits es creen per als valors reals **Cost** i **Vendes no facturades**. El camp **Estat d'ajustament** dels valors reals invertits es defineix com a **No ajustable** i l'estat de facturació es defineix com a **Cancel·lat**.
 
 Després de fer aquests canvis, l'import que s'ha registrat com a invertit en el projecte i el registre d'entrada d'ingressos del projecte ja no comptabilitzarà per a les quantitats que representin aquests valors reals.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

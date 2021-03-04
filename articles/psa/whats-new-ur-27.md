@@ -81,3 +81,6 @@ S'han corregit els problemes següents:
 - Quan el Dynamics 365 Field Service i el Project Service Automation estan instal·lats, les opcions **Blocatge de preus** i **Utilitza els preus actuals** no es visualitzen a la vegada a la pàgina **Factura**.
 - Per a la llengua japonesa, hi ha una traducció incoherent amb altres pàgines basades en el calendari.
 - **Activa** i **Desactiva** s'han eliminat de les entitats **Associació de llistes de preus** al Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

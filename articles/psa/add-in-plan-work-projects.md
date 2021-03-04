@@ -242,3 +242,6 @@ A la taula següent es descriu la manera que se sincronitzen les dades d'entitat
 
 ### <a name="additional-resources"></a>Recursos addicionals
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

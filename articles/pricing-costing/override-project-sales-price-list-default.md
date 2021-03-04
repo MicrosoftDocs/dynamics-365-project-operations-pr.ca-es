@@ -52,3 +52,6 @@ Podeu utilitzar cadascuna d'aquestes llistes de preus i fer actualitzacions dels
 En un contracte de projecte, els preus del projecte sempre són per defecte una llista de preus personalitzada amb el nom del contracte i la marca de temps de creació afegida al nom. Això és cert si el contracte es va crear quan es va guanyar l'oferta o si el contracte es va crear des de zero. Si cal, podeu suprimir aquesta associació a la llista de preus personalitzada i associar una llista de preus estàndard al contracte del projecte.
 
 Quan associeu una llista de preus estàndard a les llistes de preus del projecte en una oferta o contracte, els canvis realitzats als preus de la llista de preus afectaran totes les ofertes i contractes que utilitzin la llista de preus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

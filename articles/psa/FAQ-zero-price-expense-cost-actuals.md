@@ -38,3 +38,6 @@ Aquesta pregunta freqüent s'aplica als valors reals de despeses on la classe de
 Aneu a l'entrada de despeses relacionada i assegureu-vos que hi ha una quantitat al camp d'entrada de despeses. Si l'entrada de despeses d'origen no té el camp de quantitat ple, haureu aïllat el problema.
  
 Per solucionar aquest problema, torneu a crear l'entrada de despesa amb una quantitat vàlida i aproveu-la.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

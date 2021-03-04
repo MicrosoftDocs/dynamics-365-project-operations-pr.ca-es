@@ -144,3 +144,6 @@ Utilitzeu validacions de complements per a totes les validacions que requereixin
 
 ### <a name="copying-time-entries"></a>Còpia d'entrades de temps
 Utilitzeu la visualització **Còpia de columnes d'entrada de temps** per definir la llista de camps que es copiaran durant l'entrada de temps. **Data** i **Duració** són camps obligatoris i no s'han d'eliminar de la visualització.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

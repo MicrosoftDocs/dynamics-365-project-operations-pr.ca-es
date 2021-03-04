@@ -54,3 +54,6 @@ Després de resoldre una llista de preus per a les vendes, el sistema completa e
     | &nbsp; | Marge comercial sobre el cost | Aplicant un marge comercial tal com defineix la línia de preus de categoria a la tarifa de cost unitari del valor real de cost relacionat |
 
 4. Si el sistema no pot fer coincidir els valors dels camps **Categoria** i **Unitat**, la tarifa de vendes per defecte és zero (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

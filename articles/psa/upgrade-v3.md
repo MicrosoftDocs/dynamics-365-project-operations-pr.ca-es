@@ -110,3 +110,6 @@ Per a les tasques assignades a una funció amb una unitat organitzativa que dife
  
 Canviar el valor per defecte de les diferents unitats organitzatives de recursos en els membres de l'equip no generats és la raó per la que recomanem que genereu o torneu a generar l'equip en cada projecte que conté recursos genèrics abans de l'actualització, de manera que les assignacions d'unitats organitzatives no es perdin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

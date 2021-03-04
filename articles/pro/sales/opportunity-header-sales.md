@@ -34,3 +34,6 @@ A la taula següent s'inclouen els camps d'una oportunitat basada en projectes q
 | Unitat de contractació | Pestanya General | La unitat de l'organització responsable del lliurament del projecte o projectes associats amb aquest acord. | La unitat de contractació és la divisió de l'empresa que completarà els projectes després d'haver tancat l'acord. Cada unitat de contractació té una moneda, i aquesta moneda s'utilitza per informar dels costos estimats i reals incorreguts durant el projecte. |
 
 Per a la resta de camps i seccions de la pestanya **Resum** de l'oportunitat, vegeu [Crear o editar oportunitats (Sales i Centre de vendes)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

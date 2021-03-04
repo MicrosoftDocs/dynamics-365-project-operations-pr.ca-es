@@ -58,3 +58,6 @@ Una estimació o valor real creat per a la despesa només es considerarà imputa
 | No | Sí | No es pot establir | No imputable | Facturació en un valor real de temps: No disponible </br>Tipus de facturació en un valor real de despesa: No imputable |
 | Sí | No | Imputable | No es pot establir | Facturació en un valor real de temps: Imputable </br>Tipus de facturació en un valor real de despesa: No disponible |
 | Sí | No | No imputable | No es pot establir | Facturació en un valor real de temps: No imputable </br> Tipus de facturació en un valor real de despesa: No disponible |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

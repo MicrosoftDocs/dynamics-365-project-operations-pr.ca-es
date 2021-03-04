@@ -107,3 +107,6 @@ Per crear el vostre propi flux del procés de negoci per a l'entitat del project
 
    ![Captura de pantalla de la modificació de les visualitzacions de l'entitat del projecte](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

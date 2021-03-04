@@ -41,3 +41,6 @@ Si decidiu que voleu que calguin diversos aprovadors d'informes de despeses, pod
 
     1. El cap de l'empleat aprova l'informe de despeses.
     2. El propietari del pressupost aprova l'informe de despeses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

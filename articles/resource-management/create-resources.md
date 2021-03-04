@@ -20,3 +20,6 @@ ms.locfileid: "4514491"
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 Podeu utilitzar Dynamics 365 Field Service per crear recursos que es poden reservar per utilitzar-los al vostre entorn de Dynamics 365 Project Operations. Per crear aquests recursos, vegeu [Definir recursos que es poden reservar](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

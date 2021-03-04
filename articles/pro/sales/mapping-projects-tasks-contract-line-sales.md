@@ -82,3 +82,6 @@ Aquesta és l'experiència més òptima per desassociar tasques de les línies d
 4. A la pàgina de diàleg que s'obre, seleccioneu una línia de contracte al menú desplegable.
 5. Marqueu la casella de selecció per indicar si l'associació també s'hauria de suprimir de les tasques secundàries de les tasques seleccionades. Si marqueu la casella també es desassociaran les tasques secundàries de les tasques seleccionades de la línia de contracte.
 6. Seleccioneu **D'acord**. Un missatge d'advertiment indica que l'eliminació d'aquesta associació podria donar lloc a la reversió dels valors reals registrats prèviament a la tasca. Seleccioneu **D'acord** al diàleg d'advertiment per suprimir l'associació entre la tasca i la línia de contracte basada en projectes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Els càlculs de rendibilitat converteixen els imports per als detalls de la lín
 
 > [!NOTE]
 > Podrien ocórrer errors d'arrodoniment de moneda i canvis de marges a causa de la manca de tipus de canvi amb data d'efectivitat. Utilitzeu aquests càlculs en els contractes de projectes només com a aproximacions i no per a la presentació legal real o d'altres informes que requereixin una major precisió d'arrodoniment i reconeixement de la data d'efectivitat per als tipus de canvi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Com a administrador de projectes, pot ser que hàgiu de reservar un recurs en un
 
 > [!NOTE]
 > Aquest mètode no crea cap reserva per al recurs. En comptes d'això, afegeix el recurs a l'equip. Un cop s'ha afegit el membre de l'equip al projecte, l'administrador del projecte mantenir les reserves o ampliar les reserves per afegir les reserves necessàries al recurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

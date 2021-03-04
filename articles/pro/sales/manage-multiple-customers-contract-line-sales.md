@@ -43,3 +43,6 @@ A continuació, es mostren els camps al registre de client de línia de **contra
 Els percentatges de divisió de facturació es poden editar a la quadrícula. Quan els percentatges de divisió de facturació no sumin el 100 per cent, es produirà un error. Després d'editar els percentatges de divisió de facturació, actualitzeu la pàgina per suprimir l'error.
 
 També podeu seleccionar **Distribueix uniformement** a la subquadrícula de client de la línia de contracte. Aquesta acció assigna uniformement les divisions de facturació a tots els clients de la línia de contracte. Si hi ha cap factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un client de línia de contracte sempre s'etiqueta com a client d'**arrodoniment** amb la marca **Arrodoniment** establerta en **Sí**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

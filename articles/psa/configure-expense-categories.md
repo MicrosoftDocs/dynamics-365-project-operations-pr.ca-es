@@ -55,3 +55,6 @@ Cada categoria de despesa pot tenir la seva pròpia unitat i grup d'unitats. Pod
   
 ### <a name="see-also"></a>Vegeu també  
  [Configurar el Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

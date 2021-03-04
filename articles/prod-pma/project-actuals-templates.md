@@ -140,3 +140,6 @@ A les il·lustracions següents es mostren exemples de l'assignació de tasques 
 [![Assignació de plantilla: actualització de valors reals](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Assignació de plantilla: actualització de transacció](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

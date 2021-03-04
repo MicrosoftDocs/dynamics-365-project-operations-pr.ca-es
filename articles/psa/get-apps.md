@@ -36,3 +36,6 @@ Si voleu introduir el vostre temps i les despeses al dispositiu mòbil, [Obteniu
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

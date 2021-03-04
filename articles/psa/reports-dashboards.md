@@ -40,3 +40,6 @@ L'escriptori digital **Administrador de pràctiques** proporciona als administra
 ## <a name="resource-manager"></a>Administrador de recursos 
 
 L'escriptori digital **Administrador de recursos** proporciona als administradors de recursos una experiència gràfica per supervisar les sol·licituds de recursos i la demanda i la utilització de recursos. També permet als administradors de recursos segmentar la informació monitoritzada per diverses dimensions.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

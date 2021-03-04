@@ -31,3 +31,6 @@ Una dieta és una assignació que es paga a un treballador que viatja per feina.
     
 ## <a name="submit-expenses-using-per-diem"></a>Enviar despeses mitjançant una dieta
 Per enviar les despeses que utilitzen les dietes, utilitzeu la categoria de despesa **Dieta** quan creeu un informe de despeses. Introduïu la **Data d'inici de la dieta**, **Data de finalització de la dieta** i **Ubicació de la dieta**. L'import es calcularà en funció de les tarifes de dieta per a la ubicació seleccionada i es calcularà la reducció dels àpats en funció dels nivells de tarifes de dietes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

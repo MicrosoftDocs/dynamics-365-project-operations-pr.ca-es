@@ -40,3 +40,6 @@ Un administrador de projectes pot planificar les funcions de recursos necessàri
 7. Seleccioneu un treballador i, després, **Assigna**.
 8. Verifiqueu que s'hagi suprimit la línia **Desenvolupador de programari 1** per al projecte **Fase 2 del projecte d'actualització d'XYZ**.
 9. A la pestanya **Equip del projecte i planificació** , per al projecte **Fase 2 d'actualització d'XYZ** , comproveu que el treballador que heu seleccionat al pas anterior s'hagi afegit com a **Desenvolupador de programari**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

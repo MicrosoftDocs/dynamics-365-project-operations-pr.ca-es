@@ -44,3 +44,6 @@ El Project Operations admet diversos models d'implementació. Per determinar el 
 2. Instal·leu **Microsoft Dynamics 365 Project Operations** des de la llista d'implementació de les aplicacions del Dynamics 365. Per obtenir més informació, vegeu [Administrar les aplicacions del Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

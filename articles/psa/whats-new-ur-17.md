@@ -57,3 +57,6 @@ En aquest tema es mostren les característiques i correccions que són noves o s
 - Correcció: quan la classe de transacció és **Time**, **UnitGroup** no es pot editar per a les entitats que inclouen **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** i **ContractLineDetails**. Això no obstant, **Unit** no es pot editar només per a **JournalLine** i **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

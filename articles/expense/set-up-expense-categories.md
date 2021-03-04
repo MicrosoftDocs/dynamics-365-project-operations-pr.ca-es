@@ -61,3 +61,6 @@ Per poder començar el procés de configuració, cal que prendre les següents d
 
     - S'exclou cap subcategoria de la recuperació d'impostos?
     - Quin és el grup d'impostos de vendes de l'element de les subcategories?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

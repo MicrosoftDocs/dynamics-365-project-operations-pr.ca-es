@@ -71,3 +71,6 @@ Abans d'iniciar aquest procediment, comproveu que la funció de seguretat inclog
 
 > [!IMPORTANT]
 >  Les monedes que utilitzen altres registres no es poden suprimir, només es poden desactivar. La desactivació dels registres de moneda no suprimeix la informació de moneda emmagatzemada als registres existents, com les oportunitats o les comandes. No obstant això, no podreu seleccionar la moneda desactivada per a les noves transaccions.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

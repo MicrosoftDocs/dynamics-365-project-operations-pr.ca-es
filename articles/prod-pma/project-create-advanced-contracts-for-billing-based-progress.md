@@ -103,3 +103,6 @@ Les categories pressupostàries s'utilitzen per calcular automàticament els imp
 8. Opcional: assigneu la regla de facturació a projectes addicionals. Al FastTab **Projecte** , en la secció **Projectes disponibles** , seleccioneu un projecte i després seleccioneu el botó de fletxa dreta per afegir el projecte a la secció **Projectes seleccionats**.
 9. Opcional: calculeu l'import percentual que el client reté dels pagaments d'una factura. Al FastTab **Termes de retenció de pagaments** , seleccioneu la font de finançament i, en el camp **Percentatge de retenció** , introduïu el percentatge de retenció.
 10. Repetiu aquests passos per a crear regles de facturació addicionals per al contracte del projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

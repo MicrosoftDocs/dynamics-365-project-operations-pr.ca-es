@@ -101,3 +101,6 @@ Si no esteu veient l'ús facturables, us mostrem algunes coses que podeu comprov
   - La funció en la línia de contracte de projecte que recolza el projecte s'ha establert com no facturable.
   - El projecte no té una línia de contracte associada.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

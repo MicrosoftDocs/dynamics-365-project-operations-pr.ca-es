@@ -63,3 +63,6 @@ En aquest tema es mostren les característiques i correccions que són noves o s
 **Sales**
 
 - Correcció: quan es tornen a aprovar les entrades de temps (**Aprova > Cancel·la >** Torna a aprovar), es crea un valor real no imputable duplicat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

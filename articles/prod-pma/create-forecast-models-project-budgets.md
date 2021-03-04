@@ -57,3 +57,6 @@ Aquest tema descriu com crear un model de previsió per als pressupostos restant
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

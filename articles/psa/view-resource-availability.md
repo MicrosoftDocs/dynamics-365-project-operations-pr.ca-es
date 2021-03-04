@@ -48,3 +48,6 @@ Podeu comprovar la disponibilitat de recursos per obtenir una vista general de c
 
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

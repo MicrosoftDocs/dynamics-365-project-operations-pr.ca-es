@@ -26,3 +26,5 @@ Els requisits dels recursos es defineixen per l'administrador de projectes per e
 3.  A la pestanya **Membre de l'equip**, seleccioneu el membre de l'equip i, a continuació , seleccioneu **Genera un requisit**.
 
 Per obtenir informació sobre la manera de modificar el requisit de recursos, vegeu [Actualitzar els detalls del requisit de recursos](define-resource-requirements.md) per modificar el requisit de recursos.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

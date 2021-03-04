@@ -29,3 +29,6 @@ La secció **Estat** de la pàgina **Entitat del projecte** proporciona un resum
 - El camp **Comentaris** permet a l'administrador del projecte introduir comentaris específics sobre l'estat. 
 - El camp **Data d'actualització de l'estat** no és editable. El valor d'aquest camp és una marca de temps que indica quan s'ha actualitzat l'estat per última vegada.
 - Els camps **Rendiment de la planificació** i **Rendiment del cost** s'estableixen a partir de la quadrícula de seguiment. Quan la variació de planificació i costos per al node arrel de la visualització **Seguiment de l'esforç** és positiva, aquests camps s'actualitzen a **Per davant**. Quan la variació de planificació i costos per al node arrel és negativa, aquests camps es defineixen a **Per darrere**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

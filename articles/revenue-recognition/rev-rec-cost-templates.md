@@ -79,3 +79,6 @@ Per crear plantilles de costos, seguiu aquests passos:
 7. A la pestanya **Categories**, seleccioneu les categories del projecte que voleu incloure a la línia de la plantilla de costos.
 8. A la pestanya **General**, seleccioneu si aquesta línia s'inclourà en el càlcul del percentatge completat.
 9. Seleccioneu el mètode de cost per completar que s'ha d'utilitzar per calcular el percentatge completat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

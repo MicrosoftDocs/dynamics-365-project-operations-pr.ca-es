@@ -28,3 +28,6 @@ Hi ha dos mètodes que podeu utilitzar per treballar amb les despeses personals 
   - **Pagat per l'empresa:** la vostra organització paga la factura completa de la targeta de crèdit empresarial i, a continuació, carrega la quantitat de les despeses personals en el compte del treballador.
 
 Podeu seleccionar el mètode que utilitza la vostra organització a la pàgina **Paràmetres de l'administració de despeses**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

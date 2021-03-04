@@ -128,3 +128,6 @@ Per a una línia d'oferta de preu fix, podeu utilitzar la quadrícula **Planific
 - Per crear fites de facturació que estiguin dividits de manera equitativa, seleccioneu una freqüència de facturació, introduïu la data d'inici de la facturació a la línia d'oferta i seleccioneu **Data d'acabament sol·licitada** per a l'oferta a la secció **Resum** de la capçalera de l'oferta. A continuació , seleccioneu **Genera fites periòdiques** per crear fites dividides equitativament en funció de la freqüència seleccionada per a la facturació. 
 - Per crear un fita de facturació d'una suma global, creeu una fita i, a continuació, introduïu el valor de la línia d'oferta com a import de la fita.
 - Per crear fites de facturació que es basin en tasques específiques del pla del projecte, creeu una fita i assigneu-la a l'element de la programació del projecte a la interfície d'usuari de fita de facturació.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

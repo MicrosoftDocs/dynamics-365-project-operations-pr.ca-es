@@ -33,3 +33,6 @@ Es pot veure una llista de tots els contractes del projecte a la pàgina de llis
 2. Seleccioneu el **Commutador de visualització** (la fletxa desplegable que hi ha al costat del nom de la visualització) per seleccionar altres visualitzacions filtrades. Podeu crear visualitzacions pròpies amb criteris de filtratge personalitzats.
 
 Es poden crear o suprimir contractes des d'aquesta pàgina de llista o des de les pàgines de detalls.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

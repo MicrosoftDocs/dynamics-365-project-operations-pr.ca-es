@@ -43,3 +43,6 @@ Proporcioneu un espai on els membres d'un equip que treballen en un projecte pug
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

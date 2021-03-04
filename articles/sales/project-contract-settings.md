@@ -58,3 +58,6 @@ Els KPI següents estan disponibles a la pestanya **Rendiment del contracte** d'
 | Cost acumulat | Línies basades en el producte | Suma de tots els valors reals registrats per a la línia de contracte basada en productes. |
 | Marge brut | Línies basades en projectes | Import facturat - cost incorregut fins a la data/import facturat |
 | Marge esperat | Línies basades en el producte | (Valor de la línia de contracte - costos estimats per a la línia de contracte)/valor de la línia de contracte |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Abans de començar la configuració, heu de tenir un entorn del Common Data Serv
     -   Característica dels recursos que es poden reservar
 
     ![Importació completada](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

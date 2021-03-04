@@ -111,3 +111,6 @@ Quan es confirma una factura correctiva, es reverteix el valor real de vendes fa
 
 - Un valor de vendes facturades durant sis hores.
 - Un valor de vendes no facturades per a les dues hores restants. Aquesta transacció es pot facturar més tard o marcar com a no imputable, en funció de les negociacions amb el client.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

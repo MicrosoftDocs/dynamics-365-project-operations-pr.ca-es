@@ -124,3 +124,6 @@ A la il·lustració següent es mostra un exemple de l'assignació de tasques de
 > L'assignació mostra la informació de camp que se sincronitzarà del Project Service Automation al Finance.
 
 [![Assignació de plantilla del Project Service Automation al Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

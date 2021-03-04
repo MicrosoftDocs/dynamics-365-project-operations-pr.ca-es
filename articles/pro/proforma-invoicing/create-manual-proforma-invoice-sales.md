@@ -35,3 +35,6 @@ Totes les factures de projecte creades estan disponibles a la pàgina **Factura*
 També es pot crear una factura de proforma des de la pàgina de detalls **Contracte del projecte**. El sistema verifica que el contracte de projecte té un registre **A punt per facturar** amb data abans d'avui. A partir d'aquests contractes, el sistema crea esborranys de factures proforma en funció del nombre de clients en cada línia de contracte.
 
 Quan es crea una única factura proforma, s'obre la pàgina **Factura**. Si es creen diverses factures per al contracte del projecte, s'obrirà la pàgina de llistes **Factures** per mostrar totes les factures creades.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

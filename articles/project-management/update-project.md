@@ -48,3 +48,6 @@ A continuació, es mostra un resum dels camps que es poden actualitzar en un pro
 - **Estat global del projecte**: estat global del projecte proporcionat per l'administrador del projecte.
 - **Comentaris**: text sobre l'estat actual del projecte que proporciona l'administrador del projecte.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Cada línia de contracte de projecte que té un mètode de facturació de preu f
 Per revisar les fites de facturació, aneu a **Vendes** \> **Facturació** \> **Fites de preu fix**. Seleccioneu totes les fites que estiguin preparades per a facturar i, a continuació, seleccioneu **Llest per facturar**. L'estat de facturació d'aquestes fites canvia a **Llest per facturar**.
 
 ![Fites de preu fix](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

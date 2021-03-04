@@ -80,3 +80,6 @@ El seguiment de dades a les visualitzacions **Seguiment de l'esforç** i **Segui
 El camp **Estat global del projecte** és un camp editable que mostra l'estat general del projecte. Utilitza una codificació de color, com ara verd, groc i vermell, per indicar un risc cada vegada major. El camp **Comentaris** permet a l'administrador del projecte introduir comentaris específics sobre l'estat. El camp **Estat actualitzat el** no és editable i el valor és una marca de temps que indica quan es va actualitzar l'estat per última vegada.
 
 Els camps **Rendiment de la programació** i **Rendiment del cost** es defineixen a partir de la data de seguiment. Quan la variació de planificació i costos per al node arrel de la visualització **Seguiment de l'esforç** és positiva, podeu definir aquests camps com a **Per davant**. Quan la variació de planificació i costos per al node arrel és negativa, podeu definir-los com a **Per darrere**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Les propietats **Nombre d'usuaris** i **Nombre de mesos** es poden marcar com a 
 
 > ![Marcar Nombre d'usuaris i Nombre de mesos com a factors de qualitat](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

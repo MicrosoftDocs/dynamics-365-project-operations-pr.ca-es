@@ -46,3 +46,6 @@ Si una línia d'oferta es basa en un catàleg de productes, podeu substituir el 
 Si seleccioneu **Substitueix el preu**, el preu per defecte no està definit. En comptes d'això, heu d'introduir un preu per al producte a la línia d'oferta. Si seleccioneu **Utilitza el valor per defecte**, s'utilitzarà el preu de venda per defecte i el camp no es podrà editar.
 
 Els preus de vendes per defecte s'introdueixen a les línies basades en productes en una oferta. El camp **Preu** es defineix com a **Substitueix el preu** per tal que pugueu editar el preu per defecte a les línies d'oferta. Es tracta d'una substitució específica del Project Operations per al comportament de les línies basades en productes al Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

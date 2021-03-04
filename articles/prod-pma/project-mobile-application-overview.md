@@ -49,3 +49,6 @@ Els meus fulls d'hores (optimitzat per a mòbils) i Fulls d'hores per a la meva 
 - [Entrada de temps del projecte]( project-time-entry-mobile-workspace.md)
 - [Fulls d'hores del projecte en un dispositiu mòbil](Mobile-timesheets.md)
 - [Implementar camps personalitzats per a l'aplicació mòbil del Microsoft Dynamics 365 Project Timesheet a l'iOS i l'Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -316,3 +316,6 @@ Alternativament, podeu corregir els errors de planificació individualment fent 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Només es poden actualitzar els atributs comptables següents a les línies del 
 Les línies del llibre diari d'integració es poden suprimir, però qualsevol línia sense comptabilitzar s'inserirà de nou al llibre diari després de tornar a executar el procés periòdic **Importa de l'intermedi**.
 
 Quan comptabilitzeu el diari d'integració, es creen transaccions al subdiari del projecte i al diari general. S'utilitzen en la facturació dels clients descendent, el reconeixement d'ingressos i els informes financers.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

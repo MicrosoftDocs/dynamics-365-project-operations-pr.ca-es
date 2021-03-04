@@ -33,3 +33,6 @@ Des de la quadrícula **Membre de l'equip**, un administrador del projecte pot r
 ## <a name="schedule-board"></a>Tauler de planificació
 
 Des del **Tauler de planificació**, l'administrador de recursos té una visualització de portada de totes les reserves d'una organització. Des d'aquesta visualització, l'administrador de recursos pot ampliar, escurçar o desplaçar les reserves existents de manera semblant a les capacitats que s'ofereixen a **Conserva les reserves**. L'Administrador de recursos també pot substituir els recursos existents assignats a una reserva específica fent clic amb el botó dret del ratolí a la reserva i seleccionant **Recurs substitut**. Els administradors de recursos també poden editar els contorns de les reserves existents fent clic amb el botó dret del ratolí a la reserva i seleccionant **Edita**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

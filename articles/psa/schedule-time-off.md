@@ -57,3 +57,6 @@ Planifiqueu els dies de vacances o d'excedència de la mateixa manera que introd
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

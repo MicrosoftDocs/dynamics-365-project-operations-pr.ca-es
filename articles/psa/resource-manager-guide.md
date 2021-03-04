@@ -73,3 +73,6 @@ Les capacitats de l' [!INCLUDE[pn_project_service_auto](../includes/pn-project-s
  [Guia de l'administrador de comptes](../psa/account-manager-guide.md)   
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)   
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

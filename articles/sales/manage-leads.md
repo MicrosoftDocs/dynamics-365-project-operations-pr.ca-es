@@ -80,3 +80,6 @@ El procés de negoci de client potencial a oportunitat admet les fases següents
 | Desenvolupament | Oportunitat | Desenvolupeu l'oportunitat per afegir més informació sobre el treball implicat, les parts interessades clau i la competència. |
 | Proposa | Oportunitat | Desenvolupeu la proposta i obteniu l'aprovació de l'equip de revisió intern. |
 | Tanca  | Oportunitat | Guanyeu l'oportunitat per tancar l'acord. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ A diferència de les reserves, les assignacions són el compromís de recursos a
 Normalment, la suma de les reserves d'un recurs equivaldrà a la suma de les assignacions del recurs en una o moltes tasques. No obstant, el Project Operations no obliga a aplicar aquesta concordança. La visualització **Conciliació** mostra llocs a l'administrador del projecte on les reserves i les assignacions d'un recurs no coincideixen.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

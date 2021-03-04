@@ -42,3 +42,6 @@ Feu servir el quadre de cerca del **Selector de recursos** per cercar tots els r
 1. Des de la quadrícula de tasques, el tauler o la cronologia, desplaceu-vos a la cel·la **Assignat a**.
 2. Al quadre de cerca, comenceu a escriure un nom. Els resultats de cerca per al nom es mostren al **Selector de recursos** a l'apartat **Altres recursos**.
 3. Seleccioneu el recurs que voleu assignar a la tasca o seleccioneu el nom del recurs a **Altres recursos de l'equip**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

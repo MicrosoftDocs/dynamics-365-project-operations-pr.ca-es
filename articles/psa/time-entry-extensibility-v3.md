@@ -132,3 +132,6 @@ Heu d'utilitzar validacions de complements per a totes les validacions que reque
 
 > [!IMPORTANT] 
 > Actualment, un problema conegut a les pàgines de TBX impedeix que els usuaris puguin corregir la informació i tornar a seleccionar Fet quan una actualització falla una validació de complements. Com a solució alternativa, configureu les validacions de regles de negocis per evitar aquesta situació en la mesura del possible.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

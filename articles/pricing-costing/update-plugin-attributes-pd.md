@@ -52,3 +52,6 @@ Completeu els passos següents per actualitzar i tornar a registrar els compleme
 7. Seleccioneu **D'acord** per tancar la pàgina i, a continuació, seleccioneu **Actualitza el pas**.
 8. Repetiu els passos del 2 al 7 per al segon complement **PreOperationQuoteLineDetail**. Per a aquest complement, heu d'actualitzar el pas **Actualització de msdyn_quotelinetransaction**.
 9. Tanqueu **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

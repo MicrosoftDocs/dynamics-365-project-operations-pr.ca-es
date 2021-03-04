@@ -54,3 +54,6 @@ Durant el procés de vendes, podeu elaborar estimacions de vendes des de zero am
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

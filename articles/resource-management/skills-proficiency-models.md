@@ -43,3 +43,5 @@ L'addició de característiques als requisits de recursos us permet documentar e
 3. A la subquadrícula **Competències**, seleccioneu **+ Afegeix una nova característica de requisit.**
 4. A la subfinestra de creació ràpida, cerqueu i seleccioneu les característiques necessàries i afegiu-hi un **Valor de qualificació**.
 5. Seleccioneu **Desa i tanca**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

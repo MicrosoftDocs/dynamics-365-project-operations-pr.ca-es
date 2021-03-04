@@ -64,3 +64,6 @@ Afegiu les entitats del Project Service següents a la solució de preus per fer
 5.  Quan se us demani que incloeu entitats dependents per a les entitats seleccionades, seleccioneu **No, no incloguis els components necessaris**.
 
     ![Incloure entitats dependents](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

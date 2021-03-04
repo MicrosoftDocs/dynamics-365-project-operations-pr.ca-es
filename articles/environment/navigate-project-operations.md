@@ -38,3 +38,6 @@ Seleccioneu **Inicia la sessió** > **Inicia la sessió a l'entorn** per anar al
 
 > [!NOTE]
 > Podeu accedir al Project Operations al Common Data Service i al mòdul **Administració de projectes i comptabilitat** directament mitjançant les URL respectives. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

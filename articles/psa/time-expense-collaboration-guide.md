@@ -73,3 +73,6 @@ Feu clic a un enllaç de sota per aprendre més sobre què podeu fer amb l'[!INC
  [Guia de l'administrador de comptes](../psa/account-manager-guide.md)   
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)   
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

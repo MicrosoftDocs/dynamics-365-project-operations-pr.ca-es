@@ -47,3 +47,6 @@ Creeu un compte per a cada client amb qui treballeu, independentment de si prepa
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de comptes](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

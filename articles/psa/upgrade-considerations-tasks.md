@@ -96,3 +96,6 @@ Per garantir l'actualització correcta, les relacions següents s'han de manteni
 
 - Totes les dependències de les tasques del projecte han d'estar relacionades amb el mateix projecte.
 - Una tasca no pot tenir la mateixa dependència a la qual es fa referència més d'una vegada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

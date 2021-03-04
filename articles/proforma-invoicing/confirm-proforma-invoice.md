@@ -198,3 +198,6 @@ Valor real de vendes facturades per l'import de la fita a la fita original a la 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

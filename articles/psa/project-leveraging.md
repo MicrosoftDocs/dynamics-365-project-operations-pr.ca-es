@@ -54,3 +54,6 @@ Podeu definir l'esforç de treball i les estimacions de planificació mitjançan
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importar estimacions d'un projecte a una oferta
 
 Després de definir estimacions de projecte, podeu importar-les a la línia d'oferta. A la pàgina **Detalls de la línia d'oferta**, seleccioneu **Importa a partir d'estimacions** a la franja per resumir les estimacions de projecte pel tipus de transacció, la funció o el nivell de tasca.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

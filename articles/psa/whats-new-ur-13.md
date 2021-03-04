@@ -59,3 +59,6 @@ En aquest tema es mostren les característiques i correccions que són noves o s
      - Correcció: els botons addicionals per a **Nova oportunitat**, **Oferta**, **Línia de comanda** i **Afegeix un producte** són visibles a les ordres per a les Oportunitats, Ofertes, Productes de comanda i la subquadrícula Línies basades en projectes.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -236,3 +236,6 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 22. Seleccioneu **Envia**.
 23. Introduïu qualsevol comentari per a l'aprovador.
 24. Seleccioneu **Fet**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

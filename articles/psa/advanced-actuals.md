@@ -34,3 +34,6 @@ ms.locfileid: "5145706"
 Totes les transaccions financeres que es produeixen durant un projecte es registren. Aquestes transaccions es registren com a **valors reals**. A la taula següent es mostren els diferents tipus de valors reals que s'han creat, en funció de si el projecte és un projecte de temps, de preu fix o intern, o si es troba a la fase de prevenda.
 
 > ![Taula que mostra com es registren els valors reals](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

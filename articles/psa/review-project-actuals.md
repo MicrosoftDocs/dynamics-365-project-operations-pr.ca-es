@@ -35,3 +35,6 @@ Aneu a les dades reals del projecte i assegureu-vos que el cost i les vendes no 
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

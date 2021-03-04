@@ -344,3 +344,6 @@ Durant el primer mes, es registren un total de 800 hores pels consultors del pro
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

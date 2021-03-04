@@ -95,3 +95,6 @@ Actualment, s'admeten els Estats Units.
 El Finance es posarà en contacte amb el Cognitive Services per extreure les dades dels camps. El Cognitive Services conservarà una còpia del rebut fins a 24 hores mentre es produeix el processament. Després de completar el processament, el Cognitive Services eliminarà el rebut. Els rebuts es continuen emmagatzemant al Finance.
 
 Per obtenir més informació, vegeu [Habilitar la comprensió de rebuts amb la funcionalitat nova del reconeixedor de formularis](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

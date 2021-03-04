@@ -60,3 +60,6 @@ Podeu analitzar ofertes i generar gràfics per a les expectatives de client sobr
 L'anàlisi de les expectatives dels clients sobre la planificació es fa comparant l'última data d'acabament del detall de la línia d'oferta amb la data de lliurament sol·licitada a totes les línies d'oferta de l'oferta.
 
 L'anàlisi de les expectatives dels clients sobre el pressupost es fa comparant la suma del pressupost total de clients amb l'import de la cotització a totes les línies d'oferta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

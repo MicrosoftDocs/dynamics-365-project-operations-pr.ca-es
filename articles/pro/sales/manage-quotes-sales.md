@@ -33,3 +33,6 @@ Es pot veure una llista de totes les ofertes de projecte a la pàgina de llista 
 2. Utilitzeu el **Commutador de visualització** per seleccionar altres visualitzacions filtrades de les ofertes. Amb criteris de filtratge personalitzats, podeu configurar les vostres pròpies visualitzacions i opcions de navegació.
 
 Es poden crear o suprimir ofertes des d'aquesta pàgina de llista o des de les pàgines de detalls.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

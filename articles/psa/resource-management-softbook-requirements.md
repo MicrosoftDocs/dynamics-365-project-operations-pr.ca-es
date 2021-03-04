@@ -63,3 +63,6 @@ Podeu utilitzar el mateix mètode per cancel·lar una reserva fixa o una reserva
 Per convertir un recurs reservat de manera flexible a reservat de manera fixa a la pestanya **Equip** del projecte, seleccioneu el recurs i, a continuació, seleccioneu **Confirma**.
 
 ![Ordre Confirma](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

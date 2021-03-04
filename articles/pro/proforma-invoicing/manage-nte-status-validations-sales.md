@@ -73,3 +73,6 @@ Podeu fer una reavaluació massiva de l'estat del límit que no s'ha de superar.
 Per reavaluar l'estat del límit que no s'ha de superar, seleccioneu un o més valors reals a la visualització **Registre de facturació de temps i material** o **Valors reals** i, a continuació, seleccioneu **Reavalua l'estat del límit que no s'ha de superar**.
 
 Tots els valors reals seleccionats pertinents amb un límit que no s'ha de superar s'avaluaran en relació amb la configuració del límit que no s'ha de superar. Els valors reals que són rellevants per a la reavaluació de l'estat del límit que no s'ha de superar són valors reals de vendes no facturades que encara no s'han facturat, no estan en un esborrany de factura i es marquen com a imputables. Qualsevol altre valor real seleccionat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

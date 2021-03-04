@@ -32,3 +32,6 @@ Per als informes de despeses, podeu desglossar des d'una transacció a l'informe
 Per desglossar l'informe de despeses original en què va aparèixer una transacció, seleccioneu la transacció i seleccioneu **Document original**.
 
 Quan visualitzeu transaccions individuals, també podeu veure qualsevol dada addicional que s'hagi adjuntat a una transacció. Per exemple, per a una despesa d'hotel desglossada, podeu veure una llista detallada de despeses com l'accés a Internet, les trucades telefòniques i el servei d'habitacions.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Un cop s'ha utilitzat la funcionalitat d'ampliació de la reserva per a cada rec
 Observeu que una mirada més profunda dels detalls de les reserves mostra diferències en l'hora d'inici de les reserves. Les reserves no comencen abans de l'hora d'inici del contorn d'assignació ni abans de l'hora d'inici disponible del recurs.
 
 ![Noves reserves dels recursos al tauler de planificació](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Els camps següents per al cost i les vendes previstos, reals i restants no es m
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

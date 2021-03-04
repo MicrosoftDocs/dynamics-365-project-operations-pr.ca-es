@@ -98,3 +98,6 @@ Quan processeu els imports restants del pressupost, es poden crear transaccions 
 5. Per a cada projecte que voleu processar, seleccioneu l'opció al començament de la línia per al projecte. 
 6. Seleccioneu **Processa** per transferir els imports pressupostaris restants per als projectes seleccionats a l'exercici fiscal seleccionat.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

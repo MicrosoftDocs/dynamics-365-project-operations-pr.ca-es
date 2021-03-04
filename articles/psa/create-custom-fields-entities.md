@@ -73,3 +73,6 @@ Podeu crear dades per a les dimensions basades en l'entitat manualment o mitjan�
 > ![Dades d'exemple per a l'entitat Càrrec estàndard ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

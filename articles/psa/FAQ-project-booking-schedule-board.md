@@ -91,3 +91,6 @@ Completeu els passos següents per fer la reserva des d'un requisit de recurs no
 
 4. Ara que el recurs està reservat, heu d'assignar tasques manualment.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

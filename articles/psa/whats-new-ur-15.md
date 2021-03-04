@@ -63,3 +63,6 @@ En aquest tema es mostren les característiques i correccions que són noves o s
   - Correcció: ja no s'obté cap missatge d'error a **Cerca de projectes** al formulari **Línia d'oferta** quan hi ha més de 1000 projectes.
   - Correcció: la quadrícula **Estimacions** per a estimacions de treball i estimacions de despesa ara mostra el símbol monetari correcte.
   - Correcció: després de l'actualització per part d'una organització del PSA de la versió d'actualització 14 a la versió d'actualització 15, la pestanya **Planificació** ja no apareix a en blanc al formulari **Projecte**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ La taula següent mostra els camps del registre del client d'oferta d'una línia
 Podeu editar els percentatges de divisió de facturació en línia. Quan els percentatges de divisió de la facturació no sumen un total de 100%, es produeix un error. Després d'editar els percentatges de divisió de la facturació, actualitzeu la pàgina de la línia d'oferta per suprimir l'error.
 
 Utilitzeu l'acció de distribució uniforme a la subquadrícula de clients de la línia d'oferta per assignar les divisions de facturació a tots els clients de la línia d'oferta. Si hi ha un factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un dels clients de la línia d'oferta sempre està etiquetat com a client d'arrodoniment, la qual cosa vol dir que el registre de client de la línia d'oferta té la marca definida com a **Sí**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

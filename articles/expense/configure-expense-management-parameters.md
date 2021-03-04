@@ -83,3 +83,6 @@ En aquest tema es descriuen els paràmetres que controlen el comportament genera
 | Mostra la certificació anticorrupció   | Seleccioneu aquesta opció per mostrar el text anticorrupció quan es crea un informe de despeses. Llavors, es poden habilitar categories de despeses específiques que requeriran que la certificació anticorrupció es seleccioni a l'informe de la despesa. Per exemple, una categoria de regal que estigui relacionada amb una despesa de funcionari del govern podria exigir que l'empleat confirmi que la despesa compleix la política de l'empresa relacionada amb funcionaris del govern. |
 | Missatge anticorrupció per a la persona que fa l'enviament | Introduïu el text que s'hauria de mostrar a un empleat que està creant un informe de despeses. Per introduir el text específic de la llengua que es mostrarà, segons la llengua de l'usuari, seleccioneu **Traduccions**. |
 | Missatge anticorrupció per a l'aprovador  | Introduïu el text que s'hauria de mostrar a l'aprovador quan es crea un informe de despeses. Per introduir el text específic de la llengua que es mostrarà, segons la llengua de l'usuari, seleccioneu **Traduccions**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

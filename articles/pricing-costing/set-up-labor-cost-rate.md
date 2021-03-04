@@ -84,3 +84,6 @@ En la llista de preus de cost per a Fabrikam UK-robòtica, les tarifes de cost e
 | Desenvolupador | Fabrikam UK | 115 GBP |
 
 La llista de preus de cost pot proporcionar les tarifes de treball en diverses monedes. Quan es generi una estimació de cost en el projecte, el Project Operations convertirà aquestes tarifes de cost en la moneda de projecte i les mostrarà a l'usuari. Quan s'aprova una entrada de temps i es crea un valor real de cost, el valor real de cost té el preu en la moneda d'aquesta línia de preu per funció coincident a la llista de preus de cost. Els valors reals de cost per temps en un sol projecte es poden registrar en diverses monedes. No obstant això, en consolidar o resumir els costos reals del treball a nivell de projecte, el Project Operations convertirà tots els imports de cost laboral en la moneda del projecte, que l'usuari pot veure.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

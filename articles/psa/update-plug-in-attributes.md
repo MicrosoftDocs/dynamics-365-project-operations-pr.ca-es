@@ -68,3 +68,6 @@ En els passos següents s'explica el procés per registrar els complements.
 
 9. Tanqueu el Plugin Registration Tool.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

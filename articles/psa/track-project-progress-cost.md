@@ -40,3 +40,6 @@ La vista del seguiment de l'esforç mostra el seguiment del progrés de les tasq
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

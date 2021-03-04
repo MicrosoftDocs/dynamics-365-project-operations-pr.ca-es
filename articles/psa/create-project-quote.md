@@ -55,3 +55,6 @@ Crear una oferta és semblant a crear una oportunitat. La diferència és que un
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de comptes](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

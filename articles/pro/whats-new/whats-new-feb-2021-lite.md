@@ -38,3 +38,6 @@ Aquest tema s'aplica als components i versions següents del Dynamics 365 Projec
 | **Planificació i seguiment de projectes** | 2164035 | S'han corregit problemes amb la funció **Copia el projecte**. |
 | **Entrada de temps** | 2129161 | S'apliquen restriccions més ajustades per garantir que els usuaris no poden canviar ni actualitzar una entrada de temps enviada o aprovada. |
 | **Entrada de temps** | 2103572 | La aprovació de temps per a entrades de tempos que no són de projecte no pot estar cercant funció d'aprovador de projecte. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

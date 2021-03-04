@@ -149,3 +149,6 @@ A la taula següent es mostren els registres de l'entitat Connexió de la transa
 | Correcció d'esborrany de factura       | GUID de transacció de la línia de factura | Reemplaçament          | msdyn_invoicelinetransaction | GUID de vendes facturades            | Original           | msdyn_actual       |
 | Correcció de confirmació de factura     | GUID de la reversió de vendes facturades    | Reversió          | msdyn_actual                 | GUID de vendes facturades            | Original           | msdyn_actual       |
 | GUID del valor real de vendes no facturades nou | Reemplaçament                     | msdyn_actual       | GUID de vendes facturades            | Original                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

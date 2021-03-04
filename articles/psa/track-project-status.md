@@ -58,3 +58,6 @@ A mesura que la participació avança, les fases del projecte s'actualitzen per 
 
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

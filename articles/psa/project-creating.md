@@ -149,3 +149,6 @@ Per defecte, si una tasca de node fulla no té un predecessor, pren per la data 
 ### <a name="manual-scheduling"></a>Planificació manual
 
 Si les regles de la planificació automàtica no compleixen els vostres requisits, podeu definir el mode de tasca per a la tasca a **Programada manualment**. Aquest paràmetre evita que el motor de planificació hagi de calcular els valors d'altres atributs de planificació. Independentment del mode de la tasca, si definiu els predecessors en les tasques, sempre afecteu la data d'inici de la tasca dependent.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

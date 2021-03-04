@@ -123,3 +123,6 @@ Quan treballeu amb l'entitat **Valor real**, és important que entengueu quina t
 L'entitat **Origen de la transacció** registra l'origen del registre **Valor real** i l'entitat **Connexió de la transacció** registra els registres relacionats del registre **Valor real**. A més, el registre **Valor real** conté referències al projecte, contracte de projecte (comanda), recurs disponible i client.
 
 ![Diagrama que mostra relacions de connexió de la transacció, origen i valors reals](media/PS-Reporting-image6.png "Diagrama que mostra relacions de connexió de la transacció, origen i valors reals")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

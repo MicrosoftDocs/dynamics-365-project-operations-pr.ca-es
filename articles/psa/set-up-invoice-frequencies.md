@@ -51,3 +51,6 @@ Les freqüències de factura de l'[!INCLUDE[pn_project_service_auto](../includes
   
 ### <a name="see-also"></a>Vegeu també  
  [Configurar el Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

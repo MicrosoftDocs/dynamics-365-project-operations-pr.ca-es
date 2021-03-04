@@ -43,3 +43,6 @@ Per fer una còpia de la llista de preus, completeu els següents passos.
 1. A les pestanyes **Funció**, **Categoria** i **Element de la llista de preus** d'una llista de preus, podeu seleccionar **Actualitza els preus** per aplicar un marge comercial per a tots els preus de la subquadrícula. 
 2. A la pàgina de diàleg que s'obre, introduïu un marge comercial. També podeu introduir un percentatge de marge comercial negatiu per reduir els preus en un determinat percentatge. 
 3. Seleccioneu **D'acord** a la pàgina de diàleg i després verifiqueu que els preus de la subquadrícula reflecteixin els canvis que heu fet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

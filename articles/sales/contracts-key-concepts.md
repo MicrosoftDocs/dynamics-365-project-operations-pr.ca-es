@@ -88,3 +88,6 @@ Les planificacions de facturació són específiques de cada línia de contracte
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Canvis de les comandes del Dynamics 365 Sales
 
 Els contractes del Project Operations es basen en les comandes del Dynamics 365 Sales. No obstant això, hi ha desviacions i diferències importants de funcionalitat. Els contractes tenen el seu propi formulari i elements de la interfície d'usuari, regles de negoci, lògica empresarial en complements i scripts de client que els fan únics de les comandes. Per aquestes raons, no utilitzeu una comanda del Sales i un contracte del Project Operations indistintament.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

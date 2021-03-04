@@ -45,3 +45,6 @@ A més, cal assignar una funció per defecte a cadascun dels recursos que es pot
 A la pestanya **Project Service** també podeu definir un objectiu d'ús individual per al recurs. A continuació, el càlcul d'ús utilitza l'objectiu d'ús per avaluar l'objectiu del recurs en comptes de l'objectiu de la funció per defecte del recurs.
 
 L'ús es mostra només per a un recurs si aquest recurs té temps aprovat imputable durant el període que es mostra a la quadrícula.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

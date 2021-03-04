@@ -127,3 +127,6 @@ Per crear una nova estructura del desglossament del treball amb el Microsoft Pro
 8.  Seleccioneu el **calendari** que s'utilitzarà per als recursos.
 
 11. Feu clic a **D'acord**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

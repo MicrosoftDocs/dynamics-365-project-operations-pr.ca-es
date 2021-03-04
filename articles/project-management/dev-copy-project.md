@@ -112,3 +112,6 @@ A l'exemple següent es mostra com es truca a l'acció personalitzada **CopyProj
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

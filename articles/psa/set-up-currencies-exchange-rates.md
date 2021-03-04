@@ -43,3 +43,6 @@ Per tal de crear ofertes i factures per als vostres clients a l'[!INCLUDE[pn_pro
   
 ### <a name="see-also"></a>Vegeu també  
  [Configurar el Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

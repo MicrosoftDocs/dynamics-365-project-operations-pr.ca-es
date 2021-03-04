@@ -57,3 +57,6 @@ A la taula següent s'enumeren les actualitzacions al Project Operations a la ve
 | Temps i despeses | 2034882 | El botó **Nou** es visualitza dues vegades a la barra d'ordres per a les entrades de temps quan Dynamics 365 Field Service està instal·lat. |
 | Temps i despeses | 2056028 | Actualitza la pàgina **Edició de temps** per incloure la línia de temps. |
 | Temps i despeses | 1983747 | El gràfic d'entrada de temps mostra dades addicionals. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

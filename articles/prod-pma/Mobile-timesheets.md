@@ -62,3 +62,6 @@ Android serà compatible amb l'actualització de la plataforma 16, quan estigui 
 13. Opcional: introduïu les línies del full d'hores addicionals.
 
 14. Després d'haver completat la introducció de les línies del full d'hores, seleccioneu l'acció **Flux de treball** \> **Envia** per enviar el vostre full d'hores al procés d'aprovació del flux de treball.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

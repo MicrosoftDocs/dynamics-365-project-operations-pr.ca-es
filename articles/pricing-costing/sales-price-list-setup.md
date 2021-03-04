@@ -59,3 +59,6 @@ En un contracte de projecte, s'utilitza el següent ordre de precedència per de
 Quan una llista de preus de projecte s'introdueix per defecte, el sistema valida que la moneda coincideix amb la moneda del client i que les llistes de preus per defecte que s'han introduït tenen un context de **Vendes**.
 
 Podeu associar diverses llistes de preus amb les entitats Client, Oportunitat, Oferta i Contracte del projecte. Aquesta capacitat admet els preus per defecte específics d'una data per a un contracte de projecte de llarg termini, on podeu necessitar més d'una llista de preus per explicar les actualitzacions dels preus que es produeixen a causa de la inflació. No obstant, si les llistes de preus que s'associen amb l'entitat Client, Oportunitat, Oferta o Contracte del projecte tenen una data d'efectivitat que se solapa, els preus per defecte podrien ser incorrectes. Per tant, heu d'assegurar-vos que les llistes de preus de projecte que tenen una data d'efectivitat que se solapa no estan associades amb aquestes entitats.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

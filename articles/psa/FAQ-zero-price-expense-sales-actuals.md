@@ -72,3 +72,6 @@ Si la configuració del preu per a la categoria de despeses no és vàlida, haur
 Si encara no veieu un preu vàlid a les vendes de despeses reals després de fer les tres comprovacions anteriors, registreu una sol·licitud d'assistència tècnica.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

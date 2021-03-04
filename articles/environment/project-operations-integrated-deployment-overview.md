@@ -43,3 +43,6 @@ Utilitzeu aquest tipus d'implementació si l'expectativa del Project Operations 
 - Necessiteu un motor d'impostos de vendes de classe empresarial ric i de tipus de canvi per generar factures de projectes per als clients.
 - Sistema de comptabilitat del projecte i reconeixement d'ingressos que compleix amb els estàndards d'informes financers internacionals (IRFS).
 - Aplicacions de finances o administració de cadenes de subministrament i integració de transaccions basades en projectes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

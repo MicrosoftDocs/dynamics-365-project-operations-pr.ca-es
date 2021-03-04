@@ -38,3 +38,6 @@ Els atributs següents es defineixen per a cada element de la línia de despesa:
 - **Preu de cost per unitat**: preu per unitat utilitzat per calcular el cost de la despesa.
 - **Preu de venda per unitat**: preu per unitat utilitzat per calcular el preu de venda de la despesa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

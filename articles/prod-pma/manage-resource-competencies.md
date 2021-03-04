@@ -53,3 +53,6 @@ Per configurar les competències per a un treballador, podeu utilitzar la pàgin
 5. Al camp **Data del nivell** , seleccioneu **14/1/2014**.
 6. En el camp **Anys d'experiència** , introduïu **10**.
 7. Seleccioneu **Desa** i, a continuació, tanqueu la pàgina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

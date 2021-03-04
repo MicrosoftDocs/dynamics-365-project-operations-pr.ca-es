@@ -113,3 +113,6 @@ Com que el Dynamics 365 Project Service Automation utilitza el motor del Univers
 Per visualitzar més detalls d'un recurs individual, feu-hi clic amb el botó dret per obrir la targeta de recursos.
 
 ![Targeta de recursos](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

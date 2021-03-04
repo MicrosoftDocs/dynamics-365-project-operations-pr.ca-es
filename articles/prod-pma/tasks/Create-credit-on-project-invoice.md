@@ -39,3 +39,6 @@ ms.locfileid: "4072189"
 10. Feu clic a D'acord. 
 
 Després d'aquest pas, la nota de crèdit estarà disponible per a la proposta de factura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

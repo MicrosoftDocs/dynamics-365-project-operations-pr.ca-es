@@ -273,3 +273,6 @@ Valor real de venda facturada per a la línia de producte amb la quantitat i qua
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

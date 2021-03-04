@@ -51,3 +51,6 @@ Els administradors de comptes i de projectes normalment sol·liciten recursos pe
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

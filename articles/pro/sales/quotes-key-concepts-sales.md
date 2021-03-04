@@ -89,3 +89,6 @@ Les ofertes del Project Operations es basen en les ofertes del Dynamics 365 Sale
 - Les ofertes del Project Operations tenen el seu propi formulari i elements de la interfície d'usuari, regles de negoci, lògica empresarial en complements i scripts de client que les fan úniques de les ofertes del Sales.
 
 Per aquests motius, no es recomana utilitzar una oferta del Sales i una oferta del Project Operations indistintament.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

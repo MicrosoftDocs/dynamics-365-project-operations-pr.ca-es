@@ -70,3 +70,6 @@ S'han corregit els problemes següents:
 - Millora de la gestió d'errors per fer front a les excepcions de referència nul·la generades a partir de **Copia el projecte: estimació de l'administració de HelperResource**.
 - **No està a punt per facturar** un **registre de facturació de temps i material** no esborra l'estat de facturació.
 - S'han corregit els botons de **preus** mal etiquetats a la pestanya **Preu per funció** i **Articles del catàleg**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

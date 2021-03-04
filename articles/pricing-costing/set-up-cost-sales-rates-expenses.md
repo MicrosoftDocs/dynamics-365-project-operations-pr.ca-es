@@ -55,3 +55,6 @@ Quan se selecciona aquest mètode de preus en la línia de preus de categoria qu
 
 ### <a name="markup-over-cost"></a>Marge comercial sobre el cost
 Quan se selecciona aquest mètode de preus en la línia de preus de categoria que està vinculada a una llista de preus de venda, el preu per defecte és el de la combinació de categoria i unitat només per a un valor real de despesa. Per exemple, els valors reals de vendes no facturades per a la classe de transacció de despeses. Aquest preu unitari s'estableix en el valor real de vendes no facturades a un valor calculat a partir del preu unitari en el valor real de cost per a aquesta despesa després d'aplicar-hi el percentatge de marge comercial definit. Els preus per defecte basats en el cost no es produeixen en les estimacions del projecte de despeses o en els detalls de la línia d'oferta i la línia de contracte per a les despeses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

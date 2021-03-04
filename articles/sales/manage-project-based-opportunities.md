@@ -65,3 +65,6 @@ El procés de vendes d'oportunitats al Project Operations és una extensió del 
 > Si el vostre acord basat en projectes va començar amb una oportunitat, el procés de venda d'oportunitat té prioritat.
 
 Podeu editar el flux del procés de negoci del producte o crear els vostres propis fluxos del procés de negoci per fer un seguiment del vostre procés de vendes segons sigui necessari. Per obtenir més informació sobre el flux del procés de negoci, vegeu [Informació general dels fluxos del procés de negoci](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

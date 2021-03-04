@@ -71,3 +71,6 @@ En resum, els següents mètodes d'assignació condueixen a la sobrerreserva si 
 - Hores distribuïdes uniformement
 
 Quan feu servir algun d'aquests tres mètodes d'assignació, no se us notificarà l'excés de reserva de recursos. Per corregir l'excés de reserva, hauríeu d'utilitzar el Tauler de planificació.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

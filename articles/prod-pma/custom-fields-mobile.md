@@ -429,3 +429,6 @@ L'entrada d'una categoria de projecte per defecte en les entrades del full d'hor
 1. L'aplicació prova de col·locar la categoria per defecte del recurs del projecte. Aquesta categoria per defecte es defineix als mètodes **getCurrentUserResource** i **getDelegatedResourcesForCurrentUser** a la classe **TSTimesheetSettingsService**.
 2. Si la categoria per defecte no es proporciona al nivell de recursos del projecte, l'aplicació prova de recuperar-la de l'activitat del projecte. Aquesta categoria per defecte es defineix en el mètode **getActivitiesForProject** a la classe **TSTimesheetProjectService**.
 3. Si la categoria per defecte no es proporciona al nivell d'activitat del projecte, la categoria per defecte s'obté dels paràmetres del projecte. Aquesta categoria per defecte es defineix en el mètode **getProjectDetailsbyRule** a la classe **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

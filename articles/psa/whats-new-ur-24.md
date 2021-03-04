@@ -81,3 +81,6 @@ S'han corregit els problemes següents:
 - El botó **Actualitza els valors reals** calcula incorrectament les tasques de resum.
 - Complement del Microsoft Project: s'ha esmenat l'error de referència nul·la si un membre de l'equip té una unitat de recursos buida.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

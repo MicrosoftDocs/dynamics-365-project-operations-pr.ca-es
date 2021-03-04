@@ -20,3 +20,6 @@ ms.locfileid: "4514493"
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 Podeu utilitzar la funcionalitat proporcionada per Dynamics 365 Field Service per definir les funcions del vostre entorn de Dynamics 365 Project Operations. Per completar aquesta configuració, vegeu [Configurar categories de recursos que es poden reservar](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

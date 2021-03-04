@@ -48,3 +48,6 @@ Si teniu assignacions de tasca per a un recurs però no hi ha cap reserva, selec
 Les reserves creades mitjançant l'acció **Amplia la reserva** s'associen amb el requisit del projecte principal. Quan s'inicia una ampliació, els requisits específics que s'han d'ampliar no es poden determinar perquè el recurs es pot associar amb més d'un requisit per al projecte.
 
 L'administrador de projectes o administrador de recursos pot utilitzar el tauler de planificació per administrar les situacions en què el recurs té un excés de reserves més enllà de la seva capacitat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ A continuació, creareu una estructura del desglossament del treball per al vost
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

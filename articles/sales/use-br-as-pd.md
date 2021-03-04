@@ -78,3 +78,6 @@ El registre de la dimensió de preus de **msydn_bookableresource** ha de ser inf
 5. Afegiu **msdyn_bookableresourceid** al **Nom del camp**.
 
  ![Formulari Afegeix nous noms de camps de dimensions de preus](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

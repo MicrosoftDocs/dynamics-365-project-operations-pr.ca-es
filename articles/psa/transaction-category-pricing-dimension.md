@@ -53,3 +53,6 @@ La taula següent és una llista exhaustiva dels formularis i les visualitzacion
 2. A la pàgina **Paràmetres**, a la pestanya **Dimensions de preus basades en l'import**, observeu que la quadrícula de la pestanya mostra els registres de l'entitat **Dimensions de preus**.
 3. Afegiu **Categoria de la transacció** a aquesta llista i definiu els camps **Aplicable al cost** i **Aplicable a la venda** com a **Sí**.
 4. Al camp **Tipus de dimensió**, seleccioneu **Basada en la quantitat** i, a continuació, seleccioneu la prioritat per a la **Categoria de transacció** relacionada amb el cost i les vendes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

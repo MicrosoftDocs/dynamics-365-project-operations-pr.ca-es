@@ -112,3 +112,6 @@ No. L'estimació de planificació es restringeix actualment a hores i no es pot 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Poden editar-se, suprimir i afegir unitats i grups d'unitats?
 Sí. Exceptuant el grup d'unitats **Temps** i la unitat **Hores**, totes les unitats es poden suprimir o editar i es poden afegir unitats noves. A PSA, el grup d'unitats **Temps** i la unitat **Hora** no es poden suprimir. No obstant, es poden actualitzar amb un text traduït del camp **Nom**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

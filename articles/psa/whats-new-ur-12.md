@@ -61,3 +61,6 @@ En aquest tema es mostren les característiques i correccions que són noves o s
     - Correcció: s'han trobat identificadors d'objecte duplicats trobats al formulari **Contracte principal**.
     - Correcció: s'ha actualitzat la lògica per fer visible la pestanya **Anàlisi de l'oferta** perquè es visualitzi la configuració de les metadades de la pestanya.
     - Correcció: la data comptable en el registre actual prové de la data de l'entrada de temps o despesa i no la data de l'aprovació.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

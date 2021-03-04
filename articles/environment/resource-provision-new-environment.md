@@ -209,3 +209,6 @@ Si heu aplicat dades de demostració a l'entorn del Finance, vegeu [Configurar i
 
 
 L'entorn del Project Operations ja està proveït i configurat. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ En aquest tema es mostren les característiques i correccions que són noves o s
 S'han corregit els problemes següents:
 
 - Planificació de la degradació del rendiment de la cerca d'assistència
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

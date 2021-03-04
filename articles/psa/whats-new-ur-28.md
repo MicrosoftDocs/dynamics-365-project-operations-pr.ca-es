@@ -55,3 +55,6 @@ S'han corregit els problemes següents:
 - Es genera una excepció de referència nul·la quan s'invoca el complement **GetEstimatesForProject**.
 - **Marca a punt per facturar** a la quadrícula de fites només actualitza parcialment els atributs, excepte l'atribut **InvoiceStatus**, que s'actualitza.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

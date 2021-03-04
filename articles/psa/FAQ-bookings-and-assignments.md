@@ -68,3 +68,6 @@ La **Vista de conciliació** permet a l'administrador del projecte veure les res
 > [!NOTE]
 > Si es mou una tasca que heu contornejat, aquests contorns no es mantindran. Els contorns es regeneren d'acord amb el calendari del projecte per poder justificar canvis en les hores de treball i dies festius. Això és per temes de disseny, perquè el sistema no coneix la intenció del contorn original i no pot determinar si té sentit retenir aquest contorn en un nou període de temps. Com que les reserves i assignacions estan desconnectades, les reserves conserven els contorns de reserva originals. En aquest cas, haureu de cancel·lar i tornar a reservar el nou contorn d'assignació.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

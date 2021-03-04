@@ -56,3 +56,6 @@ Aquesta tasca utilitza el conjunt de dades d'USSI.
 21. Al camp **Rebut de producte** , escriviu un valor.
 22. Seleccioneu **D'acord**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

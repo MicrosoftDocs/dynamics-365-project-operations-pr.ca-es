@@ -102,3 +102,6 @@ La continuació es mostra una descripció general breu dels controls típics que
 **Afegeix una columna**: permet a l'usuari definir les columnes visibles a la quadrícula. Només es poden afegir columnes de fàbrica a les quadrícules del formulari **Planificació del projecte**.
 
 ![Botó Afegeix una columna](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

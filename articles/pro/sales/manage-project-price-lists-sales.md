@@ -67,3 +67,6 @@ Quan tingueu llistes de preus de projecte per defecte específiques de l'organit
 
 1. A **Oferta del projecte**, a la pestanya **Llista de preus del projecte**, comproveu a la subquadrícula que no s'ha seleccionat cap registre de llista de preus concret.
 2. Seleccioneu **Crea preus personalitzats**. Això crearà còpies de totes les llistes de preus estàndard associades actualment a l'oferta i associarà aquestes còpies a l'oferta. Les associacions existents a preus estàndard se suprimiran. A continuació, el comercial pot començar a fer edicions en els preus en aquestes còpies. Aquests preus canviats seran aplicables només a aquest oferta de projecte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

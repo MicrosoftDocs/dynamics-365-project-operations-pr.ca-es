@@ -33,3 +33,6 @@ Hi ha dos mètodes per administrar les despeses personals d'un treballador:
 - **Pagada per empresa**: la vostra organització paga tota la factura de la targeta de crèdit corporativa i després cobra al treballador les despeses personals.
 
 Podeu seleccionar el mètode que utilitza la vostra organització a la pàgina **Paràmetres de l'administració de despeses**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Després d'assignar una revisió pressupostària o un pressupost, podeu revisar 
 10. Quan l'assignació sigui com voleu, feu clic a Envia a la pàgina Pressupost del projecte per enviar les revisions del pressupost o el pressupost al flux de treball d'aprovació.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

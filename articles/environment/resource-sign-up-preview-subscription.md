@@ -98,3 +98,6 @@ Seguiu les instruccions del tema [Proveir un nou entorn](resource-provision-new-
 
 Instal·leu les dades instal·lació i les dades de configuració del CDS com es descriu al tema [Configurar i aplicar les dades de configuració al Common Data Service](resource-apply-pro-setup-config-data.md).
 Completeu aquest pas només després que s'hagi implementat l'entorn de demostració del Finance i que les dades de demostració del FO estiguin a punt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

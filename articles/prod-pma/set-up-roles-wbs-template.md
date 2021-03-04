@@ -107,3 +107,6 @@ S'ha afegit més opcions a la WBS per utilitzar millor la funcionalitat de recur
     > No rebeu cap advertiment que el recurs especificat és ara 2, perquè el nombre de recursos continua sent 1.
 
 14. A la pàgina **Estructura del desglossament del treball** , valideu l'assignació de recursos a la WBS i, a continuació, seleccioneu **Desa**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

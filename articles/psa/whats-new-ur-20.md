@@ -62,3 +62,6 @@ S'han corregit els problemes següents:
 - Les llistes **Preu de cost per unitat organitzativa** permeten solapaments en la data de l'efectivitat.
 - Els usuaris no poden canviar la **Unitat organitzativa** quan el tipus de comanda no està basat en el treball, ja que produirà un error d'excepció de referència nul·la.
 - Quan intenteu navegar del formulari **Detalls de la línia d'oferta** a la pestanya **Oferta**, el formulari s'actualitza i es mostrarà la pestanya **Resum**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

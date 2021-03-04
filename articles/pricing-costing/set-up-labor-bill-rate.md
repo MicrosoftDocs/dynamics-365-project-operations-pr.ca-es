@@ -55,3 +55,6 @@ Per exemple, un desenvolupador de la divisió de robòtica de Fabrikam India que
     | Desenvolupador | Fabrikam US | Fabrikam US: robòtica | 150 USD |
 
 3. Adjunteu la llista de preus de venda, **Tarifes de facturació de Fabrikam US** a la llista de preus del projecte del contracte o a un compte determinat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

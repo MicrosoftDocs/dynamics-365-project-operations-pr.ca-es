@@ -41,3 +41,6 @@ Els recursos són l'actiu més important d'una organització basada en serveis. 
 - [Reservar requisits manera flexible](resource-management-softbook-requirements.md)
 - [Aptituds i models de competència](resource-management-skills-proficiency.md)
 - [PMF de l'administració de recursos](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

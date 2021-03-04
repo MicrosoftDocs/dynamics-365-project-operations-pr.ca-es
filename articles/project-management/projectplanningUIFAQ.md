@@ -106,3 +106,6 @@ Quan es fan una o més actualitzacions a l'estructura del desglossament del treb
   - Sistema del Project Operations
   - Sistema del projecte
   - Sistema d'escriptura doble del Project Operations (aquesta funció és necessària si esteu implementant l'escenari basat en el recurs/sense existències del Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

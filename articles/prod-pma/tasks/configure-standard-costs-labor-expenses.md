@@ -54,3 +54,6 @@ En aquest tema s'explica la manera de configurar els costos estàndard per al tr
 22. Al camp **Preu** , introduïu un número. El preu de vendes real, que s'aplica quan un treballador introdueix transaccions en un diari de despeses, és el preu de vendes amb el nivell de detall més alt. Per exemple, si es configuren tant un preu de vendes general com un d'específic del treballador, el preu de vendes específic del treballador s'utilitza.  
 23. Seleccioneu **Desa**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

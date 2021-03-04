@@ -52,3 +52,6 @@ Per obtenir més informació sobre els informes al PSA, vegeu els temes següent
 - [Treballar amb el model de dades del Project Service](reports-working-project-service-data-model.md)
 - [Escriptoris digitals](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

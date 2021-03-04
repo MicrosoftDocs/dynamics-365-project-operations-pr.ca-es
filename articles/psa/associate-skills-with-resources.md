@@ -45,3 +45,6 @@ En el pas anterior, ja heu associat algunes aptituds amb un recurs nou. De tant 
   
 ### <a name="see-also"></a>Vegeu també  
  [Definir recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

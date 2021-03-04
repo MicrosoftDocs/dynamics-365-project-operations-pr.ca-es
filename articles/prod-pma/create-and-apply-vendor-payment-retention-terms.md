@@ -65,3 +65,6 @@ Després de crear els termes de retenció de proveïdors per a un proveïdor, po
 6. Si el projecte també té termes de pagament després del cobrament (PWP) establerts per al proveïdor, introduïu el percentatge de llindar per al projecte en el camp **Percentatge de llindar de PWP**.
 
 Els termes de retenció del proveïdor també es mostren a les comandes de compra que creeu per al proveïdor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Per modificar una oferta de projecte existent, l'estat de l'oferta ha de ser **C
 
 > [!NOTE]
 > Un cop s'ha canviat l'estat a **Enviada** es pot modificar una oferta de projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

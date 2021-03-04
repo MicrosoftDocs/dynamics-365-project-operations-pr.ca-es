@@ -28,3 +28,6 @@ El **pressupost del client** és un concepte específic de les línies d'oportun
 
 Quan el mètode d'ingressos del resum d'oportunitat és **Calculat pel sistema**, els valors del pressupost del client en totes les línies d'oportunitat es resumeixen per calcular els ingressos previstos. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Per obtenir més informació, vegeu:
 - [Informació general del Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Informació general de la fase 1 de llançament de 2020 del Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

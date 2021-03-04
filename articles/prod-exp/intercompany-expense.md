@@ -35,3 +35,6 @@ Perquè un treballador pugui crear i enviar despeses entre empreses, abans heu d
 
 Per poder utilitzar els grups d'impostos associats a l'entitat legal que fa el préstec (origen) en comptes de l'entitat legal que rep el préstec (destinació) de l'informe de despeses, heu d'habilitar la funcionalitat a la configuració de l'impost de vendes del llibre general. Quan el paràmetre **entitat legal per a la publicació d'impostos entre empreses** es defineix com a **Origen** i **Aplica les regles de fiscalitat per a les vendes** es defineix com a **No**, s'utilitza la combinació d'impostos de l'entitat legal que fa el préstec. Quan s'estableix el mateix paràmetre a **Destinació**, s'utilitzarà la combinació d'impostos per a l'entitat jurídica prestatària. Per a les entitats jurídiques dels Estats Units, quan el paràmetre s'estableix a **Origen**, el camp **Es pot rebre l'impost de vendes** també s'ha de configurar a la nova pàgina **Grups de comptabilització del llibre major**. El motor de comptabilitat utilitzarà la informació d'aquest camp per a l'entrada de la comptabilitat relacionada amb els impostos.   
 El comportament és coherent per a les línies de despesa publicades amb o sense un projecte.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Per utilitzar l'assistent, seguiu aquests passos.
 1. Aneu a **Administració de projectes i comptabilitat** > **Ofertes** > **Ofertes de projectes**.
 2. Seleccioneu l'oferta que voleu transferir i a la pestanya **Seguiment** , al grup **Modifica** , seleccioneu **Transfereix a un projecte**.
 3. Seguiu l'assistent **Transfereix una oferta a un projecte** per associar i transferir l'oferta a un projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

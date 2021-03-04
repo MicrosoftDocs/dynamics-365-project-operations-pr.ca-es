@@ -231,3 +231,6 @@ A la taula següent es descriu la manera com se sincronitzen les dades entre Pro
 
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

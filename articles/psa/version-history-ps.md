@@ -73,3 +73,6 @@ Per obtenir informació sobre les actualitzacions del Project Service, vegeu els
 >[!Note]
 > - Les dates de totes les regions, excepte el núvol de la comunitat de l'Administració pública (GCC), indiquen la planificació de l'actualització automàtica següent. Les dates del GCC indiquen la disponibilitat de la versió; en aquest moment, no hi ha cap actualització automàtica per a aquestes regions.
 > - Per a la resta de regions, mentre que la majoria de les actualitzacions haurien d'estar completes a la nit programada, les actualitzacions que requereixin més temps es poden completar durant les hores de foscor del cap de setmana indicat a la columna **Data planificada**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

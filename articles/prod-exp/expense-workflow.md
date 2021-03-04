@@ -55,3 +55,6 @@ El següent procés és un exemple del flux de treball d'administració de despe
 Després de verificar aquests requisits, es comptabilitza l'informe de despeses.
 
 Després que es comptabilitzi l'informe de despeses, s'autoritza el pagament de l'informe de despeses i es reemborsa a l'empleat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ També podeu configurar llistes de preus de projecte específiques del client qu
 ## <a name="custom-pricing-on-a-project-contract"></a>Preus personalitzats en un contracte de projecte
 
 Després de tenir llistes de preus de projecte per defecte de l'organització i específiques de clients, els contractes del projecte es crearan automàticament amb aquestes associacions de llistes de preus del projecte. No obstant això, les llistes de preus del projecte d'un contracte de projecte sempre es copien amb la data i el nom del contracte afegits. Els administradors de comptes i projectes poden començar a fer modificacions als preus d'aquestes còpies. Aquests preus canviats només seran aplicables a aquest contracte de projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

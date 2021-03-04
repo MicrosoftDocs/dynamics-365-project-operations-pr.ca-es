@@ -55,3 +55,6 @@ Les despeses que encara no s'han enviat es poden suprimir. Per suprimir una desp
 ## <a name="see-also"></a>Consulteu també
 
 - [Informació general de les aprovacions](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

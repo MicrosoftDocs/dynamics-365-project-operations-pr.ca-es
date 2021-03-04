@@ -63,3 +63,6 @@ Quan creeu i envieu un informe de despeses per a la bestreta en efectiu que ja h
 ### <a name="example"></a>Exemple
 Teniu previst viatjar des de Seattle a la ciutat de Nova York per a una conferència. Es crea una sol·licitud de bestreta en efectiu per a 3000.00 USD en funció del cost previst del tiquet de la conferència, els vols, l'hotel, els àpats i el taxi. No se us pagarà tret que el vostre cap aprovi aquesta sol·licitud. Quan l'administrador l'aprovi, l'avançament d'efectiu es paga com a 3000,00 USD al vostre compte bancari. A continuació, assistiu a la conferència. Després de completar el vostre viatge, esbrineu que la despesa total només era de 2790,00 USD. Seleccioneu **Efectiu** al camp **Mètode de pagament** i envieu la despesa per a 2790.00 USD. L'import de despesa enviat s'ajusta automàticament a l'avançament d'efectiu de 3000,00 USD que se us ha prestat. Ara deveu un balanç de 210.00 USD (3000.00 - 2790.00), que podeu tornar a l'empresa per mitjà de la categoria de despeses **Retorn en efectiu**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

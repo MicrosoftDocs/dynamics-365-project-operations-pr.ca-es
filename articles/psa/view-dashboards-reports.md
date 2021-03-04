@@ -49,3 +49,6 @@ Els escriptoris digitals i els informes proporcionen nocions sobre el lloc que o
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

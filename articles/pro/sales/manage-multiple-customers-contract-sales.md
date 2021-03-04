@@ -52,3 +52,6 @@ Es pot crear, actualitzar o suprimir un client de contracte de la pestanya **Cli
 Els percentatges de divisió de facturació es poden editar amb l'experiència d'edició de la quadrícula en línia. Quan els percentatges de divisió de facturació no sumin el 100 per cent, rebreu un error. Després d'editar els percentatges de divisió de facturació, actualitzeu la pàgina per descartar l'error.
 
 També podeu seleccionar **Distribueix uniformement** a la subquadrícula **Clients de contracte** per assignar divisions de facturació uniformement a tots els clients del contracte. Si hi ha cap factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un dels clients del contracte sempre està etiquetat com el client d'**arrodoniment**, la qual cosa significa que el registre del client del contracte té l'indicador d'arrodoniment definit en **Sí**. Normalment, aquest és el client principal del contracte, però també es pot canviar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

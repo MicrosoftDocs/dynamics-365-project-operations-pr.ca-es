@@ -45,3 +45,6 @@ El treball de processament per lots per crear factures és una feina recurrent. 
 
 > [!NOTE]
 > La facturació per lots només s'executa per a les línies de contracte del projecte que es configuren mitjançant planificacions de factura. Una línia de contracte amb un mètode de facturació de preu fix ha de tenir les fites configurades. Una línia de contracte de projecte amb un mètode de facturació de temps i material necessitarà una configuració de planificació de facturació basada en la data. El mateix s'aplica a una línia de contracte basada en projectes.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

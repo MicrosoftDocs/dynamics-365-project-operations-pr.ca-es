@@ -330,3 +330,6 @@ El PSA registra totes les transaccions financeres que es produeixen durant un pr
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

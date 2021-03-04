@@ -106,3 +106,6 @@ Si heu afegit un camp personalitzat al detall de la línia d'oferta i voleu que 
 
 8. Repetiu els passos de l'1 al 7 per al segon complement.
 9. Tanqueu el PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

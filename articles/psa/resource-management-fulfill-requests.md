@@ -46,3 +46,6 @@ L'auxiliar de planificació apareix i es filtra pels requisits. Seleccioneu el r
 > ![Recurs seleccionat](media/Resource-Management-image61.png)
 
 El membre de l'equip genèric se substitueix per recurs amb nom reservat de manera fixa a l'equip del projecte i les assignacions de tasques a la planificació del projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

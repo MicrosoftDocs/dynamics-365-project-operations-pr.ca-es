@@ -60,3 +60,6 @@ A la quadrícula de membres de l'equip es poden dur a terme les accions següent
 
 - **Nou**: a més d'afegir recursos directament des de la planificació, els administradors del projecte poden afegir nous membres de l'equip amb nom o genèrics.
 - **Suprimeix**: en seleccionar un o diversos membres de l'equip, l'administrador del projecte pot suprimir recursos que ja no participaran en el projecte. La supressió d'un membre de l'equip també suprimirà totes les assignacions de recursos associades i cancel·larà totes les reserves existents.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

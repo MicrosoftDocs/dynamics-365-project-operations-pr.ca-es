@@ -52,3 +52,6 @@ La vostra empresa probablement organitza les tasques de consultoria per geografi
   
 ### <a name="see-also"></a>Vegeu també  
  [Configurar el Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

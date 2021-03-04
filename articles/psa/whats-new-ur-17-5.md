@@ -44,3 +44,6 @@ En aquest tema es mostren les característiques i correccions que són noves o s
 - Correcció: s'han corregit les plantilles d'hores de treball de 24 hores que afegien de manera imprecisa un dia addicional a les tasques.
 - Correcció: s'han corregit les plantilles d'hores de treball +13 GMT que canviaven les tasques de manera imprecisa un dia abans.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

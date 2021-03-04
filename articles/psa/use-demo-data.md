@@ -55,3 +55,6 @@ Per obtenir més informació, consulteu aquest [blog](https://blogs.msdn.microso
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)   
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)   
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

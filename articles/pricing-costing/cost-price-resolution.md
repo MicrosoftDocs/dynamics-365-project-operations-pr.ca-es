@@ -35,3 +35,6 @@ Després de resoldre una llista de preus, el sistema utilitza els camps **Funci�
 Les línies estimades per a despeses fan referència a l'oferta i els detalls de la línia de contracte per a les despeses i línies d'estimació de despeses en un projecte.
 
 Després de resoldre una llista de preus, el sistema utilitza una combinació dels camps **Categoria** i **Unitat** en la línia d'estimació per a una despesa per a la coincidència amb les línies **Preu per categoria** en la llista de preus resolta. Si el sistema troba una línia de preu per categoria que té una tarifa de cost per a la combinació de camps **Categoria** i **Unitat**, aquesta és la tarifa de cost per defecte. Si el sistema no pot fer coincidir els valors **Categoria** i **Unitat**, o si pot trobar una línia de preu de categoria coincident però el mètode de preu no és **Preu per unitat**, la tarifa de cost per defecte és zero (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

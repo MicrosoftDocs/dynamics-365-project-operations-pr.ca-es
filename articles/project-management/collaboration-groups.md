@@ -26,3 +26,6 @@ Els Grups de l'Office us permeten compartir un projecte amb altres membres de l'
 > [!NOTE] 
 > Els usuaris només s'afegeixen al grup si premeu **Grups** i els afegiu. Això és diferent del comportament del Project per al web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

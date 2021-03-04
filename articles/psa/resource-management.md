@@ -53,3 +53,6 @@ Podeu assignar personal al vostre projecte amb un equip de recursos genèrics o 
 - [Reservar recursos amb nom a partir de requisits de recursos](book-named-resource.md)
 - [Enviar una sol·licitud de recurs](submit-resource-request.md)
 - [Acceptar o rebutjar un recurs del projecte proposat des d'una sol·licitud de recurs](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

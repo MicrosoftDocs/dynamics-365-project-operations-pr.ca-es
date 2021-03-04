@@ -36,3 +36,6 @@ Utilitzeu el Lifecycle Services (LCS) per administrar els entorns del Dynamics 3
 
 Utilitzeu aquest projecte del LCS per implementar l'entorn del Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

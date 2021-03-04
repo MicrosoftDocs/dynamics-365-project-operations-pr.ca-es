@@ -79,3 +79,6 @@ Podeu crear una subvenció introduint tots els detalls en un nou registre o pode
 2. Seleccioneu la subvenció que voleu modificar.
 3. A la subfinestra d'acció, a la pestanya **Subvenció** , al grup **Manteniment** , seleccioneu **Edita**.
 4. Reviseu els detalls de la subvenció i feu qualsevol canvi que sigui necessari.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

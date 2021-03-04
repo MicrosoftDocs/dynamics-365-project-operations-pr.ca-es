@@ -57,3 +57,6 @@ Les llistes de preus de cost no tenen per defecte cap entitat al Project Operati
 5. A continuació, el sistema consulta la data d'efectivitat de les llistes de preus que coincideixen amb la data de la línia d'estimació o valor real d'entrada. 
 6. Si hi ha diverses llistes de preus que són efectives per a la data de l'estimació o els valors reals d'entrada, se selecciona la llista de preus creada més recentment.
 7. Si no hi ha llistes de preus de cost adjuntes als paràmetres del projecte que coincideixin amb la moneda i la data d'efectivitat, el sistema estableix per defecte la tarifa de cost a zero (0) en la línia d'estimació o valor real d'entrada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Si l'oferta del projecte que es tanca com a Perduda fa referència a un projecte
 
 > [!NOTE]
 > Al Project Operations, si tanqueu una oferta com a guanyada o perduda, l'estat de l'oportunitat no es veurà afectat i romandrà oberta fins que es tanqui manualment.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

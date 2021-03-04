@@ -101,3 +101,6 @@ Després d'executar la característica Amplia la reserva en cada recurs, les res
 
 No obstant, una visualització més detallada de les reserves mostra diferències en l'hora d'inici de les reserves. Les reserves no començaran abans que l'hora d'inici del contorn d'assignació i ni abans de l'hora d'inici disponible del recurs.
  ![Noves reserves dels recursos al tauler de planificació](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Manteniu organitzats els documents relacionats amb el projecte per afegir-los al
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

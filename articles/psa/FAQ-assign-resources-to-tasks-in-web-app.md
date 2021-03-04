@@ -116,3 +116,6 @@ Seleccioneu **Reserva** per al recurs genèric i després podeu utilitzar el tau
 Quan el recurs genèric es compleix amb un recurs amb nom, el genèric s'elimina de l'equip i les assignacions de tasques s'assignen al recurs amb nom que va complir els requisits de recursos del recurs genèric.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

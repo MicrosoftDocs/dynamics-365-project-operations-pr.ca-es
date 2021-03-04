@@ -56,3 +56,6 @@ Una oferta existent es pot enllaçar a una oportunitat. Seguiu aquests passos pe
    Quan passeu una oportunitat a aquesta fase, podeu seleccionar aquesta oferta d'una llista d'ofertes associades a aquesta oportunitat. Si seleccioneu aquesta oferta, indiqueu que avanceu.
 
    Totes les altres ofertes associades a l'oportunitat continuaran estant disponibles i actives fins que se'n guanyi una. Podeu fer retrocedir el procés de vendes a la fase anterior de **Qualificació** i seleccionar una altra oferta amb la qual avançar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

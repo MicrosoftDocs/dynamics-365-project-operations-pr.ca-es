@@ -75,3 +75,6 @@ Quan s'hagin completat les tasques anteriors, podreu completar les tasques segü
 - Complir les sol·licituds de recursos.
 - Sol·licitar un recurs de personal d'una WBS.
 - Reservar recursos en un projecte sense necessitat de tenir una sol·licitud de recurs de personal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

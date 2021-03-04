@@ -51,3 +51,6 @@ Cada entitat legal que utilitza el Project Operations al Dynamics 365 Customer E
   - **Valors per defecte de tipus de facturació**: el Project Operations utilitza un conjunt fix de valors per defecte de tipus de facturació que s'han d'assignar a les propietats de línia del Finance. Creeu un registre per a cada tipus de facturació: **No especificada**, **Imputable**, **No imputable**, **Complementària** i **No disponible**.
   - **Valors per defecte de categoria del projecte**: seleccioneu les categories de projecte per defecte que s'utilitzaran per a cada tipus d'operació. Aquests valors per defecte s'utilitzaran al **Diari d'integració del Project Operations** i en estimacions on no s'especifiqui cap categoria de transacció per al valor real del projecte.
   - **Previsions**: seleccioneu el model de previsió que s'utilitzarà per a les estimacions de temps i despeses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

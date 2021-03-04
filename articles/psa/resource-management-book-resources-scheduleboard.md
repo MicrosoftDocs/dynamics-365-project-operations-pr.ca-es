@@ -53,3 +53,6 @@ Per poder reservar des del Tauler de planificació, heu de crear o generar requi
 El requisit s'ha complert mitjançant el recurs seleccionat. A la subfinestra **Requisits de la reserva**, tingueu en compte que s'ha actualitzat el requisit i el recurs es mostra com a reservat al projecte.
 
 ![Recurs reservat al projecte](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

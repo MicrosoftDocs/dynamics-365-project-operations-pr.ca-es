@@ -55,3 +55,6 @@ Una vegada guanyat un contracte de projecte, haureu de dotar el projecte de pers
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

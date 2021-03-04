@@ -144,3 +144,6 @@ Si teniu valors reals incorporats després de crear la factura, podeu incloure a
 Al Project Operations, podeu crear línies de factura per a productes que no s'apliquin a cap projecte ni per a tots els projectes juntament amb línies de factura basades en projectes. Aquestes línies de factura es creen com a línies de contracte basades en productes i després de marcar-les com a preparades per facturar, s'afegeixen com a línies de factura basades en productes.
 
 Després d'afegir línies de factura basades en productes, no es poden canviar. No obstant, es poden suprimir de l'esborrany de factura proforma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

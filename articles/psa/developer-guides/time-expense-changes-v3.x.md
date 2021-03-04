@@ -32,3 +32,6 @@ A la versió 3.0 del Dynamics 365 Project Service Automation, les visualitzacion
 Prèviament, les visualitzacions de calendari i de quadrícula per a temps i despeses s'havien implementat com a controls DHTMLX. Els artefactes que estan relacionats amb la implementació de les visualitzacions de calendari i de quadrícula ara estan obsolets.
 
 Per veure la llista completa de recursos obsolets, vegeu [Recursos web obsolets al Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

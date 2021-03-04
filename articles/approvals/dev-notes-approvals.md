@@ -23,3 +23,6 @@ El Dynamics 365 Project Operations inclou una lògica de validació que assegura
 
   - Totes les files de suport es creen en taules relacionades, com diaris i valors reals.
   - L'aprovador està marcat com a **Aprovador de projectes** abans de continuar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

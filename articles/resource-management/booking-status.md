@@ -20,3 +20,6 @@ ms.locfileid: "4514492"
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 Podeu utilitzar la funcionalitat proporcionada a Universal Resource Scheduling perquè Dynamics 365 Field Service estableixi els estats de reserva de la vostra organització. Per obtenir informació sobre com completar aquesta configuració, vegeu [Establir els estats de les reserves](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

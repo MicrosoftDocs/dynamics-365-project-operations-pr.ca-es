@@ -56,3 +56,6 @@ Seleccioneu la petició de viatge que voleu aprovar i, a continuació, feu clic 
 
 > [!NOTE]
 > Quan assigneu un informe de despeses a una petició de viatge aprovada, l'import de la transacció no pot ser superior a l'import autoritzat. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

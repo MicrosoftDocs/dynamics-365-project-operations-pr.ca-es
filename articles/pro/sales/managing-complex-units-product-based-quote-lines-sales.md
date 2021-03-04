@@ -45,3 +45,6 @@ Per crear factors de quantitat a partir de les propietats dels productes, seguiu
 6. Desa i tanca el formulari. Repetiu aquests passos per a totes les propietats que s'utilitzaran per calcular la quantitat de la línia d'oferta basada en productes.
 
 Quan creeu una línia d'oferta basada en productes per a un producte, la quantitat de la línia d'oferta estarà bloquejada. La quantitat es calcularà com a producte dels valors de propietat que hàgiu introduït per a la línia d'oferta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

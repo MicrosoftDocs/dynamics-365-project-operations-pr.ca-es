@@ -68,3 +68,6 @@ Cada organització ha de configurar aquestes funcions a la pàgina **Categories 
 ## <a name="price-lists"></a>Llistes de preus
 
 Les llistes de preus us permeten definir costos i preus de venda per a les funcions de recursos, categories de despeses i altres elements d'una organització. Abans de definir previsions financeres dels treballs que s'han de lliurar per a projecte, hauríeu de crear un cost de reserva i una llista de preus de venda. A la secció de paràmetres, també heu de configurar una llista de preus i costos de vendes per defecte que s'apliqui a tots els projectes que es creen a l'organització. A la pàgina **Paràmetres del projecte actius**, assegureu-vos de configurar una llista de preus i costos de vendes per defecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

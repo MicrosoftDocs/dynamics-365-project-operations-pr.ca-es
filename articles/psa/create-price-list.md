@@ -71,3 +71,6 @@ Les llistes de preus es basen en funcions i categories de despesa i, per tant, a
   
 ### <a name="see-also"></a>Vegeu també  
  [Configurar el Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

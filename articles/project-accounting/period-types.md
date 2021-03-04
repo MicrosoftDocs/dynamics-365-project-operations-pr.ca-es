@@ -34,3 +34,6 @@ Per crear i treballar amb tipus de períodes, seguiu aquests passos:
 4. Seleccioneu el registre del tipus de període i, a continuació, seleccioneu **Genera períodes** per crear períodes per al tipus de període. Segons la freqüència del període que hàgiu seleccionat, pot ser que tingueu l'opció d'especificar una data d'inici o el nombre de períodes que cal generar.
 5. Seleccioneu **Períodes** per revisar els períodes generats.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

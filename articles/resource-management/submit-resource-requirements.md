@@ -27,3 +27,6 @@ Podeu enviar una sol·licitud de recurs generat com a sol·licitud de recurs. A 
 L'estat de sol·licitud del membre de l'equip genèric canviarà a **Enviada**.
 
 Quan s'hagi complert la sol·licitud, el recurs genèric se substituirà per un recurs anomenat si l'administrador de recursos compleix la sol·licitud amb la reserva d'un recurs amb nom. Altrament, el recurs genèric romandrà a l'equip i l'estat de sol·licitud canviarà a **Necessita revisió**, si l'administrador de recursos ha proposat un recurs amb nom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

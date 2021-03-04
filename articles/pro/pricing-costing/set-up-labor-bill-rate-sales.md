@@ -55,3 +55,6 @@ Per exemple, un desenvolupador de Fabrikam India que treballa en un projecte del
     | Desenvolupador | Fabrikam US | 150 USD |
 
 3. Adjunteu la llista de preus de venda, **Tarifes de facturació de Fabrikam US** a la llista de preus del projecte del contracte o a un compte determinat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

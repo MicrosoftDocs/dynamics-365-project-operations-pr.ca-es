@@ -70,3 +70,6 @@ L'autorització ja s'ha completat.
 Heu connectat correctament la subscripció de l'Azure. Ara podeu implementar els entorns allotjats al núvol del Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

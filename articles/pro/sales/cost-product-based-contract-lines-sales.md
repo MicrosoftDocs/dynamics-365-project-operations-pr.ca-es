@@ -30,3 +30,6 @@ Quan es crea una línia de contracte basada en productes per a un producte del c
 Tenir un cost unitari en una línia de contracte basada en el producte permet diferents costos de producte per a cada venda d'una unitat. Encara que no sempre és necessari, hi ha algunes situacions en les quals el proveïdor pot descomptar el cost del producte per al client. Tingueu en compte aquesta hipotètica situació:
 
 Fabrikam Robotics està instal·lant braços robòtics a les línies de muntatge d'Adatum Corporation. Fabrikam proporciona serveis d'instal·lació, però els braços robòtics són de Trey Research. Si la instal·lació de braços robòtics a Adatum Corporation obre un nou sector industrial per a Trey Research, podria oferir un descompte especial per aquest contracte a Fabrikam. En aquest cas, Fabrikam crea una línia de contracte basada en productes per a braços robòtics. S'introdueix un cost per unitat per a aquest contracte. El cost és diferent del cost dels braços robòtics de Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

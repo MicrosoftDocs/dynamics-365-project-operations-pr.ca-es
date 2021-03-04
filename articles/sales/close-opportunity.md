@@ -24,3 +24,6 @@ Les oportunitats de projecte es poden tancar com a guanyades o perdudes. El quad
 No se us permetrà tancar l'oportunitat si hi ha cap oferta activa associada. Podeu tancar totes les ofertes actives i esborranys associats a una oportunitat al mateix temps. A continuació, se us permetrà tancar l'oportunitat.
 
 Per obtenir més informació general sobre el tancament d'oportunitats, consulteu [Tancar oportunitats com a guanyades o perdudes](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

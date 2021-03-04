@@ -90,3 +90,6 @@ L'estimació canvia l'estat per **Eliminat**.
 Utilitzeu aquesta pàgina per revertir totes les supressions amb una data d'estimació especificada i amb un estat d'estimació de **Suprimit**. L'estat de la transacció canvia després de seleccionar els camps apropiats.
 
 Això també canvia automàticament l'estat del projecte per **En procés** si la fase del projecte està definida com a acabada. L'estat de l'estimació del període de projecte canvia a **Publicat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Per obtenir més informació, vegeu [Entrada de despeses (bàsica)](basic-expens
 
 ## <a name="determine-your-expense-deployment"></a>Determinació de la implementació de despeses
 Per determinar si executeu la implementació bàsica de l'administració de les despeses, verifiqueu que la URL d'adreça acabi amb **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

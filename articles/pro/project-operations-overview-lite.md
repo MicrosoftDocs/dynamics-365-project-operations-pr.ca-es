@@ -37,3 +37,6 @@ Utilitzeu aquest tipus d'implementació si l'expectativa del Project Operations 
 - Sistema integrat que permet administrar els projectes interns i facturables per a planificacions i finances des de les vendes de projectes fins a la facturació.
 - Sistema de planificació de recursos empresarials de tercers (ERP)/sistema de comptabilitat financera per integrar-lo amb el Project Operations.
 - Sistema de tercers per treballar amb impostos de vendes, tipus de canvi, reemborsaments de despeses i despeses que no siguin de projectes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

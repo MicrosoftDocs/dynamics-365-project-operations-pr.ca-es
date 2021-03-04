@@ -49,3 +49,6 @@ Per crear una planificació de projecte, creeu uns plantilla de calendari de pro
 8. Al quadre de diàleg **Plantilla de treball** introduïu el nom de la plantilla de treball i després seleccioneu **Aplica**. 
 
 Ara podeu associar la plantilla de treball amb una plantilla de calendari de projectes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

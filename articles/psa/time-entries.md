@@ -70,3 +70,6 @@ Podeu importar dades a partir de les reserves de projectes i assignacions. Quan 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Agrupar, ordenar, cercar i filtrar capacitats
 
 Podeu agrupar i filtrar entrades de temps per les dimensions que s'especifiquen a les columnes. Al camp **Agrupa per**, seleccioneu la dimensió que s'utilitzarà per filtrar les entrades de temps. També podeu ordenar els registres d'entrada de temps en ordre ascendent o descendent mitjançant la fletxa d'ordenació a les capçaleres de columna. A més, podeu mostrar o amagar les entrades seleccionant el botó **Filtra** a les capçaleres de columna i, a continuació, al quadre **Cerca**, introduint el text que s'hauria d'utilitzar per cercar entrades de temps pel nom del projecte, tasca de projecte, entrada de temps o recurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Aquest missatge d'error indica que hi ha registres de preus que abans s'havien c
 
 
 Quan desactiveu **Càrrec estàndard** com a dimensió de preus, i el motor de preus cerqui un preu, només utilitzarà el valor **Unitat organitzativa** del context d'entrada. Si la **Unitat organitzativa** del context d'entrada és "Contoso US", el resultat serà no determinista perquè ambdues files coincidiran. Per evitar aquest escenari, quan creeu registres **Preu per funció**, el sistema valida que la combinació de dimensions és única. Si la dimensió s'ha desactivat després de crear els registres **Preu per funció**, aquesta restricció es pot violar. Per tant, és necessari que abans de desactivar una dimensió, suprimiu totes les files **Preu per funció** i **Marge comercial de preu per funció** que tenen aquest valor de dimensió amb valors.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

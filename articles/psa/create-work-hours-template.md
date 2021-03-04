@@ -65,3 +65,6 @@ Abans de crear planificacions de projecte, heu de configurar un calendari de pro
   
 ### <a name="see-also"></a>Vegeu també  
  [Definir recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

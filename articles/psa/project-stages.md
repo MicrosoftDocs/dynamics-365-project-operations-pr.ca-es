@@ -65,3 +65,6 @@ Quan s'hagi completat el treball per al projecte, l'administrador del projecte p
 ## <a name="close"></a>Tanca
 
 Quan s'hagin registrat totes les transaccions per al projecte, l'administrador del projecte pot actualitzar la fase a **Tancat**. En aquest moment, no es pot registrar cap transacció i el projecte es defineix com a només de lectura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

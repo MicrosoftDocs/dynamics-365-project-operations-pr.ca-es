@@ -48,3 +48,6 @@ Reservar un recurs directament a un projecte:
 Reservar un recurs des d'un requisit de recursos:
 - [Assignació de recursos genèrics que es poden reservar a una tasca i generació de requisits de recursos](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Reserva de recursos amb nom a partir dels requisits de recursos](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

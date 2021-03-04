@@ -143,3 +143,6 @@ Per visualitzar la factura abans de publicar-la, desactiveu la casella de selecc
 A banda de la pàgina **Proposta de factura**, també es poden publicar propostes de factura per mitjà de l'execució de feina periòdica, **Publica propostes de factura**. Per trobar aquesta feina, aneu a **Administració i comptabilitat del projecte** > **Periòdiques** > **Factures de projecte** > **Publica propostes de factura**.
 
 En aquesta pàgina es mostren totes les propostes de factura preparades per publicar-les. Per planificar la publicació de propostes de factura, seleccioneu **Lot**. Definiu el **Paràmetre de processament per lots** en **Sí** i definiu la periodicitat del processament per lots seleccionant **Periodicitat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

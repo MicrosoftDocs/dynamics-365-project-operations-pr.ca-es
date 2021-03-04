@@ -85,3 +85,6 @@ Després de crear algunes quantes entrades de temps, els usuaris poden crear div
 
 ## <a name="import"></a>Importa
 El mateix procés bàsic s'utilitza per importar a partir de reserves, assignacions i intercanvis. Podeu especificar l'interval de dates de les reserves que s'importen i, a continuació, seleccionar explícitament les reserves que haurien de copiar-se com a entrades de temps d'esborrany. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

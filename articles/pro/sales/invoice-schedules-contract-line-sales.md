@@ -74,3 +74,6 @@ Es poden generar fites de preu fix manualment quan no es divideixen periòdicame
 | Impost | Creació ràpida | Import d'impostos aplicat a la fita. | S'inclou a la fita de la línia de contracte del projecte i a la factura. |
 
 4. Seleccioneu **Desa i tanca**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

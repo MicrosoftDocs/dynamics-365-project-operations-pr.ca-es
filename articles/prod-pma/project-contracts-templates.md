@@ -153,3 +153,6 @@ A les il·lustracions següents es mostren exemples de l'assignació de tasques 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Assignació de fites de línia de contracte del projecte a la plantilla Projectes i contractes (PSA 3.x a Dynamics), v2:
 
 [![Assignació de fites de línia de contracte de projecte amb una plantilla de segona versió](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

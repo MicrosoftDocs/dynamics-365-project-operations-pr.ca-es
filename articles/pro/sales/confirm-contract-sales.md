@@ -35,3 +35,6 @@ Si el contracte de projecte que es tanca com a perdut fa referència a un projec
 
 > [!NOTE]
 > Al Dynamics 365 Project Operations, el tancament d'un contracte de projecte com a perdut no afectarà l'estat de l'oportunitat associada. L'oportunitat romandrà oberta i ha de tancar-se manualment.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

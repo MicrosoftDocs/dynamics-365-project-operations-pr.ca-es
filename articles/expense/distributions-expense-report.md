@@ -30,3 +30,6 @@ Com que la Montse va treballar en dos projectes diferents mentre era a Frankfurt
 | Bitllet de tren   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Hotels        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Àpats        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

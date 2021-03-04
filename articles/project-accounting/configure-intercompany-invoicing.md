@@ -101,3 +101,6 @@ A l'exemple següent, Contoso Robotics USA (USPM) és l'entitat jurídica presta
           - **Empresa de recursos** = **Contoso Robotics UK**
           - **Tarifa de facturació** = **200 USD**
       9. Aneu a **Vendes** > **Contractes de projectes** i adjunteu la llista de preus **Tarifes de facturació d'Adventure Works** a la llista de preus del projecte Adventure Works del contracte del projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

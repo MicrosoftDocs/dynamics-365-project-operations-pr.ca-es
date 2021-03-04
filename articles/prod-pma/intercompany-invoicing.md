@@ -113,3 +113,6 @@ Quan l'entitat jurídica prestadora, USSI, comptabilitza la factura del client e
 Per obtenir més informació, vegeu [Configurar la facturació del projecte entre empreses](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

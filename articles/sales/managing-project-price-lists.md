@@ -120,3 +120,6 @@ Com les tarifes de facturació, les tarifes de cost de recursos humans també es
     1. La llista de preus de cost adjunta a la unitat de l'organització.
     2. La llista de preus de cost adjunta als paràmetres del Project Operations. Com que les llistes de preus de cost en moltes monedes diferents poden adjuntar-se a paràmetres, es completa una coincidència de moneda de la unitat organitzativa del contractant del projecte, el contracte o l'oferta i la moneda de la llista de preus de cost.
     3. Per a les despeses, els mètodes de preus a partir del cost i de marge comercial sobre el cost no s'apliquen a les llistes de preus de cost. Fins i tot si aquests mètodes de preus s'utilitzen a les línies de llista de preus de cost per configurar els costos de categoria de la transacció, el sistema els ignora i no s'introdueix cap preu de cost per defecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

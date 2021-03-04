@@ -41,3 +41,6 @@ Aquest tema s'aplica als components i versions següents del Dynamics 365 Projec
 | **Administració d'oportunitats** | 2040713 | S'ha corregit l'error de seqüència d'ordres que es produeix en crear una factura a partir d'un contracte i el Field Service està instal·lat. |
 | **Planificació i seguiment de projectes** | 2090202 | S'han marcat les regles de negoci que ja no s'utilitzen com a **Obsoletes**. |
 | **Temps i despesa** | 2091249 | S'han ajustat els controls de manera que els usuaris no poden canviar la tasca en una entrada de temps enviada o aprovada. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

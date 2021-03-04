@@ -31,3 +31,6 @@ Si les despeses derivades d'un informe de despeses es cobren a una empresa difer
 Per comptabilitzar un informe de despeses, a la pàgina **Informes de despeses aprovats**, seleccioneu l'informe de despeses i, a continuació, a la subfinestra d'acció, seleccioneu **Comptabilitza**.
 
 També podeu comptabilitzar tots els informes de despeses a la llista alhora. Seleccioneu tots els informes de despeses i, a continuació, seleccioneu **Comptabilitza**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ A continuació, trobareu alguns suggeriments que us poden ajudar a crear normes 
 ## <a name="when-to-evaluate-policies"></a>Quan avaluar les normes
 
 Als paràmetres d'administració de despeses, hi ha una opció per avaluar les normes d'avaluació de despeses quan es desa una línia o quan s'envia un informe de despeses. Si trieu avaluar-les quan es desa una línia, això assegura que els usuaris tindran una visibilitat prèvia del que han de fer per completar el seu informe de despeses d'una vegada. Si no és així, podeu endarrerir l'avaluació de la norma i estalviar temps si feu que l'avaluació sigui al final, durant l'enviament al flux de treball.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Podeu crear dades per a les dimensions basades en l'entitat manualment o mitjan�
 5. Repetiu els passos 1-3 per crear un altre càrrec estàndard per a "Enginyer de sistemes sènior".
 
 > ![Dades d'exemple per a l'entitat Càrrec estàndard](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

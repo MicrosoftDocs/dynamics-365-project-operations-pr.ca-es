@@ -55,3 +55,6 @@ Abans de sol·licitar o assignar recursos al Project Service de l'[!INCLUDE[pn_p
   
 ### <a name="see-also"></a>Vegeu també  
  [Configurar el Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

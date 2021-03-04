@@ -67,3 +67,6 @@ S'han corregit els problemes següents:
 S'han corregit els problemes següents:
 
 - En fer doble clic a **Recupera totes les categories de transaccions**, es creen diverses línies.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

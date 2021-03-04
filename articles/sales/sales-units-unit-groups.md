@@ -46,3 +46,6 @@ Per completar els passos d'aquest tema, assegureu-vos que se us hagi assignat la
 3. Al camp **Quantitat**, introduïu la quantitat que contindrà la unitat. Per exemple, si una caixa conté dues peces, introduïu "2". 
 4. Al camp **Unitat de base**, seleccioneu una unitat de base per establir la unitat de mesura més baixa per a la unitat. Per exemple, podeu seleccionar "peça".
 5. Seleccioneu **Desa**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

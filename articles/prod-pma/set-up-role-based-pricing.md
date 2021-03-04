@@ -34,3 +34,6 @@ Tots els preus de cost, de vendes i de transferència es poden configurar per a 
 1. A la pàgina **Preu de vendes (hora)** , seleccioneu **Nou** i introduïu una data d'efectivitat.
 2. A la columna **Funció** , seleccioneu una funció.
 3. A la columna **Preus** , introduïu un preu per a la funció de recurs seleccionada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Quan estigueu a punt per canviar un recurs de membre de l'equip amb reserva flex
 2. Feu clic amb el botó dret a la reserva i, a **Canvia l'estat**, seleccioneu **Reserva fixa** \> **Fixa**. L'estat de la reserva ara és **Fixa**.
 3. Després de tancar el tauler de planificació, tornar al projecte i obrir la pestanya **Equip**, si mireu la visualització **Membres de l'equip amb nom**, veureu que les hores del recurs s'han mogut de la columna **Hores reservades de manera flexible** a **Hores reservades de manera fixa** a la quadrícula de la pestanya **Equip**. Si el recurs estava assignat a tasques, ja no es mostrarà un dèficit de reserva a la pestanya **Conciliació** ja que les reserves ara seran fixes.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

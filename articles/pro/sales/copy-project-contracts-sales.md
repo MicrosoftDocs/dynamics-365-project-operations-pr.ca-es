@@ -45,3 +45,6 @@ La informació següent no es copia del contracte d'**origen** al contracte de *
   - Informació del pressupost del client
 
 Com que aquesta informació és específica de cada contracte, aquests camps i registres no es copien. Es copien les línies de contracte per a projectes i productes, les estimacions en els detalls de la línia de contracte i els valors que no s'han de superar en el nivell del contracte. Els valors per defecte de la tarifa de preu i cost depenen de la selecció en el camp **Copia els preus** en el camp **Copia els paràmetres**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

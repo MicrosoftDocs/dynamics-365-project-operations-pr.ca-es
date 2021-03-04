@@ -297,3 +297,6 @@ Seleccioneu un usuari (per exemple, Spencer Low) i canvieu-li l'horari laboral a
 
 > [!div class="mx-imgBorder"]
 > ![Captura de pantalla de recursos actius que es poden reservar](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

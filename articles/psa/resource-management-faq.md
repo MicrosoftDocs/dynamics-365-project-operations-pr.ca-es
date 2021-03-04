@@ -54,3 +54,6 @@ Després de reservar els recursos, seleccioneu **Mantén les reserves** per fer 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Quina diferència hi ha entre una assignació i una reserva?
 
 Les assignacions són l'assignació de recursos a tasques de projecte a la planificació del projecte. Els recursos poden ser recursos reals o genèrics. Les reserves són l'assignació fixa o flexible de recursos a un projecte. Les reserves fixes consumeixen la capacitat d'un recurs. Idealment, per als recursos reals, les reserves i les assignacions haurien de concordar, perquè no es diferencien. No obstant, el PSA no obliga a aplicar aquesta concordança. La visualització Conciliació mostra llocs a l'administrador del projecte on les reserves i les assignacions d'un recurs no coincideixen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Al Project Operations, no podeu fer el seguiment de les revisions fetes en una o
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Seguiment de comentaris i aprovacions d'ofertes i contractes de projectes
 Podeu administrar la revisió i l'aprovació de les ofertes i els contractes de projecte mitjançant el mur de registres i els missatges. La vostra organització pot crear fluxos de treball i complements personalitzats per assignar, redirigir, agreujar i administrar les notificacions dels elements de treball de revisió i aprovació.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

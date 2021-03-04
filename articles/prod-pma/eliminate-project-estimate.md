@@ -51,3 +51,6 @@ Per suprimir un projecte estimat, s'ha de completar. Els passos següents expliq
 5. Després de completar el procés d'eliminació, el projecte estimat eliminat es mostra amb un valor negatiu. 
 
 Si no teniu la intenció d'eliminar una estimació, podeu seleccionar l'estimació eliminada i seleccionar **Desfés l'eliminació**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

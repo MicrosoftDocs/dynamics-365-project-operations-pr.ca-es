@@ -66,3 +66,6 @@ Si encara no veieu un preu vàlid al cost de temps real després de realitzar le
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

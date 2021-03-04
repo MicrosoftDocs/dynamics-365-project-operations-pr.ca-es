@@ -81,3 +81,6 @@ Qualsevol despesa generada en el projecte no relacionada directament amb el treb
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

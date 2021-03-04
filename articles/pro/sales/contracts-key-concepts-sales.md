@@ -93,3 +93,6 @@ Els contractes del Project Operations es basen en els contractes del Dynamics 36
 - Els contractes del Project Operations tenen el seu propi formulari i elements de la interfície d'usuari, regles de negoci, lògica empresarial en complements i scripts de client que els fan únics dels contractes del Sales.
 
 Per aquestes raons, no s'hauria d'utilitzar un contracte del Sales i del Project indistintament.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

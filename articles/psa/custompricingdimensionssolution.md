@@ -68,3 +68,6 @@ Haureu d'afegir les següents entitats del Project Service a la solució de preu
 > ![No incloguis tots els components relacionats](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

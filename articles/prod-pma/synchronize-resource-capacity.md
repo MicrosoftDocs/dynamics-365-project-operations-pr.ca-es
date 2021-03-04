@@ -49,3 +49,6 @@ Es recomana utilitzar un lot. Hi ha disponibles les opcions durant la sincronitz
     | Data de finalització    | Introduïu la data de finalització del procés de sincronització per a la consolidació de capacitat de recursos. |
 
 [![Procés de sincronització](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
