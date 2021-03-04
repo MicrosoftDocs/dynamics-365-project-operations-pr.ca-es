@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072368"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960595"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Diversos aprovadors en un informe de despeses
-
-[!include [banner](../includes/banner.md)]
 
 Segons les normes d'aprovació de despeses de la vostra organització, més d'una persona podria haver d'aprovar un informe de despeses que presenta un empleat. En configurar el procés de flux de treball per a l'aprovació de l'informe de despeses, podeu afegir elements de flux de treball que incloguin tasques o passos per a un o diversos aprovadors de l'informe de despeses. Per exemple, és possible que necessiteu que tots els informes de despeses els aprovin primer el cap del treballador que ha enviat l'informe i després el coordinador de compte a pagar.
 

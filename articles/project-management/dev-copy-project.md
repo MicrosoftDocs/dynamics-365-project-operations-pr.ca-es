@@ -3,17 +3,17 @@ title: Desenvolupament de plantilles de projecte amb la característica Copia el
 description: En aquest tema es proporciona informació sobre com crear plantilles de projecte mitjançant l'acció personalitzada Copia el projecte.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642396"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044997"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Desenvolupament de plantilles de projecte amb la característica Copia el projecte
 
@@ -48,3 +48,67 @@ Per veure més valors per defecte en accions, vegeu [Utilitzar les accions de l'
 
 ## <a name="specify-fields-to-copy"></a>Especificar els camps que es copiaran 
 Quan es crida l'acció, **Copia el projecte** consultarà la visualització del projecte **Copia les columnes del projecte** per determinar quins camps s'han de copiar quan es copia el projecte.
+
+
+### <a name="example"></a>Exemple
+A l'exemple següent es mostra com es truca a l'acció personalitzada **CopyProject** amb el conjunt de paràmetres **removeNamedResources**.
+```C#
+{
+    using System;
+    using System.Runtime.Serialization;
+    using Microsoft.Xrm.Sdk;
+    using Newtonsoft.Json;
+
+    [DataContract]
+    public class ProjectCopyOption
+    {
+        /// <summary>
+        /// Clear teams and assignments.
+        /// </summary>
+        [DataMember(Name = "clearTeamsAndAssignments")]
+        public bool ClearTeamsAndAssignments { get; set; }
+
+        /// <summary>
+        /// Replace named resource with generic resource.
+        /// </summary>
+        [DataMember(Name = "removeNamedResources")]
+        public bool ReplaceNamedResources { get; set; }
+    }
+
+    public class CopyProjectSample
+    {
+        private IOrganizationService organizationService;
+
+        public CopyProjectSample(IOrganizationService organizationService)
+        {
+            this.organizationService = organizationService;
+        }
+
+        public void SampleRun()
+        {
+            // Example source project GUID
+            Guid sourceProjectId = new Guid("11111111-1111-1111-1111-111111111111");
+            var sourceProject = new Entity("msdyn_project", sourceProjectId);
+
+            Entity targetProject = new Entity("msdyn_project");
+            targetProject["msdyn_subject"] = "Example Project";
+            targetProject.Id = organizationService.Create(targetProject);
+
+            ProjectCopyOption copyOption = new ProjectCopyOption();
+            copyOption.ReplaceNamedResources = true;
+
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            Console.WriteLine("Done ...");
+        }
+
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        {
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            req["SourceProject"] = sourceProject;
+            req["Target"] = TargetProject;
+            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+            OrganizationResponse response = organizationService.Execute(req);
+        }
+    }
+}
+```

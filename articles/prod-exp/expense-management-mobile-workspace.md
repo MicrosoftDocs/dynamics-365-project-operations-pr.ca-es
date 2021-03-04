@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072371"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960460"
 ---
 # <a name="expense-management-mobile-workspace"></a>Àrea de treball mòbil d'administració de despeses
-
-[!include [banner](../includes/banner.md)]
 
 En aquest tema es proporciona informació l'àrea de treball mòbil **Administració de despeses**. Aquesta àrea de treball permet que els usuaris capturin i carreguin un rebut per tal que el puguin adjuntar a un informe de despeses més endavant. Els usuaris també poden crear ràpidament una línia de despesa mitjançant un rebut adjunt i crear i administrar els informes de despeses. A més, els aprovadors poden utilitzar l'àrea de treball mòbil **Administració de despeses** per veure els informes de despeses que se'ls assignin i aprovar o rebutjar aquests informes de despeses.
 
@@ -115,12 +113,12 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 3. Seleccioneu **Fes una foto** o **Tria una imatge**.
 4. Seguiu un d'aquests passos:
 
-    - Si heu seleccionat **Fes una foto** , seguiu aquests passos:
+    - Si heu seleccionat **Fes una foto**, seguiu aquests passos:
 
         1. Se us dirigirà a la càmera del dispositiu mòbil per tal que pugueu fer una foto del rebut. Quan hàgiu acabat de fer una foto, seleccioneu **D'acord** per acceptar la foto.
         2. Opcional: introduïu un nom per a la foto i introduïu-hi les notes.
 
-    - Si heu seleccionat **Tria una imatge** , seguiu aquests passos:
+    - Si heu seleccionat **Tria una imatge**, seguiu aquests passos:
 
         1. Seleccioneu una imatge de la llista.
         2. Opcional: introduïu un nom per a la imatge i introduïu-hi les notes.
@@ -138,8 +136,8 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 8. Seleccioneu **Fes una foto** o **Tria una imatge**.
 9. Seguiu un d'aquests passos:
 
-    - Si heu seleccionar **Fes una foto** , se us dirigirà a la càmera del dispositiu mòbil per tal que pugueu fer una foto del rebut. Quan hàgiu acabat de fer una foto, seleccioneu **D'acord** per acceptar la foto.
-    - Si heu seleccionat **Tria una imatge** , seleccioneu una imatge a la llista.
+    - Si heu seleccionar **Fes una foto**, se us dirigirà a la càmera del dispositiu mòbil per tal que pugueu fer una foto del rebut. Quan hàgiu acabat de fer una foto, seleccioneu **D'acord** per acceptar la foto.
+    - Si heu seleccionat **Tria una imatge**, seleccioneu una imatge a la llista.
 
 10. Seleccioneu **Fet**.
 
@@ -151,7 +149,7 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
     
 3. Seleccioneu un informe de despeses per veure els detalls de la despesa.
 4. Seleccioneu una despesa per veure'n els detalls. La informació que es mostra per a una despesa inclou tots els detalls del rebut, convidats i desglossament.
-5. A la pàgina **Informe de despeses** , seleccioneu si aproveu o rebutgeu l'informe de despeses.
+5. A la pàgina **Informe de despeses**, seleccioneu si aproveu o rebutgeu l'informe de despeses.
 6. Introduïu qualsevol comentari per a l'acció d'aprovació.
 7. Seleccioneu **Fet**.
 
@@ -177,24 +175,24 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
     1. Seleccioneu **Captura un rebut** o **Adjunta un rebut**.
     2. Seguiu un d'aquests passos:
 
-        - Si heu seleccionat **Captura un rebut** , seguiu aquests passos:
+        - Si heu seleccionat **Captura un rebut**, seguiu aquests passos:
 
             1. Seleccioneu **Fes una foto** o **Tria una imatge**.
             2. Seguiu un d'aquests passos:
 
-                - Si heu seleccionat **Fes una foto** , seguiu aquests passos:
+                - Si heu seleccionat **Fes una foto**, seguiu aquests passos:
 
                     1. Se us dirigirà a la càmera del dispositiu mòbil per tal que pugueu fer una foto del rebut. Quan hàgiu acabat de fer una foto, seleccioneu **D'acord** per acceptar la foto.
                     2. Opcional: introduïu un nom per a la foto i introduïu-hi les notes.
 
-                - Si heu seleccionat **Tria una imatge** , seguiu aquests passos:
+                - Si heu seleccionat **Tria una imatge**, seguiu aquests passos:
 
                     1. Seleccioneu una imatge de la llista.
                     2. Opcional: introduïu un nom per a la imatge i introduïu-hi les notes.
 
             3.  Seleccioneu **Fet**.
 
-        - Si heu seleccionat **Adjunta un rebut** , seguiu aquests passos:
+        - Si heu seleccionat **Adjunta un rebut**, seguiu aquests passos:
 
             1.  A la llista, seleccioneu una o més imatges.
             2.  Seleccioneu **Fet**.
@@ -203,22 +201,22 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 
 18. Si la norma de l'empresa requereix els convidats per a la despesa, seleccioneu **Convidats** i seguiu aquests passos:
 
-    1. Seleccioneu **Convidat** , **Convidats anteriors** o **Companys de feina**.
+    1. Seleccioneu **Convidat**, **Convidats anteriors** o **Companys de feina**.
     2. Seguiu un d'aquests passos:
 
-        - Si heu seleccionat **Convidat** , seguiu aquests passos:
+        - Si heu seleccionat **Convidat**, seguiu aquests passos:
 
             1. Introduïu el nom del convidat.
             2. Opcional: introduïu l'organització i/o el país del convidat.
             3. Opcional: introduïu el càrrec del convidat.
             4. Seleccioneu **Fet**.
 
-        - Si heu seleccionat **Convidats anteriors** , seguiu aquests passos:
+        - Si heu seleccionat **Convidats anteriors**, seguiu aquests passos:
 
             1. A la llista, seleccioneu un o diversos convidats anteriors. Podeu veure una llista dels convidats anteriors que heu afegit a informes de despeses anteriors carregats a l'aplicació per utilitzar-los fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si el convidat anterior no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per nom, o canvieu a la cerca per organització, país o càrrec.
             2. Seleccioneu **Fet**.
 
-        - Si heu seleccionat **Companys de feina** , seguiu aquests passos:
+        - Si heu seleccionat **Companys de feina**, seguiu aquests passos:
 
             1. A la llista, seleccioneu un o més companys de feina. Veureu una llista de companys de feina que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Si el company de feina no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per nom, o canvieu a la cerca per empresa o càrrec.
             2. Seleccioneu **Fet**.

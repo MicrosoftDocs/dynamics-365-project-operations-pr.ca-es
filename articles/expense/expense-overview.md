@@ -5,15 +5,16 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122811"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764897"
 ---
 # <a name="expense-home-page"></a>Pàgina inicial de despeses
 
@@ -28,7 +29,7 @@ Al Project Operations, hi ha dos models d'implementació admesos per a les despe
 - **Bàsica**: la implementació bàsica està disponible per a **Project Operations per a escenaris basats en recursos/sense cotització** i **Implementació bàsica: tracte de facturació proforma**.
 
 ## <a name="full"></a>Complet 
-La implementació de despesa completa proporciona una aplicació completa de la política que inclou la capacitat de crear polítiques, com ara:
+La implementació completa de despeses proporciona un compliment complet de les polítiques i inclou la capacitat de crear polítiques, com ara:
 
   - Límits de categories de despesa
   - Viatge

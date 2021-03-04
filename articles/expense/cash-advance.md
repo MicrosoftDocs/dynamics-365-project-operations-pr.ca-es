@@ -3,19 +3,19 @@ title: Avançament d'efectiu
 description: Aquest tema proporciona informació sobre els avançaments d'efectiu.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122737"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098872"
 ---
 # <a name="cash-advance"></a>Avançament d'efectiu
 
@@ -24,8 +24,9 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 Un avançament d'efectiu permet als empleats demanar prestat diners de la seva empresa abans d'incórrer en les despeses. Quan s'aprova i es paga un avançament d'efectiu sol·licitat, l'empleat pot utilitzar els diners per a les despeses de l'empresa en què pot incórrer. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Crear i enviar una sol·licitud d'avançament d'efectiu
+Per crear un nou avançament en efectiu i enviar una sol·licitud d'avançament en efectiu, feu el següent: 
 
-1. A **Les meves despeses**, seleccioneu **Avançaments d'efectiu** > **Nou** per crear un avançament d'efectiu nou. 
+1. A **Les meves despeses**, seleccioneu **Bestretes en efectiu** > **Noves**. 
 2. A la pàgina **Nova sol·licitud d'avançament d'efectiu**, introduïu la finalitat de la despesa i seleccioneu la ubicació on s'incorrerà la despesa.
 3. Introduïu l'import sol·licitat i la moneda i, a continuació, seleccioneu **Desa**. 
 4. Quan estigueu a punt per enviar la sol·licitud d'avançament d'efectiu, a la pàgina **Sol·licitud d'avançament d'efectiu**, seleccioneu **Flux de treball** > **Envia**.
@@ -34,7 +35,7 @@ Un avançament d'efectiu permet als empleats demanar prestat diners de la seva e
 
 Si no s'ha enviat per a la seva aprovació, podeu modificar una sol·licitud d'avançament en efectiu.
 
-1. A **Les meves despeses: avançaments d'efectiu** localitzeu i seleccioneu l'avançament d'efectiu que voleu editar.
+1. A **Les meves despeses: bestretes en efectiu** localitzeu i seleccioneu la bestreta en efectiu que voleu editar.
 2. Seleccioneu **Edita** i feu els canvis necessaris a la sol·licitud d'avançament d'efectiu. 
 3. Seleccioneu **Desa i tanca**.
 
@@ -57,7 +58,8 @@ El procediment següent el sol completar un comptable o un usuari amb permisos c
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Enviar un informe de despeses d'un avançament d'efectiu pagat 
 
-Quan creeu i envieu un informe de despeses per a l'avançament d'efectiu que ja heu rebut, les despeses s'ajustaran automàticament a l'avançament. Si l'avançament d'efectiu és superior a l'import gastat, heu de retornar el balanç a l'empresa mitjançant la categoria de despeses **Retorn d'efectiu**. Si l'avançament d'efectiu pagat per l'empresa és inferior a la quantitat que heu gastat, l'empresa ha de reemborsar el balanç. 
+Quan creeu i envieu un informe de despeses per a la bestreta en efectiu que ja heu rebut, les despeses s'ajustaran automàticament amb aquesta bestreta. Si l'avançament d'efectiu és superior a l'import gastat, heu de retornar el balanç a l'empresa mitjançant la categoria de despeses **Retorn d'efectiu**. Si la bestreta en efectiu pagada per l'empresa és inferior a l'import que heu despès, l'empresa us ha de tornar el balanç. 
 
 ### <a name="example"></a>Exemple
-Teniu pensat viatjar per a una conferència de Seattle a la ciutat de Nova York. Creeu una sol licitud d'avançament d'efectiu de 3000,00 USD ja que heu calculat que el cost de l'entrada a la conferència, els vols, l'hotel, els àpats i el taxi serà aproximadament aquesta quantitat. No rebreu cap pagament excepte si el vostre administrador aprova aquesta sol·licitud. Quan l'administrador l'aprovi, l'avançament d'efectiu es paga com a 3000,00 USD al vostre compte bancari. A continuació, assistiu a la conferència. Després de completar el vostre viatge, esbrineu que la despesa total només era de 2790,00 USD. Seleccioneu **Efectiu** al camp **Mètode de pagament** i envieu la vostra despesa de 2790,00 USD. L'import de despesa enviat s'ajusta automàticament a l'avançament d'efectiu de 3000,00 USD que se us ha prestat. Ara deveu un balanç de 210,00 USD (3000,00-2790,00) a l'empresa, que podeu tornar a l'empresa mitjançant la categoria de despeses **Retorn d'efectiu**. 
+Teniu previst viatjar des de Seattle a la ciutat de Nova York per a una conferència. Es crea una sol·licitud de bestreta en efectiu per a 3000.00 USD en funció del cost previst del tiquet de la conferència, els vols, l'hotel, els àpats i el taxi. No se us pagarà tret que el vostre cap aprovi aquesta sol·licitud. Quan l'administrador l'aprovi, l'avançament d'efectiu es paga com a 3000,00 USD al vostre compte bancari. A continuació, assistiu a la conferència. Després de completar el vostre viatge, esbrineu que la despesa total només era de 2790,00 USD. Seleccioneu **Efectiu** al camp **Mètode de pagament** i envieu la despesa per a 2790.00 USD. L'import de despesa enviat s'ajusta automàticament a l'avançament d'efectiu de 3000,00 USD que se us ha prestat. Ara deveu un balanç de 210.00 USD (3000.00 - 2790.00), que podeu tornar a l'empresa per mitjà de la categoria de despeses **Retorn en efectiu**.
+

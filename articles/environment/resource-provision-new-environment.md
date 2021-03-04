@@ -3,17 +3,18 @@ title: Proveïment d'un entorn nou
 description: En aquest tema s'ofereix informació sobre com proveir un entorn nou del Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642947"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727778"
 ---
 # <a name="provision-a-new-environment"></a>Proveïment d'un entorn nou
 
@@ -60,17 +61,15 @@ Seguiu aquests passos per habilitar el flux de proveïment automatitzat del Proj
 
 ![Consentiment de la implementació](./media/2DeploymentConsent.png)
 
-7. Completeu els camps obligatoris restants a l'auxiliar i confirmeu la implementació. El temps de proveïment de l'entorn varia segons el tipus d'entorn. El proveïment pot tardar fins a sis hores.
+7. Opcional: aplicar dades de demostració a l'entorn. Aneu a **Configuració avançada**, seleccioneu **Personalitza la configuració de la base de dades SQL** i definiu **Especifica un conjunt de dades per a la base de dades d'aplicacions** a **Demostració**.
+
+8. Completeu els camps obligatoris restants a l'auxiliar i confirmeu la implementació. El temps de proveïment de l'entorn varia segons el tipus d'entorn. El proveïment pot tardar fins a sis hores.
 
   Quan la implementació es completi correctament, l'entorn es mostrarà com a **Implementat**.
 
-8. Per confirmar que l'entorn s'ha implementat correctament, seleccioneu **Inicia la sessió** i inicieu la sessió a l'entorn per confirmar-ho.
+9. Per confirmar que l'entorn s'ha implementat correctament, seleccioneu **Inicia la sessió** i inicieu la sessió a l'entorn per confirmar-ho.
 
 ![Detalls de l'entorn del ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Aplicar les dades de demostració del Project Operations Finance (pas opcional)
-
-Apliqueu les dades de demostració del Project Operations Finance a l'entorn allotjat al núvol de la versió del servei 10.0.13 com es descriu en [aquest article](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplicar les actualitzacions a l'entorn del Finance
 
@@ -151,6 +150,21 @@ Després d'aplicar les entitats, totes les assignacions disponibles apareixen a 
 L'actualització tardarà uns 20 minuts. Rebreu una alerta quan s'hagi completat.
 
 ![Confirmació d'actualització](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Actualitzar la configuració de seguretat del Project Operations al Dataverse
+
+1. Aneu al Project Operations del vostre entorn del Dataverse. 
+2. Aneu a **Configuració** > **Seguretat** > **Funcions de seguretat**. 
+3. A la pàgina **Funcions de seguretat**, a la llista de funcions, seleccioneu **usuari de l'aplicació de doble escriptura** i seleccioneu la pestanya **Entitats personalitzades**.  
+4. Verifiqueu que la funció té permisos de **Lectura** i **Annexa a** per a:
+      
+      - **Tipus de canvi de moneda**
+      - **Taula de comptes**
+      - **Calendari fiscal**
+      - **Llibre major**
+
+5. Quan la funció de seguretat s'actualitzi, aneu a **Configuració** > **Seguretat** > **Equips** i seleccioneu l'equip per defecte a la visualització d'equips **Propietari de l'empresa local**.
+6. Seleccioneu **Administra les funcions** i verifiqueu que s'aplica el privilegi de seguretat **usuari de l'aplicació de doble escriptura** a aquest equip.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Executar assignacions d'escriptura doble del Project Operations
 

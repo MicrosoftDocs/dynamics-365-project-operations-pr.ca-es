@@ -1,9 +1,9 @@
 ---
-title: Sincronitzar els contractes del projecte i els projectes directament des del Project Service Automation al Finance and Operations
+title: Sincronitzar contractes de projectes i projectes directament des del Project Service Automation a Finances
 description: Aquest tema descriu la plantilla i tasques subjacents que s'utilitzen per sincronitzar els contractes del projecte i els projectes directament des del Microsoft Dynamics 365 Project Service Automation al Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642621"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764807"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronitzar els contractes del projecte i els projectes directament des del Project Service Automation al Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronitzar contractes de projectes i projectes directament des del Project Service Automation a Finances 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Per accedir a les plantilles disponibles, al centre d'administració del Microso
 Les plantilles i les tasques subjacents següents s'utilitzen per sincronitzar els contractes del projecte i els projectes del Project Service Automation al Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integració amb el Dynamics 365 Project Service Automation v2.x
-- **Nom de la plantilla en la integració de dades**: projectes i contractes (PSA a Fin and Ops)
+- **Nom de la plantilla en integració de dades:** Projectes i contractes (Project Service Automation a Finances)
 - **Nom de les tasques del projecte:**
 
-    - Contractes del projecte del PSA a Fin and Ops
-    - Projectes del PSA a Fin and Ops
-    - Línies de contracte del projecte del PSA a Fin and Ops
-    - Fites de les línies de contracte del projecte del PSA a Fin and Ops
+    - Project Service Automation dels contractes de projecte a Finances
+    - Project Service Automation dels projectes a Finances
+    - Project Service Automation de les línies dels contractes de projecte a Finances
+    - Project Service Automation de les fites de les línies dels contractes de projecte a Finances
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integració amb el Dynamics 365 Project Service Automation v3.x
 Hi ha un canvi d'esquema a Project Service Automation que afecta la plantilla de fita de la línia de contracte del projecte i l'ús de la versió v2 de la plantilla és necessari per integrar el Project Service Automation v3.x amb el Dynamics 365.
 
-- **Nom de la plantilla en la integració de dades**: projectes i contractes (PSA 3.x a Fin and Ops), v2
+- **Nom de la plantilla en integració de dades:** Projectes i contractes (Project Service Automation 3.x a Finances) - v2
 - **Nom de les tasques del projecte:**
 
-    - Contractes del projecte del PSA a Fin and Ops
-    - Projectes del PSA a Fin and Ops
-    - Línies de contracte del projecte del PSA a Fin and Ops
-    - Fites de les línies de contracte del projecte del PSA a Fin and Ops
+    - Project Service Automation dels contractes de projecte a Finances
+    - Project Service Automation dels projectes a Finances
+    - Project Service Automation de les línies dels contractes de projecte a Finances
+    - Project Service Automation de les fites de les línies dels contractes de projecte a Finances
 
 Abans que es produeixi la sincronització de contractes del projecte i projectes, cal sincronitzar els comptes.
 
@@ -87,7 +87,8 @@ Abans que es produeixi la sincronització de contractes del projecte i projectes
 
 Els contractes del projecte estan administrats al Project Service Automation i se sincronitzen amb el Finance com a contractes del projecte. Com a part de la plantilla d'integració, podeu definir l'origen d'integració al Finance per al contracte del projecte.
 
-Els projectes de temps i materials i els projectes de preu fix estan administrats al Project Service Automation i se sincronitzen amb el Finance com a projectes. Com a part de la plantilla d'integració, podeu definir l'origen d'integració al Finance per al projecte.
+Els projectes de temps i materials i de preu fixo s'administren a Project Service Automation i se sincronitzen amb Finances com a projectes. Com a part de la integració de les plantilles, podeu definir l'origen d'integració del projecte a Finances. Actualment, només s'admeten els projectes de temps i materials i de preu fix.
+
 
 Les línies de contracte del projecte estan administrats al Project Service Automation i se sincronitzen amb el Finance com a normes de facturació dels contractes del projecte. Si el mètode de facturació difereix del tipus de projecte per defecte, la sincronització actualitza el tipus de projecte per al projecte de la línia de contracte i el grup de projectes.
 
@@ -122,7 +123,7 @@ Quan s'aplica la solució d'integració del Project Service Automation al Financ
 
 ## <a name="power-query"></a>Power Query
 
-Heu d'utilitzar el Microsoft Power Query per a l'Excel per filtrar les dades si es compleixen les condicions següents:
+Utilitzeu el Microsoft Power Query per a l'Excel per filtrar les dades si es compleixen les condicions següents:
 
 - Teniu comandes de vendes al Dynamics 365 Sales.
 - Teniu diverses unitats organitzatives al Project Service Automation, i aquestes unitats organitzatives s'assignaran a diverses entitats jurídiques al Finance.
@@ -130,7 +131,7 @@ Heu d'utilitzar el Microsoft Power Query per a l'Excel per filtrar les dades si 
 Si heu d'utilitzar el Power Query, seguiu aquestes instruccions:
 
 - La plantilla Projectes i contractes (PSA a Fin and Ops) té un filtre per defecte que inclou només les comandes de venda del tipus **Element de treball (msdyn\_ordertype = 192350001)**. Aquest filtre ajuda a garantir que els contractes del projecte no es creen per a les comandes de vendes al Finance. Si creeu una plantilla pròpia, heu d'afegir aquest filtre.
-- Heu de crear un filtre del Power Query que inclogui només les organitzacions de contractes que s'han de sincronitzar amb l'entitat jurídica del conjunt de connexions d'integració. Per exemple, els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso US s'han de sincronitzar a l'entitat jurídica USSI, però els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso Global se sincronitzaran amb l'entitat jurídica USMF. Si no afegiu aquest filtre a l'assignació de tasques, tots els contractes del projecte se sincronitzaran amb l'entitat jurídica que es defineixi per al conjunt de connexions, independentment de la unitat organitzativa del contracte.
+- Creeu un filtre de Power Query que només inclogui les organitzacions de contracte que s'han de sincronitzar amb l'entitat legal del conjunt de connexió d'integració. Per exemple, els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso US s'han de sincronitzar a l'entitat jurídica USSI, però els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso Global se sincronitzaran amb l'entitat jurídica USMF. Si no afegiu aquest filtre a l'assignació de tasques, tots els contractes del projecte se sincronitzaran amb l'entitat jurídica que es defineixi per al conjunt de connexions, independentment de la unitat organitzativa del contracte.
 
 ## <a name="template-mapping-in-data-integration"></a>Assignació de plantilles a la integració de dades
 

@@ -16,22 +16,20 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072366"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960505"
 ---
 # <a name="set-up-expense-management-workflows"></a>Configurar els fluxos de treball d'administració de despeses
-
-[!include [banner](../includes/banner.md)]
 
 Podeu configurar un procés de flux de treball que s'utilitzi per revisar i aprovar els documents de viatges i de despeses. Els documents per als quals es poden definir fluxos de treball inclouen informes de despeses, peticions de viatges i sol·licituds d'avançament d'efectiu.
 
 Un flux de treball representa un procés de negoci. Defineix com passa un document pel sistema i indica qui ha de completar una tasca o aprovar un document. Hi ha diversos avantatges d'utilitzar el sistema de flux de treball a l'organització:
 
--   **Processos coherents** : podeu definir el procés d'aprovació per a documents específics, com ara les requisicions de compra i els informes de despeses. L'ús del sistema de flux de treball ajuda a garantir que els documents es processen i s'aproven de manera coherent i eficient.
+-   **Processos coherents**: podeu definir el procés d'aprovació per a documents específics, com ara les requisicions de compra i els informes de despeses. L'ús del sistema de flux de treball ajuda a garantir que els documents es processen i s'aproven de manera coherent i eficient.
 
 -   Visibilitat de procés: podeu fer el seguiment de l'estat, de l'historial i de les mètriques de rendiment d'una instància de flux de treball concreta. Això us ajudarà a determinar si s'han de fer canvis al flux de treball per millorar l'eficiència.
 
