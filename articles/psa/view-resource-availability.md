@@ -18,31 +18,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af05506481d96193c01c063c00e044242f786f5e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124941"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143861"
 ---
-# <a name="view-resource-availability-project-service"></a><span data-ttu-id="4cc73-103">Visualització de la disponibilitat de recursos (Project Service)</span><span class="sxs-lookup"><span data-stu-id="4cc73-103">View resource availability (Project Service)</span></span>
+# <a name="view-resource-availability-project-service"></a><span data-ttu-id="013ce-103">Visualització de la disponibilitat de recursos (Project Service)</span><span class="sxs-lookup"><span data-stu-id="013ce-103">View resource availability (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="4cc73-104">Podeu comprovar la disponibilitat de recursos per obtenir una vista general de com estan reservats els vostres recursos, o podeu filtrar la visualització per habilitats, equip, ubicació i altres opcions.</span><span class="sxs-lookup"><span data-stu-id="4cc73-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
+<span data-ttu-id="013ce-104">Podeu comprovar la disponibilitat de recursos per obtenir una vista general de com estan reservats els vostres recursos, o podeu filtrar la visualització per habilitats, equip, ubicació i altres opcions.</span><span class="sxs-lookup"><span data-stu-id="013ce-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
   
 > [!NOTE]
 > [!INCLUDE[cc_feature_included_with_2016_update_1](../includes/cc-feature-included-with-2016-update-1.md)]  
 > 
->  <span data-ttu-id="4cc73-105">Si utilitzeu una versió més recent, per veure la disponibilitat dels recursos, consulteu [Planificar recursos per a un projecte (Project Service Automation)](../psa/schedule-resources-project.md).</span><span class="sxs-lookup"><span data-stu-id="4cc73-105">If you are using an newer version, for resource availability see, [Schedule resources for a project (Project Service Automation)](../psa/schedule-resources-project.md).</span></span>  
+>  <span data-ttu-id="013ce-105">Si utilitzeu una versió més recent, per veure la disponibilitat dels recursos, consulteu [Planificar recursos per a un projecte (Project Service Automation)](../psa/schedule-resources-project.md).</span><span class="sxs-lookup"><span data-stu-id="013ce-105">If you are using an newer version, for resource availability see, [Schedule resources for a project (Project Service Automation)](../psa/schedule-resources-project.md).</span></span>  
 
-1. <span data-ttu-id="4cc73-106">Aneu a **Project Service > Disponibilitat de recursos**.</span><span class="sxs-lookup"><span data-stu-id="4cc73-106">Go to **Project Service > Resource Availability**.</span></span>  
+1. <span data-ttu-id="013ce-106">Aneu a **Project Service > Disponibilitat de recursos**.</span><span class="sxs-lookup"><span data-stu-id="013ce-106">Go to **Project Service > Resource Availability**.</span></span>  
 
-    <span data-ttu-id="4cc73-107">Això mostra una visualització de calendari de tots els recursos i la seva disponibilitat.</span><span class="sxs-lookup"><span data-stu-id="4cc73-107">This shows a calendar view of all resources and their availability.</span></span> <span data-ttu-id="4cc73-108">Seleccioneu una visualització o un criteri d'ordenació a la part superior de la pantalla.</span><span class="sxs-lookup"><span data-stu-id="4cc73-108">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="4cc73-109">També podeu seleccionar si voleu mostrar la disponibilitat per al **Dia**, la **Setmana** o el **Mes** i utilitzar les fletxes per veure l'anterior o següent període de temps.</span><span class="sxs-lookup"><span data-stu-id="4cc73-109">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="4cc73-110">Utilitzeu el quadre de cerca per trobar un recurs concret.</span><span class="sxs-lookup"><span data-stu-id="4cc73-110">Use the search box to find a specific resource.</span></span>  
+    <span data-ttu-id="013ce-107">Això mostra una visualització de calendari de tots els recursos i la seva disponibilitat.</span><span class="sxs-lookup"><span data-stu-id="013ce-107">This shows a calendar view of all resources and their availability.</span></span> <span data-ttu-id="013ce-108">Seleccioneu una visualització o un criteri d'ordenació a la part superior de la pantalla.</span><span class="sxs-lookup"><span data-stu-id="013ce-108">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="013ce-109">També podeu seleccionar si voleu mostrar la disponibilitat per al **Dia**, la **Setmana** o el **Mes** i utilitzar les fletxes per veure l'anterior o següent període de temps.</span><span class="sxs-lookup"><span data-stu-id="013ce-109">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="013ce-110">Utilitzeu el quadre de cerca per trobar un recurs concret.</span><span class="sxs-lookup"><span data-stu-id="013ce-110">Use the search box to find a specific resource.</span></span>  
 
-2. <span data-ttu-id="4cc73-111">Feu clic a **Opcions** per canviar el que es mostra.</span><span class="sxs-lookup"><span data-stu-id="4cc73-111">Click **Options** to change what displays.</span></span> <span data-ttu-id="4cc73-112">Per exemple, podeu mostrar una llegenda que mostri l'esquema de colors per als diferents tipus de reserves o podeu triar que només es mostri un determinat tipus de reserva (per exemple, una reserva en ferm o una reserva provisional).</span><span class="sxs-lookup"><span data-stu-id="4cc73-112">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
+2. <span data-ttu-id="013ce-111">Feu clic a **Opcions** per canviar el que es mostra.</span><span class="sxs-lookup"><span data-stu-id="013ce-111">Click **Options** to change what displays.</span></span> <span data-ttu-id="013ce-112">Per exemple, podeu mostrar una llegenda que mostri l'esquema de colors per als diferents tipus de reserves o podeu triar que només es mostri un determinat tipus de reserva (per exemple, una reserva en ferm o una reserva provisional).</span><span class="sxs-lookup"><span data-stu-id="013ce-112">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
 
-3. <span data-ttu-id="4cc73-113">Feu clic a **Filtra** per visualitzar la subfinestra **Filtra**, des d'on podreu filtrar els resultats per unitat organitzativa, funció, habilitat o altres atributs.</span><span class="sxs-lookup"><span data-stu-id="4cc73-113">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
+3. <span data-ttu-id="013ce-113">Feu clic a **Filtra** per visualitzar la subfinestra **Filtra**, des d'on podreu filtrar els resultats per unitat organitzativa, funció, habilitat o altres atributs.</span><span class="sxs-lookup"><span data-stu-id="013ce-113">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
 
-### <a name="see-also"></a><span data-ttu-id="4cc73-114">Vegeu també</span><span class="sxs-lookup"><span data-stu-id="4cc73-114">See Also</span></span>  
- [<span data-ttu-id="4cc73-115">Guia de l'administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="4cc73-115">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="013ce-114">Vegeu també</span><span class="sxs-lookup"><span data-stu-id="013ce-114">See Also</span></span>  
+ [<span data-ttu-id="013ce-115">Guia de l'administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="013ce-115">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
