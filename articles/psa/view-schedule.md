@@ -18,28 +18,30 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 35054a46251cbc4a91c7c37405e22287de4a9389
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 902254394ecd7c1aa9ec16af6cfce81a347d7022
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125796"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151016"
 ---
-# <a name="view-your-schedule-project-service"></a><span data-ttu-id="71806-103">Visualitzar la vostra planificació (Project Service)</span><span class="sxs-lookup"><span data-stu-id="71806-103">View your schedule (Project Service)</span></span>
+# <a name="view-your-schedule-project-service"></a><span data-ttu-id="20334-103">Visualitzar la vostra planificació (Project Service)</span><span class="sxs-lookup"><span data-stu-id="20334-103">View your schedule (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="71806-104">Si voleu veure el treball que heu de realitzar aquesta setmana, feu una ullada a la planificació.</span><span class="sxs-lookup"><span data-stu-id="71806-104">When you want to see what you’re working on for the week, take a look at your schedule.</span></span>  
+<span data-ttu-id="20334-104">Si voleu veure el treball que heu de realitzar aquesta setmana, feu una ullada a la planificació.</span><span class="sxs-lookup"><span data-stu-id="20334-104">When you want to see what you’re working on for the week, take a look at your schedule.</span></span>  
   
- <span data-ttu-id="71806-105">Si utilitzeu l'aplicació web:</span><span class="sxs-lookup"><span data-stu-id="71806-105">If you’re using the web app:</span></span>  
+ <span data-ttu-id="20334-105">Si utilitzeu l'aplicació web:</span><span class="sxs-lookup"><span data-stu-id="20334-105">If you’re using the web app:</span></span>  
   
-1.  <span data-ttu-id="71806-106">Aneu a **Project Service > Reserves i tasques**.</span><span class="sxs-lookup"><span data-stu-id="71806-106">Go to **Project Service > Bookings and Tasks**.</span></span> <span data-ttu-id="71806-107">S'obrirà una visualització de calendari de la vostra planificació.</span><span class="sxs-lookup"><span data-stu-id="71806-107">This brings up a calendar view of your schedule.</span></span>  
+1.  <span data-ttu-id="20334-106">Aneu a **Project Service > Reserves i tasques**.</span><span class="sxs-lookup"><span data-stu-id="20334-106">Go to **Project Service > Bookings and Tasks**.</span></span> <span data-ttu-id="20334-107">S'obrirà una visualització de calendari de la vostra planificació.</span><span class="sxs-lookup"><span data-stu-id="20334-107">This brings up a calendar view of your schedule.</span></span>  
   
-2.  <span data-ttu-id="71806-108">Feu clic a **Anterior** o **Següent** per veure la planificació de la setmana anterior o la següent.</span><span class="sxs-lookup"><span data-stu-id="71806-108">Click **Previous** or **Next** to see your schedule for the previous or next week.</span></span> <span data-ttu-id="71806-109">Feu clic a **Avui** per tornar a la setmana actual.</span><span class="sxs-lookup"><span data-stu-id="71806-109">Click **Today** to get back to the current week.</span></span> <span data-ttu-id="71806-110">Si cal, podeu fer clic en una tasca per actualitzar-la.</span><span class="sxs-lookup"><span data-stu-id="71806-110">You can click a task to update it, if needed.</span></span>  
+2.  <span data-ttu-id="20334-108">Feu clic a **Anterior** o **Següent** per veure la planificació de la setmana anterior o la següent.</span><span class="sxs-lookup"><span data-stu-id="20334-108">Click **Previous** or **Next** to see your schedule for the previous or next week.</span></span> <span data-ttu-id="20334-109">Feu clic a **Avui** per tornar a la setmana actual.</span><span class="sxs-lookup"><span data-stu-id="20334-109">Click **Today** to get back to the current week.</span></span> <span data-ttu-id="20334-110">Si cal, podeu fer clic en una tasca per actualitzar-la.</span><span class="sxs-lookup"><span data-stu-id="20334-110">You can click a task to update it, if needed.</span></span>  
   
-3.  <span data-ttu-id="71806-111">Si preferiu veure una llista dels treballs que esteu realitzant actualment, feu clic a **Quadrícula**.</span><span class="sxs-lookup"><span data-stu-id="71806-111">If you’d rather see a list of what you’re working on, click **Grid**.</span></span> <span data-ttu-id="71806-112">Si cal, podeu editar les tasques en línia.</span><span class="sxs-lookup"><span data-stu-id="71806-112">You can edit tasks inline, if needed.</span></span>  
+3.  <span data-ttu-id="20334-111">Si preferiu veure una llista dels treballs que esteu realitzant actualment, feu clic a **Quadrícula**.</span><span class="sxs-lookup"><span data-stu-id="20334-111">If you’d rather see a list of what you’re working on, click **Grid**.</span></span> <span data-ttu-id="20334-112">Si cal, podeu editar les tasques en línia.</span><span class="sxs-lookup"><span data-stu-id="20334-112">You can edit tasks inline, if needed.</span></span>  
   
-4.  <span data-ttu-id="71806-113">Per veure les tasques que ja heu completat, feu clic a **Mostra les tasques completades**.</span><span class="sxs-lookup"><span data-stu-id="71806-113">To see tasks that you’ve already completed, click **Show Completed Tasks**.</span></span>  
+4.  <span data-ttu-id="20334-113">Per veure les tasques que ja heu completat, feu clic a **Mostra les tasques completades**.</span><span class="sxs-lookup"><span data-stu-id="20334-113">To see tasks that you’ve already completed, click **Show Completed Tasks**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="71806-114">Vegeu també</span><span class="sxs-lookup"><span data-stu-id="71806-114">See Also</span></span>  
- [<span data-ttu-id="71806-115">Guia de temps, despeses i col·laboració</span><span class="sxs-lookup"><span data-stu-id="71806-115">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="20334-114">Vegeu també</span><span class="sxs-lookup"><span data-stu-id="20334-114">See Also</span></span>  
+ [<span data-ttu-id="20334-115">Guia de temps, despeses i col·laboració</span><span class="sxs-lookup"><span data-stu-id="20334-115">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
