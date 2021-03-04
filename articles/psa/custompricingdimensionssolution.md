@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072221"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144626"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Crear solucions personalitzades per a les dimensions de preus
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Tots els canvis de dimensions de preus personalitzades han d'estar en una solució separada. Aquestes pràctiques recomanades importants proporcionen una flexibilitat futura per actualitzar o suprimir els canvis segons calgui, us ajudaran a reutilitzar el vostre treball i facilita la portabilitat d'aquests canvis en una altra instància. Després de fer els canvis necessaris, exporteu aquesta solució com a **Solució administrada** i importeu-la a altres instàncies per tornar a utilitzar la configuració dels preus.
 
 1. Seleccioneu **Configuració** > **Solucions** i, a continuació, **Nova**. 
-2. Anomeneu la solució **Dimensions de preus de \<your organization name>** , introduïu la informació necessària restant i, a continuació, seleccioneu **Desa**.
+2. Anomeneu la solució **Dimensions de preus de \<your organization name>**, introduïu la informació necessària restant i, a continuació, seleccioneu **Desa**.
 
 > ![Crear una solució personalitzada per a les dimensions de preus](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
@@ -39,7 +41,7 @@ Haureu d'afegir les següents entitats del Project Service a la solució de preu
 
 1. Seleccioneu **Configuració** > **Solucions** i feu doble clic a **Dimensions de preus de \<your organization name>**. 
 2. A l'Explorador de solucions, a la subfinestra de navegació esquerra, seleccioneu **Afegeix existent** > **Entitats**.
-3. Al quadre de diàleg **Components de la solució** , seleccioneu una de les entitats següents:
+3. Al quadre de diàleg **Components de la solució**, seleccioneu una de les entitats següents:
 
 - Real
 - Recurs que es pot reservar

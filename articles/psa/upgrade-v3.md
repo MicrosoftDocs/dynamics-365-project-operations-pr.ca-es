@@ -2,6 +2,7 @@
 title: Consideracions d'actualització - Versió 2.x o 1.x del Microsoft Dynamics 365 Project Service Automation a la versió 3
 description: En aquest tema es proporciona informació sobre les consideracions que heu de fer en actualitzar des de la versió 2.x o 1.x a la versió 3 del Project Service Automation.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121701"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144138"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideracions d'actualització - Versió 2.x o 1.x del PSA a la versió 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation i Field Service
-Tant el Dynamics 365 Project Service Automation com el Dynamics 365 Field Service utilitzen la solució Universal Resource Scheduling (URS) per a la planificació de recursos. Si teniu tant el Project Service Automation com el Field Service a la vostra instància, heu de planificar l'actualització de les dues solucions a l'última versió (versió 3.x per al Project Service Automation, versió 8.x per al Field Service). L'actualització del Project Service Automation o el Field Service instal·larà la versió més recent del URS, la qual cosa vol dir que el comportament incoherent és possible si les solucions del Project Service Automation i del Field Service en la mateixa instància no es poden actualitzar a la versió més recent.
+Tant el Dynamics 365 Project Service Automation com el Dynamics 365 Field Service utilitzen la solució Universal Resource Scheduling (URS) per a la planificació de recursos. Si teniu el Project Service Automation i el Field Service a la vostra instància, actualitzeu totes dues solucions a la versió més recent. Per al Project Service Automation, és la versió 3.x. Per al Field Service, és la versió 8.x. L'actualització de Project Service Automation o el Field Service instal·larà l'última versió de l'URS. Si totes dues solucions del Project Service Automation i del Field Service de la mateixa instància no s'actualitzen a la versió més recent, pot ser que hi hagi algun comportament inconsistent.
 
 ## <a name="resource-assignments"></a>Assignacions de recursos
 A la versió 2 i la versió 1 del Project Service Automation, les assignacions de tasques es desaven com a tasques secundàries (també anomenades tasques de línia) a l'entitat **Tasca** i indirectament relacionades amb l'entitat **Assignació de recursos**. La tasca de línia estava visible a la finestra emergent de l'assignació a l'estructura del desglossament del treball (WBS).
@@ -40,9 +44,9 @@ A la versió 3 del Project Service Automation, l'esquema subjacent d'assignar re
 Aquests canvis afecten l'actualització de tots els projectes existents que tenen assignacions de recursos per a recursos que es poden reservar amb nom i recursos genèrics en un equip del projecte. En aquest tema es proporcionen les consideracions que haureu de tenir en compte per als projectes en què actualitzeu a la versió 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tasques assignades a recursos amb nom
-Amb l'entitat de la tasca subjacent, les tasques de la versió 2 i la versió 1 permetien que els membres de l'equip representessin una funció que no fos la seva funció definida per defecte. Per exemple, la Jana Jorba, que per defecte està assignada a la funció d'administradora de programa, podria assignar-se a una tasca amb la funció de desenvolupadora. A la versió 3, la funció d'un membre de l'equip amb nom és sempre el valor per defecte, per la qual cosa qualsevol tasca a la qual s'assigni la Jana Jorba utilitza la seva funció per defecte d'administradora de programes.
+Amb l'entitat de la tasca subjacent, les tasques de la versió 2 i la versió 1 permetien que els membres de l'equip representessin una funció que no fos la seva funció definida per defecte. Per exemple, la Jana Jorba, que per defecte està assignada a la funció d'administradora de programa, podria assignar-se a una tasca amb la funció de desenvolupadora. A la versió 3, la funció d'un membre de l'equip amb nom és sempre el valor per defecte, per la qual cosa qualsevol tasca a la qual s'assigni la Jana Jorba utilitza la funció per defecte de la Jana d'administradora de programes.
 
-Si heu assignat un recurs a una tasca fora de la seva funció per defecte a la versió 2 i a la versió 1, en actualitzar, el recurs amb nom s'assignarà la funció per defecte per a totes les assignacions de tasques, independentment de l'assignació de funcions a la versió 2. Això donarà com a resultat diferències en les estimacions calculades des de la versió 2 o la versió 1 a la versió 3 perquè les estimacions es calculen en funció de la funció del recurs i no de l'assignació de tasques de línia. Per exemple, a la versió 2, s'assignen dues tasques a la Cèlia Canal. La funció a la tasca de línia per a la tasca 1 és desenvolupador i per a la tasca 2, administrador de programes. La Cèlia Canal té la funció per defecte d'administradora de programes.
+Si heu assignat un recurs a una tasca fora de la seva funció per defecte a la versió 2 i a la versió 1, en actualitzar, el recurs amb nom s'assignarà la funció per defecte per a totes les assignacions de tasques, independentment de l'assignació de funcions a la versió 2. Aquesta assignació dona com a resultat diferències en les estimacions calculades des de la versió 2 o la versió 1 a la versió 3 perquè les estimacions es calculen en funció de la funció del recurs i no de l'assignació de tasques de línia. Per exemple, a la versió 2, s'assignen dues tasques a la Cèlia Canal. La funció a la tasca de línia per a la tasca 1 és desenvolupador i per a la tasca 2, administrador de programes. La Cèlia Canal té la funció per defecte d'administradora de programes.
 
 ![Diverses funcions assignades a un recurs](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Quan actualitzeu a la versió 3, les tasques de línia se substitueixen per assi
 
 ![Assignacions de recursos](media/resource-assignment-v2-05.png)
 
-Com que les estimacions es basen en la funció per defecte del recurs, les estimacions de vendes i de costos poden canviar. Heu de tenir en compte que al gràfic següent ja no veureu la funció **Desenvolupador** ja que la funció ara s'agafa de la funció per defecte del recurs que es pot reservar.
+Com que les estimacions es basen en la funció per defecte del recurs, les estimacions de vendes i de costos poden canviar. Al gràfic següent ja no veureu la funció **Desenvolupador** ja que la funció ara s'agafa de la funció per defecte del recurs que es pot reservar.
 
 ![Estimacions de costos per a funcions per defecte](media/resource-assignment-cost-estimate-06.png)
 ![Estimació de vendes per a funcions per defecte](media/resource-assignment-sales-estimate-07.png)
 
-Quan s'hagi completat l'actualització, podeu editar la funció del membre d'un equip perquè sigui diferent de l'assignada per defecte. No obstant, si canvieu la funció dels membres de l'equip, es canviarà en totes les tasques assignades perquè els membres de l'equip ja no es podran assignar funcions múltiples a la versió 3.
+Quan s'hagi completat l'actualització, podeu editar la funció del membre d'un equip perquè sigui diferent de l'assignada per defecte. No obstant això, si canvieu la funció dels membres de l'equip, es canviarà en totes les tasques assignades perquè als membres de l'equip no es poden assignar funcions múltiples a la versió 3.
 
 ![Actualitzar una funció de recurs](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Podeu veure la unitat d'organització a la visualització d'estimacions.
  
 Quan l'actualització s'hagi completat, la unitat de l'organització a la tasca de línia que correspon al membre de l'equip genèric se suma al membre de l'equip genèric i la tasca de línia se suprimeix. Per això, us recomanem que abans d'actualitzar, genereu o torneu a generar l'equip en cada projecte que conté recursos genèrics.
 
-Per a les tasques assignades a una funció amb una unitat organitzativa que difereix de la unitat organitzativa del projecte de contractació, i que no s'ha generat un equip, l'actualització crearà un membre genèric de l'equip per a la funció, però utilitzarà la unitat de contractació del projecte per al membre de l'equip de la unitat organitzativa. Tornant a l'exemple amb el Projecte Z, això vol dir que a la unitat organitzativa de contractació Contoso US i a les tasques de prova del pla del projecte dins de la fase d'implementació s'ha assignat el rol consultor tècnic amb la unitat organitzativa assignada a Contoso India. La tasca de prova d'integració que es completa després de la fase d'implementació s'ha assignat a la funció d'assessor tècnic. La unitat organitzativa és Contoso US i no s'ha generat un equip. L'actualització crearà un membre genèric de l'equip, un consultor tècnic que té les hores assignades de les tres tasques i una unitat organitzativa de Contoso US, la unitat organitzativa de contractació del projecte.   
+Per a les tasques assignades a una funció amb una unitat organitzativa que difereix de la unitat organitzativa del projecte de contractació, i que no s'ha generat un equip, l'actualització crearà un membre genèric de l'equip per a la funció, però utilitzarà la unitat de contractació del projecte per al membre de l'equip de la unitat organitzativa. Tornant a l'exemple amb el Projecte Z, la unitat organitzativa de contractació Contoso US i a les tasques de prova del pla del projecte dins de la fase d'implementació s'ha assignat el rol consultor tècnic amb la unitat organitzativa assignada a Contoso India. La tasca de prova d'integració que es completa després de la fase d'implementació s'ha assignat a la funció d'assessor tècnic. La unitat organitzativa és Contoso US i no s'ha generat un equip. L'actualització crearà un membre genèric de l'equip, un consultor tècnic que té les hores assignades de les tres tasques i una unitat organitzativa de Contoso US, la unitat organitzativa de contractació del projecte.   
  
 Canviar el valor per defecte de les diferents unitats organitzatives de recursos en els membres de l'equip no generats és la raó per la que recomanem que genereu o torneu a generar l'equip en cada projecte que conté recursos genèrics abans de l'actualització, de manera que les assignacions d'unitats organitzatives no es perdin.
 

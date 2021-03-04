@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072406"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144581"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Afegir nous formularis d'entitat personalitzats (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Camp Tipus 
 
-El Dynamics 365 Project Service Automation es basa en el camp **Tipus** ( **msdyn\_ordertype** ) de les entitats Oportunitat, Oferta, Comanda i Factura per distingir les versions **basades en el treball** d'aquestes entitats de les versions **basades en l'element** i **basades en el servei**. Les versions de treball d'aquestes entitats són gestionades pel PSA. Una gran quantitat de lògica empresarial al costat de client i al costat del servidor de la solució depèn del camp **Tipus**. Per tant, és important que el camp s'inicialitzi amb un valor correcte quan es creïn les entitats. Un valor incorrecte pot provocar comportaments incorrectes i pot ser que la lògica empresarial no s'executi correctament.
+El Dynamics 365 Project Service Automation es basa en el camp **Tipus** (**msdyn\_ordertype**) de les entitats Oportunitat, Oferta, Comanda i Factura per distingir les versions **basades en el treball** d'aquestes entitats de les versions **basades en l'element** i **basades en el servei**. Les versions de treball d'aquestes entitats són gestionades pel PSA. Una gran quantitat de lògica empresarial al costat de client i al costat del servidor de la solució depèn del camp **Tipus**. Per tant, és important que el camp s'inicialitzi amb un valor correcte quan es creïn les entitats. Un valor incorrecte pot provocar comportaments incorrectes i pot ser que la lògica empresarial no s'executi correctament.
 
 ## <a name="automatic-form-switching"></a>Commutació automàtica de formulari
 
@@ -37,7 +39,7 @@ La lògica de canvi de formularis automàtic es basa en l'assignació entre el v
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Afegir formularis personalitzats i activar la lògica de commutació de formulari
 
-A l'exemple següent es mostra com afegir un formulari personalitzat, **La meva informació de projecte** , per tal que funcioni amb oportunitats basades en el treball. El mateix procés s'utilitza per afegir formularis personalitzats de manera que funcionin amb ofertes, comandes i factures.
+A l'exemple següent es mostra com afegir un formulari personalitzat, **La meva informació de projecte**, per tal que funcioni amb oportunitats basades en el treball. El mateix procés s'utilitza per afegir formularis personalitzats de manera que funcionin amb ofertes, comandes i factures.
 
 Seguiu els passos que es descriuen a continuació per crear una versió personalitzada del formulari **Informació del projecte**.
 
@@ -47,7 +49,7 @@ Seguiu els passos que es descriuen a continuació per crear una versió personal
     > [!IMPORTANT]
     > No suprimiu els scripts. Altrament, pot ser que algunes dades s'inicialitzin incorrectament.
 
-3. Verifiqueu que el camp **Tipus** ( **msdyn\_ordertype** ) estigui present al formulari. 
+3. Verifiqueu que el camp **Tipus** (**msdyn\_ordertype**) estigui present al formulari. 
 
     > [!IMPORTANT]
     > No suprimiu aquest camp. Altrament, els scripts d'inicialització fallaran.

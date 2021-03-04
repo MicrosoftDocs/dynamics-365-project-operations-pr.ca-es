@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072281"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144851"
 ---
 # <a name="create-custom-fields-and-entities"></a>Crear camps i entitats personalitzats 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Completeu els passos següents en qualsevol moment que vulgueu crear un conjunt d'opcions o una entitat personalitzada a la plataforma del Power Apps.  
 Els procediments d'aquest tema s'han d'emplenar mitjançant la interfície web del Project Service Automation (PSA).
@@ -64,7 +66,7 @@ Podeu crear dues dimensions basades en un conjunt d'opcions. Utilitzeu **Ubicaci
 Podeu crear dades per a les dimensions basades en l'entitat manualment o mitjançant una importació del Microsoft Excel o trucades de servei. Utilitzeu els passos d'aquest procediment per crear dos càrrecs estàndard, **Enginyer de sistemes** i **Enginyer de sistemes sènior** per la dimensió basada en l'entitat **Càrrec estàndard**. Si les dades que voleu crear són petites, com a l'exemple següent, podeu utilitzar un formulari estàndard.
 
 1. Al PSA, feu clic a **Cerca avançada**. Seleccioneu l'entitat **Càrrec estàndard** i, a continuació, feu clic a **Resultats**. Es mostraran totes les files de l'entitat **Càrrec estàndard**.
-2. Feu clic a **Nou**. Al camp **Nom** , introduïu "Enginyer de sistemes" i, a continuació, feu clic a **Desa**.
+2. Feu clic a **Nou**. Al camp **Nom**, introduïu "Enginyer de sistemes" i, a continuació, feu clic a **Desa**.
 3. Tanqueu el formulari. 
 4. Repetiu els passos 1-3 per crear un altre càrrec estàndard per a "Enginyer de sistemes sènior".
 
