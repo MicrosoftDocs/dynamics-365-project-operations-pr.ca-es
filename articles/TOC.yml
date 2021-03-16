@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novetats
       items:
+        - name: 'Març de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: 'Febrer de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: 'Gener de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
@@ -318,52 +320,52 @@
       items:
         - name: Informació general de la despesa
           href: expense/expense-overview.md
-        - name: Experiència d'administració de despeses per a projectes
+        - name: Nova experiència de despesa
           items:
-            - name: Configuració i instal·lació
-              items:
-                - name: Configuració de normes
-                  href: expense/set-up-policies.md
-                - name: Configuració de fluxos de treball
-                  href: expense/set-up-workflows.md
-                - name: Administració de la delegació
-                  href: expense/manage-delegation.md
-                - name: Configuració dels paràmetres d'administració de despeses
-                  href: expense/configure-expense-management-parameters.md
-                - name: Configuració de la integració amb targeta de crèdit
-                  href: expense/set-up-credit-card-integration.md
-                - name: Configuració de les categories de despesa
-                  href: expense/set-up-expense-categories.md
-            - name: Com treballar amb despeses personals en un informe de despeses
-              href: expense/personal-expenses-expense-report.md
-            - name: Creació d'informes de despeses
-              items:
-                - name: Distribucions en un informe de despeses
-                  href: expense/distributions-expense-report.md
-            - name: Aprovació d'informes de despeses
-              items:
-                - name: Informes de despeses i diversos aprovadors
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Publicació d'informes de despeses
-              href: expense/posting-expense-reports.md
-            - name: Petició de viatge
-              href: expense/travel-requisition.md
-            - name: Avançament d'efectiu
-              href: expense/cash-advance.md
-            - name: Dietes
-              href: expense/per-diems.md
-            - name: Administració financera
-              items:
-                - name: Recuperació de l'IVA
-                  href: expense/vat-recovery.md
-            - name: Nova experiència de despesa
-              items:
-                - name: Informes de despeses nous
-                  href: expense/expense-reports-reimagined.md
-                - name: Coincidència del rebut amb la despesa mitjançant OCR
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Administració de despeses amb el mòbil
-              href: expense/expense-using-mobile.md
+            - name: Informes de despeses nous
+              href: expense/expense-reports-reimagined.md
+            - name: Captura d'un rebut amb l'OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Configuració i instal·lació
+          items:
+            - name: Configuració de normes
+              href: expense/set-up-policies.md
+            - name: Configuració de fluxos de treball
+              href: expense/set-up-workflows.md
+            - name: Administració de la delegació
+              href: expense/manage-delegation.md
+            - name: Configuració dels paràmetres d'administració de despeses
+              href: expense/configure-expense-management-parameters.md
+            - name: Configuració de la integració amb targeta de crèdit
+              href: expense/set-up-credit-card-integration.md
+            - name: Configuració de les categories de despesa
+              href: expense/set-up-expense-categories.md
+        - name: Despeses personals
+          href: expense/personal-expenses-expense-report.md
+        - name: Despeses entre empreses
+          href: prod-exp/intercompany-expense.md
+        - name: Creació d'informes de despeses
+          items:
+            - name: Distribucions en un informe de despeses
+              href: expense/distributions-expense-report.md
+        - name: Aprovació d'informes de despeses
+          items:
+            - name: Informes de despeses i diversos aprovadors
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Publicació d'informes de despeses
+          href: expense/posting-expense-reports.md
+        - name: Petició de viatge
+          href: expense/travel-requisition.md
+        - name: Avançament d'efectiu
+          href: expense/cash-advance.md
+        - name: Dietes
+          href: expense/per-diems.md
+        - name: Aplicació mòbil de despeses
+          href: expense/expense-using-mobile.md
+        - name: Administració financera
+          items:
+            - name: Recuperació de l'IVA
+              href: expense/vat-recovery.md
     - name: Aprovacions
       items:
         - name: Informació general de les aprovacions
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: Novetats
       items:
+        - name: 'Novetats del març de 2021: implementació bàsica'
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: 'Novetats del febrer de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: 'Novetats del gener de 2021: implementació bàsica'
@@ -894,44 +898,52 @@
   items:
     - name: Informació general sobre l'administració de despeses
       href: prod-exp/expense-management.md
-    - name: Informes de despeses nous
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Planificació de l'administració de despeses
-      href: prod-exp/plan-expense-management.md
-    - name: Paràmetres d'administració de despeses
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Àrea de treball mòbil per a l'administració de despeses
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Configuració de fluxos de treball per a l'administració de despeses
-      href: prod-exp/expense-workflows.md
-    - name: Flux de treball d'administració de despeses
-      href: prod-exp/expense-workflow.md
-    - name: Administració de la delegació de despeses
-      href: prod-exp/manage-expense-delegation.md
-    - name: Processament de la recepció de despeses
-      href: prod-exp/expense-receipt-processing.md
-    - name: Importació i manteniment de transaccions de targeta de crèdit
-      href: prod-exp/import-credit-card.md
-    - name: Distribucions en un informe de despeses
-      href: prod-exp/expense-report-distributions.md
+    - name: Nova experiència de despesa
+      items:
+        - name: Informes de despeses nous
+          href: expense/expense-reports-reimagined.md
+        - name: Captura d'un rebut amb l'OCR
+          href: expense/match-receipt-expense-ocr.md
+    - name: Configuració i instal·lació
+      items:
+        - name: Configuració de normes
+          href: expense/set-up-policies.md
+        - name: Configuració de fluxos de treball
+          href: expense/set-up-workflows.md
+        - name: Administració de la delegació
+          href: expense/manage-delegation.md
+        - name: Configuració dels paràmetres d'administració de despeses
+          href: expense/configure-expense-management-parameters.md
+        - name: Configuració de la integració amb targeta de crèdit
+          href: expense/set-up-credit-card-integration.md
+        - name: Configuració de les categories de despesa
+          href: expense/set-up-expense-categories.md
+    - name: Despeses personals
+      href: expense/personal-expenses-expense-report.md
     - name: Despeses entre empreses
       href: prod-exp/intercompany-expense.md
-    - name: Definició de normes de despeses
-      href: prod-exp/travel-expense-policies.md
-    - name: Visualització d'un informe de despeses
-      href: prod-exp/view-expense-report.md
-    - name: Publicació d'un informe de despeses
-      href: prod-exp/post-expense.md
-    - name: Informes de despeses i diversos aprovadors
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: Recuperació de l'IVA a l'administració de despeses
-      href: prod-exp/VAT-expense-report.md
-    - name: Regles per dia
-      href: prod-exp/per-diem.md
-    - name: Peticions de viatge
-      href: prod-exp/travel-req.md
-    - name: Despeses personals en un informe de despeses
-      href: prod-exp/personal-expenses.md
+    - name: Creació d'informes de despeses
+      items:
+        - name: Distribucions en un informe de despeses
+          href: expense/distributions-expense-report.md
+    - name: Aprovació d'informes de despeses
+      items:
+        - name: Informes de despeses i diversos aprovadors
+          href: expense/expense-reports-multiple-approvers.md
+    - name: Publicació d'informes de despeses
+      href: expense/posting-expense-reports.md
+    - name: Petició de viatge
+      href: expense/travel-requisition.md
+    - name: Avançament d'efectiu
+      href: expense/cash-advance.md
+    - name: Dietes
+      href: expense/per-diems.md
+    - name: Aplicació mòbil de despeses
+      href: expense/expense-using-mobile.md
+    - name: Administració financera
+      items:
+        - name: Recuperació de l'IVA
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: "Planificació del llançament d'actualitzacions per al Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Novetats o canvis del llançament de l'actualització\_29, V3"
+          href: psa/whats-new-ur-29.md
+        - name: "Novetats o canvis del llançament de l'actualització\_28.6, revisió, V3"
+          href: psa/whats-new-ur-28-6.md
         - name: "Novetats o canvis del llançament de l'actualització\_28.5, revisió, V3"
           href: psa/whats-new-ur-28-5.md
         - name: "Novetats o canvis del llançament de l'actualització\_28, V3"
           href: psa/whats-new-ur-28.md
+        - name: "Novetats o canvis del llançament de l'actualització\_27.6, revisió, V3"
+          href: psa/whats-new-ur-27-6.md
         - name: "Novetats o canvis del llançament de l'actualització\_27.5, revisió, V3"
           href: psa/whats-new-ur-27-5.md
         - name: "Novetats o canvis del llançament de l'actualització\_27, V3"
