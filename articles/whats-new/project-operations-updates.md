@@ -3,18 +3,18 @@ title: Actualitzacions del Project Operations
 description: En aquest tema es proporciona informació sobre les versions publicades del Dynamics 365 Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 12/07/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
+ms.openlocfilehash: 07ba97377841b1a2d8f96b60a926dc7499e345f1
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141195"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556566"
 ---
 # <a name="project-operations-updates"></a>Actualitzacions del Project Operations
 
@@ -29,13 +29,16 @@ El Dynamics 365 Project Operations consta de dos components:
 - El Project Operations a l'entorn del Dataverse cobreix funcionalitats des de l'oportunitat fins a la facturació proforma. El Dataverse s'utilitza en la implementació bàsica i la implementació en escenaris de recursos/sense existències al Project Operations.
 - L'administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance cobreix les funcionalitats d'administració de despeses, la comptabilitat de projectes i el reconeixement d'ingressos. L'entorn d'aplicació del Finance and Operations s'utilitza al Project Operations per a escenaris basats en recursos/sense existències i Project Operations per a escenaris amb existències/basats en producció.
 
+## <a name="project-operations-release-notes"></a>Notes de la versió de Project Operations
+- Notes de la versió més recents de Project Operations per a l'escenari [Recursos/sense existències](whats-new-mar-2021-resource-based.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [Implementació bàsica](../pro/whats-new/whats-new-mar-2021-lite.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [en existències/producció](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
+
 ## <a name="project-operations-latest-version"></a>Versió més recent del Project Operations
 
 | Project Operations a l'entorn del Dataverse | Administració de projectes i comptabilitat en entorns d'aplicacions del Finance and Operations |
 | --- | --- |
-| 4.7.0.95 | 10.0.16 |
-
-Notes de llançament de gener de 2021 del Project Operations per a [Recursos/sense existències](whats-new-feb-2021-resource-based.md), [Implementació bàsica](../pro/whats-new/whats-new-feb-2021-lite.md) i [existències/producció](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
+| 4.8.0.91 | 10.0.16 |
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Planificació de llançament del Project Operations en un entorn del Dataverse
 
@@ -44,22 +47,23 @@ Les actualitzacions del Project Operations a l'entorn del Dataverse estan dispon
 | Estació   | Regió        | Versió actual | Versió següent | Disponible de manera general |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Estació 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Primera versió |  4.7.0.95       | TBD     | 19-febr-21           |
+|   &nbsp;  | Primera versió |  4.8.0.91       | TBD     | 02-abr-21           |
 | Estació 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Amèrica del Sud |  4.7.0.95       | TBD     | 19-febr-21           |
-|    &nbsp; | Canadà        |  4.7.0.95       | TBD     | 19-febr-21           |
-|   &nbsp;  | Índia         |  4.7.0.95       | TBD     | 19-febr-21           |
-|   &nbsp;  | França         |  4.7.0.95       | TBD     | 19-febr-21           |
-|   &nbsp;  | Emirats Àrabs Units         |  4.7.0.95       | TBD     | 19-febr-21           |
+|   &nbsp;  | Amèrica del Sud |  4.8.0.91       | TBD     | 2-abr-21           |
+|    &nbsp; | Canadà        |  4.8.0.91       | TBD     | 2-abr-21           |
+|   &nbsp;  | Índia         |  4.8.0.91       | TBD     | 2-abr-21           |
+|   &nbsp;  | França         |  4.8.0.91       | TBD     | 02-abr-21           |
+|   &nbsp;  | Emirats Àrabs Units         |  4.8.0.91       | TBD     | 02-abr-21           |
+|   &nbsp;  | República de Sud-àfrica         |  4.8.0.91       | TBD     | 02-abr-21           |
 | Estació 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japó         |  4.7.0.95       | TBD     | 26-febr-21           |
-|   &nbsp;  | Pacífic asiàtic  |  4.7.0.95       | TBD     | 26-febr-21           |
-|   &nbsp;  | Gran Bretanya |  4.7.0.95       | TBD     | 26-febr-21           |
-|   &nbsp;  | Oceania       |  4.7.0.95       | TBD     | 26-febr-21           |
+|   &nbsp;  | Japó         |  4.8.0.91       | TBD     | 09-abr-21           |
+|   &nbsp;  | Pacífic asiàtic  |  4.8.0.91       | TBD     | 09-abr-21           |
+|   &nbsp;  | Gran Bretanya |  4.8.0.91       | TBD     | 09-abr-21           |
+|   &nbsp;  | Oceania       |  4.8.0.91       | TBD     | 09-abr-21           |
 | Estació 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.6.0.161       | 4.7.0.95     | 12-febr-21           |
+|   &nbsp;  | Europa        |  4.8.0.91       | TBD     | 16-abr-21           |
 | Estació 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Amèrica del Nord |  4.6.0.161       | 4.7.0.95     | 19-febr-21           |
+|   &nbsp;  | Amèrica del Nord |  4.7.0.96       | 4.8.0.91     | 12-mar-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificació de llançaments per a l'administració de projectes i comptabilitat a l'entorn de les aplicacions del Finance and Operations
 

@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401206"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479552"
 ---
 # <a name="determine-your-deployment-type"></a>Determinació del tipus d'implementació
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 > [!IMPORTANT]
-> Després d'adquirir la llicència, comenceu aquí per determinar el millor model d'implementació del Dynamics 365 Project Operations mitjançant el [Flux d'instal·lació guiada](https://aka.ms/provisionprojectoperations).
+> Després d'adquirir la llicència, comenceu aquí per determinar el millor model d'implementació del Dynamics 365 Project Operations utilitzant el [Flux d'instal·lació guiada](https://aka.ms/provisionprojectoperations).
 > Després d'haver acabat el flux d'instal·lació guiada, se us dirigirà al portal d'administració correcte per completar la instal·lació. Vegeu els detalls d'implementació per completar la instal·lació.
 
 
@@ -31,6 +31,9 @@ El Project Operations inclou les capacitats incloses al Project Service Automati
 
 Els clients existents del Finance que utilitzen la funcionalitat d'administració de projectes i comptabilitat poden continuar utilitzant-la sense canvis. Vegeu [Project Operations per a escenaris mantinguts en existències/d’ordre de producció](#pma).
 
+
+## <a name="deployment-regions"></a>Regions d'implementació
+Per determinar quines regions admeten la implementació del Project Operations, vegeu [Disponibilitat geogràfica per a l'informe del Dynamics 365 i de Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Seleccioneu **Visualitza l'informe** i expandiu **Dynamics 365 > Aplicacions d'operacions > Dynamics 365 Project Operations** per veure les regions admeses.
 
 ## <a name="deployment-types"></a>Tipus d'implementació
 El Project Operations admet diverses opcions de implementació per adaptar-se a les vostres necessitats. Tant si sou un client nou o existent del Dynamics 365, el Project Operations pot ajudar-vos a satisfer les vostres necessitats.

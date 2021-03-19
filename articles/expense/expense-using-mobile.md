@@ -1,5 +1,5 @@
 ---
-title: Despeses amb el mòbil
+title: Aplicació mòbil de despeses
 description: En aquest tema es proporciona informació l'administració de despeses amb l'àrea de treball mòbil.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120891"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499884"
 ---
-# <a name="expense-using-mobile"></a>Despeses amb el mòbil
+# <a name="mobile-expense-app"></a>Aplicació mòbil de despeses
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 

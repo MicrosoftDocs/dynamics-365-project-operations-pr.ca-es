@@ -3,17 +3,17 @@ title: Comportament de la interfície d'usuari d'entrada de temps
 description: En aquest tema es proporciona informació sobre el comportament de la interfície d'usuari de l'entrada de temps.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124491"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499602"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportament de la interfície d'usuari d'entrada de temps
 
@@ -21,6 +21,19 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 
 La quadrícula **Entrada de temps setmanal** és un control personalitzat que té dues seccions principals, **Dimensions** i **Duració**.
+
+## <a name="keyboard-shortcuts"></a>Dreceres de teclat
+| Acció        | Drecera                  |
+|------------   |------------------------   |
+| Nova           | Alt + Maj + n           |
+| Copia la fila      | Alt + Maj + c           |
+| Edició de l'entrada    | Alt + Maj + e           |
+| Edita la fila      | Alt + Maj + Ctrl + e    |
+| Entrada oberta    | Alt + Maj + o           |
+| Enviament        | Alt + Maj + s           |
+| Recupera        | Alt + Maj + r           |
+| Delete        | Alt + Maj + d           |
+| Copia la setmana     | Alt + Maj + w           |
 
 ## <a name="dimensions"></a>Dimensions
 A la secció **Dimensions** es mostren totes les dimensions en què es pot introduir el temps. Les dimensions següents s'admeten de fàbrica:

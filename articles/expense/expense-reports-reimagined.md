@@ -1,9 +1,9 @@
 ---
 title: Informes de despeses nous
-description: En aquest tema es proporciona informació sobre l'experiència redissenyada i reinventada per a l'entrada d'informes de despeses.
+description: En aquest tema s'explica l'experiència redissenyada i nova per a l'entrada d'informes de despeses.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122781"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499704"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de despeses nous
 
@@ -59,25 +59,22 @@ El vídeo [Experiència de despesa al Dynamics 365 for Finance and Operations](h
 | Reducció dels missatges a la barra de missatges| El nombre de missatges d'informació i registra s'ha reduït i s'ha fet un esforç per evitar que apareguin missatges duplicats en molts casos. |
 | S'han agrupat accions habituals | La interfície s'ha netejat amb l'addició d'un botó d'accions noves per a la majoria de les accions de nivell de la línia comuna i l'addició d'un botó de punts suspensius (...) per a la capçalera i altres accions menys freqüents. |
 | Nova àrea de treball per augmentar la visibilitat | Una àrea de treball nova unifica les característiques i els enllaços que permeten als usuaris desplaçar-se a diferents àrees. |
-| Afegiu despeses i rebuts existents durant la creació de despeses | Quan creeu informes de despeses, podeu afegir totes les despeses o rebuts seleccionats. |
+| Afegiu despeses i rebuts existents durant la creació de despeses | Quan creeu informes de despeses, podeu afegir totes les despeses o seleccionar despeses no adjuntades. Les despeses no adjuntades són les despeses importades des del canal de continguts de targeta de crèdit empresarial o les despeses que l'usuari ha creat manualment però que no s'han adjuntat a un informe de despeses.|
 | Calculadora de tipus de canvi | S'ha afegit una calculadora de tipus de canvi que permet calcular el tipus de canvi per a operacions multidivisa. |
 | Deseu i afegiu línies de despeses noves | Els botons **Desa** i **Nou** estan disponibles quan s'introdueixen les despeses noves per ajudar-vos a introduir ràpidament les línies de despesa. |
 | Visibilitat millorada a les línies dividides i desglossades | Les línies desglossades i dividides s'afegeixen directament a la llista de despeses per augmentar la visibilitat i ajudar-vos a determinar fàcilment si hi ha cap error. |
 | Mostra els rebuts durant el desglossament | Els rebuts poden mostrar-se durant el desglossament. |
+| Selecció de bestreta en efectiu | Seleccioneu una o diverses bestretes en efectiu per realitzar una transacció de despesa única. |
+| Balanç de bestreta en efectiu | Reviseu el balanç de bestreta en efectiu en temps real quan creeu una entrada de despesa per a bestretes en efectiu aprovades i pagades. |
 
 La versió inicial se centra en escenaris d'entrada de despesa. Qualsevol escenari de revisió o aprovació de l'informe de despeses continuarà utilitzant la pàgina d'entrada de despeses existent.
 
-Les característiques següents estan presents a la pàgina existent, però encara no estan presents a la pàgina nova. Aquestes característiques es tornaran a introduir en les següents versions:
+Les característiques següents no estan admeses a la nova Àrea de treball de despeses:
 
-- Aprovacions
-- Aprovació dels comptes a pagar i capacitat d'editar la comptabilitat
-- Diversos punts d'entrada
 - Integració de les peticions de viatge
-- Entitat de dades per a la visibilitat del camp de despeses
-- Entrada de despeses de dietes
-- Flux de treball de nivell de línia
+- Entrada de despesa per dia
 - Compatibilitat amb aprovadors intermedis
-- Desglossament avançat
+- Capacitat de visualitzar l'historial del flux de treball
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

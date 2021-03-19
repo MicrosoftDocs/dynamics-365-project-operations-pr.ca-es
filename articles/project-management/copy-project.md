@@ -1,27 +1,27 @@
 ---
 title: Còpia d'un projecte
-description: En aquest tema es proporciona informació sobre la còpia de projectes al Dynamics 365 Project Operations.
+description: Aquest tema proporciona informació sobre la còpia de projectes al Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131781"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479507"
 ---
 # <a name="copy-a-project"></a>Còpia d'un projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Amb el Dynamics 365 Project Operations, podeu crear ràpidament nous projectes seleccionant **Copia el projecte** al formulari **Projectes**. Per copiar un projecte, obriu el projecte que voleu copiar i seleccioneu **Copia el projecte**. L'acció copiarà:
+Amb el Dynamics 365 Project Operations, podeu crear projectes nous ràpidament seleccionant **Copia el projecte** al formulari **Projectes**. Per copiar un projecte, obriu el projecte que voleu copiar i seleccioneu **Copia el projecte**. L'acció copiarà:
 
-- Les propietats del projecte
+- Propietats del projecte (La data d'inici estimada es copia del projecte d'origen)
 - L'estructura del desglossament del treball
 - Membres de l'equip del projecte
 - Estimacions del projecte
