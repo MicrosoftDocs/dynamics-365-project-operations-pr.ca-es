@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131511"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286821"
 ---
 # <a name="maintain-team-members"></a>Manteniment dels membres de l'equip
 
@@ -21,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Podeu afegir un recurs amb nom a l'equip del projecte reservant-lo directament a l'equip.
 
-1. Al Dynamics 365 Project Operations, aneu a **Projectes** i, a continuació, seleccioneu el projecte obert al qual voleu reservar.
+1. Al Dynamics 365 Project Operations, aneu a **Projectes** i seleccioneu el projecte obert al qual voleu fer la reserva.
 2. A la pàgina **Projecte**, a la pestanya **Equip**, seleccioneu **Nou**. 
 3. Al quadre de diàleg **Creació ràpida de membre de l'equip**, seleccioneu el recurs que es pot reservar. El camp **Funció** s'emplenarà amb la funció per defecte del recurs si en té assignada una. Podeu canviar la funció. 
 4. Seleccioneu les dates d'origen i finalització en què es necessitaran els recursos i seleccioneu el mètode d'assignació de la capacitat del recurs. 

@@ -1,6 +1,6 @@
 ---
 title: Informació general sobre l'administració de projectes
-description: En aquest tema es proporciona informació sobre la funcionalitat d'administració de projectes al Dynamics 365 Project Operations.
+description: En aquest tema es proporciona informació sobre l'Administració de projectes al Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4e23b5cd4b625736e02e62624ee838926e4dd325
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127551"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286686"
 ---
 # <a name="project-management-overview"></a>Informació general sobre l'administració de projectes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Les eines d'administració de projectes del Dynamics 365 Project Operations us ajudaran a executar de manera fàcil el projecte. Les eines de planificació ajuden els administradors i els equips del projecte a seguir sent productius. Algunes de les tasques en què les eines us ajudaran són:
+Les eines d'administració de projectes del Dynamics 365 Project Operations us ajuden a executar projectes amb facilitat. Les eines de planificació ajuden els administradors i els equips del projecte a seguir sent productius. Algunes de les tasques en què les eines us ajudaran són:
 
 - Planificar projectes utilitzant planificacions de treball i estimacions.
 - Fer una estimació i seguiment dels costos i ingressos d'un projecte.

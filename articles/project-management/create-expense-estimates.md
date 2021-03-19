@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131691"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287046"
 ---
 # <a name="expense-estimates"></a>Estimacions de despeses
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Juntament amb la definició d'estimacions basades en recursos, el Dynamics 365 Project Operations permet als administradors de projectes definir les despeses basades en projectes per a cada projecte. Cada element de despesa es pot associar amb una tasca del projecte o categoria de despesa concreta. Les categories de despesa es defineixen típicament a nivell organitzatiu. Els preus de cada categoria de despesa es defineixen típicament segons la jerarquia següent:
+Juntament amb la definició d'estimacions basades en recursos, el Dynamics 365 Project Operations permet als administradors de projecte definir les despeses basades en projectes de cada projecte. Cada element de despesa es pot associar amb una tasca del projecte o categoria de despesa concreta. Les categories de despesa es defineixen típicament a nivell organitzatiu. Els preus de cada categoria de despesa es defineixen típicament segons la jerarquia següent:
 
 - Organització
 - Client

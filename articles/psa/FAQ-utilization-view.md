@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4516c562e7eaf35c5fef638183967eef5a033b11
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b07af573bc8d312c45ee4aef50c95942401294fa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146381"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285921"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Veure l'ús imputable dels recursos
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127327"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286596"
 ---
 # <a name="project-tracking-overview"></a>Informació general sobre el seguiment del projecte
 
@@ -23,7 +23,7 @@ La necessitat de fer un seguiment del progrés davant d'una planificació varia 
 
 ## <a name="effort-tracking-view"></a>Vista Seguiment de l'esforç
 
-La visualització **Seguiment de l'esforç** fa el seguiment del progrés de les tasques a la planificació comparant les hores d'esforç reals dedicades a una tasca i les hores d'esforç planificades de la tasca. El Dynamics 365 Project Operations utilitza les següents fórmules per calcular les mètriques de seguiment:
+La visualització **Seguiment de l'esforç** fa el seguiment del progrés de les tasques a la planificació comparant les hores d'esforç reals dedicades a una tasca i les hores d'esforç planificades de la tasca. El Dynamics 365 Project Operations utilitza les fórmules següents per calcular les mètriques de seguiment:
 
 - **Percentatge de progrés**: Esforç real dedicat fins al moment ÷ Estimació per completar (EAC) 
 - **Estimació per completar (ETC)**: Esforç planificat - Esforç real dedicat fins al moment 

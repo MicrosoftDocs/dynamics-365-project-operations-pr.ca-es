@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133286"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287226"
 ---
 # <a name="integration-journal-in-project-operations"></a>Llibre diari d'integració del Project Operations
 
@@ -30,7 +30,7 @@ Els registres al diari d'integració del Project Operations es creen mitjançant
 Quan s'executa el procés periòdic, es troben els valors reals que encara no s'han afegit al diari d'integració del Project Operations. Es crea una línia del llibre diari per a cada transacció real.
 El sistema agrupa les línies de diari en diaris separats en funció del valor seleccionat en el camp **Unitat periòdica al diari d'integració del Project Operations** (**Finances** > **Administració de projectes i comptabilitat** > **Configuració** > **Paràmetres de l'administració de projectes i la comptabilitat**, pestanya **Project Operations al Dynamics 365 Customer Engagement**). Els valors possibles per a aquest camp inclouen:
 
-  - _*Dies**: els valors reals s'agrupen per data de transacció. Es crea un diari separat per a cada dia.
+  - **Dies**: els valors reals s'agrupen per data de transacció. Es crea un diari separat per a cada dia.
   - **Mesos**: els valors reals s'agrupen per mes natural. Es crea un diari separat per a cada mes.
   - **Anys**: els valors reals s'agrupen per any natural. Es crea un diari separat per a cada any.
   - **Totes**: totes les transaccions de valors reals s'inclouen en el mateix diari d'integració. Si el diari no està disponible quan s'executa el procés periòdic; per exemple, si el diari està en procés de publicar transaccions, es crea un diari nou.

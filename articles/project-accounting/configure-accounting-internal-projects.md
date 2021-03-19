@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ea04178d4327ccd701ab431f172463a13a55154e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132366"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287586"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Configuració de la comptabilitat per a projectes interns
 
@@ -24,7 +24,7 @@ Els projectes interns permeten a les empreses fer un seguiment del cost relacion
 - Desenvolupar un producte, com una aplicació mòbil, i fer un seguiment del cost associat al desenvolupament.
 - Administrar el temps i les despeses prèvies a la venda. Aquest projecte intern previ a la venda es pot convertir més tard en un projecte facturable si es guanya l'oferta.
 
-Qualsevol projecte no associat amb un contracte a Dynamics 365 Project Operations es tracta com a intern. Els perfils de cost i ingrés del projecte no s'utilitzen per determinar les regles de comptabilitat per al projecte. El cost intern del projecte sempre es comptabilitza amb els principis de beneficis i pèrdues. Els comptes del registre major per a les comptabilitzacions es defineixen a la pàgina **Configuració de comptabilització del registre major**.
+Qualsevol projecte no associat amb un contracte al Dynamics 365 Project Operations es tracta com a intern. Els perfils de cost i ingrés del projecte no s'utilitzen per determinar les regles de comptabilitat per al projecte. El cost intern del projecte sempre es comptabilitza amb els principis de beneficis i pèrdues. Els comptes del registre major per a les comptabilitzacions es defineixen a la pàgina **Configuració de comptabilització del registre major**.
 
 - Les transaccions de temps es comptabilitzen carregant-les al compte **Cost** i pagant-les al compte **Assignació de nòmines**.
 - Les transaccions de despeses es comptabilitzen carregant-les al compte **Cost** i pagant-les al compte **Compte de desplaçament per a despeses**.

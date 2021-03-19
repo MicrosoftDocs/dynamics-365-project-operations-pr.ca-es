@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131961"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287631"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configuració de la comptabilitat per a projectes facturables
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-El Dynamics 365 Project Operations admet diverses opcions de comptabilitat per a projectes facturables que inclouen transaccions per temps, materials i preu fix.
+El Dynamics 365 Project Operations admet diverses opcions de comptabilitat per a projectes facturables que inclouen transaccions de temps i de materials i de preu fix.
 
 - **Transaccions per temps i materials** : aquestes transaccions es facturen a mesura que la feina progressi segons el consum d'hores, de despeses, d'articles o de càrrecs del projecte. Aquests costos de transacció es poden assignar als ingressos de cada transacció i el projecte es factura a mesura que el treball progressa. Els ingressos del projecte també es poden acumular en el moment en què es produeix la transacció. Durant la facturació, es reconeixen els ingressos i, si escau, l'acumulació es reverteix.
 - **Transaccions de preu fix**: aquestes transaccions es fracturen segons una planificació de facturació basada en el contracte del projecte. Els ingressos per a transaccions de preu fix es poden reconèixer en la facturació o calcular i comptabilitzar-se periòdicament, d'acord amb els mètodes de **Contracte finalitzat** o **Percentatge completat**.
