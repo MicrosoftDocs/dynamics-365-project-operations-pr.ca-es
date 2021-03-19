@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072273"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289312"
 ---
 # <a name="microsoft-project-client-integration"></a>Integració del Microsoft Project Client
 
@@ -35,14 +35,14 @@ La planificació i el manteniment d'una planificació de projecte poden ser comp
 > Si utilitzeu l'actualització de juliol (versió 10.0.4), heu d'instal·lar els KB 4054797 i el 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Configurar el complement del Microsoft Project Client
-Per habilitar la integració amb el Microsoft Project Client, cal que s'instal·li un complement del Microsoft Dynamics 365 a l'aplicació client del Microsoft Project de l'usuari. Això es fa obrint l' **àrea de treball Administració de projectes**.
+Per habilitar la integració amb el Microsoft Project Client, cal que s'instal·li un complement del Microsoft Dynamics 365 a l'aplicació client del Microsoft Project de l'usuari. Això es fa obrint l'**àrea de treball Administració de projectes**.
 
 • Feu clic a **Configura el complement de client del Project** des de la secció **Enllaços** > **Configuració** de l'àrea de treball.
 
 • Feu clic a **Obre** i, a continuació, feu clic a **Executa** quan se us demani.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Obrir i editar una estructura de desglossament del treball existent d'esborrany al Microsoft Project Client
-Si un projecte del Dynamics 365 Finance ja té una estructura de desglossament del treball creada, l'estructura del desglossament del treball es pot obrir a l'aplicació Microsoft Project Client si l'estructura del desglossament del treball està en un estat d'esborrany. Per obrir-la des de la pàgina **Projecte** , feu clic a l'enllaç **Obre al Microsoft Project** des de la pestanya **Pla**. Aquesta pàgina també es pot obrir des de l'aplicació Microsoft Project Client fent clic a **Obre** la pestanya **Microsoft Dynamics 365**. Seleccioneu una **Entitat jurídica** i **Projecte** de la llista.
+Si un projecte del Dynamics 365 Finance ja té una estructura de desglossament del treball creada, l'estructura del desglossament del treball es pot obrir a l'aplicació Microsoft Project Client si l'estructura del desglossament del treball està en un estat d'esborrany. Per obrir-la des de la pàgina **Projecte**, feu clic a l'enllaç **Obre al Microsoft Project** des de la pestanya **Pla**. Aquesta pàgina també es pot obrir des de l'aplicació Microsoft Project Client fent clic a **Obre** la pestanya **Microsoft Dynamics 365**. Seleccioneu una **Entitat jurídica** i **Projecte** de la llista.
 
 > [!NOTE]
 > Si utilitzeu l'Internet Explorer com a navegador, haureu de fer clic a **Desa** per obrir manualment la ubicació a la qual es descarrega el fitxer. O bé, feu clic a **Desa i obre** per obrir el fitxer Microsoft Project Client. No canvieu el nom del fitxer en desar-lo.
@@ -82,9 +82,9 @@ Per crear una nova estructura del desglossament del treball amb el Microsoft Pro
 
 1.  Obriu el Microsoft Project Client.
 
-2.  A la pestanya **Microsoft Dynamics 365** , feu clic a **Obre**.
+2.  A la pestanya **Microsoft Dynamics 365**, feu clic a **Obre**.
 
-3.  Seleccioneu l' **Entitat jurídica** per al projecte.
+3.  Seleccioneu l'**Entitat jurídica** per al projecte.
 
 4.  Seleccioneu el **Projecte**.
 
@@ -99,9 +99,9 @@ Per crear una nova estructura del desglossament del treball amb el Microsoft Pro
 
 2.  Creeu una planificació al Microsoft Project Client.
 
-3.  A la pestanya **Microsoft Dynamics 365** , feu clic a **Desa els canvis** > **Substitueix un projecte existent**.
+3.  A la pestanya **Microsoft Dynamics 365**, feu clic a **Desa els canvis** > **Substitueix un projecte existent**.
 
-4.  Seleccioneu l' **Entitat jurídica** per al projecte.
+4.  Seleccioneu l'**Entitat jurídica** per al projecte.
 
 5.  Seleccioneu el **Projecte**.
 
@@ -114,15 +114,15 @@ Per crear una nova estructura del desglossament del treball amb el Microsoft Pro
 
 2.  Creeu una planificació al Microsoft Project Client.
 
-3.  A la pestanya **Microsoft Dynamics 365** , feu clic a **Desa els canvis** > **Desa en un projecte nou**.
+3.  A la pestanya **Microsoft Dynamics 365**, feu clic a **Desa els canvis** > **Desa en un projecte nou**.
 
-4.  Seleccioneu l' **Entitat jurídica** per al projecte.
+4.  Seleccioneu l'**Entitat jurídica** per al projecte.
 
-5.  Introduïu l' **Identificador del projecte** , si cal.
+5.  Introduïu l'**Identificador del projecte**, si cal.
 
 6.  Introduïu el **Nom del projecte**.
 
-7.  Seleccioneu el **Tipus de projecte** , el **Grup de projectes** i l' **Identificador del contracte del projecte**. O bé, podeu crear un contracte de projecte nou fent clic a **Nou**.
+7.  Seleccioneu el **Tipus de projecte**, el **Grup de projectes** i l'**Identificador del contracte del projecte**. O bé, podeu crear un contracte de projecte nou fent clic a **Nou**.
 
 8.  Seleccioneu el **calendari** que s'utilitzarà per als recursos.
 

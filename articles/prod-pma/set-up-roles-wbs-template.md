@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072192"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288637"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar funcions a les plantilles d'estructura del desglossament del treball
 
@@ -33,7 +33,7 @@ Els administradors de projectes poden configurar les plantilles d'estructura del
 
 1. Seleccioneu **Administració de projectes i comptabilitat** > **Configuració** > **Projectes**  > **Plantilles d'estructura del desglossament del treball**.
 2. Seleccioneu **Detalls** per a una plantilla de WBS seleccionada.
-3. Seleccioneu una tasca a la llista i, a continuació, al camp **Funció** , seleccioneu una funció per assignar a la tasca.
+3. Seleccioneu una tasca a la llista i, a continuació, al camp **Funció**, seleccioneu una funció per assignar a la tasca.
 
 ## <a name="work-with-a-wbs"></a>Treballar amb una WBS
 
@@ -79,7 +79,7 @@ S'ha afegit més opcions a la WBS per utilitzar millor la funcionalitat de recur
 </tbody>
 </table>
 
-1. A la pàgina **Tots els projectes** , seleccioneu el projecte **Fase 2 d'actualització d'XYZ**.
+1. A la pàgina **Tots els projectes**, seleccioneu el projecte **Fase 2 d'actualització d'XYZ**.
 2. Seleccioneu **Planificació** > **Activitats** > **Estructura del desglossament del treball**.
 3. Seleccioneu **Nou** per afegir les següents opcions de nivell u per a la WBS:
 
@@ -93,20 +93,20 @@ S'ha afegit més opcions a la WBS per utilitzar millor la funcionalitat de recur
 
     [![Definir les dates i l'esforç](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Seleccioneu la línia de tasca **Inici** i, a continuació, al camp **Funció** , seleccioneu **Administrador de projectes sènior**.
+5. Seleccioneu la línia de tasca **Inici** i, a continuació, al camp **Funció**, seleccioneu **Administrador de projectes sènior**.
 6. Seleccioneu **Publica**.
-7. A la mateixa línia, al camp **Recurs** , seleccioneu **Daniel Goldschmidt** i, a continuació, seleccioneu **Accepta**.
-8. Seleccioneu la línia de tasques **Planificació** i, a continuació, al camp **Funció** , seleccioneu **Analista de negoci**.
+7. A la mateixa línia, al camp **Recurs**, seleccioneu **Daniel Goldschmidt** i, a continuació, seleccioneu **Accepta**.
+8. Seleccioneu la línia de tasques **Planificació** i, a continuació, al camp **Funció**, seleccioneu **Analista de negoci**.
 9. Seleccioneu **Publica** i, a continuació, seleccioneu **Genera automàticament l'equip**.
 10. Al quadre de missatge que apareix, seleccioneu **Sí**.
-11. Al camp **Recurs** , comproveu que el valor és **Analista de negoci 1**.
-12. Per al recurs **Analista de negoci 1** , obriu la cerca i seleccioneu **Inicia les assignacions de recursos**. A continuació, seleccioneu un treballador per a la tasca.
+11. Al camp **Recurs**, comproveu que el valor és **Analista de negoci 1**.
+12. Per al recurs **Analista de negoci 1**, obriu la cerca i seleccioneu **Inicia les assignacions de recursos**. A continuació, seleccioneu un treballador per a la tasca.
 13. Seleccioneu **Assignació flexible** &gt; **Capacitat completa**.
 
     > [!NOTE] 
     > No rebeu cap advertiment que el recurs especificat és ara 2, perquè el nombre de recursos continua sent 1.
 
-14. A la pàgina **Estructura del desglossament del treball** , valideu l'assignació de recursos a la WBS i, a continuació, seleccioneu **Desa**.
+14. A la pàgina **Estructura del desglossament del treball**, valideu l'assignació de recursos a la WBS i, a continuació, seleccioneu **Desa**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

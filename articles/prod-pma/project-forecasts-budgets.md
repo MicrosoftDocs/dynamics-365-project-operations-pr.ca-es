@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072325"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289402"
 ---
 # <a name="project-forecasts-and-budgets"></a>Previsions i pressupostos del projecte
 
@@ -61,9 +61,9 @@ Els models de previsió poden utilitzar la reducció de la previsió com a mecan
 
 Podeu revisar, copiar, suprimir o transferir previsions de projecte a un pressupost d'un llibre major general. No obstant, no hi ha cap control del procés. Qualsevol treballador que tingui permís per a un formulari de previsió pot fer revisions sense revisió.
 
--   **Revisió** : podeu revisar una transacció de previsió en els mateixos formularis en què es van fer les entrades originals.
--   **Còpia o supressió** : quan copieu transaccions de previsió, copieu les línies d'operació d'un model de previsió a un altre model de previsió. Quan suprimiu una previsió, suprimiu les transaccions de previsió d'un model de previsió. Per limitar les transaccions de previsió que s'han copiat o suprimit, seleccioneu tipus de transaccions i dates específiques. Això us permet copiar o suprimir només les parts específiques d'una previsió.
--   **Transferència** : quan transferiu una previsió de projecte a un pressupost del llibre major general, transferiu les transaccions de previsió d'un model de previsió a un pressupost del llibre major general. Podeu sobreescriure qualsevol transacció prèviament transferida al pressupost del llibre major general a la qual transferiu la previsió del projecte.
+-   **Revisió**: podeu revisar una transacció de previsió en els mateixos formularis en què es van fer les entrades originals.
+-   **Còpia o supressió**: quan copieu transaccions de previsió, copieu les línies d'operació d'un model de previsió a un altre model de previsió. Quan suprimiu una previsió, suprimiu les transaccions de previsió d'un model de previsió. Per limitar les transaccions de previsió que s'han copiat o suprimit, seleccioneu tipus de transaccions i dates específiques. Això us permet copiar o suprimir només les parts específiques d'una previsió.
+-   **Transferència**: quan transferiu una previsió de projecte a un pressupost del llibre major general, transferiu les transaccions de previsió d'un model de previsió a un pressupost del llibre major general. Podeu sobreescriure qualsevol transacció prèviament transferida al pressupost del llibre major general a la qual transferiu la previsió del projecte.
 
 ## <a name="project-budgets"></a>Pressupostos de projecte
 El pressupost de projecte és un mètode més senzill que la previsió, tot i que s'integra amb models de previsió. Utilitza un únic formulari d'entrada per als detalls i revisions del pressupost original i permet fer prediccions que es basen només en l'import, la categoria o l'activitat. 

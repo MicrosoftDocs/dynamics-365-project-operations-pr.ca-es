@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072344"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289672"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronitzar els valors reals del projecte directament des del Project Service Automation al diari d'integració del projecte per a la comptabilització al Finance and Operations
 
@@ -54,7 +54,7 @@ Per accedir a les plantilles disponibles, al centre d'administració del Microso
 
 La plantilla i les tasques subjacents següents s'utilitzen per sincronitzar els valors reals del projecte del Project Service Automation al Finance:
 
-- **Nom de la plantilla en la integració de dades** : valors reals del projecte (PSA a Fin and Ops)
+- **Nom de la plantilla en la integració de dades**: valors reals del projecte (PSA a Fin and Ops)
 - **Nom de les tasques del projecte:**
 
     - Valors reals
@@ -88,7 +88,7 @@ A la plantilla de valors reals del projecte, heu d'utilitzar el Microsoft Power 
 #### <a name="contract-organizational-unit"></a>Unitat organitzativa del contracte
 Per actualitzar la columna condicional inserida a la plantilla, feu clic a la fletxa **Assignació** per obrir l'assignació. Seleccioneu l'enllaç **Consulta i filtratge avançats** per obrir el Power Query.
 
-- Si utilitzeu la plantilla Valors reals del projecte (PSA a Fin and Ops) per defecte, al Power Query, seleccioneu l'última **Condició inserida** de la secció **Passos aplicats**. A l'entrada **Funció** , substituïu **USSI** pel nom de l'entitat jurídica que s'ha d'utilitzar amb la integració. Afegiu condicions addicionals a l'entrada **Funció** que necessiteu i actualitzeu la condició **else** d' **USMF** a l'entitat jurídica correcta.
+- Si utilitzeu la plantilla Valors reals del projecte (PSA a Fin and Ops) per defecte, al Power Query, seleccioneu l'última **Condició inserida** de la secció **Passos aplicats**. A l'entrada **Funció**, substituïu **USSI** pel nom de l'entitat jurídica que s'ha d'utilitzar amb la integració. Afegiu condicions addicionals a l'entrada **Funció** que necessiteu i actualitzeu la condició **else** d'**USMF** a l'entitat jurídica correcta.
 - Si esteu creant una plantilla nova, heu d'afegir la columna per admetre les despeses i els temps entre empreses. Seleccioneu **Afegeix una columna condicional** i introduïu un nom per a la columna, com ara **LegalEntity**. Introduïu la condició per a la columna, on, if **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null.
 
 ### <a name="template-mapping-in-data-integration"></a>Assignació de plantilles a la integració de dades
@@ -109,7 +109,7 @@ S'ha d'executar el procés periòdic Importa des de la taula intermèdia despré
 
 La plantilla següent i les tasques subjacents s'utilitzen per sincronitzar el número del val i els impostos de vendes de les transaccions de projecte publicades del Finance al Project Service Automation:
 
-- **Nom de la plantilla en la integració de dades** : actualització dels valors reals del projecte (Fin and Ops a PSA)
+- **Nom de la plantilla en la integració de dades**: actualització dels valors reals del projecte (Fin and Ops a PSA)
 - **Nom de les tasques del projecte:**
 
     - Valors reals 

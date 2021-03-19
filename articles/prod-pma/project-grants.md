@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072393"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289357"
 ---
 # <a name="project-grants"></a>Concessions del projecte
 
@@ -42,29 +42,29 @@ Podeu crear una subvenció introduint tots els detalls en un nou registre o pode
 
 1. Aneu a **Administració de projectes i comptabilitat** \> **Subvencions** \> **Subvencions**.
 2. Seleccioneu **Nova** \> **Subvenció**.
-3. A la pàgina de detalls de la subvenció, al FastTab **General** , al camp **ID de subvenció** , introduïu un identificador alfanumèric per a la subvenció.
-4. En el camp **Nom de la subvenció** , introduïu un nom per a la subvenció.
-5. Al camp **Descripció** , afegiu detalls sobre la nova subvenció.
+3. A la pàgina de detalls de la subvenció, al FastTab **General**, al camp **ID de subvenció**, introduïu un identificador alfanumèric per a la subvenció.
+4. En el camp **Nom de la subvenció**, introduïu un nom per a la subvenció.
+5. Al camp **Descripció**, afegiu detalls sobre la nova subvenció.
 
     La majoria dels altres camps de la pàgina són opcionals i podeu introduir tanta informació com vulgueu.
 
     La següent llista descriu la informació que s'especifica a cada FastTab de detalls de la subvenció:
 
-    - **General** : introduïu el nom de la subvenció, estat, descripció, propòsit i import.
-    - **Informació de contacte** : introduïu detalls sobre els membres del personal, el departament que administra la subvenció i el client de la subvenció o la font d'organització de la subvenció. També podeu indicar si la vostra organització és una entitat de traspàs que rep la subvenció i després la transfereix a un altre destinatari. Seleccioneu **Afegeix** per afegir informació de contacte com ara números de telèfon i adreces de correu electrònic per a l'organització que proporciona la subvenció.
-    - **Dates i terminis** : introduïu les dates relacionades amb la concessió i la sol·licitud de la subvenció. Alguns exemples inclouen la data de venciment de la sol·licitud, la data de presentació i la data en què la subvenció és aprovada o rebutjada.
-    - **Projectes i contractes de projecte associats** : podeu introduir informació en aquest FastTab només si el camp **Estat de la subvenció** al FastTab **General** està definit a **Activa** o **Concedida**. Seleccioneu entre les següents opcions per completar la tasca relacionada:
+    - **General**: introduïu el nom de la subvenció, estat, descripció, propòsit i import.
+    - **Informació de contacte**: introduïu detalls sobre els membres del personal, el departament que administra la subvenció i el client de la subvenció o la font d'organització de la subvenció. També podeu indicar si la vostra organització és una entitat de traspàs que rep la subvenció i després la transfereix a un altre destinatari. Seleccioneu **Afegeix** per afegir informació de contacte com ara números de telèfon i adreces de correu electrònic per a l'organització que proporciona la subvenció.
+    - **Dates i terminis**: introduïu les dates relacionades amb la concessió i la sol·licitud de la subvenció. Alguns exemples inclouen la data de venciment de la sol·licitud, la data de presentació i la data en què la subvenció és aprovada o rebutjada.
+    - **Projectes i contractes de projecte associats**: podeu introduir informació en aquest FastTab només si el camp **Estat de la subvenció** al FastTab **General** està definit a **Activa** o **Concedida**. Seleccioneu entre les següents opcions per completar la tasca relacionada:
 
-        - **Afegeix una font de finançament** : afegiu una nova font de finançament per a la subvenció. Ara podeu introduir tots els detalls, o podeu utilitzar la informació per defecte i actualitzar-la més tard.
-        - **Afegeix un contracte de projecte** : afegiu o actualitzeu la informació del contracte del projecte.
-        - **Afegeix un projecte** : afegiu o actualitzeu els detalls del projecte.
+        - **Afegeix una font de finançament**: afegiu una nova font de finançament per a la subvenció. Ara podeu introduir tots els detalls, o podeu utilitzar la informació per defecte i actualitzar-la més tard.
+        - **Afegeix un contracte de projecte**: afegiu o actualitzeu la informació del contracte del projecte.
+        - **Afegeix un projecte**: afegiu o actualitzeu els detalls del projecte.
 
-    - **Configura** : introduïu els detalls sobre els fons coincidents, si aquesta informació és necessària. Moltes organitzacions que concedeixen subvencions requereixen que els destinataris gastin una quantitat específica dels seus propis diners o recursos que coincideixi amb l'import que es concedeix en la subvenció. En el camp **ID de projecte local o de seguiment** , podeu introduir un identificador que sigui diferent de l'identificador del projecte.
+    - **Configura**: introduïu els detalls sobre els fons coincidents, si aquesta informació és necessària. Moltes organitzacions que concedeixen subvencions requereixen que els destinataris gastin una quantitat específica dels seus propis diners o recursos que coincideixi amb l'import que es concedeix en la subvenció. En el camp **ID de projecte local o de seguiment**, podeu introduir un identificador que sigui diferent de l'identificador del projecte.
 
         > [!NOTE]
         > Si part de la subvenció es concedeix a una organització diferent, definiu l'opció **Subvenció secundària** a **Sí**. Per a les subvencions concedides als Estats Units, podeu especificar si una subvenció serà concedida sota un mandat estatal o un mandat federal.
 
-    - **Detalls de rebuig** : afegiu o actualitzeu la informació sobre la freqüència amb què es poden retirar, facturar o gastar els fons.
+    - **Detalls de rebuig**: afegiu o actualitzeu la informació sobre la freqüència amb què es poden retirar, facturar o gastar els fons.
 
 ## <a name="create-a-new-grant-from-a-copy"></a>Crear una subvenció nova a partir d'una còpia
 
@@ -77,7 +77,7 @@ Podeu crear una subvenció introduint tots els detalls en un nou registre o pode
 
 1. Aneu a **Administració de projectes i comptabilitat** \> **Subvencions** \> **Subvencions**.
 2. Seleccioneu la subvenció que voleu modificar.
-3. A la subfinestra d'acció, a la pestanya **Subvenció** , al grup **Manteniment** , seleccioneu **Edita**.
+3. A la subfinestra d'acció, a la pestanya **Subvenció**, al grup **Manteniment**, seleccioneu **Edita**.
 4. Reviseu els detalls de la subvenció i feu qualsevol canvi que sigui necessari.
 
 

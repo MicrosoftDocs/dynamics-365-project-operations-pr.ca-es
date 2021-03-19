@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289537"
 ---
 # <a name="project-contracts"></a>Contractes del projecte
 
@@ -252,15 +252,15 @@ Quan negocieu un contracte de projecte amb un client, heu de definir com i quan 
 
 Podeu configurar els tipus següents de regles de facturació:
 
--   **Unitat de lliurament** : factureu un client quan completeu una unitat de lliurament. Definiu les unitats de lliurament al contracte.
--   **Progrés** : factureu un client quan completeu un percentatge especificat del projecte. Podeu configurar una regla de facturació per calcular automàticament el percentatge de treball completat, o podeu calcular manualment el percentatge de treball completat i l'import per facturar al client.
--   **Fita** : factureu un client l'import total d'un fita de projecte quan s'assoleixi la fita.
--   **Taxa** : factureu un client pels vostres serveis, a més d'una taxa d'administració, que sol ser un percentatge del cost dels serveis.
--   **Temps i material** : factureu un client pel valor del temps i els materials que s'utilitzen en un projecte.
+-   **Unitat de lliurament**: factureu un client quan completeu una unitat de lliurament. Definiu les unitats de lliurament al contracte.
+-   **Progrés**: factureu un client quan completeu un percentatge especificat del projecte. Podeu configurar una regla de facturació per calcular automàticament el percentatge de treball completat, o podeu calcular manualment el percentatge de treball completat i l'import per facturar al client.
+-   **Fita**: factureu un client l'import total d'un fita de projecte quan s'assoleixi la fita.
+-   **Taxa**: factureu un client pels vostres serveis, a més d'una taxa d'administració, que sol ser un percentatge del cost dels serveis.
+-   **Temps i material**: factureu un client pel valor del temps i els materials que s'utilitzen en un projecte.
 
 Per a tots els tipus de regles de facturació, podeu especificar un percentatge de retenció que es dedueix de les factures del client fins que un projecte arribi a una fase consensuada. El percentatge de retenció de pagament s'especifica al contracte del projecte. L'import es calcula i es resta en funció del valor total de les línies d'una factura de client. 
 
-Per a les regles de facturació **Temps i de materials** i **Progrés** , podeu assignar categories imputables. Les categories imputables indiquen les transaccions que s'han d'incloure a les factures de client. 
+Per a les regles de facturació **Temps i de materials** i **Progrés**, podeu assignar categories imputables. Les categories imputables indiquen les transaccions que s'han d'incloure a les factures de client. 
 
 Quan estigueu a punt per facturar el client, l'import de la factura del projecte es calcula segons les regles de facturació i es genera una proposta de factura de projecte. 
 
@@ -289,8 +289,8 @@ La vostra organització, una firma de consultoria de programari, entra en un aco
 
 La vostra organització, una firma de desenvolupament de programari, accepta desenvolupar un paquet de comptabilitat de nòmines d'un client per 30.000. El client es compromet a pagar a la vostra organització en funció del percentatge de feina completada. Estimeu que els costos del projecte són 20.000. El contracte del projecte especifica les categories de treball que utilitzeu en el procés de facturació. Configureu regles de facturació que calculen automàticament els imports de la factura per al percentatge de treball que s'ha completat per a cada categoria. Configureu un pressupost per a cada categoria:
 
--   **Desenvolupament** : cost de 15.000 i ingressos de 20.000
--   **Instal·lació** : cost de 5.000 i ingressos de 10.000
+-   **Desenvolupament**: cost de 15.000 i ingressos de 20.000
+-   **Instal·lació**: cost de 5.000 i ingressos de 10.000
 
 Quan creeu una factura del client per primer cop, l'import de la factura es calcula automàticament segons la informació següent:
 

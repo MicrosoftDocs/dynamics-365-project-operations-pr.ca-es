@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072351"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289627"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronitzar categories de despeses del projecte entre el Finance and Operations i el Project Service Automation
 
@@ -68,7 +68,7 @@ Per accedir a la plantilla, al centre d'administració del Microsoft Power Apps,
 
 La plantilla i la tasca subjacent següents s'utilitzen per sincronitzar les categories de despesa del projecte del Finance al Project Service Automation:
 
-- **Nom de la plantilla en la integració de dades** : categories de transaccions de despesa del projecte (Fin and Ops a PSA)
+- **Nom de la plantilla en la integració de dades**: categories de transaccions de despesa del projecte (Fin and Ops a PSA)
 - **Nom de la tasca del projecte:** sincronització de categories al PSA
 
 ### <a name="entity-set"></a>Conjunt d'entitats
@@ -103,7 +103,7 @@ A la il·lustració següent es mostra un exemple de l'assignació de tasques de
 
 La plantilla i la tasca subjacent següents s'utilitzen per sincronitzar les categories de despesa del projecte del Project Service Automation al Finance:
 
-- **Nom de la plantilla en la integració de dades** : categories de transaccions de despesa del projecte (PSA a Fin and Ops)
+- **Nom de la plantilla en la integració de dades**: categories de transaccions de despesa del projecte (PSA a Fin and Ops)
 - **Nom de la tasca del projecte:** sincronització de categories al Fin Ops
 
 ### <a name="entity-set"></a>Conjunt d'entitats

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072193"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288862"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Àrea de treball mòbil Entrada de temps del projecte
 
@@ -36,7 +36,7 @@ Aquesta àrea de treball mòbil està dissenyada per utilitzar-se amb l'aplicaci
 ## <a name="overview"></a>Informació general
 Com a part del seu treball diari, els recursos del projecte sovint són in situ o desplaçant-se. L'àrea de treball mòbil **Entrada de temps del projecte** permet que els usuaris introdueixin el seu temps facturable o no facturable d'un projecte al dispositiu mòbil de la seva elecció. Per tant, els recursos del projecte poden registrar entrades de temps en qualsevol moment i en qualsevol lloc. També poden visualitzar entrades de temps que ja s'han enregistrat. 
 
-En concret, a l'àrea de treball mòbil **Entrada de temps del projecte** , els usuaris poden dur a terme aquestes tasques:
+En concret, a l'àrea de treball mòbil **Entrada de temps del projecte**, els usuaris poden dur a terme aquestes tasques:
 
 -   Per a qualsevol data seleccionada, introduir el nombre d'hores que heu dedicat a una tasca concreta.
 -   Cercar el nom del projecte o el client per trobar el projecte per al qual voleu introduir temps.

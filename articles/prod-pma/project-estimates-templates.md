@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072340"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289447"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronitzar les estimacions del projecte directament des del Project Service Automation al Finance and Operations
 
@@ -50,7 +50,7 @@ Per accedir a les plantilles disponibles, al centre d'administració del Microso
 
 La plantilla i les tasques subjacents següents s'utilitzen per sincronitzar les estimacions d'hores del projecte del Project Service Automation al Finance:
 
-- **Nom de la plantilla en la integració de dades** : estimacions d'hores del projecte (PSA a Fin and Ops)
+- **Nom de la plantilla en la integració de dades**: estimacions d'hores del projecte (PSA a Fin and Ops)
 - **Nom de les tasques del projecte:**
 
     - Relacions de transacció
@@ -82,7 +82,7 @@ A la plantilla d'estimacions d'hores del projecte, heu d'utilitzar el Microsoft 
 
 Per actualitzar l'identificador del model de previsió per defecte a la plantilla, feu clic a la fletxa **Assignació** per obrir l'assignació. A continuació, seleccioneu l'enllaç **Consulta i filtratge avançats**.
 
-- Si utilitzeu la plantilla Estimacions d'hores del projecte (PSA a Fin and Ops) per defecte, seleccioneu la **Condició inserida** a la llista de **Passos aplicats**. A l'entrada de **Funció** , substituïu **O\_previsió** pel nom de l'identificador del model de previsió que s'ha d'utilitzar amb la integració. La plantilla per defecte té un ID de model de previsió a partir de les dades de demostració.
+- Si utilitzeu la plantilla Estimacions d'hores del projecte (PSA a Fin and Ops) per defecte, seleccioneu la **Condició inserida** a la llista de **Passos aplicats**. A l'entrada de **Funció**, substituïu **O\_previsió** pel nom de l'identificador del model de previsió que s'ha d'utilitzar amb la integració. La plantilla per defecte té un ID de model de previsió a partir de les dades de demostració.
 - Si esteu creant una plantilla nova, heu d'afegir aquesta columna. Al Power Query, seleccioneu **Afegeix una columna condicional** i introduïu un nom per a la columna nova, com ara **ModelID**. Introduïu la condició per a la columna, on, if Project task is not null, then \<enter the forecast model ID\>; else null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrar els registres específics de recurs
@@ -105,7 +105,7 @@ A la il·lustració següent es mostra un exemple de l'assignació de tasques de
 
 La plantilla i les tasques subjacents següents s'utilitzen per sincronitzar les estimacions de despesa del projecte del Project Service Automation al Finance:
 
-- **Nom de la plantilla en la integració de dades** : estimacions de despesa del projecte (PSA a Fin and Ops)
+- **Nom de la plantilla en la integració de dades**: estimacions de despesa del projecte (PSA a Fin and Ops)
 - **Nom de les tasques del projecte:**
 
     - Relacions de transacció 
@@ -143,7 +143,7 @@ La plantilla Estimacions de despesa de projecte (PSA a Fin and Ops) té un filtr
 
 Per actualitzar l'identificador del model de previsió per defecte a la plantilla, seleccioneu la tasca **Estimacions de despesa** i feu clic a la fletxa **Assignació** per obrir l'assignació. Seleccioneu l'enllaç **Consulta i filtratge avançats**.
 
-- Si utilitzeu la plantilla Estimacions de despesa del projecte (PSA a Fin and Ops) per defecte, al Power Query, seleccioneu la primera **Condició inserida** de la secció **Passos aplicats**. A l'entrada de **Funció** , substituïu **O\_previsió** pel nom de l'identificador del model de previsió que s'ha d'utilitzar amb la integració. La plantilla per defecte té un ID de model de previsió a partir de les dades de demostració.
+- Si utilitzeu la plantilla Estimacions de despesa del projecte (PSA a Fin and Ops) per defecte, al Power Query, seleccioneu la primera **Condició inserida** de la secció **Passos aplicats**. A l'entrada de **Funció**, substituïu **O\_previsió** pel nom de l'identificador del model de previsió que s'ha d'utilitzar amb la integració. La plantilla per defecte té un ID de model de previsió a partir de les dades de demostració.
 - Si esteu creant una plantilla nova, heu d'afegir aquesta columna. Al Power Query, seleccioneu **Afegeix una columna condicional** i introduïu un nom per a la columna nova, com ara **ModelID**. Introduïu la condició per a la columna, on, if Estimate line ID is not null, then \<enter the forecast model ID\>; else null.
 
 #### <a name="transform-the-billing-types"></a>Transformar els tipus de facturació

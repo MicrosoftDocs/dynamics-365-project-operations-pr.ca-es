@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122331"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287721"
 ---
 # <a name="manage-the-billing-backlog"></a>Administració del treball pendent de facturació
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Dynamics 365 Project Operations té dues visualitzacions dedicades per ajudar-vos a treballar i administrar el treball pendent de facturació. Són **Fites de preu fix** i **Treball pendent de facturació de temps i material** Per seleccionar una visualització, a l'àrea **Vendes** del Project Operacions, a la pàgina de navegació esquerra, seleccioneu **Facturació**. Els enllaços de treball pendent de facturació s'emmagatzemen allà.
+El Dynamics 365 Project Operations té dues visualitzacions dedicades per ajudar-vos a utilitzar i administrar el registre de facturació. Són **Fites de preu fix** i **Treball pendent de facturació de temps i material** Per seleccionar una visualització, a l'àrea **Vendes** del Project Operacions, a la pàgina de navegació esquerra, seleccioneu **Facturació**. Els enllaços de treball pendent de facturació s'emmagatzemen allà.
 
 ## <a name="fixed-price-milestones"></a>Fites de preu fix
 

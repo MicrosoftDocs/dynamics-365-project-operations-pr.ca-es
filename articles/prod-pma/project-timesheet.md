@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288817"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicació mòbil Project timesheet
 
@@ -60,23 +60,23 @@ Si hi ha un full d'hores per a la data actual, es mostrarà. Si heu de crear un 
 
 Podeu introduir informació del projecte fent clic a l'acció **Afegeix hores** o l'acció **Copia les hores de**. L'acció **Copia les hores de** copiarà la informació de la línia de projecte, però no les hores. El menú **Copia les hores de** inclou les opcions següents:
 
-- **Copia d'un full d'hores existent** : les línies del full d'hores d'un full d'hores existent.
+- **Copia d'un full d'hores existent**: les línies del full d'hores d'un full d'hores existent.
 
-- **Copia d'un preferit** : creeu les noves línies de full d'hores mitjançant la configuració de full d'hores que heu seleccionat com a preferida.
+- **Copia d'un preferit**: creeu les noves línies de full d'hores mitjançant la configuració de full d'hores que heu seleccionat com a preferida.
 
-- **Copia des d'una assignació** : creeu noves línies de full d'hores des dels projectes assignats.
+- **Copia des d'una assignació**: creeu noves línies de full d'hores des dels projectes assignats.
 
 La informació del projecte que es mostra depèn dels paràmetres mòbils que hàgiu definit a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**.
 
-Al camp **Entitat jurídica** , seleccioneu l'entitat jurídica per a la qual heu dut a terme el treball del projecte. El camp **Entitat jurídica** només està disponible si s'ha habilitat la compatibilitat amb els fulls d'hores entre empreses per a la vostra entitat jurídica.
+Al camp **Entitat jurídica**, seleccioneu l'entitat jurídica per a la qual heu dut a terme el treball del projecte. El camp **Entitat jurídica** només està disponible si s'ha habilitat la compatibilitat amb els fulls d'hores entre empreses per a la vostra entitat jurídica.
 
 Seleccioneu el client que està associat amb el projecte del full d'hores. Per a la versió inicial de l'Android, l'entrada per client no està admesa, ja que primer heu de seleccionar el projecte. Si heu seleccionat primer el projecte, el camp **Client** s'emplena automàticament.
 
-Al camp **Projecte** , seleccioneu el projecte per al qual esteu introduint hores. El camp **Client** s'emplena automàticament.
+Al camp **Projecte**, seleccioneu el projecte per al qual esteu introduint hores. El camp **Client** s'emplena automàticament.
 
 Les cerques de clients i projectes permeten cercar entre clients i projectes.
 
-Seleccioneu la informació als camps **Categoria** , **Activitat** , **Propietat de la línia** , **Grup d'impostos de vendes** i **Grup d'impostos de vendes d'articles** segons calgui. Aquests camps es poden substituir.
+Seleccioneu la informació als camps **Categoria**, **Activitat**, **Propietat de la línia**, **Grup d'impostos de vendes** i **Grup d'impostos de vendes d'articles** segons calgui. Aquests camps es poden substituir.
 
 El camp **Propietat de la línia** es definirà en un valor per defecte, segons els paràmetres de l'administració de projectes i la comptabilitat. Quan s'habiliten els paràmetres de projecte/categoria i categoria/recurs, el valor de **Propietat de la línia** es definirà en el valor per defecte que heu definit per a aquesta validació. Quan els paràmetres de projecte/categoria i categoria/recurs no estan habilitats, el valor de **Propietat de la línia** serà per defecte segons el camp **Habilita la propietat de línia per defecte** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**. El valor **Propietat de la línia** es pot substituir.
 
@@ -95,7 +95,7 @@ Feu clic a **Envia** per enviar el full d'hores al flux de treball d'aprovació.
 
 ## <a name="review-timesheets"></a>Revisar els fulls d'hores
 
-Hi ha disponible una llista dels fulls d'hores que s'han de revisar al menú. Aquesta opció només està disponible si heu estat designat aprovador de fluxos de treball. Es permet l'aprovació de la capçalera i la línia. L'aprovació de nivell de línia ofereix la capacitat de marcar una o diverses línies per a la seva aprovació. Després de revisar la informació del full de temps, feu clic a **Aprova** , **Delega** o **Retorna** per continuar el flux de treball.
+Hi ha disponible una llista dels fulls d'hores que s'han de revisar al menú. Aquesta opció només està disponible si heu estat designat aprovador de fluxos de treball. Es permet l'aprovació de la capçalera i la línia. L'aprovació de nivell de línia ofereix la capacitat de marcar una o diverses línies per a la seva aprovació. Després de revisar la informació del full de temps, feu clic a **Aprova**, **Delega** o **Retorna** per continuar el flux de treball.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

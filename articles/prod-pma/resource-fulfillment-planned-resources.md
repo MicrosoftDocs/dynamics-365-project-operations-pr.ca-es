@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4200d74a18c706a492ebd0e5383d5957ce6ab6c8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288772"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Compliment de recursos per a recursos planificats
 
@@ -31,15 +31,15 @@ ms.locfileid: "4072383"
 
 Un administrador de projectes pot planificar les funcions de recursos necessàries per a un projecte. L'administrador de recursos veurà aquests recursos planificats com a sol·licituds a la pàgina **Compliment de recursos** i pot assignar els recursos reals.
 
-1. A la pàgina **Tots els projectes** , seleccioneu el projecte **Fase 2 d'actualització d'XYZ**.
+1. A la pàgina **Tots els projectes**, seleccioneu el projecte **Fase 2 d'actualització d'XYZ**.
 2. Seleccioneu **Projecte** i, a continuació, **Edita**.
-3. A la pestanya **Equip del projecte i planificació** , seleccioneu **Afegeix**.
-4. Al quadre de diàleg **Afegeix funcions** , seleccioneu la funció **Desenvolupador de programari**.
+3. A la pestanya **Equip del projecte i planificació**, seleccioneu **Afegeix**.
+4. Al quadre de diàleg **Afegeix funcions**, seleccioneu la funció **Desenvolupador de programari**.
 5. Seleccioneu **Crea** i, a continuació, tanqueu la pàgina del projecte.
-6. A la pàgina **Compliment de recursos** , seleccioneu **Desenvolupador de programari 1** per al projecte **Fase 2 del projecte d'actualització d'XYZ**.
+6. A la pàgina **Compliment de recursos**, seleccioneu **Desenvolupador de programari 1** per al projecte **Fase 2 del projecte d'actualització d'XYZ**.
 7. Seleccioneu un treballador i, després, **Assigna**.
 8. Verifiqueu que s'hagi suprimit la línia **Desenvolupador de programari 1** per al projecte **Fase 2 del projecte d'actualització d'XYZ**.
-9. A la pestanya **Equip del projecte i planificació** , per al projecte **Fase 2 d'actualització d'XYZ** , comproveu que el treballador que heu seleccionat al pas anterior s'hagi afegit com a **Desenvolupador de programari**.
+9. A la pestanya **Equip del projecte i planificació**, per al projecte **Fase 2 d'actualització d'XYZ**, comproveu que el treballador que heu seleccionat al pas anterior s'hagi afegit com a **Desenvolupador de programari**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

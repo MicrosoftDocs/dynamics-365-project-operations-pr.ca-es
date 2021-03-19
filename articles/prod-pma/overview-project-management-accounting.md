@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072355"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289762"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informació general sobre l'administració de projectes i la comptabilitat
 
@@ -148,10 +148,10 @@ Una comanda de producció relacionada amb el projecte pot enllaçar-se amb una c
 
 En funció de les combinacions d'aquests factors, feu servir un dels mètodes següents:
 
-- **Article acabat/enllaç a la comanda** : enllaça el projecte a una comanda de venda o un requisit d'article. Quan utilitzeu aquest mètode, els costos reals del projecte es comptabilitzaran quan la comanda de venda es facturi o quan s'actualitzi l'albarà per al requisit d'article. El cost es comptabilitza com a article acabat.
-- **Article acabat/sense enllaç a la comanda** : els costos reals no es poden comptabilitzar fins que el cicle de producció d'un article tingui l'estat **Finalitzat**. El cost per a l'article acabat es comptabilitza com una única transacció.
-- **Article consumit/enllaç a la comanda** : enllaça el projecte a un requisit d'article. Mitjançant aquest mètode, podeu visualitzar els costos reals del projecte quan la producció té l'estat **Iniciat** o s'informa com a finalitzada. Els costos es comptabilitzen com a diverses operacions d'article de projecte per a matèries primeres i hores consumides per a la producció. Quan s'actualitza l'albarà per al requisit d'article, no es comptabilitzen els costos del projecte. També podeu definir el nivell en la jerarquia de facturació de materials (BOM) segons la qual es fa el seguiment dels projectes en la producció.
-- *<strong><em>Article consumit/sense enllaç a la comanda</em></strong>* : enllaça el projecte a un requisit d'article. Mitjançant aquest mètode, podeu visualitzar els costos reals del projecte quan la producció té l'estat <strong>Iniciat</strong> o s'informa com a finalitzada. Els costos es comptabilitzen com a diverses operacions d'article de projecte per a matèries primeres i hores consumides per a la producció. També podeu definir el nivell en la jerarquia (BOM) segons la qual es fa el seguiment dels projectes en la producció.
+- **Article acabat/enllaç a la comanda**: enllaça el projecte a una comanda de venda o un requisit d'article. Quan utilitzeu aquest mètode, els costos reals del projecte es comptabilitzaran quan la comanda de venda es facturi o quan s'actualitzi l'albarà per al requisit d'article. El cost es comptabilitza com a article acabat.
+- **Article acabat/sense enllaç a la comanda**: els costos reals no es poden comptabilitzar fins que el cicle de producció d'un article tingui l'estat **Finalitzat**. El cost per a l'article acabat es comptabilitza com una única transacció.
+- **Article consumit/enllaç a la comanda**: enllaça el projecte a un requisit d'article. Mitjançant aquest mètode, podeu visualitzar els costos reals del projecte quan la producció té l'estat **Iniciat** o s'informa com a finalitzada. Els costos es comptabilitzen com a diverses operacions d'article de projecte per a matèries primeres i hores consumides per a la producció. Quan s'actualitza l'albarà per al requisit d'article, no es comptabilitzen els costos del projecte. També podeu definir el nivell en la jerarquia de facturació de materials (BOM) segons la qual es fa el seguiment dels projectes en la producció.
+- *<strong><em>Article consumit/sense enllaç a la comanda</em></strong>*: enllaça el projecte a un requisit d'article. Mitjançant aquest mètode, podeu visualitzar els costos reals del projecte quan la producció té l'estat <strong>Iniciat</strong> o s'informa com a finalitzada. Els costos es comptabilitzen com a diverses operacions d'article de projecte per a matèries primeres i hores consumides per a la producció. També podeu definir el nivell en la jerarquia (BOM) segons la qual es fa el seguiment dels projectes en la producció.
 
 ### <a name="procure-products-and-services"></a>Compra de productes i serveis
 
@@ -205,7 +205,7 @@ Podeu encarregar articles de l'inventari de l'empresa per al consum en un projec
 
 La manera com encarregueu els articles depèn d'on l'encarregueu:
 
--   Per encarregar articles de l'inventari de l'empresa, heu d'introduir la comanda com a requisit d'article. Si utilitzeu la pàgina **Requisits d'articles** , podeu configurar el requisit per tal que rebeu els articles com a lliuraments parcials. Per tant, podeu ajornar el consum d'una quantitat d'articles fins que els articles siguin necessaris.
+-   Per encarregar articles de l'inventari de l'empresa, heu d'introduir la comanda com a requisit d'article. Si utilitzeu la pàgina **Requisits d'articles**, podeu configurar el requisit per tal que rebeu els articles com a lliuraments parcials. Per tant, podeu ajornar el consum d'una quantitat d'articles fins que els articles siguin necessaris.
 -   Per encarregar articles d'un proveïdor extern, heu de crear la comanda com a comanda de compra a la pàgina **Comanda de compra**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Per obtenir més informació sobre com processar factures de projectes, vegeu [F
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular el cost per completar un projecte
 
-Quan creeu una estimació, podeu triar el mètode que s'utilitza per calcular el cost per completar el projecte. Seleccioneu un mètode del camp de **Mètode de cost per completar** a la pàgina **Crea una estimació**. El mètode que trieu s'aplica de manera separada a cada línia de cost en l'estimació del cost. Mentre una línia tingui l'estat **Creat** , podeu canviar el mètode que s'hi aplica a la pàgina **Estimació de costos**. 
+Quan creeu una estimació, podeu triar el mètode que s'utilitza per calcular el cost per completar el projecte. Seleccioneu un mètode del camp de **Mètode de cost per completar** a la pàgina **Crea una estimació**. El mètode que trieu s'aplica de manera separada a cada línia de cost en l'estimació del cost. Mentre una línia tingui l'estat **Creat**, podeu canviar el mètode que s'hi aplica a la pàgina **Estimació de costos**. 
 
 A la taula següent es descriuen els mètodes per calcular el cost per completar un projecte.
 
@@ -300,12 +300,12 @@ Segons l'organització, podeu preveure els fluxos d'entrada de caixa per a un pr
 -   **Data del projecte:** 5 de març de 2012.
 -   **Data de la factura:** 31 de març de 2012. Aquesta data es determina a partir de la freqüència de les factures. Per a aquest exemple, definiu la freqüència de factures al mes en curs. Per tant, totes les transaccions que es comptabilitzen al mes de març es facturen l'últim dia del mes.
 -   **Data de venciment:** 14 d'abril de 2012. Aquesta data es determina en funció dels terminis de pagament que s'han definit per al projecte. Per a aquest exemple, heu seleccionat un termini de pagament de 14 dies. Per tant, s'afegeixen 14 dies a la data de la factura per poder arribar a una data de venciment del 14 d'abril de 2012.
--   **Data prevista de pagament de la venda:** 27 d'abril de 2012. Aquesta data es calcula afegint el nombre de dies al camp **Dies de marge generals** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat** al nombre de dies del camp **Dies de marge individuals** a la pàgina **Contractes del projecte** i, a continuació, afegint el total al nombre de dies al camp **Data de venciment**. Per a aquest exemple, heu introduït **3** en el camp **Dies de marge generals** i **10** al camp **Dies de marge individuals**. Per tant, se sumen 13 dies a la data de venciment per poder arribar a una data de pagament de vendes esperada del 27 d'abril de 2012.
+-   **Data prevista de pagament de la venda:** 27 d'abril de 2012. Aquesta data es calcula afegint el nombre de dies al camp **Dies de marge generals** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat** al nombre de dies del camp **Dies de marge individuals** a la pàgina **Contractes del projecte** i, a continuació, afegint el total al nombre de dies al camp **Data de venciment**. Per a aquest exemple, heu introduït **3** en el camp **Dies de marge generals** i **10** al camp **Dies de marge individuals**. Per tant, se sumen 13 dies a la data de venciment per poder arribar a una data de pagament de vendes esperada del 27 d'abril de 2012.
 
 Els dies de marge generals poden substituir els dies de marge individuals o sumar-hi:
 
 -   Per utilitzar els dies de marge generals com a reemplaçament per als dies de marge individuals, introduïu el nombre mitjà de dies entre la data de venciment i la data de pagament real per als clients.
--   Per sumar els dies de marge generals als dies de marge individuals, al **camp Dies de marge generals** , introduïu l'estimació per al nombre de dies entre el dia en què el client envia el pagament i el dia en què l'organització rep el pagament.
+-   Per sumar els dies de marge generals als dies de marge individuals, al **camp Dies de marge generals**, introduïu l'estimació per al nombre de dies entre el dia en què el client envia el pagament i el dia en què l'organització rep el pagament.
 
 Configureu els dies de marge individuals al contracte del projecte. Els dies es calculen segons la data de venciment tant de la factura de vendes com de l'experiència de l'organització amb el patró de pagament d'un client.
 
@@ -323,9 +323,9 @@ Segons els dies definits, la data de pagament de cost pot diferir de la data del
 
 Per exemple, la data del projecte de la transacció és el 5 de març de 2012 i es defineixen els terminis de pagament següents:
 
--   **Hores:** mes actual ( **M** )
--   **Despeses:** 14 dies ( **D14** )
--   **Articles:** 30 dies ( **D30** )
+-   **Hores:** mes actual (**M**)
+-   **Despeses:** 14 dies (**D14**)
+-   **Articles:** 30 dies (**D30**)
 
 Segons aquesta configuració, aquí teniu la data de pagament per a cada tipus de transacció:
 
@@ -364,37 +364,37 @@ Podeu supervisar els costos que comporta l'organització durant un projecte a la
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Visualitzar els imports pressupostats restants
 
-Si es selecciona **Pressupost restant** com a mètode de control de cost a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat** , la pàgina **Control de costos** calcula els costos que no s'han comptabilitzat com a reals o no s'han marcat com a confirmats. En concret, els imports a la pestanya **General** de la subfinestra inferior de la pàgina **Control de costos** es calculen de les maneres següents:
+Si es selecciona **Pressupost restant** com a mètode de control de cost a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**, la pàgina **Control de costos** calcula els costos que no s'han comptabilitzat com a reals o no s'han marcat com a confirmats. En concret, els imports a la pestanya **General** de la subfinestra inferior de la pàgina **Control de costos** es calculen de les maneres següents:
 
--   **Cost real** : import total que s'ha invertit en el projecte per a la línia de cost seleccionada. L'import de cost real es calcula a la pàgina **Actualitzacions del llibre major**.
--   **Cost confirmat** : la quantitat addicional de despeses que l'entitat jurídica s'ha compromès a pagar. Els imports de cost confirmat específics es calculen a la pàgina **Costos confirmats**.
--   **Pressupost restant** : import de l'import pressupostat original que encara està disponible per a la línia de cost seleccionada. La resta de l'import pressupostat es calcula a la pàgina **Visualització prèvia general del llibre major**.
--   **Cost total** : suma del cost real, el cost confirmat i l'import pressupostat restant.
+-   **Cost real**: import total que s'ha invertit en el projecte per a la línia de cost seleccionada. L'import de cost real es calcula a la pàgina **Actualitzacions del llibre major**.
+-   **Cost confirmat**: la quantitat addicional de despeses que l'entitat jurídica s'ha compromès a pagar. Els imports de cost confirmat específics es calculen a la pàgina **Costos confirmats**.
+-   **Pressupost restant**: import de l'import pressupostat original que encara està disponible per a la línia de cost seleccionada. La resta de l'import pressupostat es calcula a la pàgina **Visualització prèvia general del llibre major**.
+-   **Cost total**: suma del cost real, el cost confirmat i l'import pressupostat restant.
 
-A la pàgina **Control de costos** , a la pestanya **Desviació** , podeu visualitzar una comparació del cost total esperat amb el pressupost original. Aquesta comparació mostra les diferències entre aquests imports. Per tant, podeu veure on les dades no coincideixen. Els imports de desviació es calculen de les maneres següents:
+A la pàgina **Control de costos**, a la pestanya **Desviació**, podeu visualitzar una comparació del cost total esperat amb el pressupost original. Aquesta comparació mostra les diferències entre aquests imports. Per tant, podeu veure on les dades no coincideixen. Els imports de desviació es calculen de les maneres següents:
 
--   **Pressupost original** : import que originalment s'havia pressupostat per a la línia de cost seleccionada. L'import pressupostat original es calcula a la pàgina **Visualització prèvia general del llibre major**.
--   **Cost total** : suma del cost real, el cost confirmat i l'import pressupostat restant, com s'indica a la pestanya **General**.
--   **Desviació** : diferència entre el cost total i el pressupost original.
--   **Variació en funció de la quantitat** : diferència total entre la previsió original i la previsió total. Aquesta diferència es pot expressar matemàticament com a (Quantitat prevista total) × (Preu mitjà original – Preu mitjà total). Aquest càlcul només s'aplica a les hores del projecte.
--   **Variació en funció del preu** : diferència total entre la previsió original i la previsió total. Aquesta diferència es pot expressar matemàticament com a (Preu previst original) × (Quantitat prevista original – Quantitat prevista total). Aquest càlcul només s'aplica a les hores del projecte.
+-   **Pressupost original**: import que originalment s'havia pressupostat per a la línia de cost seleccionada. L'import pressupostat original es calcula a la pàgina **Visualització prèvia general del llibre major**.
+-   **Cost total**: suma del cost real, el cost confirmat i l'import pressupostat restant, com s'indica a la pestanya **General**.
+-   **Desviació**: diferència entre el cost total i el pressupost original.
+-   **Variació en funció de la quantitat**: diferència total entre la previsió original i la previsió total. Aquesta diferència es pot expressar matemàticament com a (Quantitat prevista total) × (Preu mitjà original – Preu mitjà total). Aquest càlcul només s'aplica a les hores del projecte.
+-   **Variació en funció del preu**: diferència total entre la previsió original i la previsió total. Aquesta diferència es pot expressar matemàticament com a (Preu previst original) × (Quantitat prevista original – Quantitat prevista total). Aquest càlcul només s'aplica a les hores del projecte.
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Visualitzar els imports pressupostats totals
 
-Si se selecciona **Pressupost total** com a mètode de control de costos a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat** , la pàgina **Control de costos** calcula els costos reals i les despeses totals del projecte per ajudar-vos a detectar qualsevol diferència entre els dos. En concret, a la pàgina **Control de costos,** els imports de les columnes de la subfinestra inferior de la pestanya **General** es calculen de les maneres següents:
+Si se selecciona **Pressupost total** com a mètode de control de costos a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**, la pàgina **Control de costos** calcula els costos reals i les despeses totals del projecte per ajudar-vos a detectar qualsevol diferència entre els dos. En concret, a la pàgina **Control de costos**, els imports de les columnes de la subfinestra inferior de la pestanya **General** es calculen de les maneres següents:
 
--   **Cost total pressupostat** : import pressupostat total per a la línia de cost seleccionada.
--   **Cost real** : import total de costos que ha suposat el projecte fins a la data per a les línies de cost seleccionades.
--   **Cost confirmat** : import total que s'ha confirmat per a la línia de cost seleccionada.
--   **Variació** : diferència entre la suma dels costos reals i confirmats i el cost total. La variació mostra si hi ha costos addicionals que s'han d'especificar per al pressupost total.
+-   **Cost total pressupostat**: import pressupostat total per a la línia de cost seleccionada.
+-   **Cost real**: import total de costos que ha suposat el projecte fins a la data per a les línies de cost seleccionades.
+-   **Cost confirmat**: import total que s'ha confirmat per a la línia de cost seleccionada.
+-   **Variació**: diferència entre la suma dels costos reals i confirmats i el cost total. La variació mostra si hi ha costos addicionals que s'han d'especificar per al pressupost total.
 
-A la pàgina **Control de costos** , a la pestanya **Desviació** , podeu visualitzar la diferència entre el pressupost total i el pressupost original consultant els camps següents:
+A la pàgina **Control de costos**, a la pestanya **Desviació**, podeu visualitzar la diferència entre el pressupost total i el pressupost original consultant els camps següents:
 
--   **Pressupost original** : import que originalment s'havia pressupostat per a la línia de cost. El pressupost original es calcula a la pàgina **Visualització prèvia general del llibre major**.
--   **Cost pressupostat total** : cost total que originalment s'havia pressupostat per a la línia de cost. El cost pressupostat total es calcula a la pàgina **Visualització prèvia general del llibre major**.
--   **Desviació** : desviació de la línia de cost. Aquest import es calcula restant el cost total al pressupost original.
--   **Variació en funció de la quantitat** : diferència total entre el pressupost original i el pressupost total. Aquest import es calcula restant les hores pressupostades totals a les hores pressupostades originals i, a continuació, multiplicant la diferència pel preu de cost original pressupostat. Aquesta diferència es pot expressar matemàticament com a (Preu de cost original pressupostat) × (Hores pressupostades originals – Hores pressupostades totals). Aquest càlcul només s'aplica a les hores del projecte.
--   **Variació en funció del preu** : aquest import es calcula restant les hores pressupostades totals a les hores pressupostades originals i, a continuació, multiplicant la diferència pel nombre total d'hores consumides. Aquesta diferència es pot expressar matemàticament com a (Hores consumides totals) × (Hores pressupostades originals – Hores pressupostades totals). Aquest càlcul només s'aplica a les hores del projecte.
+-   **Pressupost original**: import que originalment s'havia pressupostat per a la línia de cost. El pressupost original es calcula a la pàgina **Visualització prèvia general del llibre major**.
+-   **Cost pressupostat total**: cost total que originalment s'havia pressupostat per a la línia de cost. El cost pressupostat total es calcula a la pàgina **Visualització prèvia general del llibre major**.
+-   **Desviació**: desviació de la línia de cost. Aquest import es calcula restant el cost total al pressupost original.
+-   **Variació en funció de la quantitat**: diferència total entre el pressupost original i el pressupost total. Aquest import es calcula restant les hores pressupostades totals a les hores pressupostades originals i, a continuació, multiplicant la diferència pel preu de cost original pressupostat. Aquesta diferència es pot expressar matemàticament com a (Preu de cost original pressupostat) × (Hores pressupostades originals – Hores pressupostades totals). Aquest càlcul només s'aplica a les hores del projecte.
+-   **Variació en funció del preu**: aquest import es calcula restant les hores pressupostades totals a les hores pressupostades originals i, a continuació, multiplicant la diferència pel nombre total d'hores consumides. Aquesta diferència es pot expressar matemàticament com a (Hores consumides totals) × (Hores pressupostades originals – Hores pressupostades totals). Aquest càlcul només s'aplica a les hores del projecte.
 
 ### <a name="analyze-utilization"></a>Anàlisi d'ús
 
@@ -404,22 +404,22 @@ La relació d'ús d'un treballador es calcula dividint el nombre d'hores factura
 
 Quan calculeu la relació d'ús d'un treballador, podeu calcular la relació facturable o la relació d'eficiència:
 
--   **Relació facturable** : diferència entre les hores facturables i les hores no facturables o les hores estàndard.
--   **Relació d'eficiència** : diferència entre les hores productives i les hores no productives o les hores estàndard. Les hores productives són les hores que el treballador dedica a contribuir a un projecte concret. Normalment, les hores productives es facturen als clients, a excepció del cas dels projectes interns. Les hores no productives mai no es facturen a un client.
+-   **Relació facturable**: diferència entre les hores facturables i les hores no facturables o les hores estàndard.
+-   **Relació d'eficiència**: diferència entre les hores productives i les hores no productives o les hores estàndard. Les hores productives són les hores que el treballador dedica a contribuir a un projecte concret. Normalment, les hores productives es facturen als clients, a excepció del cas dels projectes interns. Les hores no productives mai no es facturen a un client.
 
 Calculeu les relacions d'utilització a la pàgina **Ús d'hores**. Els càlculs es basen en les preferències per defecte. Aquestes preferències també especifiquen la manera com es calculen les hores assignant **Ús** o **Càrrega** a cada tipus de projecte. Això s'aplica als càlculs de la relació facturable i als càlculs de la relació d'eficiència.
 
--   **Ús** : les hores que s'informen per al tipus de projecte seleccionat sempre es consideren facturables o d'ús d'eficiència.
--   **Càrrega** : les hores que s'informen per al tipus de projecte seleccionat sempre es consideren no facturables o sense ús d'eficiència.
--   **Segons la propietat de línia** : les propietats de línia d'una transacció d'hores determinada determinen si les hores es consideren per a la utilització facturable o d'eficiència.
--   **No incloses** : les hores no estan incloses en el càlcul d'ús facturable o d'eficiència.
+-   **Ús**: les hores que s'informen per al tipus de projecte seleccionat sempre es consideren facturables o d'ús d'eficiència.
+-   **Càrrega**: les hores que s'informen per al tipus de projecte seleccionat sempre es consideren no facturables o sense ús d'eficiència.
+-   **Segons la propietat de línia**: les propietats de línia d'una transacció d'hores determinada determinen si les hores es consideren per a la utilització facturable o d'eficiència.
+-   **No incloses**: les hores no estan incloses en el càlcul d'ús facturable o d'eficiència.
 
-A la pàgina **Ús d'hores** , a més del percentatge d'ús general per a un treballador o per a un projecte, podeu visualitzar el nombre d'hores que s'han utilitzat per als càlculs de la relació d'utilització per a cadascun dels tipus d'hores següents:
+A la pàgina **Ús d'hores**, a més del percentatge d'ús general per a un treballador o per a un projecte, podeu visualitzar el nombre d'hores que s'han utilitzat per als càlculs de la relació d'utilització per a cadascun dels tipus d'hores següents:
 
--   **Hores no incloses** : aquestes hores no s'inclouen a la relació d'ús d'hores.
--   **Hores incloses** : aquestes hores es calculen sumant les hores d'ús i les hores de càrrega. Aquestes hores s'inclouen a la relació d'ús.
--   **Hores de càrrega** : si esteu calculant una relació facturable, aquestes hores són el mateix que les hores no imputables. Si calculeu una relació d'eficiència, aquestes hores són el mateix que les hores no productives.
--   **Hores d'ús** : si esteu calculant una relació facturable, aquestes hores són el mateix que les hores imputables. Si calculeu una relació d'eficiència, aquestes hores són el mateix que les hores productives.
+-   **Hores no incloses**: aquestes hores no s'inclouen a la relació d'ús d'hores.
+-   **Hores incloses**: aquestes hores es calculen sumant les hores d'ús i les hores de càrrega. Aquestes hores s'inclouen a la relació d'ús.
+-   **Hores de càrrega**: si esteu calculant una relació facturable, aquestes hores són el mateix que les hores no imputables. Si calculeu una relació d'eficiència, aquestes hores són el mateix que les hores no productives.
+-   **Hores d'ús**: si esteu calculant una relació facturable, aquestes hores són el mateix que les hores imputables. Si calculeu una relació d'eficiència, aquestes hores són el mateix que les hores productives.
 
 Quan calculeu la relació d'ús d'un treballador, podeu utilitzar les hores estàndard o les hores incloses. Si utilitzeu hores incloses, heu d'assegurar-vos que els treballadors registren tot el seu temps de treball per als períodes del full d'hores, perquè el càlcul s'expressa com a percentatge de les hores introduïdes. Quan calculeu la relació d'ús d'hores per a un projecte, un contracte de projecte, un registre de client o una categoria, heu d'utilitzar les hores incloses per al càlcul.
 
@@ -432,14 +432,14 @@ Podeu crear un extracte del projecte per visualitzar una instantània ràpida de
 -   Data del projecte/data del llibre major
 -   Dades
 
-Després de calcular l'extracte, podeu visualitzar la informació següent a les diverses pestanyes de la pàgina **Extractes del projecte** :
+Després de calcular l'extracte, podeu visualitzar la informació següent a les diverses pestanyes de la pàgina **Extractes del projecte**:
 
--   **General** : informació general sobre l'estructura bàsica de guanys i pèrdues del projecte.
--   **Guanys i pèrdues** : informació sobre els ingressos acumulats.
--   **Treball en curs** : informació sobre els balanços del comptes de treball en curs.
--   **Consum** : informació sobre el consum d'hores, articles, despeses i transaccions de nòmines.
--   **Factura** : informació sobre les factures i la facturació a compte.
--   **Tarifa per hora** : les tarifes per hora per a les hores que es comptabilitzen als comptes d'ingressos i costos.
+-   **General**: informació general sobre l'estructura bàsica de guanys i pèrdues del projecte.
+-   **Guanys i pèrdues**: informació sobre els ingressos acumulats.
+-   **Treball en curs**: informació sobre els balanços del comptes de treball en curs.
+-   **Consum**: informació sobre el consum d'hores, articles, despeses i transaccions de nòmines.
+-   **Factura**: informació sobre les factures i la facturació a compte.
+-   **Tarifa per hora**: les tarifes per hora per a les hores que es comptabilitzen als comptes d'ingressos i costos.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
