@@ -1,6 +1,6 @@
 ---
 title: Descripció general del temps
-description: En aquest tema es proporciona informació sobre la funcionalitat de temps al Dynamics 365 Project Operations.
+description: En aquest tema podreu obtenir informació sobre la funcionalitat de Temps del Dynamics 365 Project Operations.
 author: stsporen
 manager: AnnBe
 ms.date: 10/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e27311f7dda1c3c713dc3ad6c0e63f395264808d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124536"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277101"
 ---
-# <a name="time-overview"></a>Descripció general del temps
+# <a name="time-overview"></a>Informació general del temps
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-L'entrada de temps és el procés d'enregistrament del temps real que consumeix un recurs. Les entrades de temps del Dynamics 365 Project Operations permeten calcular els preus de cost i de vendes com a progressos en tasques. Aquestes entrades ajuden l'administrador del projecte a mantenir-se informat dels projectes i de les tasques. Les entrades de temps també notifiquen els administradors de recursos de possibles vacances o absències que es mostren al tauler de planificació com a **Absent** . Aquestes notificacions permeten als administradors de recursos planificar aquests esdeveniments.
+L'entrada de temps és el procés d'enregistrament del temps real que consumeix un recurs. Les entrades de temps del Dynamics 365 Project Operations permeten calcular els preus de cost i de venda a mesura que avancen les tasques. Aquestes entrades ajuden l'administrador del projecte a mantenir-se informat dels projectes i de les tasques. Les entrades de temps també notifiquen els administradors de recursos de possibles vacances o absències que es mostren al tauler de planificació com a **Absent** . Aquestes notificacions permeten als administradors de recursos planificar aquests esdeveniments.
 
 Quan s'enregistra el temps al Project Operations, els usuaris poden fer un seguiment a qualsevol nivell del projecte. Això inclou els nivells de tasca, resum o projecte.
 

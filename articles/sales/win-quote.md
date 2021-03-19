@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124671"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277236"
 ---
 # <a name="close-a-quote"></a>Tancar una oferta
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Una oportunitat de projecte es pot tancar com a guanyada o perduda. Com que les funcions d'activació i revisió en les ofertes no s'admeten al Microsoft Dynamics 365 Project Operations, podeu tancar un esborrany d'oferta.
+Una oportunitat de projecte es pot tancar com a guanyada o perduda. Com que les funcions Activa i Revisa a les ofertes no estàn admeses al Microsoft Dynamics 365 Project Operations, podeu tancar un esborrany d'oferta.
 
 ## <a name="close-a-quote-as-won"></a>Tancament d'una oferta com a guanyada
 

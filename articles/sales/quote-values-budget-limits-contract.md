@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180225"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277551"
 ---
 # <a name="project-quote-settings"></a>Configuració de les ofertes dels projectes
 
@@ -22,7 +22,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 En aquest article s'explica la informació que s'aplica a una oferta de projecte. Això inclou la configuració que té un impacte en totes les línies d'oferta i informació sobre l'oferta que es resumeix en tots els elements de línia per impulsar els KPI de l'oferta del projecte.
 
-A la taula següent s'enumeren els camps d'informació resumida d'una oferta de projecte que són únics del Dynamics 365 Project Operations o que tenen canvis importants en el comportament de les ofertes del Dynamics 365 Sales.
+A la taula següent es detallen els camps d'informació resumida d'una oferta de projecte que són exclusius del Dynamics 365 Project Operations o que tenen alguns canvis importants en el comportament de les ofertes del Dynamics 365 Sales.
 
 | **Camp** | **Ubicació** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- | --- |

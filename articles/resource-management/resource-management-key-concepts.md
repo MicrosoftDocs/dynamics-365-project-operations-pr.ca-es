@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123861"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279486"
 ---
 # <a name="resource-management-key-concepts"></a>Conceptes clau de l'administració de recursos
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Els recursos són l'actiu més important d'una organització basada en serveis. La capacitat de trobar els recursos adequats a l'hora adequada, reservar aquests recursos en projectes i mantenir-los utilitzats ajuda les organitzacions a complir els objectius d'ingressos i els objectius de satisfacció del client. Podeu utilitzar la funcionalitat de projecte de recursos del Dynamics 365 Project Operations per fer les tasques següents:
+Els recursos són l'actiu més important d'una organització basada en serveis. La capacitat de trobar els recursos adequats a l'hora adequada, reservar aquests recursos en projectes i mantenir-los utilitzats ajuda les organitzacions a complir els objectius d'ingressos i els objectius de satisfacció del client. Podeu utilitzar la funcionalitat de dotació de recursos de projecte del Dynamics 365 Project Operations per fer les tasques següents:
 
 - Formar equips de projecte reservant recursos disponibles i qualificats.
 - Crear registres de membres de l'equip genèric i definir les seves funcions i la unitat d'organització de recursos.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181215"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277686"
 ---
 # <a name="opportunity-settings"></a>Configuració de les oportunitats
 
@@ -22,7 +22,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 La capçalera o resum de l'oportunitat captura la informació general sobre un acord basat en projectes que s'aplica a totes les línies d'una oportunitat basada en projectes.
 
-Les oportunitats basades en projectes al Dynamics 365 Project Operations són extensions de les oportunitats del Dynamics 365 Sales. Aquestes extensions proporcionen funcionalitats addicionals específiques i necessàries per a les oportunitats basades en projectes. Aquestes extensions poden incloure nous camps i accions de la franja disponibles a les oportunitats basades en projectes. Potser trobareu que alguns camps, funcionalitat i lògica de valors per defecte disponibles al Sales no està disponible al Project Operations.
+Les oportunitats basades en projectes al Dynamics 365 Project Operations són extensions d'oportunitats al Dynamics 365 Sales. Aquestes extensions proporcionen funcionalitats addicionals específiques i necessàries per a les oportunitats basades en projectes. Aquestes extensions poden incloure nous camps i accions de la franja disponibles a les oportunitats basades en projectes. Potser trobareu que alguns camps, funcionalitat i lògica de valors per defecte disponibles al Sales no està disponible al Project Operations.
 
 A la taula següent s'inclouen els camps d'una oportunitat basada en projectes que són únics per al Project Operations o que tenen canvis importants en el comportament de les oportunitats del Sales.
 

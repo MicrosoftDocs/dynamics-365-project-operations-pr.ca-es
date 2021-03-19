@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181980"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277866"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Administració de diversos clients en una oferta de projecte
 
@@ -23,7 +23,7 @@ Les ofertes del projecte admeten l'escenari en què la proposta implica diversos
 
 Tots els clients de l'oferta de la pestanya **Clients** de l'oferta del projecte són per defecte clients de la línia d'oferta a les línies d'oferta basades en projectes **noves** creades per a l'oferta. Totes les línies de l'oferta basades en projectes no hereten els registres de client d'oferta nova que s'hagin creat després.
 
-Es poden afegir, actualitzar o suprimir els clients de l'oferta i els clients de la línia d'oferta en qualsevol moment abans de guanyar l'oferta. Un client vàlid de l'oferta s'ha de configurar com a client a l'empresa propietària o a l'entitat legal a la pàgina **Clients**. Les entitats jurídiques es configuren al mòdul **Administració de projectes i comptabilitat** del Dynamics 365 Project Operations i estan disponibles com a empreses del mòduls **Vendes i lliuraments de projectes** del Project Operations.
+Es poden afegir, actualitzar o suprimir els clients de l'oferta i els clients de la línia d'oferta en qualsevol moment abans de guanyar l'oferta. Un client vàlid de l'oferta s'ha de configurar com a client a l'empresa propietària o a l'entitat legal a la pàgina **Clients**. Les entitats jurídiques es configuren al mòdul **Gestió de projectes i comptabilitat** del Dynamics 365 Project Operations i estan disponibles com a Empreses als mòduls **Vendes de projecte i Lliuraments** de Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concepte de client principal
 

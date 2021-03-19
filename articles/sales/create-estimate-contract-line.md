@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24299d997074efcff3776168652809d490c81b17
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180450"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278496"
 ---
 # <a name="estimate-a-projectbased-contract-line"></a>Estimació d'una línia de contracte basada en projectes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_ 
 
-Al Dynamics 365 Project Operations, una línia de contracte basada en projectes té detalls que ajuden a estimar el cost i els ingressos potencials del treball involucrada per lliurar la línia de contracte.
+Al Dynamics 365 Project Operations, una línia de contracte basada en projectes té detalls que ajuden a estimar el cost i els ingressos potencials del treball dedicat a realitzar la línia de contracte.
 
 Per estimar una línia de contracte basada en projectes, aneu a la pestanya **Detall de línia contracte** de la **línia de contracte** basada en projectes.  Hi ha dues maneres de crear una estimació en una línia de contracte basada en projectes:
 

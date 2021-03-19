@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177589"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277371"
 ---
 # <a name="sales-process-overview"></a>Informació general del procés de vendes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Els processos de venda que s'utilitzen en una organització basada en projectes es diferencien dels processos de venda que s'utilitzen en una organització basada en productes. Això es produeix perquè els cicles de venda d'organitzacions basades en projectes són més llargs i requereixen tècniques d'estimació personalitzades per analitzar i crear ofertes per a cada operació. El Dynamics 365 Project Operations utilitza algunes de les funcionalitats següents que s'utilitzen en el procés de venda:
+Els processos de venda que s'utilitzen en una organització basada en projectes es diferencien dels processos de venda que s'utilitzen en una organització basada en productes. Això es produeix perquè els cicles de venda d'organitzacions basades en projectes són més llargs i requereixen tècniques d'estimació personalitzades per analitzar i crear ofertes per a cada operació. El Dynamics 365 Project Operations utilitza algunes de les funcionalitats següents que s'utilitzen en un procés de venda:
 
 - Un registre Client potencial s'utilitza per fer el seguiment del procés de vendes.
 - Es fa un seguiment dels clients potencials qualificats com a oportunitats.

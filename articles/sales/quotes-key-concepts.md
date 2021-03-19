@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121296"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277506"
 ---
 # <a name="quotes---key-concepts"></a>Ofertes: conceptes clau
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Al Dynamics 365 Project Operations hi ha dos tipus d'ofertes, de projectes i de vendes. Els dos tipus d'ofertes es diferencien de les maneres següents:
+Al Dynamics 365 Project Operations, hi ha dos tipus d'ofertes, de projectes i de vendes. Els dos tipus d'ofertes es diferencien de les maneres següents:
 
 - **Quadrícules per a elements de línia**: en una oferta de vendes, només hi ha una quadrícula per als elements de línia. En una oferta de projecte hi ha dues quadrícules per als elements de línia. Una quadrícula és per a les línies de projecte i l'altra és per a les línies de productes.
 - **Activació i revisions**: les ofertes de vendes admeten l'activació i les revisions. Aquests processos no estan admesos en una oferta de projecte.
