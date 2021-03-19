@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180270"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274896"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configuració de les tarifes de cost i de vendes per a les despeses
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Podeu configurar els preus de cost i venda per a les categories de transacció al Dynamics 365 Project Operations. Atès que els preus de cost i venda estan dissenyats per a les despeses, cada categoria de transacció que els inclou també ha d'establir-se com a categoria de despeses. Aquesta configuració assegura la precisió de la funcionalitat descendent. Els preus de cost i venda per a les categories de transaccions només es poden indicar en una moneda, que ha de ser la moneda de la capçalera de la llista de preus.
+Podeu configurar els preus de cost i de venda per a categories de transaccions al Dynamics 365 Project Operations. Atès que els preus de cost i venda estan dissenyats per a les despeses, cada categoria de transacció que els inclou també ha d'establir-se com a categoria de despeses. Aquesta configuració assegura la precisió de la funcionalitat descendent. Els preus de cost i venda per a les categories de transaccions només es poden indicar en una moneda, que ha de ser la moneda de la capçalera de la llista de preus.
 
 Per configurar les tarifes de cost i venda per a les categories de transacció, completeu els passos següents. 
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119541"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274941"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolució dels preus de venda per a les estimacions i els valors reals
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Quan els preus de venda en les estimacions i els valors reals es resolen al Dynamics 365 Project Operations, el sistema primer utilitza la data i la moneda de l'oferta del projecte o contracte relacionat per resoldre la llista de preus de vendes. Després de resoldre la llista de preus de vendes, el sistema resol la tarifa de vendes o de facturació.
+Quan els preus de venda de les estimacions i els valors reals es resolen al Dynamics 365 Project Operations, el sistema utilitza primer la data i la moneda de l'oferta o el contracte de projecte relacionats per resoldre la llista de preus de venda. Després de resoldre la llista de preus de vendes, el sistema resol la tarifa de vendes o de facturació.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Resolució de tarifes de vendes en línies de valors reals i estimacions per al temps
 

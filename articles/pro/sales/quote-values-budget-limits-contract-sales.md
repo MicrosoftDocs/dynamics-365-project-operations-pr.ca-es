@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180929"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272421"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Informació resumida d'una oferta de projecte (bàsic)
 
@@ -21,7 +21,7 @@ _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 En aquest article s'explica la informació que s'aplica a una oferta de projecte. Això inclou la configuració que té un impacte en totes les línies d'oferta i informació sobre l'oferta que es resumeix en tots els elements de línia per impulsar els KPI de l'oferta del projecte.
 
-A la taula següent s'enumeren els camps d'informació resumida d'una oferta de projecte que són únics del Dynamics 365 Project Operations o que tenen canvis importants en el comportament de les ofertes del Dynamics 365 Sales.
+A la taula següent es detallen els camps d'informació resumida d'una oferta de projecte que són exclusius del Dynamics 365 Project Operations o que tenen alguns canvis importants en el comportament de les ofertes del Dynamics 365 Sales.
 
 | **Camp** | **Ubicació** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- | --- |

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130926"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275571"
 ---
 # <a name="default-price-lists"></a>Llistes de preus per defecte
 
@@ -21,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ## <a name="sales-price-lists"></a>Llistes de preus de venda
 
-Cada oferta i contracte del projecte al Dynamics 365 Project Operations conté una llista de preus de venda per defecte. 
+Cada oferta i contracte de projecte del Dynamics 365 Project Operations conté una llista de preus de venda per defecte. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Llista de preus per defecte en ofertes del projecte
 El sistema completa el següent procés per determinar quina és la llista de preus per defecte en una oferta de projecte:

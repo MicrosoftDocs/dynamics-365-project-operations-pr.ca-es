@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072265"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270666"
 ---
 # <a name="eliminate-a-project-estimate"></a>Supressió d'una estimació de projecte
 
@@ -34,18 +34,18 @@ Les estimacions de projecte proporcionen informació visual financera del trebal
 Per suprimir un projecte estimat, s'ha de completar. Els passos següents expliquen com suprimir una estimació.
 
 1. Aneu a **Administració de projectes i comptabilitat** > **Tots els projectes** i obriu el projecte. 
-2. A la pestanya **Administra** , seleccioneu **Estimacions** i, a la pàgina **Estimació** , seleccioneu **Elimina**.
-3. A la pestanya **Elimina l'estimació** a la pestanya **General** , definiu les següents opcions:
+2. A la pestanya **Administra**, seleccioneu **Estimacions** i, a la pàgina **Estimació**, seleccioneu **Elimina**.
+3. A la pestanya **Elimina l'estimació** a la pestanya **General**, definiu les següents opcions:
 
-   - **Codi de període** : seleccioneu el codi del període per triar els projectes estimats pertinents. 
-   - **Data estimada** : seleccioneu la data estimada apropiada per a l'eliminació.
-   - **Avisos d'eliminació amb WIP** : habiliteu aquesta opció per proporcionar una notificació quan s'elimini una estimació associada amb un treball en curs (WIP). Quan aquesta opció no està habilitada, l'eliminació no pot continuar si existeixen transaccions no estimades. 
+   - **Codi de període**: seleccioneu el codi del període per triar els projectes estimats pertinents. 
+   - **Data estimada**: seleccioneu la data estimada apropiada per a l'eliminació.
+   - **Avisos d'eliminació amb WIP**: habiliteu aquesta opció per proporcionar una notificació quan s'elimini una estimació associada amb un treball en curs (WIP). Quan aquesta opció no està habilitada, l'eliminació no pot continuar si existeixen transaccions no estimades. 
    > [!NOTE]
-   > Aquesta opció només està disponible quan s'aplica l'eliminació a un projecte estimat. No està disponible si utilitzeu comptabilitzacions periòdiques. Aquest paràmetre funciona amb els paràmetres de la pestanya **Estimació** a la pestanya **Paràmetres del projecte** , al grup de camps **Permet l'eliminació quan hi ha transaccions no estimades**.
-   - **Defineix la fase a Finalitzat** : habiliteu aquesta opció per establir la fase del projecte estimat a **Finalitzat** després d'executar l'eliminació.
-   - **Imprimeix la llista d'estimació** : seleccioneu la informació que s'inclourà quan s'imprimeixi la llista d'estimació.
-   - **Mostra el registre d'informació** : habiliteu aquesta opció per mostrar el registre d'informació.
-   - **Data de comptabilització** : trieu la data de comptabilització al llibre major de l'estimació.
+   > Aquesta opció només està disponible quan s'aplica l'eliminació a un projecte estimat. No està disponible si utilitzeu comptabilitzacions periòdiques. Aquest paràmetre funciona amb els paràmetres de la pestanya **Estimació** a la pestanya **Paràmetres del projecte**, al grup de camps **Permet l'eliminació quan hi ha transaccions no estimades**.
+   - **Defineix la fase a Finalitzat**: habiliteu aquesta opció per establir la fase del projecte estimat a **Finalitzat** després d'executar l'eliminació.
+   - **Imprimeix la llista d'estimació**: seleccioneu la informació que s'inclourà quan s'imprimeixi la llista d'estimació.
+   - **Mostra el registre d'informació**: habiliteu aquesta opció per mostrar el registre d'informació.
+   - **Data de comptabilització**: trieu la data de comptabilització al llibre major de l'estimació.
 
 4.  Seleccioneu **D'acord**.
 5. Després de completar el procés d'eliminació, el projecte estimat eliminat es mostra amb un valor negatiu. 

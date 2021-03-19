@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181485"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275706"
 ---
 # <a name="copy-price-lists"></a>Còpia de les llistes de preus
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Podeu crear còpies de les llistes de preus al Dynamics 365 Project Operations. Per exemple, podeu crear llistes de preus per a l'any vinent utilitzant una llista de preus de l'any actual.  O bé podríeu copiar una llista de preus per a les tarifes de facturació i els preus de venda de les llistes de preus per al cost. 
+Podeu crear còpies de llistes de preus al Dynamics 365 Project Operations. Per exemple, podeu crear llistes de preus per a l'any vinent utilitzant una llista de preus de l'any actual.  O bé podríeu copiar una llista de preus per a les tarifes de facturació i els preus de venda de les llistes de preus per al cost. 
 
 Per fer una còpia de la llista de preus, completeu els següents passos.
 

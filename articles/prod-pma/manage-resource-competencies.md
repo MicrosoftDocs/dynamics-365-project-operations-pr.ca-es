@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270621"
 ---
 # <a name="manage-resource-competencies"></a>Administració de competències de recursos
 
@@ -39,19 +39,19 @@ Per configurar les competències per a un treballador, podeu utilitzar la pàgin
 
 ## <a name="set-up-competencies-certificates"></a>Configurar competències: certificats
 
-1. A la pàgina de llista **Treballadors** , seleccioneu la línia per al treballador per afegir-hi la informació del certificat.
-2. A la subfinestra d'acció, a la pestanya **Treballador** , al grup **Competències** , seleccioneu **Certificats**.
-3. Seleccioneu **Nou** i, a continuació, al camp **Tipus de certificat** , seleccioneu **PMP**.
-4. Al camp **Data d'inici** , seleccioneu **1/10/2015** i, a continuació, seleccioneu **Desa**.
+1. A la pàgina de llista **Treballadors**, seleccioneu la línia per al treballador per afegir-hi la informació del certificat.
+2. A la subfinestra d'acció, a la pestanya **Treballador**, al grup **Competències**, seleccioneu **Certificats**.
+3. Seleccioneu **Nou** i, a continuació, al camp **Tipus de certificat**, seleccioneu **PMP**.
+4. Al camp **Data d'inici**, seleccioneu **1/10/2015** i, a continuació, seleccioneu **Desa**.
 
 ## <a name="set-up-competencies-skills"></a>Configurar competències: habilitats
 
-1. A la pàgina de llista **Treballadors** , assegureu-vos que el treballador que heu utilitzat en el procediment anterior encara està seleccionat. A continuació, a la subfinestra d'acció, a la pestanya **Treballador** , al grup **Competències** , seleccioneu **Habilitats**.
+1. A la pàgina de llista **Treballadors**, assegureu-vos que el treballador que heu utilitzat en el procediment anterior encara està seleccionat. A continuació, a la subfinestra d'acció, a la pestanya **Treballador**, al grup **Competències**, seleccioneu **Habilitats**.
 2. Seleccioneu **Crea**.
-3. Al camp **Habilitat** , seleccioneu **Administració de projectes**.
-4. Al camp **Nivell** , seleccioneu **5 Expert**.
-5. Al camp **Data del nivell** , seleccioneu **14/1/2014**.
-6. En el camp **Anys d'experiència** , introduïu **10**.
+3. Al camp **Habilitat**, seleccioneu **Administració de projectes**.
+4. Al camp **Nivell**, seleccioneu **5 Expert**.
+5. Al camp **Data del nivell**, seleccioneu **14/1/2014**.
+6. En el camp **Anys d'experiència**, introduïu **10**.
 7. Seleccioneu **Desa** i, a continuació, tanqueu la pàgina.
 
 

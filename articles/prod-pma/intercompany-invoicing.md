@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072238"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270756"
 ---
 # <a name="intercompany-invoicing"></a>Facturació entre empreses
 
@@ -44,12 +44,12 @@ L'objectiu és fer que el control de costos, el reconeixement d'ingressos, els i
 -   Ajornar el reconeixement d'ingressos en una entitat legal prestadora i quan una entitat legal prestatària hauria de reconèixer el cost.
 -   Acumular ingressos de treball en curs (WIP) a l'entitat legal prestadora.
 -   Definiu els preus de transferència, que es poden basar en diversos models de preu. A continuació trobareu alguns exemples:
-    -   **Quantitat** : la quantitat que introduïu al camp **Preu** és el cost real per quantitat o unitat.
-    -   **Import dels càrrecs** : el preu i cost per transacció més la quantitat de despeses que introduïu al camp **Preu**.
-    -   **Percentatge de càrrecs** : el preu de la transferència és el preu i el cost per transacció multiplicat pel percentatge de càrrecs que introduïu en el camp **Preus**.
-    -   **Percentatge del preu de vendes** : percentatge del preu de vendes que es transfereix a l'entitat jurídica prestadora.
+    -   **Quantitat**: la quantitat que introduïu al camp **Preu** és el cost real per quantitat o unitat.
+    -   **Import dels càrrecs**: el preu i cost per transacció més la quantitat de despeses que introduïu al camp **Preu**.
+    -   **Percentatge de càrrecs**: el preu de la transferència és el preu i el cost per transacció multiplicat pel percentatge de càrrecs que introduïu en el camp **Preus**.
+    -   **Percentatge del preu de vendes**: percentatge del preu de vendes que es transfereix a l'entitat jurídica prestadora.
     -   **Import per sota de preu de vendes** import que l'entitat legal prestatària reté dels preus de les vendes abans de la transferència a l'entitat legal prestadora.
-    -   **Relació de contribució** : el nombre que introduïu en el camp **Preu** és la relació de contribució, que s'expressa com a percentatge del preu de vendes.
+    -   **Relació de contribució**: el nombre que introduïu en el camp **Preu** és la relació de contribució, que s'expressa com a percentatge del preu de vendes.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Exemple 1: configuració dels paràmetres per a la facturació entre empreses
 En aquest exemple, USSI és una entitat legal prestadora i els seus recursos informen del temps per a l'entitat legal prestatària, FRSI, propietària del contracte amb el client final. Les hores i despeses que els empleats d'USSI informen es poden incloure a la factura del projecte que genera FRSI. A més, hi ha un tercer origen de transaccions que es poden originar a partir de l'entitat legal prestadora (USSI en aquest exemple) quan proporciona serveis de proveïdors compartits a les filials (com ara FRSI) i, a continuació, passa aquests costos en projectes dins d'aquestes filials. Tots els documents de factures i els càlculs d'impostos coincidents els completa Finance. 
@@ -78,7 +78,7 @@ USSI, l'entitat jurídica prestadora, ha de crear i comptabilitzar el full d'hor
 
 | Pas | Punt d'entrada                                                                       | Descripció                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Administració de projectes i comptabilitat** &gt; **Fulls d'hores** &gt; **Tots els fulls d'hores** | Creeu un full d'hores nou. A la línia del full d'hores, al camp **Entitat jurídica** , seleccioneu **FRSI**. Al camp **ID del projecte** , seleccioneu el projecte a FRSI. Introduïu les hores per a cada dia de la setmana. |
+| A    | **Administració de projectes i comptabilitat** &gt; **Fulls d'hores** &gt; **Tots els fulls d'hores** | Creeu un full d'hores nou. A la línia del full d'hores, al camp **Entitat jurídica**, seleccioneu **FRSI**. Al camp **ID del projecte**, seleccioneu el projecte a FRSI. Introduïu les hores per a cada dia de la setmana. |
 | N    | Pàgina **Full d'hores**                                                                | Quan el flux de treball s'executi, publiqueu el full d'hores i anoteu el número del val.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Exemple 3: creació i publicació d'una factura a un proveïdor entre empreses
@@ -87,7 +87,7 @@ USSI, l'entitat jurídica prestadora, ha de crear i comptabilitzar la factura pe
 | Pas | Punt d'entrada                                                                                      | Descripció                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Comptes a pagar** &gt; **Factures** &gt; **Factures de proveïdors obertes** &gt; **Nova factura de proveïdor** | Creeu una factura de proveïdor nova i introduïu els serveis que s'han fet en el projecte de FRSI.                                                                                                                                                                                  |
-| N    | La pàgina **Factura de proveïdor**                                                                      | Introduïu les línies que representen els serveis externalitzats en nom de FRSI. A FastTab **Detalls de la línia** , a la pestanya **Projecte** de la línia de factura, al camp **Empresa del projecte** , introduïu **FRSI**. Introduïu el projecte i la informació corresponent. A continuació, comptabilitzeu la factura del proveïdor. |
+| N    | La pàgina **Factura de proveïdor**                                                                      | Introduïu les línies que representen els serveis externalitzats en nom de FRSI. A FastTab **Detalls de la línia**, a la pestanya **Projecte** de la línia de factura, al camp **Empresa del projecte**, introduïu **FRSI**. Introduïu el projecte i la informació corresponent. A continuació, comptabilitzeu la factura del proveïdor. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Exemple 4: creació i publicació de la factura entre empreses
 USSI, l'entitat jurídica prestadora, ha de crear i publicar la factura entre empreses. Hi ha dos punts d'entrada per als passos necessaris per a aquesta tasca.
@@ -95,7 +95,7 @@ USSI, l'entitat jurídica prestadora, ha de crear i publicar la factura entre em
 | Pas | Punt d'entrada                                                                                             | Descripció                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Administració de projectes i comptabilitat** &gt; **Factures del projecte** &gt; **Factura de client entre empreses**  | Feu clic a **Nou** per obrir la pàgina **Crea una factura entre empreses**.                                                                                  |
-| N    | **Administració de projectes i comptabilitat** &gt; **Factures del projecte** &gt; **Factures de client entre empreses** | A la pàgina **Crea una factura entre empreses** , introduïu l'entitat jurídica, especifiqueu la transacció que s'ha d'incloure i, a continuació, feu clic a **Cerca**. |
+| N    | **Administració de projectes i comptabilitat** &gt; **Factures del projecte** &gt; **Factures de client entre empreses** | A la pàgina **Crea una factura entre empreses**, introduïu l'entitat jurídica, especifiqueu la transacció que s'ha d'incloure i, a continuació, feu clic a **Cerca**. |
 | C    | **Administració de projectes i comptabilitat** &gt; **Factures del projecte** &gt; **Factures de client entre empreses** | Seleccioneu les transaccions que voleu facturar o feu clic a **Selecciona-ho tot** per facturar totes les transaccions a la llista i, a continuació, feu clic a **D'acord**.                  |
 | D    | La pàgina **Factura entre empreses**                                                                       | Es mostra la proposta de factura de client entre empreses.                                                                                             |
 | E    | La pàgina **Factura entre empreses**                                                                       | Feu clic a **Comptabilitza**.                                                                                                                                  |

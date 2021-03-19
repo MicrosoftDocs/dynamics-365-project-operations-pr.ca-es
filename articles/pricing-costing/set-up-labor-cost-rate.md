@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274761"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurar les tarifes de cost laboral
 
@@ -40,7 +40,7 @@ La taula següent inclou alguns dels camps que són importants quan es creen tar
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transferència de preus i costos per als recursos fora de la vostra divisió o entitat jurídica
 
-En empreses basades en projectes, és habitual utilitzar empleats de diferents entitats jurídiques o divisions en projectes. Un projecte pot ser executat per una entitat jurídica, però els empleats o consultors que treballen en el projecte poden provenir de la mateixa entitat jurídica o d'una altra, o pot haver-hi una combinació de tots dos. Al Dynamics 365 Project Operations, l'entitat jurídica que és propietària del lliurament del projecte és l'**Empresa propietària** i la divisió que és propietària del lliurament és la **Unitat de contractació**. Altres entitats jurídiques que proporcionen recursos són **Empreses de recursos** i les divisions que proporcionen recursos són **Unitats de recursos**. En la majoria dels països, les empreses estan obligades a garantir que l'entitat jurídica o la divisió de recursos cobra a l'empresa propietària i a la unitat contractant per l'ús dels recursos.
+En empreses basades en projectes, és habitual utilitzar empleats de diferents entitats jurídiques o divisions en projectes. Un projecte pot ser executat per una entitat jurídica, però els empleats o consultors que treballen en el projecte poden provenir de la mateixa entitat jurídica o d'una altra, o pot haver-hi una combinació de tots dos. Al Dynamics 365 Project Operations, l'entitat legal propietària de la realització del projecte és l'**Empresa propietària** i la divisió propietària del lliurament és la **Unitat de contractació**. Altres entitats jurídiques que proporcionen recursos són **Empreses de recursos** i les divisions que proporcionen recursos són **Unitats de recursos**. En la majoria dels països, les empreses estan obligades a garantir que l'entitat jurídica o la divisió de recursos cobra a l'empresa propietària i a la unitat contractant per l'ús dels recursos.
 
 Per exemple, la corporació Fabrikam ha de garantir que Fabrikam India-robòtica tingui una targeta de tarifa de cost negociada amb Fabrikam US-robòtica o Fabrikam UK-robòtica.
 

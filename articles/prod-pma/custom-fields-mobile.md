@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072266"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270981"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar camps personalitzats per a l'aplicació mòbil del Microsoft Dynamics 365 Project Timesheet a l'iOS i l'Android
 
@@ -44,8 +44,8 @@ Aquest tema està dissenyat per a desenvolupadors que integren els seus camps pe
 
 La classe **TSTimesheetCustomField** és la classe de contracte de dades d'X++ que representa informació sobre un camp personalitzat per a la funcionalitat de full d'hores. Les llistes dels objectes de camp personalitzats es passen tant al contracte de dades TSTimesheetDetails com al contracte de dades de TSTimesheetEntry per mostrar els camps personalitzats a l'aplicació mòbil.
 
-- **TSTimesheetDetails** : contracte de la capçalera del full d'hores.
-- **TSTimesheetEntry** : contracte de transacció del full d'hores. Els grups d'aquests objectes que tenen la mateixa informació de projecte i el valor **timesheetLineRecId** constitueixen una línia.
+- **TSTimesheetDetails**: contracte de la capçalera del full d'hores.
+- **TSTimesheetEntry**: contracte de transacció del full d'hores. Els grups d'aquests objectes que tenen la mateixa informació de projecte i el valor **timesheetLineRecId** constitueixen una línia.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (tipus)
 
@@ -61,11 +61,11 @@ La propietat **FieldBaseType** de l'objecte **TsTimesheetCustom** determina el t
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Si la propietat **stringOptions** no està proporcionada a l'objecte **TSTimesheetCustomField** , es proporciona un camp de text lliure a l'usuari.
+- Si la propietat **stringOptions** no està proporcionada a l'objecte **TSTimesheetCustomField**, es proporciona un camp de text lliure a l'usuari.
 
     La propietat **stringLength** es pot utilitzar per definir la longitud de cadena màxima que poden introduir els usuaris.
 
-- Si la propietat **stringOptions** està proporcionada a l'objecte **TSTimesheetCustomField** , aquests elements de llista són els únics valors que els usuaris poden seleccionar mitjançant botons d'opció (botons de selecció).
+- Si la propietat **stringOptions** està proporcionada a l'objecte **TSTimesheetCustomField**, aquests elements de llista són els únics valors que els usuaris poden seleccionar mitjançant botons d'opció (botons de selecció).
 
     En aquest cas, el camp de cadena pot actuar com un valor d'enumeració per a la finalitat de l'entrada de l'usuari. Per desar el valor a la base de dades com una enumeració, heu d'assignar manualment el valor de cadena al valor de l'enumeració abans de desar-lo a la base de dades mitjançant la cadena d'ordres (vegeu la secció "Utilitzar la cadena d'ordres a la classe TSTimesheetEntryService per desar una entrada de temps de l'aplicació a la base de dades" més endavant en aquest tema per veure un exemple).
 
@@ -73,8 +73,8 @@ La propietat **FieldBaseType** de l'objecte **TsTimesheetCustom** determina el t
 
 Podeu utilitzar aquesta propietat per formatar els valors reals com a moneda. Aquest mètode només és aplicable quan el valor **fieldBaseType** és **Real**.
 
-- **TSCustomFieldExtendedType:None** : no s'aplica cap format.
-- **TSCustomFieldExtendedType::Currency** : formata el valor com a moneda.
+- **TSCustomFieldExtendedType:None**: no s'aplica cap format.
+- **TSCustomFieldExtendedType::Currency**: formata el valor com a moneda.
 
     Quan el format de moneda està actiu, el camp **stringValue** es pot utilitzar per enviar el codi de moneda que s'ha de mostrar a l'aplicació. El valor és un valor només de lectura.
 
@@ -84,8 +84,8 @@ Podeu utilitzar aquesta propietat per formatar els valors reals com a moneda. Aq
 
 Podeu utilitzar aquesta propietat per especificar on hauria d'aparèixer el camp personalitzat a l'aplicació.
 
-- **TSCustomFieldSection::Header** : el camp es mostrarà a la secció **Visualitza més detalls** de l'aplicació. Aquests camps són sempre només de lectura.
-- **TSCustomFieldSection::Line** : el camp apareixerà després de tots els camps de fàbrica en entrades del full d'hores. Aquests camps poden ser editables o només de lectura.
+- **TSCustomFieldSection::Header**: el camp es mostrarà a la secció **Visualitza més detalls** de l'aplicació. Aquests camps són sempre només de lectura.
+- **TSCustomFieldSection::Line**: el camp apareixerà després de tots els camps de fàbrica en entrades del full d'hores. Aquests camps poden ser editables o només de lectura.
 
 ### <a name="fieldname-fieldnameshort"></a>fieldName (FieldNameShort)
 
@@ -109,7 +109,7 @@ Aquesta propietat especifica l'etiqueta que es mostra al costat del camp a l'apl
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (llista de cadenes)
 
-Aquesta propietat només és aplicable quan **fieldBaseType** està definit com a **String**. Si es defineix **stringOptions** , els valors de cadena que estan disponibles per a la selecció mitjançant els botons d'opció (botons de selecció) s'especifiquen per les cadenes de la llista. Si no es proporciona cap cadena, es permet l'entrada de text lliure al camp de cadena (vegeu la secció "Utilitzar la cadena d'ordres a la classe TSTimesheetEntryService per desar una entrada del full d'hores de l'aplicació de nou a la base de dades" més endavant en aquest tema per veure un exemple).
+Aquesta propietat només és aplicable quan **fieldBaseType** està definit com a **String**. Si es defineix **stringOptions**, els valors de cadena que estan disponibles per a la selecció mitjançant els botons d'opció (botons de selecció) s'especifiquen per les cadenes de la llista. Si no es proporciona cap cadena, es permet l'entrada de text lliure al camp de cadena (vegeu la secció "Utilitzar la cadena d'ordres a la classe TSTimesheetEntryService per desar una entrada del full d'hores de l'aplicació de nou a la base de dades" més endavant en aquest tema per veure un exemple).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 
@@ -125,31 +125,31 @@ Aquesta propietat controla l'ordre en què es mostren els camps personalitzats a
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Per als camps del tipus **Boolean** , aquesta propietat envia el valor booleà del camp entre el servidor i l'aplicació.
+Per als camps del tipus **Boolean**, aquesta propietat envia el valor booleà del camp entre el servidor i l'aplicació.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Per als camps del tipus **GUID** , aquesta propietat envia el valor d'identificador únic global (GUID) del camp entre el servidor i l'aplicació.
+Per als camps del tipus **GUID**, aquesta propietat envia el valor d'identificador únic global (GUID) del camp entre el servidor i l'aplicació.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Per als camps del tipus **Int64** , aquesta propietat envia el valor int64 del camp entre el servidor i l'aplicació.
+Per als camps del tipus **Int64**, aquesta propietat envia el valor int64 del camp entre el servidor i l'aplicació.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Per als camps del tipus **Int** , aquesta propietat envia el valor int del camp entre el servidor i l'aplicació.
+Per als camps del tipus **Int**, aquesta propietat envia el valor int del camp entre el servidor i l'aplicació.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Per als camps del tipus **Real** , aquesta propietat envia el valor real del camp entre el servidor i l'aplicació.
+Per als camps del tipus **Real**, aquesta propietat envia el valor real del camp entre el servidor i l'aplicació.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Per als camps del tipus **String** , aquesta propietat envia el valor de cadena del camp entre el servidor i l'aplicació. També s'utilitza per als camps del tipus **Real** que tenen el format de moneda. Per a aquests camps, la propietat s'utilitza per enviar el codi de la moneda a l'aplicació.
+Per als camps del tipus **String**, aquesta propietat envia el valor de cadena del camp entre el servidor i l'aplicació. També s'utilitza per als camps del tipus **Real** que tenen el format de moneda. Per a aquests camps, la propietat s'utilitza per enviar el codi de la moneda a l'aplicació.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
-Per als camps del tipus **Date** , aquesta propietat envia el valor de data del camp entre el servidor i l'aplicació.
+Per als camps del tipus **Date**, aquesta propietat envia el valor de data del camp entre el servidor i l'aplicació.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Mostrar i desar un camp personalitzat a la secció d'entrada del full d'hores
 
@@ -179,9 +179,9 @@ A continuació es mostra una captura de pantalla del Visual Studio de l'arbre d'
 
 Aquest codi controla la configuració de visualització del camp a l'aplicació. Per exemple, controla el tipus de camp, l'etiqueta, si el camp és obligatori i en quina secció apareix el camp.
 
-A l'exemple següent es mostra un camp de cadena a les entrades de temps. Aquest camp té dues opcions, **Primera opció** i **Segona opció** , que estan disponibles mitjançant botons d'opció (botons de selecció). El camp de l'aplicació està associat amb el camp **TestLineString** que s'afegeix a la taula TSTimesheetLine.
+A l'exemple següent es mostra un camp de cadena a les entrades de temps. Aquest camp té dues opcions, **Primera opció** i **Segona opció**, que estan disponibles mitjançant botons d'opció (botons de selecció). El camp de l'aplicació està associat amb el camp **TestLineString** que s'afegeix a la taula TSTimesheetLine.
 
-Fixeu-vos en l'ús del mètode **TSTimesheetCustomField::newFromMetatdata()** per simplificar la inicialització de les propietats d'un camp personalitzat: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** i **numberOfDecimals**. També podeu configurar aquests paràmetres manualment, com preferiu.
+Fixeu-vos en l'ús del mètode **TSTimesheetCustomField::newFromMetatdata()** per simplificar la inicialització de les propietats d'un camp personalitzat: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** i **numberOfDecimals**. També podeu configurar aquests paràmetres manualment, com preferiu.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Per desar un camp personalitzat a la base de dades en l'ús típic, heu d'amplia
 - El mètode **populateTimesheetWeekFromEntry** també es pot ampliar si el camp personalitzat que s'assigna a l'objecte **TSTimesheetEntry** ha d'escriure a la taula de la base de dades TSTimesheetLineweek.
 
 > [!NOTE]
-> L'exemple següent Desa el valor **firstOption** o **secondOption** que l'usuari seleccioni a la base de dades com un valor de cadena sense processar. Si el camp de la base de dades és un camp del tipus **Enum** , aquests valors es poden assignar manualment a un valor d'enumeració i després es desen en un camp d'enumeració a la taula de la base de dades.
+> L'exemple següent Desa el valor **firstOption** o **secondOption** que l'usuari seleccioni a la base de dades com un valor de cadena sense processar. Si el camp de la base de dades és un camp del tipus **Enum**, aquests valors es poden assignar manualment a un valor d'enumeració i després es desen en un camp d'enumeració a la taula de la base de dades.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ La lògica existent per a la funcionalitat del full d'hores al nivell de la base
 
 - Si **validateWrite** a la taula TSTimesheetLine retorna **false** durant una operació de desament per a una línia del full d'hores, es mostrarà un missatge d'error a l'aplicació mòbil.
 - Si **validateSubmit** a la taula TSTimesheetTable retorna **false** durant una operació d'enviament a l'aplicació, es mostra un missatge d'error a l'usuari.
-- La lògica que emplena els camps (per exemple, **Propietat de la línia** ) durant el mètode **insert** a la taula de TSTimesheetLine continuarà executant-se.
+- La lògica que emplena els camps (per exemple, **Propietat de la línia**) durant el mètode **insert** a la taula de TSTimesheetLine continuarà executant-se.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Amagar i marcar camps de fàbrica com a només de lectura mitjançant la configuració
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180900"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272466"
 ---
 # <a name="project-contract-settings---lite"></a>Configuració de contractes de projectes (bàsic)
 
@@ -21,7 +21,7 @@ _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 En aquest tema es proporciona informació sobre els camps que s'apliquen a tot el contracte del projecte, incloent-hi la configuració que afecta totes les línies de contracte. També s'inclou informació sobre el contracte que es resumeix en tots els elements de la línia per impulsar els KPI del contracte de projecte.
 
-A la taula següent s'enumeren els camps d'un contracte de projecte que són únics del Dynamics 365 Project Operations o que tenen canvis importants en el comportament de les ofertes de vendes del Dynamics 365 Sales.
+A la taula següent es detallen els camps d'un contracte de projecte que són exclusius del Dynamics 365 Project Operations o que tenen alguns canvis importants en el comportament de les comandes de vendes al Dynamics 365 Sales.
 
 | Camp | Location | Descripció | Impacte descendent |
 | --- | --- | --- | --- |

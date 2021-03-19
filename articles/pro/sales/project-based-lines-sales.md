@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180990"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272511"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Línies d'oportunitat basades en projectes (bàsic)
 
@@ -27,7 +27,7 @@ A continuació es mostren els camps d'una línia d'oportunitat basada en project
 
 | **Camp** | **Ubicació** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- | --- |
-| Tipus de producte | Pestanya General (ocult) | Podeu seleccionar una d'aquestes opcions:</br>- Servei basat en projectes (disponible només si teniu instal·lat el Dynamics 365 Project Operations)</br>- Producte (disponible només quan s'instal·len el Project Operations i el Dynamics 365 Sales) | El valor d'aquest camp es defineix com a **Servei basat en projectes** quan creeu una línia d'oportunitat basada en projectes des de la quadrícula de línies basades en projectes de l'oportunitat. <br> Si canvieu o anul·leu aquest valor, la funcionalitat del projecte no s'habilitarà als elements de línia basats en el projecte. |
+| Tipus de producte | Pestanya General (ocult) | Podeu seleccionar una d'aquestes opcions:</br>- Servei basat en projectes (disponible només quan el Dynamics 365 Project Operations està instal·lat)</br>- Producte (disponible només quan s'instal·len el Project Operations i el Dynamics 365 Sales) | El valor d'aquest camp es defineix com a **Servei basat en projectes** quan creeu una línia d'oportunitat basada en projectes des de la quadrícula de línies basades en projectes de l'oportunitat. <br> Si canvieu o anul·leu aquest valor, la funcionalitat del projecte no s'habilitarà als elements de línia basats en el projecte. |
 | Oportunitat | Pestanya General | Aquest camp és només de lectura i fa referència al registre d'oportunitat principal al qual pertany aquest element de línia. | No hi ha cap impacte descendent d'aquest camp. |
 | Nom | Pestanya General | Aquest camp de text editable que es pot utilitzar per donar una identitat breu a aquest element de línia. | Aquest valor s'aprofita a la línia d'oferta quan creeu una oferta a partir d'aquesta oportunitat. |
 | Pressupost del client | Pestanya General | Aquest camp de moneda editable es pot utilitzar per fer el seguiment de l'import que el client està disposat a gastar en aquest element de línia. | Aquest valor s'aprofita al camp corresponent a la línia d'oferta quan creeu una oferta a partir d'aquesta oportunitat. |

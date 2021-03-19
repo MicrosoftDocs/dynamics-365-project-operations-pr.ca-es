@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072348"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271026"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Creació de models de predicció per als pressupostos del projecte 
 
@@ -39,11 +39,11 @@ Aquest tema descriu com crear un model de previsió per als pressupostos restant
 3. Definiu l'opció **Aturat** a **Sí** per evitar qualsevol canvi a les línies de previsió per al model de previsió. 
 4. Si les línies de previsió amb les quals està associat el model haurien de generar previsions de flux de caixa en el llibre major general, definiu **Inclou en les previsions de flux de caixa** a **Sí.** 
 5. Per utilitzar la data del projecte com a data de la factura, definiu **Preveu la data de la factura** a **Sí**. 
-6. En el camp **Tipus de pressupost** , seleccioneu un dels següents tipus de model:
+6. En el camp **Tipus de pressupost**, seleccioneu un dels següents tipus de model:
 
-   - **Pressupost original** : utilitza els imports pressupostaris originals que s'han publicat quan es crea i aprova el pressupost inicial.
-   - **Pressupost restant** : utilitza els imports pressupostaris restants durant la vida del projecte. Els saldos d'aquest model de previsió es redueixen per transaccions reals i augmenten o disminueixen per revisions pressupostàries.
-   - **Transfereix** : utilitza els imports de transferència del pressupost per al projecte. La transferència és un procés opcional que pot executar-se per a transferir imports no utilitzats del pressupost d'un any fiscal a un altre.
+   - **Pressupost original**: utilitza els imports pressupostaris originals que s'han publicat quan es crea i aprova el pressupost inicial.
+   - **Pressupost restant**: utilitza els imports pressupostaris restants durant la vida del projecte. Els saldos d'aquest model de previsió es redueixen per transaccions reals i augmenten o disminueixen per revisions pressupostàries.
+   - **Transfereix**: utilitza els imports de transferència del pressupost per al projecte. La transferència és un procés opcional que pot executar-se per a transferir imports no utilitzats del pressupost d'un any fiscal a un altre.
 
 7. Definiu les opcions següents segons sigui necessari:
 

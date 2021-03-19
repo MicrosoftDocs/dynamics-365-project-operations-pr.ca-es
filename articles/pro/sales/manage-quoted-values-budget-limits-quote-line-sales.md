@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181080"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272961"
 ---
 # <a name="project-based-quote-lines-overview---lite"></a>Informació general de les línies d'oferta basades en projectes (bàsic)
 
@@ -34,7 +34,7 @@ A la taula següent es proporciona informació sobre els camps de la pestanya **
 | **Camp** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- |
 | Nom | Nom de la línia d'oferta que hauria d'ajudar-vos a identificar el component discret de l'oferta que s'està estimant. | Es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Mètode de facturació | En una oferta creada a partir d'una oportunitat, aquest valor es copia des del camp corresponent a la línia d'oportunitat. Aquest camp inclou els dos models principals de contractació admesos pel Dynamics 365 Project Operations:</br>- Preu fix</br>- Temps i material.| El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
+| Mètode de facturació | En una oferta creada a partir d'una oportunitat, aquest valor es copia des del camp corresponent a la línia d'oportunitat. Aquest camp inclou els dos models de contracte principals compatibles amb el Dynamics 365 Project Operations:</br>- Preu fix</br>- Temps i material.| El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
 | Project | Utilitzeu aquest camp opcional per identificar el projecte que s'utilitzarà per lliurar el treball en aquesta interacció. Quan un projecte s'assigna a una línia d'oferta, ajuda amb la creació de tasques imputables i també amb l'aportació d'una estimació basada en projectes a la línia d'oferta com a detalls de la línia d'oferta. Quan un projecte no està assignat a una línia d'oferta basada en projectes, la estimació s'ha de crear manualment creant cada detall de la línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta.|
 | Tasques incloses | Indica si aquesta línia d'oferta s'utilitza per a totes o algunes de les tasques del projecte seleccionat. Aquest camp té els següents valors possibles:</br>- Totes les tasques de projecte</br>- Només les tasques de projecte seleccionades</br>Un valor en blanc en aquest camp equival a l'opció **Totes les tasques del projecte**. | Quan **Només les tasques de projecte seleccionades** se seleccionen a la pàgina del projecte, la pestanya **Configuració de facturació de la tasca** us permet seleccionar tasques específiques per associar-les a aquesta línia d'oferta. El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
 | Inclou el temps | Una marca **Sí**/**No** indica si les transaccions de temps o els costos de treball del projecte seleccionat s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **No** indica que les transaccions de temps o els costos de treball no s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **Sí** indica que les transaccions de temps o els costos de treball s'inclouran a l'estimació en aquesta línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |

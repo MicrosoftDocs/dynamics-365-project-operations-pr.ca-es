@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274401"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Configuració de les tarifes de la factura de treball (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Cada llista de preus té un conjunt de preus per funció o tarifes de treball que són efectives per al context i la data d'efectivitat inclosos a la capçalera de la llista de preus. Les tarides de facturació per temps al Dynamics 365 Project Operations es poden establir en una única moneda, que és la moneda a la capçalera de la llista de preus.
+Cada llista de preus té un conjunt de preus per funció o tarifes de treball que són efectives per al context i la data d'efectivitat inclosos a la capçalera de la llista de preus. Les tarifes de facturació per al temps al Dynamics 365 Project Operations es poden configurar només en una moneda, que és la moneda de la capçalera de la llista de preus.
 
 1. Per establir les tarifes de facturació del treball per a una llista de preus de venda, creeu una llista de preus basada en la capçalera de la llista de preus. 
 2. A la pestanya **Preus per funció**, a la subquadrícula, seleccioneu **+ Preu per funció nou**. 

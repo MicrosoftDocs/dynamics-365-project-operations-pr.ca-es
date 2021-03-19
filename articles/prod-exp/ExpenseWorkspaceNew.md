@@ -1,6 +1,6 @@
 ---
 title: Informes de despeses redissenyats
-description: En aquest tema es proporciona informació sobre l'experiència redissenyada i reinventada per a l'entrada d'informes de despeses al Microsoft Dynamics 365 Finance. La nova experiència simplifica el procés de completar els informes de despeses i disminueix el temps necessari.
+description: En aquest tema es proporciona informació sobre l'experiència redissenyada i reinventada per a l'entrada d'informes de despeses.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960235"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271971"
 ---
 # <a name="redesigned-expense-reports"></a>Informes de despeses redissenyats
 
@@ -40,12 +40,6 @@ Per activar la nova experiència, utilitzeu l'àrea de treball **Administració 
 - S'afegirà un element de menú nou per a la visibilitat del camp de despeses.
 - No hi ha elements de menú existents per a informes de despeses (pàgina existent) o camps d'informe de despeses eliminats.
 - Els fluxos de treball i les aprovacions encara us porten a la pàgina d'informes de despeses existent.
-
-## <a name="getting-started-video-for-new-users"></a>Vídeo d'introducció per a nous usuaris
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-El vídeo [Experiència de despesa al Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrat a la part superior) s'inclou a la [llista de reproducció del Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible a YouTube.
 
 ## <a name="new-features"></a>Noves característiques
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175969"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273006"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Administració de les llistes de preus de projectes a les ofertes de projectes (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Les ofertes del projecte estan dissenyades per admetre llistes de preus de vendes efectives de diverses dates. Amb el Dynamics 365 Project Operations, s'afegirà una entitat associada nova anomenada **Llistes de preus del projecte**. Aquesta entitat té una relació d'1 a diversos a una oferta de projecte.
+Les ofertes del projecte estan dissenyades per admetre llistes de preus de vendes efectives de diverses dates. Amb el Dynamics 365 Project Operations, s'afegeix una nova entitat associada anomenada **Llistes de preus del projecte**. Aquesta entitat té una relació d'1 a diversos a una oferta de projecte.
 
 Les llistes de preus del projecte s'utilitzen per assignar preus a les transaccions de temps i de despeses en un projecte. Quan una oferta té una o diverses llistes de preus de projecte, aquestes llistes de preus s'utilitzen per assignar preus a les estimacions i valors reals de temps i despeses als projectes associats a l'oferta a través de la línia d'oferta.
 

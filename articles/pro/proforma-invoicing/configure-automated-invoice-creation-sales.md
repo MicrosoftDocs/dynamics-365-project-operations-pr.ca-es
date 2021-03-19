@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176554"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274311"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Configuració de la creació de factures automàtica (bàsic)
  
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Podeu configurar la creació automàtica de factures al Dynamics 365 Project Operations. El sistema crea un esborrany de factura proforma basada en la planificació de factures per a cada contracte de projecte i línia de contracte. Les planificacions de factures es configuren al nivell de línia de contracte. Cada línia d'un contracte pot tenir una planificació de factures diferent, o la mateixa planificació de factures es pot incloure en cada línia del contracte.
+Podeu configurar la creació de factures automàtica al Dynamics 365 Project Operations. El sistema crea un esborrany de factura proforma basada en la planificació de factures per a cada contracte de projecte i línia de contracte. Les planificacions de factures es configuren al nivell de línia de contracte. Cada línia d'un contracte pot tenir una planificació de factures diferent, o la mateixa planificació de factures es pot incloure en cada línia del contracte.
 
 Quan es crea una factura, el sistema sempre crea com a mínim una factura per contracte de projecte. En alguns casos, es poden crear diverses factures.
 

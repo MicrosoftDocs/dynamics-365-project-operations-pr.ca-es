@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181014"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272691"
 ---
 # <a name="opportunity-header---lite"></a>Capçalera d'oportunitat (bàsic)
 
@@ -21,7 +21,7 @@ _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 La capçalera d'oportunitat captura la informació general sobre un acord basat en projectes que s'aplica a totes les línies de l'oportunitat basada en projectes.
 
-Les oportunitats basades en projectes al Dynamics 365 Project Operations són extensions de les oportunitats del Dynamics 365 Sales. Aquestes extensions proporcionen funcionalitats addicionals específiques i necessàries per a les oportunitats basades en projectes. Aquestes extensions poden incloure nous camps i accions de la franja disponibles a les oportunitats basades en projectes. Potser trobareu que alguns camps, funcionalitat i lògica de valors per defecte disponibles al Sales no està disponible al Project Operations.
+Les oportunitats basades en projectes al Dynamics 365 Project Operations són extensions d'oportunitats al Dynamics 365 Sales. Aquestes extensions proporcionen funcionalitats addicionals específiques i necessàries per a les oportunitats basades en projectes. Aquestes extensions poden incloure nous camps i accions de la franja disponibles a les oportunitats basades en projectes. Potser trobareu que alguns camps, funcionalitat i lògica de valors per defecte disponibles al Sales no està disponible al Project Operations.
 
 A la taula següent s'inclouen els camps d'una oportunitat basada en projectes que són únics per al Project Operations o que tenen canvis importants en el comportament de les oportunitats del Sales.
 
