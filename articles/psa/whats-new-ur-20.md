@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147101"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280656"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, versió d'actualització 20, V3
 
@@ -42,7 +42,7 @@ S'han corregit els problemes següents:
 
 - La importació dels membres de l'equip del projecte amb un mètode d'assignació que requereix hores resulta en un missatge d'error confús quan les hores especificades són zero.
 - Els usuaris reben un error incorrecte quan s'ha introduït el nombre màxim de caràcters en el camp **Descripció** d'una tasca de projecte.
-- La pàgina **Baixada del complement del Microsoft Dynamics 365 Project Service Automation** redirigeix a la pàgina de baixada en anglès quan la configuració de llengua de l'usuari està definida en japonès.
+- La pàgina de baixada de complements del **Microsoft Dynamics 365 Project Service Automation** redirigeix a la pàgina de baixada en anglès quan la configuració de llengua de l'usuari es defineix com a Japonès.
 - Quan es produeix un error del servidor, l'etiqueta de sincronització de la pestanya **Planificació** del formulari **Projectes** de vegades no desapareix.
 - S'envien actualitzacions de tasques redundants al servidor quan es modifica una tasca.
 

@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149621"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282051"
 ---
-# <a name="customize-weekly-time-entry"></a>Personalitzar l'entrada de temps setmanal 
+# <a name="customize-weekly-time-entry"></a>Personalització de l'entrada de temps setmanal 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-A la versió 3.3 del Microsoft Dynamics 365 Project Service Automation, Microsoft ha presentat una moderna xarxa que permet que els recursos de projecte introdueixin ràpidament les hores fins a una setmana a la vegada. La nova quadrícula d'entrada de temps setmanal pot mostrar els totals per a les entrades per data, per fila o per setmana. Els recursos poden fer còpies d'entrades de temps dins de la setmana i també copiar de manera massiva des de setmanes anteriors. Els personalitzadors del sistema poden personalitzar la visualització afegint-hi camps, afegint cerques a altres entitats i implementant regles de negoci personalitzades per segueixin les pràctiques de l'organització.
+A la versió 3.3 del Microsoft Dynamics 365 Project Service Automation, Microsoft ha presentat una moderna quadrícula que permet que els recursos de projecte introdueixin ràpidament les hores de fins a tota una setmana. La nova quadrícula d'entrada de temps setmanal pot mostrar els totals per a les entrades per data, per fila o per setmana. Els recursos poden fer còpies d'entrades de temps dins de la setmana i també copiar de manera massiva des de setmanes anteriors. Els personalitzadors del sistema poden personalitzar la visualització afegint-hi camps, afegint cerques a altres entitats i implementant regles de negoci personalitzades per segueixin les pràctiques de l'organització.
 
 A l'entrada de temps i la nova quadrícula de temps setmanal s'hi accedeix a través del mapa del lloc. L'experiència d'entrada de temps personalitzada no extensible que formava part de versions del PSA anteriors ha estat substituïda per la quadrícula d'entrada de temps setmanal extensible i també per una experiència alternativa a la quadrícula i el calendari només de lectura. A causa d'aquest canvi, els usuaris poden introduir l'hora en quantitats setmanals.
 

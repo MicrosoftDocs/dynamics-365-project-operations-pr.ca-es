@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147641"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283221"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Treballar amb el model de dades del Project Service Automation
 
@@ -87,7 +87,7 @@ L'entitat **Projectes** i les entitats relacionades són exclusives del PSA. El 
 
 ## <a name="reporting-on-resources"></a>Informes de recursos
 
-Els recursos del projecte utilitzen les entitats **Recurs que es pot reservar** de l'Universal Resource Scheduling (URS) que es comparteixen amb altres aplicacions, com ara el Microsoft Dynamics 365 Field Service. A continuació trobareu una llista de les entitats que podríeu haver d'utilitzar en informar dels recursos del projecte:
+Els recursos del projecte utilitzen les entitats de **Recurs que es pot reservar** de l'Universal Resource Scheduling (URS) que es comparteixen amb altres aplicacions, com ara el Microsoft Dynamics 365 Field Service. A continuació trobareu una llista de les entitats que podríeu haver d'utilitzar en informar dels recursos del projecte:
 
 - **Recurs que es pot reservar**: aquesta entitat representa l'usuari, el contacte, el recurs genèric, el compte, el grup o l'equipament que s'utilitza a l'equip del projecte.
 - **Característiques de recursos que es poden reservar**: aquesta entitat inclou les aptituds, certificacions o educació del recurs. Les característiques poden tenir uns valors de qualificació definits pel model de classificació.
