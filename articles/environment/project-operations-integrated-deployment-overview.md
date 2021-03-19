@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365398"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289942"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Informació general de la implementació del Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-El tipus d'implementació del Dynamics 365 Project Operations per a escenaris basats en recursos/no mantinguts en existències té capacitats següents per a les empreses basades en projectes:
+El tipus d'implementació, Dynamics 365 Project Operations per a escenaris basats en recursos/no mantinguts en existències té les capacitats següents per a les empreses basades en projectes:
 
 - Planificació de projectes mitjançant el Microsoft Project per al web
 - Preus i costos multidimensionals per a recursos de treball

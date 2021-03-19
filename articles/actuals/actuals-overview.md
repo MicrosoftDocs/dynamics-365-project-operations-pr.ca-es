@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126291"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291787"
 ---
 # <a name="actuals"></a>Valors reals 
 
@@ -70,7 +70,7 @@ L'entrada basada en categories per a preus per unitat per defecte a les entrades
 Podeu utilitzar llibres diari per registrar els costos o ingressos en classes de material, quota, temps, despeses o transaccions tributàries. Els diaris es poden utilitzar amb l'objectiu següent:
 
 - Registrar els costos reals materials i les vendes d'un projecte.
-- Moure els valors reals de la transacció des d'un altre sistema al Microsoft Dynamics 365 Project Operations.
+- Avanceu els valors reals de la transacció des d'un altre sistema al Microsoft Dynamics 365 Project Operations.
 - Registrar els costos que s'han produït en un altre sistema. Aquestes despeses poden incloure costos de contractació o subcontractació.
 
 > [!IMPORTANT]
