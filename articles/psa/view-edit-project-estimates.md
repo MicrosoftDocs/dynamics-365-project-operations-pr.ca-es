@@ -18,30 +18,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f31327df6be375dd82c615b2a9e8194145fcd19c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 79e72a3678ac2292cd61653dc1d44ea61bd7e2e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144041"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281421"
 ---
-# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="ae5df-103">Visualitzar i editar estimacions de projecte (Project Service)</span><span class="sxs-lookup"><span data-stu-id="ae5df-103">View and edit project estimates (Project Service)</span></span>
+# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="e79fb-103">Visualitzar i editar estimacions de projecte (Project Service)</span><span class="sxs-lookup"><span data-stu-id="e79fb-103">View and edit project estimates (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="ae5df-104">Amb les capacitats de l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] al [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], podeu veure les estimacions per a un projecte, incloent-hi les estimacions per costos, vendes o esforç.</span><span class="sxs-lookup"><span data-stu-id="ae5df-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
+<span data-ttu-id="e79fb-104">Amb les capacitats de l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] al [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], podeu veure les estimacions per a un projecte, incloent-hi les estimacions per costos, vendes o esforç.</span><span class="sxs-lookup"><span data-stu-id="e79fb-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
   
-1.  <span data-ttu-id="ae5df-105">Aneu a **Project Service > Projectes**.</span><span class="sxs-lookup"><span data-stu-id="ae5df-105">Go to **Project Service > Projects**.</span></span>  
+1.  <span data-ttu-id="e79fb-105">Aneu a **Project Service > Projectes**.</span><span class="sxs-lookup"><span data-stu-id="e79fb-105">Go to **Project Service > Projects**.</span></span>  
   
-2.  <span data-ttu-id="ae5df-106">Feu clic al projecte en el qual voleu treballant.</span><span class="sxs-lookup"><span data-stu-id="ae5df-106">Click the project you want to work on.</span></span>  
+2.  <span data-ttu-id="e79fb-106">Feu clic al projecte en el qual voleu treballant.</span><span class="sxs-lookup"><span data-stu-id="e79fb-106">Click the project you want to work on.</span></span>  
   
-3.  <span data-ttu-id="ae5df-107">A la barra que hi ha a la part superior de la pantalla, seleccioneu la fletxa avall al costat del nom de projecte i, a continuació, feu clic a **Estimacions de projecte**.</span><span class="sxs-lookup"><span data-stu-id="ae5df-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
+3.  <span data-ttu-id="e79fb-107">A la barra que hi ha a la part superior de la pantalla, seleccioneu la fletxa avall al costat del nom de projecte i, a continuació, feu clic a **Estimacions de projecte**.</span><span class="sxs-lookup"><span data-stu-id="e79fb-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
   
-4.  <span data-ttu-id="ae5df-108">A **Fase de temps per**, seleccioneu **Esforç**, **Cost** o **Vendes** per canviar les estimacions de projecte que es mostraran.</span><span class="sxs-lookup"><span data-stu-id="ae5df-108">In **Time-phase By**, select **Effort**, **Cost**, or **Sales** to change which project estimates to display.</span></span>  
+4.  <span data-ttu-id="e79fb-108">A **Fase de temps per**, seleccioneu **Esforç**, **Cost** o **Vendes** per canviar les estimacions de projecte que es mostraran.</span><span class="sxs-lookup"><span data-stu-id="e79fb-108">In **Time-phase By**, select **Effort**, **Cost**, or **Sales** to change which project estimates to display.</span></span>  
   
-5.  <span data-ttu-id="ae5df-109">Per afegir o suprimir despeses, feu clic a **Mostra visualització de quadrícula**.</span><span class="sxs-lookup"><span data-stu-id="ae5df-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="ae5df-110">Per crear una despesa nova, feu clic a **Despesa nova**.</span><span class="sxs-lookup"><span data-stu-id="ae5df-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="ae5df-111">Per suprimir una despesa, seleccioneu-la de la llista i, a continuació, feu clic a **Suprimeix despesa**.</span><span class="sxs-lookup"><span data-stu-id="ae5df-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="ae5df-112">Quan hagueu acabat d'afegir o suprimir despeses, feu clic a **Desa**.</span><span class="sxs-lookup"><span data-stu-id="ae5df-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
+5.  <span data-ttu-id="e79fb-109">Per afegir o suprimir despeses, feu clic a **Mostra visualització de quadrícula**.</span><span class="sxs-lookup"><span data-stu-id="e79fb-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="e79fb-110">Per crear una despesa nova, feu clic a **Despesa nova**.</span><span class="sxs-lookup"><span data-stu-id="e79fb-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="e79fb-111">Per suprimir una despesa, seleccioneu-la de la llista i, a continuació, feu clic a **Suprimeix despesa**.</span><span class="sxs-lookup"><span data-stu-id="e79fb-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="e79fb-112">Quan hagueu acabat d'afegir o suprimir despeses, feu clic a **Desa**.</span><span class="sxs-lookup"><span data-stu-id="e79fb-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="ae5df-113">Vegeu també</span><span class="sxs-lookup"><span data-stu-id="ae5df-113">See Also</span></span>  
- [<span data-ttu-id="ae5df-114">Guia d'administrador de projectes</span><span class="sxs-lookup"><span data-stu-id="ae5df-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="e79fb-113">Vegeu també</span><span class="sxs-lookup"><span data-stu-id="e79fb-113">See Also</span></span>  
+ [<span data-ttu-id="e79fb-114">Guia d'administrador de projectes</span><span class="sxs-lookup"><span data-stu-id="e79fb-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

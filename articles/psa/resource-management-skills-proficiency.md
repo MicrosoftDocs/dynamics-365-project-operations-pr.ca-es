@@ -18,33 +18,36 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 82eeab4c9682e5b777da4e66f6c4f3f1afb3c19b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147461"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282951"
 ---
-# <a name="skills-and-proficiency-models"></a><span data-ttu-id="d061a-103">Aptituds i models de competència</span><span class="sxs-lookup"><span data-stu-id="d061a-103">Skills and proficiency models</span></span>
+# <a name="skills-and-proficiency-models"></a><span data-ttu-id="eef99-103">Aptituds i models de competència</span><span class="sxs-lookup"><span data-stu-id="eef99-103">Skills and proficiency models</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="d061a-104">Les aptituds són característiques de recursos compartides entre el Dynamics 365 Project Service Automation i el Dynamics 365 Field Service, si està present.</span><span class="sxs-lookup"><span data-stu-id="d061a-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
+<span data-ttu-id="eef99-104">Les aptituds són característiques de recursos compartides entre el Dynamics 365 Project Service Automation i el Dynamics 365 Field Service, si està present.</span><span class="sxs-lookup"><span data-stu-id="eef99-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
 
-<span data-ttu-id="d061a-105">Per mantenir el dipòsit d'aptituds del Project Service Automation, aneu a **Recursos** \> **Aptituds de recursos**.</span><span class="sxs-lookup"><span data-stu-id="d061a-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
+<span data-ttu-id="eef99-105">Per mantenir el dipòsit d'aptituds del Project Service Automation, aneu a **Recursos** \> **Aptituds de recursos**.</span><span class="sxs-lookup"><span data-stu-id="eef99-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
 
 > ![Aptituds de recursos](media/Resource-Management-image84.png)
 
-## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="d061a-107">Utilitzar models de competència per puntuar recursos</span><span class="sxs-lookup"><span data-stu-id="d061a-107">Use proficiency models to rate resources</span></span>
+## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="eef99-107">Utilitzar models de competència per puntuar recursos</span><span class="sxs-lookup"><span data-stu-id="eef99-107">Use proficiency models to rate resources</span></span>
 
-<span data-ttu-id="d061a-108">Les aptituds per als recursos són valorades pels models de competència.</span><span class="sxs-lookup"><span data-stu-id="d061a-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="d061a-109">Les puntuacions individuals es troben en un model de competència.</span><span class="sxs-lookup"><span data-stu-id="d061a-109">The individual ratings are in a proficiency model.</span></span> 
+<span data-ttu-id="eef99-108">Les aptituds per als recursos són valorades pels models de competència.</span><span class="sxs-lookup"><span data-stu-id="eef99-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="eef99-109">Les puntuacions individuals es troben en un model de competència.</span><span class="sxs-lookup"><span data-stu-id="eef99-109">The individual ratings are in a proficiency model.</span></span> 
 
-1. <span data-ttu-id="d061a-110">Per crear un model de competència, aneu a **Recursos** \> **Models de competència** i, a continuació, seleccioneu **Nou**.</span><span class="sxs-lookup"><span data-stu-id="d061a-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
-2. <span data-ttu-id="d061a-111">Al model de puntuació nou, especifiqueu el valor de puntuació mínim, el valor màxim i l'entitat que està sent puntuada.</span><span class="sxs-lookup"><span data-stu-id="d061a-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
-3. <span data-ttu-id="d061a-112">A la subquadrícula **Valors de classificació**, podeu definir els valors de classificació diferents, del mínim al màxim.</span><span class="sxs-lookup"><span data-stu-id="d061a-112">In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.</span></span>
+1. <span data-ttu-id="eef99-110">Per crear un model de competència, aneu a **Recursos** \> **Models de competència** i, a continuació, seleccioneu **Nou**.</span><span class="sxs-lookup"><span data-stu-id="eef99-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
+2. <span data-ttu-id="eef99-111">Al model de puntuació nou, especifiqueu el valor de puntuació mínim, el valor màxim i l'entitat que està sent puntuada.</span><span class="sxs-lookup"><span data-stu-id="eef99-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
+3. <span data-ttu-id="eef99-112">A la subquadrícula **Valors de classificació**, podeu definir els valors de classificació diferents, del mínim al màxim.</span><span class="sxs-lookup"><span data-stu-id="eef99-112">In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.</span></span>
 
 > ![Puntuacions mínimes i màximes definides](media/Resource-Management-image85.png)
 
-<span data-ttu-id="d061a-114">Aquests valors de puntuació es mostren als filtres **Requisits de recursos**, **Tauler de planificació** i **Auxiliar de planificació**.</span><span class="sxs-lookup"><span data-stu-id="d061a-114">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
+<span data-ttu-id="eef99-114">Aquests valors de puntuació es mostren als filtres **Requisits de recursos**, **Tauler de planificació** i **Auxiliar de planificació**.</span><span class="sxs-lookup"><span data-stu-id="eef99-114">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
