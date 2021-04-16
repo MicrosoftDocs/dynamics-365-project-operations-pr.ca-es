@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novetats
       items:
+        - name: 'Abril de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 'Març de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: 'Febrer de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
@@ -64,7 +66,7 @@
           items:
             - name: Informació general de l'administració d'oportunitats dels projectes
               href: sales/manage-project-based-opportunities.md
-            - name: Configuració de les oportunitats basades en projectes
+            - name: Detalls de la capçalera per a les oportunitats basades en projectes
               href: sales/opportunity-header.md
             - name: Línies d'oportunitat basades en projectes
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Informació general de l'administració d'ofertes de projectes
               href: pro/sales/manage-quotes-sales.md
-            - name: Conceptes de les ofertes dels projectes
+            - name: Conceptes únics per a les ofertes basades en projectes
               href: sales/quotes-key-concepts.md
-            - name: Configuració de les ofertes dels projectes
+            - name: Detalls de la capçalera per a les ofertes basades en projectes
               href: sales/quote-values-budget-limits-contract.md
             - name: Administració de diversos clients en una oferta de projecte
               href: sales/manage-multiple-customers-quote.md
             - name: Administració de les llistes de preus de projectes en una oferta
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Línies d'oferta basades en projectes
               items:
                 - name: Informació general de les línies d'oferta basades en projectes
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
-                - name: Administració de diversos clients a les línies d'ofertes basades en projectes
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Administració de diversos clients a les línies d'oferta basades en projectes
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Assignació de projectes i tasques a línies d'oferta basades en projectes
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Configuració dels components facturables per a les línies d'oferta basades en projectes
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Configuració dels components facturables d'una línia d'oferta de projecte
                   href: sales/configure-chargeable-quoteline.md
-                - name: Creació d'estimacions en una línia d'oferta
+                - name: Estimació d'una línia d'oferta de projecte
                   href: sales/create-estimate-quote-line.md
                 - name: Importació de les estimacions d'un projecte en una línia d'oferta basada en projectes
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Informació general de l'administració de contractes de projectes
               href: pro/sales/manage-contracts-sales.md
-            - name: Conceptes de contractes de projectes
+            - name: Conceptes únics per als contractes basats en projectes
               href: sales/contracts-key-concepts.md
-            - name: Configuració de contractes de projectes
+            - name: Detalls de la capçalera per als contractes basats en projectes
               href: sales/project-contract-settings.md
             - name: Administració de les llistes de preus de projectes als contractes de projectes
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Línies de contracte basades en projectes
               items:
                 - name: Informació general de les línies de contracte basades en projectes
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Administració de diversos clients a les línies de contracte basades en projectes
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Configuració dels components facturables d'una línia de contracte basada en projectes
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Estimació d'una línia de contracte basada en projectes
+                - name: Assignació de projectes i tasques en una línia de contracte
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Configuració dels components facturables per a una línia de contracte de projectes
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Estimació d'una línia de contracte de projecte
                   href: sales/create-estimate-contract-line.md
                 - name: Importació de les estimacions d'un projecte en una línia de contracte basada en projectes
                   href: sales/import-estimate-project-contract-line.md
@@ -132,11 +140,9 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Confirmació d'un contracte de projecte
               href: pro/sales/confirm-contract-sales.md
-            - name: Còpia d'un contracte de projecte
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Avançaments i bestretes
               items:
-                - name: Avançaments i contractes de bestreta
+                - name: Contractes basats en avançaments i bestretes
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Configuració d'una planificació de bestreta
                   href: pro/sales/set-up-schedule-retainers-sales.md
@@ -146,16 +152,16 @@
       items:
         - name: Configuració de la llista de preus
           items:
-            - name: Configuració de llistes de preus
+            - name: Definició de la llista de preus
               href: pricing-costing/price-list-setup.md
-            - name: Llistes de preus de productes
-              href: pricing-costing/product-price-list.md
             - name: Configuració de les tarifes de la factura de treball
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Configuració de les tarifes de cost de treball
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Configuració de les tarifes de cost i de vendes per a les despeses
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Configuració de les tarifes de cost i de vendes per als materials
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Valors per defecte i substitucions
           items:
             - name: Llistes de preus per defecte
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: Còpia de les llistes de preus
               href: pricing-costing/copy-price-lists.md
+            - name: Desactivació de llistes de preus
+              href: pricing-costing/deactivatepricelists.md
         - name: Dimensions de preus
           items:
             - name: Informació general de les dimensions de preus
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Creació d'assignacions
               href: project-management/create-assignments.md
-        - name: Estimació de projectes
+        - name: Estimacions financeres en projectes
           items:
-            - name: Informació general de l'estimació de projectes
+            - name: Conceptes d'estimació financera
               href: project-management/estimating-projects-overview.md
-            - name: Estimacions de recursos
+            - name: Estimacions financeres per a temps de recursos en projectes
               href: project-management/resource-estimates.md
-            - name: Creació d'estimacions de despesa
+            - name: Estimacions financeres per a despeses en projectes
               href: project-management/create-expense-estimates.md
+            - name: Estimacions financeres per a materials en projectes
+              href: project-management/create-material-estimate.md
         - name: Seguiment del projecte
           items:
-            - name: Informació general sobre el seguiment del projecte
+            - name: Seguiment de l'esforç del projecte
               href: project-management/project-tracking-overview.md
+            - name: Seguiment de costos laborals en projectes
+              href: project-management/project-cost-tracking.md
+            - name: Seguiment d'ingressos laborals en projectes
+              href: project-management/project-sales-tracking.md
             - name: Actualització de l'estimació en finalitzar
               href: project-management/update-completed-estimate.md
         - name: Membres de l'equip del projecte
@@ -248,6 +262,8 @@
           items:
             - name: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
               href: project-management/dev-copy-project.md
+            - name: Ús d'API de planificació (versió preliminar pública)
+              href: project-management/schedule-api-preview.md
     - name: Administració de recursos
       items:
         - name: Conceptes clau
@@ -366,6 +382,10 @@
           items:
             - name: Recuperació de l'IVA
               href: expense/vat-recovery.md
+    - name: Ús de materials
+      items:
+        - name: Registre de l'ús de materials en projectes i tasques de projectes
+          href: material/material-usage-log.md
     - name: Aprovacions
       items:
         - name: Informació general de les aprovacions
@@ -378,6 +398,8 @@
       items:
         - name: Informació general dels valors reals
           href: actuals/actuals-overview.md
+        - name: Enllaç dels valors reals als registres originals
+          href: actuals/linkingactuals.md
         - name: Llibres diari de correcció
           items:
             - name: Creació i confirmació de llibres diari de correcció
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Facturació proforma
           items:
-            - name: Administració del treball pendent de facturació del projecte
+            - name: Administració del treball pendent de facturació basada en projectes
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Administració de l'estat que no s'ha de superar i les validacions
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Creació d'una factura de projecte proforma manual
+            - name: Factures proforma basades en projectes
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Administració d'una factura de projecte proforma
+            - name: Administració d'una factura proforma basada en projectes
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Facturació d'una bestreta o un avançament
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Confirmació d'una factura de projecte proforma
+            - name: Confirmació d'una factura proforma basada en projectes
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Configuració de l'automatització de factures del projecte
+            - name: Creació de factures basades en projectes de correcció
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Configuració de l'automatització de factures basades en projectes
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Comptabilitat del projecte
       items:
@@ -458,9 +482,11 @@
           href: environment/security-model.md
     - name: Novetats
       items:
-        - name: 'Novetats del març de 2021: implementació bàsica'
+        - name: 'Novetats d''abril de 2021: implementació bàsica'
+          href: pro/whats-new/whats-new-apr-2021-lite.md
+        - name: 'Novetats de març de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: 'Novetats del febrer de 2021: implementació bàsica'
+        - name: 'Novetats de febrer de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: 'Novetats del gener de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-jan-2021-lite.md
@@ -484,9 +510,9 @@
           href: pro/sales/managing-leads-sales.md
         - name: Administració d'oportunitats dels projectes
           items:
-            - name: Informació general de les oportunitats dels projectes
+            - name: Informació general de les oportunitats de projectes
               href: sales/manage-project-based-opportunities.md
-            - name: Configuració de les oportunitats dels projectes
+            - name: Detalls de la capçalera per a les oportunitats de projectes
               href: pro/sales/opportunity-header-sales.md
             - name: Administració de les línies d'oportunitat basades en productes
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Informació general de les ofertes basades en projectes
               href: pro/sales/manage-quotes-sales.md
-            - name: Conceptes de l'oferta de projectes
+            - name: Conceptes únics per a les ofertes de projecte
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Configuració de les ofertes dels projectes
+            - name: Detalls de la capçalera per a les ofertes de projecte
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Diversos clients a les ofertes de projectes
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: Informació general de contractes basats en projectes
               href: pro/sales/manage-contracts-sales.md
-            - name: Conceptes de contractes de projectes
+            - name: Conceptes únics per als contractes de projecte
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Configuració de contractes de projectes
+            - name: Detalls de la capçalera per als contractes de projecte
               href: pro/sales/project-contract-settings-sales.md
             - name: Diversos clients en contractes de projectes
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Configuració de la llista de preus
           items:
-            - name: Configuració de llistes de preus
+            - name: Definició de la llista de preus
               href: pricing-costing/price-list-setup.md
-            - name: Configuració de la llista de preus de vendes
-              href: pricing-costing/sales-price-list-setup.md
-            - name: Configuració de les tarifes de la factura de treball (bàsica)
+            - name: Configuració de llistes de preus de productes
+              href: pricing-costing/product-price-list.md
+            - name: Configuració de les tarifes de facturació per al treball
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Configuració de les tarifes de cost de treball (bàsica)
+            - name: Configuració de les tarifes de cost per al treball
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Configuració de les tarifes de cost i de vendes per als productes del catàleg (bàsica)
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Configuració de les tarifes de cost i de vendes per a les despeses
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Configuració de les tarifes de cost i de vendes per als materials
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Valors per defecte i substitucions
           items:
             - name: Llistes de preus per defecte
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Substitució de les llistes de preus de vendes de projectes
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Resolució dels preus de cost per a les estimacions i els valors reals (bàsica)
+            - name: Resolució dels preus de cost per a les estimacions i els valors reals de projecte
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Resolució dels preus de venda per a les estimacions i els valors reals (bàsica)
+            - name: Resolució dels preus de venda per a les estimacions i els valors reals del projecte
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Còpia de les llistes de preus
               href: pricing-costing/copy-price-lists.md
+            - name: Desactivació de les llistes de preus del projecte
+              href: pricing-costing/deactivatepricelists.md
         - name: Dimensions de preus
           items:
             - name: Informació general de les dimensions de preus
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Creació d'assignacions
               href: project-management/create-assignments.md
-        - name: Estimació de projectes
+        - name: Estimacions financeres en projectes
           items:
-            - name: Informació general de l'estimació de projectes
+            - name: Conceptes d'estimació financera
               href: project-management/estimating-projects-overview.md
-            - name: Estimacions de recursos
+            - name: Estimacions financeres per a temps de recursos en projectes
               href: project-management/resource-estimates.md
-            - name: Creació d'estimacions de despesa
+            - name: Estimacions financeres per a despeses en projectes
               href: project-management/create-expense-estimates.md
+            - name: Estimacions financeres per a materials en projectes
+              href: project-management/create-material-estimate.md
         - name: Seguiment del projecte
           items:
-            - name: Informació general sobre el seguiment del projecte
+            - name: Seguiment de l'esforç del projecte
               href: project-management/project-tracking-overview.md
+            - name: Seguiment de costos laborals en projectes
+              href: project-management/project-cost-tracking.md
+            - name: Seguiment d'ingressos laborals en projectes
+              href: project-management/project-sales-tracking.md
             - name: Actualització de l'estimació en finalitzar
               href: project-management/update-completed-estimate.md
         - name: Membres de l'equip del projecte
@@ -694,6 +728,8 @@
           items:
             - name: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
               href: project-management/dev-copy-project.md
+            - name: Ús d'API de planificació (versió preliminar pública)
+              href: project-management/schedule-api-preview.md
     - name: Administració de recursos
       items:
         - name: Conceptes clau
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Entrada de despesa (bàsica)
           href: expense/basic-expense.md
+    - name: Ús de materials
+      items:
+        - name: Registre de l'ús de materials en projectes i tasques de projectes
+          href: material/material-usage-log.md
     - name: Aprovacions
       items:
         - name: Informació general de les aprovacions
@@ -780,6 +820,8 @@
       items:
         - name: Informació general dels valors reals
           href: actuals/actuals-overview.md
+        - name: Enllaç dels valors reals als registres originals
+          href: actuals/linkingactuals.md
         - name: Llibres diari de correcció
           items:
             - name: Creació i confirmació de llibres diari de correcció
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: Administració de l'estat que no s'ha de superar i les validacions
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Creació d'una factura de projecte proforma manual
+        - name: Factures proforma del projecte
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Administració d'una factura de projecte proforma
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,7 +848,9 @@
   items:
     - name: Novetats
       items:
-        - name: 'Novetats del gener de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
+        - name: 'Novetats de març de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+        - name: 'Novetats de gener de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: 'Novetats del desembre de 2020: Project Operations per a escenaris basats en producció/mantinguts en existències'
           href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Facturació del projecte
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Rendiment de propostes de factura de projecte
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Contractes del projecte
       href: prod-pma/project-contracts.md
     - name: Creació de contractes avançats per a la facturació basada en el progrés
@@ -952,9 +998,13 @@
       items:
         - name: "Planificació del llançament d'actualitzacions per al Project Service\_3.x"
           href: psa/version-history-ps.md
-        - name: "Novetats o canvis del llançament de l'actualització\_29, V3"
+        - name: "Novetats o canvis del llançament d'actualització\_30, V3"
+          href: psa/whats-new-ur-30.md
+        - name: "Novetats o canvis del llançament d'actualització\_29.5, revisió, V3"
+          href: psa/whats-new-ur-29-5.md
+        - name: "Novetats o canvis del llançament d'actualització\_29, V3"
           href: psa/whats-new-ur-29.md
-        - name: "Novetats o canvis del llançament de l'actualització\_28.6, revisió, V3"
+        - name: "Novetats o canvis del llançament d'actualització\_28.6, revisió, V3"
           href: psa/whats-new-ur-28-6.md
         - name: "Novetats o canvis del llançament de l'actualització\_28.5, revisió, V3"
           href: psa/whats-new-ur-28-5.md
