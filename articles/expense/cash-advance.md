@@ -3,19 +3,19 @@ title: Avançament d'efectiu
 description: Aquest tema proporciona informació sobre els avançaments d'efectiu.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276696"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715548"
 ---
 # <a name="cash-advance"></a>Avançament d'efectiu
 
@@ -60,7 +60,22 @@ El procediment següent el sol completar un comptable o un usuari amb permisos c
 
 Quan creeu i envieu un informe de despeses per a la bestreta en efectiu que ja heu rebut, les despeses s'ajustaran automàticament amb aquesta bestreta. Si l'avançament d'efectiu és superior a l'import gastat, heu de retornar el balanç a l'empresa mitjançant la categoria de despeses **Retorn d'efectiu**. Si la bestreta en efectiu pagada per l'empresa és inferior a l'import que heu despès, l'empresa us ha de tornar el balanç. 
 
-### <a name="example"></a>Exemple
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Selecció de bestretes en efectiu que s'apliquen a les despeses
+Abans d'enviar un informe de despeses, podeu seleccionar l'avançament en efectiu que s'ajusta a les transaccions de despeses de l'informe. Per utilitzar aquesta funcionalitat, cal habilitar les dues característiques següents des de l'àrea de treball **Administració de característiques**:
+
+  - Informes de despeses reimaginats
+  - Possibilitat d'assignar bestretes d'efectiu a línies de despesa
+ 
+ Quan aquestes característiques estan habilitades:
+ 
+  - Podeu afegir una o més bestretes d'efectiu per cada línia de despesa.
+  - El saldo disponible d'una bestreta d'efectiu és visible en temps real quan es desa un informe de despeses. Això us permet processar les transaccions de despeses i la transacció de devolució d'efectiu al mateix temps.
+  - Podeu seleccionar diversos avançaments d'efectiu per a una transacció de despesa.
+  - Les dades de conciliació d'avançament d'efectiu estan disponibles mitjançant una consulta. 
+ 
+Si no utilitzeu aquestes funcions, la funcionalitat es mantindrà igual, i els avançaments d'efectiu existents es reduiran automàticament després de l'enviament d'una despesa.
+
+### <a name="example"></a>Exemple 
 Teniu previst viatjar des de Seattle a la ciutat de Nova York per a una conferència. Es crea una sol·licitud de bestreta en efectiu per a 3000.00 USD en funció del cost previst del tiquet de la conferència, els vols, l'hotel, els àpats i el taxi. No se us pagarà tret que el vostre cap aprovi aquesta sol·licitud. Quan l'administrador l'aprovi, l'avançament d'efectiu es paga com a 3000,00 USD al vostre compte bancari. A continuació, assistiu a la conferència. Després de completar el vostre viatge, esbrineu que la despesa total només era de 2790,00 USD. Seleccioneu **Efectiu** al camp **Mètode de pagament** i envieu la despesa per a 2790.00 USD. L'import de despesa enviat s'ajusta automàticament a l'avançament d'efectiu de 3000,00 USD que se us ha prestat. Ara deveu un balanç de 210.00 USD (3000.00 - 2790.00), que podeu tornar a l'empresa per mitjà de la categoria de despeses **Retorn en efectiu**.
 
 

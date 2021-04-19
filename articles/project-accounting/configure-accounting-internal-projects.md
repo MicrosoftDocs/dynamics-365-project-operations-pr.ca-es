@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287586"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857966"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Configuració de la comptabilitat per a projectes interns
 
@@ -28,6 +28,7 @@ Qualsevol projecte no associat amb un contracte al Dynamics 365 Project Operatio
 
 - Les transaccions de temps es comptabilitzen carregant-les al compte **Cost** i pagant-les al compte **Assignació de nòmines**.
 - Les transaccions de despeses es comptabilitzen carregant-les al compte **Cost** i pagant-les al compte **Compte de desplaçament per a despeses**.
+- Les transaccions dels articles es publiquen carregant-les al compte **Cost** i pagant-les al compte **Cost: article**.
 
 Després de comptabilitzar les transaccions al projecte, si el projecte està associat amb un contracte de projecte, el sistema reverteix totes les transaccions acumulades i crea noves transaccions facturables. Les transaccions facturables segueixen les regles de comptabilitat definides en el perfil de cost i ingressos del projecte respectiu.
 

@@ -3,17 +3,17 @@ title: Configuració de les tarifes de cost i de vendes per a les despeses
 description: Aquest tema proporciona informació sobre com configurar les tarifes de cost i de venda per a les categories de transaccions i despeses.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274896"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877208"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configuració de les tarifes de cost i de vendes per a les despeses
 
@@ -23,9 +23,10 @@ Podeu configurar els preus de cost i de venda per a categories de transaccions a
 
 Per configurar les tarifes de cost i venda per a les categories de transacció, completeu els passos següents. 
 
-1. Creeu una llista de preus basada en la capçalera de la llista de preus. 
-2. Als **Preus per categoria**, en el menú de la subquadrícula, seleccioneu **+ Preu per categoria nou**. 
-3. A la pàgina **Creació ràpida**, introduïu la categoria de transacció i la unitat per la qual esteu creant el nou preu.
+1. Aneu a **Vendes** > **Clients** > **Llistes de preus**.
+2. Seleccioneu **Crea** per crear una llista de preus nova. 
+3. Als **Preus per categoria**, en el menú de la subquadrícula, seleccioneu **Preu per categoria nou**. 
+4. A la pàgina **Creació ràpida**, introduïu la categoria de transacció i la unitat per la qual esteu creant el nou preu.
 
 La taula següent indica els camps de la pestanya **General** i la pàgina **Creació ràpida** d'una línia de preu de categoria que haureu de tenir en compte quan creeu preus de categoria en una llista de preus de vendes o de cost.
 

@@ -3,17 +3,17 @@ title: Resolució dels preus de venda per a les estimacions i els valors reals
 description: Aquest tema proporciona informació sobre com resoldre les tarifes de vendes per a estimacions i valors reals.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274941"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877433"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolució dels preus de venda per a les estimacions i els valors reals
 
@@ -54,6 +54,17 @@ Després de resoldre una llista de preus per a les vendes, el sistema completa e
     | &nbsp; | Marge comercial sobre el cost | Aplicant un marge comercial tal com defineix la línia de preus de categoria a la tarifa de cost unitari del valor real de cost relacionat |
 
 4. Si el sistema no pot fer coincidir els valors dels camps **Categoria** i **Unitat**, la tarifa de vendes per defecte és zero (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Resolució de percentatges de vendes de les línies de valor real i de previsió de materials
+
+A Project Operations, les línies d'estimació per a materials s'utilitzen per indicar els detalls de línia d'oferta i de línia de contracte per als materials i les línies de previsió de materials d'un projecte.
+
+Després de resoldre una llista de preus per a les vendes, el sistema completa els següents passos per obtenir el preu de venda per unitat per defecte.
+
+1. El sistema utilitza la combinació de camp **Producte** i **Unitat** de la línia de previsió perquè el material coincideixi amb les línies d'element de la llista de preus de la llista de preus resolta.
+2. Si el sistema troba una línia d'element de la llista de preus que té un percentatge de vendes per a la combinació de camps **Producte** i **Unitat** i el mètode de càlcul de preus és **Quantitat de moneda**, s'utilitza el preu de venda que s'especifica a la línia de la llista de preus.
+3. Si els valors dels camps **Producte** i **Unitat** no coincideixen, s'utilitza el percentatge de vendes zero per defecte.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

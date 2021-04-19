@@ -1,21 +1,21 @@
 ---
-title: Factures corregides (bàsic)
-description: Aquest tema proporciona informació sobre factures corregides al Project Operations
+title: Factures de projecte de correcció
+description: Aquest tema proporciona informació sobre com crear i confirmar factures de projecte de correcció a Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274221"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866579"
 ---
-# <a name="corrected-invoices---lite"></a>Factures corregides (bàsic)
+# <a name="corrective-project-invoices"></a>Factures de projecte de correcció
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -37,9 +37,9 @@ Es crea un nou esborrany de factura a partir de la factura confirmada. Tots els 
 > [!IMPORTANT]
 > Els detalls de la línia de factura que són correccions a altres càrrecs ja facturat tenen el camp **Correcció** establert a **Sí**. Les factures que han corregit els detalls de la línia de factura tenen un camp anomenat **Té correccions** que també s'estableix a **Sí**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Valors reals creats a la confirmació d'una factura correctiva:
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Valors reals creats quan es confirma una factura de correcció
 
-A continuació es mostren els valors reals creats per l'aplicació a la confirmació d'una correcció segons les operacions realitzades en l'esborrany de factura correctiva abans de la confirmació.
+A la taula següent es mostraran els valors reals que es creen quan es confirma una factura correctiva.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ Nou valor real de venda no facturada imputable per la quantitat restant i import
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Facturar el crèdit complet d'una transacció de materials prèviament facturada.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Una reversió de vendes facturades per a la quantitat i l'import del detall de línia de factura original per a materials.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nou valor real de vendes no facturades per a la quantitat i l'import del detall de línia de factura original per a materials.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturació del crèdit parcial d'una transacció de material.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Una reversió de vendes facturades per a la quantitat i l'import facturats al detall de línia de factura original per a materials.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nou valor real de vendes no facturades que es poden cobrar per la quantitat i l'import del detall de la línia de factura editat, una reversió d'aquesta i una venda facturada equivalent real.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nou valor real de venda no facturada imputable per la quantitat restant i import després de deduir les xifres corregides en el detall de la línia de factura.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Facturació del crèdit complet d'una transacció d'impostos facturada prèviament.
                 </p>
             </td>
@@ -260,7 +305,7 @@ Facturació del crèdit complet d'una fita facturada prèviament.
 Reversió de vendes facturades per l'import en el detall de la línia de factura original per a la fita.
                 </p>
                 <p>
-L'estat de facturació o factura de la fita de la línia de contracte del projecte s'actualitza a **A punt per a la facturació**.
+L'estat de la factura de la fita s'actualitza de <b>Factura de client comptabilitzada</b> a <b>Preparat per a facturació</b>.
                 </p>
             </td>
         </tr>

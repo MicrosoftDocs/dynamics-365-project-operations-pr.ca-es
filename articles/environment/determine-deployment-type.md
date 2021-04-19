@@ -3,17 +3,17 @@ title: Determinació del tipus d'implementació
 description: En aquest tema es proporciona informació per ajudar-vos a determinar el tipus d'implementació correcte del Project Operations per a la vostra empresa.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479552"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663582"
 ---
 # <a name="determine-your-deployment-type"></a>Determinació del tipus d'implementació
 
@@ -44,7 +44,7 @@ El nostre [qüestionari d'implementació](https://aka.ms/provisionprojectoperati
 - [Project Operations per a escenaris de recursos/no mantinguts en existències](#integrated)
 - [Project Operations per a escenaris mantinguts en existències/d’ordre de producció](#pma)
 
-El Project Operations admet escenaris d'existències/ordre de producció i escenaris sense existències/basats en recursos en el mateix entorn mitjançant configuracions de nivell d'entitat legal. Per exemple, Contoso pot utilitzar les funcionalitats de comanda amb existències/producció en la seva planta de fabricació dels EUA (Entitat jurídica = Contoso Manufacturing United States). Contoso pot utilitzar les funcionalitats sense existències/basades en recursos en la seva instal·lació de servei de braços robòtics de Contoso al Regne Unit (Entitat jurídica = Contoso Robotics United Kingdom).
+El Project Operations admet escenaris d'existències/ordre de producció i escenaris sense existències/basats en recursos en el mateix entorn mitjançant configuracions de nivell d'entitat legal. Per exemple, Contoso pot utilitzar les capacitats d'ordre de producció o emmagatzematge a la seva instal·lació de fabricació dels EUA (Entitat legal = Fabricació de Contoso als Estats Units). Contoso pot utilitzar les capacitats sense existències/basades en recursos en la seva instal·lació de serveis de Contoso Robotics Arms al Regne Unit (Entitat legal = Contoso Robotics Regne Unit).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementació bàsica: tracte de facturació proforma
 
@@ -56,7 +56,7 @@ La implementació bàsica inclou les capacitats següents:
 - Administració de recursos unificada
 - Seguiment de temps
 - Despesa bàsica
-- Facturació proforma i orientada al client 
+- Facturació proforma per a la revisió i edició de l'Administrador de projectes 
 
 #### <a name="deployment-steps"></a>Passos d'implementació
 Determineu el millor model d'implementació del Project Operations mitjançant el [qüestionari d'implementació](https://aka.ms/provisionprojectoperations).
@@ -94,7 +94,7 @@ Per a aquesta implementació, vegeu [Inscripció a versions preliminars de subsc
 - Facturació completa
 - Reconeixement d'ingressos
 - Comandes de producció
-- Suport de materials
+- Suport de materials amb existències amb inventari
 
 #### <a name="deployment-steps"></a>Passos d'implementació
 Determineu el millor model d'implementació del Project Operations mitjançant el [qüestionari d'implementació](https://aka.ms/provisionprojectoperations).

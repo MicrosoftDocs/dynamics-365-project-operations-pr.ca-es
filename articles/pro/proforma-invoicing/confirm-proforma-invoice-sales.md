@@ -1,26 +1,26 @@
 ---
-title: Confirmació d'una factura proforma (bàsic)
-description: Aquest tema proporciona informació sobre la confirmació de factures proforma al Project Operations.
+title: Confirmació d'una factura de projecte proforma
+description: Aquest tema proporciona informació sobre la confirmació de factures de projecte proforma a Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274266"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867074"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Confirmació d'una factura proforma (bàsic)
+# <a name="confirm-a-proforma-project-invoice"></a>Confirmació d'una factura de projecte proforma 
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 
-Després que es confirmi una factura proforma, l'estat de la factura del projecte s'actualitza a **Confirmada**. Quan es confirma una factura, es converteix en només de lectura. En el futur, la factura només es pot corregir si hi ha correccions o crèdits iniciats pel client, o si la factura es marca com a pagada.
+Després que es confirmi una factura proforma, l'estat de la factura del projecte s'actualitza a **Confirmada**. Quan es confirma una factura, es converteix en només de lectura. Més endavant, la factura només es pot corregir si hi ha correccions o abonaments iniciats pels clients.
 
 La taula següent enumera els valors reals creats pel sistema. Aquests valors reals es creen quan es realitzen certes operacions sobre l'esborrany de la factura del projecte abans de confirmar-la.
 
@@ -225,6 +225,70 @@ Reversió de vendes sense facturar per la quantitat i quantitat en l'aprovació 
             <td width="408" valign="top">
                 <p>
 Nou valor real de venda no facturada imputable per a la quantitat i l'import en el detall de la línia de factura editada, reversió del valor real de venda no facturada i valor real de venda facturada equivalent. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturar una transacció de material sense edicions a l'esborrany de la factura.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Una reversió de vendes no facturades per a la quantitat i l'import a la aprovació d'ús de materials original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un valor real de vendes facturades per a la quantitat i l'import a la aprovació d'ús de materials original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturació d'una transacció de materials que s'ha editat per reduir la quantitat.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Una reversió de vendes no facturades per a la quantitat i l'import a la aprovació de temps original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nou valor real de venda no facturada imputable per a la quantitat i l'import en el detall de la línia de factura editada, reversió del valor real de venda no facturada i valor real de venda facturada equivalent.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nou valor real de venda no facturada no imputable per a la quantitat i l'import restants després de deduir les xifres corregides en el detall de la línia de factura editada, reversió del valor real de venda sense facturar i valor real de venda facturada equivalent.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturació d'una transacció de materials que s'ha editat per augmentar la quantitat.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Una reversió de vendes no facturades per a la quantitat i l'import a la aprovació d'ús de materials original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nou valor real de venda no facturada imputable per a la quantitat i l'import en el detall de la línia de factura editada, reversió del valor real de venda no facturada i valor real de venda facturada equivalent.
                 </p>
             </td>
         </tr>

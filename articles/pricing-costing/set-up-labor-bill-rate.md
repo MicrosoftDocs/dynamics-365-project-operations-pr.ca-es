@@ -3,17 +3,17 @@ title: Configuració de les tarifes de la factura de treball
 description: Aquest tema proporciona informació sobre com configurar tarifes de facturació de treball al Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274806"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877388"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configuració de les tarifes de la factura de treball
 
@@ -21,8 +21,8 @@ ms.locfileid: "5274806"
 
 Cada llista de preus té un conjunt de preus per funció o tarifes de treball que són efectives per al context i la data d'efectivitat inclosos a la capçalera de la llista de preus. Les tarifes de facturació per al temps al Dynamics 365 Project Operations es poden configurar només en una moneda, que és la moneda de la capçalera de la llista de preus.
 
-1. Per establir les tarifes de facturació del treball per a una llista de preus de venda, creeu una llista de preus basada en la capçalera de la llista de preus. 
-2. A la pestanya **Preus per funció**, a la subquadrícula, seleccioneu **+ Preu per funció nou**. 
+1. Per configurar les tarifes de facturació de treball d'una llista de preus de venda, aneu a **Vendes** > **Clients** > **Llistes de preus** i seleccioneu **Crea** per crear una llista de preus nova. 
+2. A la pestanya **Preus per funció**, a la subquadrícula, seleccioneu **Preu per funció nou**. 
 3. A la subfinestra **Creació ràpida**, introduïu la funció rol i la combinació d'unitats de l'organització per a la qual heu d'establir la tarifa de facturació.
 
    La taula següent inclou els camps de la pestanya **General** i la subfinestra **Creació ràpida** d'una línia de preu per funció que heu de tenir en compte quan creeu els preus per funció en una llista de preus de vendes:

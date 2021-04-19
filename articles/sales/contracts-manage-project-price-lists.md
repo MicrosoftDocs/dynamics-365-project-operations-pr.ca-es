@@ -3,17 +3,17 @@ title: Administració de les llistes de preus de projectes als contractes de pro
 description: Aquest tema proporciona informació sobre l'administració de llistes de preus de projecte en contractes de projecte.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278586"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858551"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Administració de les llistes de preus de projectes als contractes de projectes
 
@@ -21,13 +21,13 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Els contractes de projecte al Dynamics 365 Project Operations estan dissenyats per admetre llistes de preus de vendes amb diverses dates d'efectivitat en un contracte. Al Project Operations, hi ha una entitat associada nova anomenada **Llistes de preus del projecte**. Aquesta entitat té una relació d'un a diversos amb un contracte de projecte.
 
-Les llistes de preus del projecte s'utilitzen per assignar preus a les transaccions de temps i de despeses en un projecte. Quan un contracte té una o més llistes de preus del projecte, aquestes llistes de preus s'utilitzen per al preu de les estimacions de temps i despeses i valors reals en els projectes que estan associats al contracte a través de la línia de contracte.
+Les llistes de preus del projecte s'utilitzen per calcular el preu de les transaccions de temps, materials i despeses en un projecte. Quan un contracte té una o més llistes de preus del projecte, aquestes llistes de preus s'utilitzen per al preu per a les estimacions de temps, materials i despesa i els valors reals en projectes associats al contracte a través de la línia de contracte.
 
-Quan no hi hagi llistes de preus del projecte en un contracte de projecte, veureu un missatge d'advertiment indicant que no hi ha llistes de preus del projecte i que les vostres estimacions, treball real del projecte i despeses no tindran cap preu. No hi haurà preu per als valors de vendes.
+Quan no hi ha cap llista de preus de projecte en un contracte del projecte, veureu un missatge d'advertiment que indica que no hi ha cap llista de preus del projecte i no es calcularà el preu de les vostres estimacions, la feina real del projecte, el material i les despeses registrades. No hi haurà preu per als valors de vendes.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Associar o dessociar una llista de preus del projecte en un contracte de projecte
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Crear o associar una llista de preus específica per estimar el treball i les despeses basades en projectes
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Crear o associar una llista de preus específica per estimar el treball, el material i les despeses basats en projectes
 
 1. Al contracte del projecte, seleccioneu la pestanya **Llistes de preus del projecte**.
 2. A la subquadrícula, seleccioneu **+ Afegeix una llista de preus de projecte nova**.
@@ -52,7 +52,7 @@ Quan no hi hagi llistes de preus del projecte en un contracte de projecte, veure
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Configurar el valor per defecte automàtic de les llistes de preus del projecte en un contracte
 
-Una llista de preus del projecte es pot configurar com la llista per defecte d'un contracte de projecte. Aquesta configuració us pot ajudar a garantir que tots els contractes de l'organització comencin sempre amb una llista de preus estàndard per a aquest període de preus.
+Una llista de preus del projecte es pot configurar com la llista de preus del projecte per defecte. Aquesta configuració garanteix que tots els contractes de l'organització sempre comencin amb una llista de preus de projecte estàndard per a aquest període de preus.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Configurar el valor per defecte de l'organització per a les llistes de preus del projecte
 

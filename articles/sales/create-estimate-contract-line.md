@@ -1,6 +1,6 @@
 ---
-title: Estimació d'una línia de contracte basada en projectes
-description: Aquest tema proporciona informació sobre les estimacions en una línia de contracte basada en projectes.
+title: Estimació d'una línia de contracte del projecte
+description: Aquest tema proporciona informació sobre les estimacions en una línia de contracte del projecte.
 author: rumant
 manager: Annbe
 ms.date: 10/27/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7cb7d7eccf62837ee5abf4cbe29a21dc728eb7ef
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278496"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858506"
 ---
-# <a name="estimate-a-projectbased-contract-line"></a>Estimació d'una línia de contracte basada en projectes
+# <a name="estimate-a-project-contract-line"></a>Estimació d'una línia de contracte del projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_ 
 
@@ -26,31 +26,36 @@ Per estimar una línia de contracte basada en projectes, aneu a la pestanya **De
    - Crear una estimació directament a la línia de contracte afegint manualment els detalls de la línia de contracte.
    - Crear un projecte i un pla de projecte i després associar el projecte i les tasques a la línia de contracte del projecte. Això permet el procés pel qual podeu importar l'estimació del pla de projecte a la línia de contracte segons els components inclosos en la línia de contracte.
 
-## <a name="create-an-estimate-directly-on-a-projectbased-contract-line"></a>Crear una estimació directament en una línia de contracte basada en projectes
+## <a name="create-an-estimate-directly-on-a-project-contract-line"></a>Creació d'una estimació directament en una línia de contracte del projecte
+
+Per crear una estimació directament en una línia de contracte del projecte, seguiu aquests passos:
 
 1. Aneu a la línia de contracte i seleccioneu la pestanya **Detall de la línia contracte**. Les línies que creeu en aquesta pestanya es resumeixen i es mostren com el **valor contractat** per a aquesta **línia contracte**. 
-2. A la subquadrícula **Detalls de la línia de contracte**, seleccioneu **+ Nou detall de línia contracte**. S'obre un control lliscant de creació ràpida. Els següents camps estan disponibles en el formulari **Detalls de la línia de contracte**:
+2. A la subquadrícula **Detalls de la línia de contracte**, seleccioneu **Nou detall de línia contracte**. S'obre un control lliscant de creació ràpida. Els camps següents estan disponibles a la pàgina **Detalls de la línia de contracte**.
 
 | Camp | Location | Descripció | Impacte descendent |
 | --- | --- | --- | --- |
-| **Descripció** | **Creació ràpida** | Descripció de l'estimació específica. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. |
-| **Classe de la transacció** | **Creació ràpida** | Aquesta llista desplegable és una llista de classes de transaccions incloses a la pestanya **General** de la línia de contracte basada en projectes. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. |
-| **Funció** | **Creació ràpida** | Funció de la persona que està realitzant aquest treball o incorrent en aquesta despesa. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. |
-| **Categoria** | **Creació ràpida** | Categoria del treball o despesa. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. |
-| **Data d'inici** | **Creació ràpida** | Data d'inici del treball. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. |
-| **Data d'acabament** | **Creació ràpida** | Data de finalització del treball. | Aquest camp per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
-| **Empresa de dotació de recursos** | **Creació ràpida** | Empresa de recursos o entitat jurídica que està incorrent en aquest cost i que proporciona el recurs per treballar-hi. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. Aquest camp també s'utilitza a la recuperació de preus de cost. |
-| **Unitat de recursos** | **Creació ràpida** | Unitat de recursos que incorre en aquest cost i proporciona el recurs per treballar-hi. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. Aquest camp també s'utilitza a la recuperació de preus de cost. |
-| **Planificació d'unitat** | **Creació ràpida** | Grup d'unitats del treball o despesa. Les unitats pertanyen a una planificació d'unitat o a un grup d'unitats. Per exemple, les *milles* i els *quilòmetres* són unitats que pertanyen a un grup d'unitats que descriuen la distància. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. |
-| **Unit** | **Creació ràpida** | Unitat de treball o despesa. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. |
-| **Quantitat** | **Creació ràpida** | Quantitat de treball o despesa. | Aquest camp per defecte és el detall de la línia de contracte relacionada per als costos que es creen automàticament. |
-| **Preu per unitat** | **Creació ràpida** | Tarifa de facturació de la funció que està realitzant el treball o preu de venda de la categoria de despeses. Aquest camp per defecte és **Temps** segons la combinació de funció i unitat de recursos a la llista de preus del projecte aplicable a la data d'inici. Per a les despeses, el valor per defecte d'aquest camp és de la configuració de preus per a la categoria de transacció a la llista de preus del projecte que és efectiva per a la data d'inici. Si el mètode de càlcul de preus de la categoria transacció no és de **preu per unitat**, no hi ha cap valor per defecte i aquest camp es deixa en blanc. | Tarifa de cost de la funció que està realitzant el treball o cost per unitat de la categoria de despeses. Aquest camp per defecte és **Temps** en funció de la combinació de funció i unitat de recursos a la línia de preu per funció de la llista de preus de cost adjunta a la unitat de contractació efectiva per a la data d'inici. Per a les despeses, el valor per defecte d'aquest camp es basada en la línia de preus per categoria de la llista de preus de cost adjunta a la unitat contractant que és efectiva per a la data d'inici. Si el mètode de càlcul de preus de la categoria transacció no és de preu per unitat, no hi ha cap valor per defecte i aquest camp es deixa en blanc. |
-| **Impost estimat** | **Creació ràpida** | Impost estimat per aquest treball o despesa com a entrada per l'usuari. | Impost estimat per aquest treball o despesa com a entrada per l'usuari. |
-| **Import** | **Creació ràpida** | Aquest valor en aquest camp pot afegir-lo l'usuari si els camps **Quantitat** i **Preu** es deixen en blanc. Si **Quantitat** i **Preu** s'emplenen, el camp **Import** és de només lectura i es calcula com a **(Quantitat \* Preu per unitat) + Impostos**. | &nbsp; |
+| **Descripció** | **Creació ràpida** | Descripció de l'estimació específica. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Classe de la transacció** | **Creació ràpida** | Aquesta llista de classes de transaccions s'inclou a la pestanya **General** de la línia de contracte basada en projectes. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Seleccioneu el producte** | **Creació ràpida** | S'aplica quan la classe de transacció és **Material**. Podeu seleccionar d'especificar que aquesta línia de previsió és per a un producte **Existent** (catàleg) o un producte **Fora de catàleg**. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Producte** | **Creació ràpida** | Identificador del producte del catàleg de productes. Aquest camp només està habilitat quan seleccioneu **Producte existent** al camp **Seleccioneu un producte**. L'ID s'utilitza per recuperar el preu de venda de la llista de preus del projecte al contracte. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Producte fora de catàleg** | **Creació ràpida** | Camp de text on cal introduir el nom del producte. Aquest camp només està habilitat quan seleccioneu **Fora de catàleg** al camp **Seleccioneu un producte**.| Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Funció** | **Creació ràpida** | Funció de la persona que està realitzant aquest treball o incorrent en aquesta despesa. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament.|
+| **Categoria** | **Creació ràpida** | Categoria del treball o despesa. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament.|
+| **Data d’inici** | **Creació ràpida** | Data d'inici del treball. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Data d'acabament** | **Creació ràpida** | Data de finalització del treball. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Empresa de dotació de recursos** | **Creació ràpida** | Empresa de proveïment o entitat legal que incorre en aquest cost i proporciona el recurs per treballar-hi. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament i s'utilitza en la recuperació del preu de cost. |
+| **Unitat de recursos** | **Creació ràpida** | Unitat de proveïment que incorre en aquest cost i proporciona el recurs per treballar-hi. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament i s'utilitza en la recuperació del preu de cost. |
+| **Planificació d'unitat** | **Creació ràpida** | Grup d'unitats del treball, el producte o la despesa. Les unitats pertanyen a una planificació d'unitat o a un grup d'unitats. Per exemple, les *milles* i els *quilòmetres (km)* són unitats que pertanyen a un grup d'unitats que descriuen la distància. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Unitat** | **Creació ràpida** | La unitat de treball, producte o despesa. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Quantitat** | **Creació ràpida** | La quantitat de treball, producte o despesa. | Aquest valor per defecte és el detall de la línia de contracte relacionada per al cost que es crea automàticament. |
+| **Preu per unitat** | **Creació ràpida** | Percentatge de facturació de la funció que està realitzant la feina, el preu unitari del producte o el preu de venda de la categoria de producte o despesa. El valor per defecte de **Temps** es basa en la combinació dels valors de dimensió de preus de la línia de preu de la funció de la llista de preus del projecte que sigui efectiva per a la data d'inici. Per a les **Despeses**, el valor per defecte d'aquest camp és de la configuració de preus per a la categoria de transacció a la llista de preus del projecte que és efectiva per a la data d'inici. Si el mètode de càlcul de preus de la categoria transacció no és de **preu per unitat**, no hi ha cap valor per defecte i aquest camp es deixa en blanc. Per als productes, el valor per defecte d'aquest camp es basa en la línia **Element de la llista de preus** de la llista de preus del projecte efectiva per a la data d'inici.| Percentatge de cost de la funció que està realitzant la feina, o el cost unitari de la categoria de despeses o cost unitari del producte. El valor per defecte de **Temps** es basa en la combinació dels valors de dimensió de preus de la línia de preu de la funció de la llista de preus de cost adjuntada a la unitat de contractació que sigui efectiva per a la data d'inici. Per a **Despeses**, el valor per defecte es basa en la línia de preu de la categoria de la llista de preus de cost adjuntada a la unitat de contractació efectiva per a la data d'inici. Si el mètode de càlcul de preus de la categoria transacció no és de preu per unitat, no hi ha cap valor per defecte i aquest camp es deixa en blanc. Per als productes, el valor per defecte d'aquest camp es basa en la línia **Element de la llista de preus** de la llista de preus de cost adjuntada a la unitat de contractació efectiva per a la data d'inici.|
+| **Impost estimat** | **Creació ràpida** | Impost estimat per aquest treball o despesa com a entrada per l'usuari. | &nbsp; |
+| **Import** | **Creació ràpida** | El valor d'aquest camp es pot afegir si els camps **Quantitat** i **Preu** es deixen en blanc. Si els camps **Quantitat** i **Preu** s'emplenen, el camp **Import** és de només lectura i es calcula com a **(Quantitat \* Preu per unitat) + Impostos**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Actualitzar els preus en els detalls de la línia de contracte
 
-Si canvieu els preus de la llista de preus del projecte que s'adjunta al contracte o la llista de preus de cost de la unitat contractant, podeu actualitzar els preus dels detalls de la línia de contracte individual per reflectir el canvi. A la pàgina **Contracte**, seleccioneu **Torna a calcular**. S'obre un avís per informar-los que es restableixen els preus de totes les línies de contracte en aquest contracte. Seleccioneu **Sí** per actualitzar els preus tant per als detalls de la línia de vendes com de cost.
+Si canvieu els preus de la llista de preus del projecte que s'adjunta al contracte o la llista de preus de cost de la unitat contractant, podeu actualitzar els preus dels detalls de la línia de contracte individual per reflectir el canvi. A la pàgina **Contracte**, seleccioneu **Torna a calcular**. Apareix un advertiment per informar-vos que es restabliran els preus de totes les línies de contracte d'aquest contracte. Seleccioneu **Sí** per actualitzar els preus tant per als detalls de la línia de vendes com de cost.
 
 ## <a name="access-contract-line-details-for-cost"></a>Accedir als detalls de la línia de contracte per al cost
 
@@ -68,7 +73,7 @@ El detall de la línia de contracte per al **cost** estableix la moneda per defe
 Els càlculs de rendibilitat converteixen els imports per als detalls de la línia de contracte per al **cost** i les **vendes** en la moneda base de l'entorn per informar dels marges reals i estimats generals del contracte.
 
 > [!NOTE]
-> Podrien ocórrer errors d'arrodoniment de moneda i canvis de marges a causa de la manca de tipus de canvi amb data d'efectivitat. Utilitzeu aquests càlculs en els contractes de projectes només com a aproximacions i no per a la presentació legal real o d'altres informes que requereixin una major precisió d'arrodoniment i reconeixement de la data d'efectivitat per als tipus de canvi.
+> Podrien ocórrer errors d'arrodoniment de moneda i canvis de marges a causa de la manca de tipus de canvi amb data d'efectivitat. Utilitzeu aquests càlculs només als contractes de projecte, ja que són aproximacions i no són per a l'ús reglamentari real ni per a altres informes que requereixin una major precisió d'arrodoniment i coneixement de la data de vigència dels tipus de canvi.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

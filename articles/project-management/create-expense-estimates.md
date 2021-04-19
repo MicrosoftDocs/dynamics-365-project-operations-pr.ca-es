@@ -1,28 +1,24 @@
 ---
-title: Estimacions de despeses
+title: Estimacions financeres per a despeses en projectes
 description: En aquest tema s'ofereix informació sobre la definició o estimació de les despeses basades en el projecte.
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287046"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701770"
 ---
-# <a name="expense-estimates"></a>Estimacions de despeses
+# <a name="financial-estimates-for-expenses-on-projects"></a>Estimacions financeres per a despeses en projectes
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Juntament amb la definició d'estimacions basades en recursos, el Dynamics 365 Project Operations permet als administradors de projecte definir les despeses basades en projectes de cada projecte. Cada element de despesa es pot associar amb una tasca del projecte o categoria de despesa concreta. Les categories de despesa es defineixen típicament a nivell organitzatiu. Els preus de cada categoria de despesa es defineixen típicament segons la jerarquia següent:
-
-- Organització
-- Client
-- Oferta/contracte
+El Dynamics 365 Project Operations permet als administradors de projectes definir les despeses basades en projectes per a un projecte o tasca. Cada element de despesa es pot associar a una tasca de projecte específica. Les despeses es classifiquen en diferents categories de despeses, que es defineixen en el nivell organitzatiu. El càlcul de preus i costos de cada categoria de despesa es defineix a la llista de preus. 
 
 Completeu els passos següents per visualitzar, afegir o suprimir una despesa del projecte.
 
@@ -30,14 +26,20 @@ Completeu els passos següents per visualitzar, afegir o suprimir una despesa de
 2. Seleccioneu la pestanya **Estimacions del projecte** i visualitzeu la llista de despeses del projecte.
 3. Seleccioneu **Despesa nova** per afegir una despesa. O bé, seleccioneu la despesa que voleu suprimir i, a continuació, seleccioneu **Suprimeix la despesa**.
 
-Els atributs següents es defineixen per a cada element de la línia de despesa:
+La taula següent proporciona informació sobre els camps de la pàgina **Línia d'estimació de despesa** d'un projecte. 
 
-- **Categoria**: agrupaments comuns utilitzats per descriure totes les despeses ocasionades en un projecte.
-- **Data d'inici**: data prevista en que s'incorrerà la despesa.
-- **Quantitat**: nombre estimat d'elements de despesa per a una categoria concreta.
-- **Preu de cost per unitat**: preu per unitat utilitzat per calcular el cost de la despesa.
-- **Preu de venda per unitat**: preu per unitat utilitzat per calcular el preu de venda de la despesa.
-
+| **Camp** | **Descripció** | **Impacte descendent** |
+| --- | --- | --- |
+| Tasca | Llista de les tasques del projecte. Això inclou les tasques de resum i de nodes fulla. | Seleccionar una tasca per a una línia de previsió de despesa afectarà el cost de la despesa prevista i les vendes de despeses previstes per a una tasca. Si aquest camp es deixa buit, es fa el seguiment de l'estimació de despesa i es resumeix només en el nivell del projecte. |
+| Categoria | Llista de categories de transaccions que tenen categories de despesa enllaçades a l'aplicació. | La selecció d'una categoria dona lloc al càlcul dels preus i costos a la línia de previsió de despeses. |
+| Data d’inici | La data prevista en què es produirà la despesa. | No hi ha cap impacte descendent d'aquest camp. |
+| Grup d'unitats | El valor per defecte d'aquest camp prové del grup d'unitats configurat com a valor per defecte a la categoria seleccionada. Podeu actualitzar aquest camp per seleccionar un altre grup d'unitats. | No hi ha cap impacte descendent d'aquest camp. |
+| Unitat | El valor per defecte d'aquest camp és la unitat per defecte de la categoria seleccionada. Podeu actualitzar aquest camp per seleccionar una altra unitat. | Canviar la unitat fa que canviï el preu unitari i el cost per defecte. |
+| Quantitat | La quantitat de la despesa prevista en què s'incorrerà. | No hi ha cap impacte descendent d'aquest camp. |
+| Cost de la unitat | Cost de la combinació de categoria i unitat seleccionada com a configurada a la llista de preus de cost aplicable | El cost unitari sempre es mostra en la moneda de cost del projecte. |
+| Preu per unitat | Preu de la combinació de categoria i unitat seleccionada com a configurada a la llista de preus de venda aplicable. | El preu unitari sempre es mostra en la moneda de vendes del projecte. |
+| Cost total | Import del cost que es calcula com a quantitat \* cost unitari.| L'import del cost sempre es mostra en la moneda de cost del projecte. |
+| Total vendes | Import de vendes que es calcula com a quantitat \* preu unitari. | L'import de vendes sempre es mostra en la moneda de vendes del projecte. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

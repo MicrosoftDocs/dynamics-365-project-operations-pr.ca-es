@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272781"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858036"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Assignació de projectes i tasques a una línia de contracte basada en projectes (bàsic)
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Assignació de projectes i tasques a una línia de contracte basat en projecte 
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Implementació bàsica: tracte de facturació proforma, Project Operations per a escenaris basats en recursos/sense cotització_
 
 A les línies de contracte basades en projectes, podeu assignar tasques específiques en un projecte a la línia de contracte.
 

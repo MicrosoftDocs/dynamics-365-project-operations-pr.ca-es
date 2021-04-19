@@ -1,6 +1,6 @@
 ---
-title: Informació general de les línies d'oferta basades en projectes
-description: En aquest tema s'ofereix informació sobre l'ús de línies d'oferta basades en projectes per al treball del projecte.
+title: Informació general de les línies d'oferta de projecte
+description: Aquest tema proporciona informació sobre l'ús de les línies d'oferta del projecte per al treball del projecte.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277776"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858011"
 ---
-# <a name="project-based-quote-lines-overview"></a>Informació general de les línies d'oferta basades en projectes
+# <a name="project-quote-lines-overview"></a>Informació general de les línies d'oferta de projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 

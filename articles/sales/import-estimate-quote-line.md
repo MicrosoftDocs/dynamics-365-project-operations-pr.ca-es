@@ -1,6 +1,6 @@
 ---
-title: Importar les estimacions d'un projecte a una línia d'oferta basada en projectes
-description: En aquest tema es proporciona informació sobre la importació d'estimacions d'un projecte a una línia d'oferta.
+title: Importació de les estimacions d'un projecte a una línia d'oferta del projecte
+description: Aquest tema proporciona informació sobre la importació d'estimacions d'un projecte a una línia d'oferta del projecte.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278316"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858731"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar les estimacions d'un projecte a una línia d'oferta basada en projectes
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Importació de les estimacions d'un projecte a una línia d'oferta del projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 

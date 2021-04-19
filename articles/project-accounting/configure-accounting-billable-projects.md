@@ -3,17 +3,17 @@ title: Configuració de la comptabilitat per a projectes facturables
 description: En aquest tema es proporciona informació sobre les opcions de comptabilitat dels projectes facturables.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287631"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858641"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configuració de la comptabilitat per a projectes facturables
 
@@ -58,13 +58,25 @@ Completeu els passos següents per crear un perfil d'ingressos i costos del proj
 
          - **Balanç**: en comptabilitzar en el diari d'integració del Project Operations, el cost de les transaccions de despeses es carregarà al tipus de compte comptable *En curs: valor del cost* tal com es defineix a la pestanya **Cost** de la pàgina **Configuració de publicació del registre major** i s'abonarà al compte de desplaçament de la línia de diari. Els comptes de desplaçament per defecte per a despeses es defineixen a **Administració de projectes i comptabilitat** > **Configuració** \> **Comptabilització** \> **Compte de desplaçament defecte per a les despeses**. El comptable utilitzarà la funció de **comptabilització de costos** per desplaçar aquest cost del compte de balanç al compte de beneficis i de pèrdues de manera periòdica.
         - **Beneficis i pèrdues**: en comptabilitzar en el diari d'integració del Project Operations, el cost de les transaccions de despeses es carregarà al tipus de compte comptable *Cost* tal com es defineix a la pestanya **Cost** de la pàgina **Configuració de publicació del registre major** i s'abonarà al compte de desplaçament de la línia de diari. Els comptes de desplaçament per defecte per a despeses es defineixen a **Administració de projectes i comptabilitat** \> **Configuració** \> **Comptabilització** \> **Compte de desplaçament defecte per a les despeses**.
+      
+    - **Costos posteriors: article**:
+
+         - **Saldo**: quan es comptabilitza el diari d'integració de Project Operations, el cost de la transacció de l'article es cobrarà al tipus de compte de Llibre major *Treball en curs - Valor de cost - article* tal com es defineix a la pestanya **Cost** de la pàgina **Configuració de comptabilització del llibre major** i s'abona al següent:
+    
+              - Per a l'ús del tipus de document: compte **Cost - article** a la **Configuració de comptabilització del llibre major**.  
+              - Per a la compra de tipus de document: **Compte d'integració de proveïment** als **Paràmetres d'administració i comptabilitat de projectes**.
+           El comptable utilitzarà la funció de **comptabilització de costos** per desplaçar aquest cost del compte de balanç al compte de beneficis i de pèrdues de manera periòdica.
+        - **Pèrdues i guanys**: quan es comptabilitza el diari d'integració de Project Operations, el cost de la transacció de l'article es cobrarà al tipus de compte de Llibre major *Cost* tal com es defineix a la pestanya **Cost** de la pàgina **Configuració de comptabilització del llibre major** i s'abonarà al següent:
+         
+             - Per a l'ús del tipus de document: compte **Cost - article** a la **Configuració de comptabilització del llibre major**.  
+             - Per a la compra de tipus de document: **Compte d'integració de proveïment** als **Paràmetres d'administració i comptabilitat de projectes**.
        
     - **Facturació del compte**:
 
         - **Balanç**: en comptabilitzar la proposta de factura de projecte, s'abonarà una transacció al compte (fita de facturació) al tipus de compte de registre *En curs facturat: al compte* tal com es defineix a la pestanya **Ingressos** a la pàgina de **Configuració de comptabilització del registre major**, i es carregarà al compte de saldo del client.
          - **Beneficis i pèrdues**: en comptabilitzar la proposta de factura de projecte, s'abonarà una transacció al compte (fita de facturació) al tipus de compte de registre *Ingrés facturat: al compte* tal com es defineix a la pestanya **Ingressos** a la pàgina de **Configuració de comptabilització del registre major**, i es carregarà al compte de saldo del client. Els comptes de balanç dels clients es defineixen a **Comptes a cobrar** \> **Configuració** \> **Perfils de comptabilització del client**.
 
-   Quan definiu els perfils de comptabilització per als mètodes de facturació de temps i materials, teniu l'opció d'acumular ingressos per tipus de transacció (hora, despesa i càrrec). Si l'opció **Acumula els ingressos** està definida com a **Sí**, les transaccions de vendes no facturades al diari d'integració del Project Operations es registraran al llibre general. El valor de vendes es carregarà a **En curs: compte de valor de vendes** i s'abonarà al compte **Ingressos acumulats: valor de vendes** configurat a la pàgina **Configuració de la comptabilització del registre**, a la pestanya **Ingressos**. 
+   Quan definiu els perfils de comptabilització dels mètodes de facturació de temps i materials, teniu l'opció d'acumular els ingressos per tipus de transacció (hora, despesa, article i tarifa). Si l'opció **Acumula els ingressos** està definida com a **Sí**, les transaccions de vendes no facturades al diari d'integració del Project Operations es registraran al llibre general. El valor de vendes es carregarà a **En curs: compte de valor de vendes** i s'abonarà al compte **Ingressos acumulats: valor de vendes** configurat a la pàgina **Configuració de la comptabilització del registre** a la pestanya **Ingressos**. 
   
   > [!NOTE]
   > L'opció **Acumula els ingressos** està disponible només quan el **cost** de tipus de transacció respectiu es comptabilitza al compte de pèrdues i guanys.

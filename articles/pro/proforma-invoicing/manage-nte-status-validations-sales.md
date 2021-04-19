@@ -3,17 +3,17 @@ title: Administració de l'estat que no s'ha de superar i les validacions
 description: Aquest tema proporciona informació sobre les comprovacions de límits que no s'han d'excedir realitzades al Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273997"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866715"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Administració de l'estat que no s'ha de superar i les validacions 
 
@@ -21,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ## <a name="not-to-exceed-on-approvals"></a>Límits que no s'han de superar a les aprovacions
 
-Quan s'envia una entrada de temps o de despesa, es crea un registre d'aprovació. Si l'aprovació és imputable i s'assigna a una línia de contracte de temps i material, el sistema completa una comprovació de validació de límit que no s'ha de superar als nivells següents:
+Quan s'envia una entrada de temps, despesa o ús de materials, es crea un registre d'aprovació. Si l'aprovació és imputable i s'assigna a una línia de contracte de temps i material, el sistema completa una comprovació de validació de límit que no s'ha de superar als nivells següents:
 
   - Comprovació amb el límit configurat per al client a la línia de contracte del projecte
   - Comprovació amb el límit configurat a la línia de contracte
@@ -34,11 +34,11 @@ Si la comprovació és correcta, l'aprovació rep un estat de validació **Corre
 
 Si la comprovació és incorrecta, l'aprovació rep un estat de validació **Error**. El detall de validació de límit que no s'ha de superar informarà l'usuari del nivell en què s'ha produït l'error de validació.
 
-Quan l'entrada de temps o despeses enviada es considera no imputable, l'estat de validació del límit que no s'ha de superar s'estableix com a **No aplicable** amb el detall de validació igual a **No aplicable**.
+Quan l'entrada de temps, despesa o ús material es considera no imputable, l'estat de validació sense superar es defineix com a **No aplicable** amb el detall de validació igual a **No aplicable**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Límit que no s'ha de superar en valors reals de vendes sense facturar
 
-Quan s'aprova una entrada de temps o de despesa, es creen registres de valors reals de cost i vendes sense facturar. Si el valor real de vendes sense facturar creat és imputable i s'assigna a una línia de contracte de temps i material, l'aplicació realitza una comprovació de validació de límit que no s'ha de superar als nivells següents:
+Quan s'aprova una entrada de temps, despesa o ús de materials, es creen registres de valors reals de cost i de vendes no facturades. Si el valor real de vendes sense facturar creat és imputable i s'assigna a una línia de contracte de temps i material, l'aplicació realitza una comprovació de validació de límit que no s'ha de superar als nivells següents:
 
   - Comprovació amb el límit configurat per al client de la línia de contracte del projecte
   - Comprovació amb el límit configurat a la línia de contracte
@@ -55,9 +55,9 @@ Quan el valor real de vendes no facturades es considera no facturable o compleme
 
 ## <a name="reset-the-not-to-exceed-status"></a>Reiniciar l'estat del límit que no s'ha de superar
 
-Podeu fer un restabliment massiu de l'estat del límit que no s'ha de superar. Això permet als administradors de projectes ajustar la validació dels límits que no s'han de superar per prioritzar la facturació d'un cos de treball, temps o despeses particulars sobre altres que ja estan compromesos de l'import que no s'ha de superar disponible.
+Podeu fer un restabliment massiu de l'estat del límit que no s'ha de superar. Els administradors de projecte poden ajustar la validació que no es pot excedir per prioritzar la facturació d'un cos de treball, temps, despesa o ús material concret sobre altres que ja s'han confirmat des de l'import disponible que no es pot excedir.
 
-Un cop restablert l'estat del límit que no s'ha de superar als valors reals de vendes no facturades, l'import compromès es redueix. L'administrador de projectes pot seleccionar un altre cos de treball, temps o despeses que prèviament no ha superat la validació del límit que no s'ha de superar i tornar-lo a avaluar. Amb la reducció de l'import compromès, aquests valors reals ara superaran la validació. Això ajuda a l'administrador de projectes a exercir una major influència i control sobre les transaccions facturables per a aquest període.
+Un cop restablert l'estat del límit que no s'ha de superar als valors reals de vendes no facturades, l'import compromès es redueix. L'Administrador del projecte pot seleccionar un altre cos de feina, hora, despesa o entrada d'ús de materials que anteriorment no ha superat la validació del que no es pot excedir i de reavaluació. Amb la reducció de l'import confirmat, aquests valors reals passen ara la validació, cosa que ajuda l'Administrador del projecte a controlar i influir més en les transaccions facturables durant aquest període.
 
 Per restablir l'estat del límit que no s'ha de superar, seleccioneu un o més valors reals a la visualització **Registre de facturació de temps i material** o **Valors reals** i, a continuació, seleccioneu **Restableix l'estat del límit que no s'ha de superar**.
 

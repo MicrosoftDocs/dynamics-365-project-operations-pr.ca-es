@@ -1,5 +1,5 @@
 ---
-title: Configuració dels components facturables d'una línia de contracte basada en projectes (bàsic)
+title: Configuració dels components facturables d'una línia de contracte basada en projectes
 description: Aquest tema proporciona informació sobre com afegir components imputables a les línies de contracte al Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273906"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858461"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Configuració dels components facturables d'una línia de contracte basada en projectes (bàsic)
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configuració dels components facturables d'una línia de contracte basada en projectes
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Implementació bàsica: tracte de facturació proforma, Project Operations per a escenaris basats en recursos/sense cotització_
 
 Una línia de contracte basada en projectes té components *inclosos* i components *imputables*.
 
@@ -42,7 +42,7 @@ La imputabilitat definida a les categories de transacció d'una línia de contra
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Actualitzar una tasca de projecte com a imputable o no imputable
 
-Una tasca de projecte pot ser imputable o no imputable en una línia de contracte específica que fa possible la següent configuració:
+Una tasca de projecte pot ser imputable o no imputable en una línia de contracte específica, cosa que fa possible la configuració següent:
 
 Si una línia de contracte basada en el projecte inclou **Temps** i una tasca determinada, **T1** s'hi associa com a imputable. Si hi ha una segona línia de contracte que inclou **Despesa**, es pot associar la tasca T1 a la línia de contracte com a no imputable. El resultat és que tot el temps que es registra en la tasca és imputable i totes les despeses no són imputables.
 
@@ -62,23 +62,582 @@ El tipus de facturació d'una transacció es pot configurar a la pestanya **Cate
 
 ### <a name="resolve-chargeability"></a>Resoldre la imputabilitat
 
-Una estimació o valor real creat per al temps només es considerarà imputable si **Temps** s'inclou en la línia de contracte, i si **Tasca** i **Funció** es configuren com a imputables en la línia de contracte.
+Una estimació o un valor real creat per a temps només es consideraran imputables si:
 
-Una estimació o valor real creat per a la despesa només es considerarà imputable si **Despesa** s'inclou en la línia de contracte, i si les categories **Tasca** i **Transacció** es configuren com a imputables en la línia de contracte.
+   - El **Temps** s'inclou a la línia de contracte.
+   - La **Funció** està configurada com a imputable a la línia de contracte.
+   - **Tasques incloses** està establert com a **Tasques seleccionades** a la línia de contracte.
+ 
+ Si aquestes tres coses són certes, la tasca es configura com a imputable. 
+
+Una estimació o un valor real creats per a despeses només es consideraran imputables si:
+
+   - La **Despesa** s'inclou a la línia de contracte.
+   - **Categoria de transacció** està configurat com a imputable a la línia de contracte.
+   - **Tasques incloses** està establert com a **Tasca seleccionada** a la línia de contracte
+  
+ Si aquestes tres coses són certes, la **Tasca** es configura com a imputable. 
+
+Una estimació o un valor real creats per a materials només es consideraran imputables si:
+
+   - **Materials** s'inclou a la línia de contracte
+   - **Tasques incloses** està establert com a **Tasques seleccionades** a la línia de contracte
+
+Si aquestes dues coses són certes, la **Tasca** es configura com a imputable. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Inclou el temps</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Inclou les despeses</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Inclou materials</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Tasques incloses</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Funció</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Categoria</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tasca</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Impacte de la imputabilitat</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tot el projecte </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>Imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: <strong>Imputable</strong>
+                </p>
+                <p>
+Tipus de facturació del material real: <strong>Imputable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Només les tasques seleccionades </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>Imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: <strong>Imputable</strong>
+                </p>
+                <p>
+Tipus de facturació del material real: <strong>Imputable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Només les tasques seleccionades </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: Imputable </p>
+                <p>
+Tipus de facturació del material real: imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Només les tasques seleccionades </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de material: <strong>No imputable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Només les tasques seleccionades </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de material: <strong>No imputable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Només les tasques seleccionades </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació del material real: imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tot el projecte </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Imputable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>No disponible</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: Imputable </p>
+                <p>
+Tipus de facturació del material real: imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tot el projecte </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>No disponible</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació del material real: imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tot el projecte </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: Imputable </p>
+                <p>
+Tipus de facturació en un valor real de despesa: <strong>No disponible</strong>
+                </p>
+                <p>
+Tipus de facturació del material real: imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tot el projecte </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: <strong>No disponible</strong>
+                </p>
+                <p>
+Tipus de facturació del material real: imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tot el projecte </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: Imputable </p>
+                <p>
+Tipus de facturació en un valor real de despesa: Imputable </p>
+                <p>
+Tipus de facturació en un valor real de material: <strong>No disponible</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tot el projecte </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No es pot establir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturació en un valor real de temps: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de despesa: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipus de facturació en un valor real de material: <strong>No disponible</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Inclou el temps | Inclou les despeses | Inclou les tasques | Funció           | Categoria       | Tasca                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Sí           | Sí              | Tot el projecte | Imputable     | Imputable     | Facturació en un valor real de temps: **Imputable** </br> Tipus de facturació en un valor real de despesa: **Imputable**           |
-| Sí           | Sí              | Tasques seleccionades | Imputable     | Imputable     | Facturació en un valor real de temps: **Imputable** </br> Tipus de facturació en un valor real de despesa: **Imputable**           |
-| Sí           | Sí              | Tasques seleccionades | No imputable | Imputable     | Facturació en un valor real de temps: **No imputable** </br> Tipus de facturació en un valor real de despesa: **Imputable**       |
-| Sí           | Sí              | Tasques seleccionades | Imputable     | Imputable     | Facturació en un valor real de temps: **No imputable** </br> Tipus de facturació en un valor real de despesa: **No imputable** |
-| Sí           | Sí              | Tasques seleccionades | No imputable | Imputable     | Facturació en un valor real de temps: **No imputable** </br> Tipus de facturació en un valor real de despesa: **No imputable** |
-| Sí           | Sí              | Tasques seleccionades | No imputable | No imputable | Facturació en un valor real de temps: **No imputable** </br> Tipus de facturació en un valor real de despesa: **No imputable** |
-| No            | Sí              | Tot el projecte | No es pot establir   | Imputable     | Facturació en un valor real de temps: **No disponible**</br>Tipus de facturació en un valor real de despesa: **Imputable**          |
-| No            | Sí              | Tot el projecte | No es pot establir   | No imputable | Facturació en un valor real de temps: **No disponible**</br> Tipus de facturació en un valor real de despesa: **No imputable**     |
-| Sí           | No               | Tot el projecte | Imputable     | No es pot establir   | Facturació en un valor real de temps: **Imputable** </br> Tipus de facturació en un valor real de despesa: **No disponible**        |
-| Sí           | No               | Tot el projecte | No imputable | No es pot establir   | Facturació en un valor real de temps: **No imputable** </br>Tipus de facturació en un valor real de despesa: **No disponible**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,42 +1,27 @@
 ---
-title: Creació d'una factura proforma manual
-description: En aquest tema, podreu obtenir informació sobre la creació d'una factura proforma.
+title: Factures proforma
+description: Aquest tema proporciona informació sobre les factures proforma a Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287766"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866849"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Creació d'una factura proforma manual
+# <a name="proforma-invoices"></a>Factures proforma
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-La facturació proporciona als administradors de projectes un segon nivell d'aprovació abans de crear factures per a clients. El primer nivell d'aprovació es completa quan s'aproven les entrades de temps i de despesa que envien els membres de l'equip del projecte.
+La facturació proforma és útil perquè proporciona als administradors de projectes un segon nivell d'aprovació abans de crear factures per a clients. El primer nivell d'aprovació es completa quan s'aproven les entrades de temps, despeses i materials que envien els membres de l'equip del projecte. Les factures proforma confirmades estan disponibles al mòdul Comptabilitat del projecte de Project Operations. Els comptables del projecte poden fer actualitzacions addicionals, com ara els impostos de vendes, la comptabilitat i el disseny de la factura.
 
-El Dynamics 365 Project Operations no està dissenyat per generar factures per a clients, pels motius següents:
-
-- No conté informació tributària.
-- No pot convertir altres monedes en la moneda de facturació mitjançant tipus de canvi configurats correctament.
-- No pot donar format correctament a les factures per tal de poder imprimir-les.
-
-En lloc d'això, podeu utilitzar un sistema financer o comptable per crear factures per al client que utilitzin la informació de les propostes de factura generades.
 
 ## <a name="creating-project-invoices"></a>Crear factures de projecte
 
@@ -50,7 +35,7 @@ Seguiu aquest pas per crear una factura per a un contracte de projecte específi
 
 - A la pàgina de llista **Contractes del projecte**, obriu un contracte de projecte i, a continuació, seleccioneu **Crea una factura**.
 
-    Es genera una factura per a totes les transaccions del contracte de projecte seleccionat que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, fites i línies de contracte basades en productes.
+    Es genera una factura per a totes les transaccions del contracte de projecte seleccionat que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, materials, fites i altres línies de llibre diari de vendes no facturades.
 
 Seguiu aquests passos per crear factures de manera massiva.
 
@@ -60,7 +45,7 @@ Seguiu aquests passos per crear factures de manera massiva.
 
 2. Seleccioneu **D'acord** per tancar el quadre de missatge.
 
-    Es genera una factura per a totes les transaccions en una línia de contracte que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, fites i línies de contracte basades en productes.
+    Es genera una factura per a totes les transaccions en una línia de contracte que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, materials, fites i altres línies de llibre diari de vendes no facturades.
 
 3. Per visualitzar les factures generades, aneu a **Vendes** \> **Facturació** \> **Factures**. Veureu una factura per a cadascun dels contractes del projecte.
 
@@ -93,11 +78,10 @@ El treball de processament per lots per crear factures és una feina recurrent. 
  
 ### <a name="edit-a-draft-invoice"></a>Editar un esborrany de factura
 
-Quan creeu un esborrany de factura, totes les transaccions de vendes no facturades que es van crear quan es van aprovar les entrades de temps i de despesa s'afegeixen a la factura. Podeu fer els ajustaments següents mentre la factura es manté en una fase d'esborrany:
+Quan creeu un esborrany de factura, totes les transaccions de vendes no facturades que es van crear quan es van aprovar les entrades de temps, despesa i ús de materials s'afegeixen a la factura. Podeu fer els ajustaments següents mentre la factura es manté en una fase d'esborrany:
 
 - Suprimir o editar els detalls de la línia de factura.
 - Editar i ajustar la quantitat i el tipus de facturació.
-- Afegir directament temps, despeses i taxes com a transaccions a la factura. Podeu utilitzar aquesta característica si la línia de factura s'assigna a una línia de contracte que permet aquestes classes de transaccions.
 
 Seleccioneu **Confirma** per confirmar una factura. L'acció de confirmació és una acció d'un sol sentit. Quan seleccioneu **Confirma**, el sistema fa que la factura sigui només de lectura i creï valors reals de vendes facturades des de cada detall de línia de factura per a cada línia de factura. Si el detall de la línia de factura fa referència a un valor real de vendes no facturades, el sistema també reinverteix el valor real de vendes no facturades. (Qualsevol detall de línia de factura que s'hagi creat des d'una entrada de compte o de despesa farà referència a un valor real de vendes sense facturar.) Els sistemes d'integració general de llibres poden utilitzar aquest canvi per revertir el treball en curs del projecte amb finalitats comptables.
 

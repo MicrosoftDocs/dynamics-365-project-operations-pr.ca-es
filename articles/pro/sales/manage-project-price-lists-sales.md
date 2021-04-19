@@ -1,27 +1,27 @@
 ---
-title: Administració de les llistes de preus de projectes a les ofertes de projectes (bàsic)
-description: En aquest tema es proporciona informació sobre treballar amb llistes de preus del projecte en ofertes. (Sales)
+title: Administració de les llistes de preus de projectes a les ofertes de projectes
+description: En aquest tema es proporciona informació sobre treballar amb llistes de preus del projecte en ofertes.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273006"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858596"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Administració de les llistes de preus de projectes a les ofertes de projectes (bàsic)
+# <a name="manage-project-price-lists-on-project-quotes"></a>Administració de les llistes de preus de projectes a les ofertes de projectes 
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 Les ofertes del projecte estan dissenyades per admetre llistes de preus de vendes efectives de diverses dates. Amb el Dynamics 365 Project Operations, s'afegeix una nova entitat associada anomenada **Llistes de preus del projecte**. Aquesta entitat té una relació d'1 a diversos a una oferta de projecte.
 
-Les llistes de preus del projecte s'utilitzen per assignar preus a les transaccions de temps i de despeses en un projecte. Quan una oferta té una o diverses llistes de preus de projecte, aquestes llistes de preus s'utilitzen per assignar preus a les estimacions i valors reals de temps i despeses als projectes associats a l'oferta a través de la línia d'oferta.
+Les llistes de preus del projecte s'utilitzen per calcular el preu de les transaccions de temps, materials i despeses en un projecte. Quan una oferta té una o més llistes de preus del projecte, aquestes llistes de preus s'utilitzen per al preu per a les estimacions de temps, materials i despesa i els valors reals en projectes associats a l'oferta a través de la línia d'oferta.
 
 Quan no hi hagi cap llista de preus del projecte en una oferta de projecte, rebreu un missatge d'advertiment. El missatge indica que, com que no hi ha cap llista de preus del projecte, el treball i les despeses del projecte estimades i reals no tindran un preu. En lloc d'això, tindran un preu zero (0) per als valors de venda.
 

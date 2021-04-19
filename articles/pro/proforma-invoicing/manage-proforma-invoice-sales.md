@@ -1,21 +1,21 @@
 ---
-title: Administració d'una factura proforma (bàsic)
-description: En aquest tema es proporciona informació sobre com treballar amb factures proforma.
+title: Administració d'una factura de projecte proforma
+description: Aquest tema proporciona informació sobre com treballar amb factures proforma del projecte.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274006"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866894"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Administració d'una factura proforma (bàsic)
+# <a name="manage-a-proforma-project-invoice"></a>Administració d'una factura de projecte proforma 
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -69,9 +69,9 @@ Al Project Operations, sempre hi ha una línia de facturació per a cada línia 
 
 Cada línia de factura d'una factura del projecte inclou detalls de la línia de factura. Aquests detalls de línia estan relacionats amb els valors reals de vendes sense facturar i les fites relacionades amb la línia de contracte a la qual fa referència la línia de facturació. Totes aquestes transaccions estan marcades com a **A punt per facturar**.
 
-Per a la línia **Factura de temps i material**, els detalls de la línia de factura s'agrupen en **Imputable**, **No imputable** i **Complementari** la pàgina **Línia de factura**. Els detalls de **Línia de factura imputable** se sumen al total de la línia de factura. **Complementari** i **Valors reals no imputables** no sumen al total de la línia de factura.
+Per a una línia de **Factura de temps i material**, els detalls de la línia de factura s'agrupen en **Imputables**, **No imputables** i **Gratuïts** a la pàgina **Línia de factura**. Els detalls de **Línia de factura imputable** se sumen al total de la línia de factura. Els valors **Gratuït** i **Valors reals no imputables** no s'afegeixen al total de la línia de factura.
 
-Per a la línia **Factura de preu fix**, les dades de la línia de factura es creen a partir de fites marcades com a **A punt per facturar** a la línia de contracte relacionada. Després de crear el detall de la línia de factura a partir d'una fita, l'estat de facturació de la fita s'actualitza a **Factura del client creada**.
+Per a una línia de **Factura de preu fix**, els detalls de la línia de factura es creen a partir de les fites marcades com a **Preparat per a la factura** a la línia de contracte relacionada. Després de crear el detall de la línia de factura a partir d'una fita, l'estat de facturació de la fita s'actualitza a **Factura del client creada**.
 
 ### <a name="edit-invoice-line-details"></a>Editar els detalls de la línia de factura
 
@@ -98,8 +98,12 @@ Els camps següents estan disponibles al detall de la línia de factura basat en
 | **Impost** | Es defineix per defecte a partir del valor real d'origen. L'usuari pot editar el camp | L'usuari pot editar el camp quan es crea un nou detall de línia de factura sense basar-se en un valor real. |
 | **Import ampliat** | Camp calculat, calculat com a **Import + impostos**. Camp només de lectura que no es pot editar. | &nbsp; |
 | **Tipus de facturació** | Es defineix per defecte a partir del valor real d'origen. L'usuari pot editar el camp. | Si seleccioneu **Imputable** s'afegeix la línia al total de la línia de factura. **Complementari** i **No imputable** l'exclouen del total de la línia de factura. |
+| **Seleccioneu el producte** | Per defecte, és un camp només de lectura per al valor real d'origen. | Quan creeu un nou detall de la línia de factura sense un valor real, aquest camp es pot editar. |
+| **Producte** | Per defecte, és un camp només de lectura per al valor real d'origen. | Quan creeu un detall de línia de factura nou sense un valor real, aquest camp es pot editar si el camp **Seleccioneu el producte** està definit com a **Producte existent**. |
+| **Nom del producte** | Per defecte, és un camp només de lectura per al valor real d'origen. | En un detall de línia de factura nou, on se selecciona l'identificador de producte al catàleg, aquest camp es defineix com el nom del producte. Per a un producte fora de catàleg, el camp es defineix com el nom fora de catàleg. |
+| **Descripció de producte fora de catàleg** | Per defecte, és un camp només de lectura per al valor real d'origen. | Quan creeu un detall nou de la línia de factura sense un valor real, podeu afegir-hi una descripció del producte. |
 | **Tipus de transacció** | Es defineix per defecte a partir del valor real d'origen. Camp només de lectura que no es pot editar. | Es defineix per defecte a **Vendes facturades** i es bloqueja quan creeu un nou **Detall de línia de factura** sense basar-vos en un valor real.  |
-| **Classe de la transacció** | Es defineix per defecte a partir del valor real d'origen. Camp només de lectura que no es pot editar. | Es defineix per defecte segons si l'usuari opta per crear un detall de línia de factura de **Temps**, **Despesa** o **Tarifa** a la vegada que es crea un nou **Detall de línia de factura** sense basar-se en un valor real. No es pot editar. |
+| **Classe de la transacció** | Es defineix per defecte a partir del valor real d'origen. Camp només de lectura que no es pot editar. | El valor per defecte es basa en si l'usuari opta per crear un detall de la línia de factura de **Temps**, **Despesa**, **Material** o **Tarifa** quan també es crea un nou **Detall de línia de factura** sense valor real. No es pot editar. |
 
 Els camps següents estan disponibles al detall de la línia de factura basat en una fita:
 

@@ -3,7 +3,7 @@ title: Informes de despeses nous
 description: En aquest tema s'explica l'experiència redissenyada i nova per a l'entrada d'informes de despeses.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499704"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717683"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de despeses nous
 
@@ -41,11 +41,7 @@ Per activar la nova experiència, utilitzeu l'àrea de treball **Administració 
 - No hi ha elements de menú existents per a informes de despeses (pàgina existent) o camps d'informe de despeses eliminats.
 - Els fluxos de treball i les aprovacions encara us porten a la pàgina d'informes de despeses existent.
 
-## <a name="getting-started-video-for-new-users"></a>Vídeo d'introducció per a nous usuaris
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-El vídeo [Experiència de despesa al Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrat a la part superior) s'inclou a la [llista de reproducció del Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible a YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Noves característiques
 
