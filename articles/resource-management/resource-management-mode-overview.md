@@ -8,46 +8,46 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279441"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949937"
 ---
-# <a name="resource-management-modes-overview"></a><span data-ttu-id="6ac15-103">Informació general sobre els modes d'administració de recursos</span><span class="sxs-lookup"><span data-stu-id="6ac15-103">Resource management modes overview</span></span>
+# <a name="resource-management-modes-overview"></a><span data-ttu-id="167c4-103">Informació general sobre els modes d'administració de recursos</span><span class="sxs-lookup"><span data-stu-id="167c4-103">Resource management modes overview</span></span>
 
-<span data-ttu-id="6ac15-104">_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_</span><span class="sxs-lookup"><span data-stu-id="6ac15-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="167c4-104">_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_</span><span class="sxs-lookup"><span data-stu-id="167c4-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-<span data-ttu-id="6ac15-105">El Dynamics 365 Project Operations admet dos modes per executar el flux de reserva global.</span><span class="sxs-lookup"><span data-stu-id="6ac15-105">Dynamics 365 Project Operations supports two modes in order for you to execute the overall booking flow.</span></span> <span data-ttu-id="6ac15-106">El mode d'administració es defineix com un paràmetre de projecte i es pot modificar si el vostre negoci necessita canvis.</span><span class="sxs-lookup"><span data-stu-id="6ac15-106">The mode of management is defined as a project parameter and can be modified if your business needs change.</span></span>    
+<span data-ttu-id="167c4-105">El Dynamics 365 Project Operations admet dos modes per executar el flux de reserva global.</span><span class="sxs-lookup"><span data-stu-id="167c4-105">Dynamics 365 Project Operations supports two modes in order for you to execute the overall booking flow.</span></span> <span data-ttu-id="167c4-106">El mode d'administració es defineix com un paràmetre de projecte i es pot modificar si el vostre negoci necessita canvis.</span><span class="sxs-lookup"><span data-stu-id="167c4-106">The mode of management is defined as a project parameter and can be modified if your business needs change.</span></span>    
 
-## <a name="central-mode"></a><span data-ttu-id="6ac15-107">Mode central</span><span class="sxs-lookup"><span data-stu-id="6ac15-107">Central mode</span></span>
-<span data-ttu-id="6ac15-108">Per a les organitzacions que centralitzin l'assignació de recursos a projectes, el mode central proporciona una manera d'assegurar-se que els administradors de projectes puguin definir requisits de recursos al nivell de projecte.</span><span class="sxs-lookup"><span data-stu-id="6ac15-108">For organizations who centralize the allocation for resources to projects, the Central mode provides a way to ensure Project managers can define resource requirements at the project level.</span></span> <span data-ttu-id="6ac15-109">El compliment dels requisits de recursos es delega en un administrador de recursos.</span><span class="sxs-lookup"><span data-stu-id="6ac15-109">Fulfillment of the resource requirements is delegated to a Resource manager.</span></span> <span data-ttu-id="6ac15-110">Els administradors de projectes poden acceptar o rebutjar els recursos que proposar l'administrador de recursos.</span><span class="sxs-lookup"><span data-stu-id="6ac15-110">Project managers can accept or reject resources that are proposed by the Resource manager.</span></span>
+## <a name="central-mode"></a><span data-ttu-id="167c4-107">Mode central</span><span class="sxs-lookup"><span data-stu-id="167c4-107">Central mode</span></span>
+<span data-ttu-id="167c4-108">Per a les organitzacions que centralitzin l'assignació de recursos a projectes, el mode central proporciona una manera d'assegurar-se que els administradors de projectes puguin definir requisits de recursos al nivell de projecte.</span><span class="sxs-lookup"><span data-stu-id="167c4-108">For organizations who centralize the allocation for resources to projects, the Central mode provides a way to ensure Project managers can define resource requirements at the project level.</span></span> <span data-ttu-id="167c4-109">El compliment dels requisits de recursos es delega en un administrador de recursos.</span><span class="sxs-lookup"><span data-stu-id="167c4-109">Fulfillment of the resource requirements is delegated to a Resource manager.</span></span> <span data-ttu-id="167c4-110">Els administradors de projectes poden acceptar o rebutjar els recursos que proposar l'administrador de recursos.</span><span class="sxs-lookup"><span data-stu-id="167c4-110">Project managers can accept or reject resources that are proposed by the Resource manager.</span></span>
 
 ![Mode central](./media/resource-management-central.png)
 
-<span data-ttu-id="6ac15-112">Per administrar els recursos amb el mode central, vegeu:</span><span class="sxs-lookup"><span data-stu-id="6ac15-112">To manage resources with the Central mode, see:</span></span>
+<span data-ttu-id="167c4-112">Per administrar els recursos amb el mode central, vegeu:</span><span class="sxs-lookup"><span data-stu-id="167c4-112">To manage resources with the Central mode, see:</span></span>
 
-- [<span data-ttu-id="6ac15-113">Assignació de recursos genèrics que es poden reservar a una tasca i generació de requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="6ac15-113">Assign generic bookable resources to a task and generate resource requirements</span></span>](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [<span data-ttu-id="6ac15-114">Reserva de recursos amb nom a partir dels requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="6ac15-114">Book named resources from resource requirements</span></span>](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [<span data-ttu-id="6ac15-115">Enviament d'una sol·licitud de recurs</span><span class="sxs-lookup"><span data-stu-id="6ac15-115">Submit a resource request</span></span>](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [<span data-ttu-id="6ac15-116">Complir una sol·licitud de recursos</span><span class="sxs-lookup"><span data-stu-id="6ac15-116">Fulfill a resource request</span></span>](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [<span data-ttu-id="6ac15-117">Acceptar o rebutjar un recurs del projecte proposat des d'una sol·licitud de recurs</span><span class="sxs-lookup"><span data-stu-id="6ac15-117">Accept or reject a proposed project resource from a resource request</span></span>](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [<span data-ttu-id="167c4-113">Assignació de recursos genèrics que es poden reservar a una tasca i generació de requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="167c4-113">Assign generic bookable resources to a task and generate resource requirements</span></span>](/dynamics365/project-service/assign-generic-bookable-resource)
+- [<span data-ttu-id="167c4-114">Reserva de recursos amb nom a partir dels requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="167c4-114">Book named resources from resource requirements</span></span>](/dynamics365/project-service/book-named-resource)
+- [<span data-ttu-id="167c4-115">Enviament d'una sol·licitud de recurs</span><span class="sxs-lookup"><span data-stu-id="167c4-115">Submit a resource request</span></span>](/dynamics365/project-service/submit-resource-request)
+- [<span data-ttu-id="167c4-116">Complir una sol·licitud de recursos</span><span class="sxs-lookup"><span data-stu-id="167c4-116">Fulfill a resource request</span></span>](/dynamics365/project-service/resource-management-fulfill-requests)
+- [<span data-ttu-id="167c4-117">Acceptar o rebutjar un recurs del projecte proposat des d'una sol·licitud de recurs</span><span class="sxs-lookup"><span data-stu-id="167c4-117">Accept or reject a proposed project resource from a resource request</span></span>](/dynamics365/project-service/accept-reject-proposed-resource)
 
-## <a name="hybrid-mode"></a><span data-ttu-id="6ac15-118">Mode híbrid</span><span class="sxs-lookup"><span data-stu-id="6ac15-118">Hybrid mode</span></span>
-<span data-ttu-id="6ac15-119">Per a les organitzacions que requereixin flexibilitat en l'assignació de recursos, el mode híbrid permet que tant els administradors de projectes com els administradors de recursos puguin reservar recursos.</span><span class="sxs-lookup"><span data-stu-id="6ac15-119">For organizations who require flexibility in the allocation of resources, the hybrid mode enables both Project managers and Resource managers the ability to book resources.</span></span>
+## <a name="hybrid-mode"></a><span data-ttu-id="167c4-118">Mode híbrid</span><span class="sxs-lookup"><span data-stu-id="167c4-118">Hybrid mode</span></span>
+<span data-ttu-id="167c4-119">Per a les organitzacions que requereixin flexibilitat en l'assignació de recursos, el mode híbrid permet que tant els administradors de projectes com els administradors de recursos puguin reservar recursos.</span><span class="sxs-lookup"><span data-stu-id="167c4-119">For organizations who require flexibility in the allocation of resources, the hybrid mode enables both Project managers and Resource managers the ability to book resources.</span></span>
 
 ![Mode híbrid](./media/resource-management-hybrid.png)
 
-<span data-ttu-id="6ac15-121">A més del procés del mode central admès, vegeu els temes següents per administrar tots els altres fluxos de reserva admesos en el mode híbrid:</span><span class="sxs-lookup"><span data-stu-id="6ac15-121">In addition to the supported Central mode process, see the following topics to manage all other supported booking flows in the Hybrid mode:</span></span>
+<span data-ttu-id="167c4-121">A més del procés del mode central admès, vegeu els temes següents per administrar tots els altres fluxos de reserva admesos en el mode híbrid:</span><span class="sxs-lookup"><span data-stu-id="167c4-121">In addition to the supported Central mode process, see the following topics to manage all other supported booking flows in the Hybrid mode:</span></span>
 
-<span data-ttu-id="6ac15-122">Reservar un recurs directament a un projecte:</span><span class="sxs-lookup"><span data-stu-id="6ac15-122">Book a resource directly to a project:</span></span>
-- [<span data-ttu-id="6ac15-123">Reservar recursos que es poden reservar a un equip de projecte i assignar tasques</span><span class="sxs-lookup"><span data-stu-id="6ac15-123">Book named bookable resources to a project team and assign tasks</span></span>](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+<span data-ttu-id="167c4-122">Reservar un recurs directament a un projecte:</span><span class="sxs-lookup"><span data-stu-id="167c4-122">Book a resource directly to a project:</span></span>
+- [<span data-ttu-id="167c4-123">Reservar recursos que es poden reservar a un equip de projecte i assignar tasques</span><span class="sxs-lookup"><span data-stu-id="167c4-123">Book named bookable resources to a project team and assign tasks</span></span>](/dynamics365/project-service/assign-named-bookable-resource)
 
-<span data-ttu-id="6ac15-124">Reservar un recurs des d'un requisit de recursos:</span><span class="sxs-lookup"><span data-stu-id="6ac15-124">Book a resource from a resource requirement:</span></span>
-- [<span data-ttu-id="6ac15-125">Assignació de recursos genèrics que es poden reservar a una tasca i generació de requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="6ac15-125">Assign generic bookable resources to a task and generate resource requirements</span></span>](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [<span data-ttu-id="6ac15-126">Reserva de recursos amb nom a partir dels requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="6ac15-126">Book named resources from resource requirements</span></span>](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+<span data-ttu-id="167c4-124">Reservar un recurs des d'un requisit de recursos:</span><span class="sxs-lookup"><span data-stu-id="167c4-124">Book a resource from a resource requirement:</span></span>
+- [<span data-ttu-id="167c4-125">Assignació de recursos genèrics que es poden reservar a una tasca i generació de requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="167c4-125">Assign generic bookable resources to a task and generate resource requirements</span></span>](/dynamics365/project-service/assign-generic-bookable-resource)
+- [<span data-ttu-id="167c4-126">Reserva de recursos amb nom a partir dels requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="167c4-126">Book named resources from resource requirements</span></span>](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
