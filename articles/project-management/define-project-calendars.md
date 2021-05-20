@@ -1,9 +1,9 @@
 ---
 title: Definició dels calendaris del projecte
-description: En aquest tema es proporciona informació sobre l'ús d'un calendari de projecte per fer el seguiment de la planificació del projecte.
+description: En aquest tema es proporciona informació sobre com aplicar una plantilla de calendari a un projecte per fer el seguiment de la planificació del projecte.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286956"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981288"
 ---
 # <a name="define-project-calendars"></a>Definició dels calendaris del projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Per crear una planificació de projecte, creeu uns plantilla de calendari de projecte que defineixi el nombre d'hores de treball al dia i qualsevol tancament de negoci. Per crear una plantilla de calendari de projecte, associeu una plantilla de treball amb el camp **Plantilla de calendari** per al projecte. Seguiu els passos que es descriuen a continuació per crear una plantilla de treball.
+Per crear i administrar un projecte, heu d'aplicar una plantilla de calendari al projecte. La plantilla de calendari defineix els atributs de projecte següents:
 
-1. A la subfinestra de navegació esquerra, seleccioneu **Recursos**. 
-2. A la pàgina de la llista **Recursos**, obriu un registre d'usuari i després seleccioneu **Mostra les hores de treball**.
+- Hores de feina, incloent-hi l'hora d'inici i d'acabament
+- Dies feiners
+- Excepcions del calendari, com ara dies que no són feiners
 
-  > [!NOTE]
-  > Assegureu-vos que permeteu les finestres emergents a la pàgina del navegador. Això us permet veure les hores de feina definides per al recurs.
-  
-3. A la pestanya **Visualització mensual**, seleccioneu **Configura**. Es mostra una llista de tres opcions: 
+La plantilla de calendari que s'aplica a un projecte és una còpia de la plantilla de calendari definida a la configuració de l'organització.
 
-  - Planificació setmanal nova
-  - Planificació de treball per a un dia
-  - Temps lliure
+> [!NOTE]
+> Si canvieu la plantilla de calendari, els canvis no s'emplenen a les hores de feina del projecte. Per canviar les hores de feina del projecte, cal aplicar una plantilla nova.
 
-4. Seleccioneu **Planificació setmanal nova** i, a continuació, definiu les opcions d'aquesta planificació de recursos. Podeu definir una planificació setmanal periòdica, paràmetres d'hores diàries, tancaments d'empresa, etc.
-5. Definiu l'interval de dates ,seleccioneu **Desa** i, a continuació, seleccioneu **Tanca**. 
-6. Torneu a la pàgina de la llista **Recursos** i seleccioneu el recurs per al qual definiu les hores de feina. 
-7. Seleccioneu **Defineix el calendari com a** per definir la plantilla de treball. 
-8. Al quadre de diàleg **Plantilla de treball** introduïu el nom de la plantilla de treball i després seleccioneu **Aplica**. 
+Per crear una plantilla de calendari per a l'organització, cal tenir dos requisits clau:
+
+- Definiu les hores de feina desitjades de la plantilla mitjançant un recurs que es pot reservar nou o existent.
+- Creeu una plantilla de calendari nova i associeu-la amb el recurs que es pot reservar.
+
+**Definiu les hores laborables de la plantilla**
+
+1. Aneu a **Recursos** \> **Recursos**.
+2. Creeu un recurs nou al qual es fa referència a la plantilla de calendari o seleccioneu un recurs existent.
+3. Seleccioneu la pestanya **Hores de feina** del recurs i completeu les instruccions de [Definició de les hores de feina per a un recurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) per configurar les regles del calendari.
+
+**Creeu una plantilla de calendari nova**
+
+1. Aneu a **Configuració** \> **Plantilla de calendari**.
+2. Seleccioneu **Crea** i introduïu un nom, una descripció i un recurs de plantilla.
+
+> [!NOTE]
+> Quan es fa referència a un recurs en una plantilla de calendari, s'associa una còpia del calendari del recurs amb la plantilla de calendari. Si les hores laborables de la plantilla copiada canvien, els canvis no s'emplenen a la plantilla del calendari.
 
 Ara podeu associar la plantilla de treball amb una plantilla de calendari de projectes.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
