@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291922"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951017"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de desembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -108,7 +108,7 @@ En aquesta versió s'inclouen les característiques següents:
 | Viatges i despesa                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | El flux de treball de publicació automàtica de l'informe de despeses s'ha completat, però la factura no s'ha publicat                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

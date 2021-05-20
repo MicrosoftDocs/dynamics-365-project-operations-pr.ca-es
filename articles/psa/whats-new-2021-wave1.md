@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d99906b11b0189fc8227accd68bd0457f6baa42c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ceba31934f021b4a18766eca314d68b69dd6a8ff
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281151"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949577"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Novetats o canvis del Project Service Automation fase d'accés anticipat 1 de 2021, V3
 
@@ -30,7 +30,7 @@ ms.locfileid: "5281151"
 
 ## <a name="project-service-automation-early-access-wave-1-2021-v3"></a>Project Service Automation fase d'accés anticipat 1 de 2021, V3
 
-Estem encantats d'anunciar-vos l'última actualització per a l'aplicació Project Service Automation per al Dynamics 365. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. Aquest llançament és compatible amb el Dynamics 365 9.x. Per actualitzar a aquesta versió, visiteu el Centre d'administració del Dynamics 365 en línia i aneu a la pàgina de solucions per instal·lar l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Estem encantats d'anunciar-vos l'última actualització per a l'aplicació Project Service Automation per al Dynamics 365. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. Aquest llançament és compatible amb el Dynamics 365 9.x. Per actualitzar a aquesta versió, visiteu el Centre d'administració del Dynamics 365 en línia i aneu a la pàgina de solucions per instal·lar l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](/power-platform/admin/install-remove-preferred-solution).
 
 Aquest tema enumera les característiques i correccions noves o modificades per al Project Service Automation V3, fase d'accés anticipat 1 de 2021. Aquesta versió té un número de compilació de V3.10.49.3 i està disponible de manera general a través d'una actualització d'autoservei al febrer de 2021.
 

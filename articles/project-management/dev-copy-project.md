@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286911"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949802"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Desenvolupament de plantilles de projecte amb la característica Copia el projecte
 
@@ -44,7 +44,7 @@ Hi ha tres paràmetres d'entrada:
 - **{"clearTeamsAndAssignments":true}** : comportament per defecte d'un projecte per al web, i suprimirà totes les assignacions i membres de l'equip.
 - **{"removeNamedResources":true}** comportament per defecte del Project Operations, i revertirà les assignacions a recursos genèrics.
 
-Per veure més valors per defecte en accions, vegeu [Utilitzar les accions de l'API web](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Per veure més valors per defecte en accions, vegeu [Utilitzar les accions de l'API web](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Especificar els camps que es copiaran 
 Quan es crida l'acció, **Copia el projecte** consultarà la visualització del projecte **Copia les columnes del projecte** per determinar quins camps s'han de copiar quan es copia el projecte.

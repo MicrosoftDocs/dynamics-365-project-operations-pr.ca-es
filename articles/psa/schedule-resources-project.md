@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282636"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951422"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planificar recursos per a un projecte (Project Service)
 
@@ -35,7 +35,7 @@ Podeu comprovar la disponibilitat de recursos per obtenir una vista general de c
   
 El tauler de planificació mostra una llista de recursos i la seva disponibilitat. Seleccioneu un mode de visualització per mostrar la disponibilitat per **hores**, **dia**, **setmana** o **mes**.  
   
-Abans d'utilitzar el tauler de planificació, és important configurar-lo. Per obtenir-ne més informació, consulta [Configura el tauler la planificació (Field Service o Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Abans d'utilitzar el tauler de planificació, és important configurar-lo. Per obtenir-ne més informació, consulta [Configura el tauler la planificació (Field Service o Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Si utilitzeu una versió anterior, per veure la disponibilitat dels recursos, consulteu [Visualització de la disponibilitat de recursos](../psa/view-resource-availability.md).  
 

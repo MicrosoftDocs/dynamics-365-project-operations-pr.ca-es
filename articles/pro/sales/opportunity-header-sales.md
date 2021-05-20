@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: ed82cb511337d9f6286e13b244d049022a184eef
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663807"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950612"
 ---
 # <a name="header-details-for-project-opportunities"></a>Detalls de la capçalera per a les oportunitats de projectes
 
@@ -33,7 +33,7 @@ A la taula següent s'inclouen els camps d'una oportunitat basada en projectes q
 | Administrador de comptes | Pestanya General | Nom de l'administrador del compte per a aquesta oportunitat basada en projectes. | L'administrador del compte s'encarrega d'administrar la relació amb el client per mitjà de la finalització d'aquest projecte. En funció del registre de recurs reservable vinculat a l'administrador de comptes, es determina el valor per defecte de la unitat contractant. |
 | Unitat de contractació | Pestanya General | La unitat de l'organització responsable del lliurament del projecte o projectes associats amb aquest acord. | La unitat de contractació és la divisió de l'empresa que completarà els projectes després d'haver tancat l'acord. Cada unitat de contractació té una moneda, i aquesta moneda s'utilitza per informar dels costos estimats i reals incorreguts durant el projecte. |
 
-Per a la resta de camps i seccions de la pestanya **Resum** de l'oportunitat, vegeu [Crear o editar oportunitats (Sales i Centre de vendes)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+Per a la resta de camps i seccions de la pestanya **Resum** de l'oportunitat, vegeu [Crear o editar oportunitats (Sales i Centre de vendes)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

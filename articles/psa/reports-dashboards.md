@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283356"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951512"
 ---
 # <a name="dashboards"></a>Escriptoris digitals
 
@@ -35,7 +35,7 @@ El Dynamics 365 Project Service Automation inclou dos escriptoris digitals del s
 
 ## <a name="practice-manager"></a>Administrador de pràctiques 
 
-L'escriptori digital **Administrador de pràctiques** proporciona als administradors de pràctiques una experiència gràfica per al seguiment dels costos, les vendes i el marge brut i la utilització. També permet que els administradors de pràctiques segmentin la informació per diverses dimensions, com ara el client, el projecte o la funció de recurs. Per obtenir més informació sobre com crear i personalitzar els escriptoris digitals, consulteu [Crear o editar escriptoris digitals](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+L'escriptori digital **Administrador de pràctiques** proporciona als administradors de pràctiques una experiència gràfica per al seguiment dels costos, les vendes i el marge brut i la utilització. També permet que els administradors de pràctiques segmentin la informació per diverses dimensions, com ara el client, el projecte o la funció de recurs. Per obtenir més informació sobre com crear i personalitzar els escriptoris digitals, consulteu [Crear o editar escriptoris digitals](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Administrador de recursos 
 

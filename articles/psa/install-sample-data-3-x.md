@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275076"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950567"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instal·lació de les dades d'exemple per a l'aplicació del Project Service
 
@@ -149,7 +149,7 @@ El paquet de dades de demostració requereix sis usuaris. Per instal·lar correc
 
 5. El calendari del primer usuari (a l'etiqueta **userstocreateandconfigure**) s'utilitza per emplenar les hores de feina de tots els recursos que es poden reservar en la importació de les dades de demostració. Aneu a **Configuració** > **Seguretat** > **Usuaris**, busqueu l'usuari "Spencer Low" i obriu l'opció "Hores de feina". Editeu les hores de feina existents, seleccioneu l'opció **Tota la planificació setmanal periòdica de principi a fi**. Assegureu-vos que **les hores de feina estan definides de 8:00 a 17:00 (9 hores), de dilluns a divendres i amb la zona horària definida com a hora del Pacífic (EUA i Canadà)**. Aquesta acció és necessària per garantir que el tauler de projecte i planificació es mostri correctament.
 
-**Recomanació**: penseu a crear una còpia de seguretat de la vostra organització en aquest moment, per si necessiteu tornar al punt d'inici si alguna cosa surt malament durant la instal·lació de les dades d'exemple. Per obtenir més informació, consulteu [Restaurar i realitzar còpies de seguretat d'instàncies](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recomanació**: penseu a crear una còpia de seguretat de la vostra organització en aquest moment, per si necessiteu tornar al punt d'inici si alguna cosa surt malament durant la instal·lació de les dades d'exemple. Per obtenir més informació, consulteu [Restaurar i realitzar còpies de seguretat d'instàncies](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Executeu l'Package Deployer
 

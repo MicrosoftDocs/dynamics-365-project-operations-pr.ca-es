@@ -3,17 +3,17 @@ title: Configuració de la facturació entre empreses
 description: En aquest tema es proporciona informació i exemples sobre la configuració de la facturació entre empreses per a projectes.
 author: sigitac
 manager: tfehr
-ms.date: 11/20/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2dec6669a41161a23f74ea962df6d8708b905315
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287541"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949667"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configuració de la facturació entre empreses
 
@@ -23,9 +23,9 @@ Seguiu aquests passos per configurar la facturació entre empreses per a project
 
 ## <a name="example-configure-intercompany-invoicing"></a>Exemple: Configuració de la facturació entre empreses
 
-A l'exemple següent, Contoso Robotics USA (USPM) és l'entitat jurídica prestatària i Contoso Robotics UK (GBPM) és l'entitat jurídica prestadora. 
+En l'exemple següent, Contoso Robotics USA (USPM) és l'entitat jurídica prestatària i Contoso Robotics UK (GBPM) és l'entitat jurídica prestadora. 
 
-1. **Configurar la comptabilitat interempresa entre entitats jurídiques**. Cada parell d'entitats jurídiques prestatària i prestadora s'ha de configurar a la pàgina de [Comptabilitat entre empreses](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup) del Llibre major.
+1. **Configurar la comptabilitat interempresa entre entitats jurídiques**. Cada parell d'entitats jurídiques prestatària i prestadora s'ha de configurar a la pàgina de [Comptabilitat entre empreses](/dynamics365/finance/general-ledger/intercompany-accounting-setup) del Llibre major.
     
     1. Al Dynamics 365 Finance, aneu a **Llibre major** > **Configuració de comptabilització** > **Comptabilitat entre empreses**. Creeu un registre amb la informació següent:
 
@@ -39,7 +39,7 @@ A l'exemple següent, Contoso Robotics USA (USPM) és l'entitat jurídica presta
      3. Expandiu **Nom**, filtreu els registres per **Tipus** i seleccioneu **Entitats jurídiques**. 
      4. Cerqueu i seleccioneu el registre de client per a **Contoso Robotics USA (USPM)**.
      5. Seleccioneu **Utilitza la coincidència**. 
-     6. Seleccioneu el grup de clients i, a continuació, deseu el registre.
+     6. Seleccioneu el grup de clients **50: clients entre empreses** i, a continuació, deseu el registre.
      7. Seleccioneu l'entitat jurídica **USPM**.
      8. Aneu a **Comptes a pagar** > **Proveïdors** > **Tots els proveïdors**. Creeu un registre nou per a l'entitat jurídica, **GBPM**.
      9. Expandiu **Nom**, filtreu els registres per **Tipus** i seleccioneu **Entitats jurídiques**. 
@@ -47,7 +47,7 @@ A l'exemple següent, Contoso Robotics USA (USPM) és l'entitat jurídica presta
      11. Seleccioneu **Utilitza la coincidència**, seleccioneu el grup de proveïdors i, a continuació, deseu el registre.
      12. Al registre de proveïdor, seleccioneu **General** > **Configuració** > **Entre empreses**.
      13. A la pestanya **Relació comercial**, definiu **Actiu** com a **Sí**.
-     14. Seleccioneu l'empresa proveïdors **GBPM** i, a **Registre del meu compte**, seleccioneu el registre de client que heu creat abans al procediment.
+     14. Definiu el camp **Empresa client** com a **GBPM** i a **Registre del meu compte**, seleccioneu el registre de client que heu creat abans en el procediment.
 
 3. **Establir la configuració entre empreses als paràmetres de gestió de projectes i comptabilitat**. 
 
@@ -59,7 +59,7 @@ A l'exemple següent, Contoso Robotics USA (USPM) és l'entitat jurídica presta
     6. Al grup **En prestar recursos**, seleccioneu **...** > **Nou**. 
     7. A la quadrícula, seleccioneu la informació següent:
 
-          - **Entitat jurídica prestatària** = **GBPM**
+          - **Entitat jurídica prestatària** = **USPM**
           - **Merita beneficis** = **Sí**
           - **Categoria de cronologia per defecte** = **Per defecte: hora**
           - **Categoria de despesa per defecte** = **Per defecte: despesa**
@@ -71,30 +71,30 @@ A l'exemple següent, Contoso Robotics USA (USPM) és l'entitat jurídica presta
      3. A la pestanya **Comptes de costos**, a **Tipus de compte de llibre major**, seleccioneu **Cost entre empreses**. Creeu un registre nou amb la informació següent:
       
         - **Entitat jurídica prestadora** = **GBPM**
-        - **Compte principal** = Seleccioneu el compte principal per al cost entre empreses
+        - **Compte principal** = Seleccioneu el compte principal per al cost entre empreses. Aquesta configuració és necessària. La configuració s'utilitza per als fluxos entre empreses a Finances, però no en fluxos entre empreses relacionats amb el projecte. Aquesta selecció no té cap impacte descendent. 
         
      4. Seleccioneu l'entitat jurídica prestadora, **GBPM**. 
      5. Aneu a **Gestió de projectes i comptabilitat** > **Configuració** > **Comptabilització** > **Configuració de la comptabilització al Llibre major**. 
      6. A la pestanya **Comptes d'ingressos**, a **Tipus de compte de llibre major**, seleccioneu **Ingrés entre empreses**. Creeu un registre nou amb la informació següent:
 
         - **Entitat jurídica prestatària** = **USPM**
-        - **Compte principal** = Seleccioneu el compte principal per a l'ingrés entre empreses 
+        - **Compte principal** = Seleccioneu el compte principal per a l'ingrés entre empreses. Aquesta configuració és necessària. La configuració s'utilitza per als fluxos entre empreses a Finances, però no en fluxos entre empreses relacionats amb el projecte. Aquesta selecció no té cap impacte descendent. 
 
 5. **Configurar els preus de transferència per a mà d'obra**. El preu de transferència entre empreses es configura a Project Operations a Dataverse. Configureu les [tarifes de cost de la mà d'obra](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) i les [tarifes de facturació de la mà d'obra](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) per a la facturació entre empreses. Els preus de transferència no s'admeten per a les transaccions de despeses entre empreses. El preu de venda entre unitats d'organització sempre es definirà amb el mateix valor que el preu de cost de la unitat de recursos.
 
-      El cost de recurs de desenvolupador a Contoso Robotics UK és de 88 GBP per hora. Contoso Robotics UK facturarà a Contoso Robotics USA 120 USD per cada hora que aquest recurs hagi treballat en projectes dels EUA. Contoso Robotics USA facturarà al client Adventure Works 200 USD per a la feina feta pel recurs de desenvolupador de Contoso Robotics UK.
+      El cost del recurs del desenvolupador de Contoso Robotics UK és de 88 £ per hora. Contoso Robotics UK facturarà a Contoso Robotics USA 120 $ per cada hora que el recurs ha treballat en projectes dels EUA. Contoso Robotics USA facturarà al client Adventure Works 200 $ per la feina realitzada pel recurs de desenvolupador de Contoso Robotics UK.
 
-      1. A Project Operations, a Dataverse, aneu a **Venda** > **Llistes de preus**. Creeu una llista de preus de cost nova anomenada **Tarifes de cost de Contoso Robotics UK.** 
+      1. A Project Operations, a Dataverse, aneu a **Venda** > **Llistes de preus**. Creeu una nova llista de preus de cost anomenada **Tarifes de cost de Contoso Robotics UK.** 
       2. A la llista de preus de cost, creeu un registre amb la informació següent:
          - **Funció** = **Desenvolupador**
          - **Cost** = **88 GBP**
-      3. Aneu a **Configuració** > **Unitats organitzatives** i adjunteu aquesta llista de preus a la unitat organitzativa **Contoso Robotics UK**.
-      4. Aneu a **Venda** > **Llistes de preus**. Creeu una llista de preus de cost anomenada **Tarifes de cost de Contoso Robotics USA**. 
+      3. Aneu a **Configuració** > **Unitats organitzatives** i adjunteu aquesta llista de preus de cost a la unitat organitzativa **Contoso Robotics UK**.
+      4. Aneu a **Venda** > **Llistes de preus**. Creeu una nova llista de preus de cost anomenada **Tarifes de cost de Contoso Robotics USA**. 
       5. A la llista de preus de cost, creeu un registre amb la informació següent:
           - **Funció** = **Desenvolupador**
           - **Empresa de recursos** = **Contoso Robotics UK**
           - **Cost** = **120 USD**
-      6. Aneu a **Configuració** > **Unitats organitzatives** i adjunteu la llista de preus **Tarifes de cost de Contoso Robotics USA** a la unitat organitzativa **Contoso Robotics USA**.
+      6. Aneu a **Configuració** > **Unitats organitzatives** i adjunteu la llista de preus de cost **Tarifes de cost de Contoso Robotics USA** a la unitat organitzativa **Contoso Robotics USA**.
       7. Aneu a **Venda** > **Llistes de preus**. Creeu una llista de preus de venda anomenada **Tarifes de facturació d'Adventure Works**. 
       8. A la llista de preus de venda, creeu un registre amb la informació següent:
           - **Funció** = **Desenvolupador**

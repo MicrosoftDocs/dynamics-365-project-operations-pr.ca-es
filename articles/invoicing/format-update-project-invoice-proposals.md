@@ -3,17 +3,17 @@ title: Administració de propostes de factura de projecte
 description: Aquest tema proporciona detalls sobre el processament de factures dels clients amb Project Operations per a escenaris basats en recursos/no en existències.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275841"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950702"
 ---
 # <a name="manage-project-invoice-proposals"></a>Administració de propostes de factura de projecte
 
@@ -80,7 +80,8 @@ Els valors **grup d'impostos de vendes** i **grup d'impostos de vendes d'element
     - **Client**: sempre serà per defecte el grup d'impostos de vendes de facturació del client.
     - **Cerca**: cercarà en totes les entitats d'aquesta llista i seleccionarà el primer valor disponible. La cerca s'inicia amb l'entitat **projecte**, llavors l'entitat **contracte del projecte** i, llavors, l'entitat **client**.
 
-- **El grup d'impostos sobre les vendes d'elements de preu fix** s'utilitza per establir per defecte el valor del camp **Grup d'impostos sobre les vendes d'elements**.
+- El **Grup d'impostos sobre les vendes d'elements de fites de preu fix** s'utilitza com a valor per defecte al camp **Grup d'impostos sobre les vendes d'elements** per a la fita de facturació. El comptable pot revisar i modificar aquest valor a la pàgina **Transaccions en compte**. El sistema utilitza el valor de la transacció a compte en crear una línia de factura de projecte de factura.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensions financeres
 
@@ -132,7 +133,7 @@ La pàgina **Formatació de les propostes de factura** permet que les transaccio
 
 L'administració d'impressió utilitza diferents fitxers d'informe per imprimir, especificar destinacions i personalitzar el text dels peus de pàgina per a la factura. L'administració d'impressió es pot configurar en el nivell del mòdul, però aquesta configuració es pot sobreescriure per a un client, un contracte o una proposta de factura específics. Per accedir a aquesta funció a la pàgina **Proposta de factura del projecte**, seleccioneu **Impressió** > **Administració d'impressió**.
 
-La configuració de l'administració d'impressió es visualitza com una visualització d'arbre, on cada nivell de node mostra els documents disponibles per ajustar-los. Podeu assignar còpies impreses personalitzades al mòdul, al client, al contracte o al nivell de document de proposta de factura. Per modificar la còpia impresa del document original, expandiu el node desitjat i seleccioneu **Element original**. Al camp **Format d'informe**, seleccioneu el format d'informe que voleu utilitzar per imprimir. Podeu utilitzar formats d'informe personalitzats mitjançant el [marc de l'administració de documents de l'empresa](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+La configuració de l'administració d'impressió es visualitza com una visualització d'arbre, on cada nivell de node mostra els documents disponibles per ajustar-los. Podeu assignar còpies impreses personalitzades al mòdul, al client, al contracte o al nivell de document de proposta de factura. Per modificar la còpia impresa del document original, expandiu el node desitjat i seleccioneu **Element original**. Al camp **Format d'informe**, seleccioneu el format d'informe que voleu utilitzar per imprimir. Podeu utilitzar formats d'informe personalitzats mitjançant el [marc de l'administració de documents de l'empresa](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Publicació de les propostes de factura
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c434356c08e8490931bd60ea5b10fe2706cb0f51
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271566"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951062"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importació i manteniment de transaccions de targeta de crèdit
 
 Les transaccions de targetes de crèdit relacionades amb despeses es poden configurar de manera que s'importin automàticament segons una planificació periòdica. Alternativament, les transaccions es poden importar manualment a mesura que es necessitin. Les transaccions de targeta de crèdit s'importen a través de l'entitat Dades de transaccions de targeta de crèdit.
 
-Per a més informació sobre les entitats de dades, vegeu [Entitats de dades](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Per a més informació sobre les entitats de dades, vegeu [Entitats de dades](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Importació de transaccions de targeta de crèdit
 

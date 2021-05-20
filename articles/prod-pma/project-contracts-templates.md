@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289582"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950387"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronitzar contractes de projectes i projectes directament des del Project Service Automation a Finances 
 
@@ -109,8 +109,8 @@ Quan s'aplica la solució d'integració del Project Service Automation al Financ
 ## <a name="prerequisites-and-mapping-setup"></a>Requisits previs i configuració de l'assignació
 
 - Abans que es produeixi la sincronització de contractes del projecte i projectes, cal sincronitzar els comptes.
-- Al conjunt de connexions, afegiu una assignació de camp de clau d'integració per a **msdyn\_organizationalunits** a **msdyn\_name \[Nom\]**. Pot ser que hàgiu d'afegir un projecte al conjunt de connexions. Per obtenir més informació, vegeu [Integrar dades al Common Data Service per a les aplicacions](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Al conjunt de connexions, afegiu una assignació de camp de clau d'integració per a **msdyn\_projects** a **msdynce\_projectnumber \[Número de projecte\]**. Pot ser que hàgiu d'afegir un projecte al conjunt de connexions. Per obtenir més informació, vegeu [Integrar dades al Common Data Service per a les aplicacions](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Al conjunt de connexions, afegiu una assignació de camp de clau d'integració per a **msdyn\_organizationalunits** a **msdyn\_name \[Nom\]**. Pot ser que hàgiu d'afegir un projecte al conjunt de connexions. Per obtenir més informació, vegeu [Integrar dades al Common Data Service per a les aplicacions](/powerapps/administrator/data-integrator).
+- Al conjunt de connexions, afegiu una assignació de camp de clau d'integració per a **msdyn\_projects** a **msdynce\_projectnumber \[Número de projecte\]**. Pot ser que hàgiu d'afegir un projecte al conjunt de connexions. Per obtenir més informació, vegeu [Integrar dades al Common Data Service per a les aplicacions](/powerapps/administrator/data-integrator).
 - El valor **SourceDataID** per a contractes de projecte i projectes es pot actualitzar a un valor diferent o suprimir-se de l'assignació. El valor per defecte de la plantilla és **Project Service Automation**.
 - L'assignació **PaymentTerms** ha d'estar actualitzada de manera que reflecteixi els terminis de pagament vàlids al Finance. També podeu suprimir l'assignació de la tasca del projecte. L'assignació de valor per defecte té els valors per defecte per a les dades de demostració. A la taula següent es mostren els valors del Project Service Automation.
 
@@ -131,7 +131,7 @@ Utilitzeu el Microsoft Power Query per a l'Excel per filtrar les dades si es com
 Si heu d'utilitzar el Power Query, seguiu aquestes instruccions:
 
 - La plantilla Projectes i contractes (PSA a Fin and Ops) té un filtre per defecte que inclou només les comandes de venda del tipus **Element de treball (msdyn\_ordertype = 192350001)**. Aquest filtre ajuda a garantir que els contractes del projecte no es creen per a les comandes de vendes al Finance. Si creeu una plantilla pròpia, heu d'afegir aquest filtre.
-- Creeu un filtre de Power Query que només inclogui les organitzacions de contracte que s'han de sincronitzar amb l'entitat legal del conjunt de connexió d'integració. Per exemple, els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso US s'han de sincronitzar a l'entitat jurídica USSI, però els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso Global se sincronitzaran amb l'entitat jurídica USMF. Si no afegiu aquest filtre a l'assignació de tasques, tots els contractes del projecte se sincronitzaran amb l'entitat jurídica que es defineixi per al conjunt de connexions, independentment de la unitat organitzativa del contracte.
+- Creeu un filtre de Power Query que només inclogui les organitzacions de contracte que s'han de sincronitzar amb l'entitat legal del conjunt de connexió d'integració. Per exemple, els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso US s'han de sincronitzar amb l'entitat jurídica de l'USSI, però els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso Global s'han de sincronitzar amb l'entitat jurídica de l'USMF. Si no afegiu aquest filtre a l'assignació de tasques, tots els contractes del projecte se sincronitzaran amb l'entitat jurídica que es defineixi per al conjunt de connexions, independentment de la unitat organitzativa del contracte.
 
 ## <a name="template-mapping-in-data-integration"></a>Assignació de plantilles a la integració de dades
 

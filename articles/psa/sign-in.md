@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282276"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951377"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Iniciar la sessió al Project Service Automation
 
@@ -39,7 +39,7 @@ Quan inicieu la sessió a les aplicacions del Dynamics 365, l'administrador us h
   
 - La contrasenya  
   
-  Probablement l'administrador us ha enviat aquesta informació en un correu electrònic. Si no teniu aquesta informació, o si teniu problemes per iniciar sessió, [cerqueu l'administrador o el vostre tècnic de suport](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Probablement l'administrador us ha enviat aquesta informació en un correu electrònic. Si no teniu aquesta informació, o si teniu problemes per iniciar sessió, [cerqueu l'administrador o el vostre tècnic de suport](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Definiu les opcions personals per permetre el correu electrònic  
  Heu de configurar els paràmetres del correu electrònics perquè altres persones puguin enviar correus electrònics en el vostre nom, de manera que l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] us pot enviar notificacions de correu electrònic quan tingueu hores i despeses per aprovar o registrar per a projectes.  

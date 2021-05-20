@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275031"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950297"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gestió de projectes i reserves al calendari (Project Service)
 
@@ -52,7 +52,7 @@ Visualitzeu cites personals, reserves de projectes i assignacions d'ordres de tr
   
 - Haureu de tenir les credencials d'administrador global o administrador del sistema de l'[!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- El vostre administrador haurà de configurar el perfil de servidor de correu electrònic i cada usuari haurà de configurar la seva bústia de correu. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurar el processament de correu electrònic a través de la sincronització del servidor](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- El vostre administrador haurà de configurar el perfil de servidor de correu electrònic i cada usuari haurà de configurar la seva bústia de correu. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurar el processament de correu electrònic a través de la sincronització del servidor](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Activar la sincronització de la vostra organització (tasca d'administració)  
   

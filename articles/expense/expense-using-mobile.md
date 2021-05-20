@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499884"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950874"
 ---
 # <a name="mobile-expense-app"></a>Aplicació mòbil de despeses
 
@@ -72,16 +72,16 @@ Si la versió 1611 amb l'actualització de la plataforma 3 o posterior s'ha impl
 <td>Administrador del sistema</td>
 <td>La KB 4019015 és una actualització d'X++ o correcció de les metadades que conté l'àrea de treball mòbil <strong>Administració de despeses</strong>. Per implementar la 4019015 KB, l'administrador del sistema ha de seguir aquests passos.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixeu les actualitzacions del Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instal·leu la correcció de metadades</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creeu un paquet implementable</a> que contingui els models <strong>ApplicationSuite</strong> i <strong>ExpenseMobile</strong> i, a continuació, carregueu el paquet implementable al LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apliqueu el paquet implementable</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixeu les actualitzacions del Lifecycle Services</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instal·leu la correcció de metadades</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creeu un paquet implementable</a> que contingui els models <strong>ApplicationSuite</strong> i <strong>ExpenseMobile</strong> i, a continuació, carregueu el paquet implementable al LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apliqueu el paquet implementable</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publiqueu l'àrea de treball mòbil <strong>Administració de despeses</strong>.</td>
 <td>Administrador del sistema</td>
-<td>Vegeu <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar una àrea de treball mòbil</a>.</td>
+<td>Vegeu <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar una àrea de treball mòbil</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +122,11 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 
 1. Al dispositiu mòbil, obriu l'àrea de treball **Administració de despeses**.
 2. Seleccioneu **Entrada ràpida de despesa**.
-3. Seleccioneu la categoria de despesa. Veureu una llista de categories de despesa que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la categoria no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per categoria de despesa o canvieu a la cerca per tipus de despesa.
+3. Seleccioneu la categoria de despesa. Veureu una llista de categories de despesa que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la categoria no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per categoria de despesa o canvieu a la cerca per tipus de despesa.
 4. Introduïu la data de la transacció de la despesa.
 5. Opcional: introduïu el comerciant per a la despesa.
 6. Escriviu l'import de la despesa.
-7. Seleccioneu la moneda de la despesa. Veureu una llista de codis de moneda que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 400 monedes, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la moneda no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per moneda o canvieu a la cerca per nom.
+7. Seleccioneu la moneda de la despesa. Veureu una llista de codis de moneda que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 400 monedes, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la moneda no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per moneda o canvieu a la cerca per nom.
 8. Seleccioneu **Fes una foto** o **Tria una imatge**.
 9. Seguiu un d'aquests passos:
 
@@ -159,11 +159,11 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 7. A la llista, seleccioneu una o més despeses.
 8. Seleccioneu **Fet**.
 9. Per afegir una nova despesa a l'informe de despeses, seleccioneu **Despesa nova**.
-10. Seleccioneu la categoria de la despesa. Veureu una llista de categories de despesa que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la categoria no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per categoria de despesa o canvieu a la cerca per tipus de despesa.
+10. Seleccioneu la categoria de la despesa. Veureu una llista de categories de despesa que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la categoria no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per categoria de despesa o canvieu a la cerca per tipus de despesa.
 11. Opcional: introduïu el comerciant per a la despesa.
 12. Introduïu la data de la transacció de la despesa.
 13. Escriviu l'import de la despesa.
-14. Seleccioneu la moneda de la despesa. Veureu una llista de codis de moneda que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 400 monedes, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la moneda no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per moneda o canvieu a la cerca per nom.
+14. Seleccioneu la moneda de la despesa. Veureu una llista de codis de moneda que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 400 monedes, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la moneda no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per moneda o canvieu a la cerca per nom.
 15. Seleccioneu **Fet**.
 16. Per afegir més detalls a la despesa, seleccioneu **Afegeix més detalls**. Els camps que estan disponibles depenen de la configuració de l'administració de despeses per a la vostra empresa.
 17. Si la norma de l'empresa requereix un rebut per a la despesa, seleccioneu **Rebuts** i seguiu aquests passos:
@@ -209,12 +209,12 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 
         - Si heu seleccionat **Convidats anteriors**, seguiu aquests passos:
 
-            1. A la llista, seleccioneu un o diversos convidats anteriors. Podeu veure una llista dels convidats anteriors que heu afegit a informes de despeses anteriors carregats a l'aplicació per utilitzar-los fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si el convidat anterior no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per nom, o canvieu a la cerca per organització, país o càrrec.
+            1. A la llista, seleccioneu un o diversos convidats anteriors. Podeu veure una llista dels convidats anteriors que heu afegit a informes de despeses anteriors carregats a l'aplicació per utilitzar-los fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si el convidat anterior no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per nom, o canvieu a la cerca per organització, país o càrrec.
             2. Seleccioneu **Fet**.
 
         - Si heu seleccionat **Companys de feina**, seguiu aquests passos:
 
-            1. A la llista, seleccioneu un o més companys de feina. Veureu una llista de companys de feina que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si el company de feina no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per nom, o canvieu a la cerca per empresa o càrrec.
+            1. A la llista, seleccioneu un o més companys de feina. Veureu una llista de companys de feina que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si el company de feina no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu per nom, o canvieu a la cerca per empresa o càrrec.
             2. Seleccioneu **Fet**.
 
     3. Seleccioneu el botó **Enrere** per tornar als detalls de la despesa.
@@ -223,7 +223,7 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 
     1. Seleccioneu la primera data que es desglossarà.
     2. Seleccioneu **Afegeix un desglossament**.
-    3. Seleccioneu la subcategoria del desglossament de la despesa. Veureu una llista de subcategories de despesa que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la subcategoria no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu pel nom de la subcategoria de despesa.
+    3. Seleccioneu la subcategoria del desglossament de la despesa. Veureu una llista de subcategories de despesa que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, els desenvolupadors haurien de consultar [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Si la subcategoria no es troba a la llista, seleccioneu **Cerca** per fer una cerca en línia. Cerqueu pel nom de la subcategoria de despesa.
     4. Introduïu l'import de la transacció per al desglossament.
     5. Editeu la data de la transacció si cal.
     6. Seleccioneu **Fet**.
