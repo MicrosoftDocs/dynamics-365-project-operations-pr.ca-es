@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287226"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948318"
 ---
 # <a name="integration-journal-in-project-operations"></a>Llibre diari d'integració del Project Operations
 
@@ -38,7 +38,7 @@ El sistema agrupa les línies de diari en diaris separats en funció del valor s
 Les línies del llibre diari es creen a partir dels valors reals del projecte. La llista següent inclou algunes de les regles per defecte i de transformació més notables:
 
   - Cada transacció de valor real del projecte té una línia al diari d'integració del Project Operations. Les transaccions de costos i vendes no facturades per al tipus de facturació de temps i material es mostren en línies separades.
-  - El camp **Data** representa la data de la transacció. El camp **Data comptable** representa la data en què es registra l'operació al llibre comptable. Si la data comptable es troba en un [període financer tancat](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) i el paràmetre **Estableix automàticament la data comptable al període del llibre comptable obert** s'estableix a la pestanya **Financer** de la pàgina **Paràmetres de l'administració de projectes i comptabilitat**, el sistema ajustarà la data comptable de l'operació a la primera data del pròxim període del llibre comptable obert.
+  - El camp **Data** representa la data de la transacció. El camp **Data comptable** representa la data en què es registra l'operació al llibre comptable. Si la data comptable es troba en un [període financer tancat](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) i el paràmetre **Estableix automàticament la data comptable al període del llibre comptable obert** s'estableix a la pestanya **Financer** de la pàgina **Paràmetres de l'administració de projectes i comptabilitat**, el sistema ajustarà la data comptable de l'operació a la primera data del pròxim període del llibre comptable obert.
   - El camp **Comprovant** mostra el número de comprovant per a cada transacció real. La seqüència de números de comprovant es defineix a la pestanya **Seqüències numèriques**, a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**. A cada línia se li assigna un número nou. Un cop comptabilitzat el comprovant, podeu veure com es relacionen els costos i les transaccions de vendes no facturades seleccionant **Comprovants relacionats** a la pàgina **Transacció de comprovant**.
   - El camp **Categoria** representa una transacció de projecte i per defecte té el valor en funció de la categoria de transacció del valor real del projecte relacionat.
     - Si **Categoria de transacció** es defineix al valor real del projecte i hi ha una **Categoria de projecte** relacionada en una entitat jurídica determinada, la categoria per defecte és aquesta categoria de projecte.

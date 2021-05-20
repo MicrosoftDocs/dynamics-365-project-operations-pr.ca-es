@@ -3,17 +3,17 @@ title: Addició d'una subscripció a l'Azure a un projecte del LCS
 description: En aquest tema es proporciona informació sobre com connectar la subscripció de l'Azure a un projecte del LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289897"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880526"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Addició d'una subscripció a l'Azure a un projecte del LCS
 
@@ -62,7 +62,7 @@ L'autorització ja s'ha completat.
 3. Al camp **Configura per utilitzar l'Azure Resource Manager**, seleccioneu **Sí**.
 4. Assegureu-vos que el domini de l'inquilí de l'AAD de subscripció de l'Azure coincideixi amb la subscripció de l'Azure propietària del domini que esteu utilitzant i seleccioneu **Següent**.
 5. A la pantalla **Configuració del Microsoft Azure**, seleccioneu **Següent** per confirmar. Si rebeu un error en aquesta pantalla, torneu a la secció [Proporcionar accés dels serveis d'implementació del Dynamics a la subscripció de l'Azure](#provide) en aquest tema i assegureu-vos que heu completat tots els passos.
-6. Baixeu el certificat d'administració de l'Azure a una carpeta local de l'ordinador i, a continuació, carregueu-la al Portal d'administració de l'Azure a **Configuració** > **Certificats d'administració**. Aquest certificat permetrà que el LCS es comuniqui amb l'Azure en el vostre nom. Podeu ometre aquest pas si l'usuari té accés a la subscripció.
+6. Baixeu el certificat d'administració de l'Azure a una carpeta local de l'ordinador. Demaneu a l'administrador de subscripció de l'Azure que carregui el certificat a l'Azure Management Portal seleccionant la subscripció i anant a **Configuració** > **Certificats d'administració**. Aquest certificat permet que el LCS es comuniqui amb l'Azure en nom vostre. Podeu ometre aquest pas si l'usuari té accés a la subscripció.
 7. Seleccioneu **Següent**.
 8. Seleccioneu la regió de l'Azure per implementar i seleccioneu un centre de dades a prop del lloc on teniu pensat utilitzar aquest sistema.
 9.  Seleccioneu **Connecta**.

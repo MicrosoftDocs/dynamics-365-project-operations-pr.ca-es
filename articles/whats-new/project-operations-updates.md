@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877523"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948227"
 ---
 # <a name="project-operations-updates"></a>Actualitzacions del Project Operations
 
@@ -49,23 +49,23 @@ Les actualitzacions del Project Operations a l'entorn del Dataverse estan dispon
 | Estació   | Regió        | Versió actual | Versió següent | Disponible de manera general |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Estació 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Primera versió |  4.9.0.221       | TBD     | 23-abr-21           |
+|   &nbsp;  | Primera versió |  4.9.0.221       | TBD     | 30-abr-21           |
 | Estació 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Amèrica del Sud |  4.9.0.221       | TBD     | 23-abr-21           |
-|    &nbsp; | Canadà        |  4.9.0.221       | TBD     | 23-abr-21           |
-|   &nbsp;  | Índia         |  4.9.0.221       | TBD     | 23-abr-21           |
-|   &nbsp;  | França         |  4.9.0.221       | TBD     | 23-abr-21           |
-|   &nbsp;  | Emirats Àrabs Units         |  4.9.0.221       | TBD     | 23-abr-21           |
-|   &nbsp;  | República de Sud-àfrica         |  4.9.0.221       | TBD     | 23-abr-21           |
+|   &nbsp;  | Amèrica del Sud |  4.9.0.221       | TBD     | 30-abr-21           |
+|    &nbsp; | Canadà        |  4.9.0.221       | TBD     | 30-abr-21           |
+|   &nbsp;  | Índia         |  4.9.0.221       | TBD     | 30-abr-21           |
+|   &nbsp;  | França         |  4.9.0.221       | TBD     | 30-abr-21           |
+|   &nbsp;  | Emirats Àrabs Units         |  4.9.0.221       | TBD     | 30-abr-21           |
+|   &nbsp;  | República de Sud-àfrica         |  4.9.0.221       | TBD     | 30-abr-21           |
 | Estació 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japó         |  4.9.0.221       | TBD     | 30-abr-21           |
-|   &nbsp;  | Pacífic asiàtic  |  4.9.0.221       | TBD     | 30-abr-21           |
-|   &nbsp;  | Gran Bretanya |  4.9.0.221       | TBD     | 30-abr-21           |
-|   &nbsp;  | Oceania       |  4.9.0.221       | TBD     | 30-abr-21           |
+|   &nbsp;  | Japó         |  4.9.0.221       | TBD     | 07-maig-21           |
+|   &nbsp;  | Pacífic asiàtic  |  4.9.0.221       | TBD     | 07-maig-21           |
+|   &nbsp;  | Gran Bretanya |  4.9.0.221       | TBD     | 07-maig-21           |
+|   &nbsp;  | Oceania       |  4.9.0.221       | TBD     | 07-maig-21           |
 | Estació 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.8.0.92       | 4.9.0.221     | 16-abr-21           |
+|   &nbsp;  | Europa        |  4.9.0.221       | TBD     | 14-maig-21           |
 | Estació 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Amèrica del Nord |  4.8.0.92       | 4.9.0.221     | 23-abr-21           |
+|   &nbsp;  | Amèrica del Nord |  4.9.0.221       | TBD     | 21-maig-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificació de llançaments per a l'administració de projectes i comptabilitat a l'entorn de les aplicacions del Finance and Operations
 
@@ -73,15 +73,15 @@ Les actualitzacions per a l'administració de projectes i comptabilitat es publi
 
 | Versió compatible | Disponible de manera general (actualització autoservei) |
 | --- | --- |
+| 10.0.18 | 16 d'abril de 2021 |
 | 10.0.17 | 19 de març de 2021 |
 | 10.0.16 | 22 de gener de 2021 |
 
 
-Les dates de llançament objectiu estan subjectes a canvis. Per obtenir més informació, vegeu [Disponibilitat d'actualització del servei](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Les dates de llançament objectiu estan subjectes a canvis. Per obtenir més informació, vegeu [Disponibilitat d'actualització del servei](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Data de publicació objectiu | Disponible de manera general (actualització autoservei) |
 | --- | --- |
-| 10.0.18 | 16 d'abril de 2021 |
 | 10.0.19 | 18 de juny de 2021 |
 | 10.0.20 | 16 de juliol de 2021 |
 

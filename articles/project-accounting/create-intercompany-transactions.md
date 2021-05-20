@@ -3,17 +3,17 @@ title: Creació de transaccions entre empreses
 description: En aquest tema es proporciona informació sobre com crear transaccions entre empreses.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287406"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880436"
 ---
 # <a name="create-intercompany-transactions"></a>Creació de transaccions entre empreses
 
@@ -62,7 +62,7 @@ Molly Clark, desenvolupador que treballa a GBPM registra 10 hores de feina en un
     4. Definiu la moneda com a **USD**.
     5. Desar el registre.
 3. Aneu a **Vendes** > **Contractes de projecte** i creeu un contracte de projecte nou per a Adventure Works.
-    1. Definiu l'empresa propietària com a **USPM** i la unitat de contractació com a **Contoso Robotics US**.
+    1. Definiu l'empresa propietària com a **USPM** i la unitat de contracte com a **Contoso Robotics US**.
     2. Seleccioneu Adventure Works com a client.
     3. Seleccioneu una llista de preus de productes i deseu el registre.
     4. A la pestanya **Línies de contracte**, creeu una línia de contracte nova. Definiu-ne el nom i seleccioneu **Temps i materials** com a mètode de facturació.
@@ -94,7 +94,7 @@ Molly Clark, desenvolupador que treballa a GBPM registra 10 hores de feina en un
     Aquesta venda no facturada ja està a punt per facturar. La factura del client Adventure Works es pot publicar financerament quan cal.
 
 10. Inicieu la sessió com a comptable de **GBPM**. Obriu la instància de Finances de Project Operations i obriu l'empresa **GBPM**. 
-11. Aneu a **Gestió de projectes i comptabilitat** > **Periòdic** > **Project Operations sobre Customer Engagement** > **Importa de la taula intermèdia** i executeu el procés periòdic per escriure al diari d'integració de Project Operations.
+11. Aneu a **Administració i comptabilitat del projecte** > **Periòdic** > **Integració del Project Operations** > **Importació des de la taula de còpia intermèdia** i executeu el procés periòdic per emplenar el llibre diari d'integració del Project Operations.
 12. Aneu a **Gestió de projectes i comptabilitat** > **Diaris** > **Diari d'integració de Project Operations** i reviseu les línies. El sistema crea les línies següents.
 
     | **Tipus de transacció** | **Preu** | **Moneda de transacció** | **Import** |

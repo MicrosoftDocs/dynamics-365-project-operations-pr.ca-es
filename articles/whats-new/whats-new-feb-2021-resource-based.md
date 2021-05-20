@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 12708a9b847f1f87ee0f5f45688adf48638d709f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8270214d47f712cdb0942991b0ffb5baff64cbfb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291877"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948002"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de febrer de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -53,7 +53,7 @@ Per obtenir més informació sobre l'administració i la comptabilitat de projec
 
 ## <a name="regulatory-updates"></a>Actualitzacions reglamentàries
 
-Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Una altra manera de saber les actualitzacions reglamentàries és iniciar sessió als Lifecycle Services (LCS) i visualitzar les actualitzacions reglamentàries planificades mitjançant l'eina de cerca d'edicions. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). Una altra manera de saber les actualitzacions reglamentàries és iniciar sessió als Lifecycle Services (LCS) i visualitzar les actualitzacions reglamentàries planificades mitjançant l'eina de cerca d'edicions. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

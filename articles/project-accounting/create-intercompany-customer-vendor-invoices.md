@@ -3,17 +3,17 @@ title: Creació de factures entre empreses de clients i proveïdors
 description: En aquest tema es proporciona informació sobre com crear factures de proveïdor i de client interempresa.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287451"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948377"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Creació de factures entre empreses de clients i proveïdors
 
@@ -25,7 +25,9 @@ El comptable del projecte per a l'entitat jurídica prestadora pot configurar un
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Creació manual d'una factura de client interempresa per a transaccions de projecte 
 
-Utilitzeu aquest procediment per crear manualment una factura de client interempresa per a transaccions de projecte. Cerqueu hores comptabilitzades pels treballadors en projectes de les entitats jurídiques prestatàries i despeses en què ha incorregut la vostra entitat jurídica en nom d'entitats jurídiques prestatàries. Podeu fer cerques per nom d'entitat jurídica, número de contracte de projecte, número de projecte, interval de dates o qualsevol combinació d'aquestes opcions. Als resultats de la cerca, seleccioneu les transaccions que voleu afegir a una factura interempresa.
+Utilitzeu aquest procediment per crear manualment una factura de client interempresa per a transaccions de projecte. Cerqueu hores comptabilitzades pels treballadors en projectes de les entitats jurídiques prestatàries i despeses en què ha incorregut la vostra entitat jurídica en nom d'entitats jurídiques prestatàries. Podeu fer cerques per nom d'entitat jurídica, número de contracte de projecte, número de projecte, interval de dates o qualsevol combinació d'aquestes opcions. Als resultats de la cerca, seleccioneu les transaccions que voleu afegir a una factura interempresa. 
+
+Cal fer els passos següents a l'entitat jurídica prestadora. 
 
 1. Al Dynamics 365 Finance, aneu a **Gestió de projectes i comptabilització** > **Factures del projecte** > **Factures de client interempresa**. A la pàgina de **Factures de clients interempresa**, a la subfinestra d'Acció, seleccioneu **Crea**.
 2. A la pàgina **Crea una factura interempresa**, al camp **Entitat jurídica**, seleccioneu una entitat jurídica prestatària.
@@ -35,9 +37,9 @@ Utilitzeu aquest procediment per crear manualment una factura de client interemp
 6. Als resultats de la cerca, seleccioneu les transaccions que voleu incloure a la proposta de factura entre empreses i, a continuació, seleccioneu **D'acord**.
 7. A la pàgina **Factura de client interempresa**, es mostren les transaccions de projecte entre empreses que heu seleccionat als resultats de la cerca. Per modificar les transaccions abans d'enviar la factura a l'entitat jurídica prestatària, feu el següent:
   
-    1. Obriu la pàgina **Crea una proposta de factura**. Seleccioneu transaccions entre empreses addicionals per a la factura actual i, a continuació, seleccioneu **Afegeix una línia**.
+    1. A la pàgina **Factura de client entre empreses**, obriu els detalls de la factura i, a continuació, seleccioneu **Afegeix línia**.
     2. Per suprimir una línia, seleccioneu-la i feu clic a **Suprimeix**.
-    3. Visualitzeu els comentaris, les raons, les dimensions financeres i altres informacions sobre una línia seleccionada a la FastTab **Línies de facturació**.
+    3. Visualitzeu els comentaris, les raons, les mesures financeres i altres dades sobre una línia seleccionada als detalls de la línia de factura.
     
 8. Per publicar la factura de client interempresa, a la subfinestra d'Acció, seleccioneu **Publica**.
 
@@ -52,7 +54,7 @@ Podeu crear diverses factures entre empreses al mateix temps per a totes les ent
 2. A la pàgina **Crea factures de client interempresa**, al camp **Empresa**, seleccioneu una entitat jurídica a la qual facturar. Si no seleccioneu cap empresa, es visualitzen totes les transaccions que compleixen els criteris de cerca per a totes les entitats jurídiques prestatàries.
 3. A **Crea una factura per**, seleccioneu si voleu crear una factura per a transaccions entre empreses basada en un projecte o en una entitat jurídica prestatària.
 4. Opcional: per seleccionar un projecte i un contracte de projecte específics per crear factures entre empreses, feu clic a **Selecciona**. A la pàgina **Consulta**, al camp **Criteris**, seleccioneu el contracte de projecte, el número de projecte o tots dos i, a continuació, seleccioneu **D'acord**.
-5. A la pestanya **Per lots**, configureu un procés per lots per crear factures entre empreses de manera periòdica. Per obtenir més informació, vegeu [Enviar una feina de processament per lots des d'un formulari](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. A la pestanya **Per lots**, configureu un procés per lots per crear factures entre empreses de manera periòdica. Per obtenir més informació, vegeu [Enviar una feina de processament per lots des d'un formulari](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Per publicar les factures entre empreses, a la subfinestra d'Acció, seleccioneu **Publica**.
 
 > [!NOTE]

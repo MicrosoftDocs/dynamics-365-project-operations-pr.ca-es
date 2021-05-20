@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283761"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948119"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Guia de l'usuari per al Centre de recursos de projecte
 
@@ -48,7 +48,7 @@ Hi ha dos tipus de [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn
 ## <a name="install-the-mobile-app"></a>Instal·lar l'aplicació mòbil
 Abans que pugueu començar a utilitzar l'aplicació del Centre de recursos de projecte, heu d'instal·lar l'aplicació mòbil al dispositiu. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instal·lar el Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instal·lar el Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Navegació bàsica
 1.  Quan inicieu sessió a l'aplicació mòbil, veureu la pàgina MyApps amb una llista d'aplicacions a les quals podeu accedir. 
@@ -99,7 +99,7 @@ Introduïu les vostres despeses com a mínim setmanalment, o segons la freqüèn
 5. Continueu introduint les despeses per a la setmana. Quan hagueu acabat i tot sembli correcte, toqueu **Envia**. Un superior revisarà i aprovarà les vostres despeses.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Informació general sobre com utilitzar l'aplicació mòbil 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guia de conceptes bàsics de Mobile](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Guia de conceptes bàsics de Mobile](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
 
 ### <a name="see-also"></a>Vegeu també  
  [Informació general del Project Service](../psa/overview.md)   

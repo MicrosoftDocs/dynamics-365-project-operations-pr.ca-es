@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0e1ff0db42adb8b991b26dca1585bd603b2e2276
-ms.sourcegitcommit: f57408d6637f670b920d7ce95f8ace8eb1963093
+ms.openlocfilehash: 2ac47974b9cc8386c7446136faf48724de73efce
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664631"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948596"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>Novetats o canvis de la versió d'actualització 29 del Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Estem encantats d'anunciar-vos l'última actualització per a l'aplicació Project Service Automation per al Dynamics 365. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. Aquest llançament és compatible amb el Dynamics 365 9.x. Per actualitzar a aquesta versió, visiteu el Centre d'administració del Dynamics 365 en línia i aneu a la pàgina de solucions per instal·lar l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Estem encantats d'anunciar-vos l'última actualització per a l'aplicació Project Service Automation per al Dynamics 365. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. Aquest llançament és compatible amb el Dynamics 365 9.x. Per actualitzar a aquesta versió, visiteu el Centre d'administració del Dynamics 365 en línia i aneu a la pàgina de solucions per instal·lar l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](/power-platform/admin/install-remove-preferred-solution).
 
 En aquest tema es mostren les característiques i correccions que són noves o s'han canviat per al Project Service Automation V3, versió d'actualització 29. Aquesta versió té un número de compilació de V3.10.47.7 i està disponible de manera general a través d'una actualització d'autoservei al febrer de 2021.
 

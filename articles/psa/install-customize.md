@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284301"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947912"
 ---
 # <a name="install-and-customize-project-service"></a>Instal·lar i personalitzar (Project Service)
 
@@ -34,20 +34,20 @@ Les funcionalitats del [!INCLUDE[pn_project_service_auto](../includes/pn-project
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Instal·lar el Project Service  
- El [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] és una solució preferida. Hi ha diverses formes d'adquirir la solució. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Incorporació de l'organització i d'usuaris](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ El [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] és una solució preferida. Hi ha diverses formes d'adquirir la solució. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Incorporació de l'organització i d'usuaris](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Personalitzar formularis i informes de l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
  Si voleu personalitzar qualsevol dels formularis, escriptoris digitals o informes del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], trobareu més informació als enllaços següents:  
   
-- [Introducció a la personalització i configuració d'aplicacions](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Introducció a la personalització i configuració d'aplicacions](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Crear i dissenyar formularis](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Crear i dissenyar formularis](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Crear i editar escriptoris digitals](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Crear i editar escriptoris digitals](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Crear i editar processos](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Crear i editar processos](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Introducció a l'elaboració d'informes i anàlisis](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Introducció a l'elaboració d'informes i anàlisis](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador](../psa/admin-guide.md)   
