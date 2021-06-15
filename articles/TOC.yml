@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novetats
       items:
+        - name: 'Maig de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 'Abril de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 'Març de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Configuració de les categories de despesa
               href: expense/set-up-expense-categories.md
+            - name: Configuració del quilometratge amb els nivells de la taxa de quilometratge
+              href: expense/set-up-mileage.md
         - name: Despeses personals
           href: expense/personal-expenses-expense-report.md
         - name: Despeses entre empreses
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Novetats
       items:
+        - name: 'Novetats de maig de 2021: implementació bàsica'
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 'Novetats d''abril de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 'Novetats de març de 2021: implementació bàsica'
@@ -1028,6 +1034,8 @@
       items:
         - name: "Planificació del llançament d'actualitzacions per al Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Novetats o canvis del llançament de l'actualització\_32, V3"
+          href: psa/whats-new-ur-32.md
         - name: "Novetats o canvis del llançament de l'actualització\_31, V3"
           href: psa/whats-new-ur-31.md
         - name: "Novetats o canvis del llançament de l'actualització\_30, V3"
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Personalització de l'entrada de temps setmanal
               href: psa/time-entry-extensibility-v3.md
+            - name: Conjunts d'aprovacions
+              href: psa/approval-set.md
     - name: Preguntes freqüents i detecció d'errors (3.x)
       items:
         - name: Per què el preu es defineix per defecte com a zero a les xifres reals dels costos de despeses?
