@@ -2,19 +2,17 @@
 title: Novetats o canvis del gener de 2021 a Project Operations per a escenaris basats en producció/mantinguts en existències
 description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de gener de 2021 del Project Operations per a escenaris basats en producció/mantinguts en existències.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: b987e998a36351bb00aaad475525872d407f774b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950837"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997453"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novetats o canvis del gener de 2021 a Project Operations per a escenaris basats en producció/mantinguts en existències
 

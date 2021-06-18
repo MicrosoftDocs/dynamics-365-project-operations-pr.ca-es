@@ -2,19 +2,17 @@
 title: 'Novetats de desembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
 description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de desembre de 2020 del Project Operations per a escenaris de recursos/sense existències.
 author: sigitac
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: e6ff32fff4cce0e848ad6edae827a62e6f33a5aa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951017"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995789"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de desembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 

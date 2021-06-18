@@ -2,18 +2,16 @@
 title: Aplicació de la configuració de la demostració i les dades de configuració (bàsic)
 description: En aquest tema es proporciona informació sobre com aplicar la configuració de la demostració i les dades de configuració per al Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290122"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997139"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicació de la configuració de la demostració i les dades de configuració per al Project Operations (bàsic) 
 
@@ -28,8 +26,8 @@ Abans de començar la configuració, heu de tenir un entorn del Common Data Serv
 
 ## <a name="instructions"></a>Instruccions
 
-1. Baixeu el [paquet de dades mestres](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Aneu a la carpeta *ProjOpsDemoDataSetupAndMaster - Integrated CMT* i executeu el fitxer executable, *DataMigrationUtility*.
+1. Baixeu el [paquet de dades mestres](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Aneu a la carpeta *ProjOpsSampleSetupData - CE only CMT* i executeu el fitxer executable, *DataMigrationUtility*.
 3. A la pàgina 1 de l'auxiliar de configuració de la migració del Common Data Service (CMT), seleccioneu **Importa les dades** i, a continuació, seleccioneu **Continua**.
 
     ![Migració de la configuració](./media/1ConfigurationMigration.png)
@@ -41,18 +39,18 @@ Abans de començar la configuració, heu de tenir un entorn del Common Data Serv
    ![Inici de sessió de configuració](./media/2ConfigurationSignin.png)
 
 7. A la pàgina 3, a la llista d'organitzacions de l'inquilí, seleccioneu l'organització a la qual voleu importar les dades de demostració i, a continuació, feu clic a **Inicia la sessió**.
-8. A la pàgina 4, seleccioneu el fitxer zip *MasterAndSetupData* de la carpeta desempaquetada, *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
+8. A la pàgina 4, seleccioneu el fitxer zip, *SampleSetupAndConfigData* de la carpeta desempaquetada, *ProjOpsSampleSetupData - CE only CMT*.
 
    ![Fitxer zip](./media/3ZipFile.png)
 
-   ![Permet seleccionar un fitxer.](./media/4SelectAFile.png)
+   ![Seleccioneu un fitxer](./media/4SelectAFile.png)
 
 9. Després de seleccionar el fitxer zip, seleccioneu **Importa les dades**.
 
    ![Importa dades](./media/5ImportData.png)
 
 10. La importació s'executarà durant aproximadament dos-deu minuts en funció de la velocitat de la xarxa. Després de completar-se, sortiu de l'auxiliar de CMT. 
-11. Consulteu a la vostra organització les dades de les següents 20 entitats:
+11. Consulteu a la vostra organització les dades de les següents 18 entitats:
 
     -   Moneda
     -   Compte

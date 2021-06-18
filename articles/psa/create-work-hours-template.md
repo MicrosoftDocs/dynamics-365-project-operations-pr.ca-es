@@ -2,8 +2,6 @@
 title: Creació d'una plantilla d'hores de feina
 description: Aquesta tema descriu com crear una plantilla d'hores de treball al Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981243"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997184"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Crear una plantilla d'hores de treball (Project Service)
 
@@ -51,7 +49,7 @@ Per crear una plantilla de calendari per a l'organització, cal tenir dos requis
 
 1. Aneu a **Recursos** \> **Recursos**.
 2. Creeu un recurs nou al qual es fa referència a la plantilla de calendari o seleccioneu un recurs existent.
-3. Seleccioneu la pestanya **Hores de feina** del recurs i completeu les instruccions de [Definició de les hores de feina per a un recurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) per configurar les regles del calendari.
+3. Seleccioneu la pestanya **Hores de feina** del recurs i completeu les instruccions de [Definició de les hores de feina per a un recurs](/dynamics365/field-service/set-work-hours-resource.md) per configurar les regles del calendari.
 
 **Creeu una plantilla de calendari nova**
 
