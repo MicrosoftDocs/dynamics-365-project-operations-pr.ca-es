@@ -2,18 +2,16 @@
 title: Configuració de categories del projecte
 description: Aquest tema proporciona informació sobre la configuració de categories de projectes.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287496"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995159"
 ---
 # <a name="configure-project-categories"></a>Configuració de categories del projecte
 
@@ -29,7 +27,7 @@ Les categories de transacció són l'agrupament bàsic per a transaccions de pro
 
 ## <a name="transaction-categories"></a>Categories de transacció
 
-Les categories de transacció representen l'agrupament bàsic per a transaccions de projectes i no són específiques de l'empresa ni del tipus de transacció. Per exemple, Contoso Robotics utilitza categories de disseny, viatges, instal·lació i transacció de servei per agrupar les transaccions de projectes.
+Les categories de transacció representen l'agrupament bàsic per a transaccions de projectes i no són específiques de l'empresa ni del tipus de transacció. Per exemple, Contoso Robotics utilitza les categories Disseny, Viatge, Instal·lació i Transacció de servei per agrupar les transaccions de projecte.
 
 Les categories de transaccions es defineixen al mòdul Project Operations. 
 1. Aneu a **Configuració** \> **Categories de transaccions** per obrir el formulari. 

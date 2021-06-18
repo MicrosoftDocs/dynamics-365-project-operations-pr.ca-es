@@ -2,19 +2,17 @@
 title: Configuració de materials sense existències i de factures pendents del proveïdor
 description: En aquest tema s'explica com s'han d'habilitar els materials sense existències i les factures pendents del proveïdor.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880623"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993899"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configuració de materials sense existències i de factures pendents del proveïdor
 
@@ -61,11 +59,11 @@ Si utilitzeu dades de demostració estàndard, pot ser que també hàgiu d'atura
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Activació del flux de treball per crear comptes basats en una entitat de proveïdor
 
-La solució Dual Write Orchestration proporciona [Integracó del patró de proveïdors](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping)Proveïdors. Com a requisit previ per a aquesta característica, les dades del proveïdor s'han de crear a l'entitat **Comptes**. Activació d'un procés de flux de treball de plantilla per crear proveïdors a la taula **Comptes**, segons s'explica a [Canvia entre els dissenys del proveïdor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+La solució Dual Write Orchestration proporciona [Integracó del patró de proveïdors](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md)Proveïdors. Com a requisit previ per a aquesta característica, les dades del proveïdor s'han de crear a l'entitat **Comptes**. Activació d'un procés de flux de treball de plantilla per crear proveïdors a la taula **Comptes**, segons s'explica a [Canvia entre els dissenys del proveïdor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Definiu que els productes es creïn com a actius
 
-Els materials sense existències s'han de configurar com a **Productes publicats** a Finances. La solució Dual Write Orchestration proporciona una [Integració de productes publicats a punt per a utilitzar al catàleg de productes del Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Per defecte, els productes de Finances se sincronitzen amb el Dataverse en estat d'esborrany. Per sincronitzar el producte amb un estat actiu per tal que es pugui utilitzar directament en documents d'ús de materials o en factures de proveïdor pendents, aneu a **Sistema** > **Administració** > **Administració del sistmea** > **Configuració del sistema** i, a la pestanya **Vendes**, definiu **Creació de productes en estat actiu** en **Sí**.
+Els materials sense existències s'han de configurar com a **Productes publicats** a Finances. La solució Dual Write Orchestration proporciona una [Integració de productes publicats a punt per a utilitzar al catàleg de productes del Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Per defecte, els productes de Finances se sincronitzen amb el Dataverse en estat d'esborrany. Per sincronitzar el producte amb un estat actiu per tal que es pugui utilitzar directament en documents d'ús de materials o en factures de proveïdor pendents, aneu a **Sistema** > **Administració** > **Administració del sistmea** > **Configuració del sistema** i, a la pestanya **Vendes**, definiu **Creació de productes en estat actiu** en **Sí**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configuració dels requisits previs a Finances
 

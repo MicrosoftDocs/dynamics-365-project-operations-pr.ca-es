@@ -2,8 +2,6 @@
 title: Guia de l'administrador
 description: Instruccions pas a pas per a l'administració del Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b51c484aff032a52a0f0b4986588d95cb58653b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8954964ee5503d338620221c24867d136dd8f217
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285291"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992696"
 ---
 # <a name="administrator-guide-project-service"></a>Guia per a l'administració (Project Service)
 

@@ -2,19 +2,17 @@
 title: 'Novetats de desembre de 2020: implementació bàsica del Project Operations; tracte de facturació proforma'
 description: 'Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de desembre de 2020 de la implementació bàsica del Project Operations: tracte de facturació proforma.'
 author: sigitac
-manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 383fa01a7d79989aef041a8fd68749446aeba367
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8b813d0fc99b8bce9000c983f51f919adbe1aaac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272196"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994034"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Novetats de desembre de 2020: implementació bàsica del Project Operations; tracte de facturació proforma
 
