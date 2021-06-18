@@ -2,11 +2,9 @@
 title: Integració del Microsoft Project Client
 description: La planificació i el manteniment d'una planificació de projecte poden ser complexos, de manera que els administradors de projectes han d'utilitzar eines que els ajudin a administrar aquesta tasca. La integració amb el Microsoft Project Client proporciona suport per obrir i administrar una estructura de desglossament del treball del projecte.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289312"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999434"
 ---
 # <a name="microsoft-project-client-integration"></a>Integració del Microsoft Project Client
 

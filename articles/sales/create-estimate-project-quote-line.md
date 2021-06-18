@@ -2,18 +2,16 @@
 title: Estimació d'una línia d'oferta de projecte
 description: Aquest tema proporciona informació sobre com crear una estimació en una línia d'oferta del projecte.
 author: rumant
-manager: Annbe
 ms.date: 04/01/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b941511f842a81764ddd1c05a437578b9fd902ce
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: adb5a7f113b15abd2fe7364fa9b592d2c02db389
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858776"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000694"
 ---
 # <a name="estimate-a-project-quote-line"></a>Estimació d'una línia d'oferta de projecte
 

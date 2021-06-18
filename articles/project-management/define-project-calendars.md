@@ -2,11 +2,9 @@
 title: Definició dels calendaris del projecte
 description: En aquest tema es proporciona informació sobre com aplicar una plantilla de calendari a un projecte per fer el seguiment de la planificació del projecte.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981288"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998984"
 ---
 # <a name="define-project-calendars"></a>Definició dels calendaris del projecte
 
@@ -48,7 +46,7 @@ Per crear una plantilla de calendari per a l'organització, cal tenir dos requis
 
 1. Aneu a **Recursos** \> **Recursos**.
 2. Creeu un recurs nou al qual es fa referència a la plantilla de calendari o seleccioneu un recurs existent.
-3. Seleccioneu la pestanya **Hores de feina** del recurs i completeu les instruccions de [Definició de les hores de feina per a un recurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) per configurar les regles del calendari.
+3. Seleccioneu la pestanya **Hores de feina** del recurs i completeu les instruccions de [Definició de les hores de feina per a un recurs](/dynamics365/field-service/set-work-hours-resource.md) per configurar les regles del calendari.
 
 **Creeu una plantilla de calendari nova**
 

@@ -2,18 +2,16 @@
 title: Configuració i aplicació de les dades de configuració al Common Data Service
 description: En aquest tema es proporciona informació sobre com configurar i aplicar les dades de configuració al Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289807"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001279"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configuració i aplicació de les dades de configuració al Common Data Service 
 
@@ -23,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ## <a name="prerequisites"></a>Requisits previs
 
-Abans de començar a configurar les dades al Common Data Service (CDS), s'han de complir els següents requisits previs:
+Abans de començar a configurar les dades al Common Data Service (CDS), cal complir els requisits previs següents:
 
 1.  Proveir un entorn del CDS i un entorn del Dynamics 365 Finance per al Project Operations.
 2.  La informació de les entitats jurídiques del Dynamics 365 Finance es comparteix a l'entorn del CDS. Això significa que l'entitat **Empresa** al CDS té els següents registres d'empresa:
@@ -33,7 +31,7 @@ Abans de començar a configurar les dades al Common Data Service (CDS), s'han de
 
 ## <a name="install-setup-and-configuration-data"></a>Configuració de la instal·lació i dades de configuració
 
-1. Baixeu, desbloquegeu i descomprimiu el [paquet de dades d'instal·lació i configuració](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Baixeu, desbloquegeu i descomprimiu el [paquet de dades d'instal·lació i configuració](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Aneu a la carpeta descomprimida i executeu el fitxer executable, *DataMigrationUtility*.
 3. A la pàgina 1 de l'auxiliar de configuració de la migració del Common Data Service (CMT), seleccioneu **Importa les dades** i, a continuació, seleccioneu **Continua**.
 
@@ -57,14 +55,21 @@ Abans de començar a configurar les dades al Common Data Service (CDS), s'han de
 ![Importa les dades](./media/5ImportData.png)
 
 10. La importació s'executarà durant aproximadament dos-deu minuts en funció de la velocitat de la xarxa. Després de completar-se la importació, sortiu de l'auxiliar de CMT. 
-11. Consulteu a la vostra organització les dades de les següents 19 entitats:
+11. Consulteu a la vostra organització les dades de les següents 26 entitats:
 
   - Moneda
+  - Taula de comptes
+  - Calendari fiscal
+  - Classificació de tipus de canvi de moneda
+  - Dia de pagament
+  - Planificació de pagament
+  - Condició de pagament
   - Unitat organitzativa
   - Contacte
   - Grup d'impostos
   - Grup de clients
-  - Unit
+  - Grup de proveïdors
+  - Unitat
   - Grup d’unitats
   - Llista de preus
   - Llista de preus del paràmetre de projecte
