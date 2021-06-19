@@ -2,11 +2,9 @@
 title: Crear un projecte nou
 description: Aquest tema proporciona informació sobre com crear un projecte nou.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270711"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006229"
 ---
 # <a name="create-a-new-project"></a>Crear un projecte nou
 
@@ -55,7 +53,7 @@ Un administrador de projectes pot utilitzar la funcionalitat de recursos de proj
 
 [![Exemple d'una funció](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Escenari:** Contoso ha estat contractat per completar un projecte d'hora i material que té una carta de projectes aprovada. L'administrador de projectes júnior encara està completant l'àmbit del projecte. L'administrador de recursos està identificant actualment els recursos específics que es reservaran per treballar en el nou projecte. A causa del caràcter crític del projecte, el patrocinador del projecte ha sol·licitat l'administrador de projectes sènior com una de les funcions. L'administrador de recursos ha d'adquirir el recurs nou i definir la funció en el sistema en cas que l'administrador de projectes júnior requereixi la informació del recurs durant la planificació del projecte.
+**Escenari:** Contoso ha rebut un contracte per completar un projecte de temps i materials que té una carta de projecte aprovada. L'administrador de projectes júnior encara està completant l'àmbit del projecte. L'administrador de recursos està identificant actualment els recursos específics que es reservaran per treballar en el nou projecte. A causa del caràcter crític del projecte, el patrocinador del projecte ha sol·licitat l'administrador de projectes sènior com una de les funcions. L'administrador de recursos ha d'adquirir el recurs nou i definir la funció en el sistema en cas que l'administrador de projectes júnior requereixi la informació del recurs durant la planificació del projecte.
 
 Els passos següents mostren com l'administrador de recursos pot configurar la funció Administrador de projectes sènior i associar-hi les característiques del recurs. Més endavant, la funció es pot utilitzar per cercar recursos disponibles que coincideixin amb les competències de recursos necessàries.
 

@@ -2,12 +2,10 @@
 title: Canvis de temps i despeses (Project Service Automation 3.x)
 description: En aquest tema es proporciona informació sobre els canvis de la solució per al temps i les despeses.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5829e915778b2c4ff337c9a1866b2dba33666249
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bed1ac33dbb51113d25e360eed204e02b439b257
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284661"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007759"
 ---
 # <a name="time-and-expense-changes-project-service-automation-3x"></a>Canvis de temps i despeses (Project Service Automation 3.x)
 

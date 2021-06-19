@@ -2,11 +2,9 @@
 title: Llistes de preus de productes
 description: En aquest tema es proporciona informació sobre les llistes de preus en els preus dels catàlegs utilitzats per a ofertes de projectes i contractes.
 author: rumant
-manager: AnnBe
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 02d274725983e50adc35a4cae1ac60c35be346a4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877478"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004924"
 ---
 # <a name="product-price-lists"></a>Llistes de preus de productes
 

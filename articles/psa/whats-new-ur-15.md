@@ -2,8 +2,6 @@
 title: Novetats o canvis de la versió d'actualització 15 del Project Service Automation, V3
 description: En aquest tema es proporciona informació sobre les novetats a la versió d'actualització 15 del Project Service Automation, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe1e2b2046faeee4e4c71484a976d70e8722e090
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 86aadca637939120d0ccd839e7c425e9e8d38aec
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949307"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006814"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, versió d'actualització 15, V3
 
