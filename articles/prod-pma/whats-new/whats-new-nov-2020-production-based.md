@@ -2,18 +2,16 @@
 title: 'Novetats del novembre de 2020: Project Operations per a escenaris basats en producció/mantinguts en existències'
 description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de novembre de 2020 del Project Operations per a escenaris de producció amb existències.
 author: sigitac
-manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 31640ba6d91831d75ca21b7938a50e4b431d759f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 809e89c10ea8c7978a79326b4a77e69007f86123
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950747"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011989"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novetats del novembre de 2020: Project Operations per a escenaris basats en producció/mantinguts en existències
 
