@@ -2,19 +2,17 @@
 title: Actualitzacions del Project Operations
 description: En aquest tema es proporciona informació sobre les versions publicades del Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 03/03/2021
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: d19148c868aa5be77db59e70fcf1fb8b7de6868c
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948227"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213433"
 ---
 # <a name="project-operations-updates"></a>Actualitzacions del Project Operations
 
@@ -30,60 +28,59 @@ El Dynamics 365 Project Operations consta de dos components:
 - L'administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance cobreix les funcionalitats d'administració de despeses, la comptabilitat de projectes i el reconeixement d'ingressos. L'entorn d'aplicació del Finance and Operations s'utilitza al Project Operations per a escenaris basats en recursos/sense existències i Project Operations per a escenaris amb existències/basats en producció.
 
 ## <a name="project-operations-release-notes"></a>Notes de la versió de Project Operations
-- Notes de la versió més recents de Project Operations per a l'escenari [Recursos/sense existències](whats-new-apr-2021-resource-based.md).
-- Notes de la versió més recents de Project Operations per a l'escenari [Implementació bàsica](../pro/whats-new/whats-new-apr-2021-lite.md).
-- Notes de la versió més recents de Project Operations per a l'escenari [en existències/producció](../prod-pma/whats-new/whats-new-mar-2021-stocked.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [Recursos/sense existències](whats-new-may-2021-resource-based.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [Implementació bàsica](../pro/whats-new/whats-new-may-2021-lite.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [en existències/producció](../prod-pma/whats-new/whats-new-apr-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Versió més recent del Project Operations
 
 | Project Operations a l'entorn del Dataverse | Administració de projectes i comptabilitat en entorns d'aplicacions del Finance and Operations | 
 | --- | --- |
-| 4.9.0.221 | 10.0.17 |
+| 4.10.0.186 | 10.0.18 |
 
-Per a l'escenari de recursos/no mantingut en existències del Project Operations, es recomana utilitzar Dual Write Orchestration versió 2.2.2.50 o superior.
+Per a l'escenari de recursos/no mantingut en existències del Project Operations, es recomana utilitzar Dual Write Orchestration versió 2.2.2.60 o superior.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Planificació de llançament del Project Operations en un entorn del Dataverse
 
 Les actualitzacions del Project Operations a l'entorn del Dataverse estan disponibles mensualment. 
 
-| Estació   | Regió        | Versió actual | Versió següent | Disponible de manera general |
-|-----------|---------------|-----------------|--------------|---------------------|
-| Estació 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Primera versió |  4.9.0.221       | TBD     | 30-abr-21           |
-| Estació 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Amèrica del Sud |  4.9.0.221       | TBD     | 30-abr-21           |
-|    &nbsp; | Canadà        |  4.9.0.221       | TBD     | 30-abr-21           |
-|   &nbsp;  | Índia         |  4.9.0.221       | TBD     | 30-abr-21           |
-|   &nbsp;  | França         |  4.9.0.221       | TBD     | 30-abr-21           |
-|   &nbsp;  | Emirats Àrabs Units         |  4.9.0.221       | TBD     | 30-abr-21           |
-|   &nbsp;  | República de Sud-àfrica         |  4.9.0.221       | TBD     | 30-abr-21           |
-| Estació 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japó         |  4.9.0.221       | TBD     | 07-maig-21           |
-|   &nbsp;  | Pacífic asiàtic  |  4.9.0.221       | TBD     | 07-maig-21           |
-|   &nbsp;  | Gran Bretanya |  4.9.0.221       | TBD     | 07-maig-21           |
-|   &nbsp;  | Oceania       |  4.9.0.221       | TBD     | 07-maig-21           |
-| Estació 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.9.0.221       | TBD     | 14-maig-21           |
-| Estació 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Amèrica del Nord |  4.9.0.221       | TBD     | 21-maig-21           |
+| Estació | Regió | Número de versió actual | Actualitzacions automàtiques per a la implementació bàsica | Actualitzacions automàtiques per a la implementació basada en recursos/sense inventari | Número de la versió següent | Pròxima versió disponible de manera general |
+|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
+| Estació 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Primera versió         |  4.10.0.186     | Complet     | Complet            | TBD                 | 28-maig-21           |
+| Estació 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Amèrica del Sud         |  4.10.0.186     | Complet     | Complet            | TBD                 | 28-maig-21           |
+|    &nbsp; | Canadà                |  4.10.0.186     | Complet     | Complet            | TBD                 | 28-maig-21           |
+|   &nbsp;  | Índia                 |  4.10.0.186     | Complet     | Complet            | TBD                 | 28-maig-21           |
+|   &nbsp;  | França                |  4.10.0.186     | Complet     | Complet            | TBD                 | 28-maig-21           |
+|   &nbsp;  | Emirats Àrabs Units  |  4.10.0.186     | Complet     | Complet            | TBD                 | 28-maig-21           |
+|   &nbsp;  | República de Sud-àfrica          |  4.10.0.186     | Complet     | Complet            | TBD                 | 28-maig-21           |
+| Estació 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japó                 |  4.10.0.186     | Complet     | Complet            | TBD                 | 4 de juny de 2021          |
+|   &nbsp;  | Pacífic asiàtic          |  4.10.0.186     | Complet     | Complet            | TBD                 | 4 de juny de 2021          |
+|   &nbsp;  | Gran Bretanya         |  4.10.0.186     | Complet     | Complet            | TBD                 | 4 de juny de 2021          |
+|   &nbsp;  | Oceania               |  4.10.0.186     | Complet     | Complet            | TBD                 | 4 de juny de 2021          |
+| Estació 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Europa                |  4.10.0.186     | Complet     | Complet            | TBD                 | 11 de juny de 2021          |
+| Estació 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Amèrica del Nord         |  4.10.0.186     | Complet     | 11 de juny de 2021          | TBD                 | 18 de juny de 2021          |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificació de llançaments per a l'administració de projectes i comptabilitat a l'entorn de les aplicacions del Finance and Operations
 
 Les actualitzacions per a l'administració de projectes i comptabilitat es publiquen vuit vegades l'any.
 
-| Versió compatible | Disponible de manera general (actualització autoservei) |
-| --- | --- |
-| 10.0.18 | 16 d'abril de 2021 |
-| 10.0.17 | 19 de març de 2021 |
-| 10.0.16 | 22 de gener de 2021 |
-
+|          Versió admesa          | Disponibilitat en versió preliminar (PEAP) | Disponible de manera general (actualització autoservei) | Data d'inici de producció de la planificació de l'actualització automàtica (mitjançant la configuració de l'actualització de l'LCS) |   Fi del servei   |
+|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.18          |        5 de març de 2021        |           16 d'abril de 2021          |                            30 d'abril de 2021                            |    16 de juliol de 2021   |
+|          10.0.17          |       1 de febrer de 2021      |           19 de març de 2021          |                             2 d'abril de 2021                            |    11 de juny de 2021   |
 
 Les dates de llançament objectiu estan subjectes a canvis. Per obtenir més informació, vegeu [Disponibilitat d'actualització del servei](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-| Data de publicació objectiu | Disponible de manera general (actualització autoservei) |
-| --- | --- |
-| 10.0.19 | 18 de juny de 2021 |
-| 10.0.20 | 16 de juliol de 2021 |
+|          Versió de destinació          | Disponibilitat en versió preliminar (PEAP) | Disponible de manera general (actualització autoservei) | Data d'inici de producció de la planificació de l'actualització automàtica (mitjançant la configuració de l'actualització de l'LCS) |   Fi del servei   |
+|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.19          |        23 d'abril de 2021       |            18 de juny de 2021           |                             2 de juliol de 2021                             | 17 de setembre de 2021 |
+|          10.0.20          |         28 de maig de 2021        |           16 de juliol de 2021           |                             30 de juliol de 2021                             |  22 d'octubre de 2021  |
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

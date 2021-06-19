@@ -2,19 +2,17 @@
 title: Treballar amb despeses personals en un informe de despeses
 description: Aquest tema proporciona informació sobre com treballar amb les despeses personals ocasionades pels empleats mentre viatgen amb finalitats empresarials.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276201"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025672"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Treballar amb despeses personals en un informe de despeses
 
@@ -28,6 +26,15 @@ Hi ha dos mètodes que podeu utilitzar per treballar amb les despeses personals 
   - **Pagat per l'empresa:** la vostra organització paga la factura completa de la targeta de crèdit empresarial i, a continuació, carrega la quantitat de les despeses personals en el compte del treballador.
 
 Podeu seleccionar el mètode que utilitza la vostra organització a la pàgina **Paràmetres de l'administració de despeses**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Habilitar la funció de despesa dividida quan el camp d'import personal té un valor definit
+
+La característica **Habilita la funció de despesa dividida quan el camp d'import personal té un valor definit** només s'aplica als informes de despesa aprovats amb un flux de treball de nivell de línia. Els informes s'aproven anant a **Processa els informes de despesa** > **Informes de despesa que tinc assignats** > **Obre l'informe de despesa**. 
+
+Per habilitar aquesta característica, aneu a **Àrees de treball** > **Administració de característiques**, seleccioneu **Habilita la funció de despesa dividida quan el camp d'import personal té un valor definit** i, a continuació, seleccioneu **Habilita ara**. 
+
+Quan la característica està habilitada, les línies de despesa que utilitzen aquesta funcionalitat generen dues línies en enviar l'informe. Es generen dues línies per tal que l'aprovador pugui aprovar cada línia per separat.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

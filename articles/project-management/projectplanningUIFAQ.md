@@ -2,19 +2,17 @@
 title: Solucionar problemes de funcionament a la quadrícula de tasques
 description: En aquest tema es proporciona informació sobre la detecció d'errors que es necessita quan es treballa a la quadrícula de tasques.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286551"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213388"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemes de funcionament a la quadrícula de tasques 
 
@@ -57,7 +55,7 @@ El Project Operations requereix que un paràmetre de projecte faci referència a
  ![Camp extrem del PEX al paràmetre de projecte](media/projectparameter.png)
 
 1. Afegiu el camp **extrem del PEX** a la pàgina **Paràmetres del projecte**.
-2. Actualitzeu el camp amb el següent valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Actualitzeu el camp amb el següent valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Suprimiu el camp de la pàgina **Paràmetres del projecte**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilegis per al projecte per al web
