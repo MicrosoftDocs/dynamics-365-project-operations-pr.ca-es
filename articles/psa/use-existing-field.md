@@ -2,12 +2,10 @@
 title: Utilitzar un camp existent al Project Service com a dimensió de preus
 description: En aquest tema es proporciona informació sobre l'ús de camps del Project Service existents com a dimensions de preus.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad03f5f7c1c9e93ca12a8c8d48ffbd2f80b1511f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 09e565c91eda9dee6e0ec479a5c85d94d2591147
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281556"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008074"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>Utilitzar un camp existent al Project Service com a dimensió de preus
 

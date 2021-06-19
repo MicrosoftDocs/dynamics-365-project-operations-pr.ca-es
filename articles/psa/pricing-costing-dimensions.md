@@ -2,12 +2,10 @@
 title: Pàgina d'inici de dimensions de preus i de costos
 description: Aquest tema proporciona una visió general de les dimensions de preus.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284121"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009244"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Pàgina d'inici de dimensions de preus i de costos
 
@@ -65,18 +63,18 @@ A l'exemple següent es mostren les tarifes de facturació que estan configurade
 
 **Tarifes de facturació d'exemple**
 
-| Funció        | Unitat organitzativa    |Unit      |Preu      |Moneda  |
+| Funció        | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolupador   | Contoso EUA  |Hour | 200|USD     |
-| Desenvolupador   | Contoso India |Hour|   112|USD     |
+| Desenvolupador   | Contoso US  |Hora | 200|USD     |
+| Desenvolupador   | Contoso India |Hora|   112|USD     |
 
 
 **Percentatge de costos d'exemple**
 
-| Banda de salari     | Unitat organitzativa    |Unit      |Preu      |Moneda  |
+| Banda de salari     | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
 | ----------------|-------------|----------|----------:|----------|
-| La meva empresa_banda1 | Contoso EUA  |Hour | 145|USD     |
-| La meva empresa_banda2 | Contoso India |Hour|   67|USD     |
+| La meva empresa_banda1 | Contoso US  |Hora | 145|USD     |
+| La meva empresa_banda2 | Contoso India |Hora|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Grups d'unitats i unitats
 description: En aquest tema es proporciona informació sobre els grups d'unitats i les unitats.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291607"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009559"
 ---
 # <a name="unit-groups-and-units"></a>Grups d'unitats i unitats
 
@@ -86,9 +84,9 @@ A l'exemple següent es mostra com el PSA utilitza el grup d'unitats, les unitat
     - **Unitat de temps per defecte**: dia 
     - **Moneda**: GBP
 
-| Funció      | Grup d'unitats | Unit | Unitat organitzativa | Preu   |
+| Funció      | Grup d'unitats | Unitat | Unitat organitzativa | Preu   |
 |-----------|------------|------|---------------------|---------|
-| Desenvolupador | Time       | Day  | Contoso UK          | 800 GBP |
+| Desenvolupador | Temps       | Dia  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Entrada de temps
 

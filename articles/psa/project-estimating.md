@@ -2,8 +2,6 @@
 title: Ingressos i costos del projecte
 description: En aquest tema es proporciona informació sobre l'estimació dels costos i dels ingressos del projecte.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8afa297190406c7fab8237e16c56cfe232a220af
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283941"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009154"
 ---
 # <a name="project-costs-and-revenue"></a>Ingressos i costos del projecte
 

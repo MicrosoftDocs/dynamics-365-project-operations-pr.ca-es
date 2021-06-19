@@ -2,11 +2,9 @@
 title: Pressupostos del projecte
 description: En aquest article es presenta el concepte de pressupostos de projectes, que podeu utilitzar per fer una oferta atractiva a un client com a primer pas de la fase del projecte. Un pressupost del projecte pot incloure els articles i els serveis facturats, la informació bàsica de contacte, acords especials de comerç i descomptes i els possibles impostos i sobrecàrrecs.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8f86c86aac8ebae9a77bacbb5275f1f7e6609f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 322c2403543b9eaebbd4bad56cfbe6f7c42b682a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289132"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009739"
 ---
 # <a name="project-quotations"></a>Pressupostos del projecte
 
