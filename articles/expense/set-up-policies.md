@@ -2,11 +2,9 @@
 title: Definir normes de despesa
 description: Podeu definir normes de despesa que els treballadors han de seguir en introduir i enviar informes de despeses i requisicions de viatge.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 863d1e44dad9fa0d2174cf77582a1d820988e92d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa108db9aa0d2a22c35d2d046917ddae1f3842c1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276066"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001864"
 ---
 # <a name="define-expense-policies"></a>Definir normes de despesa
 

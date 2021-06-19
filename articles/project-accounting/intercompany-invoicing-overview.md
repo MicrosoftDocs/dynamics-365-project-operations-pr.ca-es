@@ -2,18 +2,16 @@
 title: Informació general de la facturació entre empreses
 description: En aquest tema es proporciona informació i exemples sobre la facturació entre empreses per a projectes.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287316"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002629"
 ---
 # <a name="intercompany-invoicing-overview"></a>Informació general de la facturació entre empreses
 
@@ -21,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 La vostra organització pot tenir diverses divisions, filials i altres entitats jurídiques que es transfereixen productes i serveis entre si per als projectes. L'entitat jurídica que proporciona el servei o producte s'anomena *entitat jurídica prestadora*. L'entitat jurídica que rep el servei o producte s'anomena *entitat jurídica prestatària*.
 
-A la il·lustració següent es mostra un escenari típic on dos entitats jurídiques, Contoso Robotics USA (l'entitat jurídica prestatària) i Contoso Robotics UK (l'entitat jurídica prestadora) comparteixen recursos per dur a terme un projecte per al client, Adventure Works. Per a aquest escenari, Contoso Robotics USA és contractada per dur a terme el treball a Adventure Works.
+A la il·lustració següent es mostra un escenari habitual en què dues entitats jurídiques, Contoso Robotics USA (entitat jurídica prestatària) i Contoso Robotics UK (entitat jurídica prestadora), comparteixen recursos per al client, Adventure Works. Per a aquest escenari, Contoso rep un contracte per al lliurament de la feina a Adventure Works.
 
 ![Facturació entre empreses](./media/IntercompanyScenario.png) 
 
