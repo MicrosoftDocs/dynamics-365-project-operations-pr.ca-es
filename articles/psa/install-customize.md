@@ -2,8 +2,6 @@
 title: Instal·lar i personalitzar
 description: Com instal·lar i personalitzar el Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,44 +15,44 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 93891931f07d5cb16a8773f4c360cff1187f8dbf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947912"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015094"
 ---
-# <a name="install-and-customize-project-service"></a><span data-ttu-id="ceac2-103">Instal·lar i personalitzar (Project Service)</span><span class="sxs-lookup"><span data-stu-id="ceac2-103">Install and customize (Project Service)</span></span>
+# <a name="install-and-customize-project-service"></a><span data-ttu-id="848c5-103">Instal·lar i personalitzar (Project Service)</span><span class="sxs-lookup"><span data-stu-id="848c5-103">Install and customize (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="ceac2-104">Les funcionalitats del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] són una solució d'extrem a extrem que heu d'instal·lar per tal que els usuaris puguin començar a utilitzar les funcionalitats per administrar i oferir vendes basades en projectes.</span><span class="sxs-lookup"><span data-stu-id="ceac2-104">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities are an end-to-end solution that you need to install before users can start using the capabilities to manage and deliver project-based sales.</span></span> <span data-ttu-id="ceac2-105">Si bé és una solució d'extrem a extrem, podeu fer personalitzacions segons sigui necessari per a l'organització.</span><span class="sxs-lookup"><span data-stu-id="ceac2-105">While it's an end-to-end solution, you can still make customizations as needed to suit your organization.</span></span>  
+<span data-ttu-id="848c5-104">Les funcionalitats del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] són una solució d'extrem a extrem que heu d'instal·lar per tal que els usuaris puguin començar a utilitzar les funcionalitats per administrar i oferir vendes basades en projectes.</span><span class="sxs-lookup"><span data-stu-id="848c5-104">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities are an end-to-end solution that you need to install before users can start using the capabilities to manage and deliver project-based sales.</span></span> <span data-ttu-id="848c5-105">Si bé és una solució d'extrem a extrem, podeu fer personalitzacions segons sigui necessari per a l'organització.</span><span class="sxs-lookup"><span data-stu-id="848c5-105">While it's an end-to-end solution, you can still make customizations as needed to suit your organization.</span></span>  
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
-## <a name="install-project-service"></a><span data-ttu-id="ceac2-106">Instal·lar el Project Service</span><span class="sxs-lookup"><span data-stu-id="ceac2-106">Install Project Service</span></span>  
- <span data-ttu-id="ceac2-107">El [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] és una solució preferida.</span><span class="sxs-lookup"><span data-stu-id="ceac2-107">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] is a preferred solution.</span></span> <span data-ttu-id="ceac2-108">Hi ha diverses formes d'adquirir la solució.</span><span class="sxs-lookup"><span data-stu-id="ceac2-108">There are several ways to purchase the solution.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="ceac2-109">[Incorporació de l'organització i d'usuaris](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).</span><span class="sxs-lookup"><span data-stu-id="ceac2-109">[Onboard your organization and users](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).</span></span>  
+## <a name="install-project-service"></a><span data-ttu-id="848c5-106">Instal·lar el Project Service</span><span class="sxs-lookup"><span data-stu-id="848c5-106">Install Project Service</span></span>  
+ <span data-ttu-id="848c5-107">El [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] és una solució preferida.</span><span class="sxs-lookup"><span data-stu-id="848c5-107">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] is a preferred solution.</span></span> <span data-ttu-id="848c5-108">Hi ha diverses formes d'adquirir la solució.</span><span class="sxs-lookup"><span data-stu-id="848c5-108">There are several ways to purchase the solution.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="848c5-109">[Incorporació de l'organització i d'usuaris](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).</span><span class="sxs-lookup"><span data-stu-id="848c5-109">[Onboard your organization and users](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).</span></span>  
   
-## <a name="customize-pn_project_service_auto-forms-and-reports"></a><span data-ttu-id="ceac2-110">Personalitzar formularis i informes de l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]</span><span class="sxs-lookup"><span data-stu-id="ceac2-110">Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports</span></span>  
- <span data-ttu-id="ceac2-111">Si voleu personalitzar qualsevol dels formularis, escriptoris digitals o informes del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], trobareu més informació als enllaços següents:</span><span class="sxs-lookup"><span data-stu-id="ceac2-111">If you want to customize any of the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms, dashboards, or reports, you can find more information in the following links:</span></span>  
+## <a name="customize-pn_project_service_auto-forms-and-reports"></a><span data-ttu-id="848c5-110">Personalitzar formularis i informes de l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]</span><span class="sxs-lookup"><span data-stu-id="848c5-110">Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports</span></span>  
+ <span data-ttu-id="848c5-111">Si voleu personalitzar qualsevol dels formularis, escriptoris digitals o informes del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], trobareu més informació als enllaços següents:</span><span class="sxs-lookup"><span data-stu-id="848c5-111">If you want to customize any of the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms, dashboards, or reports, you can find more information in the following links:</span></span>  
   
-- [<span data-ttu-id="ceac2-112">Introducció a la personalització i configuració d'aplicacions</span><span class="sxs-lookup"><span data-stu-id="ceac2-112">Get started with app making and customization</span></span>](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [<span data-ttu-id="848c5-112">Introducció a la personalització i configuració d'aplicacions</span><span class="sxs-lookup"><span data-stu-id="848c5-112">Get started with app making and customization</span></span>](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [<span data-ttu-id="ceac2-113">Crear i dissenyar formularis</span><span class="sxs-lookup"><span data-stu-id="ceac2-113">Create and design forms</span></span>](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [<span data-ttu-id="848c5-113">Crear i dissenyar formularis</span><span class="sxs-lookup"><span data-stu-id="848c5-113">Create and design forms</span></span>](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [<span data-ttu-id="ceac2-114">Crear i editar escriptoris digitals</span><span class="sxs-lookup"><span data-stu-id="ceac2-114">Create and edit dashboards</span></span>](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [<span data-ttu-id="848c5-114">Crear i editar escriptoris digitals</span><span class="sxs-lookup"><span data-stu-id="848c5-114">Create and edit dashboards</span></span>](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [<span data-ttu-id="ceac2-115">Crear i editar processos</span><span class="sxs-lookup"><span data-stu-id="ceac2-115">Create and edit processes</span></span>](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [<span data-ttu-id="848c5-115">Crear i editar processos</span><span class="sxs-lookup"><span data-stu-id="848c5-115">Create and edit processes</span></span>](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [<span data-ttu-id="ceac2-116">Introducció a l'elaboració d'informes i anàlisis</span><span class="sxs-lookup"><span data-stu-id="ceac2-116">Introduction to reporting & analytics</span></span>](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [<span data-ttu-id="848c5-116">Introducció a l'elaboració d'informes i anàlisis</span><span class="sxs-lookup"><span data-stu-id="848c5-116">Introduction to reporting & analytics</span></span>](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
-### <a name="see-also"></a><span data-ttu-id="ceac2-117">Vegeu també</span><span class="sxs-lookup"><span data-stu-id="ceac2-117">See Also</span></span>  
- <span data-ttu-id="ceac2-118">[Guia de l'administrador](../psa/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ceac2-118">[Administrator Guide](../psa/admin-guide.md) </span></span>  
- <span data-ttu-id="ceac2-119">[Guia de l'administrador de comptes](../psa/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ceac2-119">[Account Manager Guide](../psa/account-manager-guide.md) </span></span>  
- <span data-ttu-id="ceac2-120">[Guia d'administrador de projectes](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ceac2-120">[Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
- <span data-ttu-id="ceac2-121">[Guia de l'administrador de recursos](../psa/resource-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ceac2-121">[Resource Manager Guide](../psa/resource-manager-guide.md) </span></span>  
- [<span data-ttu-id="ceac2-122">Guia de temps, despeses i col·laboració</span><span class="sxs-lookup"><span data-stu-id="ceac2-122">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="848c5-117">Vegeu també</span><span class="sxs-lookup"><span data-stu-id="848c5-117">See Also</span></span>  
+ <span data-ttu-id="848c5-118">[Guia de l'administrador](../psa/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="848c5-118">[Administrator Guide](../psa/admin-guide.md) </span></span>  
+ <span data-ttu-id="848c5-119">[Guia de l'administrador de comptes](../psa/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="848c5-119">[Account Manager Guide](../psa/account-manager-guide.md) </span></span>  
+ <span data-ttu-id="848c5-120">[Guia d'administrador de projectes](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="848c5-120">[Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
+ <span data-ttu-id="848c5-121">[Guia de l'administrador de recursos](../psa/resource-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="848c5-121">[Resource Manager Guide](../psa/resource-manager-guide.md) </span></span>  
+ [<span data-ttu-id="848c5-122">Guia de temps, despeses i col·laboració</span><span class="sxs-lookup"><span data-stu-id="848c5-122">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

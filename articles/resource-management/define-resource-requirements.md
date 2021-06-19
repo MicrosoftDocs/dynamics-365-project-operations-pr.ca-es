@@ -2,29 +2,27 @@
 title: Definició de requisits de recursos
 description: En aquest tema es proporciona informació sobre la definició de la informació dels requisits dels recursos.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da803300f0e416be2544420d2b7e6e633923f65b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 345de0a4599a7f332312bbf032cab5f69e358f69
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279756"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015274"
 ---
-# <a name="define-resource-requirements"></a><span data-ttu-id="53059-103">Definició de requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="53059-103">Define resource requirements</span></span>
+# <a name="define-resource-requirements"></a><span data-ttu-id="979e3-103">Definició de requisits de recursos</span><span class="sxs-lookup"><span data-stu-id="979e3-103">Define resource requirements</span></span>
 
-<span data-ttu-id="53059-104">_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_</span><span class="sxs-lookup"><span data-stu-id="53059-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="979e3-104">_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_</span><span class="sxs-lookup"><span data-stu-id="979e3-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="53059-105">Els requisits dels recursos es defineixen per l'administrador de projectes per establir els recursos necessaris per executar el treball en el projecte.</span><span class="sxs-lookup"><span data-stu-id="53059-105">Resource requirements are defined by the Project manager to establish the resources needed to execute the work on the project.</span></span> <span data-ttu-id="53059-106">Completeu els passos següents per definir un requisit de recurs.</span><span class="sxs-lookup"><span data-stu-id="53059-106">Complete the following steps to define a resource requirement.</span></span>
+<span data-ttu-id="979e3-105">Els requisits dels recursos es defineixen per l'administrador de projectes per establir els recursos necessaris per executar el treball en el projecte.</span><span class="sxs-lookup"><span data-stu-id="979e3-105">Resource requirements are defined by the Project manager to establish the resources needed to execute the work on the project.</span></span> <span data-ttu-id="979e3-106">Completeu els passos següents per definir un requisit de recurs.</span><span class="sxs-lookup"><span data-stu-id="979e3-106">Complete the following steps to define a resource requirement.</span></span>
 
-1.  <span data-ttu-id="53059-107">A l'**estructura del desglossament del treball**, creeu una o diverses tasques.</span><span class="sxs-lookup"><span data-stu-id="53059-107">In the **Work breakdown structure**, create one or more tasks.</span></span>
-2.  <span data-ttu-id="53059-108">Assigneu un membre de l'equip genèric a cada tasca.</span><span class="sxs-lookup"><span data-stu-id="53059-108">Assign a generic team member to each task.</span></span> <span data-ttu-id="53059-109">Les assignacions actualitzaran l'esforç total del membre de l'equip del projecte.</span><span class="sxs-lookup"><span data-stu-id="53059-109">The assignments will update the total effort of the project team member.</span></span>
-3.  <span data-ttu-id="53059-110">A la pestanya **Membre de l'equip**, seleccioneu el membre de l'equip i, a continuació , seleccioneu **Genera un requisit**.</span><span class="sxs-lookup"><span data-stu-id="53059-110">On the **Team Member** tab, select the team member and then select **Generate Requirement**.</span></span>
+1.  <span data-ttu-id="979e3-107">A l'**estructura del desglossament del treball**, creeu una o diverses tasques.</span><span class="sxs-lookup"><span data-stu-id="979e3-107">In the **Work breakdown structure**, create one or more tasks.</span></span>
+2.  <span data-ttu-id="979e3-108">Assigneu un membre de l'equip genèric a cada tasca.</span><span class="sxs-lookup"><span data-stu-id="979e3-108">Assign a generic team member to each task.</span></span> <span data-ttu-id="979e3-109">Les assignacions actualitzaran l'esforç total del membre de l'equip del projecte.</span><span class="sxs-lookup"><span data-stu-id="979e3-109">The assignments will update the total effort of the project team member.</span></span>
+3.  <span data-ttu-id="979e3-110">A la pestanya **Membre de l'equip**, seleccioneu el membre de l'equip i, a continuació , seleccioneu **Genera un requisit**.</span><span class="sxs-lookup"><span data-stu-id="979e3-110">On the **Team Member** tab, select the team member and then select **Generate Requirement**.</span></span>
 
-<span data-ttu-id="53059-111">Per obtenir informació sobre la manera de modificar el requisit de recursos, vegeu [Actualitzar els detalls del requisit de recursos](define-resource-requirements.md) per modificar el requisit de recursos.</span><span class="sxs-lookup"><span data-stu-id="53059-111">For information about how to modify the resource requirement, see [Update Resource requirement details](define-resource-requirements.md) to modify the resource requirement.</span></span>
+<span data-ttu-id="979e3-111">Per obtenir informació sobre la manera de modificar el requisit de recursos, vegeu [Actualitzar els detalls del requisit de recursos](define-resource-requirements.md) per modificar el requisit de recursos.</span><span class="sxs-lookup"><span data-stu-id="979e3-111">For information about how to modify the resource requirement, see [Update Resource requirement details](define-resource-requirements.md) to modify the resource requirement.</span></span>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
