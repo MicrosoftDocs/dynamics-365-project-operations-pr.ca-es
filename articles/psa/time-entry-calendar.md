@@ -2,8 +2,6 @@
 title: Calendari d'entrades de temps
 description: En aquest tema es proporciona informació sobre com utilitzar el calendari d'entrades de temps.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,30 +16,30 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0188258a7d3c0e1644ae6db051995e6e02bcbf58
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3efa30f017643cbcf7baa72f8ab964091c9e4f28
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282096"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013069"
 ---
-# <a name="time-entry-calendar"></a><span data-ttu-id="88bd8-103">Calendari d'entrades de temps</span><span class="sxs-lookup"><span data-stu-id="88bd8-103">Time entry calendar</span></span>
+# <a name="time-entry-calendar"></a><span data-ttu-id="d2cb5-103">Calendari d'entrades de temps</span><span class="sxs-lookup"><span data-stu-id="d2cb5-103">Time entry calendar</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="88bd8-104">A la pàgina **Entrades de temps**, podeu visualitzar les entrades de temps al calendari seleccionant **Mostra com a** \> **Control de calendari**.</span><span class="sxs-lookup"><span data-stu-id="88bd8-104">On the **Time Entries** page, you can view the time entries on the calendar by selecting **Show as** \> **Calendar Control**.</span></span>
+<span data-ttu-id="d2cb5-104">A la pàgina **Entrades de temps**, podeu visualitzar les entrades de temps al calendari seleccionant **Mostra com a** \> **Control de calendari**.</span><span class="sxs-lookup"><span data-stu-id="d2cb5-104">On the **Time Entries** page, you can view the time entries on the calendar by selecting **Show as** \> **Calendar Control**.</span></span>
 
-## <a name="updated-calendar-control"></a><span data-ttu-id="88bd8-105">Control del calendari actualitzat</span><span class="sxs-lookup"><span data-stu-id="88bd8-105">Updated calendar control</span></span>
+## <a name="updated-calendar-control"></a><span data-ttu-id="d2cb5-105">Control del calendari actualitzat</span><span class="sxs-lookup"><span data-stu-id="d2cb5-105">Updated calendar control</span></span>
 
-<span data-ttu-id="88bd8-106">El Dynamics 365 Project Service Automation ofereix una experiència d'entrada de temps nova i extensible.</span><span class="sxs-lookup"><span data-stu-id="88bd8-106">Dynamics 365 Project Service Automation offers a new and extensible time entry experience.</span></span> <span data-ttu-id="88bd8-107">Aquesta experiència nova substitueix el control de calendari personalitzat que s'utilitzava a les versions anteriors.</span><span class="sxs-lookup"><span data-stu-id="88bd8-107">This new experience replaces the Custom Calendar Control that was used in earlier versions.</span></span> <span data-ttu-id="88bd8-108">No obstant, es poden veure les entrades de temps a través d'un control de calendari només de lectura que el marc de la interfície unificada proporciona per a la visualització diària, setmanal o mensual.</span><span class="sxs-lookup"><span data-stu-id="88bd8-108">However, you can still view time entries through a read-only calendar control that the Unified Interface Framework provides for daily, weekly, or monthly views.</span></span>
+<span data-ttu-id="d2cb5-106">El Dynamics 365 Project Service Automation ofereix una experiència d'entrada de temps nova i extensible.</span><span class="sxs-lookup"><span data-stu-id="d2cb5-106">Dynamics 365 Project Service Automation offers a new and extensible time entry experience.</span></span> <span data-ttu-id="d2cb5-107">Aquesta experiència nova substitueix el control de calendari personalitzat que s'utilitzava a les versions anteriors.</span><span class="sxs-lookup"><span data-stu-id="d2cb5-107">This new experience replaces the Custom Calendar Control that was used in earlier versions.</span></span> <span data-ttu-id="d2cb5-108">No obstant, es poden veure les entrades de temps a través d'un control de calendari només de lectura que el marc de la interfície unificada proporciona per a la visualització diària, setmanal o mensual.</span><span class="sxs-lookup"><span data-stu-id="d2cb5-108">However, you can still view time entries through a read-only calendar control that the Unified Interface Framework provides for daily, weekly, or monthly views.</span></span>
 
-<span data-ttu-id="88bd8-109">El calendari no admet accions sobre els elements de calendari individuals i no es poden seleccionar un o diversos elements de calendari per a la presentació o la supressió.</span><span class="sxs-lookup"><span data-stu-id="88bd8-109">The calendar doesn't support actions on individual calendar items, and you can't select one or more calendar items for submission or deletion.</span></span> <span data-ttu-id="88bd8-110">En lloc d'això, seleccioneu un element del calendari per obrir la pàgina de l'entitat **Entrada de temps**, on podeu completar les accions necessàries.</span><span class="sxs-lookup"><span data-stu-id="88bd8-110">Instead, select a calendar item to open the **Time Entry** entity page, where you can complete the required actions.</span></span>
+<span data-ttu-id="d2cb5-109">El calendari no admet accions sobre els elements de calendari individuals i no es poden seleccionar un o diversos elements de calendari per a la presentació o la supressió.</span><span class="sxs-lookup"><span data-stu-id="d2cb5-109">The calendar doesn't support actions on individual calendar items, and you can't select one or more calendar items for submission or deletion.</span></span> <span data-ttu-id="d2cb5-110">En lloc d'això, seleccioneu un element del calendari per obrir la pàgina de l'entitat **Entrada de temps**, on podeu completar les accions necessàries.</span><span class="sxs-lookup"><span data-stu-id="d2cb5-110">Instead, select a calendar item to open the **Time Entry** entity page, where you can complete the required actions.</span></span>
 
-## <a name="extensibility"></a><span data-ttu-id="88bd8-111">Capacitat d'ampliació</span><span class="sxs-lookup"><span data-stu-id="88bd8-111">Extensibility</span></span>
+## <a name="extensibility"></a><span data-ttu-id="d2cb5-111">Capacitat d'ampliació</span><span class="sxs-lookup"><span data-stu-id="d2cb5-111">Extensibility</span></span>
 
-<span data-ttu-id="88bd8-112">A la pàgina **Entrades de temps** que tingui la quadrícula d'entrada de temps, podeu afegir camps personalitzats, configurar camps de cerca i crear visualitzacions personalitzades.</span><span class="sxs-lookup"><span data-stu-id="88bd8-112">On the **Time Entries** page that has the time entry grid, you can add custom fields, set up lookup fields, and create custom views.</span></span> <span data-ttu-id="88bd8-113">També podeu configurar la lògica empresarial personalitzada que es basi en els valors seleccionats o introduïts als camps personalitzats.</span><span class="sxs-lookup"><span data-stu-id="88bd8-113">You can also set up custom business logic that is based on the values that are selected or entered in custom fields.</span></span>
+<span data-ttu-id="d2cb5-112">A la pàgina **Entrades de temps** que tingui la quadrícula d'entrada de temps, podeu afegir camps personalitzats, configurar camps de cerca i crear visualitzacions personalitzades.</span><span class="sxs-lookup"><span data-stu-id="d2cb5-112">On the **Time Entries** page that has the time entry grid, you can add custom fields, set up lookup fields, and create custom views.</span></span> <span data-ttu-id="d2cb5-113">També podeu configurar la lògica empresarial personalitzada que es basi en els valors seleccionats o introduïts als camps personalitzats.</span><span class="sxs-lookup"><span data-stu-id="d2cb5-113">You can also set up custom business logic that is based on the values that are selected or entered in custom fields.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
