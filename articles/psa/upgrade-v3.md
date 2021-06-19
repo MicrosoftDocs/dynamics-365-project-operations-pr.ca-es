@@ -1,9 +1,7 @@
 ---
 title: "Consideracions d'actualització: de la versió 2.x o 1.x a la versió 3 del Microsoft Dynamics 365 Project Service Automation"
 description: En aquest tema es proporciona informació sobre les consideracions que heu de fer en actualitzar des de la versió 2.x o 1.x a la versió 3 del Project Service Automation.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281646"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014869"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideracions d'actualització - Versió 2.x o 1.x del PSA a la versió 3
 
