@@ -2,7 +2,7 @@
 title: Rendiment de propostes de factura de projecte
 description: Aquest tema proporciona informació sobre millores de rendiment a les propostes de factures de projectes.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999479"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269778"
 ---
 # <a name="project-invoice-proposal-performance"></a>Rendiment de propostes de factura de projecte
 
@@ -44,4 +44,6 @@ Completeu els passos a continuació per desactivar la millora del rendiment de l
 3.  Actualitzeu el navegador.
 
 > [!NOTE]
-> El rendiment de la proposta de factura no es pot aplicar quan les regles de facturació estan habilitades o els processos per lots s'estan executant.
+> Quan s'han habilitat les regles de facturació, el rendiment de proposta de factura no es pot aplicar.
+> 
+> Durant el procés per lots per crear propostes de factures, el nombre de subtasques dividirà les tasques en un nombre màxim segons el nombre de contractes amb transaccions facturables, independentment de què s'hagi introduït. Per exemple, si introduïu **3** com a nombre de subtasques per a la creació de propostes de factures en un lot i només hi ha dos contractes amb transaccions facturables, només es creen dues subtasques.

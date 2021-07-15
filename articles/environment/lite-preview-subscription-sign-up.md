@@ -2,58 +2,40 @@
 title: Registre per obtenir una subscripció de versió preliminar (bàsic)
 description: "En aquest tema es proporciona informació sobre com subscriure's i implementar la implementació bàsica del Project Operations: acord a facturació proforma."
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997409"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334770"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a>Registre per obtenir una subscripció de versió preliminar (bàsic) 
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Registre per obtenir una subscripció de versió preliminar (bàsica) 
 
-En aquest tema s'explica com subscriure's a l'oferta de socis de visualització prèvia i implementar la implementació bàsica del Dynamics 365 Project Operations: tracte de facturació proforma.
+En aquest tema s'explica com subscriure's a l'oferta de prova i implementar l'oferta d'implementació bàsica del Dynamics 365 Project Operations a la facturació proforma.
 
 > [!NOTE]
 > Aquest procés canviarà en pròximes versions del Project Operations.
 
 ## <a name="prerequisites"></a>Requisits previs
-
-- Rebreu un correu electrònic que us convidarà a participar a la versió preliminar. Podeu sol·licitar una versió preliminar al [lloc web del Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- L'usuari que implementa la versió preliminar ha de tenir drets d'administrador global a l'inquilí de l'Azure.
-- Reviseu tots els termes i condicions.
-
-## <a name="subscribe"></a>Subscripció
-
-Quan rebeu una aprovació de [sol·licitud de versió preliminar](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), rebreu dues ofertes de Microsoft per correu electrònic. Aquestes ofertes us permeten implementar la versió preliminar del Project Operations:
-
-- Prova de versió preliminar del Dynamics 365 Project Operations (CRM)
-- Office 365 Project Operations: prova de versió preliminar
+- L'usuari que implementa la versió preliminar ha de tenir drets d'administrador global a l'inquilí de l'Azure. Podeu crear un inquilí en bescanviar la primera oferta.
 
 > [!IMPORTANT]
 > Només cal que una persona de l'organització, l'administrador d'inquilins, realitzi aquesta tasca. Si no sou el subscriptor en aquesta versió, espereu fins que l'organització s'hagi registrat i hàgiu rebut les vostres credencials d'usuari.
+> 
+> Les proves són d'un sol ús a l'inquilí. Una versió de prova només es pot executar una vegada. Us recomanem que creeu un inquilí nou per a la versió de prova.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Prova de versió preliminar del Dynamics 365 Project Operations (CRM) 
+### <a name="dynamics-365-project-operations-trial"></a>Prova del Dynamics 365 Project Operations 
 
 Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador amb el compte laboral de l'usuari a l'inquilí on voleu la versió preliminar del Project Operations.
 
-1. Redimiu el primer codi d'oferta, prova de versió preliminar del **Dynamics 365 Project Operations (CRM)** enganxant-lo a l'URL del navegador.
-
-![Bescanviar l'oferta](./media/16RedeemFirstOfferNew.png)
-
+1. Aneu a [Prova del Project Operations](https://aka.ms/try-po) per bescanviar el primer codi de l'oferta, **Dynamics 365 Project Operations**.
 2. Confirmeu la comanda.
-![Confirmeu la comanda](./media/17ConfirmOrderNew.png)
 
-Veureu que l'oferta de confirmació s'ha bescanviat correctament.
-
-![Confirmació](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations: prova de versió preliminar
-
-Repetiu els mateixos passos que amb el primer codi d'oferta. Assegureu-vos d'afegir el segon codi d'oferta amb el mateix compte d'usuari utilitzat amb el primer codi d'oferta.
+  Veureu que l'oferta de confirmació s'ha bescanviat correctament.
 
 ## <a name="assign-licenses"></a>Assignar llicències
 
@@ -62,25 +44,20 @@ Repetiu els mateixos passos que amb el primer codi d'oferta. Assegureu-vos d'afe
 
 
 1. Aneu al [centre d'administració del Microsoft 365](https://portal.office.com/) per assignar les llicències als usuaris.
-
-![Pàgina principal del centre d'administració](./media/14AdminPortal.png)
-
 2. A la pàgina **Usuaris actius**, seleccioneu els usuaris als quals voleu assignar una llicència.
-
-![Assignar llicències](./media/15AssignLicenses.png)
-
-3. Verifiqueu que les llicències de **Versió preliminar del Dynamics 365 Project Operations (CRM)** i la **Versió preliminar de l'Office 365** estiguin seleccionades. 
+3. Verifiqueu que la llicència del **Dynamics 365 Project Operations** estigui seleccionada. 
 4. Seleccioneu **Desa els canvis**.
 
-## <a name="create-a-new-cds-environment"></a>Crear un entorn nou del CDS
+## <a name="create-a-new-dataverse-environment"></a>Crear un entorn nou del Dataverse
 
-1. Proveïu d'un nou entorn d'implementació del CDS del Project Operations seguint les instruccions del tema [Model d'implementació del CDS](lite-deployment.md). Quan seleccioneu el tipus d'entorn, assegureu-vos d'utilitzar **Prova (basada en subscripció)**.
-![Entorn nou](./media/19CreateEnvironment.png)
+1. Proveïu d'un nou entorn d'implementació del Dataverse del Project Operations seguint les instruccions del tema [Model d'implementació del Dataverse](lite-deployment.md). Quan seleccioneu el tipus d'entorn, assegureu-vos d'utilitzar **Prova (basada en subscripció)**.
+
+  ![Entorn nou](./media/19CreateEnvironment.png)
 
 2. Seleccioneu l'opció **Habilita les aplicacions del Dynamics 365** i deixeu **Implementa aquestes aplicacions automàticament** en blanc.  
 3. Seleccioneu **Desa** per crear l'entorn.
 
-![Afegeix base de dades](./media/20CreateEnvironment1.png)
+  ![Afegeix base de dades](./media/20CreateEnvironment1.png)
 
 4. Un cop creat l'entorn, instal·leu la solució **Microsoft Dynamics 365 Project Operations**. 
 
