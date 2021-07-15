@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Implementació dels entorns
           items:
+            - name: Implementació manual de l'aplicació Dataverse del Project Operations amb compatibilitat amb l'escriptura doble
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Aprovisionament d'un entorn nou
               href: environment/resource-provision-new-environment.md
             - name: Model de seguretat
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novetats
       items:
+        - name: 'Juliol de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: 'Juny de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: 'Maig de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: 'Abril de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
@@ -282,7 +288,7 @@
           items:
             - name: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
               href: project-management/dev-copy-project.md
-            - name: Ús d'API de planificació (versió preliminar pública)
+            - name: Ús d'API de planificació de projectes (versió preliminar pública)
               href: project-management/schedule-api-preview.md
     - name: Administració de recursos
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Informació general del procés de facturació
           href: invoicing/post-project-invoices.md
-        - name: Administració de propostes de factura de projecte
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Facturació proforma
           items:
             - name: Administració del treball pendent de facturació basada en projectes
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configuració de l'automatització de factures basades en projectes
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Administració de propostes de factura de projecte
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Facturació dels clients
+          items:
+            - name: Administració de propostes de factura de projecte
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Comptabilitat correcta a l'esborrany de propostes de factures del projecte
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Facturació entre empreses
+          items:
+            - name: Informació general de la facturació entre empreses
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configuració de la facturació entre empreses
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Creació de transaccions entre empreses
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Creació de factures entre empreses de clients i proveïdors
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Comptabilitat del projecte
       items:
         - name: Valors per defecte de la dimensió financera
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Llibre diari d'integració del Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Facturació entre empreses
-          items:
-            - name: Informació general de la facturació entre empreses
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Configuració de la facturació entre empreses
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Creació de transaccions entre empreses
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Creació de factures entre empreses de clients i proveïdors
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Reconeixement d'ingressos
       items:
         - name: Informació general del reconeixement d'ingressos
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Novetats
       items:
+        - name: 'Novetats de juliol de 2021: implementació bàsica'
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: 'Novetats de juny de 2021: implementació bàsica'
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: 'Novetats de maig de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 'Novetats d''abril de 2021: implementació bàsica'
@@ -762,7 +774,7 @@
           items:
             - name: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
               href: project-management/dev-copy-project.md
-            - name: Ús d'API de planificació (versió preliminar pública)
+            - name: Ús d'API de planificació de projectes (versió preliminar pública)
               href: project-management/schedule-api-preview.md
     - name: Administració de recursos
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Novetats
       items:
+        - name: 'Novetats de juliol de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 'Novetats de maig de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 'Novetats d''abril de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 'Novetats de març de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
@@ -1034,6 +1050,10 @@
       items:
         - name: "Planificació del llançament d'actualitzacions per al Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Novetats o canvis del llançament de l'actualització\_33, V3"
+          href: psa/whats-new-ur-33.md
+        - name: "Novetats o canvis del llançament de l'actualització\_32.5, V3"
+          href: psa/whats-new-ur-32-5.md
         - name: "Novetats o canvis del llançament de l'actualització\_32, V3"
           href: psa/whats-new-ur-32.md
         - name: "Novetats o canvis del llançament de l'actualització\_31, V3"
