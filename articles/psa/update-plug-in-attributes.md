@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012799"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988774"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Actualitzar els atributs de complement per incloure noves dimensions de preus
 
@@ -42,25 +42,25 @@ En els passos següents s'explica el procés per registrar els complements.
 1. Obriu el **Plugin Registration Tool** i connecteu-vos a la instància en línia.
 2. Feu clic a **Cerca** i cerqueu el complement que voleu actualitzar.
 
- ![Captura de pantalla de l'arbre de cerca](media/PRT-1.png)
+ ![Captura de pantalla de l'arbre de cerca.](media/PRT-1.png)
 
 3. Un cop s'hagi trobat el complement, seleccioneu-lo i, a continuació,feu clic a **Selecciona al formulari principal**.
 
 4. Seleccioneu el pas del complement que voleu actualitzar, feu clic amb el botó dret i, a continuació, seleccioneu **Actualitza**.
 
- ![Captura de pantalla del complement que s'actualitzarà](media/PRT-2.png)
+ ![Captura de pantalla del complement que s'actualitzarà.](media/PRT-2.png)
  
 5. A la finestra de l'actualització, feu clic als punts suspensius (**...**) als atributs de filtratge.
 
- ![Captura de pantalla de la informació de configuració d'actualització d'un pas existent](media/PRT-3.png)
+ ![Captura de pantalla de la informació de configuració d'actualització d'un pas existent.](media/PRT-3.png)
  
 6. Seleccioneu les caselles de selecció de l'atribut de preus.
 
- ![Captura de pantalla que mostra la casella de selecció dels atributs de preus](media/PRT-4.png)
+ ![Captura de pantalla que mostra la casella de selecció dels atributs de preus.](media/PRT-4.png)
 
 7. Feu clic a **D'acord** per tancar la pàgina i, a continuació, seleccioneu **Actualitza el pas**.
 
- ![Captura de pantalla que mostra el botó "Actualitza el pas"](media/PRT-5.png)
+ ![Captura de pantalla que mostra el botó "Actualitza el pas".](media/PRT-5.png)
  
 8. Repetiu aquest procés per al segon complement, **PreOperationQuoteLineDetail - Actualització de msdyn_quotelinetransaction**.
 

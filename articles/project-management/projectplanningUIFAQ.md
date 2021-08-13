@@ -2,17 +2,17 @@
 title: Solucionar problemes de funcionament a la quadrícula de tasques
 description: En aquest tema es proporciona informació sobre la detecció d'errors que es necessita quan es treballa a la quadrícula de tasques.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213388"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989089"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemes de funcionament a la quadrícula de tasques 
 
@@ -24,7 +24,7 @@ En aquest tema es descriu com solucionar els problemes amb què us podeu trobar 
 
 El Project Operations requereix que s'habilitin galetes de tercers per representar l'estructura del desglossament del treball. Quan les galetes de tercers no estan habilitades, en lloc de veure les tasques, veureu una pàgina en blanc quan seleccioneu la pestanya **Tasques** a la pàgina **Projecte**.
 
-![Pestanya en blanc quan les galetes de tercers no estan habilitades](media/blankschedule.png)
+![Pestanya en blanc quan les galetes de tercers no estan habilitades.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Solució alternativa
@@ -52,11 +52,22 @@ Per als navegadors Microsoft Edge o Google Chrome, a continuació s'explica com 
 El Project Operations requereix que un paràmetre de projecte faci referència a l'extrem del PEX. Aquest extrem es necessita per comunicar-se amb el servei utilitzat per representar l'estructura del desglossament del treball. Si el paràmetre no està habilitat, rebreu l'error "El paràmetre de projecte no és vàlid". 
 
 ### <a name="workaround"></a>Solució alternativa
- ![Camp extrem del PEX al paràmetre de projecte](media/projectparameter.png)
 
 1. Afegiu el camp **extrem del PEX** a la pàgina **Paràmetres del projecte**.
-2. Actualitzeu el camp amb el següent valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Suprimiu el camp de la pàgina **Paràmetres del projecte**.
+2. Identifiqueu el tipus de producte que utilitzeu. Aquest valor s'utilitza quan es defineix l'extrem PEX. Després de recuperar-se, el tipus de producte ja està definit a l'extrem PEX. Conserveu aquest valor. 
+   
+    ![Camp extrem del PEX al paràmetre de projecte.](media/pex-endpoint.png)
+
+3. Actualitzeu el camp amb el següent valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Tipus de producte                         | Tipus paràmetre |
+   |--------------------------------------|----------------|
+   | Project for the Web a l'organització per defecte   | tipus=0         |
+   | Project for the Web a l'organització anomenada CDS | tipus=1         |
+   | Project Operations                   | tipus=2         |
+   
+4. Suprimiu el camp de la pàgina **Paràmetres del projecte**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilegis per al projecte per al web
 
@@ -67,7 +78,7 @@ El Project Operations es basa en un servei de planificació extern. El servei re
 
 1. Aneu a **Configuració > Seguretat > Usuaris > Usuaris d'aplicació**.  
 
-   ![Lector de l'aplicació](media/applicationuser.jpg)
+   ![Lector de l'aplicació.](media/applicationuser.jpg)
    
 2. Feu doble clic al registre d'usuari de l'aplicació per verificar el següent:
 
@@ -76,7 +87,7 @@ El Project Operations es basa en un servei de planificació extern. El servei re
  
 3. Si aquest usuari no existeix, podeu crear un registre d'usuari nou. Seleccioneu **Usuaris nous**. Canvieu el formulari d'entrada a **Usuari de l'aplicació** i, a continuació, afegiu **l'identificador de l'aplicació**.
 
-   ![Detalls de l'usuari de l'aplicació](media/applicationuserdetails.jpg)
+   ![Detalls de l'usuari de l'aplicació.](media/applicationuserdetails.jpg)
 
 4. Verifiqueu que s'hagi assignat la llicència correcta a l'usuari i que el servei estigui habilitat als detalls dels plans de servei de la llicència.
 5. Verifiqueu que l'usuari pot obrir project.microsoft.com.

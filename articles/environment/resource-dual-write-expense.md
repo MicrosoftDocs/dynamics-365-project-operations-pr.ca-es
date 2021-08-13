@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999974"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986569"
 ---
 # <a name="expense-management-integration"></a>Integració de l'administració de despeses
 
@@ -28,7 +28,7 @@ En una implementació total de les despeses, es creen i es mantenen les categori
 2. A Finances, aneu a **Administració de despeses** > **Configuració** > **Categories compartides** i seleccioneu una categoria compartida amb una classe de transacció **Despesa**. Definiu el paràmetre **Es pot utilitzar en despesa** com a **Cert** i definiu el tipus de despesa que s'utilitzarà.
 3. Amb aquest registre de categoria compartida, creeu una categoria de despesa nova anant a **Administració de despeses** > **Configuració** > **Categories de despeses** i seleccionant **Crea**. Quan el registre es desa, la doble escriptura utilitza l'assignació de taules **Entitat d'exportació de categories de despeses del projecte d'integració del Project Operations (msdyn\_despesescategories)** per sincronitzar aquest registre amb el Dataverse.
 
-  ![Integració de categories de despesa](./media/DW6ExpenseCategories.png)
+  ![Integració de categories de despesa.](./media/DW6ExpenseCategories.png)
 
 Les categories de despesa de les aplicacions del Finance and Operations són específiques de l'empresa o de l'entitat jurídica. Hi ha registres específics d'entitats jurídiques corresponents i separades al Dataverse. Quan un administrador del projecte calcula les despeses, no pot seleccionar les categories de despeses creades per a un projecte que és propietat d'una empresa diferent de l'empresa propietària del projecte en què estan treballant. 
 
@@ -40,7 +40,7 @@ Els informes de despeses es creen i s'aproven a les aplicacions del Finance and 
   - La doble escriptura se sincronitza amb el Dataverse mitjançant l'assignació de taules **Entitat d'exportació de despeses del projecte d'integració del Project Operations (msdyn\_expenses)**.
   - El subllibre de comptabilitat d'impostos, el subllibre de comptabilitat de proveïdors i les altres publicacions financeres es registren segons calgui en el moment de publicar l'informe de despeses.
 
-  ![Integració d'informes de despeses](./media/DW6ExpenseReports.png)
+  ![Integració d'informes de despeses.](./media/DW6ExpenseReports.png)
 
 Quan s'escriu un registre a l'entitat **Despesa** al Dataverse, el sistema activa el procés d'aprovació automatitzada del registre. Si cal, l'estat del procés d'aprovació automatitzada es pot revisar al Dataverse anant a **Configuració avançada** > **Sistema** > **Feines del sistema**. Un cop completada l'aprovació, es creen registres de classes de transacció de despeses a l'entitat **Valors reals**.
 

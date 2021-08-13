@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997724"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988684"
 ---
 # <a name="manage-time-zones"></a>Administració de fusos horaris
 
@@ -32,13 +32,13 @@ Per obtenir resultats precisos i predictibles quan s'utilitza **Amplia la reserv
 
 - L'usuari ha de configurar el fus horari del dispositiu perquè coincideixi amb el fus horari definit a la **configuració de personalització** del sistema.
  
-  ![Configuració de fus horari al Windows 10](media/reconcile-assignments-03.png)
+  ![Configuració de fus horari al Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Configuració del fus horari a la Configuració de personalització](media/reconcile-assignments-04.png)
+  ![Configuració del fus horari a la Configuració de personalització.](media/reconcile-assignments-04.png)
  
 - El recurs reservable ha de tenir com a mínim un minut de temps de treball que se solapi amb els contorns que s'utilitzen per definir l'extensió sol·licitada. Per exemple, els recursos següents amb hores de feina entre les 9:00 h i les 19:00 h. 
 
-  ![Comparativa de contorns de recursos](media/reconcile-assignments-05.png)
+  ![Comparativa de contorns de recursos.](media/reconcile-assignments-05.png)
 
 La taula següent mostra:
 
@@ -47,25 +47,25 @@ La taula següent mostra:
 - Recurs B: aquest recurs es troba en un fus horari diferent del projecte i comença a les 7:00 h del seu fus horari. No obstant això, les reserves començaran a partir de 9:00 h, que és la primera hora d'inici del contorn d'assignació.
 - Recursos C i D: els recursos es troben ubicats en diferents fusos horaris, diferents entre si i el projecte, i les seves reserves no comencen abans de les seves respectives hores d'inici disponibles.
 
-|Entitat  |Calendari  |
+|Entity  |Calendari  |
 |-|-|
-|Plantilla de calendari de projecte   | ![calendari de projecte](media/reconcile-assignments-06.png) |
-|Recurs A  | ![Calendari del recurs A](media/reconcile-assignments-06.png) |
-|Recurs B  |  ![Calendari del recurs B](media/reconcile-assignments-07.png) |
-|Recurs C  |  ![Calendari del recurs C](media/reconcile-assignments-08.png) |
-|Recurs D  | ![Calendari del recurs D](media/reconcile-assignments-09.png)  |
+|Plantilla de calendari de projecte   | ![calendari de projecte.](media/reconcile-assignments-06.png) |
+|Recurs A  | ![Calendari del recurs A.](media/reconcile-assignments-06.png) |
+|Recurs B  |  ![Calendari del recurs B.](media/reconcile-assignments-07.png) |
+|Recurs C  |  ![Calendari del recurs C.](media/reconcile-assignments-08.png) |
+|Recurs D  | ![Calendari del recurs D.](media/reconcile-assignments-09.png)  |
  
 Quan navegueu a la visualització **Conciliació**, es mostren les assignacions de recursos i les mancances de reserva associades.
 
-![Visualització de conciliació abans de l'ampliació](media/reconcile-assignments-10.png)
+![Visualització de conciliació abans de l'ampliació.](media/reconcile-assignments-10.png)
 
 Un cop s'ha utilitzat la funcionalitat d'ampliació de la reserva per a cada recurs, les reserves s'amplien correctament per a cada recurs, perquè les hores de feina de cada recurs se superposen amb els contorns de la manca.
 
-![Visualització de conciliació després de l'ampliació de la reserva](media/reconcile-assignments-11.png) 
+![Visualització de conciliació després de l'ampliació de la reserva.](media/reconcile-assignments-11.png) 
 
 Observeu que una mirada més profunda dels detalls de les reserves mostra diferències en l'hora d'inici de les reserves. Les reserves no comencen abans de l'hora d'inici del contorn d'assignació ni abans de l'hora d'inici disponible del recurs.
 
-![Noves reserves dels recursos al tauler de planificació](media/reconcile-assignments-12.png)
+![Noves reserves dels recursos al tauler de planificació.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

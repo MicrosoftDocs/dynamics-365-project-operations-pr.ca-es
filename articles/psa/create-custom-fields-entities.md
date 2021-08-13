@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998939"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992419"
 ---
 # <a name="create-custom-fields-and-entities"></a>Crear camps i entitats personalitzats 
 
@@ -43,7 +43,7 @@ Una dimensió de preus pot ser una conjunt d'opcions o una entitat. Tots dos s'h
 2. A l'Explorador de solucions, a la subfinestra de navegació esquerra, seleccioneu **Entitats**.
 3. Feu clic a **Nou** per crear una entitat nova anomenada **Càrrec estàndard**. Introduïu la informació requerida restant i feu clic a **Desa**.
 
-> ![Definició de l'entitat de càrrec estàndard](media/Standard-Title-entity-definition.png)
+> ![Definició de l'entitat de càrrec estàndard.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensions basades en un conjunt d'opcions 
@@ -54,9 +54,9 @@ Podeu crear dues dimensions basades en un conjunt d'opcions. Utilitzeu **Ubicaci
 2. A l'Explorador de solucions, a la subfinestra de navegació esquerra, seleccioneu **Conjunts d'opcions**. 
 3. Feu clic a **Nou** per crear un conjunt d'opcions nou, introduïu la informació necessària restant i, a continuació, feu clic a **Desa**.
 
-> ![Dimensió de preus basada en conjunt d'opcions anomenada Ubicació de treball del recurs ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensió de preus basada en conjunt d'opcions anomenada Ubicació de treball del recurs.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Dimensió de preus basada en conjunt d'opcions anomenada Hores de treball del recurs ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Dimensió de preus basada en conjunt d'opcions anomenada Hores de treball del recurs.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Crear dades per a les dimensions basades en l'entitat
@@ -68,7 +68,7 @@ Podeu crear dades per a les dimensions basades en l'entitat manualment o mitjan�
 3. Tanqueu el formulari. 
 4. Repetiu els passos 1-3 per crear un altre càrrec estàndard per a "Enginyer de sistemes sènior".
 
-> ![Dades d'exemple per a l'entitat Càrrec estàndard ](media/ST-data.png)
+> ![Dades d'exemple per a l'entitat Càrrec estàndard.](media/ST-data.png)
 
 
 

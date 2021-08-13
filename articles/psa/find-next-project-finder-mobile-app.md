@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007489"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990754"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Trobeu el pròxim projecte amb l'aplicació Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Amb l'aplicació Project Finder Mobile del vostre telèfon [!INCLUDE[tn_iphone](
   
  Premeu la fletxa que apareix a la part superior del projecte en el que esteu interessats per veure més informació i subscriure-us.  
   
- ![Llista de projectes coincidents amb les habilitats a l'aplicació Cercador de projectes](../psa/media/project-service-project-finder-list.png "Llista de projectes coincidents amb les habilitats a l'aplicació Cercador de projectes")  
+ ![Llista de projectes coincidents amb les habilitats a l'aplicació Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Llista de projectes coincidents amb les habilitats a l'aplicació Cercador de projectes")  
   
 ## <a name="update-your-skills"></a>Actualitza les aptituds  
  Premeu el botó del perfil que apareix a la part inferior dreta de la pantalla per actualitzar les aptituds i els nivells de competència.  
   
- ![Botó PErfil a l'aplicació mòbil Cercador de projectes](../psa/media/project-service-project-finder-profile.png "Botó PErfil a l'aplicació mòbil Cercador de projectes")  
+ ![Botó Perfil a l'aplicació Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Botó PErfil a l'aplicació mòbil Cercador de projectes")  
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)

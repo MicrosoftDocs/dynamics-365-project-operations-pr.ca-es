@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011044"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986749"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Actualitzeu el Project Operations a l'entorn de finances
 
@@ -33,7 +33,7 @@ Aquest tema proporciona informació sobre com actualitzar el Dynamics 365 Projec
 4. Comproveu que l'entorn s'estigui executant. Si no s'ha iniciat, inicieu l'entorn.
 5. A la secció **Nova versió**, a **Actualitzacions disponibles**, seleccioneu **Visualitza l'actualització** per a 10.0.15.
 
-![Visualitza el botó d'actualització](media/view-update.png)
+![Visualitza el botó d'actualització.](media/view-update.png)
 
 6. A la pàgina **Actualitzacions binàries**, seleccioneu **Desa el paquet**.
 7. A la pàgina **Revisa i desa actualitzacions**, seleccioneu **Desa el paquet**.
@@ -47,11 +47,11 @@ Aquest tema proporciona informació sobre com actualitzar el Dynamics 365 Projec
 2. A la llista, seleccioneu el paquet que heu desat abans i, a continuació, seleccioneu **Aplica**.
 3. Seleccioneu **Sí** per confirmar que voleu implementar el paquet.
 
-![Quadre de diàleg Confirmació de la implementació del paquet](media/confirm-package-deployment.png)
+![Quadre de diàleg Confirmació de la implementació del paquet.](media/confirm-package-deployment.png)
 
 4. Seleccioneu **Sí** per confirmar que voleu actualitzar l'aplicació.
 
-![Quadre de diàleg Confirmació de l'actualització de l'aplicació](media/confirm-application-update.png)
+![Quadre de diàleg Confirmació de l'actualització de l'aplicació.](media/confirm-application-update.png)
 
 S'iniciarà la implementació i l'actualització de l'aplicació. 
 
@@ -84,7 +84,7 @@ Les actualitzacions següents per als privilegis de seguretat per a les entitats
 
 1. Al vostre entorn del Dataverse, aneu a **Configuració** i, al grup **Sistema**, seleccioneu **Seguretat**.
 
-![Configuració de l'entorn del Dataverse](media/Picture21.png)
+![Configuració de l'entorn del Dataverse.](media/Picture21.png)
 
 2. Seleccioneu **Funcions de seguretat**.
 3. A la llista de funcions, seleccioneu **usuari de l'aplicació de doble escriptura** i seleccioneu la pestanya **Entitats personalitzades**. 
@@ -121,7 +121,7 @@ Les actualitzacions següents per als privilegis de seguretat per a les entitats
 6. A la llista de mapes, seleccioneu l'assignació **Llibre major (msdyn_ledgers)** amb tots els requisits previs i activeu la casella de selecció **Sincronització inicial**. 
 7. Al camp **Mestre per a la sincronització inicial**, seleccioneu les **aplicacions Finance and Operations** i, a continuació, seleccioneu **Executa**.
  
- ![Sincronització de l'assignació de llibres majors](media/DW6.png)
+ ![Sincronització de l'assignació de llibres majors.](media/DW6.png)
  
 
 

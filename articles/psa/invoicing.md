@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015049"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985489"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturació al Project Service Automation
 
@@ -50,7 +50,7 @@ Seguiu aquest pas per crear una factura per a un contracte de projecte específi
 
 - A la pàgina de llista **Contractes del projecte**, obriu un contracte de projecte i, a continuació, seleccioneu **Crea una factura**.
 
-    ![Crear factures de projecte per a un contracte específic de projecte](media/CreateProjectInvoicesOneByOne.png)
+    ![Crear factures de projecte per a un contracte específic de projecte.](media/CreateProjectInvoicesOneByOne.png)
 
     Es genera una factura per a totes les transaccions del contracte de projecte seleccionat que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, fites i línies de contracte basades en productes.
 
@@ -58,7 +58,7 @@ Seguiu aquests passos per crear factures de manera massiva.
 
 1. A la pàgina de llista **Contractes del projecte**, seleccioneu un o diversos contractes de projecte per als quals heu de crear una factura i, a continuació, seleccioneu **Crea les factures del projecte**.
 
-    ![Crear factures de projecte en massa](media/CreateProjectInvoicesBulk.png)
+    ![Crear factures de projecte en massa.](media/CreateProjectInvoicesBulk.png)
 
     Un missatge d'advertiment us informa que pot haver-hi un retard abans que es creïn les factures. El procés també es mostra.
 

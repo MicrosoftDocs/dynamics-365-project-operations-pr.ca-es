@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007579"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992374"
 ---
 # <a name="estimates"></a>Estimacions
 
@@ -83,24 +83,24 @@ Si heu afegit un camp personalitzat al detall de la línia d'oferta i voleu que 
 1. Obriu el PluginRegistrationTool i connecteu-vos a la instància en línia.
 2. Seleccioneu **Cerca** i cerqueu el complement que voleu actualitzar.
 
-    ![Quadre de diàleg Arbre de cerca](media/basic-guide-19.png)
+    ![Quadre de diàleg Arbre de cerca.](media/basic-guide-19.png)
 
 3. Seleccioneu el complement i, a continuació, a la pàgina principal, seleccioneu **Selecciona**.
 4. Seleccioneu el pas del complement que voleu actualitzar, feu clic amb el botó dret i, a continuació, seleccioneu **Actualitza**.
 
-    ![Seleccionar un pas en el complement](media/basic-guide-20.png)
+    ![Seleccionar un pas en el complement.](media/basic-guide-20.png)
 
 5. Al quadre de diàleg **Actualitza el pas existent**, al camp **Atributs de filtratge**, seleccioneu el botó de punts suspensius (**...**):
  
-    ![Quadre de diàleg Actualitza el pas existent](media/basic-guide-21.png)
+    ![Quadre de diàleg Actualitza el pas existent.](media/basic-guide-21.png)
 
 6. Al quadre de diàleg **Selecció d'atributs**, seleccioneu les caselles de selecció per als atributs personalitzats.
 
-    ![Quadre de diàleg Selecció d'atributs](media/basic-guide-22.png)
+    ![Quadre de diàleg Selecció d'atributs.](media/basic-guide-22.png)
 
 7. Seleccioneu **D'acord** per tancar el quadre de diàleg i, a continuació, seleccioneu **Actualitza el pas**.
  
-    ![Botó Actualitza el pas](media/basic-guide-23.png)
+    ![Botó Actualitza el pas.](media/basic-guide-23.png)
 
 8. Repetiu els passos de l'1 al 7 per al segon complement.
 9. Tanqueu el PluginRegistrationTool.

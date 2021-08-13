@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015004"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985129"
 ---
 # <a name="manage-resource-requests-project-service"></a>Administrar les sol·licituds de recursos (Project Service)
 
@@ -43,7 +43,7 @@ Els administradors de comptes i de projectes normalment sol·liciten recursos pe
   
    -   Feu clic a **Filtra** per visualitzar la subfinestra **Filtra**, des d'on podreu filtrar els resultats per unitat organitzativa, funció, habilitat o altres atributs.  
   
-       ![Pantalla Sol·licituds de recursos del Project Service](../psa/media/project-service-resource-request-screen.png "Pantalla Sol·licituds de recursos del Project Service")  
+       ![Pantalla Sol·licituds de recursos del Project Service.](../psa/media/project-service-resource-request-screen.png "Pantalla Sol·licituds de recursos del Project Service")  
   
 3. Al calendari del recurs que voleu reservar, seleccioneu el període de temps per reservar el recurs i, a continuació, feu clic a **Reserva** per reservar el recurs o a **Proposa una reserva** per proposar la reserva i que el sol·licitant l'aprovi. Quan reserveu un recurs, podeu fer una reserva flexible o una reserva fixa.  
   

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: a6955dcd1ebe494e0171c30ac4384089da6a8745
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999704"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988189"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronitzar les estimacions del projecte directament des del Project Service Automation al Finance and Operations
 
@@ -38,7 +38,7 @@ La solució d'integració del Project Service Automation al Finance utilitza la 
 
 A la il·lustració següent es mostren les dades que se sincronitzen entre el Project Service Automation i el Finance.
 
-[![Flux de dades per a la integració de Project Service Automation amb el Finance](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Flux de dades per a la integració de Project Service Automation amb el Finance.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Estimacions d'hores del projecte
 
@@ -95,7 +95,7 @@ Heu d'afegir un filtre per suprimir qualsevol fila que tingui categories de tran
 
 A la il·lustració següent es mostra un exemple de l'assignació de tasques de plantilla a la integració de dades. L'assignació mostra la informació de camp que se sincronitzarà del Project Service Automation al Finance.
 
-[![Assignació de tasques de plantilla a la integració de dades](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Assignació de tasques de plantilla a la integració de dades.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Estimacions de despesa del projecte
 
@@ -165,9 +165,9 @@ else **null**
 
 A les il·lustracions següents es mostren exemples de l'assignació de tasques de plantilla a la integració de dades. L'assignació mostra la informació de camp que se sincronitzarà del Project Service Automation al Finance.
 
-[![Assignació de plantilles de transaccions d'estimació de despeses](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Assignació de plantilles de transaccions d'estimació de despeses.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Assignació de plantilles d'estimacions de despeses](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![Assignació de plantilles d'estimacions de despeses.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

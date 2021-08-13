@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304244"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987919"
 ---
 # <a name="integration-journal-in-project-operations"></a>Llibre diari d'integració del Project Operations
 
@@ -19,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Les entrades de temps i despeses creen transaccions de **valors reals** que representen la visualització operativa del treball completat en relació amb un projecte. El Dynamics 365 Project Operations proporciona als comptables una eina per revisar les transaccions i ajustar els atributs comptables segons calgui. Un cop finalitzada la revisió i els ajustos, les transaccions es comptabilitzen al llibre diari del projecte i al llibre diari general. Un comptable pot realitzar aquestes activitats a través del diari **Integració del Project Operations** (**Dynamics 365 Finance** > **Administració de projectes i comptabilitat** > **Diaris** > **Integració del Project Operations**.
 
-![Flux del diari d'integració](./media/IntegrationJournal.png)
+![Flux del diari d'integració.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Crear registres al diari d'integració del Project Operations
 

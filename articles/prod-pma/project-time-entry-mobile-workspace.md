@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009919"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989539"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Àrea de treball mòbil Entrada de temps del projecte
 
@@ -94,7 +94,7 @@ Descarregueu i instal·leu l'aplicació mòbil Finance and Operations:
 3.  La primera vegada que inicieu la sessió, se us demanarà el vostre nom d'usuari i la vostra contrasenya. Introduïu les vostres credencials.
 4.  Després d'iniciar la sessió, es mostren les àrees de treball disponibles per a la vostra empresa. Heu de tenir en compte que si l'administrador del sistema publica una àrea de treball nova més tard, haureu d'actualitzar la llista d'àrees de treball mòbils.
 
-[![Llisca avall per actualitzar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Llisca avall per actualitzar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Introduir el temps mitjançant l'àrea de treball mòbil Entrada de temps del projecte
 1.  Al dispositiu mòbil, seleccioneu l'àrea de treball **Entrada de temps del projecte**.

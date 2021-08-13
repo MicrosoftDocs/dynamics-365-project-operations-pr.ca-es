@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000604"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986659"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Addició d'una subscripció a l'Azure a un projecte del LCS
 
@@ -23,35 +23,35 @@ Els entorns allotjats al núvol s'han de implementar mitjançant una subscripci�
 
 1. Al projecte del LCS, a la secció **Entorns**, seleccioneu **Configuració del Microsoft Azure**.
 
-![Configuració del Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Configuració del Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. A la pàgina **Configuració del projecte**, a la pestanya **Connectors de l'Azure**, seleccioneu **Autoritza**. Això permet que els entorns s'implementin en aquest projecte.
 
-![Connectors de l'Azure](./media/2AzureConnectors.png)
+![Connectors de l'Azure.](./media/2AzureConnectors.png)
 
 3. Torneu a seleccionar **Autoritza** per proporcionar el consentiment de l'administrador.
 
-![Concedir el consentiment de l'administrador](./media/3GrantAdminConsent.png)
+![Concedir el consentiment de l'administrador.](./media/3GrantAdminConsent.png)
 
 4. Accepteu la sol·licitud de permisos.
 
-![Acceptar la sol·licitud de permisos](./media/4AcceptPermissionRequest.png)
+![Acceptar la sol·licitud de permisos.](./media/4AcceptPermissionRequest.png)
 
 L'autorització ja s'ha completat. 
 
-![Autorització correcta](./media/5AuthorizationComplete.png)
+![Autorització correcta.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Proporcionar l'accés dels serveis d'implementació del Dynamics a la subscripció de l'Azure
 
 1. Aneu a [Facturació del Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) i seleccioneu la vostra subscripció. Els serveis d'implementació del Dynamics necessiten accedir a aquesta subscripció per poder implementar entorns.
 
-![Detalls de la subscripció de l'Azure](./media/6AzureSubscription.png)
+![Detalls de la subscripció de l'Azure.](./media/6AzureSubscription.png)
 
 2. Seleccioneu **Control d'accés (IAM)** a la subfinestra de navegació i, a continuació, seleccioneu **Afegeix una assignació de funcions**.
 3. Al control lliscant del costat dret, seleccioneu **Funció de col·laborador** i, a la llista proporcionada, cerqueu i seleccioneu **Serveis d'implementació del Dynamics**. 
 4. Seleccioneu **Desa**.
 
-![Accés de la subscripció](./media/7SubscriptionAccess.png)
+![Accés de la subscripció.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Afegir un connector de subscripció a un projecte del LCS
 

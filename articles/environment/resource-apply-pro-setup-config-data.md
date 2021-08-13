@@ -6,12 +6,12 @@ ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001279"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986614"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configuració i aplicació de les dades de configuració al Common Data Service 
 
@@ -35,24 +35,24 @@ Abans de començar a configurar les dades al Common Data Service (CDS), cal comp
 2. Aneu a la carpeta descomprimida i executeu el fitxer executable, *DataMigrationUtility*.
 3. A la pàgina 1 de l'auxiliar de configuració de la migració del Common Data Service (CMT), seleccioneu **Importa les dades** i, a continuació, seleccioneu **Continua**.
 
-![Migració de la configuració](./media/1ConfigurationMigration.png)
+![Migració de la configuració.](./media/1ConfigurationMigration.png)
 
 4. A la pàgina 2 de l'auxiliar CMT, seleccioneu **Microsoft 365** com a **Tipus d'implementació**.
 5. Marqueu les caselles **Mostra una llista d'organitzacions disponibles** i **Mostra les opcions avançades**.
 6. Seleccioneu la regió del vostre inquilí, introduïu les credencials i seleccioneu **Inicia la sessió**.
 
-![Inici de sessió de configuració](./media/2ConfigurationSignin.png)
+![Inici de sessió de configuració.](./media/2ConfigurationSignin.png)
 
 7. A la pàgina 3, a la llista d'organitzacions de l'inquilí, seleccioneu l'organització a la qual voleu importar les dades de demostració i feu clic a **Inicia la sessió**.
 8. A la pàgina 4, seleccioneu el fitxer zip *MasterAndSetupData* de la carpeta desempaquetada.
 
-![Selecció del fitxer ZIP](./media/3ZipFile.png)
+![Selecció del fitxer ZIP.](./media/3ZipFile.png)
 
-![Permet seleccionar un fitxer.](./media/4SelectAFile.png)
+![Seleccioneu un fitxer.](./media/4SelectAFile.png)
 
 9. Després de seleccionar el fitxer zip, seleccioneu **Importa les dades**.
 
-![Importa les dades](./media/5ImportData.png)
+![Importa dades.](./media/5ImportData.png)
 
 10. La importació s'executarà durant aproximadament dos-deu minuts en funció de la velocitat de la xarxa. Després de completar-se la importació, sortiu de l'auxiliar de CMT. 
 11. Consulteu a la vostra organització les dades de les següents 26 entitats:
@@ -84,50 +84,50 @@ Abans de començar a configurar les dades al Common Data Service (CDS), cal comp
   - Associació de categoria de recursos que es poden reservar
   - Característica dels recursos que es poden reservar
 
-![Importació completada](./media/6CompleteImport.png)
+![Importació completada.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Actualitzar les configuracions del Project Operations
 
 1. Navegueu a l'entorn del CE. Podeu trobar-la obrint el [centre d'administració del Power Platform](https://admin.powerplatform.microsoft.com/environments), seleccionant l'entorn i, a continuació, seleccionant **Obre l'entorn**. 
 
-![Obrir l'entorn](./media/7OpenEnvironment.png)
+![Obrir l'entorn.](./media/7OpenEnvironment.png)
 
 2. Aneu a **Projectes** > **Recursos** i, a continuació, seleccioneu **Nou** per crear un recurs reservable per a l'usuari.
 
-![Recursos que es poden reservar](./media/8BookableResources.png)
+![Recursos que es poden reservar.](./media/8BookableResources.png)
 
 3. A la pestanya **General**, seleccioneu el vostre usuari d'administració. Verifiqueu que el fus horari coincideixi amb el fus en què us trobeu. 
 
-![Nou recurs que es pot reservar](./media/9NewBookableResource.png)
+![Nou recurs que es pot reservar.](./media/9NewBookableResource.png)
 
 4. A la pestanya **Planificació**, al camp **Empresa**, trieu l'empresa **USPM** i, a continuació, seleccioneu **Desa**. 
 
-![Pestanya Planificació](./media/10SchedulingTab.png)
+![Pestanya Planificació.](./media/10SchedulingTab.png)
 
 5. Seleccioneu la pestanya **Hores de treball**.  
 
-![Hores de feina](./media/11WorkHours.png)
+![Hores de feina.](./media/11WorkHours.png)
 
 6. Feu doble clic a qualsevol valor del calendari i seleccioneu **Edita** > **Tots els esdeveniments de la sèrie**. 
 
-![Calendari de treball](./media/12WorkCalendar.png)
+![Calendari de treball.](./media/12WorkCalendar.png)
 
 7. Canvieu les hores de treball a una jornada de treball de vuit (8) hores, marqueu els caps de setmana com a dies inhàbils i assegureu-vos que el fus horari coincideixi amb el vostre. 
 8. Seleccioneu **Desa i tanca**.
 
-![Actualitzar el calendari](./media/13UpdateCalendar.png)
+![Actualitzar el calendari.](./media/13UpdateCalendar.png)
 
 9. Aneu a **Configuració** > **Plantilles de calendari** i seleccioneu **Nova**.
  
- ![Plantilles de calendari](./media/14CalendarTemplates.png)
+ ![Plantilles de calendari.](./media/14CalendarTemplates.png)
  
  10. Introduïu un nom, seleccioneu el recurs de la plantilla que heu creat i, a continuació, seleccioneu **Desa**. 
  
- ![Desar la plantilla de calendari](./media/15SaveCalendarTemplate.png)
+ ![Desar la plantilla de calendari.](./media/15SaveCalendarTemplate.png)
  
  11. Aneu a **Paràmetres** i feu doble clic al registre. 
  
- ![Paràmetres del projecte](./media/16ProjectParameters.png)
+ ![Paràmetres del projecte.](./media/16ProjectParameters.png)
  
 12. Actualitzeu els camps següents:
 
@@ -138,7 +138,7 @@ Abans de començar a configurar les dades al Common Data Service (CDS), cal comp
 
 13. Seleccioneu **Desa**. 
 
-![Paràmetres del projecte actualitzats](./media/17UpdatedProjectParameters.png)
+![Paràmetres del projecte actualitzats.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

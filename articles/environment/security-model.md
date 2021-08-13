@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002224"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991474"
 ---
 # <a name="security-model"></a>Model de seguretat
 
@@ -58,7 +58,7 @@ El Project Operations no crea un grup a través d'accions implícites i només h
 
 La cerca de membres del grup al quadre de diàleg **Administració de grups** està limitada a aquells que s'han definit com a part del grup de seguretat de l'entorn. Per obtenir més informació, consulteu [Control d'accés dels usuaris a entorns: grups de seguretat i llicències](/power-platform/admin/control-user-access).
 
-![Mode de grup](./media/groupsmode.png)
+![Mode de grup.](./media/groupsmode.png)
 
 1. El projecte es crea i és propietat de l'usuari que el crea.
 2. El propietari del projecte està actualitzat per a l'equip.

@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334770"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991519"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registre per obtenir una subscripció de versió preliminar (bàsica) 
 
@@ -52,16 +52,16 @@ Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador 
 
 1. Proveïu d'un nou entorn d'implementació del Dataverse del Project Operations seguint les instruccions del tema [Model d'implementació del Dataverse](lite-deployment.md). Quan seleccioneu el tipus d'entorn, assegureu-vos d'utilitzar **Prova (basada en subscripció)**.
 
-  ![Entorn nou](./media/19CreateEnvironment.png)
+  ![Entorn nou.](./media/19CreateEnvironment.png)
 
 2. Seleccioneu l'opció **Habilita les aplicacions del Dynamics 365** i deixeu **Implementa aquestes aplicacions automàticament** en blanc.  
 3. Seleccioneu **Desa** per crear l'entorn.
 
-  ![Afegeix base de dades](./media/20CreateEnvironment1.png)
+  ![Afegeix base de dades.](./media/20CreateEnvironment1.png)
 
 4. Un cop creat l'entorn, instal·leu la solució **Microsoft Dynamics 365 Project Operations**. 
 
-![Instal·lar la solució](./media/21InstallSolution.png)
+![Instal·lar la solució.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instal·lar una configuració del CDS i configurar les dades de demostració
 

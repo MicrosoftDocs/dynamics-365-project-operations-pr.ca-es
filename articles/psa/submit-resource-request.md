@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013159"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984950"
 ---
 # <a name="submitting-a-resource-request"></a>Enviar una sol·licitud de recurs
 
@@ -34,7 +34,7 @@ Podeu enviar una sol·licitud de recurs generat com a sol·licitud de recurs. A 
 1. Al Project Service Automation (PSA), a la pàgina **Projectes**, feu clic a la pestanya **Equip** per visualitzar una llista de recursos que es poden reservar. 
 2. Seleccioneu el recurs genèric que té un requisit de recurs de la llista i, a continuació, feu clic a **Envia la sol·licitud**.
 
-![Enviar una sol·licitud de recurs](media/RM-how-to-18.png)
+![Enviar una sol·licitud de recurs.](media/RM-how-to-18.png)
 
 L'estat de sol·licitud del membre de l'equip genèric canviarà a **Enviada**.
 

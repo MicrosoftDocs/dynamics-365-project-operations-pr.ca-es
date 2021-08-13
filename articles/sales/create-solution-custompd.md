@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010324"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992194"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Creació d'una solució per a les dimensions de preus personalitzades
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010324"
 2.  Anomeneu la solució, *<your organization name>: dimensions de preus*.
 3. Introduïu la informació requerida restant i seleccioneu **Desa**.
 
-  ![Creació d'una solució de dimensió de preus personalitzada](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Creació d'una solució de dimensió de preus personalitzada.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Afegir totes les entitats necessàries i els components relacionats a la solució de la dimensió de preus
 
@@ -49,19 +49,19 @@ Afegiu les entitats del Project Service següents a la solució de preus per fer
    - **Preu per funció**
    - **Entrada de temps**
  
-   ![Afegir entitats existents a la solució de dimensió de preus personalitzada](./media/Existing-entities-to-PD-solution.png)
+   ![Afegir entitats existents a la solució de dimensió de preus personalitzada.](./media/Existing-entities-to-PD-solution.png)
  
  4. Per a cada entitat, reviseu els components que s'afegeixen i la llista final de recursos d'entitat per a cada entitat. 
 
    >[!NOTE]
    > Incloeu-hi tots els formularis i visualitzacions de cadascuna de les entitats seleccionades.
 
-  ![Entitats afegides](./media/solution-component-selection.png)
+  ![Entitats afegides.](./media/solution-component-selection.png)
 
 
 5.  Quan se us demani que incloeu entitats dependents per a les entitats seleccionades, seleccioneu **No, no incloguis els components necessaris**.
 
-    ![Incloure entitats dependents](./media/Do-not-include-required.png)
+    ![Incloure entitats dependents.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

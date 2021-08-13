@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006229"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985939"
 ---
 # <a name="create-a-new-project"></a>Crear un projecte nou
 
@@ -51,7 +51,7 @@ També podeu assignar categories per a un recurs a mesura que les necessiteu. El
 
 Un administrador de projectes pot utilitzar la funcionalitat de recursos de projecte per crear les funcions necessàries per al projecte. Es poden utilitzar funcions si els recursos confirmats es desconeixen quan es reserven els recursos. Les funcions es poden reservar temporalment com a recursos planificats per tal de poder continuar la fase de planificació del projecte.
 
-[![Exemple d'una funció](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Exemple d'una funció.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Escenari:** Contoso ha rebut un contracte per completar un projecte de temps i materials que té una carta de projecte aprovada. L'administrador de projectes júnior encara està completant l'àmbit del projecte. L'administrador de recursos està identificant actualment els recursos específics que es reservaran per treballar en el nou projecte. A causa del caràcter crític del projecte, el patrocinador del projecte ha sol·licitat l'administrador de projectes sènior com una de les funcions. L'administrador de recursos ha d'adquirir el recurs nou i definir la funció en el sistema en cas que l'administrador de projectes júnior requereixi la informació del recurs durant la planificació del projecte.
 
