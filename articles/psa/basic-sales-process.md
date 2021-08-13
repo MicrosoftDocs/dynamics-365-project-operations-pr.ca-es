@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014194"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000519"
 ---
 # <a name="sales-processes"></a>Processos de venda
 
@@ -39,7 +39,7 @@ Els processos de venda que s'utilitzen en una organització basada en projectes 
 
 A la il·lustració següent es mostra un procés de venda típic d'una organització basada en projectes.
 
-> ![Procés de venda d'una organització basada en projectes](media/basic-guide-1.png)
+> ![Procés de venda d'una organització basada en projectes.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Estimació d'una venda
 El valor d'una venda es pot estimar a partir de projectes que abans s'hagin lliurat i de la complexitat dels projectes. Per a projectes que comportin ampliacions a projectes previs, o projectes en els quals l'experiència del venedor és gran i s'utilitzen plantilles de treball, podeu utilitzar un procés d'estimació més senzill. Normalment, els projectes més complexos tenen un procés de compra més llarg. Per tant, hi ha més fases en el procés d'estimació de vendes. A principis del procés, l'equip de vendes utilitza l'entrada dels administradors del compte i els experts de la matèria (SME) per començar a crear una estimació d'alt nivell per a cada component diferent del treball que s'ofereix. Aquests components de treball es representen amb línies d'oferta. 
@@ -50,7 +50,7 @@ Podeu crear diverses ofertes per a un projecte i agrupar-les en un únic tipus d
 
 També podeu crear ofertes alternatives en un tipus d'entitat d'oportunitat o configurar el sistema per tal que es creï un contracte de projecte quan es guanya una oferta. En aquest cas, podeu adjuntar un document del Word que representi el SOW al registre de contracte del projecte.
 
-![Tancar una oferta per crear un contracte de projecte](media/basic-guide-2.png)
+![Tancar una oferta per crear un contracte de projecte.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Configurar el procés de vendes
 Podeu utilitzar els fluxos del procés de negoci (BPF) al Microsoft Dynamics 365 per configurar el procés de vendes. Els BPF donen al vostre personal de vendes una interfície visual guiada que poden utilitzar per fer avançar ofertes a través de les fases típiques de la vostra empresa.
@@ -66,7 +66,7 @@ Per exemple, pot ser que l'empresa tingui les sis fases següents en el procés 
 
 Aquestes sis fases estan representades per cometes (\>) que seleccioneu per expandir en cada tipus d'entitat d'oportunitat que creeu.
 
-![Configuració del procés de negoci al Dynamics 365](media/basic-guide-3.png)
+![Configuració del procés de negoci al Dynamics 365.](media/basic-guide-3.png)
  
 La vostra organització podria utilitzar entitats diferents per representar la mateixa oferta a mesura que evoluciona. A principis del procés de vendes, un acord està representat per l'entitat Oportunitat. A mesura que passa el temps i hi ha més detalls que sorgeixen, podríeu utilitzar estimacions d'alt nivell per crear una o diverses ofertes. Si una d'aquestes ofertes la revisen parts interessades internes i del client, l'entitat Oferta representa el tracte. Quan el client accepta l'oferta, un contracte o SOW del projecte representa el tracte. Per admetre aquest comportament, els BPF s'estructuren de manera que cada fase del procés es vincula a una altra taula de base de dades.
 
@@ -77,7 +77,7 @@ A mesura que l'oportunitat avanci a través de les fases, se us demanarà que cr
 > [!NOTE]
 > El PSA té pàgines específiques per a les entitats Oportunitat, Oferta, Comanda i Factura. Heu de crear oportunitats, ofertes, comandes i factures del Project Service mitjançant les pàgines d'informació del projecte per a aquestes entitats. Si utilitzeu una altra pàgina per crear un registre, no podreu obrir el registre des de la pàgina **Informació del projecte**. Si voleu obrir un registre des de la pàgina **Informació del projecte**, heu de suprimir el registre i tornar-lo a crear amb la pàgina **Informació del projecte**. A la pàgina **Informació del projecte**, la lògica empresarial per a cadascun d'aquests tipus d'entitats garanteix que el camp **Tipus** del registre es defineixi correctament i que tots els conceptes obligatoris s'inicialitzen correctament.
 
-> ![Informació del projecte per a una nova comanda](media/basic-guide-4.png)
+> ![Informació del projecte per a una nova comanda.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Diferències entre el Project Service Automation i el Sales
 Tot i que el procés de vendes del PSA utilitza les capacitats bàsiques del procés de venda al Sales, té algunes diferències clau a causa de les variacions de pràctiques empresarials d'organitzacions basades en projectes. A continuació trobareu alguns exemples:

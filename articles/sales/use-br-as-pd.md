@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011179"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996244"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Utilització d'un recurs que es pot reservar com a dimensió de preus
 
@@ -64,18 +64,18 @@ El registre de la dimensió de preus de **msydn_bookableresource** ha de ser inf
 1. Feu doble clic a la fila de la quadrícula **Dimensions de preus** per obrir la pàgina de dimensió de **msdyn_bookableresource**.
 2. A la pàgina dimensió, a la pestanya **Relacionat**, seleccioneu **Noms de camp de dimensions de preus**.
 
-  ![Pestanya Noms de camps de dimensions de preu](media/PD-fieldname.png)
+  ![Pestanya Noms de camps de dimensions de preu.](media/PD-fieldname.png)
 
 3. A la visualització associada que s'obre, seleccioneu **Afegeix un nou nom del camp de la dimensió de preus**.
 
-  ![Afegeix nous noms de camps de dimensions de preus](media/Add-NewPD-fieldname.png)
+  ![Afegeix nous noms de camps de dimensions de preus.](media/Add-NewPD-fieldname.png)
 
   S'obre la pàgina **Nou nom de camp de dimensions de preus** per a **msdyn_bookableresource**. 
 
 4. A la pàgina **Nom del camp nou de dimensió de preus**, afegiu **msdyn_projectteam** a **Nom lògic de l'entitat**.
 5. Afegiu **msdyn_bookableresourceid** al **Nom del camp**.
 
- ![Formulari Afegeix nous noms de camps de dimensions de preus](media/PD-fieldname-Added.png)
+ ![Formulari Afegeix nous noms de camps de dimensions de preus.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

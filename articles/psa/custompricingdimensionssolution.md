@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012304"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995254"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Crear solucions personalitzades per a les dimensions de preus
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012304"
 1. Seleccioneu **Configuració** > **Solucions** i, a continuació, **Nova**. 
 2. Anomeneu la solució **Dimensions de preus de \<your organization name>**, introduïu la informació necessària restant i, a continuació, seleccioneu **Desa**.
 
-> ![Crear una solució personalitzada per a les dimensions de preus](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Crear una solució personalitzada per a les dimensions de preus.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Afegir totes les entitats necessàries i els components relacionats a la solució de la dimensió de preus
 Haureu d'afegir les següents entitats del Project Service a la solució de preus. Completeu els passos d'aquest procediment per fer canvis importants d'esquema a la solució de preus de manera que les entitats coneguin les noves dimensions de preus.
@@ -54,16 +54,16 @@ Haureu d'afegir les següents entitats del Project Service a la solució de preu
 - Preu per funció 
 - Entrada de temps 
 
-> ![Afegir entitats existents a la solució de dimensions de preus](media/Existing-entities-to-PD-solution.png)
+> ![Afegir entitats existents a la solució de dimensions de preus.](media/Existing-entities-to-PD-solution.png)
 
-> ![Selecció de components de la solució](media/Dimension-Components.png)
+> ![Seleccionar components de la solució.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Assegureu-vos d'incloure tots els formularis i les visualitzacions de cadascuna de les entitats seleccionades.
 
 4. Quan se us demani que inclogueu entitats dependents de les entitats seleccionades, seleccioneu **No**.
 
-> ![No incloguis tots els components relacionats](media/Do-not-include-required.png)
+> ![No incloguis tots els components relacionats.](media/Do-not-include-required.png)
 
 
 

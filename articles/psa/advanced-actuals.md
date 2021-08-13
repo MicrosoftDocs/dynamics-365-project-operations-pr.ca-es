@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014824"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000744"
 ---
 # <a name="recording-actuals"></a>Enregistrament de valors reals 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014824"
 
 Totes les transaccions financeres que es produeixen durant un projecte es registren. Aquestes transaccions es registren com a **valors reals**. A la taula següent es mostren els diferents tipus de valors reals que s'han creat, en funció de si el projecte és un projecte de temps, de preu fix o intern, o si es troba a la fase de prevenda.
 
-> ![Taula que mostra com es registren els valors reals](media/advanced-table2.png)
+> ![Taula que mostra com es registren els valors reals.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

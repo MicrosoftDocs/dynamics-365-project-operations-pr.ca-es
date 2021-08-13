@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dd8e916b06d4d8ee77c800f601fb517d797b5c6d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998444"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998404"
 ---
 # <a name="project-schedules"></a>Planificació del projecte 
 
@@ -94,7 +94,7 @@ La graella **Planificació** és totalment accessible i es pot utilitzar amb lec
 
 Un nom de tasca descriu el treball que s'ha de completar. Al PSA, els atributs associats amb una tasca descriuen la planificació de la tasca i els seus requisits de dotació de personal.
 
-> ![Atributs de la tasca](media/project-2.png)
+> ![Atributs de la tasca.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Atributs de planificació
 

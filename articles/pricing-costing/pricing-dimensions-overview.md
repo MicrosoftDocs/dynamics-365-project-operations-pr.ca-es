@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368464"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001959"
 ---
 # <a name="pricing-dimensions-overview"></a>Informació general de les dimensions de preus
 
@@ -33,7 +33,7 @@ A causa d'això, hi ha dos tipus de valors de dimensió de preus disponibles:
 
 El Dynamics 365 Project Operations inclou de sèrie un conjunt de dimensions de preus per defecte. Podeu visualitzar aquestes dimensions de preus anant a **Project Operations** > **Paràmetres**. Al registre de paràmetre, a la pestanya **Dimensions de preus basades en l'import**, comproveu que la funció **msdyn_resourcecategory** i la unitat organitzativa de recursos **msdyn_organizationalunit** tinguin els camps **Aplicable a les vendes** i **Aplicable al cost** definits com a **Sí**. Amb aquests camps habilitats, podeu configurar el preu i el cost de cada combinació de funció i unitat organitzativa.
 
-![Captura de pantalla dels paràmetres del Project Service amb "Aplicable a les vendes" ressaltat](media/PS-OOB-parameters.png)
+![Captura de pantalla dels paràmetres del Project Service amb "Aplicable a les vendes" ressaltat.](media/PS-OOB-parameters.png)
 
 Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats. Per obtenir més informació, vegeu els temes següents. 
   

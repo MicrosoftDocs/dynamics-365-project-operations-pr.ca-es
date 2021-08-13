@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998309"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996919"
 ---
 # <a name="project-settings"></a>Configuració del projecte
 
@@ -47,7 +47,7 @@ Per crear una planificació de projecte, creeu uns plantilla de calendari de pro
   - Planificació de treball per a un dia
   - Temps lliure
 
-> ![Configurar les opcions](media/project-13.png)
+> ![Configurar les opcions.](media/project-13.png)
 
 4. Seleccioneu **Planificació setmanal nova** i, a continuació, definiu les opcions d'aquesta planificació de recursos. Podeu definir una planificació setmanal periòdica, paràmetres d'hores diàries, tancaments d'empresa, etc.
 5. Definiu l'interval de dates ,seleccioneu **Desa** i, a continuació, feu clic a **Tanca**. 

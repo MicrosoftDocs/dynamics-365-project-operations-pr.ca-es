@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007984"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995209"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Afegir nous formularis d'entitat personalitzats (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Seguiu els passos que es descriuen a continuació per crear una versió personal
     - Exporteu el formulari **La meva informació del projecte** com a part d'una solució no administrada i, a continuació, cerqueu el valor **formId** al fitxer customization.xml de la solució exportada.
     - Obriu el formulari **La meva informació del projecte** a l'editor de formularis i, a continuació, cerqueu l'identificador únic global (GUID) al costat del paràmetre **formId** a l'adreça URL, com a es mostra a la il·lustració següent.
 
-    ![Valor formId del formulari nou a l'URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Valor formId del formulari nou a l'URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Creeu una assignació **msdyn\_ordertype** per al valor **formId** editant el recurs web msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Suprimiu el codi del recurs i, a continuació, substituïu-lo pel codi següent.
 

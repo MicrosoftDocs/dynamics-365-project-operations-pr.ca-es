@@ -16,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012034"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995389"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Correccions massives de valors reals creades per entrades de temps i de despeses aprovades
 
@@ -62,7 +62,7 @@ Completeu els passos següents per corregir una o diverses entrades de temps d'u
 
 Per exemple, en el gràfic següent hi ha dos elements de línia amb una quantitat de 8,00 que tenen dèbits enumerats a la columna Import. A més, hi ha dos elements de línia amb una quantitat de -8,00 que mostren els imports dels crèdits a la columna Import. Aquestes correccions aporten la quantitat a zero.
 
-![Llista de la visualització associada de valors reals](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Llista de la visualització associada de valors reals.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Correcció de les entrades de despeses aprovades
 
@@ -87,7 +87,7 @@ Seguiu aquests passos per corregir una o diverses entrades de despeses.
 
 8. A la pàgina del projecte, a la pestanya **Valors reals**, reviseu **Visualització associada de valors reals**. Les entrades originals i les corregides es mostren a la llista. En el següent gràfic es mostren els imports d'entrada de despeses originals i les quantitats d'entrada de despeses corregides corresponents. 
 
-![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Expense_actuals.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

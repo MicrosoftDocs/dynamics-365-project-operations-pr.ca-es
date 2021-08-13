@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996554"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993229"
 ---
 # <a name="project-invoice-integration"></a>Integració de la factura del projecte
 
@@ -20,7 +20,7 @@ Aquest tema proporciona informació sobre la integració de doble escriptura del
 
 Al Project Operations, l'administrador del projecte administra els treballs pendents de facturació del projecte i crea una factura proforma per al client al Microsoft Dataverse. En funció d'aquesta factura proforma, el responsable del compte a cobrar o el comptable del projecte crea una factura orientada al client. La integració amb doble escriptura garanteix que els detalls de la factura proforma se sincronitzin amb les aplicacions del Finance and Operations. Un cop publicada la factura orientada al client, el sistema actualitza els valors reals del projecte rellevants al Dataverse amb el detall de comptabilitat. El gràfic següent proporciona una visió general conceptual d'alt nivell d'aquesta integració.
 
-   ![Integració de la factura del projecte](./media/DW5Invoicing.png)
+   ![Integració de la factura del projecte.](./media/DW5Invoicing.png)
 
 Quan l'administrador del projecte confirma la factura proforma al Dataverse, la informació de la capçalera de la factura proforma se sincronitza amb les aplicacions del Finance and Operations amb l'assignació de taules de doble escriptura **Proposta de factura del projecte V2 (factures)**. Es tracta d'una integració única del Dataverse a les aplicacions del Finance and Operations. La creació o supressió de propostes de factura del projecte directament a les aplicacions del Finance and Operations no estan admeses.
 

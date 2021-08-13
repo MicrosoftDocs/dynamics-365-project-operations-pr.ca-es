@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008299"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002319"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuració de camps personalitzats com a dimensions de preus 
 
@@ -41,11 +41,11 @@ Per tal que un camp es converteixi en una dimensió de preus, ha de ser:
 - Creat com a camp a les entitats **Preu per funció** i **Marge comercial del preu per funció**. Per obtenir més informació sobre com fer-ho, vegeu [Afegir camps personalitzats a la configuració de preus i a entitats transaccionals](field-references.md).
 - Creat com una fila a la taula **Dimensió de preus**. Per exemple, afegiu files de dimensió de preus com es mostra a la gràfica següent. 
 
-![Files de dimensions de preus basades en els imports](media/Amt-based-PD.png)
+![Files de dimensions de preus basades en els imports.](media/Amt-based-PD.png)
 
 Observeu que Hores de treball del recurs (**msdyn_resourceworkhours**) s'ha afegit com una dimensió basada en el marge comercial i s'ha afegit a la quadrícula a la pestanya **Dimensió de preus basada en el marge comercial**.
 
-![Files de dimensions de preus basades en el marge comercial](media/Markup-based-PD.png)
+![Files de dimensions de preus basades en el marge comercial.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Qualsevol canvi de les dades de dimensió de preus d'aquesta taula, existents o noves, es propaga a la lògica empresarial de preus del Project Service només després de l'actualització de la memòria cau. El temps d'actualització de la memòria cau pot tardar fins a 10 minuts. Permeteu aquesta duració de temps per veure els canvis en la lògica de preus per defecte que han de derivar dels canvis en les dades de la dimensió de preus.

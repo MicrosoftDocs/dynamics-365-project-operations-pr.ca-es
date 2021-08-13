@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998174"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998314"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Recuperar entrades de temps o de despeses aprovades
 
@@ -98,13 +98,13 @@ Si es rebutja una sol·licitud de recuperació, no hi ha cap impacte financer en
 
 A la il·lustració següent es mostren els canvis que es produeixen per a les entrades de temps aprovades quan es recuperen.
 
-![Transicions d'estat de l'entrada de temps](media/TimeEntryStateTransitions.png)
+![Transicions d'estat de l'entrada de temps.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Canvis en els registres d'entrada de despeses
 
 A la il·lustració següent es mostren els canvis que es produeixen per a les entrades de despeses aprovades quan es recuperen.
 
-![Transicions d'estat de l'entrada de despeses](media/ExpenseEntryStateTransitions.png)
+![Transicions d'estat de l'entrada de despeses.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

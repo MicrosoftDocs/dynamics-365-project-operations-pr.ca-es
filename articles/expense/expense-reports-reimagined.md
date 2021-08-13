@@ -2,7 +2,7 @@
 title: Informes de despeses nous
 description: En aquest tema s'explica l'experiència redissenyada i nova per a l'entrada d'informes de despeses.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6250992"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997819"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de despeses nous
 
@@ -57,12 +57,13 @@ Per activar la nova experiència, utilitzeu l'àrea de treball **Administració 
 | Calculadora de tipus de canvi | S'ha afegit una calculadora de tipus de canvi que permet calcular el tipus de canvi per a operacions multidivisa. |
 | Deseu i afegiu línies de despeses noves | Els botons **Desa** i **Nou** estan disponibles quan s'introdueixen les despeses noves per ajudar-vos a introduir ràpidament les línies de despesa. |
 | Visibilitat millorada a les línies dividides i desglossades | Les línies desglossades i dividides s'afegeixen directament a la llista de despeses per augmentar la visibilitat i ajudar-vos a determinar fàcilment si hi ha cap error. |
-| Visualitzar els detalls de la subcategoria en línies desglossades | Les línies desglossades d'una despesa principal mostren les etiquetes de subcategoria a l'informe de despeses, la qual cosa us ajuda a revisar d'un cop d'ull els detalls granulars.|
+| Visualitzar els detalls de la subcategoria en línies desglossades | Les línies desglossades d'una despesa principal mostren les etiquetes de subcategoria a l'informe de despeses. El desglossament permet revisar d'un cop d'ull els detalls granulars.|
 | Mostra els rebuts durant el desglossament | Els rebuts poden mostrar-se durant el desglossament. |
 | Selecció de bestreta en efectiu | Seleccioneu una o diverses bestretes en efectiu per realitzar una transacció de despesa única. |
 | Balanç de bestreta en efectiu | Reviseu el balanç de bestreta en efectiu en temps real quan creeu una entrada de despesa per a bestretes en efectiu aprovades i pagades. |
 
 La versió inicial se centra en escenaris d'entrada de despesa. Qualsevol escenari de revisió o aprovació de l'informe de despeses continuarà utilitzant la pàgina d'entrada de despeses existent.
+
 
 Les característiques següents no s'admeten a l'Àrea de treball d'informes de despeses nous, però estan previstes per a versions futures: 
 

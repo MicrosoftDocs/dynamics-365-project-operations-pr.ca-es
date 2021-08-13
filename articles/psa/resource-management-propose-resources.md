@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997949"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995029"
 ---
 # <a name="propose-project-resources"></a>Proposar recursos de projecte
 
@@ -32,21 +32,21 @@ Els administradors de recursos poden proposar un recurs a l'administrador del pr
 1. A la graella de sol·licitud o a la sol·licitud en si mateixa, seleccioneu **Cerca recursos**.
 2. A la pàgina **Auxiliar de planificació,** seleccioneu el recurs i, a continuació, a la subfinestra **Crea una reserva de recursos**, al camp **Estat de la reserva**, seleccioneu **Reserva**.
 
-    ![Recurs proposat seleccionat](media/Resource-Management-image62.png)
+    ![Recurs proposat seleccionat.](media/Resource-Management-image62.png)
 
 Es produeixen les següents actualitzacions d'estat:
 
 - A la pàgina **Auxiliar de planificació**, els indicadors d'estat s'actualitzen per indicar que es proposa la reserva, no que es reserva de manera fixa.
 
-    ![Indicadors d'estat per a la reserva de proposta a la pàgina Auxiliar de planificació](media/Resource-Management-image63.png)
+    ![Indicadors d'estat per a la reserva de proposta a la pàgina Auxiliar de planificació.](media/Resource-Management-image63.png)
 
 - A la sol·licitud de recursos, l'estat canvia a **Necessita revisió**.
 
-    ![Estat de sol·licitud de recursos canviat a Necessita revisió](media/Resource-Management-image64.png)
+    ![Estat de sol·licitud de recursos canviat a Necessita revisió.](media/Resource-Management-image64.png)
 
 - A la pestanya **Equip** del projecte, el valor **Estat de la sol·licitud** de l'equip genèric es canvia a **Necessita revisió**.
 
-    ![Estat de la sol·licitud de l'equip genèric canviat a Necessita revisió a la pestanya Equip](media/Resource-Management-image48.png)
+    ![Estat de la sol·licitud de l'equip genèric canviat a Necessita revisió a la pestanya Equip.](media/Resource-Management-image48.png)
 
 L'administrador de projectes pot acceptar o rebutjar la proposta.
 
@@ -70,7 +70,7 @@ Les següents fórmules s'utilitzen per calcular l'ús:
 
 Podeu cercar la visualització **Ús de recursos** a la subfinestra **Recursos**.
 
-![Visualització Ús de recursos](media/Resource-Management-image65.png)
+![Visualització de l'ús de recursos.](media/Resource-Management-image65.png)
 
 Cada cel·la de la quadrícula representa el percentatge d'ús facturable del recurs en un període, com ara un dia, una setmana o un mes. Les següents fórmules s'utilitzen per acolorir les cel·les:
 
@@ -84,7 +84,7 @@ La quadrícula requereix que definiu un objectiu d'ús en la funció o en el rec
 
 A més, cal assignar una funció per defecte a cadascun dels recursos que es pot reservar. Aneu a **Recursos** \> **Recursos**. A la pestanya **Project Service**, comproveu que es defineix una funció de recurs i que el camp **Per defecte** està definit com a **Sí**. Podeu afegir funcions addicionals on **Per defecte = No**. La funció on **Per defecte = Sí** s'utilitza per avaluar l'ús del recurs en relació amb l'objectiu per a aquesta funció.
 
-![Conjunt de funcions per defecte](media/Resource-Management-image67.png)
+![Conjunt de funcions per defecte.](media/Resource-Management-image67.png)
 
 A la pestanya **Project Service** també podeu definir un objectiu d'ús individual per al recurs. A continuació, el càlcul d'ús utilitza l'objectiu d'ús per avaluar l'objectiu del recurs en comptes de l'objectiu de la funció per defecte del recurs.
 
@@ -96,21 +96,21 @@ L'ús es mostra per a un recurs només si aquest recurs té temps aprovat imputa
 
 Les hores de treball del recurs s'utilitzen com a base per calcular la disponibilitat d'un recurs. Les reserves de recursos consumeixen la capacitat dels recursos.
 
-![Tauler de planificació](media/Resource-Management-image68.png)
+![Tauler de planificació.](media/Resource-Management-image68.png)
 
 El tauler de planificació utilitza colors i ombrejat per mostrar les reserves, la disponibilitat i l'excés de reserves, i també l'estat de les reserves. Un paràmetre de la configuració del tauler de planificació us permet mostrar una llegenda.
 
 Si una fletxa que apunta a la dreta apareix al costat d'un recurs individual que es pot reservar al tauler de planificació, el recurs es podrà expandir per mostrar els detalls del treball en què està reservat el recurs.
 
-![Recurs que es pot reservar expandit al tauler de planificació](media/Resource-Management-image69.png)
+![Recurs que es pot reservar expandit al tauler de planificació.](media/Resource-Management-image69.png)
 
 Com que el Dynamics 365 Project Service Automation utilitza el motor del Universal Resource Scheduling, si també teniu instal·lat el Dynamics 365 Field Service, podeu visualitzar els detalls de les reserves de recursos per a projectes, ordres de treball i altres entitats a les quals hàgiu ampliat la planificació.
 
-![Detalls de les reserves de recursos per a projectes i ordres de treball](media/Resource-Management-image70.png)
+![Detalls de les reserves de recursos per a projectes i ordres de treball.](media/Resource-Management-image70.png)
 
 Per visualitzar més detalls d'un recurs individual, feu-hi clic amb el botó dret per obrir la targeta de recursos.
 
-![Targeta de recursos](media/Resource-Management-image71.png)
+![Targeta de recursos.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

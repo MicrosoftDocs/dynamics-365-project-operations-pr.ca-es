@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002764"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995794"
 ---
 # <a name="intercompany-invoicing"></a>Facturació entre empreses
 
@@ -33,7 +33,7 @@ La vostra organització pot tenir diverses divisions, filials i altres entitats 
 
 A la il·lustració següent es mostra un escenari típic on hi ha dues entitats jurídiques, SI FR (l'entitat legal prestatària) i SI USA (l'entitat legal prestadora), que comparteixen recursos per lliurar un projecte per al client A. Per a aquest escenari, SI FR es contracta per lliurar el treball al client A. 
 
-[![Exemple de facturació entre empreses](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Exemple de facturació entre empreses.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 L'objectiu és fer que el control de costos, el reconeixement d'ingressos, els impostos i el preu de transferència per a les transaccions de projecte entre empreses siguin més flexibles i potents. A més, es proporcionen les capacitats següents:
 

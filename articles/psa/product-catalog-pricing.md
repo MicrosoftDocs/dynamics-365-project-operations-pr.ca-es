@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009199"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000159"
 ---
 # <a name="product-catalog-pricing"></a>Preus del catàleg de productes 
 
@@ -44,7 +44,7 @@ Podeu afegir productes d'un catàleg de productes a diverses llistes de preus. L
 
 El PSA admet diverses opcions d'arrodoniment quan els preus es configuren com a funció del preu de llista, cost estàndard o cost corrent. A banda de treure profit de diversos mètodes de preus i d'arrodoniment, podeu associar llistes de descomptes amb elements de la llista de preus. 
 
-> ![Afegir productes d'un catàleg a diverses llistes de preus](media/basic-guide-16.png)
+> ![Afegir productes d'un catàleg a diverses llistes de preus.](media/basic-guide-16.png)
 
 Quan creeu una llista de preus personalitzada nova per a una oferta seleccionant **Crea un preu personalitzat** a la pàgina **Oferta del projecte**, el PSA fa una còpia de la llista de preus i el camp **Entitat** a la capçalera de la llista de preus nova es defineix com a **Entitat de vendes**. Al nom de la llista de preus nova s'hi afegeix el nom de l'oferta i d'una marca horària. També podeu utilitzar el nom de la llista de preus nova i el nom de l'oferta als fluxos de treball personalitzats per activar la revisió i les aprovacions addicionals de les ofertes que utilitzin preus personalitzats.
 
