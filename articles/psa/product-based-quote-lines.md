@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998489"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008574"
 ---
 # <a name="product-based-quote-lines"></a>Línies d'oferta basades en productes
 
@@ -58,7 +58,7 @@ Si definiu aquest camp com a **Substitueix el preu**, el Dynamics 365 no configu
 
 Després d'instal·lar el PSA, els preus de vendes per defecte s'introdueixen a les línies basades en productes en una oferta. El camp **Preu** es defineix com a **Substitueix el preu** per tal que pugueu editar el preu per defecte a les línies d'oferta.
 
-> ![Definir la substitució del preu](media/basic-guide-10.png)
+> ![Definir la substitució del preu.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Factors de quantitat per a productes
 
@@ -78,7 +78,7 @@ Per exemple, el Dynamics 365 pot tenir les propietats següents:
 
 Les propietats **Nombre d'usuaris** i **Nombre de mesos** es poden marcar com a factors de quantitat per editar les propietats de la línia de productes. 
 
-> ![Marcar Nombre d'usuaris i Nombre de mesos com a factors de qualitat](media/basic-guide-11.png)
+> ![Marcar Nombre d'usuaris i Nombre de mesos com a factors de qualitat.](media/basic-guide-11.png)
  
 
 

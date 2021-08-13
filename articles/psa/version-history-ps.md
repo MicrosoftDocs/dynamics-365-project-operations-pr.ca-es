@@ -2,7 +2,7 @@
 title: Planificació de les versions d'actualització del Project Service 3.x
 description: En aquest tema es proporciona informació sobre les versions disponibles i futures del Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.reviewer: kfend
 ms.prod: ''
 ms.suite: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 332e1f97816145da00e1fcff9c293414578d6b29
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334860"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024816"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Planificació de les versions d'actualització del Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "6334860"
 
 | Solució  | Versió més recent |
 |-------|----|
-| Project Service Automation    | 3.10.54.98 |
+| Project Service Automation    | 3.10.55.38 |
 | Complement d'escriptori del Project Service Automation                | 3.15          |
 
 Per obtenir informació sobre les actualitzacions del Project Service, vegeu els [plans de llançament del Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Per obtenir informació sobre les actualitzacions del Project Service, vegeu els
 | Estació  | Regió | Versió actual | Versió següent |  Data planificada
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Estació 1</strong> | |  |  | |
-| | <i>Primera versió</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | 28 de juliol de 2021
+| | <i>Primera versió</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 27 d'agost del 2021
 |<strong>Estació 2</strong> | |  |  | |
-| | <i>Amèrica del Sud</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 de juliol de 2021
-| | <i>Canadà</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 de juliol de 2021
-| | <i>Índia</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 de juliol de 2021
-| | <i>França</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 de juliol de 2021
-| | <i>Emirats Àrabs Units</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 de juliol de 2021
-| | <i>República de Sud-àfrica</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 de juliol de 2021
-| | <i>Alemanya</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 de juliol de 2021
-| | <i>Suïssa</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 de juliol de 2021
+| | <i>Amèrica del Sud</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 de setembre de 2021
+| | <i>Canadà</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 de setembre de 2021
+| | <i>Índia</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 de setembre de 2021
+| | <i>França</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 de setembre de 2021
+| | <i>Emirats Àrabs Units</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 de setembre de 2021
+| | <i>República de Sud-àfrica</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 de setembre de 2021
+| | <i>Alemanya</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 de setembre de 2021
+| | <i>Suïssa</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 de setembre de 2021
 |<strong>Estació 3</strong> | |  |  | |
-| | <i>Japó</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 de juliol de 2021
-| | <i>Pacífic asiàtic</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 de juliol de 2021
-| | <i>Gran Bretanya</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 de juliol de 2021
-| | <i>Oceania</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 de juliol de 2021
+| | <i>Japó</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 d'agost del 2021
+| | <i>Pacífic asiàtic</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 d'agost del 2021
+| | <i>Gran Bretanya</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 d'agost del 2021
+| | <i>Oceania</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 d'agost del 2021
 |<strong>Estació 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 23 de juliol de 2021
+| | <i>Europa</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 20 d'agost del 2021
 |<strong>Estació 5</strong> | |  |  | |
-| | <i>Amèrica del Nord</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 de juliol de 2021
+| | <i>Amèrica del Nord</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 d'agost del 2021
 |<strong>Estació 6</strong> | |  |  | |
-| | <i>Núvol de la comunitat de l'administració pública</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 de juliol de 2021
-| | <i>Grups d'escala dedicats</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 06 d'agost del 2021
+| | <i>Núvol de la comunitat de l'administració pública</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 d'agost del 2021
+| | <i>Grups d'escala dedicats</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 03 de setembre de 2021
 
 >[!Note]
 > - Les dates de totes les regions, excepte el núvol de la comunitat de l'Administració pública (GCC), indiquen la planificació de l'actualització automàtica següent. Les dates del GCC indiquen la disponibilitat de la versió; en aquest moment, no hi ha cap actualització automàtica per a aquestes regions.

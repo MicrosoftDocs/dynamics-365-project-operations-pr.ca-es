@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005784"
 ---
 # <a name="create-a-project-team"></a>Creació d'un equip de projecte
 
@@ -33,7 +33,7 @@ La configuració de la visualització també es pot personalitzar per oferir una
 
 L'administrador del projecte pot seleccionar una funció a la pàgina i, a continuació, si hi ha un recurs disponible que s'ajusta al requisit, seleccionar la reserva d'un recurs per emplenar la funció. Heu de tenir en compte que els recursos no s'hauran de reservar en aquest moment a la fase de planificació. Quan creeu una WBS, podeu substituir les funcions per recursos de personal per al projecte. Si les funcions se substitueixen amb els recursos de personal a la WBS, la configuració del recurs actualitza automàticament la llista i la planificació de l'equip del projecte.
 
-[![Llista de l'equip del projecte que inclou les funcions i els recursos reals](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Llista de l'equip del projecte que inclou les funcions i els recursos reals.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 L'administrador de projectes té diverses opcions per reservar un recurs per a un projecte, com ara **Capacitat restant**, **Capacitat completa**, **Percentatge de capacitat** i **Especifica les hores**. Aquestes opcions de reserva es poden cancel·lar en qualsevol moment si canvien les assignacions de recursos. S'admeten dos tipus de reserves:
 

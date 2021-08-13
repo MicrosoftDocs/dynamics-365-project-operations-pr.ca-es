@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369679"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007494"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informació general sobre l'administració de projectes i la comptabilitat
 
@@ -34,14 +34,14 @@ Un projecte és un conjunt d'activitats dissenyades per oferir un servei, produi
 ## <a name="projects-across-industries"></a>Projectes entre sectors
 La funcionalitat d'administració de projectes i comptabilitat es pot utilitzar en diversos sectors, com es mostra a la il·lustració següent.
 
-[![Projectes entre sectors](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projectes entre sectors.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 En un centre de trucades, es pot utilitzar un cas per descriure el conjunt d'accions que cal dur a terme per resoldre una trucada. Les empreses de consultoria, com ara les organitzacions de gestió o de consultoria tècnica o agències de publicitat, fan referència a les seves activitats com a projectes. En màrqueting, una campanya representa un conjunt de treballs que s'han de lliurar. En la fabricació basada en projectes, una comanda de producció relaciona la feina que cal dur a terme per produir un producte acabat. Sigui com sigui, aquests projectes inclouen recursos, planificacions i costos, i la funcionalitat d'administració de projectes i comptabilitat pot ajudar en la planificació, l'execució i l'anàlisi d'aquests projectes.
 
 ## <a name="project-phases"></a>Fases del projecte
 Tot i que el flux del procés següent està dirigit a projectes externs, o a un projecte que s'ha completat per a un o més clients, la funcionalitat també s'aplica a projectes interns i només de cost. 
 
-![Les 3 fases d'un projecte](./media/3-stages-of-a-project.png) 
+![Les 3 fases d'un projecte.](./media/3-stages-of-a-project.png) 
 
 Com es mostra a la il·lustració precedent, l'administració de projectes i la comptabilitat es poden dividir en tres fases:
 
@@ -50,7 +50,7 @@ Com es mostra a la il·lustració precedent, l'administració de projectes i la 
 3.  Analitza
 
 ## <a name="initiate-the-project"></a>Iniciar el projecte
-Durant l'inici d'un projecte, es produeixen diversos processos clau. Podeu utilitzar un pressupost de projecte per comunicar el treball, les despeses i els materials previstos al client. Podeu registrar els terminis de facturació, els límits i els acords en un contracte de projecte. Podeu utilitzar una estructura del desglossament del treball (WBS) per planificar i estimar la feina. Podeu configurar previsions i pressupostos per guiar l'execució del projecte. A la il·lustració següent es mostra l'estructura d'un projecte.[![estructura d'un projecte](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durant l'inici d'un projecte, es produeixen diversos processos clau. Podeu utilitzar un pressupost de projecte per comunicar el treball, les despeses i els materials previstos al client. Podeu registrar els terminis de facturació, els límits i els acords en un contracte de projecte. Podeu utilitzar una estructura del desglossament del treball (WBS) per planificar i estimar la feina. Podeu configurar previsions i pressupostos per guiar l'execució del projecte. A la il·lustració següent es mostra l'estructura d'un projecte.[![estructura d'un projecte.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Creació d'ofertes del projecte
 

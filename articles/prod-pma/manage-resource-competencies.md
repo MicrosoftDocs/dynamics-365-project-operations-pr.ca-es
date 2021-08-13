@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999029"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007404"
 ---
 # <a name="manage-resource-competencies"></a>Administració de competències de recursos
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999029"
 
 Les competències de recursos són una part essencial de l'administració de recursos. Les competències poden utilitzar-se com a línia de base per determinar els recursos que tenen l'equilibri correcte de destreses, formació, certificació i experiència de projectes. Heu de configurar aquesta informació per a cada recurs i actualitzar-la periòdicament. D'aquesta manera, podeu maximitzar la capacitat quan les competències de recursos específiques coincideixin durant l'assignació de recursos del projecte.
 
-[![Exemples d'habilitats, certificacions, formació i experiència de projectes](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Exemples d'habilitats, certificacions, formació i experiència de projectes.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 En els procediments següents s'explica com es configuren algunes de les competències d'un recurs.
 

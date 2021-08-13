@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025762"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003804"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versions d'assignació de doble escriptura del Project Operations
 
@@ -32,7 +32,7 @@ Les assignacions següents són els requisits previs necessaris per a la soluci�
 
 1. A la llista d'assignacions, seleccioneu l'assignació Llibre major **(msdyn\_ledgers)** amb tots els requisits previs i activeu la casella de selecció **Sincronització inicial**. Al camp **Patró per a la sincronització inicial**, seleccioneu **aplicacions del Finance and Operations** tant per a l'assignació del llibre de comptabilitat com per a totes les assignacions de requisits previs. Seleccioneu **Executa**.
 
-![Sincronització de l'assignació de llibres majors](media/DW6.png)
+![Sincronització de l'assignació de llibres majors.](media/DW6.png)
 
 2. Seguiu els mateixos passos per a totes les assignacions de taula restants enumerades a la taula anterior. No activeu la casella de selecció **Sincronització inicial** en executar aquestes assignacions.
 
@@ -65,7 +65,7 @@ Completeu els passos següents per executar les assignacions enumerades.
 
 1. Habiliteu les funcions de recurs de projecte per a l'assignació de taules de **totes les empreses (bookableresourcecategories)**, ja que aquesta assignació necessita la sincronització inicial. Al camp **Patró per a la sincronització inicial**, seleccioneu **Common data service**. 
 
- ![Sincronització d'assignació de taules de funció de recurs](media/6ResourceInitialSync.jpg)
+ ![Sincronització d'assignació de taules de funció de recurs.](media/6ResourceInitialSync.jpg)
 
  Espereu fins que l'estat de l'assignació sigui **S'està executant** abans de passar al pas següent.
 

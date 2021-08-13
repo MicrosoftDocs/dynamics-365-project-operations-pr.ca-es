@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369364"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005379"
 ---
 # <a name="intercompany-invoicing-overview"></a>Informació general de la facturació entre empreses
 
@@ -22,7 +22,7 @@ La vostra organització pot tenir diverses divisions, filials i altres entitats 
 
 A la il·lustració següent es mostra un escenari habitual en què dues entitats jurídiques, Contoso Robotics USA (entitat jurídica prestatària) i Contoso Robotics UK (entitat jurídica prestadora), comparteixen recursos per al client, Adventure Works. Per a aquest escenari, Contoso rep un contracte per al lliurament de la feina a Adventure Works.
 
-![Facturació entre empreses](./media/IntercompanyScenario.png) 
+![Facturació entre empreses.](./media/IntercompanyScenario.png) 
 
 El Dynamics 365 Project Operations utilitza el flux següent per processar les transaccions entre empreses:
 
@@ -35,7 +35,7 @@ El Dynamics 365 Project Operations utilitza el flux següent per processar les t
 
 El diagrama següent il·lustra la facturació entre empreses segons la seva relació amb actes comptables i comptabilitzacions esperades al llibre major.
 
-![Flux entre empreses](./media/IntercompanyFlow.png)
+![Flux entre empreses.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Recursos addicionals
 

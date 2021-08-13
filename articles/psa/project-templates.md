@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998264"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002499"
 ---
 # <a name="project-templates"></a>Plantilles de projecte 
 
@@ -47,7 +47,7 @@ Hi ha diverses maneres de crear un projecte a partir d'una plantilla de projecte
 
 - En crear un projecte a partir d'una oferta, podeu seleccionar una plantilla de projecte al quadre de diàleg **Creació ràpida: projecte**.
 
-> ![Quadre de diàleg Creació ràpida: projecte](media/project-11.png)
+> ![Quadre de diàleg Creació ràpida: projecte.](media/project-11.png)
 
 - Quan creeu un projecte seleccionant **Nou projecte**, la pàgina **Projecte** apareix abans que el registre es desi. Al camp **Selecció de plantilla**, seleccioneu una de les plantilles de projecte predefinides a l'organització.
 - Utilitzeu **Crea un projecte des d'una plantilla** a la pàgina **Entitat de plantilla**.

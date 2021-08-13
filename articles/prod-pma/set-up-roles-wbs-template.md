@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec952021f9da4d83520d29d68d040675f7933df7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008889"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar funcions a les plantilles d'estructura del desglossament del treball
 
@@ -89,7 +89,7 @@ S'ha afegit més opcions a la WBS per utilitzar millor la funcionalitat de recur
 
 4. Definiu les dates i l'esforç (hores), com es mostra a la il·lustració següent.
 
-    [![Definir les dates i l'esforç](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Definir les dates i l'esforç.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Seleccioneu la línia de tasca **Inici** i, a continuació, al camp **Funció**, seleccioneu **Administrador de projectes sènior**.
 6. Seleccioneu **Publica**.

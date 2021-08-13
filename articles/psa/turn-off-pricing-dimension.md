@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014284"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006774"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Desactivar una dimensió de preus
 
@@ -32,7 +32,7 @@ Desactivar una dimensió de preus, independentment de si és personalitzada o pe
 
 No obstant, en fer-ho, és possible que rebeu el missatge d'error següent.
 
-![Error de procés empresarial probable quan desactiveu una dimensió de preus](media/Business-Process-Error.png)
+![Error de procés empresarial probable quan desactiveu una dimensió de preus.](media/Business-Process-Error.png)
 
 
 Aquest missatge d'error indica que hi ha registres de preus que abans s'havien configurat per a la dimensió que s'està desactivant. Tots els registres **Preu per funció** i **Marge comercial de preu per funció** que facin referència a una dimensió s'han de suprimir abans que l'aplicabilitat de la dimensió pugui definir-se com a **No**. Aquesta regla s'aplica a les dues dimensions de preus per defecte i a les dimensions de preus personalitzades que hàgiu creat. La raó d'aquesta validació és que el Project Service té una restricció que cada registre **Preu per funció** ha de tenir una combinació única de dimensions. Per exemple, en una llista de preus anomenada **Tarifes de costos dels EUA 2018**, teniu les files **Preu per funció** següents. 

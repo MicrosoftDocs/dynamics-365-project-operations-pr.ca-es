@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992822"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007134"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Veure l'ús imputable dels recursos
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992822"
  
 La **Visualització d'ús** de la pàgina **Utilització de recursos del Project Service** mostra la utilització imputable per a cada recurs disponible. Com que la visualització es basa en el tauler de planificació, trobareu moltes funcions iguals.
 
-> ![Captura de pantalla de la visualització d'ús](media/FAQ-utilization-1.png)
+> ![Captura de pantalla de la visualització d'ús.](media/FAQ-utilization-1.png)
  
 
 El càlcul d'ús facturable funciona de la següent manera:
@@ -48,7 +48,7 @@ L'objectiu d'ús es pot establir en la funció predeterminada del recurs o en el
 2. Seleccioneu un recurs per obrir el registre. 
 3. A la pestanya **Project Service**, podeu definir l'objectiu d'ús del recurs.
 
-> ![Captura de pantalla de la utilització del Project Service per definir l'ús objectiu](media/FAQ-utilization-2.png)
+> ![Captura de pantalla de la utilització del Project Service per definir l'ús objectiu.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Definir l'objectiu d'ús en una funció
 
@@ -56,7 +56,7 @@ L'objectiu d'ús es pot establir en la funció predeterminada del recurs o en el
 2. Seleccioneu una funció i obriu el registre. 
 3. Establiu l'ús objectiu de la funció.
 
-> ![Captura de pantalla de la utilització de funcions de recurs per definir l'ús objectiu](media/FAQ-utilization-3.png)
+> ![Captura de pantalla de la utilització de funcions de recurs per definir l'ús objectiu.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Calcular l'ús imputable d'un recurs
 

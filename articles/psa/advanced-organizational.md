@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009604"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005064"
 ---
 # <a name="organizational-units"></a>Unitats organitzatives 
 
@@ -53,7 +53,7 @@ La unitat organitzativa té dues funcions al PSA:
 - **Unitat de contractació**: unitat organitzativa que representa el grup d'empreses o la divisió que s'encarrega principalment de guanyar la venda i administrar el lliurament de treballs i serveis al client. La unitat de contractació s'identifica pel camp **Unitat de contractació** a la secció de capçalera de les pàgines **Oportunitat**, **Oferta**, **Contracte del projecte** i **Projecte**.
 - **Unitat de recursos**: unitat organitzativa a la qual pertany un recurs o s'assigna. Aquesta unitat organitzativa pot proporcionar els seus recursos per a algunes funcions sobre les declaracions de treball (SOW) i els projectes que siguin propietat de la unitat de contractació.
 
-> ![Unitats de contractació i unitats de recursos](media/advanced-1.png)
+> ![Unitats de contractació i unitats de recursos.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>PMF sobre les unitats organitzatives
 

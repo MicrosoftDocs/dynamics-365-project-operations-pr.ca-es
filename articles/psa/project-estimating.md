@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009154"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002544"
 ---
 # <a name="project-costs-and-revenue"></a>Ingressos i costos del projecte
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009154"
 
 Les estimacions de projecte proporcionen informació visual financera del treball que està previst i planificat a la planificació del projecte. A la pestanya **Estimacions** de la pàgina **Projectes** es mostra l'impacte dels costos i dels ingressos del treball que esteu planejant. També proporciona informació sobre moltes de les dimensions predefinides. 
 
-> ![Pestanya Estimacions](media/project-5.png)
+> ![Pestanya Estimacions.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Cost i valors de les vendes del projecte
 
@@ -66,13 +66,13 @@ Si el sistema no troba cap preu per a la funció, el preu de vendes a la línia 
 
 La pestanya **Estimacions** té una visualització de quadrícula que mostra les línies d'estimació. La quadrícula inclou columnes per a la unitat, el preu de cost total i el preu total de venda, com es mostra a la il·lustració següent. 
 
-> ![Visualització de quadrícula de la pestanya Estimacions](media/project-6.png)
+> ![Visualització de quadrícula de la pestanya Estimacions.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Visualització per temps de les estimacions del projecte
 
 La visualització per temps d'estimacions del projecte mostra les dades d'estimacions de la visualització de quadrícula a la cronologia, en una escala de temps que seleccioneu. Per defecte, les dades d'estimacions se centren en la dimensió **Funció**.
 
-> ![Visualització per temps de les estimacions del projecte](media/project-7.png)
+> ![Visualització per temps de les estimacions del projecte.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Assignació d'estimació d'esforç basat en el mode de tasca
 

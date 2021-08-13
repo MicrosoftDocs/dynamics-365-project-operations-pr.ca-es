@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008794"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002409"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Treballar amb el model de dades del Project Service Automation
 
@@ -53,7 +53,7 @@ El PSA també afegeix noves entitats relacionades amb l'oferta al model de dades
 
 Altres entitats que el PSA afegeix a les ofertes són **Llista de preus de projecte de línia d'oferta**, **Categoria de recurs de la línia d'oferta** i **Categoria de transacció de línia d'oferta**.
 
-![Diagrama que mostra relacions d'oferta, línia d'oferta i projecte](media/PS-Reporting-image2.png "Diagrama que mostra relacions d'oferta, línia d'oferta i projecte")
+![Diagrama que mostra relacions d'oferta, línia d'oferta i projecte.](media/PS-Reporting-image2.png "Diagrama que mostra relacions d'oferta, línia d'oferta i projecte")
 
 ## <a name="reporting-on-project-contracts"></a>Informes sobre contractes de projecte
 
@@ -69,7 +69,7 @@ El PSA també afegeix entitats noves dissenyades per a contractes de projectes. 
 
 Altres entitats que el PSA afegeix als contractes són **Llista de preus de projecte de línia de contracte de projecte**, **Categoria de recurs de la línia de contracte de projecte** i **Categoria de transacció de línia de contracte de projecte**.
 
-![Diagrama que mostra relacions de comanda, línia de comanda i projecte](media/PS-Reporting-image3.png "Diagrama que mostra relacions de comanda, línia de comanda i projecte")
+![Diagrama que mostra relacions de comanda, línia de comanda i projecte.](media/PS-Reporting-image3.png "Diagrama que mostra relacions de comanda, línia de comanda i projecte")
 
 ## <a name="reporting-on-projects"></a>Informes sobre projectes
 
@@ -81,7 +81,7 @@ L'entitat **Projectes** i les entitats relacionades són exclusives del PSA. El 
 - **Requisit de recursos**: aquesta entitat conté els requisits per a tots els membres de l'equip de recursos genèrics.
 - **Estimacions** i **Línia d'estimació**: aquestes entitats tenen una relació de capçalera/línia i contenen estimacions de despeses per al projecte. Les estimacions de les tasques s'emmagatzemen a l'entitat **Estimació de recursos**.
 
-![Diagrama que mostra relacions de requisit de recursos i projecte](media/PS-Reporting-image4.png "Diagrama que mostra relacions de requisit de recursos i projecte")
+![Diagrama que mostra relacions de requisit de recursos i projecte.](media/PS-Reporting-image4.png "Diagrama que mostra relacions de requisit de recursos i projecte")
 
 ## <a name="reporting-on-resources"></a>Informes de recursos
 
@@ -92,7 +92,7 @@ Els recursos del projecte utilitzen les entitats de **Recurs que es pot reservar
 - **Categoria de recursos que es poden reservar**: aquesta entitat representa la funció del recurs disponible.
 - **Reserves de recursos que es poden reservar**: aquesta entitat representa el temps que s'ha reservat en els projectes del recurs. Cada reserva té una entitat d'encapçalament i entitats de línies, i cada línia té un estat que representa l'estat de la reserva.
 
-![Diagrama que mostra relacions de característiques de recursos reservables](media/PS-Reporting-image5.png "Diagrama que mostra relacions de característiques de recursos reservables")
+![Diagrama que mostra relacions de característiques de recursos reservables.](media/PS-Reporting-image5.png "Diagrama que mostra relacions de característiques de recursos reservables")
 
 ## <a name="reporting-on-actual-transactions"></a>Informes sobre transaccions de valors reals
 
@@ -120,7 +120,7 @@ Quan treballeu amb l'entitat **Valor real**, és important que entengueu quina t
 
 L'entitat **Origen de la transacció** registra l'origen del registre **Valor real** i l'entitat **Connexió de la transacció** registra els registres relacionats del registre **Valor real**. A més, el registre **Valor real** conté referències al projecte, contracte de projecte (comanda), recurs disponible i client.
 
-![Diagrama que mostra relacions de connexió de la transacció, origen i valors reals](media/PS-Reporting-image6.png "Diagrama que mostra relacions de connexió de la transacció, origen i valors reals")
+![Diagrama que mostra relacions de connexió de la transacció, origen i valors reals.](media/PS-Reporting-image6.png "Diagrama que mostra relacions de connexió de la transacció, origen i valors reals")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

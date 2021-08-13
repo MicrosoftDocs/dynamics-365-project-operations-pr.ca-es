@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000019"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006279"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integració d'estimacions i valors reals del projecte
 
@@ -30,7 +30,7 @@ Per crear estimacions cal tenir una configuració de comptabilitat vàlida per a
 
 Les estimacions laborals les crea l'administrador de projectes o l'administrador de recursos que també assigna un recurs genèric o amb nom a la tasca de projecte. Els registres d'assignació de recursos es poden revisar a la pestanya **Assignacions de recursos** de la pàgina **Detalls del projecte** al Dataverse. Els registres d'assignació de recursos del Dataverse creen registres de previsió d'hora a les aplicacions del Finance and Operations utilitzant l'**entitat d'integració del Project Operations per a les estimacions d'hores (msdyn \_resourceassignments)**.
 
-   ![Integració de les estimacions laborals](./Media/DW4LaborEstimates.png)
+   ![Integració de les estimacions laborals.](./Media/DW4LaborEstimates.png)
 
 L'escriptura doble sincronitza els registres d'assignació de recursos a la taula de còpia intermèdia (**ProjCDSEstimateHoursImport**) i, a continuació, utilitza la lògica empresarial per crear i actualitzar registres de previsió d'hores (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ El comptable del projecte revisa els registres d'hora de previsió creats a les 
 
 L'administrador del projecte crea les estimacions de despeses a la pestanya **Estimacions de despeses** de la pàgina **Detalls del projecte** al Dataverse. Els registres de previsió de despeses s'emmagatzemen a l'entitat **Línia d'estimació** al Dataverse. La classe de transacció d'aquests registres d'estimacions és **Despesa** i se sincronitzen amb els registres de previsió de despeses a les aplicacions del Finance and Operations que utilitzen l'**entitat d'integració del Project Operations per a les estimacions de despeses (msdyn\_estimatelines)**.
 
-   ![Integració de les estimacions de despeses](./Media/DW4ExpenseEstimates.png)
+   ![Integració de les estimacions de despeses.](./Media/DW4ExpenseEstimates.png)
 
 L'escriptura doble sincronitza els registres d'estimacions de despeses a la taula de còpia intermèdia **ProjCDSEstimateExpenseImport** i, a continuació, utilitza la lògica empresarial per crear i actualitzar registres de previsió de despeses (**ProjForecastCost**). Les línies d'estimació emmagatzemen els registres d'estimacions de vendes i de cost per separat. La lògica empresarial de les aplicacions del Finance and Operations emplena un únic registre de previsió de despeses amb aquest detall a la taula de còpia intermèdia.
 
@@ -50,7 +50,7 @@ El comptable del projecte pot revisar els registres de previsió de despeses cre
 
 L'administrador del projecte crea les estimacions de material a la pestanya **Estimacions de material** de la pàgina **Detalls del projecte** al Dataverse. Els registres de previsió de material s'emmagatzemen a l'entitat **Línia d'estimació** al Dataverse. La classe de transacció d'aquests registres d'estimacions és **Material** i se sincronitzen amb els registres de previsió d'elements a les aplicacions del Finance and Operations que utilitzen la **taula d'integració del projecte per a les estimacions de material (msdyn\_estimatelines)**.
 
-   ![Integració de les estimacions de material](./Media/DW4MaterialEstimates.png)
+   ![Integració de les estimacions de material.](./Media/DW4MaterialEstimates.png)
 
 L'escriptura doble sincronitza els registres d'estimacions de material a la taula de còpia intermèdia **ProjForecastSalesImpor** i, a continuació, utilitza la lògica empresarial per crear i actualitzar registres de previsió d'elements (**ForecastSales**). Les línies d'estimació emmagatzemen els registres d'estimacions de vendes i de cost per separat. La lògica empresarial de les aplicacions del Finance and Operations emplena un únic registre de previsió d'elements amb aquest detall a la taula de còpia intermèdia.
 
@@ -60,7 +60,7 @@ El comptable del projecte pot revisar els registres de previsió d'elements crea
 
 Els valors reals del projecte es creen al Dataverse segons el temps, la despesa, el material i l'activitat de facturació. Tots els atributs d'operació d'aquestes transaccions, incloent-hi la quantitat, el preu de cost, el preu de venda i el projecte es capturen en aquesta entitat del Dataverse. Per obtenir més informació, vegeu [Valor reals](../actuals/actuals-overview.md). Els registres de valors reals se sincronitzen amb les aplicacions del Finance and Operations amb l'assignació de taules de doble escriptura **Valors reals d'integració del Project Operations (msdyn\_actuals)** de comptabilitat descendent.
 
-   ![Integració de valors reals](./Media/DW4Actuals.png)
+   ![Integració de valors reals.](./Media/DW4Actuals.png)
 
 L'assignació de taula dels **valors reals d'integració del Project Operations** sincronitza tots els registres de l'entitat **Valors reals** al Dataverse amb l'atribut **Omet la sincronització (només ús intern)** definida com a **Fals**. Aquest valor d'atribut es defineix automàticament al Dataverse en crear el registre. Els exemples en què aquest atribut està definit com a **Cert** són:
 
