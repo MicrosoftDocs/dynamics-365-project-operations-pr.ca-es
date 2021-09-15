@@ -4,6 +4,8 @@
   items:
     - name: Determinació del tipus d'implementació
       href: environment/determine-deployment-type.md
+    - name: Registre per a les proves del Project Operations
+      href: environment/admin-trials.md
     - name: Actualitzacions del Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations per a escenaris basats en recursos/no mantinguts en existències
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novetats
       items:
+        - name: 'Agost de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: 'Juliol de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: 'Juny de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
@@ -418,6 +422,8 @@
       items:
         - name: Informació general de les aprovacions
           href: approvals/approvals-overview.md
+        - name: Conjunts d'aprovacions
+          href: approvals/approval-sets.md
         - name: Notes del desenvolupador
           items:
             - name: Notes del desenvolupador per a aprovacions
@@ -514,15 +520,19 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Implementació del Project Operations (bàsica)
           href: environment/lite-deployment.md
-        - name: Aplicació de la configuració de la demostració i les dades de configuració (bàsica)
+        - name: Aplicació de la configuració i les dades de configuració de la demostració (Lite)
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model de seguretat
           href: environment/security-model.md
     - name: Novetats
       items:
-        - name: 'Novetats de juliol de 2021: implementació bàsica'
+        - name: "Novetats de l'accés anticipat al llançament\_2 de 2021: implementació Lite"
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Novetats d''agost de 2021: implementació Lite'
+          href: pro/whats-new/whats-new-august-2021-lite.md
+        - name: 'Novetats de juliol de 2021: implementació Lite'
           href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: 'Novetats de juny de 2021: implementació bàsica'
+        - name: 'Novetats de juny de 2021: implementació Lite'
           href: pro/whats-new/whats-new-june-2021-lite.md
         - name: 'Novetats de maig de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-may-2021-lite.md
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Administració de subcontractacions al Project Operations
       items:
-        - name: Informació general de l'administració de subcontractes
+        - name: Administració de subcontractacions al Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Subcontractació en octubre de 2021 amb accés anticipat
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Conceptes clau en la subcontractació
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Administració de les llistes de preus de projectes y proveïdors
+        - name: Administració de les llistes de preus de projectes i proveïdors
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Subcontractistes com a recursos que es poden reservar
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalls de la capçalera per als subcontractes
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Línies del subcontracte per al temps
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Línies del subcontracte per a les despeses
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Línies del subcontracte per als productes
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Recursos de línia de subcontractista
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Fites de línia de subcontracte
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Temps
       items:
         - name: Informació general del temps
@@ -868,6 +892,8 @@
       items:
         - name: Informació general de les aprovacions
           href: approvals/approvals-overview.md
+        - name: Conjunts d'aprovacions
+          href: approvals/approval-sets.md
         - name: Notes del desenvolupador
           items:
             - name: Notes del desenvolupador per a aprovacions
@@ -1060,6 +1086,8 @@
       items:
         - name: "Planificació del llançament d'actualitzacions per al Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Novetats o canvis del llançament de l'actualització\_35, V3"
+          href: psa/whats-new-ur-35.md
         - name: "Novetats o canvis del llançament de l'actualització\_34, V3"
           href: psa/whats-new-ur-34.md
         - name: "Novetats o canvis del llançament de l'actualització\_33, V3"
@@ -1304,13 +1332,13 @@
               href: psa/time-entries.md
             - name: Calendari d'entrades de temps
               href: psa/time-entry-calendar.md
-            - name: Personalització de l'entrada de temps setmanal
+            - name: Personalització de les entrades de temps setmanals
               href: psa/time-entry-extensibility-v3.md
-            - name: Conjunts d'aprovacions
+            - name: Conjunts d'aprovacions al Project Service Automation
               href: psa/approval-set.md
     - name: Preguntes freqüents i detecció d'errors (3.x)
       items:
-        - name: Per què el preu es defineix per defecte com a zero a les xifres reals dels costos de despeses?
+        - name: Per què el preu es defineix per defecte com a zero a les xifres reals de cost de les despeses?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Per què el preu pren per defecte el valor zero sobre les xifres reals de les vendes de despeses?
           href: psa/FAQ-zero-price-expense-sales-actuals.md
