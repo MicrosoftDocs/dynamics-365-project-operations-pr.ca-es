@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024771"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474480"
 ---
 # <a name="project-operations-updates"></a>Actualitzacions del Project Operations
 
@@ -28,15 +28,15 @@ El Dynamics 365 Project Operations consta de dos components:
 - L'administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance cobreix les funcionalitats d'administració de despeses, la comptabilitat de projectes i el reconeixement d'ingressos. L'entorn d'aplicació del Finance and Operations s'utilitza al Project Operations per a escenaris basats en recursos/sense existències i Project Operations per a escenaris amb existències/basats en producció.
 
 ## <a name="project-operations-release-notes"></a>Notes de la versió de Project Operations
-- Notes de la versió més recents de Project Operations per a l'escenari [Recursos/sense existències](whats-new-july-2021-resource-based.md).
-- Notes de la versió més recents de Project Operations per a l'escenari [Implementació bàsica](../pro/whats-new/whats-new-july-2021-lite.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [Recursos/sense existències](whats-new-august-2021-resource-based.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [Implementació bàsica](../pro/whats-new/whats-new-august-2021-lite.md).
 - Notes de la versió més recents de Project Operations per a l'escenari [en existències/producció](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Versió més recent del Project Operations
 
 | Project Operations a l'entorn del Dataverse | Administració de projectes i comptabilitat en entorns d'aplicacions del Finance and Operations | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 Per a l'escenari de recursos/no mantingut en existències del Project Operations, es recomana utilitzar Dual Write Orchestration versió 2.2.2.83 o superior.
 
@@ -47,27 +47,24 @@ Les actualitzacions del Project Operations a l'entorn del Dataverse estan dispon
 | Estació | Regió | Número de versió actual | Actualitzacions automàtiques per a la implementació bàsica | Actualitzacions automàtiques per a la implementació basada en recursos/sense inventari | Número de la versió següent | Pròxima versió disponible de manera general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estació 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primera versió         |  4.13.0.152     | Complet           | 13 d'agost del 2021     | TBD                 | 27 d'agost del 2021     |
+|   &nbsp;  | Primera versió         |  4.14.0.99      | Complet           | 10 de setembre de 2021  | TBD                 | 01 d'octubre de 2021    |
 | Estació 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Sud         |  4.13.0.152     | 13 d'agost del 2021    | 20 d'agost del 2021     | TBD                 | 27 d'agost del 2021     |
-|    &nbsp; | Canadà                |  4.13.0.152     | 13 d'agost del 2021    | 20 d'agost del 2021     | TBD                 | 27 d'agost del 2021     |
-|   &nbsp;  | Índia                 |  4.13.0.152     | 13 d'agost del 2021    | 20 d'agost del 2021     | TBD                 | 27 d'agost del 2021     |
-|   &nbsp;  | França                |  4.13.0.152     | 13 d'agost del 2021    | 20 d'agost del 2021     | TBD                 | 27 d'agost del 2021     |
-|   &nbsp;  | Emirats Àrabs Units  |  4.13.0.152     | 13 d'agost del 2021    | 20 d'agost del 2021     | TBD                 | 27 d'agost del 2021     |
-|   &nbsp;  | República de Sud-àfrica          |  4.13.0.152     | 13 d'agost del 2021    | 20 d'agost del 2021     | TBD                 | 27 d'agost del 2021     |
+|   &nbsp;  | Amèrica del Sud         |  4.14.0.152     | 10 de setembre de 2021 | 17 de setembre de 2021  | TBD                 | 01 d'octubre de 2021    |
+|    &nbsp; | Canadà                |  4.14.0.152     | 10 de setembre de 2021 | 17 de setembre de 2021  | TBD                 | 01 d'octubre de 2021    |
+|   &nbsp;  | Índia                 |  4.14.0.152     | 10 de setembre de 2021 | 17 de setembre de 2021  | TBD                 | 01 d'octubre de 2021    |
+|   &nbsp;  | França                |  4.14.0.152     | 10 de setembre de 2021 | 17 de setembre de 2021  | TBD                 | 01 d'octubre de 2021    |
+|   &nbsp;  | Emirats Àrabs Units  |  4.14.0.152     | 10 de setembre de 2021 | 17 de setembre de 2021  | TBD                 | 01 d'octubre de 2021    |
+|   &nbsp;  | República de Sud-àfrica          |  4.14.0.152     | 10 de setembre de 2021 | 17 de setembre de 2021  | TBD                 | 01 d'octubre de 2021    |
 | Estació 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japó                 |  4.12.0.152     | Complet*          | Complet            | 4.13.0.152          | 13 d'agost del 2021     |
-|   &nbsp;  | Pacífic asiàtic          |  4.12.0.152     | Complet*          | Complet            | 4.13.0.152          | 13 d'agost del 2021     |
-|   &nbsp;  | Gran Bretanya         |  4.12.0.152     | Complet*          | Complet            | 4.13.0.152          | 13 d'agost del 2021     |
-|   &nbsp;  | Oceania               |  4.12.0.152     | Complet*          | Complet            | 4.13.0.152          | 13 d'agost del 2021     |
+|   &nbsp;  | Japó                 |  4.13.0.152     | Complet           | Complet            | 4.14.0.152          | 10 de setembre de 2021  |
+|   &nbsp;  | Pacífic asiàtic          |  4.13.0.152     | Complet           | Complet            | 4.14.0.152          | 10 de setembre de 2021  |
+|   &nbsp;  | Gran Bretanya         |  4.13.0.152     | Complet           | Complet            | 4.14.0.152          | 10 de setembre de 2021  |
+|   &nbsp;  | Oceania               |  4.13.0.152     | Complet           | Complet            | 4.14.0.152          | 10 de setembre de 2021  |
 | Estació 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.12.0.152     | Complet           | Complet            | 4.13.0.152          | 20 d'agost del 2021     |
+|   &nbsp;  | Europa                |  4.13.0.152     | Complet           | 03 de setembre de 2021  | 4.14.0.152          | 17 de setembre de 2021  |
 | Estació 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Nord         |  4.12.0.152     | 13 d'agost del 2021    | 20 d'agost del 2021     | 4.13.0.152          | 27 d'agost del 2021     |
+|   &nbsp;  | Amèrica del Nord         |  4.13.0.152     | 03 de setembre de 2021 | 10 de setembre de 2021  | 4.14.0.152          | 24 de setembre de 2021  |
 
-
-> [!NOTE]
-> La implementació automàtica s'ha completat per a la versió 4.12.0.148. No s'ha planificat cap implementació automàtica per a la versió actualitzada de la versió del juliol de 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificació de llançaments per a l'administració de projectes i comptabilitat a l'entorn de les aplicacions del Finance and Operations
 

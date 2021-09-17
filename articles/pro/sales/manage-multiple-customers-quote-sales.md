@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001644"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440765"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Administració de diversos clients a les ofertes de projectes (bàsic)
 
@@ -37,7 +37,7 @@ Es pot crear, actualitzar o suprimir un client d'oferta a la pestanya **Clients 
 
 | **Camp** | **Ubicació** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- | --- |
-| Compte | Quadrícula editable a la pestanya **Clients de l'oferta** i als formularis **Principal** i **Creació ràpida** per a un client d'oferta. | Enumera tots els comptes actius. Aquest camp està blocat quan es crea el registre. Si voleu actualitzar-lo, suprimiu el registre i torneu-lo a crear. Si heu enregistrat valors reals o si el registre del client d'oferta és un client principal, se us permetrà suprimir el registre. | Els clients d'oferta es copien com a clients de línia d'oferta quan es crea una línia d'oferta. Els clients de l'oferta també es copiaran al clients del contracte del projecte quan es guanya una oferta. |
+| Compte | Quadrícula editable a la pestanya **Clients de l'oferta** i als formularis **Principal** i **Creació ràpida** per a un client d'oferta. | Enumera tots els comptes actius. Aquest camp està blocat quan es crea el registre. Si voleu actualitzar-lo, suprimiu el registre i torneu-lo a crear. Si heu registrat valors reals o si el registre del client de l'oferta és un client principal, no se us permetrà suprimir el registre. | Els clients d'oferta es copien com a clients de línia d'oferta quan es crea una línia d'oferta. Els clients de l'oferta també es copiaran al clients del contracte del projecte quan es guanya una oferta. |
 | Percentatge dividit de facturació | Quadrícula editable a la pestanya **Clients de l'oferta** i als formularis **Principal** i **Creació ràpida** per a un client d'oferta. | Representa el percentatge de cada transacció de vendes sense facturar que s'atribuirà a aquest client de l'oferta. | Es copia a les noves línies d'oferta i als clients del contracte del projecte. |
 | Nom de contacte de facturació | Quadrícula editable a la pestanya **Clients de l'oferta** i als formularis **Principal** i **Creació ràpida** per a un client d'oferta. | Es tracta d'un camp de text i s'ha d'utilitzar per identificar la persona de contacte de la factura d'aquest client. Es prenen per defecte del registre de compte relacionat | Es copien als clients de contracte de projecte quan es guanya una oferta i al seu torn al camp de nom de contacte de facturació a la factura que es genera per a aquest client. |
 | Nom de facturació | Quadrícula editable a la pestanya **Clients de l'oferta** i als formularis **Principal** i **Creació ràpida** per a un client d'oferta. | Aquest camp de text s'ha d'utilitzar per identificar la persona de contacte de la factura d'aquest client. | Es copia als clients de contracte de projecte quan es guanya una oferta i al seu torn al camp **Nom de contacte de facturació** a la factura que es genera per a aquest client. |

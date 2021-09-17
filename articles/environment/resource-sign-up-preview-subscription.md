@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007854"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323404"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrar-se a les subscripcions de versió preliminar del Project Operations per a escenaris de recursos/sense existències
 
@@ -23,7 +23,7 @@ En aquest tema s'explica com subscriure's a l'oferta de prova i implementar l'en
 
 ## <a name="prerequisites"></a>Requisits previs
 - L'usuari que implementa la versió preliminar ha de tenir drets d'administrador global a l'inquilí de l'Azure. Podeu crear un inquilí en bescanviar la primera oferta. 
-- La implementació d'un entorn del Finance requereix una subscripció vàlida de l'Azure que es facturarà per entorn. Podeu utilitzar la subscripció existent de l'organització o utilitzar una [versió de prova de l'Azure](https://azure.microsoft.com/en-us/free/) per començar. L'entorn del CDS es proporcionarà gratuïtament durant un període de 30 dies limitat.
+- La implementació d'un entorn del Finance requereix una subscripció vàlida de l'Azure que es facturarà per entorn. Podeu utilitzar la subscripció existent de l'organització o utilitzar una [versió de prova de l'Azure](https://azure.microsoft.com/free/) per començar. L'entorn del CDS es proporcionarà gratuïtament durant un període de 30 dies limitat.
 
 > [!IMPORTANT]
 > Només cal que una persona de l'organització, l'administrador d'inquilins, realitzi aquesta tasca. Si no sou el subscriptor en aquesta versió, espereu fins que l'organització s'hagi registrat i hàgiu rebut les vostres credencials d'usuari.
