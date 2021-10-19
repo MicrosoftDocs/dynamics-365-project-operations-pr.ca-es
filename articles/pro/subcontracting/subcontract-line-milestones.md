@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323764"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558490"
 ---
 # <a name="subcontract-line-milestones"></a>Fites de línia de subcontracte
 
@@ -50,15 +50,15 @@ Les fites de preu fix d'una línia de subcontracte es poden generar manualment q
 3. A la pestanya **Fites de la línia de subcontracte**, a la subquadrícula, seleccioneu **+ Nova fita de línia de subcontracte**.
 4. A la pàgina **Nova fita de línia de subcontracte**, introduïu la informació necessària a partir de la taula següent.
 
-    | Camp | Descripció |
-    | --- | --- |
-    | Nom de la fita | Nom de la fita. |
-    | Descripció | Descripció de la fita.  |
-    | Data de la fita | Data en què el procés de creació automàtica de factures hauria de consultar l'estat d'aquesta fita per tenir-lo en compte per a la facturació. Aquest valor s'inclou a la línia de facturació del proveïdor quan factura aquest subcontracte. |
-    | Import | Import o valor de la fita que es facturarà al client. Aquest valor s'inclou a la línia de facturació del proveïdor quan factura aquest subcontracte. |
-    | Impostos | Import d'impostos aplicat a la fita. Aquest valor s'inclou a la línia de facturació del proveïdor quan factura aquest subcontracte. |
-    | Import després d'impostos | Aquest camp només de lectura es calcula com a Import + Impostos. Aquest valor s'inclou a la línia de facturació del proveïdor quan factura aquest subcontracte. |
-    | Estat de la factura | Quan es crea la fita, aquest estat sempre es defineix com a **No preparat per a la facturació**.  Quan l'estat és **Preparat per a la facturació**, la creació de la factura del proveïdor inclou aquesta fita a la factura del proveïdor. |
+    | Camp | Descripció |Impacte funcional|
+    | --- | --- |----------------------|
+    | Nom de la fita | Nom de la fita. |Es mostrarà com la primera columna de totes les consultes basada en les fites de línia de subcontracte. La línia de factura del proveïdor creada a partir d'aquesta fita també utilitzarà el nom de la fita de la línia de subcontracte com a nom per defecte de la línia de factura del proveïdor.|
+    | Descripció | Descripció de la fita. |La línia de factura del proveïdor creada a partir d'aquesta fita també utilitzarà la descripció de la fita de la línia de subcontracte com a descripció per defecte de la línia de factura del proveïdor.|
+    | Data de la fita | Data en què el procés de creació automàtica de factures hauria de consultar l'estat d'aquesta fita per tenir-lo en compte per a la facturació.| Aquest valor s'utilitzarà com a data per defecte de la línia de factura del proveïdor en facturar aquesta línia de subcontracte. |
+    | Import | Import o valor de la fita que es facturarà al client. |Aquest valor s'utilitza com a import per defecte a la línia de factura del proveïdor en facturar aquesta línia de subcontracte. |
+    | Impostos | Import d'impostos aplicat a la fita.| Aquest valor s'utilitza com a import d'impostos per defecte a la línia de factura del proveïdor en facturar aquesta línia de subcontracte. |
+    | Import després d'impostos | Aquest camp només de lectura es calcula com Quantitat + Impost.|Aquest valor s'utilitza per defecte a la línia de factura del proveïdor en facturar aquesta línia de subcontracte. |
+    | Estat de la factura | Quan es crea la fita, aquest estat sempre es defineix com a **No preparat per a la facturació**.|  Quan l'estat és **Preparat per a la facturació**, la creació de la factura del proveïdor inclou aquesta fita a la factura del proveïdor. |
 
 5. Seleccioneu **Desa i tanca**.
 

@@ -2,23 +2,22 @@
 title: Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació
 description: En aquest tema es proporciona informació i exemples per utilitzar les API de planificació de projectes.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008754"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487673"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-> [!IMPORTANT] 
-> Algunes de les funcionalitats que s'indiquen en aquest tema estan disponibles com a part d'una versió preliminar. El contingut i la funcionalitat estan subjectes a canvis. 
+
 
 ## <a name="scheduling-entities"></a>Entitats de planificació
 

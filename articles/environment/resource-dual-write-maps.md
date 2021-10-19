@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003804"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547097"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versions d'assignació de doble escriptura del Project Operations
 
@@ -49,8 +49,8 @@ Les assignacions següents són necessàries per a una solució del Project Oper
 | Taula d'integració del Project Operations per a estimacions de materials (msdyn\_estimatelines) | 1.0.0.0 | No és necessari per al proveïment. |
 | Propostes de factura del projecte V2 (factures) | 1.0.0.3 | No és necessari per al proveïment. |
 | Valors reals d'integració del Project Operations (msdyn_actuals) | 1.0.0.14 | No és necessari per al proveïment. |
-| Fites de línia de contracte d'integració del Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | No és necessari per al proveïment. |
-| Entitat d'integració del Project Operations per a l'estimació de despeses (msdyn_estimateslines) | 1.0.0.2 | No és necessari per al proveïment. |
+| Fites de línia de contracte d'integració al Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | No és necessari per al proveïment. |
+| Entitat d'integració del Project Operations per a estimacions de despeses (msdyn_estimatelines) | 1.0.0.2 | No és necessari per al proveïment. |
 | Entitat d'integració del Project Operations per a l'estimació d'hores (msdyn_resourceassignments) | 1.0.0.5 | No és necessari per al proveïment. |
 | Entitat d'exportació de categories de despeses del projecte d'integració del Project Operations (msdyn_expensecategories) | 1.0.0.1 | No és necessari per al proveïment. |
 | Entitat d'exportació de despeses del projecte d'integració del Project Operations (msdyn_expenses) | 1.0.0.2 | No és necessari per al proveïment. |

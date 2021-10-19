@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323809"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506087"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Línies de subcontracte per a categories de despeses
 
@@ -29,23 +29,23 @@ Per crear una línia de subcontracte per a categories de despesa al Project Oper
 
 La taula següent proporciona informació sobre els camps de la pàgina de detalls de **Línia de subcontracte** i la pàgina **Creació ràpida**.
 
-| **Camp** |  **Descripció** |
-| ----------| ---------------- |
-| Nom | Nom de la línia de subcontracte. |
-| Descripció | Descripció breu de les categories de serveis o productes que es compren a la línia de subcontracte. |
-| Tipus de línia | Aquest camp té un valor per defecte **Basat en quantitat**.  |
-| Mètode de facturació | Mètode de facturació de la línia de subcontracte. Segons el mètode de facturació de la línia, s'ofereix una planificació de facturació basada en fites per al mètode de facturació de preu fix.  |
-| Classe de la transacció | Aquest camp té un valor per defecte **Temps**. Per crear línies de subcontracte per comprar productes, definiu el camp **Classe de transacció** com a **Despesa**. Aquest valor de camp indica que la línia de subcontracte s'utilitza per registrar una compra d'una categoria de productes o serveis que s'utilitzaran en projectes. |
-| Categoria de transacció | Seleccioneu la categoria de transacció. |
-| Data sol·licitada | Data en què les categories de compra han d'estar disponibles del proveïdor. La data sol·licitada s'utilitza per seleccionar una llista de preus a les llistes de preus del projecte adjuntades al subcontracte. El cost de la categoria a la línia de subcontracte es pren per defecte d'aquesta llista de preus. |
-| Final sol·licitat | Data en què les categories de compra ja no es necessiten. Aquesta data genera un advertiment quan un administrador de projectes associa aquesta línia de subcontracte amb estimacions de despeses específiques als projectes amb data posterior a aquesta. |
-| Quantitat demanada | Quantitat de la categoria que es compra al proveïdor. Si un administrador de projectes pren de la quantitat comprada, es produirà un advertiment.  |
-| Grup d’unitats | Aquest valor de camp pren el valor per defecte segons el grup d'unitats per defecte configurat per a la categoria seleccionada. |
-| Unitat | Aquest valor de camp pren el valor per defecte segons la unitat per defecte configurada per a la categoria seleccionada. La combinació de categoria i unitat s'utilitza per al valor per defecte del preu unitari de la línia de subcontracte. |
-| Preu per unitat | El valor del camp de preu unitari pren el valor per defecte de la combinació de la categoria i la unitat dels preus de categoria relacionats amb la llista de preus del projecte que sigui aplicable a la data sol·licitada de la línia de subcontracte.  |
-| Subtotal | És un camp només de lectura que es calcula automàticament com el preu unitari per quantitat si s'introdueixen els valors de quantitat i de preu unitari. Si un o tots dos camps estan buits, podeu introduir un valor en aquest camp manualment.  |
-| Impost sobre les vendes | Especifiqueu l'import de l'impost sobre les vendes.  |
-| Import total | Quantitat total de la línia de subcontracte amb els impostos. Aquest camp es calcula com el subtotal + impost sobre les vendes.  |
+| **Camp** | **Descripció** | **Impacte funcional** |
+| --- | --- | --- |
+| Nom | Nom de la línia de subcontracte per ajudar a identificar-la. | Es mostrarà com la primera columna de totes les consultes basada en les línies de subcontracte. |
+| Descripció | Descripció breu de les categories de despeses que s'adquireixen a la línia de subcontracte. | Cap |
+|Tipus de línia | Aquest camp té un valor per defecte de **Basat en quantitat**. |Cap |
+| Mètode de facturació | Es tracta d'un conjunt d'opcions que representa els dos models de contractació principals que admet el Project Operations: **Preu fix** i **Temps i material**. | Una planificació de factura basada en fites està disponible per a les línies de subcontracte si se selecciona el mètode de facturació de preus fixos. |
+| Classe de la transacció | Aquest camp té un valor per defecte de **Temps**. Per crear línies de subcontracte per comprar productes, definiu el camp **Classe de transacció** com a **Despesa**.  | Això indica que la línia de subcontracte s'utilitza per registrar la compra d'una categoria de despeses que s'utilitzaran en els projectes. |
+| Categoria de transacció | Mostra una llista de les categories de transaccions actives al sistema. |Cap |
+| Data sol·licitada | Introduïu la data en què les categories de compra han d'estar disponibles al proveïdor. | S'utilitza l'inici sol·licitat per seleccionar una llista de preus del projecte de les llistes de preus del projecte adjuntades al subcontracte. El cost de la categoria a la línia de subcontracte prové d'aquesta llista de preus. |
+| Final sol·licitat | Introduïu la data en què ja no es necessitarien les categories de compra. | S'utilitzarà per mostrar advertiments quan un administrador de projecte associa aquesta línia de subcontracte a estimacions de despeses específiques del projecte que són necessàries a partir d'aquesta data. |
+| Quantitat demanada | Quantitat de la categoria que es compra al proveïdor. | S'utilitzarà per mostrar advertiments quan un administrador de projecte prengui un excés d'aquesta quantitat.|
+| Grup d’unitats | El valor per defecte es basa en el grup d'unitats per defecte configurat per a la categoria seleccionada. |Cap |
+| Unitat | El valor per defecte es basa en la unitat per defecte configurada per a la categoria seleccionada.  | La combinació de **Categoria** i **Unitat** s'utilitzarà com a valor per defecte o es calcularà per al preu unitari de la línia de subcontracte.  |
+| Preu per unitat | El valor per defecte utilitza la combinació de **Categoria** i **Unitat** dels preus de categoria relacionats amb la llista de preus del projecte, que és aplicable a l'Inici sol·licitat de la línia de subcontracte. |Cap |
+| Subtotal | Es tracta d'un camp només de lectura que es calcula com a Quantitat x Preu unitari, si s'introdueixen tant la quantitat com els valors de preu unitari. Si un o tots dos camps estan en blanc, podeu introduir un valor en aquest camp. |Cap |
+| Impost sobre les vendes | Especifiqueu l'import de l'impost sobre les vendes. |Cap |
+| Import total | Quantitat total de la línia de subcontracte amb els impostos. Aquest camp es calcula com subtotal + impost sobre les vendes. |Cap |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Detalls de la capçalera per als subcontractes
 description: En aquest tema s'explica la funcionalitat proporcionada a la capçalera del subcontracte a Project Operations.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323629"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501314"
 ---
 # <a name="header-details-for-subcontracts"></a>Detalls de la capçalera per als subcontractes
 
@@ -28,26 +28,24 @@ Per crear un subcontracte, seguiu aquests passos.
 1. A la subfinestra de navegació, seleccioneu **Subcontractes** i, a la pàgina **Subcontracte**, seleccioneu **Crea**.
 2. Introduïu la informació requerida i seleccioneu **Desa**.
 
-    La taula següent proporciona informació sobre els camps de la pàgina de capçalera de Subcontracte.
+    La taula següent proporciona informació sobre els camps de la pàgina **Capçalera de subcontracte**.
 
-    | **Camp** | **Descripció** |
-    | --- | --- | 
-    | Nom | El nom del subcontracte. |
-    | Descripció | Descripció breu dels serveis i productes que es compren al subcontracte. |
-    | Proveïdor | Nom de l'empresa a la qual es compren els productes i serveis. Aquest registre de compte té un tipus de relació de **Proveïdor** o **Distribuïdor**. |
-    | Data de subcontracte | Data de creació del subcontracte. |
-    | Raó per a l’estat | Estat del subcontracte. |
-    | Moneda | Moneda en què es compren els productes i serveis. El valor d'aquest camp és per defecte el compte del proveïdor, però es pot canviar. Les llistes de preus del projecte que s'utilitzen per als preus dels productes i serveis del subcontracte haurien d'estar en aquesta moneda. Les llistes de preus en altres monedes no es poden associar amb el subcontracte. El cost dels productes i serveis incorreguts en aquest subcontracte es registrarà en el projecte en aquesta moneda. |
-    | Unitat de contractació | Divisió de l'empresa que està celebrant un contracte de compra o un subcontracte amb el proveïdor. |
-    | Condicions de pagament | Condicions de pagament de les factures del proveïdor que s'emeten en aquest subcontracte. El valor d'aquest camp és per defecte el registre del compte del proveïdor. |
-    | Adreça de pagament | Adreça on s'envia el pagament a les factures del proveïdor. El valor d'aquest camp és per defecte el registre del compte del proveïdor. |
-    | Nom de facturació | Nom de la persona o divisió de l'empresa del proveïdor que enviarà la factura. El valor d'aquest camp és per defecte el del registre del compte del proveïdor i s'utilitzarà com a nom del contacte principal a les factures del proveïdor creades per a aquest subcontracte. |
-    | Adreça de facturació | Adreça utilitzada a les factures d'aquest proveïdor. El valor d'aquest camp és per defecte el registre del compte del proveïdor. Aquesta adreça s'utilitza també com a adreça de factura a les factures del proveïdor creades per a aquest subcontracte. |
-    | Subtotal | Si un subcontracte no té línies, introduïu un valor en aquest camp que denoti el subtotal de la comanda abans d'impostos. Si el subcontracte té línies, aquest camp és només de lectura. La quantitat que es visualitza és la quantitat subtotal de totes les línies del subcontracte. |
-    | Impostos totals | Si un subcontracte no té línies, introduïu un valor en aquest camp que denoti els impostos del subcontracte. Si el subcontracte té línies, aquest camp és només de lectura. La quantitat que es visualitza és la suma dels impostos de totes les línies del subcontracte. |
-    | Import total |  Aquest camp calculat mostra la quantitat total del subcontracte després d'incloure-hi els impostos.  |
-    | Data de confirmació | Data en què s'ha confirmat el subcontracte.  |
-    | Sol·licitat per | El valor d'aquest camp és per defecte el nom de l'usuari que crea el subcontracte. Aquest valor el pot canviar l'autor del subcontracte per indicar la persona en nom de la qual es crea el subcontracte.  |
-    | Administrador de compte del proveïdor | Nom del contacte principal del compte del proveïdor. El valor d'aquest camp és per defecte el registre del compte del proveïdor. Aquest valor de camp el pot canviar l'usuari per seleccionar un contacte diferent com a administrador del compte de proveïdor del subcontracte. Aquest contacte pot configurar i enviar alertes de correu electrònic i negociacions de preus. |
-
-
+    | Camp | Descripció |Impacte funcional |
+    |---|------|---| 
+    | Nom | El nom del subcontracte. | A totes les llistes desplegables del subcontracte, el nom del subcontracte es mostra a la primera columna per ajudar-vos a identificar el subcontracte. | 
+    | Descripció | Descripció breu dels serveis i productes que es compren al subcontracte. | Cap |
+    | Proveïdor | Nom de l'empresa a la qual es compren els productes i serveis. Aquest registre de compte té un tipus de relació de **Proveïdor** o **Distribuïdor**. | En funció del proveïdor seleccionat, els valors per defecte s'introdueixen automàticament per als camps següents:<br/> **• Moneda** </br> **• Llistes de preus** </br> **• Condicions de pagament**</br> **• Adreça de pagament**</br> **• Adreça de facturació**</br> **• Nom de facturació** </br>**• Administrador de compte del proveïdor**|
+    | Data de subcontracte | La data en què es crea el subcontracte. | La data del subcontracte s'utilitza per seleccionar la llista de preus de compra correcta de les llistes de preus adjuntades al proveïdor relacionat o dels paràmetres del projecte. |
+    | Raó per a l’estat | Estat del subcontracte. | L'estat determina on es troba el subcontracte en el procés empresarial i si es pot editar. <br/>Els valors inclouen:<br>• **Esborrany**: el subcontracte es pot editar. Només podeu editar les subcontractes amb l'estat **Esborrany**.<br/>• **Confirmat**: la negociació amb el proveïdor està completa i el subcontracte s'aprova per al seu lliurament. <br/>• **Tancat**: el lliurament del subcontracte s'ha completat.<br/>• **Cancel·lat**: el subcontracte s'ha cancel·lat i no s'ha previst cap lliurament.  | 
+    | Moneda | Moneda en què es compren els productes i serveis. El valor per defecte s'introdueix automàticament des del compte del proveïdor, però es pot canviar. | La moneda del subcontracte s'utilitza per seleccionar la llista de preus de compra de les llistes de preus adjuntades al proveïdor relacionat o dels paràmetres del projecte. Les llistes de preus en una altra moneda no es poden associar amb el subcontracte. El cost del temps, les despeses i els materials que els recursos del proveïdor lliuren d'aquest subcontracte es registren en aquesta moneda al projecte. Després de desar el registre del subcontracte, la moneda del subcontracte no es pot canviar.|
+    | Unitat de contractació | Divisió de l'empresa que està celebrant un contracte de compra o un subcontracte amb el proveïdor. | Cap |
+    | Condicions de pagament | Condicions de pagament de les factures de proveïdor que s'emeten en aquest subcontracte. El valor per defecte s'introdueix automàticament des del registre del compte de proveïdor. | Les condicions de pagament del subcontracte es copien a totes les factures del proveïdor relacionades amb aquest subcontracte. Les condicions de pagament es poden actualitzar si el subcontracte té l'estat **Esborrany**. | 
+    | Adreça de pagament | Adreça del proveïdor a la qual s'han d'enviar els pagaments. El valor per defecte s'introdueix automàticament des del registre del compte de proveïdor. | L'adreça de pagament del subcontracte es copia com l'adreça de pagament a totes les factures del proveïdor creades per a aquest subcontracte. L'adreça de pagament es pot actualitzar si el subcontracte té l'estat **Esborrany**.|
+    | Nom de facturació | Nom de la persona o divisió de l'empresa del proveïdor que enviarà la factura. El valor per defecte s'introdueix automàticament des del registre del compte de proveïdor. | El valor de **Nom de facturació** del subcontracte es copia a totes les factures del proveïdor relacionades amb aquest subcontracte. Aquest camp es pot actualitzar si el subcontracte té l'estat **Esborrany**.|
+    | Adreça de facturació | Adreça utilitzada en les factures del proveïdor. El valor per defecte s'introdueix automàticament des del registre del compte de proveïdor. | Aquesta adreça és l'adreça "factura de" a les factures del proveïdor creades per a aquest subcontracte. |
+    | Subtotal | Si un subcontracte no té línies, introduïu el subtotal de la comanda abans dels impostos. Si el subcontracte té línies, aquest camp és només de lectura. L'import que es mostra és l'import subtotal de totes les línies del subcontracte. | Cap |
+    | Impostos totals | Si un subcontracte no té línies, introduïu els impostos totals d'aquest subcontracte. Si el subcontracte té línies, aquest camp és només de lectura. L'import que es mostra és la suma dels impostos de totes les línies del subcontracte. | Cap |
+    | Import total | Aquest camp calculat mostra la quantitat total del subcontracte després d'incloure-hi els impostos. | Cap |
+    | Data de confirmació | Data en què s'ha confirmat el subcontracte. | Cap |
+    | Sol·licitat per | Per defecte, aquest camp està definit com el nom de l'usuari que crea el subcontracte. Tanmateix, l'autor del subcontracte pot canviar el valor per indicar la persona en nom de la qual estan creant el subcontracte. | Cap |
+    | Administrador de compte del proveïdor | Nom del contacte principal del compte del proveïdor. El valor per defecte s'introdueix automàticament des del registre del compte de proveïdor. Podeu seleccionar un contacte diferent com a administrador del compte del subcontracte. | Podeu configurar alertes de correu electrònic per notificar el contacte quan es fan canvis al subcontracte com a resultat de negociacions de preus. |

@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323854"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547232"
 ---
 # <a name="subcontract-lines-for-time"></a>Línies del subcontracte per al temps
 
@@ -30,23 +30,22 @@ Per crear una línia de subcontracte per a temps al Project Operations, complete
 
   La taula següent proporciona informació sobre els camps de la pàgina **Línia de subcontracte** i la pàgina **Creació ràpida**.
 
-| **Camp** | **Descripció** |
-| --- | --- |
-| Nom | Nom de la línia de subcontracte. |
-| Descripció | Descripció breu dels serveis que es compren a la línia de subcontracte. | 
-| Tipus de línia | Aquest camp és un valor per defecte.  |
-| Mètode de facturació | Seleccioneu el mètode de facturació. Segons el mètode de facturació de la línia de subcontracte a què es fa referència, s'ofereix una planificació de facturació basada en fites per al mètode de facturació de Preu fix. |
-| Classe de la transacció | Aquest camp és un valor per defecte que indica si la línia de subcontracte s'utilitza per registrar una compra de temps del subcontractista. |
-| Funció | Funció dels recursos de subcontracte el temps del qual s'està comprant. La funció assignada als recursos de subcontracte determina el cost de la compra. |
-| Data sol·licitada | Data en què els recursos del subcontractista són necessaris per començar a treballar. La data sol·licitada s'utilitza per seleccionar una llista de preus a les llistes de preus del projecte adjuntades al subcontracte. El cost de la funció a la línia de subcontracte es pren per defecte d'aquesta llista de preus. |
-| Final sol·licitat | Data d'acabament de l'assignació de recursos del subcontracte. Aquesta data s'utilitza per mostrar advertiments quan un Administrador de projectes està prenent d'aquesta capacitat per als requisits de recursos que es produeixen després d'aquesta data. |
-| Quantitat demanada | Nombre d'hores de la funció que es compra al proveïdor. Aquest valor s'utilitza per mostrar advertiments quan un Administrador de projectes està prenent d'aquesta capacitat per als requisits de recursos. |
-| Grup d’unitats | Aquest valor de camp és per defecte el grup d'unitats de Temps i no es pot canviar.  |
-| Unitat | Aquest camp és per defecte la unitat base d'hores del grup d'unitats de Temps. Podeu canviar aquest valor per comprar qualsevol unitat del grup d'unitats de Temps, com ara dia o setmana. La combinació de Funció i Unitat s'utilitza per calcular el preu unitari per a la línia de subcontracte. |
-| Preu per unitat | El preu unitari pren el valor per defecte de la combinació de Funció i Unitat de la llista de preus aplicable per a la data d'inici sol·licitada de la línia de subcontracte. Quan la llista de preus del projecte aplicable té el preu configurat en una unitat diferent de la unitat de la línia de subcontracte, el sistema utilitza la conversió d'unitats per calcular el preu unitari. |
-| Subtotal | És un camp només de lectura que es calcula automàticament com a **Quantitat x Preu unitari** si s'introdueixen els valors de quantitat i de preu unitari. Si el camp quantitat, preu unitari o tots dos estan en blanc, podeu introduir-hi un valor. |
-| Impost sobre les vendes |  Especifiqueu l'import de l'impost sobre les vendes. |
-| Import total | Quantitat total de la línia de subcontracte després d'incloure-hi els impostos. |
-
+| **Camp** | **Descripció** | **Impacte funcional** |
+| --- | --- | --- |
+| Nom | Nom de la línia de subcontracte per ajudar a identificar-la. | Es mostrarà com la primera columna de totes les consultes basada en les línies de subcontracte. |
+| Descripció | Descripció breu dels serveis que es compren a la línia de subcontracte. |Cap |
+| Tipus de línia |   Aquest camp té un valor per defecte **Basat en quantitat**.| Cap |
+| Mètode de facturació | Es tracta d'un conjunt d'opcions que representa els dos models de contractació principals que admet el Project Operations: **Preu fix** i **Temps i material**. | Segons el mètode de facturació seleccionat, una planificació de factura basada en fites està disponible per a les línies de subcontracte amb el mètode de facturació de preus fixos. |
+| Classe de la transacció | El valor per defecte és **Temps**. | Això indica que la línia de subcontracte s'utilitza per registrar una compra de temps de subcontractista. |
+| Funció | Seleccioneu la funció dels recursos de subcontracte el temps dels qual es compra. | La funció que fan els recursos de subcontracte determina el cost de la compra. |
+| Data sol·licitada | Introduïu la data en què els recursos de subcontracte són necessaris per començar a treballar. | S'utilitza per seleccionar una llista de preus del projecte de les llistes de preus del projecte adjuntades al subcontracte. El cost de la funció a la línia de subcontracte prové d'aquesta llista de preus. |
+| Final sol·licitat | Introduïu la data en què acaba l'assignació del recurs de subcontracte. | S'utilitzarà per mostrar advertiments quan un administrador de projecte pren de la capacitat dels requisits de recursos que es produeixen després d'aquesta data. |
+| Quantitat demanada | Introduïu el nombre d'hores de la funció que s'ha adquirit al proveïdor. | S'utilitzarà per mostrar advertiments quan un administrador de projecte prengui un excés de la capacitat dels requisits de recursos. |
+| Grup d’unitats | El valor per defecte és **Grup d'unitats de temps**, que no es pot canviar. | Cap|
+| Unitat | El valor per defecte d'aquest camp és la unitat de base d'hores del **Grup d'unitat de temps**. Podeu canviar aquest valor per comprar qualsevol unitat del **Grup d'unitats de temps**, com ara dia o setmana. | La combinació de **Funció** i **Unitat** s'utilitzarà com a valor per defecte o es calcularà per al preu unitari de la línia de subcontracte. |
+| Preu per unitat | El preu unitari per defecte utilitza la combinació de **Funció** i **Unitat** de la llista de preus del projecte aplicable a la data d'**Inici sol·licitat** de la línia de subcontracte. | Quan la llista de preus del projecte aplicable té el preu configurat en una unitat diferent de la unitat de la línia de subcontracte, el sistema utilitza la conversió d'unitats per calcular el preu unitari. |
+| Subtotal |    Es tracta d'un camp només de lectura que es calcula com a Quantitat x Preu unitari, si s'introdueixen tant la quantitat com els valors de preu unitari. Si el camp quantitat, preu unitari o tots dos estan en blanc, podeu introduir-hi un valor. | Cap|
+| Impost sobre les vendes |   Especifiqueu l'import de l'impost sobre les vendes. |Cap |
+| Import total | Quantitat total de la línia de subcontracte amb els impostos. Aquest camp es calcula com subtotal + impost sobre les vendes.|Cap |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

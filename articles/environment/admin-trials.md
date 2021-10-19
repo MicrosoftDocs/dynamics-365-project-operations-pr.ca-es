@@ -2,16 +2,16 @@
 title: Registre per a les proves del Project Operations
 description: En aquest tema es proporciona informació sobre com implementar una prova del Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418445"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599201"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registre per a les proves del Project Operations 
 
@@ -85,15 +85,9 @@ Abans de començar, inicieu la sessió en un navegador amb el compte de treball 
 
    Un cop començat el proveïment, se us redirigirà a la llista d'entorns del centre d'administració del Power Platform. Mentre s'està proveint, l'estat del vostre entorn és **PrepararingInstance**.
  
-  Un cop completat el proveïment, l'estat del vostre entorn és **Preparat**.
+  Quan s'ha completat el proveïment, l'estat del vostre entorn és **A punt**. El proveïment de l'entorn inclou la implementació de dades de demostració.
  
-4.  Quan el proveïment s'hagi completat, seleccioneu l'adreça URL respectiva del Microsoft Dataverse i les adreces URL de les aplicacions de Finance and Operations per validar la implementació.
-
-## <a name="demo-data-installation"></a>Instal·lació de dades de demostració
-
-Utilitzeu els enllaços següents per accedir als paquets de dades de demostració tant per a materials que no estan en existències com per a escenaris d'implementació bàsica. 
-- [Dades de demostració de materials que no estan en existències](resource-apply-pro-setup-config-data.md)
-- [Dades de demostració bàsiques](lite-apply-demo-setup-config-data.md)
+4.  Seleccioneu l'adreça URL del Microsoft Dataverse i les adreces URL de les aplicacions del Finance and Operations respectives per validar la implementació.
 
 ## <a name="configuring-dual-write"></a>Configuració de l'escriptura doble
 Per a les implementacions de materials que no estan en existències, configureu les assignacions d'escriptura doble. Per obtenir més informació, vegeu [Versions d'assignació amb doble escriptura al Project Operations](resource-dual-write-maps.md).
