@@ -52,10 +52,14 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integració de l'administració de despeses
               href: environment/resource-dual-write-expense.md
-            - name: Integració de la factura del proveïdor
+            - name: Integració de factures del proveïdor
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novetats
       items:
+        - name: 'Octubre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 'Setembre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: 'Agost de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: 'Juliol de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
@@ -292,7 +296,7 @@
           items:
             - name: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
               href: project-management/dev-copy-project.md
-            - name: Ús d'API de planificació de projectes (versió preliminar pública)
+            - name: Ús d'API de planificació del projecte
               href: project-management/schedule-api-preview.md
     - name: Administració de recursos
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Proveïment de materials no mantinguts en existències per als projectes amb factures pendents del proveïdor
           href: procurement/pending-vendor-invoices.md
+        - name: Comanda de materials no mantinguts en existències per als projectes amb comandes de compra del projecte
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Retenció de proveïdors
+          items:
+            - name: Informació general de la retenció de proveïdors
+              href: procurement/vendor-retention-overview.md
+            - name: Configuració de la retenció de proveïdors
+              href: procurement/set-up-vendor-retention.md
     - name: Facturació
       items:
         - name: Informació general del procés de facturació
@@ -526,11 +538,15 @@
           href: environment/security-model.md
     - name: Novetats
       items:
-        - name: "Novetats de l'accés anticipat al llançament\_2 de 2021: implementació Lite"
+        - name: "Novetats de l'accés anticipat al llançament\_2 de 2021: implementació bàsica"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: 'Novetats d''agost de 2021: implementació Lite'
+        - name: 'Novetats d''octubre de 2021: implementació bàsica'
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 'Novetats de setembre de 2021: implementació bàsica'
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: 'Novetats d''agost de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: 'Novetats de juliol de 2021: implementació Lite'
+        - name: 'Novetats de juliol de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: 'Novetats de juny de 2021: implementació Lite'
           href: pro/whats-new/whats-new-june-2021-lite.md
@@ -784,7 +800,7 @@
           items:
             - name: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
               href: project-management/dev-copy-project.md
-            - name: Ús d'API de planificació de projectes (versió preliminar pública)
+            - name: Ús d'API de planificació del projecte
               href: project-management/schedule-api-preview.md
     - name: Administració de recursos
       items:
@@ -856,11 +872,11 @@
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
         - name: Detalls de la capçalera per als subcontractes
           href: pro/subcontracting/subcontract-header-details.md
-        - name: Línies del subcontracte per al temps
+        - name: Línies de subcontracte per a temps
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Línies del subcontracte per a les despeses
+        - name: Línies de subcontracte per a categories de despeses
           href: pro/subcontracting/subcontract-line-expense.md
-        - name: Línies del subcontracte per als productes
+        - name: Línies de subcontracte per a productes
           href: pro/subcontracting/subcontract-line-products.md
         - name: Recursos de línia de subcontractista
           href: pro/subcontracting/subcontract-line-resources.md
@@ -1086,6 +1102,8 @@
       items:
         - name: "Planificació del llançament d'actualitzacions per al Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Novetats o canvis del llançament de l'actualització\_36, V3"
+          href: psa/whats-new-ur-36.md
         - name: "Novetats o canvis del llançament de l'actualització\_35, V3"
           href: psa/whats-new-ur-35.md
         - name: "Novetats o canvis del llançament de l'actualització\_34, V3"
