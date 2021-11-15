@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623312"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783411"
 ---
 # <a name="project-operations-updates"></a>Actualitzacions del Project Operations
 
@@ -36,7 +36,7 @@ El Dynamics 365 Project Operations consta de dos components:
 
 | Project Operations a l'entorn del Dataverse | Administració de projectes i comptabilitat en entorns d'aplicacions del Finance and Operations | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Per a l'escenari de recursos/no mantingut en existències del Project Operations, es recomana utilitzar Dual Write Orchestration versió 2.2.2.83 o superior.
 
@@ -47,23 +47,23 @@ Les actualitzacions del Project Operations a l'entorn del Dataverse estan dispon
 | Estació | Regió | Número de versió actual | Actualitzacions automàtiques per a la implementació bàsica | Actualitzacions automàtiques per a la implementació basada en recursos/sense inventari | Número de la versió següent | Pròxima versió disponible de manera general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estació 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primera versió         |  4.25.0.91      | Complet           | Complet            | TBD                 | 29 d'octubre de 2021    |
+|   &nbsp;  | Primera versió         |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
 | Estació 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Sud         |  4.25.0.91      | Complet           | 15 d'octubre de 2021    | TBD                 | 29 d'octubre de 2021    |
-|   &nbsp;  | Canadà                |  4.25.0.91      | Complet           | 15 d'octubre de 2021    | TBD                 | 29 d'octubre de 2021    |
-|   &nbsp;  | Índia                 |  4.25.0.91      | Complet           | 15 d'octubre de 2021    | TBD                 | 29 d'octubre de 2021    |
-|   &nbsp;  | França                |  4.25.0.91      | Complet           | 15 d'octubre de 2021    | TBD                 | 29 d'octubre de 2021    |
-|   &nbsp;  | República de Sud-àfrica          |  4.25.0.91      | Complet           | 15 d'octubre de 2021    | TBD                 | 29 d'octubre de 2021    |
+|   &nbsp;  | Amèrica del Sud         |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
+|   &nbsp;  | Canadà                |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
+|   &nbsp;  | Índia                 |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
+|   &nbsp;  | França                |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
+|   &nbsp;  | República de Sud-àfrica          |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
 | Estació 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japó                 |  4.25.0.91      | 15 d'octubre de 2021   | 22 d'octubre de 2021    | TBD                 | 05 de novembre de 2021   |
-|   &nbsp;  | Pacífic asiàtic          |  4.25.0.91      | 15 d'octubre de 2021   | 22 d'octubre de 2021    | TBD                 | 05 de novembre de 2021   |
-|   &nbsp;  | Gran Bretanya         |  4.25.0.91      | 15 d'octubre de 2021   | 22 d'octubre de 2021    | TBD                 | 05 de novembre de 2021   |
-|   &nbsp;  | Oceania               |  4.25.0.91      | 15 d'octubre de 2021   | 22 d'octubre de 2021    | TBD                 | 05 de novembre de 2021   |
-|   &nbsp;  | Emirats Àrabs Units  |  4.25.0.91      | 15 d'octubre de 2021   | 22 d'octubre de 2021    | TBD                 | 05 de novembre de 2021   |
+|   &nbsp;  | Japó                 |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
+|   &nbsp;  | Pacífic asiàtic          |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
+|   &nbsp;  | Gran Bretanya         |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
+|   &nbsp;  | Oceania               |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
+|   &nbsp;  | Emirats Àrabs Units  |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
 | Estació 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.14.0.99      | Complet           | Complet            | 4.25.0.91           | 15 d'octubre de 2021    |
+|   &nbsp;  | Europa                |  4.25.0.91      | Complet           | Complet            | 4.26.0.145          | 12 de novembre de 2021   |
 | Estació 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Nord         |  4.14.0.99      | Complet           | 08 d'octubre de 2021    | 4.25.0.91           | 22 d'octubre de 2021    |
+|   &nbsp;  | Amèrica del Nord         |  4.25.0.91      | Complet           | Complet            | 4.26.0.145          | 19 de novembre de 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificació de llançaments per a l'administració de projectes i comptabilitat a l'entorn de les aplicacions del Finance and Operations
@@ -72,14 +72,15 @@ Les actualitzacions per a l'administració de projectes i comptabilitat es publi
 
 |Versió admesa| Disponibilitat en versió preliminar (PEAP) | Disponible de manera general (actualització autoservei) | Data d'inici de producció de la planificació de l'actualització automàtica (mitjançant la configuració de l'actualització de l'LCS) |   Fi del servei   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3 de setembre de 2021      |        22 d'octubre de 2021           |                          5 de novembre de 2021                            | 14 de gener de 2022   |
 |    10.0.21      |         02 d'agost del 2021     |           17 de setembre de 2021      |                             1 d'octubre de 2021                          |  10 de desembre de 2021 |
-|    10.0.20      |         28 de maig de 2021        |           16 de juliol de 2021           |                             30 de juliol de 2021                            |  22 d'octubre de 2021  |
+
 
 Les dates de llançament objectiu estan subjectes a canvis. Per obtenir més informació, vegeu [Disponibilitat d'actualització del servei](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Versió de destinació | Disponibilitat en versió preliminar (PEAP) | Disponible de manera general (actualització autoservei) | Data d'inici de producció de la planificació de l'actualització automàtica (mitjançant la configuració de l'actualització de l'LCS) |   Fi del servei   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3 de setembre de 2021      |          22 d'octubre de 2021         |                           5 de novembre de 2021                           |  14 de gener de 2022  |
 |     10.0.23     |      15 d'octubre de 2021       |        10 de desembre de 2021          |                          31 de desembre de 2021                           | 18 de març de 2022     |
+|     10.0.24     |      3 de desembre de 2021       |        14 de gener de 2022           |                          4 de febrer de 2022                            | 15 d'abril de 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

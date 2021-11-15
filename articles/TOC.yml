@@ -52,8 +52,10 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integració de l'administració de despeses
               href: environment/resource-dual-write-expense.md
-            - name: Integració de factures del proveïdor
+            - name: Integració de les factures de proveïdor
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Desinstal·la el Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Novetats
       items:
         - name: 'Octubre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
@@ -296,13 +298,15 @@
           items:
             - name: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
               href: project-management/dev-copy-project.md
-            - name: Ús d'API de planificació del projecte
+            - name: Ús d'API de planificació de projectes
               href: project-management/schedule-api-preview.md
+            - name: Rendiment de l'API de planificació de projectes
+              href: project-management/project-schedule-api-performance.md
     - name: Administració de recursos
       items:
         - name: Conceptes clau
           href: resource-management/resource-management-key-concepts.md
-        - name: Reserves en comparació amb assignacions
+        - name: Comparació de reserves i assignacions
           href: resource-management/booking-vs-assignment.md
         - name: Informació general sobre els modes d'administració de recursos
           href: resource-management/resource-management-mode-overview.md
@@ -800,13 +804,15 @@
           items:
             - name: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
               href: project-management/dev-copy-project.md
-            - name: Ús d'API de planificació del projecte
+            - name: Ús d'API de planificació de projectes
               href: project-management/schedule-api-preview.md
+            - name: Rendiment de l'API de planificació de projectes
+              href: project-management/project-schedule-api-performance.md
     - name: Administració de recursos
       items:
         - name: Conceptes clau
           href: resource-management/resource-management-key-concepts.md
-        - name: Reserves en comparació amb assignacions
+        - name: Comparació de reserves i assignacions
           href: resource-management/booking-vs-assignment.md
         - name: Informació general sobre els modes d'administració de recursos
           href: resource-management/resource-management-mode-overview.md
@@ -1102,6 +1108,8 @@
       items:
         - name: "Planificació del llançament d'actualitzacions per al Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Novetats o canvis del llançament de l'actualització\_37, V3"
+          href: psa/whats-new-ur-37.md
         - name: "Novetats o canvis del llançament de l'actualització\_36, V3"
           href: psa/whats-new-ur-36.md
         - name: "Novetats o canvis del llançament de l'actualització\_35, V3"

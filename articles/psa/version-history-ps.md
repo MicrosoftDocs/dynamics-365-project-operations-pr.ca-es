@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ed9cb4615ba45c6b42154caffbd16806d30a8e7
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
-ms.translationtype: HT
+ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
+ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623307"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "7773561"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Planificació de les versions d'actualització del Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7623307"
 
 | Solució  | Versió més recent |
 |-------|----|
-| Project Service Automation    | 3.10.57.152 |
+| Project Service Automation    | 3.10.58.120 |
 | Complement d'escriptori del Project Service Automation                | 3.15          |
 
 Per obtenir informació sobre les actualitzacions del Project Service, vegeu els [plans de llançament del Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,29 @@ Per obtenir informació sobre les actualitzacions del Project Service, vegeu els
 | Estació  | Regió | Versió actual | Versió següent |  Data planificada
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Estació 1</strong> | |  |  | |
-| | <i>Primera versió</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 29 d'octubre de 2021
+| | <i>Primera versió</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 03 de desembre de 2021
 |<strong>Estació 2</strong> | |  |  | |
-| | <i>Amèrica del Sud</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 de novembre de 2021
-| | <i>Canadà</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 de novembre de 2021
-| | <i>Índia</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 de novembre de 2021
-| | <i>França</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 de novembre de 2021
-| | <i>República de Sud-àfrica</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 de novembre de 2021
-| | <i>Alemanya</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 de novembre de 2021
-| | <i>Suïssa</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 de novembre de 2021
+| | <i>Amèrica del Sud</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 de desembre de 2021
+| | <i>Canadà</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 de desembre de 2021
+| | <i>Índia</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 de desembre de 2021
+| | <i>França</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 de desembre de 2021
+| | <i>República de Sud-àfrica</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 de desembre de 2021
+| | <i>Alemanya</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 de desembre de 2021
+| | <i>Suïssa</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 de desembre de 2021
 |<strong>Estació 3</strong> | |  |  | |
-| | <i>Japó</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 d'octubre de 2021
-| | <i>Pacífic asiàtic</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 d'octubre de 2021
-| | <i>Gran Bretanya</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 d'octubre de 2021
-| | <i>Oceania</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 d'octubre de 2021
-| | <i>Emirats Àrabs Units</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 d'octubre de 2021
+| | <i>Japó</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
+| | <i>Pacífic asiàtic</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
+| | <i>Gran Bretanya</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
+| | <i>Oceania</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
+| | <i>Emirats Àrabs Units</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
 |<strong>Estació 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 22 d'octubre de 2021
+| | <i>Europa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 de novembre de 2021
 |<strong>Estació 5</strong> | |  |  | |
-| | <i>Amèrica del Nord</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 29 d'octubre de 2021
+| | <i>Amèrica del Nord</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 de desembre de 2021
 |<strong>Estació 6</strong> | |  |  | |
-| | <i>Núvol de la comunitat de l'administració pública</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 29 d'octubre de 2021
-| | <i>Grups d'escala dedicats</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 05 de novembre de 2021
+| | <i>Núvol de la comunitat de l'administració pública</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 de desembre de 2021
+| | <i>Grups d'escala dedicats</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 de desembre de 2021
+
 
 
 >[!Note]

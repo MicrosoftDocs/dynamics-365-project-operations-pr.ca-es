@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003849"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679197"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de juny de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -30,6 +30,7 @@ En aquesta versió s'inclouen les característiques següents:
 - Capacitat de suprimir [línies de proposta de factura del projecte per a escenaris d'ajustament](../invoicing/correct-project-invoice-proposals.md).
 - Les línies de despesa desglossades reflecteixen els noms de subcategoria a l'informe de despeses [Informes de despeses nous (noves característiques)](../expense/expense-reports-reimagined.md#new-features).
 - El mètode de pagament està disponible a la subfinestra de despeses noves quan creeu una despesa nova.
+- Disponibilitat general de les API de planificació de projectes. Aquesta nova funcionalitat permet als clients dur a terme les operacions de programació per a la creació, actualització i supressió en tasques de projectes, assignacions de recursos, dependències de tasques i registres de membres de l'equip del projecte. Per obtenir més informació, vegeu [Utilitzar les API de planificació de projectes per realitzar operacions amb entitats de planificació](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualitzacions de les assignacions de doble ecriptura del Project Operations
 
