@@ -2,7 +2,7 @@
 title: Captura d'un rebut amb l'OCR
 description: Aquest tema proporciona informació sobre el processament del reconeixement òptic de caràcters (OCR) per als rebuts.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007719"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798028"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Captura d'un rebut amb l'OCR
 
@@ -52,7 +52,7 @@ Per crear una despesa o fer coincidir una despesa d'un rebut, seguiu els passos 
 
 ## <a name="installation"></a>Instal·lació
 
-Per utilitzar aquestes capacitats de despesa avançada, instal·leu el complement Servei d'administració de despeses per al Microsoft Dynamics 365 Finance i activeu les característiques a la instància. Podeu accedir al complement des del projecte al Microsoft Dynamics Lifecycle Services (LCS).
+Per utilitzar aquestes capacitats de despesa avançades, instal·leu el complement del Servei d'administració de despeses per a Microsoft Dynamics 365 Finance i activeu les funcions de la instància. Podeu accedir al complement del vostre projecte a Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicieu la sessió al LCS i obriu l'entorn desitjat.
 2. Aneu a **Detalls complets**.
@@ -73,7 +73,7 @@ Quan activeu aquestes característiques es produeixen les següents accions:
 - S'afegirà un element de menú nou per a la visibilitat del camp de despeses.
 - Encara podeu obrir la pàgina **Informes de despeses** anterior anant a **Administració de despeses > Les meves despeses > Informes de despeses**.
 - Els fluxos de treball i les aprovacions encara us porten a la pàgina d'informes de despeses existent.
-- Els rebuts es processaran mitjançant el Microsoft Azure Cognitive Services i s'extrauran i s'afegiran les metadades.
+- Els rebuts es processaran a través Microsoft Azure Serveis Cognitius, i s'extrauran i afegiran metadades.
 - S'ha afegit una opció que us permet crear un informe de despeses que inclogui rebuts coincidents no adjunts.
 - Una opció afegida als informes de despeses us permet crear una línia de despesa a partir d'un rebut o intenta fer coincidir un rebut existent amb una línia de despesa existent.
 
@@ -85,7 +85,18 @@ No, Microsoft ha creat un model d'aprenentatge automàtic general per al servei 
 
 **On està disponible i on es processa aquesta característica?**
 
-Actualment, s'admeten els Estats Units.
+La disponibilitat d'aquesta característica en diferents regions es mostra a la taula següent. Si la vostra regió no és compatible actualment, envieu una sol·licitud per prioritzar la disponibilitat del servei OCR a la vostra regió. 
+
+| Regió | Admès                         |
+|--------|-----------------------------------|
+| EUA    | Sí                               |
+| CAN    | Sí                               |
+| Regne Unit     | Sí                               |
+| AUS    | Sí                               |
+| UE     | Parcialment. Només rebuts en anglès. |
+| Àsia   | No                                |
+| Japó  | No                                |
+| Àfrica | No                                |
 
 **On van els meus rebuts?**
 

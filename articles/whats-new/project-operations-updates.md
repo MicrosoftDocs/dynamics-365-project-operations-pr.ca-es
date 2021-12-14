@@ -2,17 +2,17 @@
 title: Actualitzacions del Project Operations
 description: En aquest tema es proporciona informació sobre les versions publicades del Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783411"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892163"
 ---
 # <a name="project-operations-updates"></a>Actualitzacions del Project Operations
 
@@ -22,51 +22,51 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense exi
 
 ## <a name="project-operations-components"></a>Components del Project Operations
 
-El Dynamics 365 Project Operations consta de dos components:
+El Dynamics 365 Project Operations està format per dos components:
 
-- El Project Operations a l'entorn del Dataverse cobreix funcionalitats des de l'oportunitat fins a la facturació proforma. El Dataverse s'utilitza en la implementació bàsica i la implementació en escenaris de recursos/sense existències al Project Operations.
-- L'administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance cobreix les funcionalitats d'administració de despeses, la comptabilitat de projectes i el reconeixement d'ingressos. L'entorn d'aplicació del Finance and Operations s'utilitza al Project Operations per a escenaris basats en recursos/sense existències i Project Operations per a escenaris amb existències/basats en producció.
+- Project Operations on Dataverse entorn cobreix les capacitats des de l'oportunitat fins a la facturació proforma. Dataverse s'utilitza en el desplegament de lite i el desplegament d'escenaris no emmagatzemats de les operacions del projecte.
+- La gestió de projectes i la comptabilitat en l'entorn Dynamics 365 Finance cobreix les capacitats de gestió de despeses, la comptabilitat de projectes i el reconeixement d'ingressos. L'entorn d'aplicacions Finances i Operacions s'utilitza a Operacions de projectes per a escenaris basats en recursos/ no emmagatzemats i Operacions de projecte per a escenaris emmagatzemats / basats en la producció.
 
 ## <a name="project-operations-release-notes"></a>Notes de la versió de Project Operations
-- Notes de la versió més recents de Project Operations per a l'escenari [Recursos/sense existències](whats-new-oct-2021-resource-based.md).
-- Notes de la versió més recents de Project Operations per a l'escenari [Implementació bàsica](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Notes de la versió més recents de Project Operations per a l'escenari [en existències/producció](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [Recursos/sense existències](whats-new-nov-2021-resource-based.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [Implementació bàsica](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [en existències/producció](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Versió més recent del Project Operations
 
-| Project Operations a l'entorn del Dataverse | Administració de projectes i comptabilitat en entorns d'aplicacions del Finance and Operations | 
+| Operacions del projecte en entorn Dataverse | Gestió de projectes i comptabilitat en entorns d'apps de Finances i Operacions | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-Per a l'escenari de recursos/no mantingut en existències del Project Operations, es recomana utilitzar Dual Write Orchestration versió 2.2.2.83 o superior.
+Per a l'escenari de recursos d'operacions del projecte o no proveït, us recomanem que utilitzeu la versió d'orquestració de doble escriptura 2.3.1.15 o superior.
 
-## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Planificació de llançament del Project Operations en un entorn del Dataverse
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Planificació de llançament de les operacions del projecte en Dataverse entorn
 
-Les actualitzacions del Project Operations a l'entorn del Dataverse estan disponibles mensualment. 
+Les actualitzacions de les operacions del projecte en Dataverse entorn estan disponibles mensualment. 
 
 | Estació | Regió | Número de versió actual | Actualitzacions automàtiques per a la implementació bàsica | Actualitzacions automàtiques per a la implementació basada en recursos/sense inventari | Número de la versió següent | Pròxima versió disponible de manera general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estació 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primera versió         |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
+|   &nbsp;  | Primera versió         |  4.26.0.150     | Complet           | Complet            | TBD                 | 06 de desembre de 2021   |
 | Estació 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Sud         |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
-|   &nbsp;  | Canadà                |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
-|   &nbsp;  | Índia                 |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
-|   &nbsp;  | França                |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
-|   &nbsp;  | República de Sud-àfrica          |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 03 de desembre de 2021   |
+|   &nbsp;  | Amèrica del Sud         |  4.26.0.150     | Complet           | Complet            | TBD                 | 06 de desembre de 2021   |
+|   &nbsp;  | Canadà                |  4.26.0.150     | Complet           | Complet            | TBD                 | 06 de desembre de 2021   |
+|   &nbsp;  | Índia                 |  4.26.0.150     | Complet           | Complet            | TBD                 | 06 de desembre de 2021   |
+|   &nbsp;  | França                |  4.26.0.150     | Complet           | Complet            | TBD                 | 06 de desembre de 2021   |
+|   &nbsp;  | República de Sud-àfrica          |  4.26.0.150     | Complet           | Complet            | TBD                 | 06 de desembre de 2021   |
 | Estació 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japó                 |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
-|   &nbsp;  | Pacífic asiàtic          |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
-|   &nbsp;  | Gran Bretanya         |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
-|   &nbsp;  | Oceania               |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
-|   &nbsp;  | Emirats Àrabs Units  |  4.26.0.145     | 12 de novembre de 2021  | 19 de novembre de 2021   | TBD                 | 10 de desembre de 2021   |
+|   &nbsp;  | Japó                 |  4.26.0.150     | Complet           | Complet            | TBD                 | 10 de desembre de 2021   |
+|   &nbsp;  | Pacífic asiàtic          |  4.26.0.150     | Complet           | Complet            | TBD                 | 10 de desembre de 2021   |
+|   &nbsp;  | Gran Bretanya         |  4.26.0.150     | Complet           | Complet            | TBD                 | 10 de desembre de 2021   |
+|   &nbsp;  | Oceania               |  4.26.0.150     | Complet           | Complet            | TBD                 | 10 de desembre de 2021   |
+|   &nbsp;  | Emirats Àrabs Units  |  4.26.0.150     | Complet           | Complet            | TBD                 | 10 de desembre de 2021   |
 | Estació 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.25.0.91      | Complet           | Complet            | 4.26.0.145          | 12 de novembre de 2021   |
+|   &nbsp;  | Europa                |  4.26.0.150     | Complet           | 10 de desembre de 2021   | TBD                 | 17 de desembre de 2021   |
 | Estació 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Nord         |  4.25.0.91      | Complet           | Complet            | 4.26.0.145          | 19 de novembre de 2021   |
+|   &nbsp;  | Amèrica del Nord         |  4.26.0.150     | 10 de desembre de 2021  | 17 de desembre de 2021   | TBD                 | 07 de gener de 2022    |
 
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificació de llançaments per a l'administració de projectes i comptabilitat a l'entorn de les aplicacions del Finance and Operations
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendari de llançaments per a la gestió de projectes i la comptabilitat a l'entorn d'aplicacions de finances i operacions
 
 Les actualitzacions per a l'administració de projectes i comptabilitat es publiquen vuit vegades l'any.
 

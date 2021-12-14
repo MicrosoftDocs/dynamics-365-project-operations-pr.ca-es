@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Novetats
       items:
+        - name: 'Novembre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 'Octubre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 'Setembre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Rendiment de l'API de planificació de projectes
               href: project-management/project-schedule-api-performance.md
+            - name: Registres de planificació de projectes
+              href: project-management/schedule-api-logs.md
     - name: Administració de recursos
       items:
         - name: Conceptes clau
@@ -544,6 +548,8 @@
       items:
         - name: "Novetats de l'accés anticipat al llançament\_2 de 2021: implementació bàsica"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Novetats de novembre de 2021: implementació bàsica'
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 'Novetats d''octubre de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: 'Novetats de setembre de 2021: implementació bàsica'
@@ -952,6 +958,10 @@
   items:
     - name: Novetats
       items:
+        - name: 'Novetats d''octubre de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 'Novetats de setembre de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 'Novetats de juliol de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 'Novetats de maig de 2021: Project Operations per a escenaris basats en producció/mantinguts en existències'
@@ -1108,9 +1118,11 @@
       items:
         - name: "Planificació del llançament d'actualitzacions per al Project Service\_3.x"
           href: psa/version-history-ps.md
-        - name: "Novetats o canvis del llançament de l'actualització\_37, V3"
+        - name: "Novetats o canvis del llançament de l'actualització\_37.5,\_V3"
+          href: psa/whats-new-ur-37-5.md
+        - name: "Novetats o canvis del llançament de l'actualització\_37,\_V3"
           href: psa/whats-new-ur-37.md
-        - name: "Novetats o canvis del llançament de l'actualització\_36, V3"
+        - name: "Novetats o canvis del llançament de l'actualització\_36,\_V3"
           href: psa/whats-new-ur-36.md
         - name: "Novetats o canvis del llançament de l'actualització\_35, V3"
           href: psa/whats-new-ur-35.md

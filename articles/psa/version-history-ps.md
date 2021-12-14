@@ -1,6 +1,6 @@
 ---
 title: Planificació de les versions d'actualització del Project Service 3.x
-description: En aquest tema es proporciona informació sobre les versions disponibles i futures del Dynamics 365 Project Service Automation.
+description: Aquest tema proporciona informació sobre les versions disponibles i futures de Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 10/04/2021
 ms.reviewer: kfend
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
-ms.translationtype: MT
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773561"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892154"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Planificació de les versions d'actualització del Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7773561"
 
 | Solució  | Versió més recent |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Project Service Automation    | 3.10.58.130 |
 | Complement d'escriptori del Project Service Automation                | 3.15          |
 
 Per obtenir informació sobre les actualitzacions del Project Service, vegeu els [plans de llançament del Dynamics 365](/dynamics365/release-plans/). 
@@ -55,18 +55,18 @@ Per obtenir informació sobre les actualitzacions del Project Service, vegeu els
 | | <i>Alemanya</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 de desembre de 2021
 | | <i>Suïssa</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 de desembre de 2021
 |<strong>Estació 3</strong> | |  |  | |
-| | <i>Japó</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
-| | <i>Pacífic asiàtic</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
-| | <i>Gran Bretanya</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
-| | <i>Oceania</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
-| | <i>Emirats Àrabs Units</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 de novembre de 2021
+| | <i>Japó</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 de desembre de 2021
+| | <i>Pacífic asiàtic</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 de desembre de 2021
+| | <i>Gran Bretanya</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 de desembre de 2021
+| | <i>Oceania</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 de desembre de 2021
+| | <i>Emirats Àrabs Units</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 de desembre de 2021
 |<strong>Estació 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 de novembre de 2021
+| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 07 de gener de 2022
 |<strong>Estació 5</strong> | |  |  | |
-| | <i>Amèrica del Nord</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 de desembre de 2021
+| | <i>Amèrica del Nord</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 de gener de 2022
 |<strong>Estació 6</strong> | |  |  | |
-| | <i>Núvol de la comunitat de l'administració pública</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 de desembre de 2021
-| | <i>Grups d'escala dedicats</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 de desembre de 2021
+| | <i>Núvol de la comunitat de l'administració pública</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 de gener de 2022
+| | <i>Grups d'escala dedicats</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 de desembre de 2021
 
 
 
