@@ -2,16 +2,16 @@
 title: Registre per a les proves del Project Operations
 description: En aquest tema es proporciona informació sobre com implementar una prova del Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599201"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901605"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registre per a les proves del Project Operations 
 
@@ -90,7 +90,8 @@ Abans de començar, inicieu la sessió en un navegador amb el compte de treball 
 4.  Seleccioneu l'adreça URL del Microsoft Dataverse i les adreces URL de les aplicacions del Finance and Operations respectives per validar la implementació.
 
 ## <a name="configuring-dual-write"></a>Configuració de l'escriptura doble
-Per a les implementacions de materials que no estan en existències, configureu les assignacions d'escriptura doble. Per obtenir més informació, vegeu [Versions d'assignació amb doble escriptura al Project Operations](resource-dual-write-maps.md).
+- Per configurar les funcions de seguretat per a la doble escriptura, vegeu [Actualitza la configuració de seguretat a Les operacions del projecte al Dataverse](resource-provision-new-environment.md).
+- Per configurar mapes de doble escriptura, vegeu [Executa els mapes de doble escriptura d'operacions del projecte](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Assignar llicències
 

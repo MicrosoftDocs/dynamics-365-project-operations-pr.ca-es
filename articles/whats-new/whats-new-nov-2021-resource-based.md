@@ -7,21 +7,21 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827313"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942873"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de novembre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
 *S'aplica a: Project Operations per a escenaris basats en recursos/sense cotització*
 
-Aquest tema s'aplica als components i versions següents del Microsoft Dynamics 365 Project Operations:
+Aquest tema s'aplica als components i versions següents de Dynamics 365 Project Operations Microsoft:
 
-- Operacions del projecte en una versió 4.26.0.145, 4.26.0.148, o 4.26.0.150 d'entorn Dataverse
-- Gestió de projectes i comptabilitat en un entorn Dynamics 365 Finance versió 10.0.22
+- 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155 d'Operacions del projecte en una Dataverse versió d'entorn
+- Gestió de projectes i comptabilitat en un Dynamics 365 Finance entorn versió 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 
@@ -33,13 +33,13 @@ En aquesta versió s'inclouen les característiques següents:
 
 En aquesta versió no hi ha actualitzacions per a les assignacions d'escriptura doble del Project Operations. Per a una llista actual i versions de les assignacions d'escriptura doble del Project Operations, consulteu [Versions de les assignacions d'escriptura doble del Project Operations](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Executeu sempre la versió més recent del mapa al vostre entorn i habiliteu tots els mapes de taula relacionats a mesura que actualitzeu la solució Dataverse d'operacions del projecte i la versió de la solució de finançament. És possible que algunes funcions i capacitats no funcionin correctament si l'última versió del mapa no està activada. Podeu visualitzar la versió activa de l'assignació a la columna **Versió** de la pàgina **Escriptura doble**. Per activar una versió nova de l'assignació, seleccioneu **Versions de l'assignació de la taula**, seleccioneu la versió més recent i després deseu la versió seleccionada. Si has personalitzat un mapa de taula fora de caixa, torna a aplicar els canvis. Per a més informació, vegeu [Administració del cicle de vida de les aplicacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Executeu sempre la versió més recent del mapa al vostre entorn i habiliteu tots els mapes de taula relacionats a mesura que actualitzeu la solució d'operacions de projecte Dataverse i la versió de la solució de finançament. És possible que algunes funcions i capacitats no funcionin correctament si l'última versió del mapa no està activada. Podeu visualitzar la versió activa de l'assignació a la columna **Versió** de la pàgina **Escriptura doble**. Per activar una versió nova de l'assignació, seleccioneu **Versions de l'assignació de la taula**, seleccioneu la versió més recent i després deseu la versió seleccionada. Si has personalitzat un mapa de taula fora de caixa, torna a aplicar els canvis. Per a més informació, vegeu [Administració del cicle de vida de les aplicacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Si trobeu un problema quan inicieu el mapa, seguiu les instruccions del problema de columnes de [la taula que falten a la secció](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) mapes de la guia de resolució de problemes de doble escriptura.
 
 ## <a name="quality-updates"></a>Actualitzacions de qualitat
 
-### <a name="project-operations-in-dataverse"></a>Operacions de projectes en Dataverse
+### <a name="project-operations-in-dataverse"></a>Operacions del projecte a Dataverse
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Si trobeu un problema quan inicieu el mapa, seguiu les instruccions del problema
 | Administració i comptabilitat de projectes | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Quan es publica la retenció del proveïdor, la publicació del val té línies addicionals que són incorrectes. |
 | Administració i comptabilitat de projectes | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Quan es publica el diari d'integració d'operacions del projecte, falla a causa de les dimensions que falten per a un compte al que no s'està publicant. |
 | Administració i comptabilitat de projectes | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | La **pestanya** Projecte no es pot editar en una factura pendent del proveïdor quan la categoria d'adquisició s'assigna a l'element. |
-| Administració i comptabilitat de projectes | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Falta la subfinestra de navegació si no heu iniciat la sessió al project Operations Dataverse. |
+| Administració i comptabilitat de projectes | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Falta la subfinestra de navegació si no heu iniciat la sessió a Operacions del projecte Dataverse. |
 | Administració i comptabilitat de projectes | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Quan publiqueu els ingressos d'una factura de projecte en un cas de retenció aplicat, es produeix un problema perquè les transaccions del val no es equilibren. |
 | Administració i comptabilitat de projectes | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | La creació d'una estimació després de publicar una proposta de factura bloqueja les línies de correcció de la importació. |
 | Administració i comptabilitat de projectes | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | No hauria de ser possible la modificació d'un registre de fita totalment facturat. |

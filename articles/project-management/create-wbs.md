@@ -2,16 +2,16 @@
 title: Creació d'una estructura del desglossament del treball
 description: En aquest tema s'explica com es crea una estructura de desglossament del treball (WBS) que inclogui els controls bàsics de la nova interfície de planificació.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655405"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928603"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creació d'una estructura del desglossament del treball (WBS)
 
@@ -95,11 +95,11 @@ Com a administrador, podeu definir camps personalitzats a l'entitat de la tasca.
 
 ## <a name="staffing-attributes"></a>Atributs de personal
 
-Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o seleccionar **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.
+Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o seleccionar **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.  Quan cerqueu un recurs mitjançant el selector de recursos a la quadrícula de tasques, la visualització del tauler o el gantt, la cerca retorna els membres de l'equip del projecte existents o els recursos actius que es poden reservar.
 
 Els camps **Funció**, **Unitat de recursos** i **Nom del càrrec** s'utilitzen per descriure els requisits de dotació de la tasca. Aquests atributs de personal, juntament amb la planificació de tasques, s'utilitzen per trobar els recursos disponibles per fer aquesta tasca.
 
-   - **Funció**: especifiqueu el tipus de recurs necessari per fer la tasca.
+   - **Funció** : especifiqueu el tipus de recurs necessari per fer la tasca.,
    - **Unitat de recursos**: especifiqueu la unitat a la qual han d'assignar-se els recursos per a la tasca. Aquest atribut afecta l'estimació de costos i vendes per a la tasca si la tarifa de cost i de facturació del recurs es defineix a partir d'unitats de recursos.
    - **Nom del càrrec**: introduïu un nom amigable per al recurs genèric que serveixi com a contenidor per al recurs que en última instància farà la feina.
 
@@ -127,6 +127,7 @@ Heu de tenir en compte les limitacions següents si esteu utilitzant l'estructur
 | Recursos totals màxims per a un projecte              | 150                  |
 | Enllaços totals màxims (només successor) per a un projecte | 600                  |
 | Camps personalitzats totals màxims per a un projecte          | 10                   |
+| Màxims elements de la llista de comprovació per tasca                   | 20                   |
 
 **Limitacions de les tasques**
 
