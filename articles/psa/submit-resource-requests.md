@@ -2,6 +2,8 @@
 title: Enviar sol·licituds de recurs
 description: Com enviar les sol·licituds de recursos al Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dae9bcddb87324e6614e8663fbfc693c8e994cd3f33839680531cd17269d764b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5b8b136e8d1b8c7acbb8616789ad274c89438e7d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000114"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150206"
 ---
 # <a name="submit-resource-requests-project-service"></a>Enviar sol·licituds de recursos (Project Service)
 
@@ -53,6 +55,3 @@ Una vegada guanyat un contracte de projecte, haureu de dotar el projecte de pers
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

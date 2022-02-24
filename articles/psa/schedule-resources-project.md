@@ -2,6 +2,8 @@
 title: Planificar recursos per a un projecte
 description: Com planificar recursos per a un projecte al Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998134"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150431"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planificar recursos per a un projecte (Project Service)
 
@@ -33,7 +35,7 @@ Podeu comprovar la disponibilitat de recursos per obtenir una vista general de c
   
 El tauler de planificació mostra una llista de recursos i la seva disponibilitat. Seleccioneu un mode de visualització per mostrar la disponibilitat per **hores**, **dia**, **setmana** o **mes**.  
   
-Abans d'utilitzar el tauler de planificació, és important configurar-lo. Per obtenir-ne més informació, consulta [Configura el tauler la planificació (Field Service o Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
+Abans d'utilitzar el tauler de planificació, és important configurar-lo. Per obtenir-ne més informació, consulta [Configura el tauler la planificació (Field Service o Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
 Si utilitzeu una versió anterior, per veure la disponibilitat dels recursos, consulteu [Visualització de la disponibilitat de recursos](../psa/view-resource-availability.md).  
 
@@ -81,6 +83,3 @@ Si utilitzeu una versió anterior, per veure la disponibilitat dels recursos, co
   
 ### <a name="additional-resources"></a>Recursos addicionals  
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

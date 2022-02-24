@@ -2,16 +2,18 @@
 title: Configuració de les categories de despesa
 description: En aquest tema es proporciona informació sobre la configuració de les categories de despesa i categories compartides per als informes de despeses.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993094"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123771"
 ---
 # <a name="set-up-expense-categories"></a>Configuració de les categories de despesa
 
@@ -59,6 +61,3 @@ Per poder començar el procés de configuració, cal que prendre les següents d
 
     - S'exclou cap subcategoria de la recuperació d'impostos?
     - Quin és el grup d'impostos de vendes de l'element de les subcategories?
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

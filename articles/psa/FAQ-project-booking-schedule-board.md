@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987604"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992954"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Crear una reserva de projecte des del tauler de planificació
 
@@ -43,7 +43,7 @@ Podeu crear un recurs genèric i assignar-li una o diverses tasques dins d'un pr
 
 1.  Al Tauler de planificació, aquest recurs apareixerà a la pestanya **Obre els requisits**. És possible que hàgiu d'utilitzar filtres de columna a la quadrícula si teniu molts requisits oberts. 
 
-    ![Pestanya Requisits oberts al Tauler de planificació.](media/FAQ-Project-Booking-Schedule-Board-1.png "Captura de pantalla de la taula de reserves i assignacions")
+    ![Pestanya Requisits oberts al Tauler de planificació](media/FAQ-Project-Booking-Schedule-Board-1.png "Captura de pantalla de la taula de reserves i assignacions")
 
 2. Seleccioneu el requisit. La pestanya **Cerca la disponibilitat** apareixerà a la part superior de la fila seleccionada.
  
@@ -53,7 +53,7 @@ Podeu crear un recurs genèric i assignar-li una o diverses tasques dins d'un pr
 
     Si seleccioneu **Reserva** es reserva el recurs a l'equip del projecte.
 
-![Subfinestra Crea la reserva de recursos.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Subfinestra Crea la reserva de recursos](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Reservar des del requisit principal
@@ -62,7 +62,7 @@ La creació d'un projecte al Project Service crea automàticament un requisit de
 
 1. Per reservar un recurs amb el Requisit principal, al tauler de planificació, seleccioneu la pestanya **Projecte**. Si teniu molts projectes, és possible que hagueu d'utilitzar el filtre de columna a la columna **Projecte**.
 
-   ![Filtres de columna al Tauler de planificació.](media/FAQ-Project-Booking-Schedule-Board-2.png "Captura de pantalla de la taula de reserves i assignacions")
+   ![Filtres de columna al Tauler de planificació](media/FAQ-Project-Booking-Schedule-Board-2.png "Captura de pantalla de la taula de reserves i assignacions")
 
 2. Seleccioneu el requisit que té el nom del projecte que busqueu i té una durada de zero (0).
 

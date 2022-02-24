@@ -2,16 +2,18 @@
 title: Administració de diversos clients a les línies d'ofertes basades en projectes (bàsic)
 description: En aquest tema es descriu com administrar diversos clients a les línies d'oferta basades en projectes.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001689"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176464"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Administració de diversos clients a les línies d'ofertes basades en projectes (bàsic)
 
@@ -41,6 +43,3 @@ La taula següent mostra els camps del registre del client d'oferta d'una línia
 Podeu editar els percentatges de divisió de facturació en línia. Quan els percentatges de divisió de la facturació no sumen un total de 100%, es produeix un error. Després d'editar els percentatges de divisió de la facturació, actualitzeu la pàgina de la línia d'oferta per suprimir l'error.
 
 Utilitzeu l'acció de distribució uniforme a la subquadrícula de clients de la línia d'oferta per assignar les divisions de facturació a tots els clients de la línia d'oferta. Si hi ha un factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un dels clients de la línia d'oferta sempre està etiquetat com a client d'arrodoniment, la qual cosa vol dir que el registre de client de la línia d'oferta té la marca definida com a **Sí**. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

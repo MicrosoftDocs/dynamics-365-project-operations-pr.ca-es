@@ -2,16 +2,18 @@
 title: Administració de diversos clients a les línies de contracte basades en projectes
 description: Aquest tema proporciona informació sobre com treballar amb línies de contracte i contractes que contenen diversos clients.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992104"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181890"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Administració de diversos clients a les línies de contracte basades en projectes
 
@@ -42,6 +44,3 @@ A continuació, es mostren els camps al registre de client de línia de contract
 Els percentatges de divisió de facturació es poden editar a la quadrícula. Quan els percentatges de divisió de facturació no sumin el 100 per cent, es produirà un error. Després d'editar els percentatges de divisió de facturació, actualitzeu la pàgina per suprimir l'error.
 
 També podeu intentar seleccionar **Distribueix uniformement** a la subquadrícula de client de la línia de contracte. Aquesta acció assigna uniformement les divisions de facturació a tots els clients de la línia de contracte. Si hi ha cap factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un client de línia de contracte sempre s'etiqueta com a client d'**arrodoniment** amb la marca **Arrodoniment** establerta en **Sí**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

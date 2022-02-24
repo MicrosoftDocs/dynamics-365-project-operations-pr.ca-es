@@ -2,17 +2,18 @@
 title: Informació general de la facturació entre empreses
 description: En aquest tema es proporciona informació i exemples sobre la facturació entre empreses per a projectes.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005379"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595427"
 ---
 # <a name="intercompany-invoicing-overview"></a>Informació general de la facturació entre empreses
 
@@ -20,9 +21,9 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 La vostra organització pot tenir diverses divisions, filials i altres entitats jurídiques que es transfereixen productes i serveis entre si per als projectes. L'entitat jurídica que proporciona el servei o producte s'anomena *entitat jurídica prestadora*. L'entitat jurídica que rep el servei o producte s'anomena *entitat jurídica prestatària*.
 
-A la il·lustració següent es mostra un escenari habitual en què dues entitats jurídiques, Contoso Robotics USA (entitat jurídica prestatària) i Contoso Robotics UK (entitat jurídica prestadora), comparteixen recursos per al client, Adventure Works. Per a aquest escenari, Contoso rep un contracte per al lliurament de la feina a Adventure Works.
+A la il·lustració següent es mostra un escenari típic on dos entitats jurídiques, Contoso Robotics USA (l'entitat jurídica prestatària) i Contoso Robotics UK (l'entitat jurídica prestadora) comparteixen recursos per dur a terme un projecte per al client, Adventure Works. Per a aquest escenari, Contoso Robotics USA és contractada per dur a terme el treball a Adventure Works.
 
-![Facturació entre empreses.](./media/IntercompanyScenario.png) 
+![Facturació entre empreses](./media/IntercompanyScenario.png) 
 
 El Dynamics 365 Project Operations utilitza el flux següent per processar les transaccions entre empreses:
 
@@ -35,13 +36,10 @@ El Dynamics 365 Project Operations utilitza el flux següent per processar les t
 
 El diagrama següent il·lustra la facturació entre empreses segons la seva relació amb actes comptables i comptabilitzacions esperades al llibre major.
 
-![Flux entre empreses.](./media/IntercompanyFlow.png)
+![Flux entre empreses](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Recursos addicionals
 
 - [Configuració de la facturació entre empreses](configure-intercompany-invoicing.md)
 - [Registre de transaccions entre empreses](create-intercompany-transactions.md)
 - [Creació de factures entre empreses de clients i proveïdors](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

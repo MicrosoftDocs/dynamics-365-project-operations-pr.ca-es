@@ -2,6 +2,8 @@
 title: Planificar un projecte amb una estructura del desglossament del treball
 description: Com planificar un projecte amb una estructura del desglossament del treball al Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf12cc3bcf061e1daffafb248cfd76809c6444ec
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996784"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149801"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planificar un projecte amb una estructura del desglossament del treball (Project Service)
 
@@ -150,6 +152,3 @@ Utilitzareu els següents tipus de tasques per crear l'estructura del desglossam
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de projectes](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

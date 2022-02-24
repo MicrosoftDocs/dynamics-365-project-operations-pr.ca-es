@@ -2,6 +2,8 @@
 title: Administrar sol·licituds de recursos
 description: Com administrar les sol·licituds de recursos al Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985129"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149846"
 ---
 # <a name="manage-resource-requests-project-service"></a>Administrar les sol·licituds de recursos (Project Service)
 
@@ -43,12 +45,9 @@ Els administradors de comptes i de projectes normalment sol·liciten recursos pe
   
    -   Feu clic a **Filtra** per visualitzar la subfinestra **Filtra**, des d'on podreu filtrar els resultats per unitat organitzativa, funció, habilitat o altres atributs.  
   
-       ![Pantalla Sol·licituds de recursos del Project Service.](../psa/media/project-service-resource-request-screen.png "Pantalla Sol·licituds de recursos del Project Service")  
+       ![Pantalla Sol·licituds de recursos del Project Service](../psa/media/project-service-resource-request-screen.png "Pantalla Sol·licituds de recursos del Project Service")  
   
 3. Al calendari del recurs que voleu reservar, seleccioneu el període de temps per reservar el recurs i, a continuació, feu clic a **Reserva** per reservar el recurs o a **Proposa una reserva** per proposar la reserva i que el sol·licitant l'aprovi. Quan reserveu un recurs, podeu fer una reserva flexible o una reserva fixa.  
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

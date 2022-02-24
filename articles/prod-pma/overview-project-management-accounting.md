@@ -2,26 +2,28 @@
 title: Informació general sobre l'administració de projectes i la comptabilitat
 description: La funcionalitat d'administració de projectes i comptabilitat pot utilitzar-se en diversos sectors per oferir un servei, produir un producte o aconseguir un resultat.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007494"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072355"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informació general sobre l'administració de projectes i la comptabilitat
 
@@ -34,14 +36,14 @@ Un projecte és un conjunt d'activitats dissenyades per oferir un servei, produi
 ## <a name="projects-across-industries"></a>Projectes entre sectors
 La funcionalitat d'administració de projectes i comptabilitat es pot utilitzar en diversos sectors, com es mostra a la il·lustració següent.
 
-[![Projectes entre sectors.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projectes entre sectors](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 En un centre de trucades, es pot utilitzar un cas per descriure el conjunt d'accions que cal dur a terme per resoldre una trucada. Les empreses de consultoria, com ara les organitzacions de gestió o de consultoria tècnica o agències de publicitat, fan referència a les seves activitats com a projectes. En màrqueting, una campanya representa un conjunt de treballs que s'han de lliurar. En la fabricació basada en projectes, una comanda de producció relaciona la feina que cal dur a terme per produir un producte acabat. Sigui com sigui, aquests projectes inclouen recursos, planificacions i costos, i la funcionalitat d'administració de projectes i comptabilitat pot ajudar en la planificació, l'execució i l'anàlisi d'aquests projectes.
 
 ## <a name="project-phases"></a>Fases del projecte
 Tot i que el flux del procés següent està dirigit a projectes externs, o a un projecte que s'ha completat per a un o més clients, la funcionalitat també s'aplica a projectes interns i només de cost. 
 
-![Les 3 fases d'un projecte.](./media/3-stages-of-a-project.png) 
+![Les 3 fases d'un projecte](./media/3-stages-of-a-project.png) 
 
 Com es mostra a la il·lustració precedent, l'administració de projectes i la comptabilitat es poden dividir en tres fases:
 
@@ -50,7 +52,7 @@ Com es mostra a la il·lustració precedent, l'administració de projectes i la 
 3.  Analitza
 
 ## <a name="initiate-the-project"></a>Iniciar el projecte
-Durant l'inici d'un projecte, es produeixen diversos processos clau. Podeu utilitzar un pressupost de projecte per comunicar el treball, les despeses i els materials previstos al client. Podeu registrar els terminis de facturació, els límits i els acords en un contracte de projecte. Podeu utilitzar una estructura del desglossament del treball (WBS) per planificar i estimar la feina. Podeu configurar previsions i pressupostos per guiar l'execució del projecte. A la il·lustració següent es mostra l'estructura d'un projecte.[![estructura d'un projecte.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durant l'inici d'un projecte, es produeixen diversos processos clau. Podeu utilitzar un pressupost de projecte per comunicar el treball, les despeses i els materials previstos al client. Podeu registrar els terminis de facturació, els límits i els acords en un contracte de projecte. Podeu utilitzar una estructura del desglossament del treball (WBS) per planificar i estimar la feina. Podeu configurar previsions i pressupostos per guiar l'execució del projecte. A la il·lustració següent es mostra l'estructura d'un projecte.[![estructura d'un projecte](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Creació d'ofertes del projecte
 
@@ -203,7 +205,7 @@ Podeu encarregar articles de l'inventari de l'empresa per al consum en un projec
 
 La manera com encarregueu els articles depèn d'on l'encarregueu:
 
--   Per encarregar articles de l'inventari de l'empresa, heu d'introduir la comanda com a requisit d'article. Si utilitzeu la pàgina **Requisits d'articles**, podeu configurar el requisit per tal que rebeu els articles com a lliuraments parcials. Per tant, podeu ajornar el consum d'una quantitat d'articles fins que els articles siguin necessaris.
+-   Per encarregar articles de l'inventari de l'empresa, heu d'introduir la comanda com a requisit d'article. Si utilitzeu la pàgina **Requisits d'articles**, podeu configurar el requisit per tal que rebeu els articles com a lliuraments parcials. Per tant, podeu ajornar el consum d'una quantitat d'articles fins que els articles siguin necessaris.
 -   Per encarregar articles d'un proveïdor extern, heu de crear la comanda com a comanda de compra a la pàgina **Comanda de compra**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ El tipus de projecte determina el procediment de facturació que s'ha d'aplicar.
 Abans de crear una factura de client per a un projecte, podeu crear una factura preliminar o una proposta de factura. En una proposta de factura, podeu seleccionar transaccions de projecte que s'inclouran a la factura d'un projecte. A continuació, podeu revisar les dades de la factura abans de comptabilitzar la factura del projecte i enviar-la al client o a una altra font de finançament. 
 
 
-Per obtenir més informació sobre com processar factures de projectes, vegeu [Facturació de projectes](/dynamics365/finance/accounts-payable/project-invoicing).
+Per obtenir més informació sobre com processar factures de projectes, vegeu [Facturació de projectes](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular el cost per completar un projecte
@@ -298,7 +300,7 @@ Segons l'organització, podeu preveure els fluxos d'entrada de caixa per a un pr
 -   **Data del projecte:** 5 de març de 2012.
 -   **Data de la factura:** 31 de març de 2012. Aquesta data es determina a partir de la freqüència de les factures. Per a aquest exemple, definiu la freqüència de factures al mes en curs. Per tant, totes les transaccions que es comptabilitzen al mes de març es facturen l'últim dia del mes.
 -   **Data de venciment:** 14 d'abril de 2012. Aquesta data es determina en funció dels terminis de pagament que s'han definit per al projecte. Per a aquest exemple, heu seleccionat un termini de pagament de 14 dies. Per tant, s'afegeixen 14 dies a la data de la factura per poder arribar a una data de venciment del 14 d'abril de 2012.
--   **Data prevista de pagament de la venda:** 27 d'abril de 2012. Aquesta data es calcula afegint el nombre de dies al camp **Dies de marge generals** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat** al nombre de dies del camp **Dies de marge individuals** a la pàgina **Contractes del projecte** i, a continuació, afegint el total al nombre de dies al camp **Data de venciment**. Per a aquest exemple, heu introduït **3** en el camp **Dies de marge generals** i **10** al camp **Dies de marge individuals**. Per tant, se sumen 13 dies a la data de venciment per poder arribar a una data de pagament de vendes esperada del 27 d'abril de 2012.
+-   **Data prevista de pagament de la venda:** 27 d'abril de 2012. Aquesta data es calcula afegint el nombre de dies al camp **Dies de marge generals** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat** al nombre de dies del camp **Dies de marge individuals** a la pàgina **Contractes del projecte** i, a continuació, afegint el total al nombre de dies al camp **Data de venciment**. Per a aquest exemple, heu introduït **3** en el camp **Dies de marge generals** i **10** al camp **Dies de marge individuals**. Per tant, se sumen 13 dies a la data de venciment per poder arribar a una data de pagament de vendes esperada del 27 d'abril de 2012.
 
 Els dies de marge generals poden substituir els dies de marge individuals o sumar-hi:
 
@@ -379,7 +381,7 @@ A la pàgina **Control de costos**, a la pestanya **Desviació**, podeu visualit
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Visualitzar els imports pressupostats totals
 
-Si se selecciona **Pressupost total** com a mètode de control de costos a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**, la pàgina **Control de costos** calcula els costos reals i les despeses totals del projecte per ajudar-vos a detectar qualsevol diferència entre els dos. En concret, a la pàgina **Control de costos**, els imports de les columnes de la subfinestra inferior de la pestanya **General** es calculen de les maneres següents:
+Si se selecciona **Pressupost total** com a mètode de control de costos a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**, la pàgina **Control de costos** calcula els costos reals i les despeses totals del projecte per ajudar-vos a detectar qualsevol diferència entre els dos. En concret, a la pàgina **Control de costos,** els imports de les columnes de la subfinestra inferior de la pestanya **General** es calculen de les maneres següents:
 
 -   **Cost total pressupostat**: import pressupostat total per a la línia de cost seleccionada.
 -   **Cost real**: import total de costos que ha suposat el projecte fins a la data per a les línies de cost seleccionades.
@@ -438,6 +440,3 @@ Després de calcular l'extracte, podeu visualitzar la informació següent a les
 -   **Consum**: informació sobre el consum d'hores, articles, despeses i transaccions de nòmines.
 -   **Factura**: informació sobre les factures i la facturació a compte.
 -   **Tarifa per hora**: les tarifes per hora per a les hores que es comptabilitzen als comptes d'ingressos i costos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

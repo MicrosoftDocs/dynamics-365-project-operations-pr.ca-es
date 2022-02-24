@@ -2,6 +2,8 @@
 title: Iniciar la sessió al Project Service Automation
 description: Com iniciar sessió al Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990439"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150251"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Iniciar la sessió al Project Service Automation
 
@@ -37,7 +39,7 @@ Quan inicieu la sessió a les aplicacions del Dynamics 365, l'administrador us h
   
 - La contrasenya  
   
-  Probablement l'administrador us ha enviat aquesta informació en un correu electrònic. Si no teniu aquesta informació, o si teniu problemes per iniciar sessió, [cerqueu l'administrador o el vostre tècnic de suport](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Probablement l'administrador us ha enviat aquesta informació en un correu electrònic. Si no teniu aquesta informació, o si teniu problemes per iniciar sessió, [cerqueu l'administrador o el vostre tècnic de suport](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Definiu les opcions personals per permetre el correu electrònic  
  Heu de configurar els paràmetres del correu electrònics perquè altres persones puguin enviar correus electrònics en el vostre nom, de manera que l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] us pot enviar notificacions de correu electrònic quan tingueu hores i despeses per aprovar o registrar per a projectes.  
@@ -54,6 +56,3 @@ Quan inicieu la sessió a les aplicacions del Dynamics 365, l'administrador us h
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

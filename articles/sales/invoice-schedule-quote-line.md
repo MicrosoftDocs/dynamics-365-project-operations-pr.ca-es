@@ -2,16 +2,18 @@
 title: Planificacions de facturació en línies d'oferta basades en projectes
 description: En aquest tema es proporciona informació sobre la creació e planificacions i fites de facturació per a línies d'oferta.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988594"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180810"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Planificacions de facturació en línies d'oferta basades en projectes
 
@@ -66,6 +68,3 @@ Obriu la línia d'oferta de preu fix en què heu de crear una fita. A la pestany
 | Estat de la factura | Creació ràpida | Quan es crea una fita, aquest estat sempre es defineix com a **No preparat per a la facturació**. | Es propaga a la fita de la línia de contracte del projecte i a la factura. |
 | Import de la línia | Creació ràpida | Import o valor de la fita que es facturarà al client. | Es propaga a la fita de la línia de contracte del projecte i a la factura. |
 | Impost | Creació ràpida | Import de l'impost que s'aplicarà a la fita. | Es propaga a la fita de la línia de contracte del projecte i a la factura. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Configurar la creació automàtica de factures
 description: Aquest tema proporciona informació sobre com configurar el sistema per generar factures automàticament.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992644"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122421"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Configurar la creació automàtica de factures
 
@@ -43,6 +45,3 @@ El treball de processament per lots per crear factures és una feina recurrent. 
 
 > [!NOTE]
 > La facturació per lots només s'executa per a les línies de contracte del projecte que es configuren mitjançant planificacions de factura. Una línia de contracte amb un mètode de facturació de preu fix ha de tenir les fites configurades. Una línia de contracte de projecte amb un mètode de facturació de temps i material necessitarà una configuració de planificació de facturació basada en la data. El mateix s'aplica a una línia de contracte basada en projectes.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

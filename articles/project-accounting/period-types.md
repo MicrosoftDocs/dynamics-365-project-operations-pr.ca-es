@@ -2,16 +2,18 @@
 title: Tipus de períodes
 description: En aquest tema es proporciona informació sobre com configurar els tipus de períodes per a l'estimació dels ingressos.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998764"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531365"
 ---
 # <a name="period-types"></a>Tipus de períodes
 
@@ -32,6 +34,3 @@ Per crear i treballar amb tipus de períodes, seguiu aquests passos:
 4. Seleccioneu el registre del tipus de període i, a continuació, seleccioneu **Genera períodes** per crear períodes per al tipus de període. Segons la freqüència del període que hàgiu seleccionat, pot ser que tingueu l'opció d'especificar una data d'inici o el nombre de períodes que cal generar.
 5. Seleccioneu **Períodes** per revisar els períodes generats.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Sincronitzar contractes de projectes i projectes directament des del Project Service Automation a Finances
 description: Aquest tema descriu la plantilla i tasques subjacents que s'utilitzen per sincronitzar els contractes del projecte i els projectes directament des del Microsoft Dynamics 365 Project Service Automation al Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001059"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764807"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronitzar contractes de projectes i projectes directament des del Project Service Automation a Finances 
 
@@ -42,7 +44,7 @@ La solució d'integració del Project Service Automation al Finance utilitza la 
 
 A la il·lustració següent es mostren les dades que se sincronitzen entre el Project Service Automation i el Finance.
 
-[![Flux de dades per a la integració de Project Service Automation amb el Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Flux de dades per a la integració de Project Service Automation amb el Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Plantilles i tasques
 
@@ -107,8 +109,8 @@ Quan s'aplica la solució d'integració del Project Service Automation al Financ
 ## <a name="prerequisites-and-mapping-setup"></a>Requisits previs i configuració de l'assignació
 
 - Abans que es produeixi la sincronització de contractes del projecte i projectes, cal sincronitzar els comptes.
-- Al conjunt de connexions, afegiu una assignació de camp de clau d'integració per a **msdyn\_organizationalunits** a **msdyn\_name \[Nom\]**. Pot ser que hàgiu d'afegir un projecte al conjunt de connexions. Per obtenir més informació, vegeu [Integrar dades al Common Data Service per a les aplicacions](/powerapps/administrator/data-integrator).
-- Al conjunt de connexions, afegiu una assignació de camp de clau d'integració per a **msdyn\_projects** a **msdynce\_projectnumber \[Número de projecte\]**. Pot ser que hàgiu d'afegir un projecte al conjunt de connexions. Per obtenir més informació, vegeu [Integrar dades al Common Data Service per a les aplicacions](/powerapps/administrator/data-integrator).
+- Al conjunt de connexions, afegiu una assignació de camp de clau d'integració per a **msdyn\_organizationalunits** a **msdyn\_name \[Nom\]**. Pot ser que hàgiu d'afegir un projecte al conjunt de connexions. Per obtenir més informació, vegeu [Integrar dades al Common Data Service per a les aplicacions](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Al conjunt de connexions, afegiu una assignació de camp de clau d'integració per a **msdyn\_projects** a **msdynce\_projectnumber \[Número de projecte\]**. Pot ser que hàgiu d'afegir un projecte al conjunt de connexions. Per obtenir més informació, vegeu [Integrar dades al Common Data Service per a les aplicacions](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - El valor **SourceDataID** per a contractes de projecte i projectes es pot actualitzar a un valor diferent o suprimir-se de l'assignació. El valor per defecte de la plantilla és **Project Service Automation**.
 - L'assignació **PaymentTerms** ha d'estar actualitzada de manera que reflecteixi els terminis de pagament vàlids al Finance. També podeu suprimir l'assignació de la tasca del projecte. L'assignació de valor per defecte té els valors per defecte per a les dades de demostració. A la taula següent es mostren els valors del Project Service Automation.
 
@@ -129,7 +131,7 @@ Utilitzeu el Microsoft Power Query per a l'Excel per filtrar les dades si es com
 Si heu d'utilitzar el Power Query, seguiu aquestes instruccions:
 
 - La plantilla Projectes i contractes (PSA a Fin and Ops) té un filtre per defecte que inclou només les comandes de venda del tipus **Element de treball (msdyn\_ordertype = 192350001)**. Aquest filtre ajuda a garantir que els contractes del projecte no es creen per a les comandes de vendes al Finance. Si creeu una plantilla pròpia, heu d'afegir aquest filtre.
-- Creeu un filtre de Power Query que només inclogui les organitzacions de contracte que s'han de sincronitzar amb l'entitat legal del conjunt de connexió d'integració. Per exemple, els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso US s'han de sincronitzar amb l'entitat jurídica de l'USSI, però els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso Global s'han de sincronitzar amb l'entitat jurídica de l'USMF. Si no afegiu aquest filtre a l'assignació de tasques, tots els contractes del projecte se sincronitzaran amb l'entitat jurídica que es defineixi per al conjunt de connexions, independentment de la unitat organitzativa del contracte.
+- Creeu un filtre de Power Query que només inclogui les organitzacions de contracte que s'han de sincronitzar amb l'entitat legal del conjunt de connexió d'integració. Per exemple, els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso US s'han de sincronitzar a l'entitat jurídica USSI, però els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso Global se sincronitzaran amb l'entitat jurídica USMF. Si no afegiu aquest filtre a l'assignació de tasques, tots els contractes del projecte se sincronitzaran amb l'entitat jurídica que es defineixi per al conjunt de connexions, independentment de la unitat organitzativa del contracte.
 
 ## <a name="template-mapping-in-data-integration"></a>Assignació de plantilles a la integració de dades
 
@@ -140,17 +142,14 @@ Si heu d'utilitzar el Power Query, seguiu aquestes instruccions:
 
 A les il·lustracions següents es mostren exemples de l'assignació de tasques de plantilla a la integració de dades. L'assignació mostra la informació de camp que se sincronitzarà del Project Service Automation al Finance.
 
-[![Assignació de plantilla de contracte de projecte.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Assignació de plantilla de contracte de projecte](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Assignació de plantilla de projecte.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Assignació de plantilla de projecte](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Assignació de plantilla de línies de contracte de projecte.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Assignació de plantilla de línies de contracte de projecte](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Assignació de plantilla de fites de línia de contracte de projecte.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Assignació de plantilla de fites de línia de contracte de projecte](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Assignació de fites de línia de contracte del projecte a la plantilla Projectes i contractes (PSA 3.x a Dynamics), v2:
 
-[![Assignació de fites de línia de contracte de projecte amb una plantilla de segona versió.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Assignació de fites de línia de contracte de projecte amb una plantilla de segona versió](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

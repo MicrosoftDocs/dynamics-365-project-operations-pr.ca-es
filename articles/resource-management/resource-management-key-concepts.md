@@ -2,22 +2,24 @@
 title: Conceptes clau de l'administració de recursos
 description: En aquest tema es proporciona informació sobre les funcionalitats d'administració de recursos al Microsoft Dynamics Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994804"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123861"
 ---
 # <a name="resource-management-key-concepts"></a>Conceptes clau de l'administració de recursos
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Els recursos són l'actiu més important d'una organització basada en serveis. La capacitat de trobar els recursos adequats a l'hora adequada, reservar aquests recursos en projectes i mantenir-los utilitzats ajuda les organitzacions a complir els objectius d'ingressos i els objectius de satisfacció del client. Podeu utilitzar la funcionalitat de dotació de recursos de projecte del Dynamics 365 Project Operations per fer les tasques següents:
+Els recursos són l'actiu més important d'una organització basada en serveis. La capacitat de trobar els recursos adequats a l'hora adequada, reservar aquests recursos en projectes i mantenir-los utilitzats ajuda les organitzacions a complir els objectius d'ingressos i els objectius de satisfacció del client. Podeu utilitzar la funcionalitat de projecte de recursos del Dynamics 365 Project Operations per fer les tasques següents:
 
 - Formar equips de projecte reservant recursos disponibles i qualificats.
 - Crear registres de membres de l'equip genèric i definir les seves funcions i la unitat d'organització de recursos.
@@ -33,6 +35,3 @@ Els recursos són l'actiu més important d'una organització basada en serveis. 
 
 
 Podeu assignar personal al vostre projecte amb un equip de recursos genèrics o amb nom al Project Operations. Podeu utilitzar diversos mètodes per afegir i assignar membres de l'equip i per administrar les seves reserves i assignacions. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

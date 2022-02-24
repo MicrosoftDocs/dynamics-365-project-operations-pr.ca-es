@@ -2,6 +2,8 @@
 title: Anàlisi de les ofertes del projecte
 description: En aquest tema es proporciona informació sobre l'anàlisi de les ofertes del projecte.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002814"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145211"
 ---
 # <a name="analysis-of-project-quotes"></a>Anàlisi de les ofertes del projecte
 
@@ -58,6 +60,3 @@ Podeu analitzar ofertes i generar gràfics per a les expectatives de client sobr
 L'anàlisi de les expectatives dels clients sobre la planificació es fa comparant l'última data d'acabament del detall de la línia d'oferta amb la data de lliurament sol·licitada a totes les línies d'oferta de l'oferta.
 
 L'anàlisi de les expectatives dels clients sobre el pressupost es fa comparant la suma del pressupost total de clients amb l'import de la cotització a totes les línies d'oferta.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

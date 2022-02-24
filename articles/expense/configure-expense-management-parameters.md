@@ -2,16 +2,18 @@
 title: Configuració dels paràmetres d'administració de despeses
 description: En aquest tema es descriuen els paràmetres que controlen el comportament general a l'administració de despeses.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007764"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121026"
 ---
 # <a name="configure-expense-management-parameters"></a>Configuració dels paràmetres d'administració de despeses
 
@@ -81,6 +83,3 @@ En aquest tema es descriuen els paràmetres que controlen el comportament genera
 | Mostra la certificació anticorrupció   | Seleccioneu aquesta opció per mostrar el text anticorrupció quan es crea un informe de despeses. Llavors, es poden habilitar categories de despeses específiques que requeriran que la certificació anticorrupció es seleccioni a l'informe de la despesa. Per exemple, una categoria de regal que estigui relacionada amb una despesa de funcionari del govern podria exigir que l'empleat confirmi que la despesa compleix la política de l'empresa relacionada amb funcionaris del govern. |
 | Missatge anticorrupció per a la persona que fa l'enviament | Introduïu el text que s'hauria de mostrar a un empleat que està creant un informe de despeses. Per introduir el text específic de la llengua que es mostrarà, segons la llengua de l'usuari, seleccioneu **Traduccions**. |
 | Missatge anticorrupció per a l'aprovador  | Introduïu el text que s'hauria de mostrar a l'aprovador quan es crea un informe de despeses. Per introduir el text específic de la llengua que es mostrarà, segons la llengua de l'usuari, seleccioneu **Traduccions**. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

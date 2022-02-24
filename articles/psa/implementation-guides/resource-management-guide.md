@@ -2,6 +2,8 @@
 title: Guia d'administració de recursos
 description: En aquest tema s'enllaça a informació sobre l'administració de recursos al Project Service Automation
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b78d6771807b77e2f314cb297fd3563e235bbf53756673fc480df09e9b84dbbf
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a0a12840f7f53cab0e81a5d3764d5c1a9d4df6a3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985220"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149036"
 ---
 # <a name="resource-management-guide"></a>Guia d'administració de recursos
 
@@ -42,6 +44,3 @@ S'ha suprimit l'enllaç PDF que abans es trobava en aquest tema i s'ha mogut el 
 
 > [!NOTE]
 > Aquest tema s'eliminarà en una futura actualització de la documentació. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

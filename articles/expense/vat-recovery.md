@@ -2,16 +2,18 @@
 title: Recuperació de l'IVA a l'administració de despeses
 description: En aquest tema s'explica com es poden rebre reemborsaments en transaccions amb impost sobre el valor afegit (IVA).
 author: suvaidya
+manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999349"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072080"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Recuperació de l'IVA a l'administració de despeses
 
@@ -33,25 +35,25 @@ Quan s'hagin completat els requisits previs, cal completar els passos següents 
 4. Envieu les dades de recuperació de l'IVA al proveïdor de tercers per poder presentar la devolució internacional.
 5. Processeu les despeses per a la recuperació de l'IVA nacional.
 
-A les seccions següents es proporcionen exemples que mostren com els empleats de Contoso completen cada pas.
+A les seccions següents s'ofereixen exemples que mostren com els empleats de Contoso completen cada pas.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Introduir la informació tributària sobre les transaccions amb targeta de crèdit per identificar els possibles reembossaments d'IVA
 
-La Montse, una representant de vendes de Contoso situada als Estats Units, ha tornat recentment d'un viatge de vendes al Regne Unit. Durant el viatge, la Montse va incórrer en algunes despeses personals de targeta de crèdit per als àpats. La Montse ara ha de crear un informe de despeses per conciliar les despeses.
+La Montse, una representant de vendes de Contoso que es troba a Estats Units, ha tornat recentment d'un viatge de vendes al Regne Unit. Durant el viatge, la Montse va incórrer en algunes despeses personals de targeta de crèdit per als àpats. La Montse ara ha de crear un informe de despeses per conciliar les despeses.
 
 Quan la Montse introdueix la informació a l'informe de despeses, selecciona **Regne Unit** al camp **País o regió** de la pàgina **Edita l'informe de despeses**. La llista de grups d'impostos de vendes es filtra després per tal que només es mostrin els grups que s'apliquen al Regne Unit. La Montse selecciona el grup d'impostos de vendes **Regne Unit 001** i, a continuació, selecciona el grup d'impostos de vendes de l'element **Àpats**. A continuació, la Montse afegeix una nova transacció per a l'allotjament. Com que només hi ha un grup d'impostos de vendes i un element grup de l'impost de vendes per a l'allotjament al Regne Unit, aquesta informació s'emplena automàticament per a l'informe de despeses de la Montse.
 
-Segons la norma de Contoso, totes les despeses han de tenir un rebut. Per tant, quan la Montse desa l'informe de despeses, rep un missatge que indica que ha d'adjuntar un justificant per a cada transacció que figuri a l'informe de despeses. La Montse verifica que s'ha adjuntat una imatge digital de cada rebut de transacció a l'informe de despeses i després envia l'informe per a la seva aprovació. A continuació, envia els rebuts en paper a l'equip d'operacions. Aquest equip enviarà les dades de recuperació de l'IVA al proveïdor de tercers que sol·licita les recuperacions d'IVA internacionals de Contoso.
+Segons la política de Contoso, totes les despeses han de tenir un rebut coincident. Per tant, quan la Montse desa l'informe de despeses, rep un missatge que indica que ha d'adjuntar un justificant per a cada transacció que figuri a l'informe de despeses. La Montse verifica que s'ha adjuntat una imatge digital de cada rebut de transacció a l'informe de despeses i després envia l'informe per a la seva aprovació. A continuació, envia els rebuts en paper a l'equip d'operacions. Aquest equip enviarà les dades de recuperació de l'IVA al proveïdor de tercers que sol·licita la recuperació internacional de l'IVA per a Contoso.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Verificar la informació d'impostos i comptabilitzar un informe de despeses
 
-Abans que l'April, coordinadora de compte a pagar de Contoso, pugui comptabilitzar un informe de despeses, ha d'introduir qualsevol informació fiscal que hi falti. Obre la pàgina **Detalls de l'informe de despeses** i veu l'informe de despeses aprovat de la Montse. L'April obre l'informe de despeses per visualitzar els detalls de les transaccions. Veu que la Montse no va introduir un grup d'impost de vendes d'element per a una de les transaccions. Com que aquesta informació no es proporciona, l'April no pot comptabilitzar l'informe de despeses. Per tant, consulta la pàgina **Configuracions d'impostos** a l'administració de despeses i troba el grup d'impostos de vendes de l'element adient per al país o regió i el tipus de transacció. L'April pot comptabilitzar l'informe de despeses al registre general.
+Abans que l'April, coordinadora del compte a pagar de Contoso, pugui comptabilitzar un informe de despeses, ha d'introduir tota la informació d'impostos que hi falti. Obre la pàgina **Detalls de l'informe de despeses** i veu l'informe de despeses aprovat de la Montse. L'April obre l'informe de despeses per visualitzar els detalls de les transaccions. Veu que la Montse no va introduir un grup d'impost de vendes d'element per a una de les transaccions. Com que aquesta informació no es proporciona, l'April no pot comptabilitzar l'informe de despeses. Per tant, consulta la pàgina **Configuracions d'impostos** a l'administració de despeses i troba el grup d'impostos de vendes de l'element adient per al país o regió i el tipus de transacció. L'April pot comptabilitzar l'informe de despeses al registre general.
 
 Quan l'April comptabilitza l'informe de despeses, es crea un element de treball d'IVA recuperable. Aquest element de treball s'assigna a un membre de l'equip de processament d'operacions. L'April rep un missatge que confirma que la comptabilització s'ha realitzat correctament. Aquest missatge també mostra el nombre de transaccions amb IVA que s'han identificat per a la recuperació.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Processar les despeses que compleixin els requisits per a la recuperació de l'IVA internacional
 
-L'Arnie, membre de l'equip de processament d'administració de Contoso, s'encarrega de comprovar que tota la informació necessària per a la recuperació de l'IVA s'inclou als informes de despesa. Obre la pàgina **Recuperació de l'impost de despeses** i selecciona l'informe de despeses que ha enviat la Montse. A continuació, l'Arnie verifica que s'adjunten tots els rebuts necessaris i que s'han introduït el grup d'impost de vendes i els codis d'impost de vendes de l'article correctes.
+L'Arnie, membre de l'equip de processament d'operacions de Contoso, és responsable de comprovar que s'inclou la informació necessària per a la recuperació de l'IVA als informes de despeses. Obre la pàgina **Recuperació de l'impost de despeses** i selecciona l'informe de despeses que ha enviat la Montse. A continuació, l'Arnie verifica que s'adjunten tots els rebuts necessaris i que s'han introduït el grup d'impost de vendes i els codis d'impost de vendes de l'article correctes.
 
 Quan l'Arnie rebi rep rebuts en paper de la Montse, els verifica amb els rebuts digitals i després canvia l'estat de l'informe de despeses a **A punt per a la recuperació**.
 
@@ -64,6 +66,3 @@ Quan l'Arnie és a punt per enviar les dades de l'informe de despeses al proveï
 L'Arnie ha de comprovar que les transaccions de l'informe de despesa són aptes per a la recuperació de l'IVA i que els rebuts digitals s'adjunten als informes. Per començar a processar les despeses elegibles per a la recuperació nacional, l'Arnie obre la pàgina **Recuperació d'impostos de despeses** i selecciona l'informe de despeses que requereix la verificació. Verifica que els rebuts estan en nom de l'empresa en comptes de l'empleat. (Per a la recuperació de l'IVA, els rebuts han d'estat en nom de l'empresa.) A continuació, l'Arnie verifica que s'han introduït el grup d'impost de vendes i els codis d'impost de vendes de l'article correctes.
 
 Quan l'Arnie rep els rebuts en paper, canvia l'estat de l'informe de despeses a **A punt per a la recuperació**. A continuació, pot presentar la devolució a l'autoritat tributària adequada. En aquest cas, l'autoritat fiscal adequada als Estats Units és el Servei d'ingressos interns (IRS).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

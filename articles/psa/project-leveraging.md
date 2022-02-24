@@ -2,6 +2,8 @@
 title: Estimacions de vendes i projectes
 description: En aquest tema es proporciona informació sobre com aprofitar la planificació i les estimacions del procés de venda.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995164"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148361"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimacions de vendes i projectes
 
@@ -35,11 +37,11 @@ Durant el procés de vendes, podeu crear estimacions de vendes mitjançant la vi
 
 Quan creeu una línia d'oferta basada en projectes, podeu crear un projecte nou o associar-ne un d'existent a la pàgina **Línia d'oferta**. 
 
-> ![Formulari de línia d'oferta.](media/project-8.png)
+> ![Formulari de línia d'oferta](media/project-8.png)
  
 Quan creeu un projecte nou a partir dels detalls de la línia d'oferta, podeu treure partit de les plantilles del projecte. Les plantilles de projecte són projectes model que representen plans de projecte estàndard i estimacions financeres que són típiques d'una organització. També poden representar exemplars de plans de projecte i estimacions de projectes anteriors.
 
-> ![Detalls de la línia d’oferta.](media/project-9.png)
+> ![Detalls de la línia d'oferta](media/project-9.png)
   
 Quan creeu el projecte a partir de l'oferta, el projecte s'associa automàticament a la línia d'oferta.
 
@@ -52,6 +54,3 @@ Podeu definir l'esforç de treball i les estimacions de planificació mitjançan
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importar estimacions d'un projecte a una oferta
 
 Després de definir estimacions de projecte, podeu importar-les a la línia d'oferta. A la pàgina **Detalls de la línia d'oferta**, seleccioneu **Importa a partir d'estimacions** a la franja per resumir les estimacions de projecte pel tipus de transacció, la funció o el nivell de tasca.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

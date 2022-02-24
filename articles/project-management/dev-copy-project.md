@@ -2,16 +2,18 @@
 title: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
 description: En aquest tema es proporciona informació sobre com crear plantilles de projecte mitjançant l'acció personalitzada Copia el projecte.
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989229"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044997"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Desenvolupament de plantilles de projecte amb la característica Copia el projecte
 
@@ -42,7 +44,7 @@ Hi ha tres paràmetres d'entrada:
 - **{"clearTeamsAndAssignments":true}** : comportament per defecte d'un projecte per al web, i suprimirà totes les assignacions i membres de l'equip.
 - **{"removeNamedResources":true}** comportament per defecte del Project Operations, i revertirà les assignacions a recursos genèrics.
 
-Per veure més valors per defecte en accions, vegeu [Utilitzar les accions de l'API web](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Per veure més valors per defecte en accions, vegeu [Utilitzar les accions de l'API web](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Especificar els camps que es copiaran 
 Quan es crida l'acció, **Copia el projecte** consultarà la visualització del projecte **Copia les columnes del projecte** per determinar quins camps s'han de copiar quan es copia el projecte.
@@ -110,6 +112,3 @@ A l'exemple següent es mostra com es truca a l'acció personalitzada **CopyProj
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

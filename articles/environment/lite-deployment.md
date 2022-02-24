@@ -2,16 +2,18 @@
 title: Implementació del Project Operations (bàsic)
 description: 'En aquest tema es proporciona informació sobre com instal·lar la implementació bàsica del Project Operations: acord a facturació proforma.'
 author: stsporen
+manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991564"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642171"
 ---
 # <a name="deploy-project-operations---lite"></a>Implementació del Project Operations (bàsic)
 
@@ -32,16 +34,13 @@ El Project Operations admet diversos models d'implementació. Per determinar el 
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Instal·lar el Project Operations en un nou entorn del CDS
 
-1. Com a [administrador global o del Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) amb una llicència del Project Operations, creeu un entorn del CDS nou al [centre d'administració del Power Platform](https://admin.powerplatform.com). Assegureu-vos que **Base de dades del CDS** i **Aplicacions del Dynamics 365** estiguin habilitades. Per obtenir informació, vegeu [Crear i administrar entorns al centre d'administració del Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Com a [administrador global o del Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) amb una llicència del Project Operations, creeu un entorn del CDS nou al [centre d'administració del Power Platform](https://admin.powerplatform.com). Assegureu-vos que **Base de dades del CDS** i **Aplicacions del Dynamics 365** estiguin habilitades. Per obtenir informació, vegeu [Crear i administrar entorns al centre d'administració del Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Seleccioneu **Microsoft Dynamics 365 Project Operations** des de la llista d'implementació de les aplicacions del Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Instal·lar el Project Operations en un entorn existent del CDS
 
-1. Com a [administrador global o del Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) amb una llicència del Project Operations, localitzeu l'entorn al [centre d'administració del Power Platform](https://admin.powerplatform.com) on voleu instal·lar el Project Operations.
-2. Instal·leu **Microsoft Dynamics 365 Project Operations** des de la llista d'implementació de les aplicacions del Dynamics 365. Per obtenir més informació, vegeu [Administrar les aplicacions del Dynamics 365](/power-platform/admin/manage-apps).
+1. Com a [administrador global o del Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) amb una llicència del Project Operations, localitzeu l'entorn al [centre d'administració del Power Platform](https://admin.powerplatform.com) on voleu instal·lar el Project Operations.
+2. Instal·leu **Microsoft Dynamics 365 Project Operations** des de la llista d'implementació de les aplicacions del Dynamics 365. Per obtenir més informació, vegeu [Administrar les aplicacions del Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

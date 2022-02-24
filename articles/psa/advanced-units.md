@@ -2,6 +2,8 @@
 title: Grups d'unitats i unitats
 description: En aquest tema es proporciona informació sobre els grups d'unitats i les unitats.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987559"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145571"
 ---
 # <a name="unit-groups-and-units"></a>Grups d'unitats i unitats
 
@@ -44,7 +46,7 @@ Per exemple, en un grup d'unitats **Temps**, si configureu **Hora** com a primer
 
 A la imatge següent es mostra una configuració d'exemple per a la unitat **Dia**, on el camp **Quantitat** mostra el nombre d'hores que hi ha en un dia, i **Setmana**, en què el camp **Quantitat** mostra el nombre de dies que hi ha en una setmana.
 
-> ![Grup d'unitats: pàgina d'informació.](media/advanced-2.png)
+> ![Grup d'unitats: pàgina d'informació](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Utilitzar unitats i grups d'unitats
 
@@ -84,9 +86,9 @@ A l'exemple següent es mostra com el PSA utilitza el grup d'unitats, les unitat
     - **Unitat de temps per defecte**: dia 
     - **Moneda**: GBP
 
-| Funció      | Grup d'unitats | Unitat | Unitat organitzativa | Preu   |
+| Funció      | Grup d'unitats | Unit | Unitat organitzativa | Preu   |
 |-----------|------------|------|---------------------|---------|
-| Desenvolupador | Temps       | Dia  | Contoso UK          | 800 GBP |
+| Desenvolupador | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Entrada de temps
 
@@ -110,6 +112,3 @@ No. L'estimació de planificació es restringeix actualment a hores i no es pot 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Poden editar-se, suprimir i afegir unitats i grups d'unitats?
 Sí. Exceptuant el grup d'unitats **Temps** i la unitat **Hores**, totes les unitats es poden suprimir o editar i es poden afegir unitats noves. A PSA, el grup d'unitats **Temps** i la unitat **Hora** no es poden suprimir. No obstant, es poden actualitzar amb un text traduït del camp **Nom**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

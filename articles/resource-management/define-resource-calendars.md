@@ -2,16 +2,18 @@
 title: Definició de calendaris de recursos
 description: En aquest tema es proporciona informació sobre com definir els calendaris d'horaris de treball per als recursos al Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990304"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123906"
 ---
 # <a name="define-resource-calendars"></a>Definició de calendaris de recursos
 
@@ -41,6 +43,3 @@ Tots els recursos reservables en un projecte han de tenir un calendari d'horari 
 2. Des de la visualització de quadrícula, seleccioneu fins a 25 **recursos reservables** que actualitzareu.
 3. Seleccioneu **Defineix el calendari** i un diàleg us mostrarà una llista de plantilles d'hores de feina disponibles.
 4. Seleccioneu la plantilla que voleu utilitzeu i seleccioneu **Aplica**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

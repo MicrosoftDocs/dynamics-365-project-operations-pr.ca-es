@@ -2,9 +2,11 @@
 title: Configurar els costos estàndard per al treball i les despeses
 description: En aquest tema s'explica la manera de configurar els costos estàndard per al treball i les despeses d'un projecte.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b8f65709433ed6f9ff9d23ed6d99624ee1d4aaef6927ee689c9f7651807340c5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072269"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configurar els costos estàndard per al treball i les despeses
 
@@ -52,6 +54,3 @@ En aquest tema s'explica la manera de configurar els costos estàndard per al tr
 22. Al camp **Preu**, introduïu un número. El preu de vendes real, que s'aplica quan un treballador introdueix transaccions en un diari de despeses, és el preu de vendes amb el nivell de detall més alt. Per exemple, si es configuren tant un preu de vendes general com un d'específic del treballador, el preu de vendes específic del treballador s'utilitza.  
 23. Seleccioneu **Desa**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

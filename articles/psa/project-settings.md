@@ -2,6 +2,8 @@
 title: Configuració del projecte
 description: Aquest tema proporciona informació sobre la configuració de l'administració de projectes.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996919"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148136"
 ---
 # <a name="project-settings"></a>Configuració del projecte
 
@@ -47,7 +49,7 @@ Per crear una planificació de projecte, creeu uns plantilla de calendari de pro
   - Planificació de treball per a un dia
   - Temps lliure
 
-> ![Configurar les opcions.](media/project-13.png)
+> ![Configurar les opcions](media/project-13.png)
 
 4. Seleccioneu **Planificació setmanal nova** i, a continuació, definiu les opcions d'aquesta planificació de recursos. Podeu definir una planificació setmanal periòdica, paràmetres d'hores diàries, tancaments d'empresa, etc.
 5. Definiu l'interval de dates ,seleccioneu **Desa** i, a continuació, feu clic a **Tanca**. 
@@ -66,6 +68,3 @@ Cada organització ha de configurar aquestes funcions a la pàgina **Categories 
 ## <a name="price-lists"></a>Llistes de preus
 
 Les llistes de preus us permeten definir costos i preus de venda per a les funcions de recursos, categories de despeses i altres elements d'una organització. Abans de definir previsions financeres dels treballs que s'han de lliurar per a projecte, hauríeu de crear un cost de reserva i una llista de preus de venda. A la secció de paràmetres, també heu de configurar una llista de preus i costos de vendes per defecte que s'apliqui a tots els projectes que es creen a l'organització. A la pàgina **Paràmetres del projecte actius**, assegureu-vos de configurar una llista de preus i costos de vendes per defecte.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

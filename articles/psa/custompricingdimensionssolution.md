@@ -2,10 +2,12 @@
 title: Crear solucions personalitzades per a les dimensions de preus
 description: Aquest tema explica com crear una solució personalitzada en crear dimensions de preus personalitzades.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995254"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144626"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Crear solucions personalitzades per a les dimensions de preus
 
@@ -32,7 +34,7 @@ ms.locfileid: "6995254"
 1. Seleccioneu **Configuració** > **Solucions** i, a continuació, **Nova**. 
 2. Anomeneu la solució **Dimensions de preus de \<your organization name>**, introduïu la informació necessària restant i, a continuació, seleccioneu **Desa**.
 
-> ![Crear una solució personalitzada per a les dimensions de preus.](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Crear una solució personalitzada per a les dimensions de preus](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Afegir totes les entitats necessàries i els components relacionats a la solució de la dimensió de preus
 Haureu d'afegir les següents entitats del Project Service a la solució de preus. Completeu els passos d'aquest procediment per fer canvis importants d'esquema a la solució de preus de manera que les entitats coneguin les noves dimensions de preus.
@@ -54,18 +56,15 @@ Haureu d'afegir les següents entitats del Project Service a la solució de preu
 - Preu per funció 
 - Entrada de temps 
 
-> ![Afegir entitats existents a la solució de dimensions de preus.](media/Existing-entities-to-PD-solution.png)
+> ![Afegir entitats existents a la solució de dimensions de preus](media/Existing-entities-to-PD-solution.png)
 
-> ![Seleccionar components de la solució.](media/Dimension-Components.png)
+> ![Selecció de components de la solució](media/Dimension-Components.png)
 
 > [!NOTE]
 > Assegureu-vos d'incloure tots els formularis i les visualitzacions de cadascuna de les entitats seleccionades.
 
 4. Quan se us demani que inclogueu entitats dependents de les entitats seleccionades, seleccioneu **No**.
 
-> ![No incloguis tots els components relacionats.](media/Do-not-include-required.png)
+> ![No incloguis tots els components relacionats](media/Do-not-include-required.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

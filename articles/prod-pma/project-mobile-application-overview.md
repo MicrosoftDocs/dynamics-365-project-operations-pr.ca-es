@@ -2,26 +2,28 @@
 title: Informació general de les aplicacions mòbils del projecte
 description: En aquest tema es proporciona informació general sobre les aplicacions relacionades amb el temps del projecte per al Microsoft Dynamics 365 Project Timesheet, Entrada de temps del projecte i Els meus fulls d'hores/Fulls d'hores disponibles en un dispositiu mòbil.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005649"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072201"
 ---
 # <a name="project-mobile-applications-overview"></a>Informació general de les aplicacions mòbils del projecte
 
@@ -47,6 +49,3 @@ Els meus fulls d'hores (optimitzat per a mòbils) i Fulls d'hores per a la meva 
 - [Entrada de temps del projecte]( project-time-entry-mobile-workspace.md)
 - [Fulls d'hores del projecte en un dispositiu mòbil](Mobile-timesheets.md)
 - [Implementar camps personalitzats per a l'aplicació mòbil del Microsoft Dynamics 365 Project Timesheet a l'iOS i l'Android](custom-fields-mobile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

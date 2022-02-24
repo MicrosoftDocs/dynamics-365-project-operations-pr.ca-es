@@ -2,6 +2,8 @@
 title: Crear una plantilla de projecte
 description: Com crear una plantilla de projecte al Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1423dfedccfdc471662581707b4441c9ed477f7c0811ccf3905af8c59f774f77
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: efc404131208e1c971cb091cf174c1f4707552f0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990844"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149351"
 ---
 # <a name="create-a-project-template-project-service"></a>Crea una plantilla de projecte (Project Service)
 
@@ -60,6 +62,3 @@ Les plantilles de projecte us ajuden a estalviar temps si la vostra empresa pres
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

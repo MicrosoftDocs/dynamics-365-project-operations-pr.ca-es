@@ -1,25 +1,29 @@
 ---
-title: Configuració de la creació de factures automàtica
-description: Aquest tema proporciona informació sobre com configurar la creació automàtica de factures proforma.
+title: Configuració de la creació de factures automàtica (bàsic)
+description: En aquest tema, podreu obtenir informació sobre la configuració de la creació automàtica de factures proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997504"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176554"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Configuració de la creació de factures automàtica 
+# <a name="configure-automatic-invoice-creation---lite"></a>Configuració de la creació de factures automàtica (bàsic)
  
-_**S'aplica a:** Implementació bàsica: tracte de facturació proforma, Project Operations per a escenaris basats en recursos/sense cotització_
+_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Podeu configurar la creació de factures automàtica al Dynamics 365 Project Operations. El sistema crea un esborrany de factura proforma basada en la planificació de factures per a cada contracte de projecte i línia de contracte. Les planificacions de factures es configuren al nivell de línia de contracte. Cada línia d'un contracte pot tenir una planificació de factures diferent, o la mateixa planificació de factures es pot incloure en cada línia del contracte.
+Podeu configurar la creació automàtica de factures al Dynamics 365 Project Operations. El sistema crea un esborrany de factura proforma basada en la planificació de factures per a cada contracte de projecte i línia de contracte. Les planificacions de factures es configuren al nivell de línia de contracte. Cada línia d'un contracte pot tenir una planificació de factures diferent, o la mateixa planificació de factures es pot incloure en cada línia del contracte.
 
-Quan es crea una factura, el sistema sempre crea com a mínim una factura per contracte de projecte. En alguns casos, es poden crear diverses factures. Per exemple, si el contracte té diversos clients, es crearà el mateix nombre de factures que nombre de clients que tenen transaccions facturables per facturar en aquest contracte de projecte.
+Quan es crea una factura, el sistema sempre crea com a mínim una factura per contracte de projecte. En alguns casos, es poden crear diverses factures.
+
+Per exemple, si el contracte té diversos clients, es crearà el mateix nombre de factures que nombre de clients que tenen transaccions facturables per facturar en aquest contracte de projecte.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Com s'inclouen les transaccions en una factura 
 
@@ -87,6 +91,3 @@ El treball de processament per lots per crear factures és una feina recurrent. 
 
 > [!NOTE]
 > La facturació per lots al Project Operations només s'executa per a les línies de contracte del projecte que es configuren mitjançant planificacions de factura. Una línia de contracte amb un mètode de facturació de preu fix ha de tenir les fites configurades. Una línia de contracte de projecte amb un mètode de facturació de temps i material necessitarà una configuració de planificació de facturació basada en la data.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

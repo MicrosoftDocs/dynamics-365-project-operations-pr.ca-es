@@ -2,17 +2,17 @@
 title: Comrpa de materials sense existències mitjançant una factura pendent del proveïdor
 description: En aquest tema s'explica com es registren les factures pendents del proveïdor.
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547277"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993768"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Comrpa de materials sense existències mitjançant una factura pendent del proveïdor
 
@@ -20,7 +20,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Com que una empresa processa materials sense existències per a un projecte, els costos es poden registrar immediatament en el projecte. 
 
-Per exemple, Contoso Robotics US està realitzant un projecte de renovació d'equipament i necessita llicències de programari. Aquestes llicències provenen d'un proveïdor de tercers.  Mitjançant el Dynamics 365 Finance, l'encarregat del compte a pagar registra un document de factura pendent del proveïdor i atribueix els costos de llicència directament al projecte de renovació d'equipament. 
+Per exemple, s'està realitzant un projecte de renovació d'equipament a Contoso Robotics US i necessiten llicències de programari. Aquestes llicències provenen d'un proveïdor de tercers.  Mitjançant el Dynamics 365 Finance, l'encarregat del compte a pagar registra un document de factura pendent del proveïdor i atribueix els costos de llicència directament al projecte de renovació d'equipament. 
 
 > [!IMPORTANT]
 > Abans d'utilitzar la funcionalitat descrita en aquest tema, reviseu i apliqueu les configuracions necessàries. Per obtenir més informació, vegeu [Habilitar materials sense existències i factures pendents del proveïdor](configure-materials-nonstocked.md). 
@@ -45,5 +45,4 @@ Les factures pendents del proveïdor es poden registrar a la pàgina **Factures 
     - Import del balanç del proveïdor.
     - Import de l’impost sobre les vendes.
     - El cost en relació amb el projecte es registra al compte d'integració del proveïment.
-    - Transacció de cost real del projecte al Dataverse.  Aquesta transacció es processa addicionalment per mitjà del [Llibre diari d'integració del Project Operations](../project-accounting/project-operations-integration-journal.md). El fet de publicar aquest llibre diari desplaça l'import del compte d'integració de proveïment al compte de cost del projecte. 
-    - Compres facturades al client del projecte mitjançant el mètode de facturació de temps i materials. A més, les transaccions de vendes no facturades es creen per a les compres al Dataverse. La llista de preus del producte al Dataverse s'utilitza per als preus de vendes i els imports per a la transacció de vendes no utilitzada.
+    - La transacció real del projecte al Dataverse. Aquesta transacció es processa addicionalment per mitjà del [Llibre diari d'integració del Project Operations](../project-accounting/project-operations-integration-journal.md). El fet de publicar aquest llibre diari desplaça l'import del compte d'integració de proveïment al compte de cost del projecte.

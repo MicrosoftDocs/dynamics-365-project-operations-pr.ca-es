@@ -2,16 +2,18 @@
 title: Dietes
 description: En aquest tema es proporciona informació sobre les regles de dietes que s'utilitzen a l'administració de despeses.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986389"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128496"
 ---
 # <a name="per-diems"></a>Dietes
 
@@ -29,6 +31,3 @@ Una dieta és una assignació que es paga a un treballador que viatja per feina.
     
 ## <a name="submit-expenses-using-per-diem"></a>Enviar despeses mitjançant una dieta
 Per enviar les despeses que utilitzen les dietes, utilitzeu la categoria de despesa **Dieta** quan creeu un informe de despeses. Introduïu la **Data d'inici de la dieta**, **Data de finalització de la dieta** i **Ubicació de la dieta**. L'import es calcularà en funció de les tarifes de dieta per a la ubicació seleccionada i es calcularà la reducció dels àpats en funció dels nivells de tarifes de dietes.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

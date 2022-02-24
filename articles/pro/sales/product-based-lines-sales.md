@@ -2,17 +2,19 @@
 title: Línies d'oportunitat basades en productes (bàsic)
 description: Aquest tema proporciona informació sobre els elements de línia d'oportunitat basats en productes al Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 132bfa8418e255cf65c247e55cd45fbaf58d243cb34368fd07bc4ade11bb243e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989674"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272601"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Línies d'oportunitat basades en productes (bàsic)
 
@@ -20,7 +22,7 @@ _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 Les línies d'oportunitat basades en productes són elements de línia de l'oportunitat. Aquests elements de línia diferents es troben a la factura eventual que es proporciona al client. La factura no inclou cap altre servei addicional. No es fa el seguiment de la despesa i el consum associats a les tasques de cap projecte relacionat.
 
-Les línies basades en productes poden ser elements del catàleg o productes fora del catàleg. La major part de la funcionalitat de les línies basades en productes d'una oportunitat segueix la funcionalitat proporcionada per l'aplicació Dynamics 365 Sales. Per obtenir més informació sobre les línies d'oportunitat basades en productes, vegeu [Afegir productes a una oportunitat](/dynamics365/sales-enterprise/add-products-opportunity).
+Les línies basades en productes poden ser elements del catàleg o productes fora del catàleg. La major part de la funcionalitat de les línies basades en productes d'una oportunitat segueix la funcionalitat proporcionada per l'aplicació Dynamics 365 Sales. Per obtenir més informació sobre les línies d'oportunitat basades en productes, vegeu [Afegir productes a una oportunitat](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
 
 El **pressupost del client** és un concepte específic de les línies d'oportunitat basades en projectes. El camp **Pressupost del client** fa el seguiment de l'import que està disposat a pagar el client per l'article.
 

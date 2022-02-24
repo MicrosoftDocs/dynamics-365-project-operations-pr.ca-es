@@ -2,9 +2,10 @@
 title: Pàgina d'inici d'assignació de recursos a projectes
 description: En aquest tema es proporciona informació sobre les característiques d'administració de recursos al Project Service Automation (PSA) for Dynamics 365.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0ea56a7b41f5bb7d458b780f4e2611063e1b4a0ae2a6eb2acfa9cfef8c1cff0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984769"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147414"
 ---
 # <a name="resourcing-projects-home-page"></a>Pàgina d'inici d'assignació de recursos a projectes
 
@@ -52,6 +53,3 @@ Podeu assignar personal al vostre projecte amb un equip de recursos genèrics o 
 - [Reservar recursos amb nom a partir de requisits de recursos](book-named-resource.md)
 - [Enviar una sol·licitud de recurs](submit-resource-request.md)
 - [Acceptar o rebutjar un recurs del projecte proposat des d'una sol·licitud de recurs](accept-reject-proposed-resource.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

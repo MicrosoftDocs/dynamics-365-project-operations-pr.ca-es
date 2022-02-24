@@ -2,16 +2,18 @@
 title: Edició de reserves
 description: En aquest tema es proporciona informació sobre com actualitzar i fer canvis en les reserves.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008304"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841306"
 ---
 # <a name="edit-bookings"></a>Edició de reserves
 
@@ -31,6 +33,3 @@ Des de la quadrícula **Membre de l'equip**, un administrador del projecte pot r
 ## <a name="schedule-board"></a>Tauler de planificació
 
 Des del **Tauler de planificació**, l'administrador de recursos té una visualització de portada de totes les reserves d'una organització. Des d'aquesta visualització, l'administrador de recursos pot ampliar, escurçar o desplaçar les reserves existents de manera semblant a les capacitats que s'ofereixen a **Conserva les reserves**. L'Administrador de recursos també pot substituir els recursos existents assignats a una reserva específica fent clic amb el botó dret del ratolí a la reserva i seleccionant **Recurs substitut**. Els administradors de recursos també poden editar els contorns de les reserves existents fent clic amb el botó dret del ratolí a la reserva i seleccionant **Edita**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

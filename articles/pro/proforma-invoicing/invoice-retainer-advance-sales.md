@@ -2,16 +2,18 @@
 title: Facturació d'una bestreta o avançament
 description: Aquest tema proporciona informació sobre com facturar una bestreta o avançament al Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997459"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596180"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Facturació d'una bestreta o un avançament
 
@@ -49,6 +51,3 @@ Això es pot veure a la quadrícula **Bestretes i avançaments aplicats** a la p
 | Import utilitzat | Quadrícula **Avançaments i bestretes aplicats** a la pàgina **Factura del projecte**  | Aquest camp de només lectura proporciona el valor calculat que resumeix l'import de la bestreta o avançament que s'ha utilitzat. | Aquest camp es pot mostrar al client a la factura impresa per indicar l'import d'aquesta bestreta o avançament que ja s'ha utilitzat. |
 | Import ampliat | Quadrícula **Avançaments i bestretes aplicats** a la pàgina **Factura del projecte**  | Aquest camp editable proporciona l'import de la bestreta o avançament que s'està utilitzant en aquesta factura de projecte. Aquest import no pot ser superior al disponible a l'avançament. El sistema ho calcula automàticament com la diferència entre els camps **Import** i **Import utilitzat** a la quadrícula. Podeu reduir aquest import per utilitzar menys del que hi ha disponible però no podeu augmentar l'import per utilitzar més del que hi ha disponible. | Aquest camp es pot mostrar al client a la factura impresa per indicar l'import d'aquesta bestreta o avançament que s'està utilitzant a la factura. |
 | Import del saldo de la bestreta. | Quadrícula **Avançaments i bestretes aplicats** a la pàgina **Factura del projecte**  | Aquest camp de només lectura proporciona l'import de bestreta o avançament que quedarà després de confirmar la factura. | Aquest camp es pot mostrar al client en la factura impresa per indicar l'import que quedarà d'aquesta bestreta o avançament després que la factura es confirmi i pagui. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

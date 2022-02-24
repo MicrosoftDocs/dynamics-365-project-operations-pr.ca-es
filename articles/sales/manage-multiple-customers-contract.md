@@ -2,16 +2,18 @@
 title: Administració de diversos clients en contractes de projectes
 description: Aquest tema proporciona informació sobre com administrar diversos clients en un contracte de projecte.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992059"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643146"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Administració de diversos clients en contractes de projectes
 
@@ -45,6 +47,3 @@ Podeu crear, actualitzar o suprimir un client de contracte de la pestanya **Clie
 Podeu editar els percentatges de divisió de facturació a la quadrícula. Quan els percentatges de divisió de facturació no sumen el 100 per cent, es produeix un error. Després d'editar un percentatge de divisió de facturació, actualitzeu la pàgina **Contracte de projecte** per eliminar l'error.
 
 També podeu seleccionar **Distribueix uniformement** a la subquadrícula de clients de contracte de projecte. Les divisions de facturació s'assignen equitativament a tots els clients del contracte de projecte. Si hi ha cap factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un dels clients del contracte sempre té l'indicador **Arrodoniment** definit com a **Sí**. Aquest client és el client d'arrodoniment. Normalment, el client d'arrodoniment és també el client principal del contracte, però no és necessari.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

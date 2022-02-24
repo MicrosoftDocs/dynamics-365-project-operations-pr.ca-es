@@ -2,6 +2,8 @@
 title: Preus del projecte
 description: En aquest tema s'ofereix informació sobre la manera com els preus funcionen al Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000564"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148901"
 ---
 # <a name="project-pricing"></a>Preus del projecte 
 
@@ -46,7 +48,7 @@ L'entitat Llista de preus té tres taules relacionades que emmagatzemen els preu
   - **Preu de la categoria de la transacció**: aquesta taula emmagatzema els preus per categoria de transacció i s'utilitza per configurar els preus de les categories de despesa.
   - **Elements de la llista de preus**: aquesta taula emmagatzema les tarifes dels productes del catàleg.
 
-> ![Configurar els preus utilitzant una llista de preus.](media/basic-guide-12.png)
+> ![Configurar els preus utilitzant una llista de preus](media/basic-guide-12.png)
  
 La llista de preus és una targeta de tarifes. Una targeta de tarifes és una combinació de l'entitat Llista de preus i les files relacionades a les taules Preu per funció, el Preu de la categoria de la transacció i Elements de la llista de preus.
 
@@ -58,7 +60,7 @@ El temps dels recursos humans se sol oferir en funció del paper que omple un re
 
 El grup **Unitats de temps** es crea quan s'instal·la el PSA. Té una unitat **Hora** per defecte. No podeu suprimir, canviar el nom o editar els atributs del grup d'unitats **Temps** o la unitat **Hora**. No obstant, podeu afegir altres unitats al grup d'unitats **Temps**. Si proveu de suprimir el grup d' unitats **Temps** o la unitat **Hora**, pot ser que provoqueu fallades en la lògica empresarial del PSA.
 
-> ![Configurar els preus per funció.](media/basic-guide-13.png)
+> ![Configurar els preus per funció](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categories de transacció i de despeses
 
@@ -68,7 +70,7 @@ Els viatges i altres despeses que comporten els consultors dels projectes se sol
 - **Percentatge de marge comercial**: el percentatge del cost real es factura al client. 
 - **Preu per unitat**: un preu de facturació es defineix per a cada unitat de la categoria de despesa. L'import que es factura al client es calcula en funció del nombre d'unitats de despesa que informa el consultor. El quilometratge utilitza el mètode de preus de preu per unitat. Per exemple, la categoria de despesa de quilometratge es pot configurar a 30 dòlars americans (USD) per dia o 2 USD per milla. Quan un consultor informa del quilometratge en un projecte, l'import a facturar es calcula a partir del nombre de milles que va informar el consultor.
 
-> ![Configurar els preus per a categories de despeses.](media/basic-guide-14.png)
+> ![Configurar els preus per a categories de despeses](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Preus de vendes de projectes i substitucions
 
@@ -114,7 +116,7 @@ No obstant, en una oferta, podeu utilitzar una llista de preus mestra. Si ho pre
 
 Quan creeu una llista de preus de projecte personalitzada, només es copien els components del projecte de la llista de preus. En altres paraules, una nova llista de preus creada com a còpia de la llista de preus del projecte existent que s'adjunta a l'oferta, i aquesta llista de tarifes nova només té preus relacionats amb els preus per funció i la categoria de transacció.
 
-> ![Visualitzar i configurar els preus personalitzats d'un contracte de projecte.](media/basic-guide-15.png)
+> ![Visualitzar i configurar els preus personalitzats d'un contracte de projecte](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Seguiment de costos
 
@@ -129,6 +131,3 @@ Com les tarifes de facturació, les tarifes de cost de recursos humans també es
     1. La llista de preus de cost adjunta a la unitat de l'organització.
     2. La llista de preus de cost adjunta als paràmetres del Project Service. Com que les llistes de preus de cost en moltes monedes diferents poden adjuntar-se a paràmetres del Project Service, el PSA fa coincidir la moneda de la unitat organitzativa del contractant del projecte, el contracte o l'oferta i la moneda de la llista de preus de cost.
     3. Per a les despeses, els mètodes de preus a partir del cost i de marge comercial sobre el cost no s'apliquen a les llistes de preus de cost. Fins i tot si aquests mètodes de preus s'utilitzen a les línies de llista de preus de cost per configurar els costos de categoria de la transacció, el sistema els ignora i no s'introdueix cap preu de cost per defecte.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

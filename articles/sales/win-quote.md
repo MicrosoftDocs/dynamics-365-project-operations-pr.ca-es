@@ -2,22 +2,24 @@
 title: Tancar una oferta
 description: En aquest tema es proporciona informació sobre el tancament d'ofertes al Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993409"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124671"
 ---
 # <a name="close-a-quote"></a>Tancar una oferta
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Una oportunitat de projecte es pot tancar com a guanyada o perduda. Com que les funcions Activa i Revisa a les ofertes no estàn admeses al Microsoft Dynamics 365 Project Operations, podeu tancar un esborrany d'oferta.
+Una oportunitat de projecte es pot tancar com a guanyada o perduda. Com que les funcions d'activació i revisió en les ofertes no s'admeten al Microsoft Dynamics 365 Project Operations, podeu tancar un esborrany d'oferta.
 
 ## <a name="close-a-quote-as-won"></a>Tancament d'una oferta com a guanyada
 
@@ -41,6 +43,3 @@ Si l'oferta del projecte que es tanca com a perduda té un projecte al qual es f
 
 > [!NOTE]
 > Al Project Operations, si tanqueu una oferta com a guanyada o perduda, l'estat de l'oportunitat no es veurà afectat i romandrà oberta fins que es tanqui manualment.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

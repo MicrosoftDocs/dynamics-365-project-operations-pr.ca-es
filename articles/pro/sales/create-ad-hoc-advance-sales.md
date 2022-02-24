@@ -2,16 +2,18 @@
 title: Creació d'un avançament ad hoc en un contracte
 description: Aquest tema proporciona informació sobre la creació d'un avançament en un contracte segons sigui necessari.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999124"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595929"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Creació d'un avançament ad hoc en un contracte
 
@@ -37,6 +39,3 @@ Completeu els passos següents per facturar al client un avançament.
     | **Estat de la factura** | Es tracta d'una opció que indica si aquest avançament s'afegeix a un esborrany de factura per a aquest client. Els valors possibles són:</br>- **No preparat per a la facturació**</br>- **Preparat per a la factura** | Quan un avançament o prepagament es marca com a **A punt per facturar**, s'afegeix com a línia de temps en un esborrany de factura. Només es pot utilitzar un avançament completament facturat per conciliar les despeses del projecte per al següent període de facturació. |
 
 4. Seleccioneu **Desa i tanca** al quadre de diàleg creació ràpida per registrar l'avançament o prepagament.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

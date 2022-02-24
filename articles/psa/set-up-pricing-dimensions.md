@@ -2,10 +2,12 @@
 title: Configuració de camps personalitzats com a dimensions de preus
 description: En aquest tema, podreu obtenir informació sobre la configuració de dimensions de preus personalitzades.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002319"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150341"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuració de camps personalitzats com a dimensions de preus 
 
@@ -41,11 +43,11 @@ Per tal que un camp es converteixi en una dimensió de preus, ha de ser:
 - Creat com a camp a les entitats **Preu per funció** i **Marge comercial del preu per funció**. Per obtenir més informació sobre com fer-ho, vegeu [Afegir camps personalitzats a la configuració de preus i a entitats transaccionals](field-references.md).
 - Creat com una fila a la taula **Dimensió de preus**. Per exemple, afegiu files de dimensió de preus com es mostra a la gràfica següent. 
 
-![Files de dimensions de preus basades en els imports.](media/Amt-based-PD.png)
+![Files de dimensions de preus basades en els imports](media/Amt-based-PD.png)
 
 Observeu que Hores de treball del recurs (**msdyn_resourceworkhours**) s'ha afegit com una dimensió basada en el marge comercial i s'ha afegit a la quadrícula a la pestanya **Dimensió de preus basada en el marge comercial**.
 
-![Files de dimensions de preus basades en el marge comercial.](media/Markup-based-PD.png)
+![Files de dimensions de preus basades en el marge comercial](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Qualsevol canvi de les dades de dimensió de preus d'aquesta taula, existents o noves, es propaga a la lògica empresarial de preus del Project Service només després de l'actualització de la memòria cau. El temps d'actualització de la memòria cau pot tardar fins a 10 minuts. Permeteu aquesta duració de temps per veure els canvis en la lògica de preus per defecte que han de derivar dels canvis en les dades de la dimensió de preus.
@@ -73,10 +75,10 @@ Hi ha dos tipus de dimensions de preus:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Hores extra                 |15     |
 |             | Contoso India|Local             |                    |Hores extra                 |10     |
-|             | Contoso US   |Local             |                    |Hores extra                 |20     |
+|             | Contoso EUA   |Local             |                    |Hores extra                 |20     |
 
 
-Si un recurs de Contoso India la tarifa base del qual és 100 USD treballa in situ, i registra 8 hores de temps normal i 2 hores de temps extra a l'entrada de temps, el motor de preus del Project Service utilitzarà la tarifa base de 100 per a les 8 hores per registrar 800 USD. Per a les 2 hores extres, s'aplicarà un marge comercial del 15% a la tarifa base de 100 per obtenir un preu d'unitat de 115 USD i registrarà un cost total de 230 USD.
+Si un recurs de Contoso India la tarifa base del qual és 100 USD treballa in situ, i registra 8 hores de temps normal i 2 hores de temps extra a l'entrada de temps, el motor de preus del Project Service utilitzarà la tarifa base de 100 per a les 8 hores per registrar 800 USD. Per a les 2 hores extres, s'aplicarà un marge comercial del 15% a la tarifa base de 100 per obtenir un preu d'unitat de 115 USD i registrarà un cost total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Aplicable al cost 
 Si està definit com a **Sí**, indica que el valor de la dimensió del context d'entrada s'ha d'utilitzar per coincidir amb **Preu per funció** i **Marge comercial del preu per funció** quan es recuperen les tarifes de costos i marge comercial.
@@ -92,6 +94,3 @@ Definir la prioritat de dimensions ajuda que el Project Service produeixi un pre
 
 - **Prioritat de costos**: el valor d'una prioritat de costos d'una dimensió indicarà el pes d'aquesta dimensió el fer-la coincidir amb la configuració dels preus de cost. El valor de **Prioritat de cost** ha de ser únic en totes les dimensions **Aplicable al cost**.
 - **Prioritat de vendes**: el valor d'una prioritat de vendes d'una dimensió indicarà el pes d'aquesta dimensió el fer-la coincidir amb la configuració dels preus de vendes o tarifes de facturació. El valor de **Prioritat de vendes** ha de ser únic en totes les dimensions **Aplicable a les vendes**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

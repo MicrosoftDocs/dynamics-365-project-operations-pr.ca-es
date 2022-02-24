@@ -1,10 +1,12 @@
 ---
-title: Informes de despeses reimaginats (conté vídeo)
+title: Informes de despeses nous
 description: En aquest tema s'explica l'experiència redissenyada i nova per a l'entrada d'informes de despeses.
 author: suvaidya
-ms.date: 12/16/2021
+manager: AnnBe
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
-ms.translationtype: MT
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941046"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717683"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de despeses nous
 
@@ -26,13 +28,13 @@ L'entrada d'informes de despesa s'ha redissenyat per simplificar el procés i re
 
 - Nou espai de treball d'administració de despeses que us permet accedir a les despeses del vostre delegat.
 - Una experiència nova que coincidència de rebuts per mostrar millor els rebuts de capçalera i simplificar el procés d'adjuntar rebuts a les línies de despeses.
-- Quadrícula nova només de lectura que us permet visualitzar moltes més línies de despeses i altres columnes de dades. Ara podeu veure totes les línies desglossades i dividides, juntament amb les seves despeses principals.
+- Nova quadrícula de només de lectura que us permet visualitzar moltes més línies de despeses i columnes addicionals de dades. Ara podeu veure totes les línies desglossades i dividides, juntament amb les seves despeses principals.
 - Subfinestra simplificada per editar despeses.
 - Missatges d'error, advertiment i de les polítiques redissenyats per proporcionar el context correcte i informació del problema i com resoldre'l. Hem suprimit diversos dels missatges que apareixien abans que els usuaris poguessin completar les seves tasques i adreçar els problemes.
 - Pàgina nova per especificar els camps obligatoris, els camps opcionals i els camps que no s'han d'incloure. Aquesta pàgina us ajuda a reduir el nombre de camps que s'han de definir.
 - Nova aparença per als informes de despeses, perquè els informes ja no semblin com si fossin dissenyats per a la comptabilitat de persones.
 
-Per activar la nova experiència, utilitzeu l'àrea de treball **Administració de característiques** per activar la característica **Àrea de treball d'informes de despeses nous**. Quan activeu aquesta característica es produeixen les següents accions:
+Per activar la nova experiència, utilitzeu l'àrea de treball **Administració de característiques** per activar la característica **Informes de despeses reinventats**. Quan activeu aquesta característica es produeixen les següents accions:
 
 - L'àrea de treball de despeses existent se substitueix per la nova àrea de treball.
 - S'afegirà un element de menú nou per a la visibilitat del camp de despeses.
@@ -45,7 +47,7 @@ Per activar la nova experiència, utilitzeu l'àrea de treball **Administració 
 
 | Nova característica | Descripció |
 |---|----|
-| Visibilitat del camp de despesa | Una pàgina de configuració nova us permet especificar quins camps s'han d'inhabilitar per a una organització. També podeu especificar quins camps han de ser obligatoris i quins camps són recomanacions. |
+| Visibilitat del camp de despesa | Una pàgina de configuració nova us permet especificar quins camps s'han d'inhabilitar per a una organització, quins camps han de ser obligatoris i quins camps es recomanen. |
 | Camps obligatoris | La configuració senzilla nova us permet fer alguns camps obligatoris sense haver d'utilitzar el marc de polítiques. |
 | Camps opcionals | S'afegeix una segona pàgina per a camps opcionals. D'aquesta manera, els empleats no se sentiran com si s'han de definir els camps, però els camps encara són accessibles fàcilment. |
 | Afegir rebuts sense adjuntar | La capacitat d'afegir rebuts sense adjuntar a l'informe de despeses és més visible des de l'àrea de treball i l'informe de despeses. |
@@ -57,16 +59,13 @@ Per activar la nova experiència, utilitzeu l'àrea de treball **Administració 
 | Calculadora de tipus de canvi | S'ha afegit una calculadora de tipus de canvi que permet calcular el tipus de canvi per a operacions multidivisa. |
 | Deseu i afegiu línies de despeses noves | Els botons **Desa** i **Nou** estan disponibles quan s'introdueixen les despeses noves per ajudar-vos a introduir ràpidament les línies de despesa. |
 | Visibilitat millorada a les línies dividides i desglossades | Les línies desglossades i dividides s'afegeixen directament a la llista de despeses per augmentar la visibilitat i ajudar-vos a determinar fàcilment si hi ha cap error. |
-| Visualitzar els detalls de la subcategoria en línies desglossades | Les línies desglossades d'una despesa principal mostren les etiquetes de subcategoria a l'informe de despeses. El desglossament permet revisar d'un cop d'ull els detalls granulars.|
-|Desglossa ràpidament les despeses recurrents | L'àrea de treball de despeses reimaginada proporciona la possibilitat de detallar ràpidament les despeses recurrents afegint la subcategoria, la data d'inici i la quantitat. La quantitat es refereix al nombre de vegades que la càrrega es repeteix al llarg d'un període continu. |
 | Mostra els rebuts durant el desglossament | Els rebuts poden mostrar-se durant el desglossament. |
 | Selecció de bestreta en efectiu | Seleccioneu una o diverses bestretes en efectiu per realitzar una transacció de despesa única. |
 | Balanç de bestreta en efectiu | Reviseu el balanç de bestreta en efectiu en temps real quan creeu una entrada de despesa per a bestretes en efectiu aprovades i pagades. |
 
 La versió inicial se centra en escenaris d'entrada de despesa. Qualsevol escenari de revisió o aprovació de l'informe de despeses continuarà utilitzant la pàgina d'entrada de despeses existent.
 
-
-Les característiques següents no s'admeten a l'Àrea de treball d'informes de despeses nous, però estan previstes per a versions futures: 
+Les característiques següents no estan admeses a la nova Àrea de treball de despeses:
 
 - Integració de les peticions de viatge
 - Entrada de despesa per dia

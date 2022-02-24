@@ -2,9 +2,11 @@
 title: Definir normes de despesa
 description: Podeu definir normes de despesa que els treballadors han de seguir en introduir i enviar informes de despeses i requisicions de viatge.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986344"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128406"
 ---
 # <a name="define-expense-policies"></a>Definir normes de despesa
 
@@ -51,6 +53,3 @@ A continuació, trobareu alguns suggeriments que us poden ajudar a crear normes 
 ## <a name="when-to-evaluate-policies"></a>Quan avaluar les normes
 
 A paràmetres d'administració de despeses, podeu seleccionar avaluar les normes d'avaluació de despeses quan es desa una línia o quan s'envia un informe de despeses. Si trieu avaluar-les quan es desa una línia, els usuaris tindran una visibilitat prèvia del que han de fer per completar el seu informe de despeses d'una vegada. Si no és així, podeu endarrerir l'avaluació de la norma i estalviar temps validant-la al final durant l'enviament al flux de treball.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

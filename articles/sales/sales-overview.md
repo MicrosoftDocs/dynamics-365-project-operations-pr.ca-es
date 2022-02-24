@@ -2,23 +2,24 @@
 title: Informació general del procés de vendes
 description: Aquest tema proporciona informació sobre els processos bàsics de vendes.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991834"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177589"
 ---
 # <a name="sales-process-overview"></a>Informació general del procés de vendes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Els processos de venda que s'utilitzen en una organització basada en projectes es diferencien dels processos de venda que s'utilitzen en una organització basada en productes. Això es produeix perquè els cicles de venda d'organitzacions basades en projectes són més llargs i requereixen tècniques d'estimació personalitzades per analitzar i crear ofertes per a cada operació. El Dynamics 365 Project Operations utilitza algunes de les funcionalitats següents que s'utilitzen en un procés de venda:
+Els processos de venda que s'utilitzen en una organització basada en projectes es diferencien dels processos de venda que s'utilitzen en una organització basada en productes. Això es produeix perquè els cicles de venda d'organitzacions basades en projectes són més llargs i requereixen tècniques d'estimació personalitzades per analitzar i crear ofertes per a cada operació. El Dynamics 365 Project Operations utilitza algunes de les funcionalitats següents que s'utilitzen en el procés de venda:
 
 - Un registre Client potencial s'utilitza per fer el seguiment del procés de vendes.
 - Es fa un seguiment dels clients potencials qualificats com a oportunitats.
@@ -62,6 +63,3 @@ Al Project Operations, no podeu fer el seguiment de les revisions fetes en una o
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Seguiment de comentaris i aprovacions d'ofertes i contractes de projectes
 Podeu administrar la revisió i l'aprovació de les ofertes i els contractes de projecte mitjançant el mur de registres i els missatges. La vostra organització pot crear fluxos de treball i complements personalitzats per assignar, redirigir, agreujar i administrar les notificacions dels elements de treball de revisió i aprovació.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

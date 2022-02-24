@@ -2,16 +2,18 @@
 title: Reserva per a un projecte
 description: En aquest tema es proporciona informació sobre la reserva d'un recurs a un projecte.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994894"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131061"
 ---
 # <a name="book-to-a-project"></a>Reserva per a un projecte
 
@@ -64,6 +66,3 @@ Com a administrador de projectes, pot ser que hàgiu de reservar un recurs en un
 
 > [!NOTE]
 > Aquest mètode no crea cap reserva per al recurs. En comptes d'això, afegeix el recurs a l'equip. Un cop s'ha afegit el membre de l'equip al projecte, l'administrador del projecte mantenir les reserves o ampliar les reserves per afegir les reserves necessàries al recurs.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

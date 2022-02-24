@@ -2,6 +2,8 @@
 title: Unitats organitzatives
 description: En aquest tema s'ofereix informació sobre les unitats organitzatives al Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005064"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145617"
 ---
 # <a name="organizational-units"></a>Unitats organitzatives 
 
@@ -53,7 +55,7 @@ La unitat organitzativa té dues funcions al PSA:
 - **Unitat de contractació**: unitat organitzativa que representa el grup d'empreses o la divisió que s'encarrega principalment de guanyar la venda i administrar el lliurament de treballs i serveis al client. La unitat de contractació s'identifica pel camp **Unitat de contractació** a la secció de capçalera de les pàgines **Oportunitat**, **Oferta**, **Contracte del projecte** i **Projecte**.
 - **Unitat de recursos**: unitat organitzativa a la qual pertany un recurs o s'assigna. Aquesta unitat organitzativa pot proporcionar els seus recursos per a algunes funcions sobre les declaracions de treball (SOW) i els projectes que siguin propietat de la unitat de contractació.
 
-> ![Unitats de contractació i unitats de recursos.](media/advanced-1.png)
+> ![Unitats de contractació i unitats de recursos](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>PMF sobre les unitats organitzatives
 
@@ -122,7 +124,7 @@ No. A la versió actual del PSA, les unitats organitzatives no estan jerarquitza
 Quan teniu una jerarquia complexa de centres de cost, divisions, oficines de facturació, etc., configureu els nodes fulla d'aquesta jerarquia com a unitats organitzatives diferents.
 A l'exemple següent es mostra una jerarquia típica:
 
-**ContosoÍndia**
+**Contoso India**
 
   - Pràctica SAP 
 
@@ -134,7 +136,7 @@ A l'exemple següent es mostra una jerarquia típica:
     - Consultors tècnics
     - Consultors funcionals 
     
-**Contoso US**
+**Contoso EUA**
 
  - Pràctica SAP 
 
@@ -165,6 +167,3 @@ Si la vostra empresa funciona com una unitat que té una llista de preus de cost
 Quan es crea un projecte pel seu compte, la unitat de contractació per defecte del projecte es basa en l'usuari que la crea. Aquest usuari també és l'administrador del projecte per defecte. Si el projecte s'assigna a una entitat de vendes, com ara un contracte d'oferta o de projecte, la unitat de contractació del projecte es basa en l'entitat de vendes en el seu lloc. En aquest cas, les estimacions de projecte es poden tornar a calcular, ja que la llista de preus de cost s'utilitza per calcular els canvis d'estimació de costos si es modifica la unitat de contractació. La llista de preus de vendes s'utilitza per calcular les estimacions de vendes que es canviaran de manera que estiguin sincronitzades amb la llista de preus del projecte a l'oferta.
 
 Els camps **Unitat de contractació** i **Moneda** del projecte estan blocats per editar-se, ja que han d'estar sincronitzats amb els valors de l'entitat de vendes (oferta o contracte de projecte) a la qual s'assigna el projecte.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Modes de planificació
 description: Aquest tema proporciona informació sobre els modes de planificació.
 author: ruhercul
-ms.date: 05/28/2021
+manager: AnnBe
+ms.date: 05/04/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987739"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981423"
 ---
 # <a name="scheduling-modes"></a>Modes de planificació
 
@@ -23,12 +25,12 @@ El Dynamics 365 Project Operations permet a les organitzacions definir com admin
 Hi ha tres modes de planificació disponibles al Project Operations:
 
   - Duració fixa (és el mode per defecte)
-  - Esforç fix (*Treball*)
+  - Treball fix
   - Unitats fixes
 
 Els valors afectats per la definició d'un mode de planificació específic estan determinats per la fórmula següent:
 
-  Esforç = Duració x Unitats
+  Esforç (*Feina*) = Duració x Unitats
 
 Quan definiu el mode de planificació d'un projecte, esteu configurant un d'aquests valors, que després no es pot canviar. Mantenir aquest valor com una constant dona prioritat sobre aquest valor, que notifica al sistema que no el canviï quan canviïn els altres dos valors. A la taula següent es proporciona informació sobre els impactes de la selecció d'un mode específic.
 

@@ -2,16 +2,18 @@
 title: Utilització d'una categoria de transacció com a dimensió de preus
 description: En aquest tema es proporciona informació sobre l'ús del camp Categoria de transacció com a dimensió de preu.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996109"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513962"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilització d'una categoria de transacció com a dimensió de preus
 
@@ -48,6 +50,3 @@ A la taula següent s'enumeren tots els formularis i visualitzacions subministra
 2. A la pàgina **Paràmetres**, a la pestanya **Dimensions de preus basades en l'import**, verifiqueu que a la quadrícula es mostrin els registres de l'entitat **Dimensions de preus**.
 3. Afegiu **Categoria de la transacció** a aquesta llista i definiu els camps **Aplicable al cost** i **Aplicable a la venda** com a **Sí**.
 4. Al camp **Tipus de dimensió**, seleccioneu **Basada en la quantitat** i, a continuació, seleccioneu la prioritat per a la **Categoria de transacció** relacionada amb el cost i les vendes.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Crear entrades de temps
 description: En aquest tema es proporciona informació sobre com crear entrades de temps.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990394"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149666"
 ---
 # <a name="create-time-entries"></a>Crear entrades de temps
 
@@ -68,6 +70,3 @@ Podeu importar dades a partir de les reserves de projectes i assignacions. Quan 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Agrupar, ordenar, cercar i filtrar capacitats
 
 Podeu agrupar i filtrar entrades de temps per les dimensions que s'especifiquen a les columnes. Al camp **Agrupa per**, seleccioneu la dimensió que s'utilitzarà per filtrar les entrades de temps. També podeu ordenar els registres d'entrada de temps en ordre ascendent o descendent mitjançant la fletxa d'ordenació a les capçaleres de columna. A més, podeu mostrar o amagar les entrades seleccionant el botó **Filtra** a les capçaleres de columna i, a continuació, al quadre **Cerca**, introduint el text que s'hauria d'utilitzar per cercar entrades de temps pel nom del projecte, tasca de projecte, entrada de temps o recurs.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

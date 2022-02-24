@@ -2,6 +2,8 @@
 title: Planificació del projecte
 description: En aquest tema es proporciona informació sobre com crear una planificació.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998404"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148406"
 ---
 # <a name="project-schedules"></a>Planificació del projecte 
 
@@ -94,7 +96,7 @@ La graella **Planificació** és totalment accessible i es pot utilitzar amb lec
 
 Un nom de tasca descriu el treball que s'ha de completar. Al PSA, els atributs associats amb una tasca descriuen la planificació de la tasca i els seus requisits de dotació de personal.
 
-> ![Atributs de la tasca.](media/project-2.png)
+> ![Atributs de la tasca](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Atributs de planificació
 
@@ -147,6 +149,3 @@ Per defecte, si una tasca de node fulla no té un predecessor, pren per la data 
 ### <a name="manual-scheduling"></a>Planificació manual
 
 Si les regles de la planificació automàtica no compleixen els vostres requisits, podeu definir el mode de tasca per a la tasca a **Programada manualment**. Aquest paràmetre evita que el motor de planificació hagi de calcular els valors d'altres atributs de planificació. Independentment del mode de la tasca, si definiu els predecessors en les tasques, sempre afecteu la data d'inici de la tasca dependent.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

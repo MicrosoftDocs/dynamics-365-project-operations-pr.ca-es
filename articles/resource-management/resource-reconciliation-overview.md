@@ -2,25 +2,27 @@
 title: Informació general sobre la conciliació de recursos
 description: Aquest tema proporciona informació que us ajudarà a garantir que les reserves i assignacions de recursos per a projectes estan alineades.
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994759"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849612"
 ---
 # <a name="resource-reconciliation-overview"></a>Informació general sobre la conciliació de recursos
 
@@ -46,6 +48,3 @@ Si teniu assignacions de tasca per a un recurs però no hi ha cap reserva, selec
 Les reserves creades mitjançant l'acció **Amplia la reserva** s'associen amb el requisit del projecte principal. Quan s'inicia una ampliació, els requisits específics que s'han d'ampliar no es poden determinar perquè el recurs es pot associar amb més d'un requisit per al projecte.
 
 L'administrador de projectes o administrador de recursos pot utilitzar el tauler de planificació per administrar les situacions en què el recurs té un excés de reserves més enllà de la seva capacitat.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

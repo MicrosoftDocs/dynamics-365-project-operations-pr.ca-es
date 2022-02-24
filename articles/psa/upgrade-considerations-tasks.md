@@ -1,6 +1,8 @@
 ---
 title: Consideracions d'actualització per a l'estructura del desglossament del treball
 description: En aquest tema es proporciona informació sobre l'actualització de l'estructura del desglossament del treball del Project Service Automation 2.x al 3.x.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992329"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149531"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Consideracions d'actualització per a l'estructura del desglossament del treball
 
@@ -32,20 +34,20 @@ En aquest tema es proporciona informació sobre l'actualització de l'estructura
 ## <a name="key-entities"></a>Entitats clau
 Per a una estructura de desglossament del treball exacta que ja està carregada de recursos, són necessàries les entitats següents:
 
-- [Projecte](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Equip del projecte](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Tasca del projecte](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Assignacions de recursos](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Dependència de les tasques del projecte](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Recursos que es poden reservar](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projecte](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Equip del projecte](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Tasca del projecte](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Assignacions de recursos](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Dependència de les tasques del projecte](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Recursos que es poden reservar](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Per definir una estructura del desglossament del treball carregada de recursos, heu de completar els passos següents:
 
-1. Crear un projecte nou. Per obtenir més informació sobre com crear un projecte nou, vegeu [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Crear una o diverses tasques. Per obtenir més informació sobre com crear una tasca, vegeu [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definir les dependències de la tasca. Per obtenir més informació, vegeu [Dependència de la tasca del projecte](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Assignar membres de l'equip del projecte al projecte. Per obtenir més informació, vegeu [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Assignar membres de l'equip del projecte a les tasques. Per obtenir més informació, vegeu [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Crear un projecte nou. Per obtenir més informació sobre com crear un projecte nou, vegeu [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Crear una o diverses tasques. Per obtenir més informació sobre com crear una tasca, vegeu [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definir les dependències de la tasca. Per obtenir més informació, vegeu [Dependència de la tasca del projecte](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Assignar membres de l'equip del projecte al projecte. Per obtenir més informació, vegeu [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Assignar membres de l'equip del projecte a les tasques. Per obtenir més informació, vegeu [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Relacions de l'equip del projecte
 
@@ -94,6 +96,3 @@ Per garantir l'actualització correcta, les relacions següents s'han de manteni
 
 - Totes les dependències de les tasques del projecte han d'estar relacionades amb el mateix projecte.
 - Una tasca no pot tenir la mateixa dependència a la qual es fa referència més d'una vegada.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Creació d'una programació de facturació en una línia de contracte basada en projecte
 description: Aquest tema proporciona informació sobre com crear planificacions de factures i fites en línies de contracte.
 author: rumant
+manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999664"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513912"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Creació d'una programació de facturació en una línia de contracte basada en projecte 
 
@@ -72,6 +74,3 @@ Podeu generar manualment fites de preu fix quan no es divideixen periòdicament.
 | Impost | Creació ràpida | Import d'impostos aplicat a la fita. | Es transfereix a la fita de la línia de contracte del projecte i a la factura. |
 
 3. Seleccioneu **Desa i tanca**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

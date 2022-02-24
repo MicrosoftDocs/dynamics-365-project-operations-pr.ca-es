@@ -2,9 +2,11 @@
 title: Configuració i ús dels pagaments dels proveïdors després del cobrament
 description: Aquest tema explica com crear termes de pagament després del pagament (PWP) de manera que pugueu alliberar pagaments parcials de proveïdors, en funció dels pagaments del client.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072191"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Configuració i ús dels pagaments dels proveïdors després del cobrament
 
@@ -78,6 +80,3 @@ Quan un proveïdor completa el seu treball en un projecte i us envia una factura
 2. A la pàgina **Factures de proveïdor amb pagament després del cobrament**, en el camp de cerca, introduïu valors per trobar la factura de proveïdor que voleu revisar i seleccioneu **Cerca**.
 3. Al FastTab **Línies de factura de proveïdor**, seleccioneu les línies que voleu canviar.
 4. Si es compleixen les condicions de **Pagament després del cobrament** per a la línia de factura, seleccioneu **Allibera el pagament del proveïdor**. L'opció **Pagament després del cobrament** s'esborra i el valor del camp **A punt per al pagament** canvia a **Sí**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

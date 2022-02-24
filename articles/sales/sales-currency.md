@@ -2,9 +2,11 @@
 title: Moneda
 description: En aquest tema es proporciona informació sobre com afegir i suprimir els tipus de moneda al Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999574"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642261"
 ---
 # <a name="currency"></a>Moneda
 
@@ -69,6 +71,3 @@ Abans d'iniciar aquest procediment, comproveu que la funció de seguretat inclog
 
 > [!IMPORTANT]
 >  Les monedes que utilitzen altres registres no es poden suprimir, només es poden desactivar. La desactivació dels registres de moneda no suprimeix la informació de moneda emmagatzemada als registres existents, com les oportunitats o les comandes. No obstant això, no podreu seleccionar la moneda desactivada per a les noves transaccions.  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

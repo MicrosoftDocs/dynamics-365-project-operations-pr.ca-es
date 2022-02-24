@@ -2,6 +2,8 @@
 title: Calendari d'entrades de temps
 description: En aquest tema es proporciona informació sobre com utilitzar el calendari d'entrades de temps.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996739"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150161"
 ---
 # <a name="time-entry-calendar"></a>Calendari d'entrades de temps
 
@@ -40,6 +42,3 @@ El calendari no admet accions sobre els elements de calendari individuals i no e
 ## <a name="extensibility"></a>Capacitat d'ampliació
 
 A la pàgina **Entrades de temps** que tingui la quadrícula d'entrada de temps, podeu afegir camps personalitzats, configurar camps de cerca i crear visualitzacions personalitzades. També podeu configurar la lògica empresarial personalitzada que es basi en els valors seleccionats o introduïts als camps personalitzats.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Consulta de la Planificació de despeses per a concessions federals
 description: Aquest tema proporciona informació sobre la consulta de la Planificació de despeses per a concessions federals.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072196"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Consulta de la Planificació de despeses per a concessions federals
 
@@ -60,7 +62,7 @@ Heu de configurar els números de CFDA que es poden afegir a les subvencions i i
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Configurar subvencions per informar-ne a la consulta de la Planificació de despeses de concessions federals
 
 1. Aneu a **Administració de projectes i comptabilitat \> Subvencions \> Subvencions** i seleccioneu una subvenció existent.
-2. Al FastTab **Configuració**, en el camp **Catàleg d'assistència nacional federal**, assigneu el número de CFDA. El número de CFDA a la subvenció determina el grup de CFDA per als informes.
+2. Al FastTab **Configuració**, en el camp **Catàleg d'assistència nacional federal**, assigneu el número de CFDA. El número de CFDA a la subvenció determina el grup de CFDA per als informes.
 3. Al FastTab **Informació del contacte**, introduïu la informació de qui rebrà la subvenció seguint aquests passos:
 
     1. En el camp **Client de la subvenció**, introduïu el client responsable de la subvenció. Per a una subvenció existent, aquesta informació ja podria estar introduïda.
@@ -77,8 +79,8 @@ El govern federal va finançar un projecte d'infraestructura per a un estat. El 
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Excloure subvencions de l'informe de SEFA en funció del tipus de subvenció
 
-1. Aneu a **Administració de projectes i comptabilitat \> Configuració \> Subvencions \> Tipus de subvenció**.
-2. Al FastTab **Informació per defecte**, marqueu la casella de selecció **Exclou de la Planificació de despeses de concessions federals**.
+1. Aneu a **Administració de projectes i comptabilitat \> Configuració \> Subvencions \> Tipus de subvenció**.
+2. Al FastTab **Informació per defecte**, marqueu la casella de selecció **Exclou de la Planificació de despeses de concessions federals**.
 3. Seleccioneu **Desa** per desar els canvis.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Executar la consulta de la Planificació de despeses per a concessions federals
@@ -102,6 +104,3 @@ La consulta de la Planificació de despeses de concessions federals inclou les s
 - Catàleg d'assistència nacional federal
 - Rebuts
 - Despeses
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

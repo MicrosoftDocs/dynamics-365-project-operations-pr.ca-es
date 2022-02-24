@@ -2,6 +2,8 @@
 title: Preus del catàleg de productes
 description: En aquest tema s'ofereix informació sobre com funcionen els preus del catàleg de productes al Dynamics 365 Project Service Automation (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000159"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151196"
 ---
 # <a name="product-catalog-pricing"></a>Preus del catàleg de productes 
 
@@ -44,7 +46,7 @@ Podeu afegir productes d'un catàleg de productes a diverses llistes de preus. L
 
 El PSA admet diverses opcions d'arrodoniment quan els preus es configuren com a funció del preu de llista, cost estàndard o cost corrent. A banda de treure profit de diversos mètodes de preus i d'arrodoniment, podeu associar llistes de descomptes amb elements de la llista de preus. 
 
-> ![Afegir productes d'un catàleg a diverses llistes de preus.](media/basic-guide-16.png)
+> ![Afegir productes d'un catàleg a diverses llistes de preus](media/basic-guide-16.png)
 
 Quan creeu una llista de preus personalitzada nova per a una oferta seleccionant **Crea un preu personalitzat** a la pàgina **Oferta del projecte**, el PSA fa una còpia de la llista de preus i el camp **Entitat** a la capçalera de la llista de preus nova es defineix com a **Entitat de vendes**. Al nom de la llista de preus nova s'hi afegeix el nom de l'oferta i d'una marca horària. També podeu utilitzar el nom de la llista de preus nova i el nom de l'oferta als fluxos de treball personalitzats per activar la revisió i les aprovacions addicionals de les ofertes que utilitzin preus personalitzats.
 
@@ -62,6 +64,3 @@ Les entitats Oportunitat, Oferta i Contracte de projecte utilitzen el següent o
 Per defecte, el camp **Producte** de la línia d'oferta enumera tots els productes actius de la llista de preus de producte de l'oferta. Si un producte s'ha inhabilitat o si es tracta d'un esborrany, no s'hi mostra, fins i tot si està inclòs a la llista de preus. 
 
 Les línies del catàleg de productes s'afegeixen com a línies de factura a la primera factura que es crea per a un contracte de projecte. En un esborrany de factura, les línies de factura es poden suprimir. En aquest cas, les línies apareixeran en una factura posterior fins que es facturin o fins que s'enviï la factura al client. Al PSA, no podeu facturar cap quantitat parcial d'una línia de factura de producte. Quan es facturen les línies de producte del contracte de projecte, es creen valors reals. No obstant, aquests valors reals no estan enllaçats a l'entitat del projecte relacionat. En altres paraules, les línies de contracte de projecte basades en productes són independents de qualsevol ús basat en projectes. El PSA no fa el seguiment dels consums materials dels projectes.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

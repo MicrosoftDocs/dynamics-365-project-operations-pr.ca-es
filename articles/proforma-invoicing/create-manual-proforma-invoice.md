@@ -1,25 +1,42 @@
 ---
-title: Factures proforma
-description: Aquest tema proporciona informació sobre les factures proforma a Project Operations.
+title: Creació d'una factura proforma manual
+description: En aquest tema, podreu obtenir informació sobre la creació d'una factura proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995614"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128045"
 ---
-# <a name="proforma-invoices"></a>Factures proforma
+# <a name="create-a-manual-proforma-invoice"></a>Creació d'una factura proforma manual
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-La facturació proforma és útil perquè proporciona als administradors de projectes un segon nivell d'aprovació abans de crear factures per a clients. El primer nivell d'aprovació es completa quan s'aproven les entrades de temps, despeses i materials que envien els membres de l'equip del projecte. Les factures proforma confirmades estan disponibles al mòdul Comptabilitat del projecte de Project Operations. Els comptables del projecte poden fer actualitzacions addicionals, com ara els impostos de vendes, la comptabilitat i el disseny de la factura.
+La facturació proporciona als administradors de projectes un segon nivell d'aprovació abans de crear factures per a clients. El primer nivell d'aprovació es completa quan s'aproven les entrades de temps i de despesa que envien els membres de l'equip del projecte.
 
+El Dynamics 365 Project Operations no està dissenyat per generar factures de cara al client, pels motius següents:
+
+- No conté informació tributària.
+- No pot convertir altres monedes en la moneda de facturació mitjançant tipus de canvi configurats correctament.
+- No pot donar format correctament a les factures per tal de poder imprimir-les.
+
+En lloc d'això, podeu utilitzar un sistema financer o comptable per crear factures per al client que utilitzin la informació de les propostes de factura generades.
 
 ## <a name="creating-project-invoices"></a>Crear factures de projecte
 
@@ -33,7 +50,7 @@ Seguiu aquest pas per crear una factura per a un contracte de projecte específi
 
 - A la pàgina de llista **Contractes del projecte**, obriu un contracte de projecte i, a continuació, seleccioneu **Crea una factura**.
 
-    Es genera una factura per a totes les transaccions del contracte de projecte seleccionat que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, materials, fites i altres línies de llibre diari de vendes no facturades.
+    Es genera una factura per a totes les transaccions del contracte de projecte seleccionat que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, fites i línies de contracte basades en productes.
 
 Seguiu aquests passos per crear factures de manera massiva.
 
@@ -43,7 +60,7 @@ Seguiu aquests passos per crear factures de manera massiva.
 
 2. Seleccioneu **D'acord** per tancar el quadre de missatge.
 
-    Es genera una factura per a totes les transaccions en una línia de contracte que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, materials, fites i altres línies de llibre diari de vendes no facturades.
+    Es genera una factura per a totes les transaccions en una línia de contracte que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, fites i línies de contracte basades en productes.
 
 3. Per visualitzar les factures generades, aneu a **Vendes** \> **Facturació** \> **Factures**. Veureu una factura per a cadascun dels contractes del projecte.
 
@@ -76,10 +93,11 @@ El treball de processament per lots per crear factures és una feina recurrent. 
  
 ### <a name="edit-a-draft-invoice"></a>Editar un esborrany de factura
 
-Quan creeu un esborrany de factura, totes les transaccions de vendes no facturades que es van crear quan es van aprovar les entrades de temps, despesa i ús de materials s'afegeixen a la factura. Podeu fer els ajustaments següents mentre la factura es manté en una fase d'esborrany:
+Quan creeu un esborrany de factura, totes les transaccions de vendes no facturades que es van crear quan es van aprovar les entrades de temps i de despesa s'afegeixen a la factura. Podeu fer els ajustaments següents mentre la factura es manté en una fase d'esborrany:
 
 - Suprimir o editar els detalls de la línia de factura.
 - Editar i ajustar la quantitat i el tipus de facturació.
+- Afegir directament temps, despeses i taxes com a transaccions a la factura. Podeu utilitzar aquesta característica si la línia de factura s'assigna a una línia de contracte que permet aquestes classes de transaccions.
 
 Seleccioneu **Confirma** per confirmar una factura. L'acció de confirmació és una acció d'un sol sentit. Quan seleccioneu **Confirma**, el sistema fa que la factura sigui només de lectura i creï valors reals de vendes facturades des de cada detall de línia de factura per a cada línia de factura. Si el detall de la línia de factura fa referència a un valor real de vendes no facturades, el sistema també reinverteix el valor real de vendes no facturades. (Qualsevol detall de línia de factura que s'hagi creat des d'una entrada de compte o de despesa farà referència a un valor real de vendes sense facturar.) Els sistemes d'integració general de llibres poden utilitzar aquest canvi per revertir el treball en curs del projecte amb finalitats comptables.
 
@@ -93,6 +111,3 @@ Quan es confirma una factura correctiva, es reverteix el valor real de vendes fa
 
 - Un valor de vendes facturades durant sis hores.
 - Un valor de vendes no facturades per a les dues hores restants. Aquesta transacció es pot facturar més tard o marcar com a no imputable, en funció de les negociacions amb el client.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Configurar funcions a les plantilles d'estructura del desglossament del treball
 description: Aquest tema proporciona informació sobre la configuració de la informació de les funcions a les plantilles d'estructura del desglossament del treball.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008889"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072192"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar funcions a les plantilles d'estructura del desglossament del treball
 
@@ -89,7 +91,7 @@ S'ha afegit més opcions a la WBS per utilitzar millor la funcionalitat de recur
 
 4. Definiu les dates i l'esforç (hores), com es mostra a la il·lustració següent.
 
-    [![Definir les dates i l'esforç.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Definir les dates i l'esforç](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Seleccioneu la línia de tasca **Inici** i, a continuació, al camp **Funció**, seleccioneu **Administrador de projectes sènior**.
 6. Seleccioneu **Publica**.
@@ -105,6 +107,3 @@ S'ha afegit més opcions a la WBS per utilitzar millor la funcionalitat de recur
     > No rebeu cap advertiment que el recurs especificat és ara 2, perquè el nombre de recursos continua sent 1.
 
 14. A la pàgina **Estructura del desglossament del treball**, valideu l'assignació de recursos a la WBS i, a continuació, seleccioneu **Desa**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

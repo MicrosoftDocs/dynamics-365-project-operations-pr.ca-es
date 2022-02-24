@@ -2,16 +2,18 @@
 title: Configuració de contractes de projecte
 description: Aquest tema proporciona informació sobre els camps que afecten les línies de contracte i la informació sobre el contracte que es resumeix en tots els elements de la línia.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f34d6c6b92f164cc95405147356c34bb03eb127284aba7a92712b8eec42d792f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9ba005d82e0ce4fae58543401e34da5a24345dc4
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996289"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663852"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Detalls de la capçalera per als contractes basats en projectes
 

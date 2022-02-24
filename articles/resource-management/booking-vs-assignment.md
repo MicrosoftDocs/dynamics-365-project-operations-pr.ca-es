@@ -2,16 +2,18 @@
 title: Reserves en comparació amb assignacions
 description: En aquest tema es proporciona informació sobre les diferències entre les reserves de recursos i les assignacions de recursos.
 author: ruhercul
+manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008438"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841160"
 ---
 # <a name="bookings-vs-assignments"></a>Reserves en comparació amb assignacions
 
@@ -24,6 +26,3 @@ A diferència de les reserves, les assignacions són el compromís de recursos a
 Normalment, la suma de les reserves d'un recurs equivaldrà a la suma de les assignacions del recurs en una o moltes tasques. No obstant, el Project Operations no obliga a aplicar aquesta concordança. La visualització **Conciliació** mostra llocs a l'administrador del projecte on les reserves i les assignacions d'un recurs no coincideixen.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

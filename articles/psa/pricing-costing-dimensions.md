@@ -2,11 +2,12 @@
 title: Pàgina d'inici de dimensions de preus i de costos
 description: Aquest tema proporciona una visió general de les dimensions de preus.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998449"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151286"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Pàgina d'inici de dimensions de preus i de costos
 
@@ -41,7 +42,7 @@ Donada la naturalesa típica d'aquestes atributs del treball i de les persones n
 
 El PSA inclou de sèrie un conjunt de dimensions de preus per defecte. Podeu visualitzar-los anant a **Project Service** > **Paràmetres**. Al registre de paràmetre, a la pestanya **Dimensions de preus basades en l'import**, comproveu que la funció **msdyn_resourcecategory** i la unitat organitzativa de recursos **msdyn_organizationalunit** tinguin els camps **Aplicable a les vendes** i **Aplicable al cost** definits com a **Sí**. Això us permetrà configurar el preu i el cost de cada combinació de funció i unitat organitzativa.
 
-![Captura de pantalla dels paràmetres del Project Service amb "Aplicable a les vendes" ressaltat.](media/PS-OOB-parameters.png)
+![Captura de pantalla dels paràmetres del Project Service amb "Aplicable a les vendes" ressaltat](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Si heu estat utilitzant els camps de fàbrica de funció i unitat organitzativa com a dimensions de preus abans de la versió 3 del PSA, no hi haurà cap canvi observable. Podeu continuar utilitzant el Project Service com de costum. 
@@ -64,18 +65,15 @@ A l'exemple següent es mostren les tarifes de facturació que estan configurade
 
 **Tarifes de facturació d'exemple**
 
-| Funció        | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
+| Funció        | Unitat organitzativa    |Unit      |Preu      |Moneda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolupador   | Contoso US  |Hora | 200|USD     |
-| Desenvolupador   | Contoso India |Hora|   112|USD     |
+| Desenvolupador   | Contoso EUA  |Hour | 200|USD     |
+| Desenvolupador   | Contoso India |Hour|   112|USD     |
 
 
 **Percentatge de costos d'exemple**
 
-| Banda de salari     | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
+| Banda de salari     | Unitat organitzativa    |Unit      |Preu      |Moneda  |
 | ----------------|-------------|----------|----------:|----------|
-| La meva empresa_banda1 | Contoso US  |Hora | 145|USD     |
-| La meva empresa_banda2 | Contoso India |Hora|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| La meva empresa_banda1 | Contoso EUA  |Hour | 145|USD     |
+| La meva empresa_banda2 | Contoso India |Hour|   67|USD     |

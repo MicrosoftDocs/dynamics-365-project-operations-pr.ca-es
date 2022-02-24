@@ -2,9 +2,11 @@
 title: Facturació entre empreses
 description: En aquest article es proporciona informació i exemples sobre la facturació entre empreses per als projectes.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995794"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270756"
 ---
 # <a name="intercompany-invoicing"></a>Facturació entre empreses
 
@@ -33,7 +35,7 @@ La vostra organització pot tenir diverses divisions, filials i altres entitats 
 
 A la il·lustració següent es mostra un escenari típic on hi ha dues entitats jurídiques, SI FR (l'entitat legal prestatària) i SI USA (l'entitat legal prestadora), que comparteixen recursos per lliurar un projecte per al client A. Per a aquest escenari, SI FR es contracta per lliurar el treball al client A. 
 
-[![Exemple de facturació entre empreses.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Exemple de facturació entre empreses](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 L'objectiu és fer que el control de costos, el reconeixement d'ingressos, els impostos i el preu de transferència per a les transaccions de projecte entre empreses siguin més flexibles i potents. A més, es proporcionen les capacitats següents:
 
