@@ -2,8 +2,6 @@
 title: Cancel·lar entrades de temps i de despeses aprovades prèviament
 description: En aquest tema es proporciona informació sobre com cancel·lar una transacció de despesa i temps de projecte aprovada.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150566"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987424"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Cancel·lar entrades de temps o de despeses aprovades prèviament
 
@@ -62,3 +60,6 @@ Un projecte també es veu afectat financerament quan es cancel·la una aprovaci�
 A continuació, les entrades d'inversió es creen a la taula Valors reals. Per crear entrades d'inversió, el sistema copia els valors de camp dels valors reals originals. Els únics valors que no es copien són els valors de quantitat. Aquests valors s'inverteixen en el seu lloc. Els valors reals invertits es creen per als valors reals **Cost** i **Vendes no facturades**. El camp **Estat d'ajustament** dels valors reals invertits es defineix com a **No ajustable** i l'estat de facturació es defineix com a **Cancel·lat**.
 
 Després de fer aquests canvis, l'import que s'ha registrat com a invertit en el projecte i el registre d'entrada d'ingressos del projecte ja no comptabilitzarà per a les quantitats que representin aquests valors reals.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

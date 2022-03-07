@@ -2,17 +2,17 @@
 title: Configuració de materials sense existències i de factures pendents del proveïdor
 description: En aquest tema s'explica com s'han d'habilitar els materials sense existències i les factures pendents del proveïdor.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993899"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003219"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configuració de materials sense existències i de factures pendents del proveïdor
 
@@ -59,11 +59,11 @@ Si utilitzeu dades de demostració estàndard, pot ser que també hàgiu d'atura
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Activació del flux de treball per crear comptes basats en una entitat de proveïdor
 
-La solució Dual Write Orchestration proporciona [Integracó del patró de proveïdors](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md)Proveïdors. Com a requisit previ per a aquesta característica, les dades del proveïdor s'han de crear a l'entitat **Comptes**. Activació d'un procés de flux de treball de plantilla per crear proveïdors a la taula **Comptes**, segons s'explica a [Canvia entre els dissenys del proveïdor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+La solució Dual Write Orchestration proporciona [Integracó del patró de proveïdors](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping)Proveïdors. Com a requisit previ per a aquesta característica, les dades del proveïdor s'han de crear a l'entitat **Comptes**. Activació d'un procés de flux de treball de plantilla per crear proveïdors a la taula **Comptes**, segons s'explica a [Canvia entre els dissenys del proveïdor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Definiu que els productes es creïn com a actius
 
-Els materials sense existències s'han de configurar com a **Productes publicats** a Finances. La solució Dual Write Orchestration proporciona una [Integració de productes publicats a punt per a utilitzar al catàleg de productes del Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Per defecte, els productes de Finances se sincronitzen amb el Dataverse en estat d'esborrany. Per sincronitzar el producte amb un estat actiu per tal que es pugui utilitzar directament en documents d'ús de materials o en factures de proveïdor pendents, aneu a **Sistema** > **Administració** > **Administració del sistmea** > **Configuració del sistema** i, a la pestanya **Vendes**, definiu **Creació de productes en estat actiu** en **Sí**.
+Els materials sense existències s'han de configurar com a **Productes publicats** a Finances. La solució Dual Write Orchestration proporciona una [Integració de productes publicats a punt per a utilitzar al catàleg de productes del Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Per defecte, els productes de Finances se sincronitzen amb el Dataverse en estat d'esborrany. Per sincronitzar el producte amb un estat actiu per tal que es pugui utilitzar directament en documents d'ús de materials o en factures de proveïdor pendents, aneu a **Sistema** > **Administració** > **Administració del sistmea** > **Configuració del sistema** i, a la pestanya **Vendes**, definiu **Creació de productes en estat actiu** en **Sí**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configuració dels requisits previs a Finances
 
@@ -88,7 +88,7 @@ Al Project Operations, podeu registrar les estimacions i l'ús de materials dels
 2. Al camp **Tipus de producte**, seleccioneu **Element** i al camp **Subtipus de producte** seleccioneu **Producte**.
 3. Introduïu el número del producte (WRITEIN) i el nom del producte (Producte fora de catàleg).
 4. Seleccioneu el grup del model d'elements. Assegureu-vos que el grup del model d'elements que seleccioneu té el camp **Producte en existències de la política d'inventari** en **Fals**.
-5. Seleccioneu valors als camps **Grup d'elements**, **Grup de mesures d'emmagatzematge** i **Grup de mesures de seguiment**. Utilitzeu la **Mesura d'emmagatzematge** només per a **Lloc**, i no definiu mesures de seguiment.
+5. Seleccioneu valors als camps **Grup d'elements**, **Grup de mesures d'emmagatzematge** i **Grup de mesures de seguiment**. Utilitzeu la **Mesura d'emmagatzematge** només per al **Lloc** i, al camp **Mesures de seguiment**, seleccioneu **Cap**.
 6. Seleccioneu valors al camp **Unitat d'inventari**, **Unitat de compra** i **Unitat de vendes** i, a continuació, deseu els canvis.
 7. A la pestanya **Pla**, definiu la configuració de comanda per defecte i, a la pestanya **Inventari**, definiu el lloc per defecte i el magatzem.
 8. Aneu a **Administració i comptabilitat del projecte** > **Configuració** > **Paràmetres d'administració i comptabilitat del projecte** i obriu **Project Operations al Dynamics 365 Dataverse**. 

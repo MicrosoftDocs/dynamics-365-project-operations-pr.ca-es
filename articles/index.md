@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120801"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275886"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-El Microsoft Dynamics 365 Project Operations connecta els equips de vendes, recursos, administració de projectes i finances en una sola aplicació per guanyar més ofertes, accelerar el lliurament del projecte i maximitzar la rendibilitat.
+El Microsoft Dynamics 365 Project Operations connecta els equips de vendes, dotació de recursos, administració de projectes i finances en una mateixa aplicació per guanyar més ofertes, accelerar la realització del projecte i maximitzar la rendibilitat.
 
 -   **Els líders obtenen conclusions empresarials** per augmentar la visibilitat en tots els equips, dades i processos, a més de capacitats d'IA per prendre millors decisions empresarials i més ràpides.
 -   **El Sales està habilitat** per guanyar més ofertes i accelerar el cicle de vendes amb ofertes ràpides i precises, preus flexibles i transicions sense interrupcions de l'estimació a l'execució.
@@ -40,5 +40,8 @@ El Project Operations és potent per si mateix, però el poden ampliar els nostr
 Per obtenir més informació, vegeu:
 
 - [Informació general del Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Informació general de la fase 1 de llançament de 2020 del Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Informació general de la fase 1 de la versió de 2020 del Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

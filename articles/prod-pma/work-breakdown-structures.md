@@ -2,11 +2,9 @@
 title: Informació general de les estructures del desglossament del treball
 description: Una estructura del desglossament del treball (WBS) és una descripció del treball que es farà per a un projecte. Es tracta d'una jerarquia de tasques que representa la comprensió de l'equip del projecte sobre la composició del treball, la mida, el cost i la duració de cada component o tasca.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072187"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012214"
 ---
 # <a name="work-breakdown-structures-overview"></a>Informació general de les estructures del desglossament del treball
 
@@ -316,3 +314,6 @@ Alternativament, podeu corregir els errors de planificació individualment fent 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

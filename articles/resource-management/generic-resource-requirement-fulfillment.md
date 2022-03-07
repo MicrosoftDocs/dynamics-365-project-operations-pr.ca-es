@@ -2,18 +2,16 @@
 title: Compliment dels requisits de recursos genèrics
 description: Aquest tema proporciona informació sobre com reservar recursos amb nom per a un requisit de recurs genèric.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130295"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008259"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Compliment dels requisits de recursos genèrics
 
@@ -39,3 +37,6 @@ Aquest és un exemple de quan es necessiten diversos recursos amb nom per compli
 La diferència principal en aquest escenari és que el recurs genèric es manté a l'equip assignat a la tasca i els membres de l'equip de recursos amb nom no s'assignen com a part del càrrec. L'administrador del projecte pot assignar la feina segons calgui als recursos amb nom. La visualització **Conciliació** pot ajudar a l'administrador del projecte a dividir les reserves entre diversos recursos a assignacions de tasques. Això no es fa de manera automàtica perquè en qualsevol escenari més complicat que l'anterior, com ara un on teniu un paquet de tasques que constitueixen el requisit, el sistema ha de suposar la intenció de com vol assignar-ho l'administrador del projecte. Com que el sistema no pot entendre la intenció, és probable que les hipòtesis siguin diferents del previst i que es produeixi un resultat incorrecte o imprevisible. El resultat predictible és que el recurs genèric es manté assignat fins que l'administrador del projecte crea deliberadament les assignacions amb l'ajuda de la visualització **Conciliació**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

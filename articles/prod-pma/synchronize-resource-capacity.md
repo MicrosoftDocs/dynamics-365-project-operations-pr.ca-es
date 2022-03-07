@@ -2,11 +2,9 @@
 title: Sincronitzar la capacitat dels recursos
 description: Aquest tema proporciona informació sobre com sincronitzar la capacitat d'un recurs entre calendaris i projectes.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072190"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005604"
 ---
 # <a name="synchronize-resource-capacity"></a>Sincronitzar la capacitat dels recursos
 
@@ -31,7 +29,7 @@ ms.locfileid: "4072190"
 
 Els processos per a la sincronització de recursos ajuden a garantir que la informació del calendari i el calendari base es transfereix en la planificació de recursos del projecte. Si el calendari canvia, els processos fan les actualitzacions necessàries a la planificació de recursos del projecte. Els processos també ajuden a millorar el rendiment, ja que la informació de recursos del calendari se sincronitza amb antelació. Per tant, les actualitzacions de la informació de planificació de recursos ocorren amb més rapidesa. Us recomanem que planifiqueu els processos com un lot en comptes d'un en un cada vegada. Altrament, hi ha un risc que algú oblidi les dates inclusives quan la informació s'ha sincronitzat per última vegada. Si no es fan servir dates inclusives, poden produir-se llacunes durant la sincronització de les dates.
 
-![Sincronització del calendari](./media/projectresourcing04-1024x471.jpg)
+![Sincronització del calendari.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sincronització de la consolidació de capacitat de recursos
 
@@ -48,4 +46,7 @@ Es recomana utilitzar un lot. Hi ha disponibles les opcions durant la sincronitz
     | Data d'inici  | Introduïu la data d'inici del procés de sincronització per a la consolidació de capacitat de recursos. |
     | Data de finalització    | Introduïu la data de finalització del procés de sincronització per a la consolidació de capacitat de recursos. |
 
-[![Procés de sincronització](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Procés de sincronització.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

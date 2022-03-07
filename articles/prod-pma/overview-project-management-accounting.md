@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072355"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289762"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informació general sobre l'administració de projectes i la comptabilitat
 
@@ -205,7 +205,7 @@ Podeu encarregar articles de l'inventari de l'empresa per al consum en un projec
 
 La manera com encarregueu els articles depèn d'on l'encarregueu:
 
--   Per encarregar articles de l'inventari de l'empresa, heu d'introduir la comanda com a requisit d'article. Si utilitzeu la pàgina **Requisits d'articles**, podeu configurar el requisit per tal que rebeu els articles com a lliuraments parcials. Per tant, podeu ajornar el consum d'una quantitat d'articles fins que els articles siguin necessaris.
+-   Per encarregar articles de l'inventari de l'empresa, heu d'introduir la comanda com a requisit d'article. Si utilitzeu la pàgina **Requisits d'articles**, podeu configurar el requisit per tal que rebeu els articles com a lliuraments parcials. Per tant, podeu ajornar el consum d'una quantitat d'articles fins que els articles siguin necessaris.
 -   Per encarregar articles d'un proveïdor extern, heu de crear la comanda com a comanda de compra a la pàgina **Comanda de compra**.
 
 > [!NOTE] 
@@ -300,7 +300,7 @@ Segons l'organització, podeu preveure els fluxos d'entrada de caixa per a un pr
 -   **Data del projecte:** 5 de març de 2012.
 -   **Data de la factura:** 31 de març de 2012. Aquesta data es determina a partir de la freqüència de les factures. Per a aquest exemple, definiu la freqüència de factures al mes en curs. Per tant, totes les transaccions que es comptabilitzen al mes de març es facturen l'últim dia del mes.
 -   **Data de venciment:** 14 d'abril de 2012. Aquesta data es determina en funció dels terminis de pagament que s'han definit per al projecte. Per a aquest exemple, heu seleccionat un termini de pagament de 14 dies. Per tant, s'afegeixen 14 dies a la data de la factura per poder arribar a una data de venciment del 14 d'abril de 2012.
--   **Data prevista de pagament de la venda:** 27 d'abril de 2012. Aquesta data es calcula afegint el nombre de dies al camp **Dies de marge generals** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat** al nombre de dies del camp **Dies de marge individuals** a la pàgina **Contractes del projecte** i, a continuació, afegint el total al nombre de dies al camp **Data de venciment**. Per a aquest exemple, heu introduït **3** en el camp **Dies de marge generals** i **10** al camp **Dies de marge individuals**. Per tant, se sumen 13 dies a la data de venciment per poder arribar a una data de pagament de vendes esperada del 27 d'abril de 2012.
+-   **Data prevista de pagament de la venda:** 27 d'abril de 2012. Aquesta data es calcula afegint el nombre de dies al camp **Dies de marge generals** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat** al nombre de dies del camp **Dies de marge individuals** a la pàgina **Contractes del projecte** i, a continuació, afegint el total al nombre de dies al camp **Data de venciment**. Per a aquest exemple, heu introduït **3** en el camp **Dies de marge generals** i **10** al camp **Dies de marge individuals**. Per tant, se sumen 13 dies a la data de venciment per poder arribar a una data de pagament de vendes esperada del 27 d'abril de 2012.
 
 Els dies de marge generals poden substituir els dies de marge individuals o sumar-hi:
 
@@ -381,7 +381,7 @@ A la pàgina **Control de costos**, a la pestanya **Desviació**, podeu visualit
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Visualitzar els imports pressupostats totals
 
-Si se selecciona **Pressupost total** com a mètode de control de costos a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**, la pàgina **Control de costos** calcula els costos reals i les despeses totals del projecte per ajudar-vos a detectar qualsevol diferència entre els dos. En concret, a la pàgina **Control de costos,** els imports de les columnes de la subfinestra inferior de la pestanya **General** es calculen de les maneres següents:
+Si se selecciona **Pressupost total** com a mètode de control de costos a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**, la pàgina **Control de costos** calcula els costos reals i les despeses totals del projecte per ajudar-vos a detectar qualsevol diferència entre els dos. En concret, a la pàgina **Control de costos**, els imports de les columnes de la subfinestra inferior de la pestanya **General** es calculen de les maneres següents:
 
 -   **Cost total pressupostat**: import pressupostat total per a la línia de cost seleccionada.
 -   **Cost real**: import total de costos que ha suposat el projecte fins a la data per a les línies de cost seleccionades.
@@ -440,3 +440,6 @@ Després de calcular l'extracte, podeu visualitzar la informació següent a les
 -   **Consum**: informació sobre el consum d'hores, articles, despeses i transaccions de nòmines.
 -   **Factura**: informació sobre les factures i la facturació a compte.
 -   **Tarifa per hora**: les tarifes per hora per a les hores que es comptabilitzen als comptes d'ingressos i costos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

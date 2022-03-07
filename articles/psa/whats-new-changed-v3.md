@@ -18,20 +18,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150656"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119991"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novetats o canvis al Project Service Automation versió 3
-
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 En aquest tema es proporciona informació sobre els canvis en la interfície d'usuari (UI), la funcionalitat i la terminologia al Project Service Automation entre la versió 2 o la versió 1 i la versió 3.
 

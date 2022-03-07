@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: 17a86e89f626cef720fe3c8db0cbd8d6a2a3ddd5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275526"
 ---
 # <a name="override-project-sales-price-lists"></a>Substitució de les llistes de preus de vendes de projectes
 
@@ -52,3 +52,6 @@ Podeu utilitzar cadascuna d'aquestes llistes de preus i fer actualitzacions dels
 En un contracte de projecte, els preus del projecte sempre són per defecte una llista de preus personalitzada amb el nom del contracte i la marca de temps de creació afegida al nom. Això és cert si el contracte es va crear quan es va guanyar l'oferta o si el contracte es va crear des de zero. Si cal, podeu suprimir aquesta associació a la llista de preus personalitzada i associar una llista de preus estàndard al contracte del projecte.
 
 Quan associeu una llista de preus estàndard a les llistes de preus del projecte en una oferta o contracte, els canvis realitzats als preus de la llista de preus afectaran totes les ofertes i contractes que utilitzin la llista de preus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

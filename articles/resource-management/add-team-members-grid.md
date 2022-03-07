@@ -2,24 +2,22 @@
 title: Afegir membres de l'equip des de la quadrícula Membre de l'equip
 description: En aquest tema es proporciona informació sobre com administrar els recursos de membre de l'equip.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121521"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008394"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Afegir membres de l'equip des de la quadrícula Membre de l'equip
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-El Dynamics 365 Project Operations inclou un escriptori digital d'administració de recursos que proporciona una visió general visual de la demanda i l'aprofitament dels recursos a tota l'organització. Podeu utilitzar els gràfics d'aquest escriptori digital per visualitzar la informació següent:
+El Dynamics 365 Project Operations inclou un escriptori digital d'Administració de recursos que proporciona una visió general visual de la demanda i l'aprofitament dels recursos a tota l'organització. Podeu utilitzar els gràfics d'aquest escriptori digital per visualitzar la informació següent:
 
 - **Demanda de recursos**: el gràfic **Sol·licitud de recursos activa** mostra recursos que s'ha enviat. Els recursos s'agreguen per funció o projecte.
 - **Demanda de recursos no enviats**: el gràfic **Demanda de recursos no assignats** mostra tots els requisits de recursos que no s'han enviat. Aquest gràfic ajuda els administradors de recursos a veure la demanda que no és ferma i podria ser enviada a través d'una sol·licitud de recursos.
@@ -200,3 +198,6 @@ Quan visualitzeu el temps en nivells superiors, les cel·les de la pestanya **Co
 Si teniu assignacions de tasca per a un recurs però no hi ha cap reserva, al formulari **Projectes**, a la pestanya **Conciliació**, seleccioneu la manca de reserves i, a continuació, seleccioneu **Amplia la reserva**. El quadre de diàleg **Amplia la reserva** apareix i mostra la reserva necessària per fer front a la manca del recurs. El quadre de diàleg també mostra les reserves existents del recurs en tots els projectes o altres entitats planificables. Si seleccioneu **D'acord** per crear la reserva del recurs, independentment de la disponibilitat del recurs, pot ser que hi hagi un excés de reserves.
 
 L'administrador de projectes o administrador de recursos poden utilitzar el Tauler de planificació per administrar les situacions en què el recurs té un excés de reserves més enllà de la seva capacitat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 'Novetats de novembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
 description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de novembre de 2020 del Project Operations per a escenaris de recursos/sense existències.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: f6b14a1cbe7f3d41c86aedaf863434214f911eaa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367253"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995609"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de novembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -67,4 +65,7 @@ Aquest tema s'aplica als components i versions següents del Dynamics 365 Projec
 | Comptabilitat del projecte  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Si habiliteu la característica, no són possibles diverses línies de contracte sense la integració del CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Tipus de fases del projecte
 description: Aquest tema proporciona informació sobre les fases del projecte.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148091"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996874"
 ---
 # <a name="project-stage-types"></a>Tipus de fases del projecte 
 
@@ -65,3 +63,6 @@ Quan s'hagi completat el treball per al projecte, l'administrador del projecte p
 ## <a name="close"></a>Tanca
 
 Quan s'hagin registrat totes les transaccions per al projecte, l'administrador del projecte pot actualitzar la fase a **Tancat**. En aquest moment, no es pot registrar cap transacció i el projecte es defineix com a només de lectura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

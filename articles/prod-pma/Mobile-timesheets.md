@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271116"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072354"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Fulls d'hores del projecte en un dispositiu mòbil
 
@@ -62,6 +62,3 @@ Android serà compatible amb l'actualització de la plataforma 16, quan estigui 
 13. Opcional: introduïu les línies del full d'hores addicionals.
 
 14. Després d'haver completat la introducció de les línies del full d'hores, seleccioneu l'acció **Flux de treball** \> **Envia** per enviar el vostre full d'hores al procés d'aprovació del flux de treball.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

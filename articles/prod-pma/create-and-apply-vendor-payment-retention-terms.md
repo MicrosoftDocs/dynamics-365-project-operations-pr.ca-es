@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270935"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072349"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Creació i aplicació de les condicions de retenció de pagaments de proveïdors
 
@@ -65,6 +65,3 @@ Després de crear els termes de retenció de proveïdors per a un proveïdor, po
 6. Si el projecte també té termes de pagament després del cobrament (PWP) establerts per al proveïdor, introduïu el percentatge de llindar per al projecte en el camp **Percentatge de llindar de PWP**.
 
 Els termes de retenció del proveïdor també es mostren a les comandes de compra que creeu per al proveïdor.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

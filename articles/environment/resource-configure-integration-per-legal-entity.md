@@ -2,24 +2,22 @@
 title: Configuració de la integració del Project Operations per entitat jurídica
 description: Aquest tema proporciona informació sobre la configuració de la integració per entitat jurídica al Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122871"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999394"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configuració de la integració del Project Operations per entitat jurídica 
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema us mostra els passos necessaris per configurar el Dynamics 365 Project Operations per entitat jurídica.
+Aquest tema us guia pels passos necessaris a l'hora de configurar el Dynamics 365 Project Operations per entitat legal.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Habilitar les claus de característiques al Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ Cada entitat legal que utilitza el Project Operations al Dynamics 365 Customer E
   - **Valors per defecte de tipus de facturació**: el Project Operations utilitza un conjunt fix de valors per defecte de tipus de facturació que s'han d'assignar a les propietats de línia del Finance. Creeu un registre per a cada tipus de facturació: **No especificada**, **Imputable**, **No imputable**, **Complementària** i **No disponible**.
   - **Valors per defecte de categoria del projecte**: seleccioneu les categories de projecte per defecte que s'utilitzaran per a cada tipus d'operació. Aquests valors per defecte s'utilitzaran al **Diari d'integració del Project Operations** i en estimacions on no s'especifiqui cap categoria de transacció per al valor real del projecte.
   - **Previsions**: seleccioneu el model de previsió que s'utilitzarà per a les estimacions de temps i despeses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

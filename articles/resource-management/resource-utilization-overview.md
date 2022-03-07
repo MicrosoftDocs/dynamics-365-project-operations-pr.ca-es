@@ -2,18 +2,17 @@
 title: Informació general sobre l'ús de recursos
 description: En aquest tema es proporciona informació sobre l'ús dels recursos al Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.custom: intro-internal
+ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401364"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002049"
 ---
 # <a name="resource-utilization-overview"></a>Informació general sobre l'ús de recursos
 
@@ -45,3 +44,6 @@ A més, cal assignar una funció per defecte a cadascun dels recursos que es pot
 A la pestanya **Project Service** també podeu definir un objectiu d'ús individual per al recurs. A continuació, el càlcul d'ús utilitza l'objectiu d'ús per avaluar l'objectiu del recurs en comptes de l'objectiu de la funció per defecte del recurs.
 
 L'ús es mostra només per a un recurs si aquest recurs té temps aprovat imputable durant el període que es mostra a la quadrícula.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

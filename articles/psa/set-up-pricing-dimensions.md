@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150341"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282456"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuració de camps personalitzats com a dimensions de preus 
 
@@ -94,3 +94,6 @@ Definir la prioritat de dimensions ajuda que el Project Service produeixi un pre
 
 - **Prioritat de costos**: el valor d'una prioritat de costos d'una dimensió indicarà el pes d'aquesta dimensió el fer-la coincidir amb la configuració dels preus de cost. El valor de **Prioritat de cost** ha de ser únic en totes les dimensions **Aplicable al cost**.
 - **Prioritat de vendes**: el valor d'una prioritat de vendes d'una dimensió indicarà el pes d'aquesta dimensió el fer-la coincidir amb la configuració dels preus de vendes o tarifes de facturació. El valor de **Prioritat de vendes** ha de ser únic en totes les dimensions **Aplicable a les vendes**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

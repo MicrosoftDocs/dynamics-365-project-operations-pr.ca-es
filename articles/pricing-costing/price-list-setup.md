@@ -2,18 +2,16 @@
 title: Configuració de llistes de preus
 description: Aquest tema proporciona informació sobre com configurar llistes de preus de cost i venda.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180180"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009474"
 ---
 # <a name="set-up-price-lists"></a>Configuració de llistes de preus
 
@@ -40,3 +38,6 @@ La taula següent inclou els camps de la pestanya **General** d'una llista de pr
 | Moneda | Pestanya **General** i formularis **Creació ràpida** | Aquest camp s'utilitza per prendre el valor per defecte de la moneda en cada línia de funció, categoria o element de la llista de preus relacionada amb aquesta llista de preus. | A les llistes de preus de **Vendes**, no es poden crear línies de funcions, categories o elements de la llista de preus en cap altra moneda que no sigui aquesta moneda. En llistes de preus de **Cost**, podeu crear una línia de preu per funció en qualsevol moneda. La moneda definida aquí s'utilitza com a valor per defecte. La configuració de l'usuari que està relacionada amb els preus per funció pot substituir aquest valor per habilitar la configuració de la tarifa de cost del treball en qualsevol moneda. Les tarifes de cost per categoria i els costos de la llista de preus només es poden establir en la moneda definida aquí. |
 | Unitat de temps | Pestanya **General** i formularis **Creació ràpida** | Aquest camp s'utilitza per prendre el valor per defecte de la unitat de temps en cada línia de funció relacionada amb aquesta llista de preus. | Aquest valor de camp només s'utilitza en la configuració de preus per funció relacionada. En llistes de preus de **Cost** i **Vendes**, podeu crear una línia de preu per funció en qualsevol unitat de temps. La unitat de temps definida aquí s'utilitza per defecte. La configuració de l'usuari que està relacionada amb els preus per funció pot substituir aquest valor per habilitar la configuració de la tarifa de cost del treball i tarifa de facturació en qualsevol unitat de temps. |
 | Descripció | Pestanya **General** i formularis **Creació ràpida** | Aquest camp de text us permet proporcionar una descripció de diverses línies de la llista de preus. | Aquest camp es mostra a les visualitzacions **Associat** sobre la llista de preus en diverses entitats que tenen llistes de preus relacionades. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

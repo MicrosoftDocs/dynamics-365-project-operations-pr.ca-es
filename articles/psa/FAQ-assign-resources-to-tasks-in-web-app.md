@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993275"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987694"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Com assigno un recurs reservable a una a una tasca en l'aplicació web (v2.x de l'aplicació Project Service)?
 
@@ -43,7 +43,7 @@ Amb aquest mètode, afegiu un recurs a l'equip del projecte i després assigneu 
 3.  Seleccioneu les dates **Des de** i **Fins a**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de pantalla de l'addició d'un membre a l'equip](media/FAQ-Resources-to-Tasks2-1.png "Captura de pantalla de l'addició d'un membre a l'equip")
+    > ![Captura de pantalla de l'addició d'un membre a l'equip.](media/FAQ-Resources-to-Tasks2-1.png "Captura de pantalla de l'addició d'un membre a l'equip")
  
 4.  Seleccioneu un dels següents mètodes d'assignació per reservar el recurs:
     - **Capacitat total**: reserva la capacitat total del recurs per a les dates especificades des de i fins a.
@@ -63,12 +63,12 @@ Amb aquest mètode, afegiu un recurs a l'equip del projecte i després assigneu 
     3. Seleccioneu **D'acord**. El membre de l'equip ara està assignat a la tasca.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de pantalla de l'addició de recursos amb el WBS](media/FAQ-Resources-to-Tasks2-2.png "Captura de pantalla de l'addició de recursos amb el WBS")
+    > ![Captura de pantalla de l'addició de recursos amb el WBS.](media/FAQ-Resources-to-Tasks2-2.png "Captura de pantalla de l'addició de recursos amb el WBS")
  
 A la quadrícula de membres de l'equip, veureu el total d'hores assignades del recurs a l'apartat Hores assignades. Serà menor o igual que les hores reservades per al recurs. 
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de pantalla de les hores assignades per a un recurs](media/FAQ-Resources-to-Tasks2-3.png "Captura de pantalla de les hores assignades per a un recurs")
+> ![Captura de pantalla de les hores assignades per a un recurs.](media/FAQ-Resources-to-Tasks2-3.png "Captura de pantalla de les hores assignades per a un recurs")
  
 Si la tasca que està intentant assignar al recurs comença després de la data de finalització de les reserves de recursos, el recurs no apareixerà en el menú desplegable.
 
@@ -92,22 +92,22 @@ Aquest mètode assegura que els recursos tinguin suficients reserves per a les t
 4. Seleccioneu **D'acord**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de pantalla de l'ús del WBS per afegir un recurs](media/FAQ-Resources-to-Tasks2-4.png "Captura de pantalla de l'ús del WBS per afegir un recurs")
+    > ![Captura de pantalla de l'ús del WBS per afegir un recurs.](media/FAQ-Resources-to-Tasks2-4.png "Captura de pantalla de l'ús del WBS per afegir un recurs")
  
 Un cop hagueu completat l'assignació de funcions a les tasques al WBS, seleccioneu **Genera un equip de projecte**. El Project Service crea la quantitat mínima de membres genèrics de l'equip en funció dels rols, les unitats d'organització de recursos i el calendari del projecte amb les tasques assignades.
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de pantalla de la generació d'un equip de projecte](media/FAQ-Resources-to-Tasks2-5.png "Captura de pantalla de la generació d'un equip de projecte")
+> ![Captura de pantalla de la generació d'un equip de projecte.](media/FAQ-Resources-to-Tasks2-5.png "Captura de pantalla de la generació d'un equip de projecte")
  
 A la quadrícula Membre de l'equip, veureu els recursos del tipus Recurs genèric amb el nom de la funció i la posició. Si calen dos recursos perquè una funció completi la feina, la funció Generar equip crea dos membres de l'equip i fa servir el nom de la posició per distingir-los.
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de pantalla de l'addició de dos recursos genèrics](media/FAQ-Resources-to-Tasks2-6.png "Captura de pantalla de l'addició de dos recursos genèrics")
+> ![Captura de pantalla de l'addició de dos recursos genèrics.](media/FAQ-Resources-to-Tasks2-6.png "Captura de pantalla de l'addició de dos recursos genèrics")
  
 Podeu obrir el requisit del recurs de suport per al membre genèric de l'equip mitjançant l'enllaç que apareix a Requisit de recursos.
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de pantalla de l'obertura d'un requisit de recurs de suport](media/FAQ-Resources-to-Tasks2-7.png "Captura de pantalla de l'obertura d'un requisit de recurs de suport")
+> ![Captura de pantalla de l'obertura d'un requisit de recurs de suport.](media/FAQ-Resources-to-Tasks2-7.png "Captura de pantalla de l'obertura d'un requisit de recurs de suport")
 
 Seleccioneu **Reserva** per al recurs genèric i després podeu utilitzar el tauler de programació per buscar i reservar un recurs real. També podeu enviar el requisit de compliment per un administrador de recursos si seleccioneu **Envia sol·licitud**.
 

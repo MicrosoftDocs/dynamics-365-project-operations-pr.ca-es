@@ -2,12 +2,10 @@
 title: Facturació al Project Service Automation
 description: Aquest tema proporciona informació sobre la facturació.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151376"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985489"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturació al Project Service Automation
 
@@ -52,7 +50,7 @@ Seguiu aquest pas per crear una factura per a un contracte de projecte específi
 
 - A la pàgina de llista **Contractes del projecte**, obriu un contracte de projecte i, a continuació, seleccioneu **Crea una factura**.
 
-    ![Crear factures de projecte per a un contracte específic de projecte](media/CreateProjectInvoicesOneByOne.png)
+    ![Crear factures de projecte per a un contracte específic de projecte.](media/CreateProjectInvoicesOneByOne.png)
 
     Es genera una factura per a totes les transaccions del contracte de projecte seleccionat que tinguin un estat **Llest per facturar**. Aquestes transaccions inclouen temps, despeses, fites i línies de contracte basades en productes.
 
@@ -60,7 +58,7 @@ Seguiu aquests passos per crear factures de manera massiva.
 
 1. A la pàgina de llista **Contractes del projecte**, seleccioneu un o diversos contractes de projecte per als quals heu de crear una factura i, a continuació, seleccioneu **Crea les factures del projecte**.
 
-    ![Crear factures de projecte en massa](media/CreateProjectInvoicesBulk.png)
+    ![Crear factures de projecte en massa.](media/CreateProjectInvoicesBulk.png)
 
     Un missatge d'advertiment us informa que pot haver-hi un retard abans que es creïn les factures. El procés també es mostra.
 
@@ -117,3 +115,6 @@ Quan es confirma una factura correctiva, es reverteix el valor real de vendes fa
 
 - Un valor de vendes facturades durant sis hores.
 - Un valor de vendes no facturades per a les dues hores restants. Aquesta transacció es pot facturar més tard o marcar com a no imputable, en funció de les negociacions amb el client.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

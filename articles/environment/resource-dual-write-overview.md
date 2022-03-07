@@ -5,15 +5,15 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9d6a7c367872219b4aca32aecb15d6837ebe296
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007899"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955646"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Descripció general de la integració d'escriptura doble del Project Operations
 
@@ -23,7 +23,7 @@ El Project Operations utilitza [capacitats de doble escriptura](/dynamics365/fin
 
 A la il·lustració següent es mostra la manera que se sincronitzen les dades com a part d'aquesta integració entre el Dataverse i Finances.
 
-![Descripció general sobre els fluxos de dades del Project Operations.](./media/ProjectOperationsFlows.jpg)
+![Descripció general sobre els fluxos de dades del Project Operations](./media/ProjectOperationsFlows.jpg)
 
 El Project Operations al Dataverse proporciona una interfície d'usuari (IU) moderna i extensibilitat senzilla sense codi o de baix codi mitjançant capacitats del Power Platform. Els administradors de projectes, els administradors de recursos, els membres de l'equip del projecte i altres persones d'atenció al públic duen a terme les seves activitats al Project Operations del Dataverse.
 

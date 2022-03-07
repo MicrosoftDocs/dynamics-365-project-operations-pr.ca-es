@@ -2,11 +2,9 @@
 title: Creació de contractes avançats per a la facturació basada en el progrés
 description: Aquest tema explica com crear contractes de projectes de manera que es puguin generar factures per als clients, basades en un percentatge del treball completat.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072341"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000969"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Creació de contractes avançats per a la facturació basada en el progrés
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ Les categories pressupostàries s'utilitzen per calcular automàticament els imp
 8. Opcional: assigneu la regla de facturació a projectes addicionals. Al FastTab **Projecte**, en la secció **Projectes disponibles**, seleccioneu un projecte i després seleccioneu el botó de fletxa dreta per afegir el projecte a la secció **Projectes seleccionats**.
 9. Opcional: calculeu l'import percentual que el client reté dels pagaments d'una factura. Al FastTab **Termes de retenció de pagaments**, seleccioneu la font de finançament i, en el camp **Percentatge de retenció**, introduïu el percentatge de retenció.
 10. Repetiu aquests passos per a crear regles de facturació addicionals per al contracte del projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

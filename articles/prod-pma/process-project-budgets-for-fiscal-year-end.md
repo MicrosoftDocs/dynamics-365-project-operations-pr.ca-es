@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072345"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289717"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Transferència de pressupostos de projecte al final de l'exercici fiscal
 
@@ -98,3 +98,6 @@ Quan processeu els imports restants del pressupost, es poden crear transaccions 
 5. Per a cada projecte que voleu processar, seleccioneu l'opció al començament de la línia per al projecte. 
 6. Seleccioneu **Processa** per transferir els imports pressupostaris restants per als projectes seleccionats a l'exercici fiscal seleccionat.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

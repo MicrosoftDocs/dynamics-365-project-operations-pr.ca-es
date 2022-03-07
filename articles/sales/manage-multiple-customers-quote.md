@@ -2,18 +2,16 @@
 title: Administració de diversos clients en una oferta de projecte
 description: En aquest tema es proporciona informació sobre com treballar en les ofertes que impliquen diversos clients que finançaran el projecte.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181980"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991969"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Administració de diversos clients en una oferta de projecte
 
@@ -23,7 +21,7 @@ Les ofertes del projecte admeten l'escenari en què la proposta implica diversos
 
 Tots els clients de l'oferta de la pestanya **Clients** de l'oferta del projecte són per defecte clients de la línia d'oferta a les línies d'oferta basades en projectes **noves** creades per a l'oferta. Totes les línies de l'oferta basades en projectes no hereten els registres de client d'oferta nova que s'hagin creat després.
 
-Es poden afegir, actualitzar o suprimir els clients de l'oferta i els clients de la línia d'oferta en qualsevol moment abans de guanyar l'oferta. Un client vàlid de l'oferta s'ha de configurar com a client a l'empresa propietària o a l'entitat legal a la pàgina **Clients**. Les entitats jurídiques es configuren al mòdul **Administració de projectes i comptabilitat** del Dynamics 365 Project Operations i estan disponibles com a empreses del mòduls **Vendes i lliuraments de projectes** del Project Operations.
+Es poden afegir, actualitzar o suprimir els clients de l'oferta i els clients de la línia d'oferta en qualsevol moment abans de guanyar l'oferta. Un client vàlid de l'oferta s'ha de configurar com a client a l'empresa propietària o a l'entitat legal a la pàgina **Clients**. Les entitats jurídiques es configuren al mòdul **Gestió de projectes i comptabilitat** del Dynamics 365 Project Operations i estan disponibles com a Empreses als mòduls **Vendes de projecte i Lliuraments** de Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concepte de client principal
 
@@ -51,3 +49,6 @@ Es pot crear, actualitzar o suprimir un client d'oferta a la pestanya **Clients 
 Podeu editar els percentatges de divisió de la facturació mitjançant l'experiència d'edició de quadrícula en línia. Quan els percentatges de divisió de la facturació no sumin un total de 100%, es produirà un error. Després d'actualitzar els percentatges de divisió de la facturació, actualitzeu la pàgina per suprimir l'error.
 
 També podeu provar de seleccionar **Distribueix uniformement** a la subquadrícula dels clients de l'oferta. Aquesta acció assigna les divisions de la facturació a tots els clients de l'oferta. Si hi ha cap factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un dels clients de l'oferta sempre està etiquetat com a client d'arrodoniment. Això vol dir que el registre de client d'oferta té la marca **Arrodoniment** definida com a **Sí**. Normalment, aquest és el client principal de l'oferta, però es pot canviar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

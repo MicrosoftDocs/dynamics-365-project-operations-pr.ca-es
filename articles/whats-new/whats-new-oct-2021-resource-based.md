@@ -2,17 +2,17 @@
 title: "Novetats d'octubre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències"
 description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'octubre de 2021 del Project Operations per als escenaris basats en recursos/no mantinguts en existències.
 author: sigitac
-ms.date: 10/06/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
-ms.translationtype: MT
+ms.openlocfilehash: 5eb663f8b7450e4b7add6717aa717050ae94d571
+ms.sourcegitcommit: 6d9fc4dc851814664bf71729904ab4bedd85fe70
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753280"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606726"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats d'octubre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 

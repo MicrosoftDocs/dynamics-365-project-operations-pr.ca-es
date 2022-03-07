@@ -2,11 +2,9 @@
 title: Aplicació mòbil Project timesheet
 description: En aquest tema es proporciona informació sobre l'aplicació mòbil Microsoft Dynamics 365 Project Timesheet. L'aplicació mòbil Project Timesheet permet que els usuaris presentin i aprovin els fulls d'hores per als projectes en el seu dispositiu mòbil.
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 517c6f2b749fa3ed44b198b799489e7e29e34d7f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072385"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009874"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicació mòbil Project timesheet
 
@@ -96,3 +94,6 @@ Feu clic a **Envia** per enviar el full d'hores al flux de treball d'aprovació.
 ## <a name="review-timesheets"></a>Revisar els fulls d'hores
 
 Hi ha disponible una llista dels fulls d'hores que s'han de revisar al menú. Aquesta opció només està disponible si heu estat designat aprovador de fluxos de treball. Es permet l'aprovació de la capçalera i la línia. L'aprovació de nivell de línia ofereix la capacitat de marcar una o diverses línies per a la seva aprovació. Després de revisar la informació del full de temps, feu clic a **Aprova**, **Delega** o **Retorna** per continuar el flux de treball.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

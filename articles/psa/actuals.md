@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c4a3424bed704243dfb5524fa541c3fcc0899e57
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146111"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285606"
 ---
 # <a name="actuals-overview"></a>Informació general dels valors reals
 
@@ -330,3 +330,6 @@ El PSA registra totes les transaccions financeres que es produeixen durant un pr
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

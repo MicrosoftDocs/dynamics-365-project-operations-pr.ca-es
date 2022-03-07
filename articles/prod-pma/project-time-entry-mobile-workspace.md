@@ -2,11 +2,9 @@
 title: Àrea de treball mòbil Entrada de temps del projecte
 description: En aquest tema es proporciona informació sobre l'àrea de treball mòbil Entrada de temps del projecte. Aquesta àrea de treball permet als usuaris introduir i desar el temps d'un projecte mitjançant el seu dispositiu mòbil.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072193"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989539"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Àrea de treball mòbil Entrada de temps del projecte
 
@@ -48,7 +46,7 @@ En concret, a l'àrea de treball mòbil **Entrada de temps del projecte**, els u
 Els prerequisits difereixen, segons la versió del Microsoft Dynamics 365 que s'hagi implementat per a la vostra organització.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisits previs si utilitzeu el Dynamics 365 Finance
-Si el Finance s'ha implementat per a la vostra organització, l'administrador del sistema ha de publicar l'àrea de treball mòbil **Entrada de temps del projecte**. Per obtenir instruccions, vegeu [Publicar una àrea de treball mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Si el Finance s'ha implementat per a la vostra organització, l'administrador del sistema ha de publicar l'àrea de treball mòbil **Entrada de temps del projecte**. Per obtenir instruccions, vegeu [Publicar una àrea de treball mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Requisits previs si utilitzeu la versió 1611 amb l'actualització de la plataforma 3 o posterior
 Si la versió 1611 amb l'actualització de la plataforma 3 o posterior s'ha implementat per a la vostra organització, l'administrador del sistema ha de completar els requisits previs següents. 
@@ -68,17 +66,17 @@ Si la versió 1611 amb l'actualització de la plataforma 3 o posterior s'ha impl
 <td>Administrador del sistema</td>
 <td>La KB 4018050 és una actualització d'X++ o correcció de les metadades que conté l'àrea de treball mòbil <strong>Entrada de temps del projecte</strong>. Per implementar la 4018050 KB, l'administrador del sistema ha de seguir aquests passos.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixeu la correcció de metadades del Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instal·leu la correcció de metadades</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creeu un paquet implementable</a> que contingui els models <strong>ApplicationSuite</strong> i <strong>ProjectMobile</strong> i, a continuació, carregueu el paquet implementable al LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apliqueu el paquet implementable</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixeu la correcció de metadades del Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instal·leu la correcció de metadades</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creeu un paquet implementable</a> que contingui els models <strong>ApplicationSuite</strong> i <strong>ProjectMobile</strong> i, a continuació, carregueu el paquet implementable al LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apliqueu el paquet implementable</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publiqueu l'àrea de treball mòbil <strong>Entrada de temps del projecte</strong>.</td>
 <td>Administrador del sistema</td>
-<td>Vegeu <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar una àrea de treball mòbil</a>.</td>
+<td>Vegeu <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar una àrea de treball mòbil</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -96,20 +94,23 @@ Descarregueu i instal·leu l'aplicació mòbil Finance and Operations:
 3.  La primera vegada que inicieu la sessió, se us demanarà el vostre nom d'usuari i la vostra contrasenya. Introduïu les vostres credencials.
 4.  Després d'iniciar la sessió, es mostren les àrees de treball disponibles per a la vostra empresa. Heu de tenir en compte que si l'administrador del sistema publica una àrea de treball nova més tard, haureu d'actualitzar la llista d'àrees de treball mòbils.
 
-[![Llisca avall per actualitzar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Llisca avall per actualitzar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Introduir el temps mitjançant l'àrea de treball mòbil Entrada de temps del projecte
 1.  Al dispositiu mòbil, seleccioneu l'àrea de treball **Entrada de temps del projecte**.
 2.  Seleccioneu **Entrada de temps**. Es mostren les dates del calendari de la setmana actual.
 3.  Per a una data seleccionada, seleccioneu **Accions** &gt; **Entrada nova**.
 4.  Introduïu el nombre d'hores que voleu enregistrar.
-5.  Seleccioneu el projecte per a l'entrada de temps. Una llista mostra els projectes que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, vegeu [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Seleccioneu el projecte per a l'entrada de temps. Una llista mostra els projectes que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, vegeu [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Si el projecte no es troba a la llista, seleccioneu **Cerca**. Cerqueu per nom, o canvieu a la cerca per nom del projecte o per client.
-7.  Seleccioneu una categoria. Una llista mostra les categories que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, vegeu [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Seleccioneu una categoria. Una llista mostra les categories que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, vegeu [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Si la categoria no es troba a la llista, seleccioneu **Cerca**. Cerqueu per categoria o canvieu a la cerca per nom de la categoria.
-9.  Seleccioneu una activitat. Una llista mostra les activitats que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, vegeu [Plataforma mòbil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Seleccioneu una activitat. Una llista mostra les activitats que s'han carregat a la vostra aplicació per a l'ús fora de línia. Per defecte, es carreguen 50 elements, però un desenvolupador pot canviar aquest número. Per obtenir més informació, vegeu [Plataforma mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Si l'activitat no es troba a la llista, seleccioneu **Cerca**. Cerqueu el número de l'activitat o canvieu a la cerca per propòsit.
 
 11. Seleccioneu la propietat de línia.
 12. Opcional: introduïu comentaris externs o interns.
 13. Seleccioneu **Fet**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

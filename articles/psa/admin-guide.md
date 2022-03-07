@@ -2,6 +2,8 @@
 title: Guia de l'administrador
 description: Instruccions pas a pas per a l'administració del Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8954964ee5503d338620221c24867d136dd8f217
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7462a57ad750f255cfb48dbbeda7f899f51ecfa7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072249"
 ---
 # <a name="administrator-guide-project-service"></a>Guia per a l'administració (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -36,7 +36,7 @@ Aquesta guia us conduirà pel procés d'instal·lació i configuració:
 - [Configurar el Project Service Automation](configure.md)
 - [Establir unitats de temps](set-up-time-units.md)
 - [Configurar les monedes i el tipus de canvi](set-up-currencies-exchange-rates.md)
-- [Creació d'unitats organitzatives](create-organizational-units.md)
+- [Crear unitats organitzatives](create-organizational-units.md)
 - [Configuració de freqüències de facturació](set-up-invoice-frequencies.md)
 - [Configuració de categories de transacció](configure-transaction-categories.md)
 - [Configuració de categories de despesa](configure-expense-categories.md)
@@ -50,6 +50,3 @@ Aquesta guia us conduirà pel procés d'instal·lació i configuració:
  [Guia de l'administrador de comptes](../psa/account-manager-guide.md) [Guia de l'administrador de comptes](../psa/project-manager-guide.md)   
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)   
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Línies d'oportunitat basades en projectes
 description: En aquest tema s'ofereix informació sobre el treball amb línies d'oportunitat basades en projectes.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181935"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996334"
 ---
 # <a name="project-based-opportunity-lines"></a>Línies d'oportunitat basades en projectes
 
@@ -33,3 +31,6 @@ A continuació es mostren els camps d'una línia d'oportunitat basada en project
 | Nom | Pestanya General | Es tracta d'un camp de text editable que es pot utilitzar per donar una identitat breu a aquest element de línia | Aquest valor s'aprofita a la línia d'oferta quan creeu una oferta a partir d'aquesta oportunitat |
 | Pressupost del client | Pestanya General | Aquest camp de moneda editable es pot utilitzar per fer el seguiment de l'import que el client està disposat a gastar en aquest element de línia. | Aquest valor s'aprofita al camp corresponent a la línia d'oferta quan creeu una oferta a partir d'aquesta oportunitat |
 | Mètode de facturació | Pestanya General | Aquest camp editable té els següents valors:</br>- Temps i material</br>- Preu fix | Aquest valor s'aprofita al camp corresponent a la línia d'oferta quan creeu una oferta a partir d'aquesta oportunitat. Després de crear la línia d'oferta, el camp està bloquejat i no es pot canviar. Assigneu aquest valor de camp de la manera més exacta possible. Si heu de canviar el valor d'aquest camp a la línia d'oferta, suprimiu i torneu a crear la línia d'oferta. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

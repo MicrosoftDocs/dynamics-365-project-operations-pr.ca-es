@@ -2,18 +2,16 @@
 title: Crear assignacions de recursos
 description: Aquest tema proporciona informació sobre la creació d'assignacions de recursos genèriques i amb nom.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131736"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987874"
 ---
 # <a name="create-resource-assignments"></a>Crear assignacions de recursos
 
@@ -42,3 +40,6 @@ Feu servir el quadre de cerca del **Selector de recursos** per cercar tots els r
 1. Des de la quadrícula de tasques, el tauler o la cronologia, desplaceu-vos a la cel·la **Assignat a**.
 2. Al quadre de cerca, comenceu a escriure un nom. Els resultats de cerca per al nom es mostren al **Selector de recursos** a l'apartat **Altres recursos**.
 3. Seleccioneu el recurs que voleu assignar a la tasca o seleccioneu el nom del recurs a **Altres recursos de l'equip**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

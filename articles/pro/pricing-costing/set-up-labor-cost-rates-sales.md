@@ -2,18 +2,16 @@
 title: Configuració de les tarifes de cost de treball (bàsic)
 description: Aquest tema proporciona informació sobre com configurar les tarifes de cost per al treball al Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180690"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006099"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Configuració de les tarifes de cost de treball (bàsic)
 
@@ -38,7 +36,7 @@ La taula següent inclou alguns dels camps que són importants quan es creen tar
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transferència de preus i costos per als recursos fora de la vostra divisió o entitat jurídica
 
-En empreses basades en projectes, és habitual utilitzar empleats de diferents entitats jurídiques o divisions en projectes. Un projecte pot ser executat per una entitat jurídica, però els empleats o consultors que treballen en el projecte poden provenir de la mateixa entitat jurídica o d'una altra, o pot haver-hi una combinació de tots dos. Al Dynamics 365 Project Operations, l'entitat jurídica que és propietària del lliurament del projecte és l'**Empresa propietària** i la divisió que és propietària del lliurament és la **Unitat de contractació**. Altres entitats jurídiques que proporcionen recursos són **Empreses de recursos** i les divisions que proporcionen recursos són **Unitats de recursos**. En la majoria dels països, les empreses estan obligades a garantir que l'entitat jurídica o la divisió de recursos cobra a l'empresa propietària i a la unitat contractant per l'ús dels recursos.
+En empreses basades en projectes, és habitual utilitzar empleats de diferents entitats jurídiques o divisions en projectes. Un projecte pot ser executat per una entitat jurídica, però els empleats o consultors que treballen en el projecte poden provenir de la mateixa entitat jurídica o d'una altra, o pot haver-hi una combinació de tots dos. Al Dynamics 365 Project Operations, l'entitat legal propietària de la realització del projecte és l'**Empresa propietària** i la divisió propietària del lliurament és la **Unitat de contractació**. Altres entitats jurídiques que proporcionen recursos són **Empreses de recursos** i les divisions que proporcionen recursos són **Unitats de recursos**. En la majoria dels països, les empreses estan obligades a garantir que l'entitat jurídica o la divisió de recursos cobra a l'empresa propietària i a la unitat contractant per l'ús dels recursos.
 
 Per exemple, la corporació Fabrikam ha de garantir que Fabrikam India-robòtica tingui una targeta de tarifa de cost negociada amb Fabrikam US-robòtica o Fabrikam UK-robòtica.
 
@@ -82,3 +80,6 @@ En la llista de preus de cost per a Fabrikam UK-robòtica, les tarifes de cost e
 | Desenvolupador | Fabrikam UK | 115 GBP |
 
 La llista de preus de cost pot proporcionar les tarifes de treball en diverses monedes. Quan es generi una estimació de cost en el projecte, el Project Operations convertirà aquestes tarifes de cost en la moneda de projecte i les mostrarà a l'usuari. Quan s'aprova una entrada de temps i es crea un valor real de cost, el valor real de cost té el preu en la moneda d'aquesta línia de preu per funció coincident a la llista de preus de cost. Els valors reals de cost per temps en un sol projecte es poden registrar en diverses monedes. No obstant això, en consolidar o resumir els costos reals del treball a nivell de projecte, el Project Operations convertirà tots els imports de cost laboral en la moneda del projecte, que l'usuari pot veure.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

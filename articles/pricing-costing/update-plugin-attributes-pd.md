@@ -2,18 +2,16 @@
 title: Actualització dels atributs de complement amb noves dimensions de preus
 description: En aquest tema s'ofereix informació sobre com actualitzar atributs de complement per a les dimensions de preus.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643206"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988324"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Actualitzar els atributs de complement amb noves dimensions de preus
 
@@ -52,3 +50,6 @@ Completeu els passos següents per actualitzar i tornar a registrar els compleme
 7. Seleccioneu **D'acord** per tancar la pàgina i, a continuació, seleccioneu **Actualitza el pas**.
 8. Repetiu els passos del 2 al 7 per al segon complement **PreOperationQuoteLineDetail**. Per a aquest complement, heu d'actualitzar el pas **Actualització de msdyn_quotelinetransaction**.
 9. Tanqueu **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

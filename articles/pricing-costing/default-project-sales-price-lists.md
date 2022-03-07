@@ -2,18 +2,16 @@
 title: Llistes de preus per defecte
 description: Aquest tema proporciona informació sobre les llistes de preus de vendes i cost per defecte al Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130926"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989854"
 ---
 # <a name="default-price-lists"></a>Llistes de preus per defecte
 
@@ -21,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ## <a name="sales-price-lists"></a>Llistes de preus de venda
 
-Cada oferta i contracte del projecte al Dynamics 365 Project Operations conté una llista de preus de venda per defecte. 
+Cada oferta i contracte de projecte del Dynamics 365 Project Operations conté una llista de preus de venda per defecte. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Llista de preus per defecte en ofertes del projecte
 El sistema completa el següent procés per determinar quina és la llista de preus per defecte en una oferta de projecte:
@@ -57,3 +55,6 @@ Les llistes de preus de cost no tenen per defecte cap entitat al Project Operati
 5. A continuació, el sistema consulta la data d'efectivitat de les llistes de preus que coincideixen amb la data de la línia d'estimació o valor real d'entrada. 
 6. Si hi ha diverses llistes de preus que són efectives per a la data de l'estimació o els valors reals d'entrada, se selecciona la llista de preus creada més recentment.
 7. Si no hi ha llistes de preus de cost adjuntes als paràmetres del projecte que coincideixin amb la moneda i la data d'efectivitat, el sistema estableix per defecte la tarifa de cost a zero (0) en la línia d'estimació o valor real d'entrada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Membres de l'equip del projecte
 description: En aquest tema es proporciona informació sobre com treballar amb la informació dels membres d'un equip del projecte, els atributs i la planificació.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 273736219aff9c2ed4ffa8cf616d6ea656bd7294
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127416"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010909"
 ---
 # <a name="project-team-members"></a>Membres de l'equip del projecte
 
@@ -60,3 +58,6 @@ A la quadrícula de membres de l'equip es poden dur a terme les accions següent
 
 - **Nou**: a més d'afegir recursos directament des de la planificació, els administradors del projecte poden afegir nous membres de l'equip amb nom o genèrics.
 - **Suprimeix**: en seleccionar un o diversos membres de l'equip, l'administrador del projecte pot suprimir recursos que ja no participaran en el projecte. La supressió d'un membre de l'equip també suprimirà totes les assignacions de recursos associades i cancel·larà totes les reserves existents.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

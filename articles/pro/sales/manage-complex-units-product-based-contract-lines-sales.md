@@ -2,18 +2,16 @@
 title: Administració d'unitats complexes per a línies de contracte basades en productes (bàsic)
 description: Aquest tema proporciona informació sobre com admetre la venda de productes basats en subscripcions.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177364"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003354"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Administració d'unitats complexes per a línies de contracte basades en productes (bàsic)
 
@@ -46,3 +44,6 @@ Per crear factors de quantitat a partir de propietats de producte, completeu els
 7. Repetiu els passos 2-6 per a totes les propietats que constitueixen la quantitat de la línia de contracte basada en productes.
 
 Amb els factors de quantitat configurats, quan l'usuari crea una línia de contracte per a aquest producte, la quantitat de la línia de contracte està bloquejada. A continuació, la quantitat es calcula com un producte dels valors de propietat d'aquesta línia de contracte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

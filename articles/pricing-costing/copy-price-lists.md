@@ -2,24 +2,22 @@
 title: Còpia de les llistes de preus
 description: Aquest tema proporciona informació sobre com copiar les llistes de preus al Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181485"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003714"
 ---
 # <a name="copy-price-lists"></a>Còpia de les llistes de preus
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Podeu crear còpies de les llistes de preus al Dynamics 365 Project Operations. Per exemple, podeu crear llistes de preus per a l'any vinent utilitzant una llista de preus de l'any actual.  O bé podríeu copiar una llista de preus per a les tarifes de facturació i els preus de venda de les llistes de preus per al cost. 
+Podeu crear còpies de llistes de preus al Dynamics 365 Project Operations. Per exemple, podeu crear llistes de preus per a l'any vinent utilitzant una llista de preus de l'any actual.  O bé podríeu copiar una llista de preus per a les tarifes de facturació i els preus de venda de les llistes de preus per al cost. 
 
 Per fer una còpia de la llista de preus, completeu els següents passos.
 
@@ -43,3 +41,6 @@ Per fer una còpia de la llista de preus, completeu els següents passos.
 1. A les pestanyes **Funció**, **Categoria** i **Element de la llista de preus** d'una llista de preus, podeu seleccionar **Actualitza els preus** per aplicar un marge comercial per a tots els preus de la subquadrícula. 
 2. A la pàgina de diàleg que s'obre, introduïu un marge comercial. També podeu introduir un percentatge de marge comercial negatiu per reduir els preus en un determinat percentatge. 
 3. Seleccioneu **D'acord** a la pàgina de diàleg i després verifiqueu que els preus de la subquadrícula reflecteixin els canvis que heu fet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

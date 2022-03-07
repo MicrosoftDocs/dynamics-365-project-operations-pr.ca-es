@@ -2,18 +2,16 @@
 title: Valors per defecte de la dimensió financera
 description: Aquest tema proporciona informació sobre com configurar els valors predeterminats de les dimensions financeres.
 author: sigitac
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642351"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013294"
 ---
 # <a name="financial-dimension-defaults"></a>Valors per defecte de la dimensió financera
 
@@ -21,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-El Dynamics 365 Project Operations utilitza el marc de [dimensions financeres](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) del Dynamics 365 Finance per proporcionar informació addicional sobre les transaccions del subdiari del projecte i el diari general.
+El Dynamics 365 Project Operations utilitza el marc de [dimensions financeres](/dynamics365/finance/general-ledger/financial-dimensions) del Dynamics 365 Finance per proporcionar informació addicional sobre les transaccions del subdiari del projecte i el diari general.
 
 Les dimensions financeres predeterminades es poden establir en un client, font de finançament de projectes, fita, línia de contracte de projecte o projecte.
 
@@ -62,3 +60,6 @@ Els projectes es creen i es mantenen al CDS. Els atributs de comptabilitat dels 
 4. Definiu els valors per defecte de la dimensió financera. Tingueu en compte que les dimensions financeres provenen per defecte del compte de client. Si el projecte està associat a una línia de contracte amb diversos clients del contracte del projecte, el client principal s'utilitza per obtenir les dimensions financeres per defecte.
 
 Les dimensions financeres per defecte del projecte s'utilitzen per definir els valors per defecte de la línia de diari per a les transaccions de temps, despeses i càrrecs al **Diari d'integració del Project Operations** i a les línies de factura del projecte relacionades.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

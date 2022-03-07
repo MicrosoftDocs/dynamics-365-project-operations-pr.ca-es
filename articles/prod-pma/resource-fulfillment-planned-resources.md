@@ -2,11 +2,9 @@
 title: Compliment de recursos per a recursos planificats
 description: Aquest tema proporciona informació sobre els recursos planificats per a un projecte.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072383"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989494"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Compliment de recursos per a recursos planificats
 
@@ -40,3 +38,6 @@ Un administrador de projectes pot planificar les funcions de recursos necessàri
 7. Seleccioneu un treballador i, després, **Assigna**.
 8. Verifiqueu que s'hagi suprimit la línia **Desenvolupador de programari 1** per al projecte **Fase 2 del projecte d'actualització d'XYZ**.
 9. A la pestanya **Equip del projecte i planificació**, per al projecte **Fase 2 d'actualització d'XYZ**, comproveu que el treballador que heu seleccionat al pas anterior s'hagi afegit com a **Desenvolupador de programari**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

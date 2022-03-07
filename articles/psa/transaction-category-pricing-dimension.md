@@ -2,12 +2,10 @@
 title: Utilitzar una categoria de transacció com a dimensió de preus
 description: En aquest tema es proporciona informació sobre l'ús d'una categoria de transacció com a dimensió de preu.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150746"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988834"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilitzar una categoria de transacció com a dimensió de preus
 
@@ -53,3 +51,6 @@ La taula següent és una llista exhaustiva dels formularis i les visualitzacion
 2. A la pàgina **Paràmetres**, a la pestanya **Dimensions de preus basades en l'import**, observeu que la quadrícula de la pestanya mostra els registres de l'entitat **Dimensions de preus**.
 3. Afegiu **Categoria de la transacció** a aquesta llista i definiu els camps **Aplicable al cost** i **Aplicable a la venda** com a **Sí**.
 4. Al camp **Tipus de dimensió**, seleccioneu **Basada en la quantitat** i, a continuació, seleccioneu la prioritat per a la **Categoria de transacció** relacionada amb el cost i les vendes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

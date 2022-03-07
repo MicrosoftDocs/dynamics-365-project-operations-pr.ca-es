@@ -2,8 +2,6 @@
 title: Proposar recursos de projecte
 description: Aquest tema proporciona informació sobre la proposta de recursos del projecte.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147506"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997949"
 ---
 # <a name="propose-project-resources"></a>Proposar recursos de projecte
 
@@ -113,3 +111,6 @@ Com que el Dynamics 365 Project Service Automation utilitza el motor del Univers
 Per visualitzar més detalls d'un recurs individual, feu-hi clic amb el botó dret per obrir la targeta de recursos.
 
 ![Targeta de recursos](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 0fde833ad6b13fc12b733d1aa9f3bba0cfd95b2b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273052"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Administració de diversos clients a les línies d'ofertes basades en projectes (bàsic)
 
@@ -43,3 +43,6 @@ La taula següent mostra els camps del registre del client d'oferta d'una línia
 Podeu editar els percentatges de divisió de facturació en línia. Quan els percentatges de divisió de la facturació no sumen un total de 100%, es produeix un error. Després d'editar els percentatges de divisió de la facturació, actualitzeu la pàgina de la línia d'oferta per suprimir l'error.
 
 Utilitzeu l'acció de distribució uniforme a la subquadrícula de clients de la línia d'oferta per assignar les divisions de facturació a tots els clients de la línia d'oferta. Si hi ha un factor d'arrodoniment, s'afegirà al client d'arrodoniment. Un dels clients de la línia d'oferta sempre està etiquetat com a client d'arrodoniment, la qual cosa vol dir que el registre de client de la línia d'oferta té la marca definida com a **Sí**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Trobeu el pròxim projecte amb l'aplicació Project Finder Mobile
 description: Com trobar el pròxim projecte amb l'aplicació Project Finder Mobile per al Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149261"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990754"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Trobeu el pròxim projecte amb l'aplicació Project Finder Mobile (Project Service)
 
@@ -40,12 +38,15 @@ Amb l'aplicació Project Finder Mobile del vostre telèfon [!INCLUDE[tn_iphone](
   
  Premeu la fletxa que apareix a la part superior del projecte en el que esteu interessats per veure més informació i subscriure-us.  
   
- ![Llista de projectes coincidents amb les habilitats a l'aplicació Cercador de projectes](../psa/media/project-service-project-finder-list.png "Llista de projectes coincidents amb les habilitats a l'aplicació Cercador de projectes")  
+ ![Llista de projectes coincidents amb les habilitats a l'aplicació Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Llista de projectes coincidents amb les habilitats a l'aplicació Cercador de projectes")  
   
 ## <a name="update-your-skills"></a>Actualitza les aptituds  
  Premeu el botó del perfil que apareix a la part inferior dreta de la pantalla per actualitzar les aptituds i els nivells de competència.  
   
- ![Botó PErfil a l'aplicació mòbil Cercador de projectes](../psa/media/project-service-project-finder-profile.png "Botó PErfil a l'aplicació mòbil Cercador de projectes")  
+ ![Botó Perfil a l'aplicació Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Botó PErfil a l'aplicació mòbil Cercador de projectes")  
   
 ### <a name="see-also"></a>Vegeu també  
  [Guia de temps, despeses i col·laboració](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

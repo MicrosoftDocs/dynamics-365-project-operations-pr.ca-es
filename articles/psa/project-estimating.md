@@ -2,8 +2,6 @@
 title: Ingressos i costos del projecte
 description: En aquest tema es proporciona informació sobre l'estimació dels costos i dels ingressos del projecte.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148316"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002544"
 ---
 # <a name="project-costs-and-revenue"></a>Ingressos i costos del projecte
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148316"
 
 Les estimacions de projecte proporcionen informació visual financera del treball que està previst i planificat a la planificació del projecte. A la pestanya **Estimacions** de la pàgina **Projectes** es mostra l'impacte dels costos i dels ingressos del treball que esteu planejant. També proporciona informació sobre moltes de les dimensions predefinides. 
 
-> ![Pestanya Estimacions](media/project-5.png)
+> ![Pestanya Estimacions.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Cost i valors de les vendes del projecte
 
@@ -68,13 +66,13 @@ Si el sistema no troba cap preu per a la funció, el preu de vendes a la línia 
 
 La pestanya **Estimacions** té una visualització de quadrícula que mostra les línies d'estimació. La quadrícula inclou columnes per a la unitat, el preu de cost total i el preu total de venda, com es mostra a la il·lustració següent. 
 
-> ![Visualització de quadrícula de la pestanya Estimacions](media/project-6.png)
+> ![Visualització de quadrícula de la pestanya Estimacions.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Visualització per temps de les estimacions del projecte
 
 La visualització per temps d'estimacions del projecte mostra les dades d'estimacions de la visualització de quadrícula a la cronologia, en una escala de temps que seleccioneu. Per defecte, les dades d'estimacions se centren en la dimensió **Funció**.
 
-> ![Visualització per temps de les estimacions del projecte](media/project-7.png)
+> ![Visualització per temps de les estimacions del projecte.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Assignació d'estimació d'esforç basat en el mode de tasca
 
@@ -97,3 +95,6 @@ A la visualització de quadrícula i a la visualització per temps, podeu selecc
 ## <a name="expense-estimates"></a>Estimacions de despeses
 
 El botó **Afegeix un valor d'estimació de despeses** a la quadrícula us permet registrar les despeses que s'han generat en el projecte, però que no estan directament relacionades amb el treball. Podeu registrar les estimacions de la despesa per a una tasca concreta o per a tot el projecte. Seleccioneu les categories de despeses i la data provisional en què espereu generar la despesa. Si la llista de preus de cost i la llista de preus de venda associades tenen preus per defecte (o percentatges de marge comercial definits per a les categories de despesa), s'introduiran automàticament a la línia d'estimació en el moment de l'associació.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

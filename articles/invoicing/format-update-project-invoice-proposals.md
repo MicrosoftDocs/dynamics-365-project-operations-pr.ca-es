@@ -2,18 +2,16 @@
 title: Administració de propostes de factura de projecte
 description: Aquest tema proporciona detalls sobre el processament de factures dels clients amb Project Operations per a escenaris basats en recursos/no en existències.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
-ms.translationtype: HT
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089209"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989899"
 ---
 # <a name="manage-project-invoice-proposals"></a>Administració de propostes de factura de projecte
 
@@ -80,7 +78,8 @@ Els valors **grup d'impostos de vendes** i **grup d'impostos de vendes d'element
     - **Client**: sempre serà per defecte el grup d'impostos de vendes de facturació del client.
     - **Cerca**: cercarà en totes les entitats d'aquesta llista i seleccionarà el primer valor disponible. La cerca s'inicia amb l'entitat **projecte**, llavors l'entitat **contracte del projecte** i, llavors, l'entitat **client**.
 
-- **El grup d'impostos sobre les vendes d'elements de preu fix** s'utilitza per establir per defecte el valor del camp **Grup d'impostos sobre les vendes d'elements**.
+- El **Grup d'impostos sobre les vendes d'elements de fites de preu fix** s'utilitza com a valor per defecte al camp **Grup d'impostos sobre les vendes d'elements** per a la fita de facturació. El comptable pot revisar i modificar aquest valor a la pàgina **Transaccions en compte**. El sistema utilitza el valor de la transacció a compte en crear una línia de factura de projecte de factura.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensions financeres
 
@@ -132,7 +131,7 @@ La pàgina **Formatació de les propostes de factura** permet que les transaccio
 
 L'administració d'impressió utilitza diferents fitxers d'informe per imprimir, especificar destinacions i personalitzar el text dels peus de pàgina per a la factura. L'administració d'impressió es pot configurar en el nivell del mòdul, però aquesta configuració es pot sobreescriure per a un client, un contracte o una proposta de factura específics. Per accedir a aquesta funció a la pàgina **Proposta de factura del projecte**, seleccioneu **Impressió** > **Administració d'impressió**.
 
-La configuració de l'administració d'impressió es visualitza com una visualització d'arbre, on cada nivell de node mostra els documents disponibles per ajustar-los. Podeu assignar còpies impreses personalitzades al mòdul, al client, al contracte o al nivell de document de proposta de factura. Per modificar la còpia impresa del document original, expandiu el node desitjat i seleccioneu **Element original**. Al camp **Format d'informe**, seleccioneu el format d'informe que voleu utilitzar per imprimir. Podeu utilitzar formats d'informe personalitzats mitjançant el [marc de l'administració de documents de l'empresa](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+La configuració de l'administració d'impressió es visualitza com una visualització d'arbre, on cada nivell de node mostra els documents disponibles per ajustar-los. Podeu assignar còpies impreses personalitzades al mòdul, al client, al contracte o al nivell de document de proposta de factura. Per modificar la còpia impresa del document original, expandiu el node desitjat i seleccioneu **Element original**. Al camp **Format d'informe**, seleccioneu el format d'informe que voleu utilitzar per imprimir. Podeu utilitzar formats d'informe personalitzats mitjançant el [marc de l'administració de documents de l'empresa](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Publicació de les propostes de factura
 
@@ -143,3 +142,6 @@ Per visualitzar la factura abans de publicar-la, desactiveu la casella de selecc
 A banda de la pàgina **Proposta de factura**, també es poden publicar propostes de factura per mitjà de l'execució de feina periòdica, **Publica propostes de factura**. Per trobar aquesta feina, aneu a **Administració i comptabilitat del projecte** > **Periòdiques** > **Factures de projecte** > **Publica propostes de factura**.
 
 En aquesta pàgina es mostren totes les propostes de factura preparades per publicar-les. Per planificar la publicació de propostes de factura, seleccioneu **Lot**. Definiu el **Paràmetre de processament per lots** en **Sí** i definiu la periodicitat del processament per lots seleccionant **Periodicitat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

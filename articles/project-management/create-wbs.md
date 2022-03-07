@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841307"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287001"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creació d'una estructura del desglossament del treball (WBS)
 
@@ -93,6 +93,8 @@ A la taula següent es mostren atributs de planificació addicionals.
 | Nom | El nom de la tasca. |
 | ID | L’identificador de la tasca a l’estructura del desglossament del treball. |
 
+Com a administrador, podeu definir camps personalitzats a l'entitat de la tasca. No obstant, els camps no es poden visualitzar a la quadrícula de planificació. Per veure els camps personalitzats, afegiu-los a la pàgina de detalls de la **Tasca del projecte**.
+
 ## <a name="staffing-attributes"></a>Atributs de personal
 
 Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o seleccionar **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.
@@ -116,3 +118,6 @@ El mode de la tasca no té cap efecte sobre les actualitzacions que es fan a la 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Dreceres de teclat i accessibilitat
 
 La graella **Planificació** és totalment accessible i es pot utilitzar amb lectors de pantalla com ara el Narrador, JAWS o NVDA. Podeu desplaçar-vos per l'àrea de la quadrícula mitjançant les tecles de fletxa (com al Microsoft Excel), podeu utilitzar la tecla de tabulació per avançar entre els elements de la interfície d'usuari interactius, i podeu utilitzar la tecla de fletxa avall, la tecla Enter o la barra espaiadora per seleccionar i obrir els menús desplegables.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

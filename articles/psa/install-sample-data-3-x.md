@@ -3,7 +3,6 @@ title: Instal·lació de les dades d'exemple
 description: Aquest tema proporciona informació sobre la instal·lació de les dades d'exemple al Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144491"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985534"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instal·lació de les dades d'exemple per a l'aplicació del Project Service
 
@@ -87,7 +86,7 @@ Heu de comptar amb que l'ordinador romangui connectat a una xarxa i que la insta
 L'ordinador hauria de tenir desactivada la funció de protector de pantalla. En cas contrari, si s'activa el protector de pantalla, es poden perdre les credencials de sessió de la instal·lació (a menys que mantingueu activa la vostra sessió).
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla de la configuració del protector de pantalla, amb el protector de pantalla desactivat](media/sample-data-1.png)
+> ![Captura de pantalla de la configuració del protector de pantalla, amb el protector de pantalla desactivat.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Descarregar i desempaquetar
 
@@ -143,13 +142,13 @@ El paquet de dades de demostració requereix sis usuaris. Per instal·lar correc
 3. Obriu **PkgFolder** i, a continuació, cerqueu i obriu **ImportUserMapFile.xml**. Actualitzeu els camps **Nou=** per a les adreces de correu electrònic dels usuaris corresponents al sistema.
 
    > [!div class="mx-imgBorder"]
-   > ![Captura de pantalla de l'UserMapFile](media/sample-data-7.png)
+   > ![Captura de pantalla de l'UserMapFile.](media/sample-data-7.png)
 
 4. Si el nom complet de l'usuari "Spencer Low" té un identificador d'usuari diferent a **"spencerl"**, heu d'actualitzar un fitxer addicional. Obriu **DemoDataPreImportConfig.xml** i cerqueu l'etiqueta **userstocreateandconfigure**. Actualitzeu l'etiqueta **\<login\>** amb el loginId (distingeix les majúscules de les minúscules). 
 
 5. El calendari del primer usuari (a l'etiqueta **userstocreateandconfigure**) s'utilitza per emplenar les hores de feina de tots els recursos que es poden reservar en la importació de les dades de demostració. Aneu a **Configuració** > **Seguretat** > **Usuaris**, busqueu l'usuari "Spencer Low" i obriu l'opció "Hores de feina". Editeu les hores de feina existents, seleccioneu l'opció **Tota la planificació setmanal periòdica de principi a fi**. Assegureu-vos que **les hores de feina estan definides de 8:00 a 17:00 (9 hores), de dilluns a divendres i amb la zona horària definida com a hora del Pacífic (EUA i Canadà)**. Aquesta acció és necessària per garantir que el tauler de projecte i planificació es mostri correctament.
 
-**Recomanació**: penseu a crear una còpia de seguretat de la vostra organització en aquest moment, per si necessiteu tornar al punt d'inici si alguna cosa surt malament durant la instal·lació de les dades d'exemple. Per obtenir més informació, consulteu [Restaurar i realitzar còpies de seguretat d'instàncies](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recomanació**: penseu a crear una còpia de seguretat de la vostra organització en aquest moment, per si necessiteu tornar al punt d'inici si alguna cosa surt malament durant la instal·lació de les dades d'exemple. Per obtenir més informació, consulteu [Restaurar i realitzar còpies de seguretat d'instàncies](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Executeu l'Package Deployer
 
@@ -173,7 +172,7 @@ El paquet de dades de demostració requereix sis usuaris. Per instal·lar correc
 5. Seleccioneu **Següent** fins que vegeu el quadre de diàleg **Configura les dades de demostració**.
 
    > [!div class="mx-imgBorder"]
-   > ![Captura de pantalla de la finestra que mostra l'estat de l'instal·lador de les dades de demostració](media/sample-data-3.png)
+   > ![Captura de pantalla de la finestra que mostra l'estat de l'instal·lador de les dades de demostració.](media/sample-data-3.png)
 
 6. Abans de continuar, tingueu en compte que la instal·lació de dades d'exemple pot trigar fins a una hora (normalment ~10 minuts). Haureu d'assegurar-vos que l'ordinador roman encès i connectat a una xarxa durant tot el procés d'instal·lació i que la vostra sessió roman activa.   
 
@@ -192,10 +191,10 @@ Després que les dades d'exemple es carreguin completament, inicieu la sessió c
 - Si s'ha instal·lat l'aplicació del Field Service, aneu al **Project Service** > **Configuració** > **Llistes de preus**. Confirmeu que els índexs de facturació i cost siguin correctes. Aneu al **Field Service** > **Configuració** > **Llistes de preus** i comproveu que les tarifes de facturació i cost tenen configurada la moneda adequada per a cada país/regió del conjunt de dades.
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de pantalla de les llistes de preus actives](media/sample-data-4.png)
+  > ![Captura de pantalla de les llistes de preus actives.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de pantalla de les unitats de organitzatives actives](media/sample-data-5.png)
+  > ![Captura de pantalla de les unitats de organitzatives actives.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Notes tècniques
 
@@ -296,4 +295,7 @@ Si heu de canviar l'horari laboral per obtenir recursos d'exemple que es poden r
 Seleccioneu un usuari (per exemple, Spencer Low) i canvieu-li l'horari laboral a les hores que voleu aplicar a diversos usuaris. Aneu a **Universal Resource Scheduling** > **Configuració** > **Plantilles d'hores de feina** i editeu el registre de **Plantilla de treball per defecte**. Al camp **Recursos de plantilla**, seleccioneu un usuari amb les hores de feina que voleu aplicar a altres recursos. Aneu a **Universal Resource Scheduling** > **Planificar** > **Recursos** > **Recursos que es poden reservar actius**. Seleccioneu els recursos que voleu canviar i, a continuació, seleccioneu **Establir calendari**. A la llista desplegable **Plantilla de treball**, seleccioneu la plantilla **Hores de feina per defecte** o una altra plantilla amb el recurs de plantilla correcte. Quan aneu al tauler de programació, heu de veure que ara els recursos tenen hores de feina actualitzades.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla de recursos actius que es poden reservar](media/sample-data-6.png)
+> ![Captura de pantalla de recursos actius que es poden reservar.](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

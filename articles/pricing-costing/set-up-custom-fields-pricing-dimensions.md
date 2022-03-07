@@ -2,11 +2,9 @@
 title: Configuració de camps personalitzats com a dimensions de preus
 description: En aquest tema, podreu obtenir informació sobre la configuració de dimensions de preus amb camps personalitzats.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
-ms.translationtype: HT
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650186"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003579"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configuració de camps personalitzats com a dimensions de preus
 
@@ -44,11 +42,11 @@ Per tal que un camp es converteixi en una dimensió de preus, ha de ser:
 
 - Creat com una fila a la taula **Dimensió de preus**. Per exemple, afegiu files de dimensió de preus com es mostra a la gràfica següent. 
 
-![Files de dimensions de preus basades en els imports](media/Amt-based-PD.png)
+![Files de dimensions de preus basades en els imports.](media/Amt-based-PD.png)
 
 Hores de treball del recurs (**msdyn_resourceworkhours**) s'afegeix com una dimensió basada en el marge comercial i s'ha afegit a la quadrícula a la pestanya **Dimensió de preus basada en el marge comercial**.
 
-![Files de dimensions de preus basades en el marge comercial](media/Markup-based-PD.png)
+![Files de dimensions de preus basades en el marge comercial.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -77,10 +75,10 @@ Hi ha dos tipus de dimensions de preus:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Hores extra                 |15     |
 |             | Contoso India|Local             |                    |Hores extra                 |10     |
-|             | Contoso EUA   |Local             |                    |Hores extra                 |20     |
+|             | Contoso US   |Local             |                    |Hores extra                 |20     |
 
 
-Si un recurs de Contoso India la tarifa base del qual és 100 USD treballa in situ, i registra 8 hores de temps normal i 2 hores de temps extra a l'entrada de temps, el motor de preus utilitzarà la tarifa base de 100 per a les 8 hores per registrar 800 USD. Per a les 2 hores extres, s'aplicarà un marge comercial del 15% a la tarifa base de 100 per obtenir un preu d'unitat de 115 USD i registrarà un cost total de 230 USD.
+Si un recurs de Contoso India la tarifa base del qual és 100 USD treballa in situ, i registra 8 hores de temps normal i 2 hores de temps extra a l'entrada de temps, el motor de preus utilitzarà la tarifa base de 100 per a les 8 hores per registrar 800 USD. Per a les 2 hores extres, s'aplicarà un marge comercial del 15% a la tarifa base de 100 per obtenir un preu d'unitat de 115 USD i registrarà un cost total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Aplicable al cost 
 Si està definit com a **Sí**, indica que el valor de la dimensió del context d'entrada s'ha d'utilitzar per coincidir amb **Preu per funció** i **Marge comercial del preu per funció** quan es recuperen les tarifes de costos i marge comercial.
@@ -96,3 +94,6 @@ Definir la prioritat de dimensions ajuda que es produeixi un preu encara que no 
 
 - **Prioritat de costos**: el valor d'una prioritat de costos d'una dimensió indicarà el pes d'aquesta dimensió el fer-la coincidir amb la configuració dels preus de cost. El valor de **Prioritat de cost** ha de ser únic en totes les dimensions **Aplicable al cost**.
 - **Prioritat de vendes**: el valor d'una prioritat de vendes d'una dimensió indicarà el pes d'aquesta dimensió el fer-la coincidir amb la configuració dels preus de vendes o tarifes de facturació. El valor de **Prioritat de vendes** ha de ser únic en totes les dimensions **Aplicable a les vendes**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

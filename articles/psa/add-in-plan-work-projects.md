@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 471d3c421cd9dc39a5864e37ef762b5d08e59762
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145931"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285516"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Planifiqueu el vostre treball al Microsoft Project amb el complement Project Service
 
@@ -242,3 +242,6 @@ A la taula següent es descriu la manera que se sincronitzen les dades d'entitat
 
 ### <a name="additional-resources"></a>Recursos addicionals
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

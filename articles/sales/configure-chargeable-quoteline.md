@@ -2,18 +2,16 @@
 title: Configuració dels components imputables d'una línia d'oferta basada en projecte
 description: Aquest tema proporciona informació sobre els components inclosos, els factuables i els que no es poden facturar, a les línies de l'oferta basada en projecte.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642531"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003984"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Configuració dels components imputables d'una línia d'oferta basada en projecte
 
@@ -53,3 +51,6 @@ Una estimació o un valor real creat per al una despesa només es considerarà i
 | No | Sí | No es pot establir | No imputable | Facturació en un valor real de temps: No disponible </br>Tipus de facturació en un valor real de despesa: No imputable |
 | Sí | No | Imputable | No es pot establir | Facturació en un valor real de temps: Imputable </br>Tipus de facturació en un valor real de despesa: No disponible |
 | Sí | No | No imputable | No es pot establir | Facturació en un valor real de temps: No imputable </br> Tipus de facturació en un valor real de despesa: No disponible |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

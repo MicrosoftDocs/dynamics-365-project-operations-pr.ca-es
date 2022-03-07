@@ -2,11 +2,9 @@
 title: Administració de les llistes de preus de projectes en una oferta
 description: Aquest tema proporciona informació sobre l'entitat Llista de preus del projecte.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003894"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Administració de les llistes de preus de projectes en una oferta
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-El Dynamics 365 Project Operations amplia l'entitat Llista de preus del Dynamics 365 Sales. 
+El Dynamics 365 Project Operations amplia l'entitat Llista de preus al Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Entitats clau
 
@@ -120,3 +118,6 @@ Com les tarifes de facturació, les tarifes de cost de recursos humans també es
     1. La llista de preus de cost adjunta a la unitat de l'organització.
     2. La llista de preus de cost adjunta als paràmetres del Project Operations. Com que les llistes de preus de cost en moltes monedes diferents poden adjuntar-se a paràmetres, es completa una coincidència de moneda de la unitat organitzativa del contractant del projecte, el contracte o l'oferta i la moneda de la llista de preus de cost.
     3. Per a les despeses, els mètodes de preus a partir del cost i de marge comercial sobre el cost no s'apliquen a les llistes de preus de cost. Fins i tot si aquests mètodes de preus s'utilitzen a les línies de llista de preus de cost per configurar els costos de categoria de la transacció, el sistema els ignora i no s'introdueix cap preu de cost per defecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

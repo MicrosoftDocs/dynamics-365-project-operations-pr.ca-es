@@ -2,18 +2,16 @@
 title: Distribucions en un informe de despeses
 description: Quan introduïu despeses en un informe de despeses, podeu distribuir-les entre diversos projectes, entitats jurídiques o comptes de l'organització.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8c0ee3b9b989c644ab429310d1e7b4ef4b600dc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e3e5faf6a0a4553ef19ded1e0a8cda386a51061
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120936"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002089"
 ---
 # <a name="distributions-on-an-expense-report"></a>Distribucions en un informe de despeses
 
@@ -30,3 +28,6 @@ Com que la Montse va treballar en dos projectes diferents mentre era a Frankfurt
 | Bitllet de tren   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Hotels        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Àpats        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

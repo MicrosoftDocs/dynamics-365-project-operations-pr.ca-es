@@ -2,8 +2,6 @@
 title: Estimacions
 description: Aquest tema proporciona informació sobre les estimacions al Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151421"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992374"
 ---
 # <a name="estimates"></a>Estimacions
 
@@ -85,24 +83,27 @@ Si heu afegit un camp personalitzat al detall de la línia d'oferta i voleu que 
 1. Obriu el PluginRegistrationTool i connecteu-vos a la instància en línia.
 2. Seleccioneu **Cerca** i cerqueu el complement que voleu actualitzar.
 
-    ![Quadre de diàleg Arbre de cerca](media/basic-guide-19.png)
+    ![Quadre de diàleg Arbre de cerca.](media/basic-guide-19.png)
 
 3. Seleccioneu el complement i, a continuació, a la pàgina principal, seleccioneu **Selecciona**.
 4. Seleccioneu el pas del complement que voleu actualitzar, feu clic amb el botó dret i, a continuació, seleccioneu **Actualitza**.
 
-    ![Seleccionar un pas en el complement](media/basic-guide-20.png)
+    ![Seleccionar un pas en el complement.](media/basic-guide-20.png)
 
 5. Al quadre de diàleg **Actualitza el pas existent**, al camp **Atributs de filtratge**, seleccioneu el botó de punts suspensius (**...**):
  
-    ![Quadre de diàleg Actualitza el pas existent](media/basic-guide-21.png)
+    ![Quadre de diàleg Actualitza el pas existent.](media/basic-guide-21.png)
 
 6. Al quadre de diàleg **Selecció d'atributs**, seleccioneu les caselles de selecció per als atributs personalitzats.
 
-    ![Quadre de diàleg Selecció d'atributs](media/basic-guide-22.png)
+    ![Quadre de diàleg Selecció d'atributs.](media/basic-guide-22.png)
 
 7. Seleccioneu **D'acord** per tancar el quadre de diàleg i, a continuació, seleccioneu **Actualitza el pas**.
  
-    ![Botó Actualitza el pas](media/basic-guide-23.png)
+    ![Botó Actualitza el pas.](media/basic-guide-23.png)
 
 8. Repetiu els passos de l'1 al 7 per al segon complement.
 9. Tanqueu el PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

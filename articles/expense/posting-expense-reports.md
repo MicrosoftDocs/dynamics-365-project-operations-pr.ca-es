@@ -2,11 +2,9 @@
 title: Publicació d'informes de despeses
 description: En aquest tema es descriu com comptabilitzar informes de despeses.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124266"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007674"
 ---
 # <a name="post-expense-reports"></a>Publicació d'informes de despeses
 
@@ -31,3 +29,6 @@ Si les despeses derivades d'un informe de despeses es cobren a una empresa difer
 Per comptabilitzar un informe de despeses, a la pàgina **Informes de despeses aprovats**, seleccioneu l'informe de despeses i, a continuació, a la subfinestra d'acció, seleccioneu **Comptabilitza**.
 
 També podeu comptabilitzar tots els informes de despeses a la llista alhora. Seleccioneu tots els informes de despeses i, a continuació, seleccioneu **Comptabilitza**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

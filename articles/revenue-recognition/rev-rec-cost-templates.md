@@ -2,18 +2,16 @@
 title: Configuració de plantilles de costos
 description: Aquest tema proporciona informació sobre com crear i utilitzar plantilles de costos a Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: f4a515db31a31028af4a60927ab360be6c261a3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642711"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013879"
 ---
 # <a name="set-up-cost-templates"></a>Configuració de plantilles de costos
 
@@ -79,3 +77,6 @@ Per crear plantilles de costos, seguiu aquests passos:
 7. A la pestanya **Categories**, seleccioneu les categories del projecte que voleu incloure a la línia de la plantilla de costos.
 8. A la pestanya **General**, seleccioneu si aquesta línia s'inclourà en el càlcul del percentatge completat.
 9. Seleccioneu el mètode de cost per completar que s'ha d'utilitzar per calcular el percentatge completat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

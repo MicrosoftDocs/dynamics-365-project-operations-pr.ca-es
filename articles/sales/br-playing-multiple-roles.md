@@ -2,18 +2,16 @@
 title: Estimació de les vendes i els costos del projecte quan un recurs que es pot reservar duu a terme diverses funcions en un projecte
 description: En aquest tema s'explica la manera d'utilitzar les dimensions de la fixació de preus i les estimacions de costos d'un recurs que duu a terme diverses funcions en un projecte.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531367"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990124"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimació de les vendes i els costos del projecte quan un recurs que es pot reservar duu a terme diverses funcions en un projecte 
 
@@ -106,3 +104,6 @@ Quan amplieu la fila d'aquest registre de membres de l'equip, podeu veure les as
 ### <a name="estimates-grid"></a>Quadrícula d’estimacions 
 
 A la quadrícula **Estimacions**, les dues assignacions del mateix recurs tenen un preu diferent. L'assignació del recurs a la **Tasca A** rep el preu en funció del valor de l'atribut **Funció** de **Cap de consultoria**. L'assignació del mateix recurs a la **Tasca B** rep el preu en funció del valor de l'atribut **Funció** de **Tècnic de xarxes**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

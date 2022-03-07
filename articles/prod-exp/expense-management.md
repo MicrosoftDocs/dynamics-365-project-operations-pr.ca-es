@@ -2,9 +2,11 @@
 title: Informació general sobre l'administració de despeses
 description: Aquest tema proporciona informació general sobre l'administració de despeses i enllaços a recursos addicionals. Podeu utilitzar l'administració de despeses per crear un flux de treball integrat on pugueu emmagatzemar la informació del mètode de pagament, importar transaccions de targetes de crèdit i fer un seguiment dels diners que els empleats gasten quan incorrin en despeses per a la vostra empresa.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fe9f763e18507fa232cb830f8e0b6852374b65b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7066a021390e3403c4312a7cfe8488a989b9aaa3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993539"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072372"
 ---
 # <a name="expense-management-overview"></a>Informació general sobre l'administració de despeses
 
@@ -35,7 +37,7 @@ Per a més informació, vegeu [Configurar l'administració de despeses](plan-exp
 
 ### <a name="whats-new-and-in-development"></a>Novetats i en desenvolupament
 
-Per veure quines noves característiques estan planificades, vegeu [Plans de llançament del Microsoft Dynamics 365](/dynamics365/release-plans/).
+Per veure quines noves característiques estan planificades, vegeu [Plans de llançament del Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158).
 
 #### <a name="expense-report-entry"></a>Entrada d'informes de despeses
 
@@ -56,6 +58,3 @@ Hi ha ajuda addicional disponible com a guies de tasques. Per accedir a les guie
 ### <a name="videos"></a>Vídeos
 
 Doneu una ullada als vídeos que ara estan disponibles al [Canal de YouTube del Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948363"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277821"
 ---
 # <a name="manage-project-based-opportunities"></a>Administració d'oportunitats basades en projectes
 
@@ -64,7 +64,7 @@ El procés de vendes d'oportunitats al Project Operations és una extensió del 
 >
 > Si el vostre acord basat en projectes va començar amb una oportunitat, el procés de venda d'oportunitat té prioritat.
 
-Podeu editar el flux del procés de negoci del producte o crear els vostres propis fluxos del procés de negoci per fer un seguiment del vostre procés de vendes segons sigui necessari. Per obtenir més informació sobre el flux del procés de negoci, vegeu [Informació general dels fluxos del procés de negoci](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Podeu editar el flux del procés de negoci del producte o crear els vostres propis fluxos del procés de negoci per fer un seguiment del vostre procés de vendes segons sigui necessari. Per obtenir més informació sobre el flux del procés de negoci, vegeu [Informació general dels fluxos del procés de negoci](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

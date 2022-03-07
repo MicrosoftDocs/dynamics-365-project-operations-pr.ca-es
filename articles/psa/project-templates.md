@@ -2,8 +2,6 @@
 title: Plantilles de projecte
 description: En aquest tema es proporciona informació sobre com utilitzar les plantilles de projecte per a la configuració ràpida del projecte.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148046"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998264"
 ---
 # <a name="project-templates"></a>Plantilles de projecte 
 
@@ -69,3 +67,6 @@ Quan copieu diverses línies d'estimació del projecte, les llistes de preus s'a
 ### <a name="copying-a-project-team"></a>Copiar un equip de projecte
 
 En copiar un equip de projecte de la plantilla de projecte al projecte, es copien els recursos genèrics, juntament amb les aptituds i les competències definides a la plantilla. Les assignacions de recursos genèrics també es mantenen com estaven a la plantilla de projecte. Els recursos amb nom no són compatibles amb les plantilles de projecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181695"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278091"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Treballar amb línies de contracte basades en projectes
 
@@ -57,3 +57,6 @@ Regla: un projecte i una classe de transacció determinada només es poden inclo
 | C1       | CL2           | P1      | No           | Sí             | No          | Vàlid           | El temps i els càrrecs del projecte P1 s'inclouen a CL1. La despesa en el projecte P1 s'inclou a CL2. </br>   No hi ha superposició en el que s'inclou en cada línia de contracte i, per tant, és vàlid.  |
 | C1       | CL1           | P1      | Sí          | Sí             | Sí         | No és vàlid       | Infringeix la regla. El temps, les despeses i els càrrecs del projecte P1 s'inclouen en les línies dels dos contractes.                                                                                               |
 | CL2      | CL2           | P1      | Sí          | Sí             | Sí         | No és vàlid       | Infringeix la regla. El temps, les despeses i els càrrecs del projecte P1 s'inclouen en les línies dels dos contractes.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Conceptes clau
 description: En aquest tema s'enllaça a informació sobre els conceptes clau de l'administració de recursos al Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147731"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995074"
 ---
 # <a name="key-concepts"></a>Conceptes clau
 
@@ -48,3 +46,6 @@ A la taula següent es defineixen els conceptes clau que s'utilitzen a l'aplicac
 | Perfil                    | Tasca, requisit o assignació d'hores a mesura que es descomponen en una distribució diària. Per exemple, una tasca de 5 dies i 40 hores es pot contar en vuit hores al dia durant cinc dies. |
 | Visualització de conciliació        | Visualització que mostra les reserves i totes les assignacions de cada membre de l'equip del projecte. Aquesta visualització permet que l'administrador del projecte busqui qualsevol error de coincidència entre reserves i assignacions i prendre mesures correctives si es produeix una acció errònia. |
 | Hores de feina                 | Entitat que s'utilitza per identificar la capacitat de recursos, i les hores hàbils i no hàbils. Aquesta entitat també s'anomena calendari de recursos. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

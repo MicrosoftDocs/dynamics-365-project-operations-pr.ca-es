@@ -2,28 +2,26 @@
 title: Pàgina d'inici d'assignació de recursos a projectes
 description: Aquest tema proporciona informació sobre l'assignació de recursos a projectes.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 82022
+ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072198"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369454"
 ---
 # <a name="project-resourcing-home-page"></a>Pàgina d'inici d'assignació de recursos a projectes
 
@@ -49,9 +47,12 @@ Els següents temes proporcionen informació sobre les tasques que s'han de comp
 - [Configuració dels recursos del projecte](set-up-project-resources.md)
 - [Administració de competències de recursos](manage-resource-competencies.md)
 - [Crear un projecte nou](create-new-project.md)
-- [Configurar els preus basats en funcions](set-up-role-based-pricing.md)
+- [Configuració dels preus basats en funcions](set-up-role-based-pricing.md)
 - [Creació d'un equip de projecte](create-project-team.md)
 - [Sincronització de la capacitat dels recursos](synchronize-resource-capacity.md)
 - [Rendiment de planificació dels recursos del projecte](project-scheduling-performance.md)
 - [Configurar funcions a les plantilles d'estructura del desglossament del treball](set-up-roles-wbs-template.md)
 - [Compliment de recursos per a recursos planificats](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

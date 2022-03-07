@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128045"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287766"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Creació d'una factura proforma manual
 
@@ -30,7 +30,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 La facturació proporciona als administradors de projectes un segon nivell d'aprovació abans de crear factures per a clients. El primer nivell d'aprovació es completa quan s'aproven les entrades de temps i de despesa que envien els membres de l'equip del projecte.
 
-El Dynamics 365 Project Operations no està dissenyat per generar factures de cara al client, pels motius següents:
+El Dynamics 365 Project Operations no està dissenyat per generar factures per a clients, pels motius següents:
 
 - No conté informació tributària.
 - No pot convertir altres monedes en la moneda de facturació mitjançant tipus de canvi configurats correctament.
@@ -111,3 +111,6 @@ Quan es confirma una factura correctiva, es reverteix el valor real de vendes fa
 
 - Un valor de vendes facturades durant sis hores.
 - Un valor de vendes no facturades per a les dues hores restants. Aquesta transacció es pot facturar més tard o marcar com a no imputable, en funció de les negociacions amb el client.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

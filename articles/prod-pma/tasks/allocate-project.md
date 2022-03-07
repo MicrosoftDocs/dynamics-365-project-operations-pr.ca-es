@@ -2,11 +2,9 @@
 title: Assignar un pressupost de projecte o una revisió del pressupost entre períodes
 description: Aquest procediment mostra com assignar imports pressupostaris del projecte entre períodes.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b332be67ffdab0156997eb223d8a31af6ced3ef
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e35330d1cbddea41dac7e215350252470b610a52bb05b245d7794a37415dcd3c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072270"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989359"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Assignar un pressupost de projecte o una revisió del pressupost entre períodes
 
@@ -44,3 +42,6 @@ Després d'assignar una revisió pressupostària o un pressupost, podeu revisar 
 10. Quan l'assignació sigui com voleu, feu clic a Envia a la pàgina Pressupost del projecte per enviar les revisions del pressupost o el pressupost al flux de treball d'aprovació.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

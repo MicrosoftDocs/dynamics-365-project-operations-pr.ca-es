@@ -2,11 +2,9 @@
 title: Creació d'estimacions en una línia d'oferta
 description: En aquest tema es proporciona informació sobre com crear una estimació en una línia d'oferta d'un projecte.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122916"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996424"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Creació d'estimacions en una línia d'oferta
 
@@ -88,3 +86,6 @@ Si heu afegit un camp personalitzat al detall de la línia d'oferta i voleu que 
 7. Seleccioneu **D'acord** per tancar el quadre de diàleg i, a continuació, seleccioneu **Actualitza el pas**.
 8. Repetiu els passos de l'1 al 7 per al segon complement.
 9. Tanqueu el PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

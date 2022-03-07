@@ -2,18 +2,16 @@
 title: Versions d'assignació de doble escriptura del Project Operations
 description: En aquest tema es proporciona la llista d'assignacions de doble escriptura necessàries per al Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938950"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547097"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versions d'assignació de doble escriptura del Project Operations
 
@@ -34,40 +32,40 @@ Les assignacions següents són els requisits previs necessaris per a la soluci�
 
 1. A la llista d'assignacions, seleccioneu l'assignació Llibre major **(msdyn\_ledgers)** amb tots els requisits previs i activeu la casella de selecció **Sincronització inicial**. Al camp **Patró per a la sincronització inicial**, seleccioneu **aplicacions del Finance and Operations** tant per a l'assignació del llibre de comptabilitat com per a totes les assignacions de requisits previs. Seleccioneu **Executa**.
 
-![Sincronització de l'assignació de llibres majors](media/DW6.png)
+![Sincronització de l'assignació de llibres majors.](media/DW6.png)
 
-1. Seguiu els mateixos passos per a totes les assignacions de taula restants enumerades a la taula anterior. No activeu la casella de selecció **Sincronització inicial** en executar aquestes assignacions.
+2. Seguiu els mateixos passos per a totes les assignacions de taula restants enumerades a la taula anterior. No activeu la casella de selecció **Sincronització inicial** en executar aquestes assignacions.
 
 ## <a name="project-operations-dual-write-maps"></a>Assignacions de doble ecriptura del Project Operations
 
-Les assignacions següents són necessàries per a una solució del Project Operations.
+Les assignacions següents són necessàries per a una solució del Project Operations. Les versions d'un mapa amb doble escriptura es mostren a partir de l'actualització del maig del 2021 del Project Operations, la versió 4.10.0.186.
 
 | **Assignació d'entitats** | **Versió més recent** | **Sincronització inicial** |
 | --- | --- | --- |
 | Entitat d'integració per a les relacions de transaccions del projecte (msdyn\_transactionconnections) | 1.0.0.0 | No és necessari per al proveïment. |
 | Capçaleres de contracte del projecte (comandes de vendes) | 1.0.0.1 | No és necessari per al proveïment. |
 | Línies de contracte del projecte (salesorderdetails) | 1.0.0.0 | No és necessari per al proveïment. |
-| Origen del fons del projecte (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | No és necessari per al proveïment. |
+| Origen del fons del projecte (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | No és necessari per al proveïment. |
 | Taula d'integració del Project Operations per a estimacions de materials (msdyn\_estimatelines) | 1.0.0.0 | No és necessari per al proveïment. |
-| Propostes de factura del projecte V2 (factures) | 1.0.0.2 | No és necessari per al proveïment. |
+| Propostes de factura del projecte V2 (factures) | 1.0.0.3 | No és necessari per al proveïment. |
 | Valors reals d'integració del Project Operations (msdyn_actuals) | 1.0.0.14 | No és necessari per al proveïment. |
-| Fites de línia de contracte d'integració del Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | No és necessari per al proveïment. |
-| Entitat d'integració del Project Operations per a l'estimació de despeses (msdyn_estimateslines) | 1.0.0.2 | No és necessari per al proveïment. |
+| Fites de línia de contracte d'integració al Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | No és necessari per al proveïment. |
+| Entitat d'integració del Project Operations per a estimacions de despeses (msdyn_estimatelines) | 1.0.0.2 | No és necessari per al proveïment. |
 | Entitat d'integració del Project Operations per a l'estimació d'hores (msdyn_resourceassignments) | 1.0.0.5 | No és necessari per al proveïment. |
-| Entitat d'exportació de categories de despeses del projecte d'integració del Project Operations (msdyn_expensecategories) | 1.0.0.2 | No és necessari per al proveïment. |
+| Entitat d'exportació de categories de despeses del projecte d'integració del Project Operations (msdyn_expensecategories) | 1.0.0.1 | No és necessari per al proveïment. |
 | Entitat d'exportació de despeses del projecte d'integració del Project Operations (msdyn_expenses) | 1.0.0.2 | No és necessari per al proveïment. |
 | Entitat d'exportació de factura del proveïdor del projecte de la integració del Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | No és necessari per al proveïment. |
-| Entitat d'exportació de la línia de factura del proveïdor del projecte de la integració del Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.0 | No és necessari per al proveïment. |
+| Entitat d'exportació de la línia de factura del proveïdor del projecte de la integració del Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | No és necessari per al proveïment. |
 | Funcions de recurs del projecte per a totes les empreses (bookableresourcecategories) | 1.0.0.1 | Requereix una sincronització inicial perquè l'assignació de taules sincronitzi les funcions de recurs de l'administrador de projectes i del membre de l'equip que s'han emplenat a l'entorn del Dataverse del Dynamics 365 el proveïment. El Dataverse és l'origen principal de la sincronització inicial. |
 | Tasques del projecte (msdyn_projecttasks) | 1.0.0.4 | No és necessari per al proveïment. |
 | Categories de transacció del projecte (msdyn_transactioncategories) | 1.0.0.0 | No és necessari per al proveïment. |
-| Projectes V2 (msdyn_projects) | 1.0.0.1 | No és necessari per al proveïment. |
+| Projectes V2 (msdyn_projects) | 1.0.0.2 | No és necessari per al proveïment. |
 
 Completeu els passos següents per executar les assignacions enumerades.
 
 1. Habiliteu les funcions de recurs de projecte per a l'assignació de taules de **totes les empreses (bookableresourcecategories)**, ja que aquesta assignació necessita la sincronització inicial. Al camp **Patró per a la sincronització inicial**, seleccioneu **Common data service**. 
 
- ![Sincronització d'assignació de taules de funció de recurs](media/6ResourceInitialSync.jpg)
+ ![Sincronització d'assignació de taules de funció de recurs.](media/6ResourceInitialSync.jpg)
 
  Espereu fins que l'estat de l'assignació sigui **S'està executant** abans de passar al pas següent.
 

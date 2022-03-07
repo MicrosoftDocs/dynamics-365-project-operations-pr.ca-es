@@ -2,8 +2,6 @@
 title: Personalitzar l'entrada de temps setmanal
 description: En aquest tema es proporciona informació sobre com implementar regles de negoci personalitzades que segueixin les pràctiques d'una organització.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,20 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149621"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002274"
 ---
-# <a name="customize-weekly-time-entry"></a>Personalitzar l'entrada de temps setmanal 
+# <a name="customize-weekly-time-entry"></a>Personalització de l'entrada de temps setmanal 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-A la versió 3.3 del Microsoft Dynamics 365 Project Service Automation, Microsoft ha presentat una moderna xarxa que permet que els recursos de projecte introdueixin ràpidament les hores fins a una setmana a la vegada. La nova quadrícula d'entrada de temps setmanal pot mostrar els totals per a les entrades per data, per fila o per setmana. Els recursos poden fer còpies d'entrades de temps dins de la setmana i també copiar de manera massiva des de setmanes anteriors. Els personalitzadors del sistema poden personalitzar la visualització afegint-hi camps, afegint cerques a altres entitats i implementant regles de negoci personalitzades per segueixin les pràctiques de l'organització.
+A la versió 3.3 del Microsoft Dynamics 365 Project Service Automation, Microsoft ha presentat una moderna quadrícula que permet que els recursos de projecte introdueixin ràpidament les hores de fins a tota una setmana. La nova quadrícula d'entrada de temps setmanal pot mostrar els totals per a les entrades per data, per fila o per setmana. Els recursos poden fer còpies d'entrades de temps dins de la setmana i també copiar de manera massiva des de setmanes anteriors. Els personalitzadors del sistema poden personalitzar la visualització afegint-hi camps, afegint cerques a altres entitats i implementant regles de negoci personalitzades per segueixin les pràctiques de l'organització.
 
 A l'entrada de temps i la nova quadrícula de temps setmanal s'hi accedeix a través del mapa del lloc. L'experiència d'entrada de temps personalitzada no extensible que formava part de versions del PSA anteriors ha estat substituïda per la quadrícula d'entrada de temps setmanal extensible i també per una experiència alternativa a la quadrícula i el calendari només de lectura. A causa d'aquest canvi, els usuaris poden introduir l'hora en quantitats setmanals.
 
@@ -132,3 +130,6 @@ Heu d'utilitzar validacions de complements per a totes les validacions que reque
 
 > [!IMPORTANT] 
 > Actualment, un problema conegut a les pàgines de TBX impedeix que els usuaris puguin corregir la informació i tornar a seleccionar Fet quan una actualització falla una validació de complements. Com a solució alternativa, configureu les validacions de regles de negocis per evitar aquesta situació en la mesura del possible.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

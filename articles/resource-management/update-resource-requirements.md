@@ -2,18 +2,16 @@
 title: Editar un requisit de recursos
 description: En aquest tema es proporciona informació sobre l'actualització de la informació dels requisits dels recursos.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128766"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999754"
 ---
 # <a name="edit-a-resource-requirement"></a>Editar un requisit de recursos
 
@@ -37,3 +35,5 @@ Com a administrador de projectes, seguiu els passos següents per editar el requ
 ## <a name="edit-resource-assignment-contours"></a>Editar els contorns de l'assignació de recursos
 
 A banda d'editar els detalls dels requisits dels recursos, un administrador de projectes pot actualitzar els contorns individuals del requisit del recurs mitjançant la funcionalitat **Especifica un patró**. Quan seleccioneu **Especifica un patró**, s'obre una pàgina i es poden visualitzar els contorns a escala de dia, setmana o mes. Cada contorn es pot ajustar per a l'hora d'inici, l'hora d'acabament i l'esforç total en un període determinat.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

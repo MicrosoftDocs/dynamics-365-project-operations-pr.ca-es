@@ -1,23 +1,23 @@
 ---
-title: Actualització d'un projecte
+title: Crear i actualitzar un projecte
 description: En aquest tema es proporciona informació sobre l'actualització de projectes al Project Operations.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993359"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678337"
 ---
-# <a name="update-a-project"></a>Actualització d'un projecte
+# <a name="create-and-update-a-project"></a>Crear i actualitzar un projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-A continuació, es mostra un resum dels camps que es poden actualitzar en un projecte després d'haver-lo creat i altres implicacions aplicables a les actualitzacions.
+El següent és un resum dels camps que es poden actualitzar en un projecte un cop s'ha creat. Això també inclou les implicacions aplicables a partir d'aquestes actualitzacions.
 
 ## <a name="project-detail-fields"></a>Camps de detalls del projecte
 
@@ -25,8 +25,8 @@ A continuació, es mostra un resum dels camps que es poden actualitzar en un pro
 - **Descripció**: informació general del projecte.
 - **Client**: empresa a la qual es lliurarà el projecte.
 - **Plantilla de calendari**: hores de treball del projecte. Quan el camp canvia, es torna a calcular la planificació sencera.
-- **Moneda**: moneda per al projecte. Aquest camp té com a valor per defecte la moneda definida a la unitat de contractació. Quan la unitat de contractació s'actualitza, el camp també s'actualitza.
-- **Unitat de contractació**: unitat organitzativa que representa el grup d'empreses o la divisió que s'encarrega principalment de guanyar la venda i administrar el lliurament de treballs i serveis al client. 
+- **Moneda**: moneda per al projecte. El valor per defecte d'aquest camp es basa en la moneda que s'ha definit a la unitat de contracte. Quan la unitat de contractació s'actualitza, el camp també s'actualitza.
+- **Unitat de contractació**: unitat organitzativa que representa el grup d'empreses o la divisió que s'encarrega principalment de guanyar la venda i administrar el lliurament de treballs i serveis al client.  Quan la unitat organitzativa del gestor de projectes no està definida, aquest camp per defecte té el valor definit als paràmetres del projecte.
 - **Administrador del projecte**: membre de l'equip del projecte que té l'autoritat de revisar i aprovar les entrades de temps i les despeses.
 
 ## <a name="estimate-fields"></a>Camps d'estimació

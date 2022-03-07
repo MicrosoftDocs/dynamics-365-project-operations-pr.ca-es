@@ -2,11 +2,9 @@
 title: Administració de competències de recursos
 description: En aquest tema s'ofereix informació sobre la configuració de competències per a recursos del projecte.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270621"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007404"
 ---
 # <a name="manage-resource-competencies"></a>Administració de competències de recursos
 
@@ -31,7 +29,7 @@ ms.locfileid: "5270621"
 
 Les competències de recursos són una part essencial de l'administració de recursos. Les competències poden utilitzar-se com a línia de base per determinar els recursos que tenen l'equilibri correcte de destreses, formació, certificació i experiència de projectes. Heu de configurar aquesta informació per a cada recurs i actualitzar-la periòdicament. D'aquesta manera, podeu maximitzar la capacitat quan les competències de recursos específiques coincideixin durant l'assignació de recursos del projecte.
 
-[![Exemples d'habilitats, certificacions, formació i experiència de projectes](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Exemples d'habilitats, certificacions, formació i experiència de projectes.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 En els procediments següents s'explica com es configuren algunes de les competències d'un recurs.
 

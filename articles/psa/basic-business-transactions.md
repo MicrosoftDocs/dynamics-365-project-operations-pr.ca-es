@@ -2,8 +2,6 @@
 title: Transaccions empresarials
 description: En aquest tema es proporciona informació les transaccions empresarials.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149891"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987514"
 ---
 # <a name="business-transactions"></a>Transaccions empresarials
 
@@ -90,7 +88,7 @@ En conjunt, Origen de la transacció i Connexió de la transacció us ajudaran a
 
 A l'exemple següent es mostra el processament típic de les entrades de temps en un cicle de vida de projecte del PSA.
 
-> ![Processament d'entrades de temps en un cicle de vida del Project Service](media/basic-guide-17.png)
+> ![Processament d'entrades de temps en un cicle de vida del Project Service.](media/basic-guide-17.png)
  
 1. La presentació d'una entrada de temps provoca la creació de dues línies de llibre diari: una per a un cost i una per a les vendes no facturades.
 2. L'aprovació final de la entrada de temps provoca la creació de dos valors reals: un per a un cost i un per a les vendes no facturades.
@@ -149,3 +147,6 @@ A la taula següent es mostren els registres de l'entitat Connexió de la transa
 | Correcció d'esborrany de factura       | GUID de transacció de la línia de factura | Reemplaçament          | msdyn_invoicelinetransaction | GUID de vendes facturades            | Original           | msdyn_actual       |
 | Correcció de confirmació de factura     | GUID de la reversió de vendes facturades    | Reversió          | msdyn_actual                 | GUID de vendes facturades            | Original           | msdyn_actual       |
 | GUID del valor real de vendes no facturades nou | Reemplaçament                     | msdyn_actual       | GUID de vendes facturades            | Original                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

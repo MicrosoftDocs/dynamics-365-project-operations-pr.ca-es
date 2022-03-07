@@ -2,8 +2,6 @@
 title: Conciliar reserves i assignacions
 description: Aquest tema proporciona informació sobre els valors reals.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147911"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995119"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Conciliar reserves i assignacions
 
@@ -53,11 +51,11 @@ En alguns casos, quan el camp **Escala de temps** està definit a un nivell supe
 
 Quan visualitzeu el temps en nivells superiors, la pestanya **Conciliació** mostra un indicador a les cel·les per informar-vos que hi ha diferències en nivells de temps inferiors. Per exemple, en la il·lustració següent, un indicador de cel la apareix a la cel·la per al mes d'octubre de 2018 per al recurs que s'anomena Gabriela Magrinyà. Per tant, podeu veure que, tot i que les reserves i assignacions del recurs són iguals quan s'agreguen a nivell de **Mes**, no coincideixen en els nivells inferiors.
 
-![Reserves i assignacions no coincidents al nivell mensual](media/reconcile-assignments-01.JPG)
+![Reserves i assignacions no coincidents al nivell mensual.](media/reconcile-assignments-01.JPG)
 
 Feu doble clic en una cel·la per apropar-vos al nivell inferior següent i visualitzar la diferència. Per exemple, si feu doble clic a la diferència d'octubre de 2018 per a la Gabriela Magrinyà, baixareu fins al nivell de **Setmana**. Llavors podeu veure que el recurs té reserves de 16 hores però cap assignació la primera quinzena d'octubre i 16 hores d'assignacions però cap reserva la tercera setmana d'octubre.
 
-![Reserves i assignacions no coincidents al nivell setmanal](media/reconcile-assignments-02.JPG)
+![Reserves i assignacions no coincidents al nivell setmanal.](media/reconcile-assignments-02.JPG)
 
 Podeu fer clic amb el botó dret en una cel·la per allunyar el nivell superior següent. També podeu desactivar l'indicador de la cel·la seleccionant el botó **Configuració**. 
 
@@ -70,13 +68,13 @@ Per garantir un resultat precís i predictible quan utilitzeu Amplia la reserva,
 
 - L'usuari ha de configurar el fus horari del dispositiu perquè coincideixi amb el fus horari definit a la Configuració de personalització del sistema.
  
-  ![Configuració de fus horari al Windows 10](media/reconcile-assignments-03.png)
+  ![Configuració de fus horari al Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Configuració del fus horari a la Configuració de personalització](media/reconcile-assignments-04.png)
+  ![Configuració del fus horari a la Configuració de personalització.](media/reconcile-assignments-04.png)
  
 - El Recurs reservable ha de tenir com a mínim un minut de temps de treball que se solapi amb els contorns que s'utilitzen per definir l'extensió sol·licitada. Per exemple, a l'exemple següent es mostra una revisió de recursos amb hores de feina que cauen entre les 9:00 h i les 19:00 h. 
 
-  ![Comparativa de contorns de recursos](media/reconcile-assignments-05.png)
+  ![Comparativa de contorns de recursos.](media/reconcile-assignments-05.png)
 
 La taula següent mostra:
 
@@ -85,19 +83,22 @@ La taula següent mostra:
 - Recurs B: aquest recurs es troba en un fus horari diferent del projecte i, per tant, s'inicia a les 7:00 h en el seu fus horari. No obstant això, les reserves començaran a partir de 9:00 h, que és la primera hora d'inici del contorn d'assignació.
 - Recursos C i D: els recursos també es troben en fusos horaris diferents, diferents entre si i el projecte, i les seves reserves no comencen abans que les hores d'inici disponibles respectives.
 
-|Entitat  |Calendari  |
+|Entity  |Calendari  |
 |-|-|
-|Plantilla de calendari de projecte   | ![calendari de projecte](media/reconcile-assignments-06.png) |
-|Recurs A  | ![Calendari del recurs A](media/reconcile-assignments-06.png) |
-|Recurs B  |  ![Calendari del recurs B](media/reconcile-assignments-07.png) |
-|Recurs C  |  ![Calendari del recurs C](media/reconcile-assignments-08.png) |
-|Recurs D  | ![Calendari del recurs D](media/reconcile-assignments-09.png)  |
+|Plantilla de calendari de projecte   | ![calendari de projecte.](media/reconcile-assignments-06.png) |
+|Recurs A  | ![Calendari del recurs A.](media/reconcile-assignments-06.png) |
+|Recurs B  |  ![Calendari del recurs B.](media/reconcile-assignments-07.png) |
+|Recurs C  |  ![Calendari del recurs C.](media/reconcile-assignments-08.png) |
+|Recurs D  | ![Calendari del recurs D.](media/reconcile-assignments-09.png)  |
  
 Quan navegueu a la visualització de conciliació, es visualitzaran les assignacions de recursos i les manques de reserva associades.
- ![Visualització de conciliació abans de l'ampliació](media/reconcile-assignments-10.png)
+ ![Visualització de conciliació abans de l'ampliació.](media/reconcile-assignments-10.png)
 
 Després d'executar la característica Amplia la reserva en cada recurs, les reserves s'amplien correctament per a cada recurs. Això és degut a que les hores de feina de cada recurs es solapen amb els contorns de la manca.
- ![Visualització de conciliació després de l'ampliació de la reserva](media/reconcile-assignments-11.png) 
+ ![Visualització de conciliació després de l'ampliació de la reserva.](media/reconcile-assignments-11.png) 
 
 No obstant, una visualització més detallada de les reserves mostra diferències en l'hora d'inici de les reserves. Les reserves no començaran abans que l'hora d'inici del contorn d'assignació i ni abans de l'hora d'inici disponible del recurs.
- ![Noves reserves dels recursos al tauler de planificació](media/reconcile-assignments-12.png)
+ ![Noves reserves dels recursos al tauler de planificació.](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

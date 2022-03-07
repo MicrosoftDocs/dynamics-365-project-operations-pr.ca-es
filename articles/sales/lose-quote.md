@@ -2,18 +2,16 @@
 title: Còpia d'ofertes basades en projectes
 description: En aquest tema es proporciona informació sobre com copiar ofertes basades en projectes al Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181800"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992149"
 ---
 # <a name="copy-project-based-quotes"></a>Còpia d'ofertes basades en projectes
 
@@ -45,3 +43,6 @@ Quan seleccioneu **D'acord** a la pàgina de diàleg, el sistema crea una còpia
 > - Referència del projecte a les línies d'oferta basades en el projecte: informació pressupostària del client
 >
 >Com que aquesta informació és molt específica per a cada oferta, aquests camps i registres no es copien. Les línies d'oferta per als projectes i els productes, les estimacions sobre els detalls de la línia d'oferta i els valors que no voleu superar en el nivell d'oferta es copien. Els valors de preus i les tarifes depenen de l'opció **Copia els preus** seleccionada a la pàgina de diàleg **Paràmetres de la còpia**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

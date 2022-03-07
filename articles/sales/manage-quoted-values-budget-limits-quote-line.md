@@ -1,6 +1,6 @@
 ---
-title: Informació general de les línies d'oferta de projecte
-description: Aquest tema proporciona informació sobre l'ús de les línies d'oferta del projecte per al treball del projecte.
+title: Informació general de les línies d'oferta basades en projectes
+description: En aquest tema s'ofereix informació sobre l'ús de línies d'oferta basades en projectes per al treball del projecte.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858011"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181845"
 ---
-# <a name="project-quote-lines-overview"></a>Informació general de les línies d'oferta de projecte
+# <a name="project-based-quote-lines-overview"></a>Informació general de les línies d'oferta basades en projectes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
@@ -34,7 +34,7 @@ A la taula següent es proporciona informació sobre els camps de la pestanya **
 | **Camp** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- |
 | Nom | Nom de la línia d'oferta que hauria d'ajudar-vos a identificar el component discret de l'oferta que s'està estimant. | Es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Mètode de facturació | En una oferta creada a partir d'una oportunitat, aquest valor es copia des del camp corresponent a la línia d'oportunitat. Aquest camp inclou els dos models de contracte principals compatibles amb el Dynamics 365 Project Operations:</br>- Preu fix</br>- Temps i material.| El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
+| Mètode de facturació | En una oferta creada a partir d'una oportunitat, aquest valor es copia des del camp corresponent a la línia d'oportunitat. Aquest camp inclou els dos models principals de contractació admesos pel Dynamics 365 Project Operations:</br>- Preu fix</br>- Temps i material.| El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
 | Project | Utilitzeu aquest camp opcional per identificar el projecte que s'utilitzarà per lliurar el treball en aquesta interacció. Quan un projecte s'assigna a una línia d'oferta, ajuda amb la creació de tasques imputables i també amb l'aportació d'una estimació basada en projectes a la línia d'oferta com a detalls de la línia d'oferta. Quan un projecte no està assignat a una línia d'oferta basada en projectes, la estimació s'ha de crear manualment creant cada detall de la línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
 | Inclou el temps | Una marca **Sí**/**No** indica si les transaccions de temps o els costos de treball del projecte seleccionat s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **No** indica que les transaccions de temps o els costos de treball no s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **Sí** indica que les transaccions de temps o els costos de treball s'inclouran a l'estimació en aquesta línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
 | Inclou la despesa | Una marca **Sí**/**No** indica si els costos de despesa del projecte seleccionat s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **No** indica que el cost de despesa no s'inclourà a l'estimació en aquesta línia d'oferta. Un valor **Sí** indica que el cost de despesa s'inclourà a l'estimació en aquesta línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
@@ -635,6 +635,3 @@ No és vàlid </p>
     </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

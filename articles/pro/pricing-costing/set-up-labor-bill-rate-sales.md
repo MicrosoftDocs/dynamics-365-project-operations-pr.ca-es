@@ -2,24 +2,22 @@
 title: Configuració de les tarifes de la factura de treball (bàsic)
 description: Aquest tema proporciona informació sobre la configuració de tarifes de facturació de treball al Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181164"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007584"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Configuració de les tarifes de la factura de treball (bàsic)
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Cada llista de preus té un conjunt de preus per funció o tarifes de treball que són efectives per al context i la data d'efectivitat inclosos a la capçalera de la llista de preus. Les tarides de facturació per temps al Dynamics 365 Project Operations es poden establir en una única moneda, que és la moneda a la capçalera de la llista de preus.
+Cada llista de preus té un conjunt de preus per funció o tarifes de treball que són efectives per al context i la data d'efectivitat inclosos a la capçalera de la llista de preus. Les tarifes de facturació per al temps al Dynamics 365 Project Operations es poden configurar només en una moneda, que és la moneda de la capçalera de la llista de preus.
 
 1. Per establir les tarifes de facturació del treball per a una llista de preus de venda, creeu una llista de preus basada en la capçalera de la llista de preus. 
 2. A la pestanya **Preus per funció**, a la subquadrícula, seleccioneu **+ Preu per funció nou**. 
@@ -55,3 +53,6 @@ Per exemple, un desenvolupador de Fabrikam India que treballa en un projecte del
     | Desenvolupador | Fabrikam US | 150 USD |
 
 3. Adjunteu la llista de preus de venda, **Tarifes de facturació de Fabrikam US** a la llista de preus del projecte del contracte o a un compte determinat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

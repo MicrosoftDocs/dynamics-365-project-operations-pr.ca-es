@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0188258a7d3c0e1644ae6db051995e6e02bcbf58
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150161"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282096"
 ---
 # <a name="time-entry-calendar"></a>Calendari d'entrades de temps
 
@@ -42,3 +42,6 @@ El calendari no admet accions sobre els elements de calendari individuals i no e
 ## <a name="extensibility"></a>Capacitat d'ampliació
 
 A la pàgina **Entrades de temps** que tingui la quadrícula d'entrada de temps, podeu afegir camps personalitzats, configurar camps de cerca i crear visualitzacions personalitzades. També podeu configurar la lògica empresarial personalitzada que es basi en els valors seleccionats o introduïts als camps personalitzats.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Resolució dels preus de cost per a les estimacions i els valors reals
 description: Aquest tema proporciona informació sobre com es resolen els preus de cost en les estimacions i els valors reals.
 author: rumant
-manager: Annbe
 ms.date: 04/09/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 13903acc22e765ddc5bc1b87428ef3565f2b0a44
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
-ms.translationtype: HT
+ms.openlocfilehash: f9a6c3236c1d523a967155d3f1fdbe05aa00001bcc36b38afd86270c4cd1d7cc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877300"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003669"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Resolució dels preus de cost per a les estimacions i els valors reals
 

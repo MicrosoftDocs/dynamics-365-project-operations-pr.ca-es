@@ -2,8 +2,6 @@
 title: Guia de l'usuari per al Centre de recursos de projecte
 description: Una guia per a l'usuari final per al Centre de recursos de projecte del Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948119"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987244"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Guia de l'usuari per al Centre de recursos de projecte
 
@@ -54,28 +52,28 @@ Abans que pugueu començar a utilitzar l'aplicació del Centre de recursos de pr
 1.  Quan inicieu sessió a l'aplicació mòbil, veureu la pàgina MyApps amb una llista d'aplicacions a les quals podeu accedir. 
 2.  Seleccioneu el **centre de recursos de projecte**.
 
-![Seleccioneu una aplicació](media/chooseApp_1.png "Seleccioneu una aplicació")
+![Trieu una aplicació.](media/chooseApp_1.png "Seleccioneu una aplicació")
 
 **La barra de navegació**
 
-Utilitzeu la barra de navegació per accedir a la vostra àrea de treball, crear un registre nou, cercar o fer altres tasques. Per accedir a més ordres, toqueu el ![botó Més](media/MoreButton.png "Botó Més")
+Utilitzeu la barra de navegació per accedir a la vostra àrea de treball, crear un registre nou, cercar o fer altres tasques. Per accedir a més ordres, toqueu el ![botó Més.](media/MoreButton.png "Botó Més")
 
-![Barra de navegació](media/NavBar_2.png "Barra de navegació")
+![Barra de navegació.](media/NavBar_2.png "Barra de navegació")
 
 **Registres favorits i utilitzats recentment**
 
 Les seccions "Favorits" i "Utilitzats recentment" proporcionen un accés ràpid als registres, visualitzacions i escriptoris digitals. 
 
-- Per accedir a aquestes seccions, toqueu el botó **Menú** ![botó Menú](media/MenuButton.png "Botó Menú") a la barra de navegació i, a continuació, el botó **Preferits i recents** ![botó Preferits](media/FavButton.png "Botó Favorits").
+- Per accedir a aquestes seccions, toqueu el botó **Menú** ![botó Menú.](media/MenuButton.png "Botó Menú") a la barra de navegació i, a continuació, toqueu el botó **Preferits i recents** ![botó Preferits](media/FavButton.png "Botó Favorits").
 
 - Per ancorar un element com a favorit, toqueu l'àncora de la llista d'elements **Utilitzats recentment**. Aquesta acció ancora l'element i el mou a Favorits.
 
-  ![Elements favorits i recents](media/Favs_3.png "Elements favorits i recents")
+  ![Elements favorits i recents.](media/Favs_3.png "Elements favorits i recents")
  
-## <a name="enter-time"></a>Introduir l'hora
+## <a name="enter-time"></a>Entrada del temps
 Introduïu les hores com a mínim setmanalment, o segons la freqüència sol·licitada pels vostres administradors, per assegurar-vos que factureu i aboneu el crèdit correctament al vostres clients.
 
-1. Toqueu el ![botó Menú](media/MenuButton.png "Botó Menú") i, a continuació, **Entrades de temps**. S'obrirà el calendari.
+1. Toqueu el botó del menú ![botó Menú.](media/MenuButton.png "Botó Menú") i, a continuació, toqueu **Entrades de temps**. S'obrirà el calendari.
 
 2. Per veure el calendari de la setmana anterior o següent, toqueu el botó **Anterior** o **Següent**. Toqueu **Avui** per tornar a la setmana actual.
 

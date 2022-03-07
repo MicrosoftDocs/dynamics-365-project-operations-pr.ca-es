@@ -2,18 +2,16 @@
 title: Còpia dels contractes del projecte (bàsic)
 description: Aquest tema proporciona informació sobre la còpia dels contractes de projecte al Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181395"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006009"
 ---
 # <a name="copy-project-contracts---lite"></a>Còpia dels contractes del projecte (bàsic)
 
@@ -45,3 +43,6 @@ La informació següent no es copia del contracte d'**origen** al contracte de *
   - Informació del pressupost del client
 
 Com que aquesta informació és específica de cada contracte, aquests camps i registres no es copien. Es copien les línies de contracte per a projectes i productes, les estimacions en els detalls de la línia de contracte i els valors que no s'han de superar en el nivell del contracte. Els valors per defecte de la tarifa de preu i cost depenen de la selecció en el camp **Copia els preus** en el camp **Copia els paràmetres**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

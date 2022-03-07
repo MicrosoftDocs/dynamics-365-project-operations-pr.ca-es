@@ -2,8 +2,6 @@
 title: Línies d'oferta basades en productes
 description: En aquest tema es proporciona informació sobre les línies d'oferta basades en productes.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151241"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998489"
 ---
 # <a name="product-based-quote-lines"></a>Línies d'oferta basades en productes
 
@@ -82,3 +80,6 @@ Les propietats **Nombre d'usuaris** i **Nombre de mesos** es poden marcar com a 
 
 > ![Marcar Nombre d'usuaris i Nombre de mesos com a factors de qualitat](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

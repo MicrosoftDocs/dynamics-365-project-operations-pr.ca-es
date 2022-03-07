@@ -2,11 +2,9 @@
 title: Productes
 description: En aquest tema es proporciona informació sobre el catàleg de productes que podeu utilitzar per proporcionar informació als clients sobre els productes i els preus que ofereix l'organització.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121251"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986839"
 ---
 # <a name="products"></a>Productes
 
@@ -124,3 +122,6 @@ Per exemple, si hi ha les propietats següents:
 - **SKU de producte** 
 
 Les propietats **Nombre d'usuaris** i **Nombre de mesos** es poden marcar com a factors de quantitat per editar les propietats de la línia de productes. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74a8435464c8573ca831b7886f00c2695fd29827
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e2291515cc154fb5b34ca5802135791958bea1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072360"
 ---
 # <a name="configure-expense-management"></a>Configurar l'administració de despeses
+
+[!include [banner](../includes/banner.md)]
 
 Aquest tema descriu les consideracions i les decisions que heu de prendre durant el procés de planificació abans de configurar l'administració de despeses. A l'administració de despeses, es pot emmagatzemar informació sobre els mètodes de pagament, les sol·licituds de viatge, els informes de despeses, les normes, etc.
 
@@ -160,6 +162,3 @@ Mitjançant la creació de normes d'informe de despeses, podeu ajudar a la vostr
 - Quan venç la norma?
 - Quina és la regla de la norma?
 - Quin és el resultat de la regla de la norma?
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

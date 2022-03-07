@@ -1,29 +1,32 @@
 ---
-title: Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació
-description: En aquest tema es proporciona informació i exemples per utilitzar les API de planificació de projectes.
+title: Ús de les API de planificació per realitzar operacions amb entitats de Planificació
+description: En aquest tema es proporciona informació i exemples per utilitzar les API de Planificació.
 author: sigitac
-ms.date: 09/09/2021
+manager: Annbe
+ms.date: 04/27/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487673"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950792"
 ---
-# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació
+# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Ús de les API de planificació per realitzar operacions amb entitats de Planificació
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-
+> [!IMPORTANT] 
+> Algunes de les funcionalitats que s'indiquen en aquest tema estan disponibles com a part d'una versió preliminar. El contingut i la funcionalitat estan subjectes a canvis. 
 
 ## <a name="scheduling-entities"></a>Entitats de planificació
 
-Les API de planificació de projectes proporcionen la capacitat de crear, actualitzar i suprimir operacions amb **Entitats de planificació**. Aquestes entitats s'administren mitjançant el motor de Planificació del Projecte for the web. Les operacions de creació, actualització i supressió amb **Entitats de planificació** es van restringir a les versions anteriors del Dynamics 365 Project Operations.
+Les API de Planificació proporcionen la capacitat de crear, actualitzar i suprimir operacions amb **Entitats de planificació**. Aquestes entitats s'administren mitjançant el motor de Planificació del Projecte for the web. Les operacions de creació, actualització i supressió amb **Entitats de planificació** es van restringir a les versions anteriors del Dynamics 365 Project Operations.
 
-A la taula següent es proporciona una llista completa de les entitats de planificació de projectes.
+La taula següent proporciona una llista completa de les **Entitats de planificació**.
 
 | Nom de l’entitat  | Nom lògic de l’entitat |
 | --- | --- |
@@ -38,19 +41,19 @@ A la taula següent es proporciona una llista completa de les entitats de planif
 
 OperationSet és un patró d'unitat de treball que es pot utilitzar quan diverses sol·licituds que afecten la planificació s'han de processar dins d'una transacció.
 
-## <a name="project-schedule-apis"></a>API de planificació de projectes
+## <a name="schedule-apis"></a>API de Planificació
 
-A continuació es mostra una llista de les API de planificació de projectes actuals.
+A continuació es mostra una llista de les API de Planificació actuals.
 
 - **msdyn_CreateProjectV1**: aquesta API es pot utilitzar per crear un projecte. El projecte i el dipòsit per defecte del projecte es creen immediatament.
 - **msdyn_CreateTeamMemberV1**: aquesta API es pot utilitzar per crear un membre de l'equip del projecte. El registre del membre de l'equip es crea immediatament.
 - **msdyn_CreateOperationSetV1**: aquesta API es pot utilitzar per planificar diverses sol·licituds que s'han de fer dins d'una transacció.
-- **msdyn_PSSCreateV1**: aquesta API es pot utilitzar per crear una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació de creació.
-- **msdyn_PSSUpdateV1**: aquesta API es pot utilitzar per actualitzar una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació d'actualització.
-- **msdyn_PSSDeleteV1**: aquesta API es pot utilitzar per suprimir una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació de supressió.
+- **msdyn_PSSCreateV1**: aquesta API es pot utilitzar per crear una entitat. L'entitat pot ser qualsevol de les entitats de Planificació que admeten l'operació de creació.
+- **msdyn_PSSUpdateV1**: aquesta API es pot utilitzar per actualitzar una entitat. L'entitat pot ser qualsevol de les entitats de Planificació que admeten l'operació d'actualització.
+- **msdyn_PSSDeleteV1**: aquesta API es pot utilitzar per suprimir una entitat. L'entitat pot ser qualsevol de les entitats de Planificació que admeten l'operació de supressió.
 - **msdyn_ExecuteOperationSetV1**: aquesta API s'utilitza per executar totes les operacions dins del conjunt d'operacions determinat.
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Utilitzar API de planificació de projectes amb OperationSet
+## <a name="using-schedule-apis-with-operationset"></a>Ús de les API de Planificació amb OperationSet
 
 Com que els registres amb **CreateProjectV1** i **CreateTeamMemberV1** es creen immediatament, aquestes API no es poden utilitzar directament a **OperationSet**. Tanmateix, podeu utilitzar l'API per crear els registres necessaris, crear un **OperationSet** i, a continuació, utilitzar aquests registres creats a **OperationSet**.
 
@@ -256,7 +259,7 @@ Les taules següents defineixen els camps restringits de **Crear** i **Editar.**
 ## <a name="limitations-and-known-issues"></a>Limitacions i problemes coneguts
 A continuació es mostra una llista de limitacions i problemes coneguts:
 
-- Només els **Usuaris amb llicència del Microsoft Project** poden utilitzar les API de planificació de projectes. No les poden utilitzar:
+- Només poden utilitzar les API de Planificació els **Usuaris amb llicència del Microsoft Project**. No les poden utilitzar:
     - Usuaris de l'aplicació
     - Usuaris del sistema
     - Usuaris d'integració
@@ -265,12 +268,13 @@ A continuació es mostra una llista de limitacions i problemes coneguts:
 - Cada usuari només pot tenir un màxim de 10 **OperationSets** oberts.
 - El Project Operations actualment admet un màxim de 500 tasques totals en un projecte.
 - Actualment no hi ha estats d'error i registres d'error d'**OperationSet** disponibles.
+- Les API de Planificació es troben a la versió preliminar pública. Microsoft no admet l'ús d'aquestes d'aquestes API en un entorn de producció.
 - [Límits dels projectes i tasques](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Gestió d'errors
 
    - Per revisar els errors generats a partir dels conjunts d'operacions, aneu a **Configuració** \> **Integració de la planificació** \> **Conjunts d'operacions**.
-   - Per revisar els errors generats a partir del servei de planificació de projectes, aneu a **Configuració** \> **Integració de la planificació** \> **Registres d’errors de PSS**.
+   - Per revisar els errors generats a partir del servei de planificació del projecte, aneu a **Configuració** \> **Integració de la planificació** \> **Registres d'error de PSS**.
 
 ## <a name="sample-scenario"></a>Escenari d'exemple
 
