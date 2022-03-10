@@ -1,25 +1,23 @@
 ---
-title: Resolució dels preus de venda per a les estimacions i els valors reals (bàsic)
-description: Aquest tema proporciona informació sobre la resolució dels preus de venda en estimacions i valors reals.
+title: Resolució dels preus de venda per a les estimacions i els valors reals del projecte
+description: En aquest tema es proporciona informació sobre com es resolen els preus de venda de les estimacions i els valors reals del projecte.
 author: rumant
-manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 2152b3f59050482cab0d1c5940d6743f420206bfc90e034dc2d754df8bd513a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176734"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996064"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Resolució dels preus de venda per a les estimacions i els valors reals (bàsic)
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Resolució dels preus de venda per a les estimacions i els valors reals del projecte
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Quan els preus de venda en les estimacions i els valors reals es resolen al Dynamics 365 Project Operations, el sistema primer utilitza la data i la moneda de l'oferta del projecte o contracte relacionat per resoldre la llista de preus de vendes. Després de resoldre la llista de preus de vendes, el sistema resol la tarifa de vendes o de facturació.
+Quan els preus de venda de les estimacions i els valors reals es resolen al Dynamics 365 Project Operations, el sistema utilitza primer la data i la moneda de l'oferta o el contracte de projecte relacionats per resoldre la llista de preus de venda. Després de resoldre la llista de preus de vendes, el sistema resol la tarifa de vendes o de facturació.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Resolució de tarifes de vendes en línies de valors reals i estimacions per al temps
 
@@ -54,3 +52,15 @@ Després de resoldre una llista de preus per a les vendes, el sistema completa e
     | &nbsp; | Marge comercial sobre el cost | Aplicar un marge comercial tal com defineix la línia de preus de categoria a la tarifa de cost unitari del valor real de cost relacionat |
 
 4. Si el sistema no pot fer coincidir els valors dels camps **Categoria** i **Unitat**, la tarifa de vendes per defecte és zero (0).
+
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Resolució de percentatges de vendes de les línies de valor real i de previsió de materials
+
+A Project Operations, les línies d'estimació per a materials s'utilitzen per indicar els detalls de línia d'oferta i de línia de contracte per als materials i les línies de previsió de materials d'un projecte.
+
+Després de resoldre una llista de preus per a les vendes, el sistema completa els següents passos per obtenir el preu de venda per unitat per defecte.
+
+1. El sistema utilitza la combinació de camp **Producte** i **Unitat** de la línia de previsió perquè el material coincideixi amb les línies d'element de la llista de preus de la llista de preus resolta.
+2. Si el sistema troba una línia d'element de la llista de preus que té un percentatge de vendes per a la combinació de camps **Producte** i **Unitat** i el mètode de càlcul de preus és **Quantitat de moneda**, s'utilitza el preu de venda que s'especifica a la línia de la llista de preus.
+3. Si els valors dels camps **Producte** i **Unitat** no coincideixen, s'utilitza el percentatge de vendes zero per defecte.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

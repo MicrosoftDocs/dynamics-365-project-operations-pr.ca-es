@@ -2,10 +2,9 @@
 title: Informació general dels valors reals
 description: Aquest tema proporciona informació sobre els valors reals del projecte.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4a3424bed704243dfb5524fa541c3fcc0899e57
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285606"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992464"
 ---
 # <a name="actuals-overview"></a>Informació general dels valors reals
 
@@ -33,7 +32,7 @@ ms.locfileid: "5285606"
 
 Els valors reals són la quantitat de treball que s'ha completat en un projecte. Els valors reals del projecte es remunten als seus documents d'origen. Aquests documents d'origen inclouen entrades de temps, despeses i del llibre diari, i també factures.
 
-![Com es remunten els valors reals als documents d'origen](media/basic-guide-18.png)
+![Com es remunten els valors reals als documents d'origen.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Enviant una entrada de temps
 

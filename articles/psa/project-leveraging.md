@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998399"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995164"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimacions de vendes i projectes
 
@@ -35,11 +35,11 @@ Durant el procés de vendes, podeu crear estimacions de vendes mitjançant la vi
 
 Quan creeu una línia d'oferta basada en projectes, podeu crear un projecte nou o associar-ne un d'existent a la pàgina **Línia d'oferta**. 
 
-> ![Formulari de línia d'oferta](media/project-8.png)
+> ![Formulari de línia d'oferta.](media/project-8.png)
  
 Quan creeu un projecte nou a partir dels detalls de la línia d'oferta, podeu treure partit de les plantilles del projecte. Les plantilles de projecte són projectes model que representen plans de projecte estàndard i estimacions financeres que són típiques d'una organització. També poden representar exemplars de plans de projecte i estimacions de projectes anteriors.
 
-> ![Detalls de la línia d'oferta](media/project-9.png)
+> ![Detalls de la línia d’oferta.](media/project-9.png)
   
 Quan creeu el projecte a partir de l'oferta, el projecte s'associa automàticament a la línia d'oferta.
 

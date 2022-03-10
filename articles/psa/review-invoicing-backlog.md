@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008524"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006953"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Revisar el registre de facturació dels projectes i dels contractes del projecte
 
@@ -40,7 +40,7 @@ Els valors reals de vendes no facturades representen el registre de facturació 
 
 Per revisar el registre de facturació per temps i materials, aneu a **Vendes** \> **Facturació** \> **Registre de facturació de temps i material**. Seleccioneu tots els valors reals de vendes no facturades que estiguin preparats per a facturar i, a continuació, seleccioneu **Llest per facturar**. L'estat de facturació d'aquests valors reals canvia a **Llest per facturar**.
 
-![Registre de facturació de temps i material](media/TMBacklog.png)
+![Treball pendent de facturació de temps i material.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Revisar el registre de facturació de producte
 
@@ -48,7 +48,7 @@ Al PSA, quan un contracte de projecte té línies de contracte basades en produc
 
 Per revisar el registre d'entrada de facturació dels productes, aneu a **Vendes** \> **Facturació** \> **Registre de facturació de productes**. Seleccioneu totes les línies de vendes basades en productes que estiguin preparades per a facturar i, a continuació, seleccioneu **Llest per facturar**. L'estat de facturació d'aquestes línies canvia a **Llest per facturar**.
 
-![Registre de facturació de producte](media/ProductBacklog.png)
+![Treball pendent de facturació de producte.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Revisar les fites de facturació dels contractes de preu fix
 
@@ -56,7 +56,7 @@ Cada línia de contracte de projecte que té un mètode de facturació de preu f
 
 Per revisar les fites de facturació, aneu a **Vendes** \> **Facturació** \> **Fites de preu fix**. Seleccioneu totes les fites que estiguin preparades per a facturar i, a continuació, seleccioneu **Llest per facturar**. L'estat de facturació d'aquestes fites canvia a **Llest per facturar**.
 
-![Fites de preu fix](media/FPBacklog.png)
+![Fites de preu fix.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

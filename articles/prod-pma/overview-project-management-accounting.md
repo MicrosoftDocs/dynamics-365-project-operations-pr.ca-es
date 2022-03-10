@@ -2,28 +2,26 @@
 title: Informació general sobre l'administració de projectes i la comptabilitat
 description: La funcionalitat d'administració de projectes i comptabilitat pot utilitzar-se en diversos sectors per oferir un servei, produir un producte o aconseguir un resultat.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289762"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007494"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informació general sobre l'administració de projectes i la comptabilitat
 
@@ -36,14 +34,14 @@ Un projecte és un conjunt d'activitats dissenyades per oferir un servei, produi
 ## <a name="projects-across-industries"></a>Projectes entre sectors
 La funcionalitat d'administració de projectes i comptabilitat es pot utilitzar en diversos sectors, com es mostra a la il·lustració següent.
 
-[![Projectes entre sectors](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projectes entre sectors.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 En un centre de trucades, es pot utilitzar un cas per descriure el conjunt d'accions que cal dur a terme per resoldre una trucada. Les empreses de consultoria, com ara les organitzacions de gestió o de consultoria tècnica o agències de publicitat, fan referència a les seves activitats com a projectes. En màrqueting, una campanya representa un conjunt de treballs que s'han de lliurar. En la fabricació basada en projectes, una comanda de producció relaciona la feina que cal dur a terme per produir un producte acabat. Sigui com sigui, aquests projectes inclouen recursos, planificacions i costos, i la funcionalitat d'administració de projectes i comptabilitat pot ajudar en la planificació, l'execució i l'anàlisi d'aquests projectes.
 
 ## <a name="project-phases"></a>Fases del projecte
 Tot i que el flux del procés següent està dirigit a projectes externs, o a un projecte que s'ha completat per a un o més clients, la funcionalitat també s'aplica a projectes interns i només de cost. 
 
-![Les 3 fases d'un projecte](./media/3-stages-of-a-project.png) 
+![Les 3 fases d'un projecte.](./media/3-stages-of-a-project.png) 
 
 Com es mostra a la il·lustració precedent, l'administració de projectes i la comptabilitat es poden dividir en tres fases:
 
@@ -52,7 +50,7 @@ Com es mostra a la il·lustració precedent, l'administració de projectes i la 
 3.  Analitza
 
 ## <a name="initiate-the-project"></a>Iniciar el projecte
-Durant l'inici d'un projecte, es produeixen diversos processos clau. Podeu utilitzar un pressupost de projecte per comunicar el treball, les despeses i els materials previstos al client. Podeu registrar els terminis de facturació, els límits i els acords en un contracte de projecte. Podeu utilitzar una estructura del desglossament del treball (WBS) per planificar i estimar la feina. Podeu configurar previsions i pressupostos per guiar l'execució del projecte. A la il·lustració següent es mostra l'estructura d'un projecte.[![estructura d'un projecte](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durant l'inici d'un projecte, es produeixen diversos processos clau. Podeu utilitzar un pressupost de projecte per comunicar el treball, les despeses i els materials previstos al client. Podeu registrar els terminis de facturació, els límits i els acords en un contracte de projecte. Podeu utilitzar una estructura del desglossament del treball (WBS) per planificar i estimar la feina. Podeu configurar previsions i pressupostos per guiar l'execució del projecte. A la il·lustració següent es mostra l'estructura d'un projecte.[![estructura d'un projecte.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Creació d'ofertes del projecte
 
@@ -227,7 +225,7 @@ El tipus de projecte determina el procediment de facturació que s'ha d'aplicar.
 Abans de crear una factura de client per a un projecte, podeu crear una factura preliminar o una proposta de factura. En una proposta de factura, podeu seleccionar transaccions de projecte que s'inclouran a la factura d'un projecte. A continuació, podeu revisar les dades de la factura abans de comptabilitzar la factura del projecte i enviar-la al client o a una altra font de finançament. 
 
 
-Per obtenir més informació sobre com processar factures de projectes, vegeu [Facturació de projectes](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Per obtenir més informació sobre com processar factures de projectes, vegeu [Facturació de projectes](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular el cost per completar un projecte

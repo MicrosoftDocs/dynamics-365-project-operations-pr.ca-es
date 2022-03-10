@@ -2,18 +2,16 @@
 title: Projectes d'estimació d'ingressos de preu fix
 description: En aquest tema es proporciona informació sobre els ingressos de preu fix en projectes.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7cf4d7853f7fedaeeeba99bc589f39989b924423
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278901"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006414"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projectes d'estimació d'ingressos de preu fix 
 

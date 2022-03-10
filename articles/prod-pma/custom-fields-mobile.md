@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003007"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005739"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar camps personalitzats per a l'aplicació mòbil del Microsoft Dynamics 365 Project Timesheet a l'iOS i l'Android
 
@@ -153,13 +153,13 @@ Per als camps del tipus **Date**, aquesta propietat envia el valor de data del c
 
 A continuació es mostra una captura de pantalla de l'aplicació mòbil d'una creació d'entrades del full d'hores. Mostra els camps de fàbrica i un camp personalitzat a la secció "Entrada de temps" anomenat "Cadena de prova" amb un valor d'enumeració de "Segona opció" que ja s'ha definit.
 
-![Camp personalitzat de cadena de prova a l'aplicació](media/timesheet-entry.jpg)
+![Camp personalitzat de cadena de prova a l'aplicació.](media/timesheet-entry.jpg)
 
 
 
 A continuació es mostra una captura de pantalla de l'aplicació mòbil de l'usuari seleccionant una de les opcions de l'enumeració disponible per al camp personalitzat "Cadena de prova".  Les dues opcions són "Primera opció" i "Segona opció", que es mostren com a botons de selecció. La segona opció està seleccionada actualment.
 
-![Botons d'opció (botons de selecció) per al camp personalitzat Cadena de prova](media/enum-option.jpg)
+![Botons d'opció (botons de selecció) per al camp personalitzat Cadena de prova.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Tingueu en compte que els camps personalitzats no cal que tinguin registres de s
 
 A continuació es mostra una captura de pantalla del Visual Studio de l'arbre d'objectes de l'aplicació. Mostra una extensió de la taula TSTimesheetLine amb el camp TestLineString afegit com a camp personalitzat.
 
-![Cadena de línia](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Cadena de línia.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Utilitzar la cadena d'ordres en el mètode buildCustomFieldList de la classe TSTimesheetSettings per mostrar un camp a la secció d'entrada del full d'hores
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 A continuació es mostra una captura de l'aplicació mòbil de la pantalla d'un usuari visualitzant un full d'hores. El botó "Més informació" s'ha seleccionat a la cantonada superior dreta per mostrar l'opció "Visualitza més detalls".  
 
-![Ordre Visualitza més detalls](media/show-more.png)
+![Ordre Visualitza més detalls.](media/show-more.png)
 
 A continuació es mostra una captura de l'aplicació mòbil que mostra la secció "Més" d'un full d'hores. Un camp personalitzat anomenat "Relació d'ús d'aquest full d'hores (camp personalitzat calculat)" s'ha afegit a la secció de capçalera del full d'hores. Un valor només de lectura "0.667" es defineix en el camp personalitzat.
 
-![Secció Més](media/more-section.jpg)
+![Secció Més.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Ampliar la taula TSTimesheetTable perquè tingui un camp personalitzat
 
@@ -414,7 +414,7 @@ La lògica existent per a la funcionalitat del full d'hores al nivell de la base
 
 A la llista de paràmetres del projecte, podeu crear camps de només de lectura o ocults a l'aplicació mòbil. Definiu les opcions de la secció **Fulls d'hores mòbils** a la pestanya **Full d'hores** de la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**.
 
-![Paràmetres del projecte](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Paràmetres del projecte.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Canviar les activitats disponibles per a la selecció mitjançant extensions
 

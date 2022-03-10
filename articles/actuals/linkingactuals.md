@@ -2,19 +2,17 @@
 title: Enllaçar els valors reals als registres originals
 description: En aquest tema s'explica com enllaçar els valors reals amb els registres originals, com ara l'entrada de temps, l'entrada de despesa o els registres d'ús de materials.
 author: rumant
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852577"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991744"
 ---
 # <a name="link-actuals-to-original-records"></a>Enllaçar els valors reals als registres originals
 
@@ -79,7 +77,7 @@ En conjunt, **Origen de la transacció** i **Connexió de la transacció** us aj
 
 A l'exemple següent es mostra el processament típic de les entrades de temps en un cicle de vida de projecte del Project Operations.
 
-> ![Processament d'entrades de temps en un cicle de vida del Project Service](media/basic-guide-17.png)
+> ![Processament d'entrades de temps en un cicle de vida del Project Service.](media/basic-guide-17.png)
  
 1. La presentació d'una entrada de temps fa que es creïn dues línies de llibre diari: una per al cost i una altra per a les vendes no facturades.
 2. L'aprovació final de l'entrada de temps fa que es creïn dos valors reals: un per al cost i un altre per a les vendes no facturades.

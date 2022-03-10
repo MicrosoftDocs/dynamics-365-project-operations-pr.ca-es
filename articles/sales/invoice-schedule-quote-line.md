@@ -2,18 +2,16 @@
 title: Planificacions de facturació en línies d'oferta basades en projectes
 description: En aquest tema es proporciona informació sobre la creació e planificacions i fites de facturació per a línies d'oferta.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 506de5217de48814d6b8f03a10c7c8648c575198
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278271"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988594"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Planificacions de facturació en línies d'oferta basades en projectes
 

@@ -2,8 +2,6 @@
 title: Planificació i seguiment de projectes
 description: En aquest tema s'enllaça a informació sobre les la planificació i el seguiment al Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0dfd05f7f22d0f339bd2437bbd47009e92ebb72a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 4dafe76864ac873c596381324ab6865b1b3adc24a495d828b552e7ac459954b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072313"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985377"
 ---
 # <a name="project-planning-and-tracking"></a>Planificació i seguiment de projectes
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -43,3 +43,6 @@ S'ha suprimit l'enllaç PDF que abans es trobava en aquest tema i s'ha mogut el 
 
 > [!NOTE]
 > Aquest tema s'eliminarà en una futura actualització de la documentació. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,27 +2,25 @@
 title: Informació general del Project Service Automation
 description: En aquest tema es proporciona informació sobre la solució d'integració del Dynamics 365 Project Service Automation al Dynamics 365 Finance.
 author: ruhercul
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271071"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005874"
 ---
 # <a name="project-service-automation-overview"></a>Informació general del Project Service Automation
 
@@ -58,7 +56,7 @@ A la il·lustració següent es mostren les dades que se sincronitzen com a part
 > [!NOTE]
 > No totes les plantilles estan disponibles actualment. Les plantilles es publicaran a mesura que es completin.
 
-[![Integració del Project Service Automation amb el Finance](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Integració del Project Service Automation amb el Finance.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Requisits del sistema per al Finance
 

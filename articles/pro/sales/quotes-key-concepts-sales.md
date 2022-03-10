@@ -2,20 +2,18 @@
 title: 'Ofertes: conceptes clau (bàsic)'
 description: En aquest tema es proporciona informació sobre l'ús d'ofertes de projectes al Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 279e7dd47d3d61b02227b307a5833ca0bac66f4a774b5ff23cb69aac417e2f0e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272376"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009429"
 ---
-# <a name="quotes---key-concepts---lite"></a>Ofertes: conceptes clau (bàsic)
+# <a name="concepts-unique-to-project-quotes"></a>Conceptes únics per a ofertes de projecte
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 

@@ -2,19 +2,18 @@
 title: Informació general de les dimensions de preus
 description: En aquest tema, podreu obtenir informació sobre les dimensions de preus a Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275391"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001959"
 ---
 # <a name="pricing-dimensions-overview"></a>Informació general de les dimensions de preus
 
@@ -34,7 +33,7 @@ A causa d'això, hi ha dos tipus de valors de dimensió de preus disponibles:
 
 El Dynamics 365 Project Operations inclou de sèrie un conjunt de dimensions de preus per defecte. Podeu visualitzar aquestes dimensions de preus anant a **Project Operations** > **Paràmetres**. Al registre de paràmetre, a la pestanya **Dimensions de preus basades en l'import**, comproveu que la funció **msdyn_resourcecategory** i la unitat organitzativa de recursos **msdyn_organizationalunit** tinguin els camps **Aplicable a les vendes** i **Aplicable al cost** definits com a **Sí**. Amb aquests camps habilitats, podeu configurar el preu i el cost de cada combinació de funció i unitat organitzativa.
 
-![Captura de pantalla dels paràmetres del Project Service amb "Aplicable a les vendes" ressaltat](media/PS-OOB-parameters.png)
+![Captura de pantalla dels paràmetres del Project Service amb "Aplicable a les vendes" ressaltat.](media/PS-OOB-parameters.png)
 
 Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats. Per obtenir més informació, vegeu els temes següents. 
   
@@ -59,18 +58,18 @@ A l'exemple següent es mostren les tarifes de facturació que estan configurade
 
 **Tarifes de facturació d'exemple**
 
-| Funció        | Unitat organitzativa    |Unit      |Preu      |Moneda  |
+| Funció        | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolupador   | Contoso EUA  |Hour | 200|USD     |
-| Desenvolupador   | Contoso India |Hour|   112|USD     |
+| Desenvolupador   | Contoso US  |Hora | 200|USD     |
+| Desenvolupador   | Contoso India |Hora|   112|USD     |
 
 
 **Percentatge de costos d'exemple**
 
-| Banda de salari     | Unitat organitzativa    |Unit      |Preu      |Moneda  |
+| Banda de salari     | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
 | ----------------|-------------|----------|----------:|----------|
-| La meva empresa_banda1 | Contoso EUA  |Hour | 145|USD     |
-| La meva empresa_banda2 | Contoso India |Hour|   67|USD     |
+| La meva empresa_banda1 | Contoso US  |Hora | 145|USD     |
+| La meva empresa_banda2 | Contoso India |Hora|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

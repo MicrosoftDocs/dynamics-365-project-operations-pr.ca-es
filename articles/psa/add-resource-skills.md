@@ -2,8 +2,6 @@
 title: Afegir aptituds del recurs
 description: Com associar aptituds amb recursos al Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 44b3d3cbb36a00e7f07160b6216ead183bc32422
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 597a2b3ddffae4815092704faa2e17c2e3b6ba0be59bfe73a59a89a4fe506ede
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129621"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995524"
 ---
 # <a name="add-resource-skills-project-service"></a>Afegir aptituds de recursos (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -45,3 +45,6 @@ Els projectes dels clients requereixen una varietat de coneixements diferents pe
   
 ### <a name="see-also"></a>Vegeu també  
  [Definir recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

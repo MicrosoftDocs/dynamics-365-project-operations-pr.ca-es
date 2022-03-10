@@ -2,18 +2,16 @@
 title: Creació d'una estructura del desglossament del treball
 description: En aquest tema s'explica com es crea una estructura de desglossament del treball (WBS) que inclogui els controls bàsics de la nova interfície de planificació.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287001"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928603"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creació d'una estructura del desglossament del treball (WBS)
 
@@ -97,11 +95,11 @@ Com a administrador, podeu definir camps personalitzats a l'entitat de la tasca.
 
 ## <a name="staffing-attributes"></a>Atributs de personal
 
-Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o seleccionar **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.
+Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o seleccionar **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.  Quan cerqueu un recurs mitjançant el selector de recursos a la quadrícula de tasques, la visualització del tauler o el gantt, la cerca retorna els membres de l'equip del projecte existents o els recursos actius que es poden reservar.
 
 Els camps **Funció**, **Unitat de recursos** i **Nom del càrrec** s'utilitzen per descriure els requisits de dotació de la tasca. Aquests atributs de personal, juntament amb la planificació de tasques, s'utilitzen per trobar els recursos disponibles per fer aquesta tasca.
 
-   - **Funció**: especifiqueu el tipus de recurs necessari per fer la tasca.
+   - **Funció** : especifiqueu el tipus de recurs necessari per fer la tasca.,
    - **Unitat de recursos**: especifiqueu la unitat a la qual han d'assignar-se els recursos per a la tasca. Aquest atribut afecta l'estimació de costos i vendes per a la tasca si la tarifa de cost i de facturació del recurs es defineix a partir d'unitats de recursos.
    - **Nom del càrrec**: introduïu un nom amigable per al recurs genèric que serveixi com a contenidor per al recurs que en última instància farà la feina.
 
@@ -119,5 +117,27 @@ El mode de la tasca no té cap efecte sobre les actualitzacions que es fan a la 
 
 La graella **Planificació** és totalment accessible i es pot utilitzar amb lectors de pantalla com ara el Narrador, JAWS o NVDA. Podeu desplaçar-vos per l'àrea de la quadrícula mitjançant les tecles de fletxa (com al Microsoft Excel), podeu utilitzar la tecla de tabulació per avançar entre els elements de la interfície d'usuari interactius, i podeu utilitzar la tecla de fletxa avall, la tecla Enter o la barra espaiadora per seleccionar i obrir els menús desplegables.
 
+## <a name="project-limitations"></a>Limitacions del projecte 
+Heu de tenir en compte les limitacions següents si esteu utilitzant l'estructura del desglossament del treball al Project Operations. Aquests límits s'apliquen a projectes i tasques. Per obtenir més informació, vegeu [Limitacions de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Camp**                                          |  **Límit**           |
+|----------------------------------------------------|----------------------|
+| Tasques totals màximes per a un projecte                  | 500                  |
+| Durada total màxima per a un projecte               | 3.650 dies (10 anys) |
+| Recursos totals màxims per a un projecte              | 150                  |
+| Enllaços totals màxims (només successor) per a un projecte | 600                  |
+| Camps personalitzats totals màxims per a un projecte          | 10                   |
+| Màxims elements de la llista de comprovació per tasca                   | 20                   |
+
+**Limitacions de les tasques**
+
+| **Camp**                               |   **Límit**           |
+|-----------------------------------------|-----------------------|
+| Nivell de jerarquia màxim                 | 10 nivells             |
+| Enllaços màxims (successor + predecessor) | 20                    |
+| Durada màxima de la tasca de fulla           | 1250 dies             |
+| Durada màxima d'una tasca de resum      | 3.650 dies (10 anys)  |
+| Recursos màxims assignats a una tasca    | 20 recursos          |
+| Interval de dates admès per a una tasca         | 1/1/2000 - 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

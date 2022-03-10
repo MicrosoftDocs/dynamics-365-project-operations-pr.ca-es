@@ -2,8 +2,6 @@
 title: Guia de temps, despeses i col·laboració
 description: Una guia de temps, despeses i col·laboració per al Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4f975a248c6224bdea72ca1ecdb8a299f0f9254c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 0333445594cd8c02e14ba93e0ff3e9d8da50afd85ab90810762c415b53018ccb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120036"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004704"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Guia de temps, despeses i col·laboració (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -71,3 +71,6 @@ Feu clic a un enllaç de sota per aprendre més sobre què podeu fer amb l'[!INC
  [Guia de l'administrador de comptes](../psa/account-manager-guide.md)   
  [Guia d'administrador de projectes](../psa/project-manager-guide.md)   
  [Guia de l'administrador de recursos](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

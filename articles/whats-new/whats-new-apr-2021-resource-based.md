@@ -2,19 +2,17 @@
 title: "Novetats de l'abril de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències"
 description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'abril de 2021 del Project Operations per a escenaris basats en recursos/no mantinguts en existències.
 author: sigitac
-manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
-ms.translationtype: HT
+ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867981"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008124"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de l'abril de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -33,8 +31,26 @@ En aquesta versió s'inclouen les característiques següents:
   - Estimar i calcular preus de materials no mantinguts en existències durant el cicle de venda d'un projecte. Per obtenir més informació, vegeu [Configuració de les tarifes de cost i de vendes per als productes del catàleg (bàsica)](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Fer el seguiment de l'ús de materials no mantinguts en existències durant el lliurament del projecte. Per obtenir més informació, vegeu [Registre de l'ús de materials als projectes i les tasques de projecte](../material/material-usage-log.md).
   - Facturació amb costos de materials no mantinguts en existències. Per obtenir més informació, vegeu [Administració del treball pendent de facturació](../proforma-invoicing/manage-billing-backlog.md).
+  - Per obtenir informació sobre com configurar aquesta característica, vegeu [Configuració de materials sense existències i factures pendents del proveïdor](../procurement/configure-materials-nonstocked.md)
 - Facturació basada en tasques: s'ha afegit la capacitat d'associar tasques de projecte amb línies de contracte del projecte i, d'aquesta manera, sotmetre-les al mateix mètode de facturació, freqüència de facturació i clients que la línia de contracte. Aquesta associació garanteix la facturació, la comptabilitat, l'estimació dels ingressos i el reconeixement de la feina amb precisió d'acord amb aquesta configuració en les tasques de projecte.
 - Les noves API del Dynamics 365 Dataverse permeten crear, actualitzar i suprimir operacions amb **Entitats de planificació**. Per obtenir més informació, vegeu [Ús de les API de planificació per realitzar operacions amb entitats de Planificació](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Actualitzacions de les assignacions de doble ecriptura del Project Operations
+
+A la llista següent es mostren les assignacions de doble escriptura que s'han modificat o afegit a la versió d'abril de 2021 del Project Operations.
+
+| **Assignació d'entitats** | **Versió actualitzada** | **Comentaris** |
+| --- | --- | --- |
+| Valors reals d'integració del Project Operations (msdyn\_actuals) | 1.0.0.14 | Assignació modificada per sincronitzar els valors reals del projecte material. |
+| Entitat d'integració del Project Operations per a l'estimació de despeses (msdyn\_estimateslines) | 1.0.0.2 | S'ha afegit la sincronització de línia de contracte a les aplicacions del Finance and Operations per al suport de facturació basat en tasques. |
+| Entitat d'integració del Project Operations per a l'estimació d'hores (msdyn\_resourceassignments) | 1.0.0.5 | S'ha afegit la sincronització de línia de contracte a les aplicacions del Finance and Operations per al suport de facturació basat en tasques. |
+| Taula d'integració del Project Operations per a estimacions de materials (msdyn\_estimatelines) | 1.0.0.0 | Nova assignació de taules per sincronitzar les estimacions de materials del Dataverse a les aplicacions del Finance and Operations. |
+| Entitat d'exportació de factura del proveïdor del projecte de la integració del Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova assignació de taules per sincronitzar les capçaleres de factures del proveïdor de les aplicacions del Finance and Operations al Dataverse. |
+| Entitat d'exportació de la línia de factura del proveïdor del projecte de la integració del Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nova assignació de taules per sincronitzar les línies de factures del proveïdor de les aplicacions del Finance and Operations al Dataverse. |
+
+Heu d'executar sempre la versió més recent de l'assignació a l'entorn i habilitar totes les assignacions de taules relacionades a mesura que actualitzeu la versió de la solució del Dataverse del Project Operations i la solució del Finance and Operations. És possible que algunes característiques i capacitats no funcionin correctament si la versió més recent del mapa no s'activa. Podeu veure la versió activa de l'assignació a la columna **Versió** de la pàgina **Escriptura doble**. Per activar una versió nova de l'assignació, seleccioneu **Versions de l'assignació de la taula**, seleccioneu la versió més recent i després deseu la versió seleccionada. Si heu personalitzat una assignació de taules llesta per al seu ús, torneu a aplicar els canvis. Per a més informació, vegeu [Administració del cicle de vida de les aplicacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les instruccions de la secció [Problemes de columnes de la taula que falten](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) de la guia de detecció d'errors de doble escriptura.
 
 ## <a name="quality-updates"></a>Actualitzacions de qualitat
 
@@ -67,7 +83,7 @@ En aquesta versió s'inclouen les característiques següents:
 
 | **Àrea de característiques** | **Número de referència** | **Actualització de qualitat** |
 | --- | --- | --- |
-| Administració i comptabilitat de projectes | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | L'eliminació de previsió inversa no funciona a **Periòdic**.  |
+| Administració i comptabilitat de projectes | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | L'eliminació de previsió inversa no funciona a la secció **Periòdic**.  |
 | Administració i comptabilitat de projectes | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | La característica **Ajustament de comptabilitat** crea un problema amb comptes de llibre major que no tenen seleccionat **No permetis l'entrada manual**. |
 | Administració i comptabilitat de projectes | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | S'ha afegit lògica empresarial a les factures de correcció de processos, incloent-hi l'import de retenció o l'import de retenció aplicat. |
 | Administració i comptabilitat de projectes | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | El valor de vendes WIP que es publiquen a la facturació de projectes entre empreses tria un compte inesperat. |

@@ -2,11 +2,9 @@
 title: Configurar l'administració de despeses
 description: Aquest article descriu les consideracions i les decisions que heu de prendre durant el procés de planificació abans de configurar l'administració de despeses al Microsoft Dynamics 365 Finance.
 author: KimANelson
-manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
@@ -18,16 +16,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2291515cc154fb5b34ca5802135791958bea1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: eca4362b0ff5d37b131e1d96e311aa48ac20397618314936944ba66e458dbdc2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007449"
 ---
 # <a name="configure-expense-management"></a>Configurar l'administració de despeses
-
-[!include [banner](../includes/banner.md)]
 
 Aquest tema descriu les consideracions i les decisions que heu de prendre durant el procés de planificació abans de configurar l'administració de despeses. A l'administració de despeses, es pot emmagatzemar informació sobre els mètodes de pagament, les sol·licituds de viatge, els informes de despeses, les normes, etc.
 
@@ -162,3 +158,6 @@ Mitjançant la creació de normes d'informe de despeses, podeu ajudar a la vostr
 - Quan venç la norma?
 - Quina és la regla de la norma?
 - Quin és el resultat de la regla de la norma?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

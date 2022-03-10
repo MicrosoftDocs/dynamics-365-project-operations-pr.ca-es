@@ -2,12 +2,10 @@
 title: Afegir nous formularis d'entitat personalitzats (Project Service Automation 2.x)
 description: En aquest tema es proporciona informació sobre com afegir formularis d'entitat personalitzats per a oportunitats, ofertes, comandes o factures al Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c9e31dc6d4d5a8ad5cc568f2d7d673c8703936d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284841"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995209"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Afegir nous formularis d'entitat personalitzats (Project Service Automation 2.x)
 
@@ -59,7 +57,7 @@ Seguiu els passos que es descriuen a continuació per crear una versió personal
     - Exporteu el formulari **La meva informació del projecte** com a part d'una solució no administrada i, a continuació, cerqueu el valor **formId** al fitxer customization.xml de la solució exportada.
     - Obriu el formulari **La meva informació del projecte** a l'editor de formularis i, a continuació, cerqueu l'identificador únic global (GUID) al costat del paràmetre **formId** a l'adreça URL, com a es mostra a la il·lustració següent.
 
-    ![Valor formId del formulari nou a l'URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Valor formId del formulari nou a l'URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Creeu una assignació **msdyn\_ordertype** per al valor **formId** editant el recurs web msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Suprimiu el codi del recurs i, a continuació, substituïu-lo pel codi següent.
 

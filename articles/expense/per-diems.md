@@ -2,18 +2,16 @@
 title: Dietes
 description: En aquest tema es proporciona informació sobre les regles de dietes que s'utilitzen a l'administració de despeses.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072086"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986389"
 ---
 # <a name="per-diems"></a>Dietes
 
@@ -31,3 +29,6 @@ Una dieta és una assignació que es paga a un treballador que viatja per feina.
     
 ## <a name="submit-expenses-using-per-diem"></a>Enviar despeses mitjançant una dieta
 Per enviar les despeses que utilitzen les dietes, utilitzeu la categoria de despesa **Dieta** quan creeu un informe de despeses. Introduïu la **Data d'inici de la dieta**, **Data de finalització de la dieta** i **Ubicació de la dieta**. L'import es calcularà en funció de les tarifes de dieta per a la ubicació seleccionada i es calcularà la reducció dels àpats en funció dels nivells de tarifes de dietes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

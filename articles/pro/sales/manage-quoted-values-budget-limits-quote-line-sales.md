@@ -1,23 +1,22 @@
 ---
-title: Informació general de les línies d'oferta basades en projectes (bàsic)
-description: En aquest tema s'ofereix informació sobre l'ús de línies d'oferta basades en projectes per al treball del projecte. (Pro)
+title: Informació general de les línies d'oferta basades en projectes
+description: En aquest tema s'ofereix informació sobre l'ús de línies d'oferta basades en projectes per al treball del projecte.
 author: rumant
-manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 2f2d38c7fb3bc3ec26cf64525ef8275adecafd7fc48e97d6daef595d341c045d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272961"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001554"
 ---
-# <a name="project-based-quote-lines-overview---lite"></a>Informació general de les línies d'oferta basades en projectes (bàsic)
+# <a name="project-based-quote-lines-overview"></a>Informació general de les línies d'oferta basades en projectes 
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Implementació bàsica: tracte de facturació proforma, Project Operations per a escenaris basats en recursos/sense cotització_
 
 Les línies d'oferta basades en projectes estan dissenyades per ajudar a estimar el treball del projecte en una interacció. L'estructura d'una línia d'oferta basada en projectes s'amplia per a estimacions de projecte amb els conceptes següents:
 
@@ -33,18 +32,19 @@ A la taula següent es proporciona informació sobre els camps de la pestanya **
 
 | **Camp** | **Descripció** | **Impacte descendent** |
 | --- | --- | --- |
-| Nom | Nom de la línia d'oferta que hauria d'ajudar-vos a identificar el component discret de l'oferta que s'està estimant. | Es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Mètode de facturació | En una oferta creada a partir d'una oportunitat, aquest valor es copia des del camp corresponent a la línia d'oportunitat. Aquest camp inclou els dos models de contracte principals compatibles amb el Dynamics 365 Project Operations:</br>- Preu fix</br>- Temps i material.| El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Project | Utilitzeu aquest camp opcional per identificar el projecte que s'utilitzarà per lliurar el treball en aquesta interacció. Quan un projecte s'assigna a una línia d'oferta, ajuda amb la creació de tasques imputables i també amb l'aportació d'una estimació basada en projectes a la línia d'oferta com a detalls de la línia d'oferta. Quan un projecte no està assignat a una línia d'oferta basada en projectes, la estimació s'ha de crear manualment creant cada detall de la línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta.|
-| Tasques incloses | Indica si aquesta línia d'oferta s'utilitza per a totes o algunes de les tasques del projecte seleccionat. Aquest camp té els següents valors possibles:</br>- Totes les tasques de projecte</br>- Només les tasques de projecte seleccionades</br>Un valor en blanc en aquest camp equival a l'opció **Totes les tasques del projecte**. | Quan **Només les tasques de projecte seleccionades** se seleccionen a la pàgina del projecte, la pestanya **Configuració de facturació de la tasca** us permet seleccionar tasques específiques per associar-les a aquesta línia d'oferta. El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Inclou el temps | Una marca **Sí**/**No** indica si les transaccions de temps o els costos de treball del projecte seleccionat s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **No** indica que les transaccions de temps o els costos de treball no s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **Sí** indica que les transaccions de temps o els costos de treball s'inclouran a l'estimació en aquesta línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Inclou la despesa | Una marca **Sí**/**No** indica si els costos de despesa del projecte seleccionat s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **No** indica que el cost de despesa no s'inclourà a l'estimació en aquesta línia d'oferta. Un valor **Sí** indica que el cost de despesa s'inclourà a l'estimació en aquesta línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Inclou la taxa | Una marca **Sí**/**No** indica si les taxes del projecte seleccionat s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **No** indica que les taxes no s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **Sí** indica que les taxes s'inclouran a l'estimació en aquesta línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Import de l’oferta | Això és una quantitat que s'oferirà al client per a tot el treball previst en aquesta línia d'oferta basada en el projecte. En una oferta creada a partir d'una oportunitat, aquest valor es copia des del camp **Pressupost de client** a la línia d'oportunitat. Quan la línia d'oferta basada en projectes té detalls de línia, aquest camp està bloquejat per editar-lo i es resumeix de l'import dels detalls de la línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Impost estimat | Es tracta d'un camp editable per a l'usuari que afegirà l'import de l'impost previst a la línia d'oferta. Quan una línia d'oferta basada en projectes té detalls de línia, aquest camp està bloquejat per editar-lo i es resumeix de l'import d'impostos dels detalls de la línia d'oferta. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Import de l’oferta després d’impostos | Aquest camp és l'import de la línia d'oferta després de l'impost i és només de lectura. L'import d'aquest camp es calcula com a *Import de l'oferta + impost*. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Límit que no s’ha de superar | Aquest camp és editable i només està disponible a les línies d'oferta basades en el projecte que tenen un mètode de facturació **Temps i material**. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
-| Pressupost del client | Aquest camp és editable i es copia des del camp corresponent a la línia d'oportunitat si l'oferta es va crear a partir d'una oportunitat. | El valor d'aquest camp es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
+| Nom | El nom de la línia d'oferta que us ajuda a identificar el component discret de l'oferta que s'està calculant. | Es copia a la línia de contracte del projecte que es crea des d'aquesta línia d'oferta en guanyar l'oferta. |
+| Mètode de facturació | En una oferta creada a partir d'una oportunitat, aquest valor es copia des del camp corresponent a la línia d'oportunitat. Aquest camp inclou els dos models de contracte principals compatibles amb el Dynamics 365 Project Operations:</br>- Preu fix</br>- Temps i material.| Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Project | Utilitzeu aquest camp opcional per identificar el projecte que s'utilitzarà per lliurar el treball en aquesta interacció. Quan un projecte s'assigna a una línia d'oferta, ajuda amb la creació de tasques imputables i també amb l'aportació d'una estimació basada en projectes a la línia d'oferta com a detalls de la línia d'oferta. Quan un projecte no està assignat a una línia d'oferta basada en projectes, la estimació s'ha de crear manualment creant cada detall de la línia d'oferta. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta.|
+| Tasques incloses | Indica si aquesta línia d'oferta s'utilitza per a totes o algunes de les tasques del projecte seleccionat. Aquest camp té els següents valors possibles:</br>- Totes les tasques de projecte</br>- Només les tasques de projecte seleccionades</br>Un valor en blanc en aquest camp equival a l'opció **Totes les tasques del projecte**. | Quan se selecciona **Només tasques de projecte seleccionades** a la pàgina de projecte, la pestanya **Configuració de facturació de la tasca** us permet seleccionar tasques específiques per associar-les a aquesta línia d'oferta. Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Inclou el temps | Un valor **Sí**/**No** indica si les transaccions de temps o els costos laborals del projecte seleccionat s'inclouran a la previsió en aquesta línia d'oferta. Un valor **No** indica que les transaccions de temps o els costos de treball no s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **Sí** indica que les transaccions de temps o els costos de treball s'inclouran a l'estimació en aquesta línia d'oferta. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Inclou la despesa | Un valor **Sí**/**No** indica si els costos de despeses del projecte seleccionat s'inclouran a la previsió en aquesta línia d'oferta. Un valor **No** indica que el cost de despesa no s'inclourà a l'estimació en aquesta línia d'oferta. Un valor **Sí** indica que el cost de despesa s'inclourà a l'estimació en aquesta línia d'oferta. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Inclou el material | Un valor **Sí**/**No** indica si els costos de materials del projecte seleccionat s'inclouran a la previsió en aquesta línia d'oferta. Un valor **No** indica que els costos de materials no s'inclouran a la previsió en aquesta línia d'oferta. Un valor **Sí** indica que els costos de materials s'inclouran a la previsió en aquesta línia d'oferta. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Inclou la taxa | Un valor **Sí**/**No** indica si les tarifes del projecte seleccionat s'inclouran a la previsió en aquesta línia d'oferta. Un valor **No** indica que les tarifes no s'inclouran a l'estimació en aquesta línia d'oferta. Un valor **Sí** indica que les tarifes s'inclouran a l'estimació en aquesta línia d'oferta. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Import de l’oferta | Aquest és l'import que s'oferirà al client per a tots els treballs previstos en aquesta línia d'oferta basada en projectes. En una oferta creada a partir d'una oportunitat, aquest valor es copia des del camp **Pressupost de client** a la línia d'oportunitat. Quan la línia d'oferta basada en projectes té detalls de línia, aquest camp està bloquejat per editar-lo i es resumeix de l'import dels detalls de la línia d'oferta. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Impost estimat | Es tracta d'un camp editable per a l'usuari que afegirà l'import de l'impost previst a la línia d'oferta. Quan una línia d'oferta basada en projectes té detalls de línia, aquest camp està bloquejat per editar-lo i es resumeix de l'import d'impostos dels detalls de la línia d'oferta. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Import de l’oferta després d’impostos | Aquest camp és l'import de la línia d'oferta després de l'impost i és només de lectura. L'import d'aquest camp es calcula com a *Import de l'oferta + impost*. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Límit que no s’ha de superar | Aquest camp és editable i només està disponible a les línies d'oferta basades en el projecte que tenen un mètode de facturació **Temps i material**. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
+| Pressupost del client | Aquest camp és editable i es copia des del camp corresponent a la línia d'oportunitat si l'oferta es va crear a partir d'una oportunitat. | Aquest valor es copia a la línia de contracte del projecte que es crea a partir d'aquesta línia d'oferta quan es guanya l'oferta. |
 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regles de validació per als camps de la pestanya General de línies d'oferta basades en projectes
@@ -62,42 +62,47 @@ A la taula següent es proporciona informació sobre els camps de la pestanya **
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     <strong>Oportunitat</strong>
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     <strong>Oferta</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     <strong>Línia d’oferta</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     <strong>Project</strong>
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     <strong>Tasques incloses</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     <strong>Inclou el temps</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     <strong>Inclou la despesa</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+                    <strong>Inclou el material</strong>
+                </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
                     <strong>Inclou</strong>
                 </p>
@@ -105,712 +110,770 @@ A la taula següent es proporciona informació sobre els camps de la pestanya **
                     <strong>Tarifa</strong>
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="49" valign="top">
                 <p>
                     <strong>Vàlid/No és vàlid</strong>
                 </p>
             </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
                 <p>
                     <strong>Motiu</strong>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 En blanc </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 No és vàlid </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Infracció de la regla 2. El temps, les despeses i els impostos en el projecte P1 s'inclouen a les línies d'oferta QL1 i QL2.
-                </p>
+Infracció de la regla 2. El temps, les despeses i les tarifes del projecte P1 s'inclouen a les línies d'oferta QL1 i QL2 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 En blanc </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Sí </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 En blanc </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 No </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 No és vàlid </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Infracció de la regla 2. El temps i els impostos en el projecte P1 s'inclouen a les línies d'oferta QL1 i QL2.
+Infracció de la regla 2. El temps, el material i les tarifes del projecte P1 s'inclouen a les línies d'oferta QL1 i QL2 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+T1 </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+QL2 </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+En blanc </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="77" valign="top">
+            </td>
+            <td width="45" valign="top">
+            </td>
+            <td width="46" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="49" valign="top">
+            </td>
+            <td width="200" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+O1 </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+T1 </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+QL1 </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+En blanc </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
+                <p>
+Vàlida </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+El temps, el material i les tarifes del projecte P1 s'inclouen a QL1 <br>
+La despesa del projecte P1 s'inclou a QL2 <br>
+No se superposa el que s'inclou a cada línia d'oferta i, per tant, és vàlid.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 En blanc </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-Sí </p>
+No </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
-Sí </p>
+No </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
-                <p>
-En blanc </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-Sí </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-No </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-Sí </p>
-            </td>
-            <td width="54" rowspan="2" valign="top">
-                <p>
-Vàlid </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                  <p>
-El temps i els impostos en el projecte P1 s'inclouen a QL1.
-La despesa en el projecte P1 s'inclou a QL2.
-No se superposa el que s'inclou a cada línia d'oferta i és vàlid.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-O1 </p>
-            </td>
-            <td width="41" valign="top">
-                <p>
-T1 </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-QL2 </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-P1 </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-En blanc </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-No </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-Sí </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-No </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-            </td>
-            <td width="41" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="90" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-O1 </p>
-            </td>
-            <td width="41" valign="top">
-                <p>
-T1 </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-QL1 </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-P1 </p>
-            </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Només les tasques seleccionades </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 No és vàlid </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Infracció de la regla 2 anterior </p>
+Infracció de la regla núm. 2 </p>
                 <p>
-Q1 inclou el temps, les despeses i els impostos d'un subconjunt de tasques del projecte P1.
-                </p>
+El Q1 inclou temps, material, despeses i tarifes en un subconjunt de tasques al projecte P1 </p>
                 <p>
-QL2 inclou el temps, les despeses i els impostos per a tot el projecte P1 i se superposa amb el que s'inclou a Q1.
+QL2 inclou temps, despeses i tarifes per a tot el projecte P1 i, per tant, se superposa amb el que s'inclou a Q1.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 En blanc </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Sí </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Només les tasques seleccionades </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
                 <p>
-Vàlid </p>
+Sí </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-Segons la regla 3 anterior, </p>
+Vàlida </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Q1 inclou el temps, les despeses i els impostos d'un subconjunt de tasques del projecte P1.
+Segons la regla núm. 3, </p>
+                <p>
+El Q1 inclou temps, material, despeses i tarifes en un subconjunt de tasques al projecte P1.
                 </p>
                 <p>
-QL2 inclou el temps, les despeses i els impostos d'un subconjunt de tasques del projecte P1.
+El QL2 inclou temps, material, despeses i tarifes per a un subconjunt de tasques al projecte P1.
                 </p>
                 <p>
-L'única validació addicional és pel que fa al subconjunt de tasques a QL1 que són diferents del subconjunt de tasques de QL2. Això assegura que no hi ha cap superposició. Això ho fa el sistema quan s'associen les tasques.
+L'única validació addicional és per al subconjunt de tasques de QL1, que és diferent del subconjunt de tasques de QL2 per assegurar que no hi ha superposició. Això ho fa el sistema quan s'associen les tasques.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Només les tasques seleccionades </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Sí </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Totes les tasques del projecte o en blanc </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-Vàlid </p>
+Sí </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-Segons la regla 5, Q1 i Q2 són dues ofertes de la mateixa oportunitat, per la qual cosa poden estimar-se per als mateixos components d'un projecte.
+Vàlida </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+Segons la regla núm. 5, Q1 i Q2 són dues ofertes per a la mateixa oportunitat, de manera que poden calcular ambdós els mateixos components d'un projecte.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Totes les tasques del projecte o en blanc </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Totes les tasques del projecte o en blanc </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-Vàlid </p>
+Sí </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-Segons la regla 4, Q1 i Q2 són dues ofertes d'oportunitats diferents, per la qual cosa no poden estimar-se per als mateixos components d'un mateix projecte.
+No és vàlid </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+Segons la regla núm. 4, Q1 i Q2 són dues ofertes d'oportunitats diferents, de manera que no poden calcular els mateixos components del mateix projecte.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Totes les tasques del projecte o en blanc </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-No és vàlid </p>
+Sí </p>
             </td>
         </tr>
     </tbody>
 </table>
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

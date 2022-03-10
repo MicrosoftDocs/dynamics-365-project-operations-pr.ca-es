@@ -1,8 +1,6 @@
 ---
 title: Novetats o canvis al Project Service Automation versió 3
 description: En aquest tema es proporciona informació sobre les novetats i els canvis a la versió 3 del Project Service Automation.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,22 +16,27 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119991"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987064"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novetats o canvis al Project Service Automation versió 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 En aquest tema es proporciona informació sobre els canvis en la interfície d'usuari (UI), la funcionalitat i la terminologia al Project Service Automation entre la versió 2 o la versió 1 i la versió 3.
 
 ## <a name="project-scheduling"></a>Planificació de projectes
 La planificació del projecte, que es coneixia com a estructura de desglossament de treball (WBS) en versions anteriors, ha canviat el nom a planificació i s'hi accedeix fent clic a la pestanya **Planificació**. 
 
-![Planificació del projecte](media/psa-schedule-01.png)
+![Planificació del projecte.](media/psa-schedule-01.png)
 
 La planificació ara té una nova superfície per a la interacció que és moderna i accessible. No obstant, el motor de planificació del Project Service Automation subjacent no ha canviat. Els botons de control de la franja de la quadrícula de planificació us permeten interactuar amb la planificació de manera similar a la versió anterior del Project Service Automation. Els canvis addicionals a la planificació inclouen:
 
@@ -92,22 +95,22 @@ Quan moveu la planificació d'un projecte existent cap endavant, passa el següe
 ## <a name="estimates"></a>Estimacions
 Les estimacions s'han dividit en dues pestanyes, **Assignació de recursos** i **Estimacions**. La pestanya **Assignació de recursos** conté les estimacions d'esforç i mostra les assignacions de recursos de les tasques en una visualització per temps. Podeu editar les estimacions en funció del que ha generat el motor de planificació.
 
-![Pestanya Assignacions de recursos mostrant les estimacions d'esforç i assignacions de recursos per a les tasques](media/resource-assignments-tab-02.png)
+![Pestanya Assignacions de recursos mostrant les estimacions d'esforç i assignacions de recursos per a les tasques.](media/resource-assignments-tab-02.png)
 
 A la pestanya **Estimacions** es mostren els imports de costos i de vendes de les assignacions de recursos. Els imports són només de lectura. El preu de costos i de vendes estan ara basats en les assignacions dels membres de l'equip a la planificació. Això vol dir que si teniu una tasca sense assignació, la tasca es mostrarà sota el dipòsit no assignat. Això també significa que sense **funció**, que és una dimensió de preus per defecte, no hi haurà cap cost o venda aproximada si teniu un client o un contracte/oferta associat amb el projecte. 
 
-![Pestanya d'estimacions mostrant els imports de cost i vendes](media/estimates-tab-03.png)
+![Pestanya d'estimacions mostrant els imports de cost i vendes.](media/estimates-tab-03.png)
   
 També s'admet una categoria a les tasques a la visualització de planificació. L'agrupament per categoria a la visualització per temps de les estimacions proporcionarà una millor experiència, especialment quan també teniu estimacions de despesa en el projecte. Les estimacions de despesa s'introdueixen mitjançant una quadrícula en una pestanya separada. 
 
 Les estimacions de despesa es poden introduir a la quadrícula a la pestanya **Estimacions de despesa**. 
 
-![Pestanya d'estimacions de despesa mostrant la quadrícula d'estimacions de despesa](media/expense-estimates-tab-04.png)
+![Pestanya d'estimacions de despesa mostrant la quadrícula d'estimacions de despesa.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Administració de recursos
 A la versió 3 del Project Service Automation, amb la nova interfície unificada del client i els canvis en la relació entre reserves i assignacions, afegir personal a un projecte amb recursos genèrics o reals ha canviat enormement de la versió 2 i de la versió 1. No obstant això, els conceptes de recursos que es poden reservar, tant **reals** com **genèrics**, continuen sent els mateixos, igual que els membres de l'equip, els requisits, les assignacions i les reserves.   
 
-![Utilitzar el selector de recursos](media/resource-management-05.png)
+![Utilitzar el selector de recursos.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Assignar un recurs real que es pot reservar 
 A la versió 3 del Project Service Automation, les reserves i assignacions de tasques no estan tan estretament entrellaçades com en versions anteriors del Project Service Automation. Podeu utilitzar la quadrícula de l'equip per reservar un membre de l'equip **real**, similar al dins del mercat.
@@ -133,7 +136,7 @@ Quan s'ha complert un requisit amb diversos recursos, el recurs genèric es mant
 ### <a name="reconciliation"></a>Conciliació
 A la pestanya **Conciliació** es mostren les reserves i totes les assignacions de cada membre de l'equip del projecte. La visualització mostra les hores a les cel·les que poden representar punts de temps de mesos a dies. Aquesta visualització permet als administradors de projectes conciliar les reserves dels membres de l'equip i els seus treballs per a l'equip del projecte. Això és útil perquè les reserves i assignacions de tasques no estan estretament acoblades, la qual cosa permet més flexibilitat en la planificació d'un projecte. 
 
-![Pestanya Conciliació mostrant les reserves i assignacions dels membres de l'equip del projecte](media/resource-reconciliation-tab-06.png)
+![Pestanya Conciliació mostrant les reserves i assignacions dels membres de l'equip del projecte.](media/resource-reconciliation-tab-06.png)
 
 Per a cada recurs, la visualització pren la diferència entre les reserves d'un membre de l'equip i un informe de les assignacions de tasques i mostra les dues diferències següents que poden ocórrer amb les reserves i les assignacions d'un projecte: 
 
@@ -148,21 +151,21 @@ En aquesta secció es proporciona informació sobre els canvis en el temps, la d
 ### <a name="landing-page"></a>Pàgina de destinació
 L'experiència d'entrada de temps personalitzada no extensible ha quedat obsoleta a la versió 3. En lloc d'això, ara hi ha una experiència de quadrícula nativa extensible i accessible. Podeu accedir a la funcionalitat d'entrada de l'hora mitjançant el mapa del lloc de l'esquerra. Amb aquest canvi, ja no podreu introduir el temps d'una setmana a la vegada. En lloc d'això, haureu de crear una entrada de temps per a cada dia a la quadrícula. Després de crear un parell d'entrades de temps, els usuaris poden crear de manera massiva les entrades de temps amb la funció **Copia** explicada més endavant en aquest tema. 
 
-![Pàgina de destinació d'entrada de temps](media/time-entry-landing-page-07.png)
+![Pàgina de destinació d'entrada de temps.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Crear entrades de temps noves 
 Feu clic a **Nova** a la franja per obrir una pàgina de creació ràpida per a una entrada de temps en la qual introduïu la duració en minuts, hores o dies. Per fer-ho, comenceu a escriure h, m o d juntament amb la quantitat.  
 
-![Creació ràpida d'entrades de temps](media/quick-create-time-entry-08.png)
+![Creació ràpida d'entrades de temps.](media/quick-create-time-entry-08.png)
 
 Els camps de cerca es basen en visualitzacions del sistema. Per exemple, després d'introduir la informació d 'un projecte, el camp **Tasca del projecte** el defineix per defecte la visualització **Les meves tasques de projecte obertes**. Per crear entrades de temps per a les tasques que no s'assignen a l'usuari, feu clic a **Canvia la visualització** a la cerca i seleccioneu **Totes les tasques de projecte actives**. Després d'haver creat l'entrada de temps i que es mostri a la quadrícula, podeu editar tots els valors de la línia directament a la quadrícula.  
 
 ### <a name="bulk-createcopy"></a>Creació/còpia massiva 
 Després de crear algunes d'entrades de temps, podeu utilitzar la funcionalitat de còpia per crear entrades de temps addicionals massivament. Feu clic a **Copia** per obrir el diàleg **Copia**. A **Del període: data d'inici**, definiu l'interval de dates des del qual s'han de copiar els períodes de temps. A **Al període: data d'inici**, especifiqueu la data per a la qual s'han de crear les entrades de temps. Feu clic a **Copia** per copiar les entrades de temps al dia corresponent de la setmana indicat a **Al període**. Per exemple, l'entrada de temps del dilluns de la setmana passada es copiarà al dilluns de la setmana indicada a **Al període**. 
 
-![Copiar entrades de temps massivament](media/bulk-copy-time-entry-09.png)
+![Copiar entrades de temps massivament.](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Importar dades 
+### <a name="import-data"></a>Importa dades 
 Les assignacions i els intercanvis segueixen el mateix patró de la interfície d'usuari, cosa que permet a l'usuari especificar l'interval de dates des del moment en què s'han d'importar. A continuació, heu de triar explícitament les reserves que s' han de copiar en entrades de temps en **Esborrany**. A la versió 3, ja no podeu veure el patró de les entrades de temps **Suggerida** a la quadrícula i el calendari.  
 
 ### <a name="change-in-calendar-control"></a>Canvia al control de calendari
@@ -176,7 +179,7 @@ A la versió 3, hem abandonat el control de calendari personalitzat i ara s'util
 
 **Captura dades dels camps personalitzats a l'entrada de temps i de despeses i difon-les per mitjà d'entitats que suportin el flux d'enviament i d'aprovació**: el processament típic de les entrades de temps es mostra al diagrama següent.
 
-![Processament d'entrades de temps](media/process-time-entries-10.png)
+![Processament d'entrades de temps.](media/process-time-entries-10.png)
 
 Si els requisits de negoci estipulen que les entitats de temps i de despeses han de capturar dimensions de preus personalitzades i propagar els valors definits per un temps i un recurs d'entrada a la dimensió de preus personalitzats a través de totes les entitats del gràfic anterior, vegeu [Configurar els camps personalitzats com a dimensions de preus](set-up-pricing-dimensions.md)
 
@@ -233,7 +236,7 @@ A les versions 1 i 2, la configuració de la imputabilitat per a les funcions i 
 
 A partir de la versió 3, la configuració de les opcions d'imputabilitat per categoria de funció i de despesa es realitzarà a nivell d'oferta o de línia de contracte. La configuració de preus és independent de la configuració de la imputabilitat. Podreu trobar **Funcions imputables** i **Categories imputables** com a pestanyes a les pàgines **Línia d'oferta** i **Línia de contracte** sense haver d'utilitzar la navegació superior.
 
-![Funcions imputables](media/chargeable-12.png)
+![Funcions imputables.](media/chargeable-12.png)
  
 La configuració de les funcions i categories imputables també aprofita el control de quadrícula editable per defecte. Per a cada funció i categoria, les opcions admeses per a tipus de facturació durant la fase d'ofertes i de contractació es mantenen inalterades des de les versions anteriors com a **Imputable** i **No imputable**. **Gratuït** no és un tipus permès durant la fase de d'oferta o de contractació. **Gratuït** només s'admet durant l'aprovació de temps o despesa.  
  
@@ -244,11 +247,14 @@ A partir de la versió 3, la creació i l'ús d'una llista de preus de projecte 
   
 La gràfica següent és abans que s'hagin creat llistes de preus personalitzades.
 
-![Abans de les llistes de preus personalitzades](media/before-custom-price-lists-13.png)
+![Abans de les llistes de preus personalitzades.](media/before-custom-price-lists-13.png)
 
 La gràfica següent és després que s'hagin creat llistes de preus personalitzades.
 
-![Després de llistes de preus personalitzades](media/after-custom-price-lists-14.png)
+![Després de llistes de preus personalitzades.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Pot ser que es produeixi un retard breu entre quan feu clic a **Crea preus personalitzats** i quan es crea la llista de preus personalitzada. Es recomana refrescar la quadrícula en comptes de fer clic diverses vegades. S'ha creat una llista de preus personalitzada si el nom de la llista de preus associada té el nom de l'oferta o el nom del contracte del projecte afegit.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

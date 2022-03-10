@@ -2,10 +2,9 @@
 title: Què és el Dynamics 365 Project Service Automation?
 description: Introducció i informació general del Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19599fe13964aea2c25bc1774063c13cf79703d0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000249"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Què és el Dynamics 365 Project Service Automation?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
@@ -45,10 +46,10 @@ A més, per ajudar-vos a supervisar i controlar els costos del vostre treball ba
 ## <a name="whats-new-in-psa"></a>Novetats del PSA
 Estem molt contents d'anunciar les nostres actualitzacions més recents Inclouen des de millores a la interfície d'usuari, correccions d'errors i l'addició de noves característiques i funcionalitats importants. Ho vau demanar i us hem escoltat.
 
-Doneu un cop d'ull a les [Notes de llançament d'octubre del 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) per veure les nostres millores i addicions més noves.
+Doneu un cop d'ull a les [Notes de llançament d'octubre del 2019](/dynamics365-release-plan/2019wave2/index) per veure les nostres millores i addicions més noves.
 
 ### <a name="in-development"></a>En desenvolupament
-Per veure el que tenim planejat per a un futur proper, aneu al [Dynamics 365: pla de llançament de la primera onada de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Per veure el que tenim planejat per a un futur proper, aneu al [Dynamics 365: pla de llançament de la primera onada de 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Obtenir ajuda amb la versió 3.x del PSA
 Esteu buscant recursos per ajudar a planificar la vostra implementació? Consulteu aquests guies descarregables.
@@ -81,6 +82,9 @@ Esteu buscant recursos per ajudar a planificar la vostra implementació? Consult
  [Notes per a desenvolupadors (versió 2.x de l'aplicació)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Vegeu un vídeo d'informació general de 2 minuts
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

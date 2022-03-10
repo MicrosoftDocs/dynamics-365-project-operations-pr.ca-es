@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
-ms.translationtype: HT
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433641"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009204"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Novetats de juliol del 2021: implementació de la versió bàsica del Project Operations
 
@@ -20,7 +20,7 @@ _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
-  - Project Operations en l'entorn del Dataverse versió 4.12.0.148.
+  - Project Operations en un entorn del Dataverse, versió 4.12.0.148 o 4.12.0.152.
 
 ## <a name="quality-updates"></a>Actualitzacions de qualitat
 | **Àrea de característiques**              | **Número de referència** | **Actualització de qualitat**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Aquest tema s'aplica als components i versions següents del Dynamics 365 Projec
 | General                       | 2296857              | Seguiment del progrés de les feines que s'executen durant molt de temps.                                                                                                                                                                        |
 | General                       | 2253682              | La solució d'escriptura doble del Project Operations no s'ha d'instal·lar quan s'instal·la la versió bàsica de l'escriptura doble en un entorn sense la solució d'orquestració d'escriptura doble.                                                |
 | General                       | 2316420              | Es produeix un error en proveir la versió bàsica del Project Service si canvia la unitat de negoci de l'usuari de l'aplicació.                                                                                                                     |
+| General                       | 2376405              | S'ha solucionat un problema d'actualització de l'editor (l'actualització de la qualitat està disponible a la versió 4.12.0.152)                                                                                                                     |

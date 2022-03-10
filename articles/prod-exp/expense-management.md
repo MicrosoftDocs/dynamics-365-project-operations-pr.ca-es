@@ -2,28 +2,26 @@
 title: Informació general sobre l'administració de despeses
 description: Aquest tema proporciona informació general sobre l'administració de despeses i enllaços a recursos addicionals. Podeu utilitzar l'administració de despeses per crear un flux de treball integrat on pugueu emmagatzemar la informació del mètode de pagament, importar transaccions de targetes de crèdit i fer un seguiment dels diners que els empleats gasten quan incorrin en despeses per a la vostra empresa.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
-ms.custom: 15001
+ms.custom: intro-internal
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7066a021390e3403c4312a7cfe8488a989b9aaa3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072372"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001419"
 ---
 # <a name="expense-management-overview"></a>Informació general sobre l'administració de despeses
 
@@ -37,7 +35,7 @@ Per a més informació, vegeu [Configurar l'administració de despeses](plan-exp
 
 ### <a name="whats-new-and-in-development"></a>Novetats i en desenvolupament
 
-Per veure quines noves característiques estan planificades, vegeu [Plans de llançament del Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158).
+Per veure quines noves característiques estan planificades, vegeu [Plans de llançament del Microsoft Dynamics 365](/dynamics365/release-plans/).
 
 #### <a name="expense-report-entry"></a>Entrada d'informes de despeses
 
@@ -58,3 +56,6 @@ Hi ha ajuda addicional disponible com a guies de tasques. Per accedir a les guie
 ### <a name="videos"></a>Vídeos
 
 Doneu una ullada als vídeos que ara estan disponibles al [Canal de YouTube del Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

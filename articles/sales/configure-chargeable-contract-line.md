@@ -2,18 +2,16 @@
 title: Configuració dels components facturables d'una línia de contracte de projectes
 description: Aquest tema proporciona informació els components inclosos, imputables i no imputables a les línies de contracte.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
-ms.translationtype: HT
+ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858326"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004029"
 ---
 # <a name="configure-chargeable-components-of-a-project-contract-line"></a>Configuració dels components facturables d'una línia de contracte de projectes
 

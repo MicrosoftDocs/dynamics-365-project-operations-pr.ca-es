@@ -2,11 +2,9 @@
 title: Creació i aplicació de les condicions de retenció de pagaments de proveïdors
 description: Aquest tema proporciona informació sobre com establir i mantenir els termes de retenció de pagaments de proveïdors.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 4ff725512aa0bcc87ff4670d6bb072f3bf780786c1f71b332914887f4d4ccf13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072349"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991204"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Creació i aplicació de les condicions de retenció de pagaments de proveïdors
 
@@ -65,3 +63,6 @@ Després de crear els termes de retenció de proveïdors per a un proveïdor, po
 6. Si el projecte també té termes de pagament després del cobrament (PWP) establerts per al proveïdor, introduïu el percentatge de llindar per al projecte en el camp **Percentatge de llindar de PWP**.
 
 Els termes de retenció del proveïdor també es mostren a les comandes de compra que creeu per al proveïdor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

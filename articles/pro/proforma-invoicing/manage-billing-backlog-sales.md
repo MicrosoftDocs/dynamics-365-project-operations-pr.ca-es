@@ -1,21 +1,19 @@
 ---
-title: Administració del treball pendent de facturació (bàsic)
-description: En aquest tema es proporciona informació sobre les diverses visualitzacions que hi ha en administrat el registre de facturació.
+title: Administració del treball pendent de facturació del projecte
+description: En aquest tema es proporciona informació sobre les diferents visualitzacions disponibles per utilitzar-les quan s'administra el registre de facturació als projectes.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176958"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988279"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Administració del treball pendent de facturació (bàsic)
+# <a name="manage-project-billing-backlog"></a>Administració del treball pendent de facturació del projecte 
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -60,3 +58,6 @@ Els valors reals de vendes sense facturar que tenen un **Estat del límit que no
 Si les línies de contracte de diversos clients tenen un mètode de facturació de temps i material, quan s'aproven el temps i les despeses, es crea un valor real de venda no facturada per a cada client a la línia de contracte d'acord amb la divisió de facturació pel percentatge definit per a cadascun dels clients. A la visualització **Registre de facturació de temps i material**, veureu aquests valors reals de vendes no facturades específics d'un client. Cadascun d'aquests registres de valors reals de vendes sense facturar es pot marcar com a **A punt per facturar** independentment des d'aquesta visualització.
 
 Un valor de vendes sense facturar que es troba en un esborrany de factura es mostra en aquesta visualització amb un estat de facturació **Factura del client creada**. Quan es confirma l'esborrany de la factura, l'estat de facturació d'aquest registre s'actualitza a **Factura del client comptabilitzada**. No actualitzeu aquest valor d'estat mitjançant codi personalitzat. El Project Operations no funciona correctament quan aquests valors d'estat s'actualitzen amb codi personalitzat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

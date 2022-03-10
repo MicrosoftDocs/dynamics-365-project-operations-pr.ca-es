@@ -2,22 +2,20 @@
 title: Importació de les estimacions d'un projecte a una línia d'oferta basada en projecte (bàsic)
 description: En aquest tema es proporciona informació sobre com importar estimacions d'un projecte a una línia d'oferta.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: a5ac7827f3499aafb63f6bc0b8580ca52e883f272464532bd353170a12b3ae55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273411"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986119"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importació de les estimacions d'un projecte a una línia d'oferta basada en projecte (bàsic)
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importació de les estimacions d'un projecte a una línia d'oferta basada en projecte 
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Implementació bàsica: tracte de facturació proforma, Project Operations per a escenaris basats en recursos/sense cotització_
 
 Si es crea un projecte durant la fase de prevendes, podeu seleccionar importar l'estimació financera del projecte a la línia d'oferta basada en projectes.
 
@@ -30,7 +28,7 @@ Si es crea un projecte durant la fase de prevendes, podeu seleccionar importar l
   - **Funció** 
   - **Tasca del projecte**
 
-En funció de la vostra selecció, es copia la estimació del projecte per a totes les classes de transaccions incloses en aquesta línia d'oferta. Per comprovar les classes de transacció que s'inclouen, seleccioneu la pestanya **General** de la línia d'oferta basada en el projecte i comproveu els valors de **Inclou el temps**, **Inclou les despeses** i **Incloeu els impostos**.  Per comprovar quines tasques s'inclouen, seleccioneu la pestanya **Tasques imputables** a la línia d'oferta.
+En funció de la vostra selecció, es copia la estimació del projecte per a totes les classes de transaccions incloses en aquesta línia d'oferta. Per comprovar les classes de transacció que s'inclouen, seleccioneu la pestanya **General** a la línia d'oferta basada en projectes i comproveu els valors d'**Inclou el temps**, **Inclou les despeses**, **Inclou els materials** i **Inclou les tarifes**.  Per comprovar quines tasques s'inclouen, seleccioneu la pestanya **Tasques imputables** a la línia d'oferta.
 
 Segons les tasques associades i les classes de transacció incloses, les estimacions d'aquestes combinacions de tasques i classes de transacció s'importen a la línia d'oferta.
 

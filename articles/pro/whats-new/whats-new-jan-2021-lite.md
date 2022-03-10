@@ -2,19 +2,17 @@
 title: Novetats del gener del 2021 - Implementació bàsica del Project Operations
 description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de gener de 2021 de la implementació bàsica del Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28035a26529c9eb7e5a805c4e47c1958e30436bb
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
-ms.translationtype: HT
+ms.openlocfilehash: d275bacd13b2ec896a40cafab3434200dca537d7d108cfc46370b01b67c98aa2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958888"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009249"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Novetats del gener del 2021 - Implementació bàsica del Project Operations
 
@@ -41,3 +39,6 @@ Aquest tema s'aplica als components i versions següents del Dynamics 365 Projec
 | **Administració d'oportunitats** | 2040713 | S'ha corregit l'error de seqüència d'ordres que es produeix en crear una factura a partir d'un contracte i el Field Service està instal·lat. |
 | **Planificació i seguiment de projectes** | 2090202 | S'han marcat les regles de negoci que ja no s'utilitzen com a **Obsoletes**. |
 | **Temps i despesa** | 2091249 | S'han ajustat els controls de manera que els usuaris no poden canviar la tasca en una entrada de temps enviada o aprovada. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

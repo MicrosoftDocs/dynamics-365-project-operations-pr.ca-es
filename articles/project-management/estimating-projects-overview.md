@@ -1,31 +1,40 @@
 ---
-title: Informació general de l'estimació de projectes
-description: Aquest tema proporciona informació sobre les estimacions al Dynamics 365 Project Operations.
-author: ruhercul
-manager: AnnBe
-ms.date: 10/06/2020
+title: Conceptes d'estimació financera
+description: Aquest tema proporciona informació sobre les estimacions financeres de projectes a Project Operations.
+author: rumant
+ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.custom: intro-internal
+ms.openlocfilehash: 74b2499cc706e03658cadeb088df154100051cbc7cce386b2e4d50dbdb5c197f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286866"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989179"
 ---
-# <a name="estimate-projects-overview"></a>Informació general de l'estimació de projectes
+# <a name="financial-estimation-concepts"></a>Conceptes d'estimació financera
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
+Al Dynamics 365 Project Operations, podeu fer una estimació financera dels vostres projectes en dues etapes: 
+1. Durant la fase de prevenda abans de guanyar el contracte. 
+2. Durant la fase d'execució després de crear el contracte del projecte. 
+
+Podeu crear una estimació financera del treball basat en projectes utilitzant qualsevol de les 3 pàgines següents:
+- La pàgina **Línia d'oferta**, utilitzant els detalls de la línia d'oferta.  
+- La pàgina **Línia de contracte del projecte**, utilitzant els detalls de la línia de contracte. 
+- La pàgina **Projecte**, utilitzant les pestanyes **Tasques** o **Estimacions de despeses**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Ús d'una oferta de projecte per crear una estimació
 En una oferta basada en un projecte, podeu utilitzar l'entitat **Detall de la línia d'oferta** per estimar el treball que es necessita per lliurar un projecte. A continuació, podeu compartir aquesta estimació amb el client.
 
 Les línies d'oferta basades en el projecte poden tenir zero o més detalls de la línia d'oferta. Els detalls de la línia d'oferta s'utilitzen per estimar el temps, les despeses o les taxes. El Microsoft Dynamics 365 Project Operations no permet l'estimació de materials als detalls de la línia d'oferta. Això s'anomena classes de transaccions. Els imports de taxes previstos també es poden introduir en una classe de transacció.
 
 A banda de les classes de transacció, els detalls de la línia d'oferta tenen un tipus de transacció. S'admeten dos tipus de transacció per als detalls de la línia d'oferta: **Cost** i **Contracte de projecte**.
 
-## <a name="estimate-by-using-a-contract"></a>Estimació mitjançant un contracte
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Ús d'un contracte de projecte per crear una estimació
 
 Si heu utilitzat una oferta en crear un contracte basat en un projecte, l'estimació que heu fet per a cada línia d'oferta de l'oferta es copia al contracte del projecte. L'estructura d'un contracte de projecte és com l'estructura d'una oferta de projecte amb línies, detalls de línia i planificacions de factura.
 
@@ -35,27 +44,21 @@ Els detalls de la línia de contracte es poden utilitzar per estimar el temps, l
 
 No es permet l'estimació de materials als detalls de la línia de contracte.
 
-Els processos admesos en un contracte de projecte són la creació i la confirmació de factures. La creació de factures crea un esborrany d'una factura basada en projectes que inclou tots els valors reals de vendes no facturades fins a la data actual.
+## <a name="use-a-project-to-create-an-estimate"></a>Ús d'un projecte per crear una estimació 
 
-La confirmació fa que el contracte sigui només de lectura i canvia l'estat d'**Esborrany** a **Confirmat**. Després d'haver dut a terme aquesta acció, no es pot desfer. Com que aquesta acció és permanent, és una pràctica més recomanable mantenir el contracte en un estat d'**Esborrany**.
-
-L'única diferència entre els esborranys de contractes i els contractes confirmats és el seu estat i el fet que els esborranys de contractes es puguin editar mentre que els contractes confirmats no ho permeten. Els valors reals de creació i seguiment de factures es poden fer tant en esborranys de contractes com en contractes confirmats.
-
-El Project Operations no admet canviar comandes sobre contractes o projectes.
-
-## <a name="estimating-projects"></a>Estimació de projectes
-
-Podeu estimar el temps i les despeses als projectes. El Project Operations no permet l'estimació de materials ni taxes als projectes.
+Podeu estimar el temps i les despeses als projectes. El Project Operations no admet estimacions de materials ni tarifes en projectes.
 
 Les estimacions de temps es generen en crear una tasca i identifiquen els atributs d'un recurs genèric que són necessaris per fer la tasca. Les estimacions de temps es generen a partir de tasques de planificació. Les estimacions de temps no es creen si creeu membres de l'equip genèric fora del context de la planificació.
 
-Les estimacions de despesa s'introdueixen a la quadrícula a la pàgina **Estimacions**.
+Les estimacions de despeses s'introdueixen a la quadrícula de la pàgina **Estimacions de despeses**.
 
-## <a name="understanding-estimation"></a>Comprendre les estimacions
+La creació d'una estimació per a un projecte es considera una pràctica recomanada perquè podeu construir estimacions detallades de baix a dalt per al treball o el temps i les despeses de cada tasca en el pla del projecte. A continuació, podeu utilitzar aquesta estimació detallada per crear estimacions per a cada línia d'oferta i crear una oferta més creïble per al client. Quan importeu o creeu una estimació detallada a la línia d'oferta mitjançant el pla del projecte, el Project Operations importa els valors de vendes i els valors de cost d'aquestes estimacions. Després de la importació, podeu veure les mètriques de rendibilitat, marges i viabilitat de l'oferta del projecte.
+
+## <a name="understanding-estimates"></a>Comprendre les estimacions
 
 Utilitzeu la taula següent com a guia per comprendre la lògica empresarial en la fase d'estimació.
 
-| Escenari                                                                                                                                                                                                                                                                                                                                          | Registre d'entitat                                                                                                                                                                                                       | Tipus de transacció | Classe de la transacció | Informació addicional                                                            |
+| Escenari                                                                                                                                                                                                                                                                                                                                          | Registre de l’entitat                                                                                                                                                                                                       | Tipus de transacció | Classe de la transacció | Informació addicional                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | Quan hàgiu d'estimar el valor de vendes del temps en una oferta                                                                                                                                                                                                                                                                                    | Es crea un registre del detall de la línia d'oferta (QLD)                                                                                                                                                                               | Contracte de projecte | Time        | El camp d'origen de transacció a la fila de QLD de la part de vendes fa referència al QLD del costat de cost |
 |                                                                                                                                                                                                                                                                                     | El sistema crea un segon registre de QLD per emmagatzemar els valors de cost corresponents. Tots els camps que no siguin monetaris es copien des del QLD de vendes al QLD de cost pel sistema.                                                                                                                                                                               | Cost | Time        | El camp d'origen de transacció a la fila de detall de la línia d'oferta (QLD) de la part de vendes fa referència al QLD del costat de cost |

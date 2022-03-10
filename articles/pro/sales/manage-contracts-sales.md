@@ -2,18 +2,16 @@
 title: Administració de contractes de projectes
 description: Aquest tema proporciona informació sobre la visualització de contractes basats en projectes.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177319"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001824"
 ---
 # <a name="manage-project-contracts"></a>Administració de contractes de projectes
 
@@ -33,3 +31,6 @@ Es pot veure una llista de tots els contractes del projecte a la pàgina de llis
 2. Seleccioneu el **Commutador de visualització** (la fletxa desplegable que hi ha al costat del nom de la visualització) per seleccionar altres visualitzacions filtrades. Podeu crear visualitzacions pròpies amb criteris de filtratge personalitzats.
 
 Es poden crear o suprimir contractes des d'aquesta pàgina de llista o des de les pàgines de detalls.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

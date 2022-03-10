@@ -2,18 +2,16 @@
 title: Ampliació d'entrades de temps
 description: En aquest tema es proporciona informació sobre com els desenvolupadors poden ampliar el control d'entrada de temps.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072111"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993319"
 ---
 # <a name="extending-time-entries"></a>Ampliació d'entrades de temps
 
@@ -144,3 +142,6 @@ Utilitzeu validacions de complements per a totes les validacions que requereixin
 
 ### <a name="copying-time-entries"></a>Còpia d'entrades de temps
 Utilitzeu la visualització **Còpia de columnes d'entrada de temps** per definir la llista de camps que es copiaran durant l'entrada de temps. **Data** i **Duració** són camps obligatoris i no s'han d'eliminar de la visualització.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
