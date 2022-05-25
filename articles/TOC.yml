@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Novetats
       items:
+        - name: 'Maig de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: 'Abril de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: 'Març de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: 'Febrer de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: 'Desembre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 'Novembre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Moneda
               href: sales/sales-currency.md
+            - name: Unitats organitzatives
+              href: sales/OrgUnits.md
         - name: Administració dels clients potencials dels projectes
           href: sales/manage-leads.md
         - name: Administració d'oportunitats dels projectes
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Seguiment d'ingressos laborals en projectes
               href: project-management/project-sales-tracking.md
-            - name: Actualització de l'estimació en finalitzar
-              href: project-management/update-completed-estimate.md
         - name: Membres de l'equip del projecte
           items:
             - name: Informació general dels membres de l'equip del projecte
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Ús d'API de planificació de projectes
               href: project-management/schedule-api-preview.md
+            - name: Ús d'API de planificació de projectes amb el Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Rendiment de l'API de planificació de projectes
               href: project-management/project-schedule-api-performance.md
             - name: Registres de planificació de projectes
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Avançament d'efectiu
           href: expense/cash-advance.md
-        - name: Dietes
-          href: expense/per-diems.md
+        - name: Despeses per dia
+          href: expense/per-diem-expenses.md
         - name: Aplicació mòbil de despeses
           href: expense/expense-using-mobile.md
         - name: Administració financera
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Conjunts d'aprovacions
           href: approvals/approval-sets.md
+        - name: Cancel·lació de l'aprovació de les entrades aprovades anteriorment
+          href: approvals/cancelapproval.md
+        - name: Recuperació d'entrades aprovades prèviament
+          href: approvals/recall-cancel.md
         - name: Notes del desenvolupador
           items:
             - name: Notes del desenvolupador per a aprovacions
               href: approvals/dev-notes-approvals.md
     - name: Valors reals
       items:
+        - name: Transaccions empresarials al Project Operations
+          href: actuals/businesstransactions.md
         - name: Informació general dels valors reals
           href: actuals/actuals-overview.md
-        - name: Enllaç dels valors reals als registres originals
+        - name: 'Orígens de les transaccions: enllaçar els valors reals amb l''origen'
           href: actuals/linkingactuals.md
-        - name: Llibres diari de correcció
+        - name: 'Connexions de transaccions: enllaçar els valors reals de diferents tipus de transaccions'
+          href: actuals/connectingactuals.md
+        - name: Llibres de diari
           items:
+            - name: Creació i confirmació de llibres diari d'entrada
+              href: actuals/create-confirm-entry-journals.md
             - name: Creació i confirmació de llibres diari de correcció
               href: actuals/create-confirm-correction-journals.md
     - name: Proveïment
       items:
         - name: Configuració de materials no mantinguts en existències i factures pendents del proveïdor
           href: procurement/configure-materials-nonstocked.md
-        - name: Proveïment de materials no mantinguts en existències per als projectes amb factures pendents del proveïdor
+        - name: Configuració de les categories de procediments per als projectes
+          href: procurement/configure-procurement-categories.md
+        - name: Proveïment de productes i serveis en existències per als projectes amb factures pendents del proveïdor
           href: procurement/pending-vendor-invoices.md
-        - name: Comanda de materials no mantinguts en existències per als projectes amb comandes de compra del projecte
+        - name: Comanda de productes i serveis en existències per als projectes amb comandes de compra del projecte
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Retenció de proveïdors
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Administració de les estimacions d'ingressos
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Configuració avançada
+      items:
+        - name: Migració de les fites de facturació facturades totalment durant la transició
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Actualització
+      items:
+        - name: Actualització de consideracions per a les aprovacions modernes
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplicacions del Project Operations
+      items:
+        - name: Aplicació del membre de l'equip del Project Operations
+          href: team-member/project-operations-team-member.md
     - name: Solució de problemes
       items:
         - name: Procés de vendes de projectes
@@ -562,6 +596,14 @@
       items:
         - name: "Novetats de l'accés anticipat al llançament\_2 de 2021: implementació bàsica"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Novetats de maig de 2022: implementació bàsica'
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: 'Novetats d''abril de 2022: implementació bàsica'
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: 'Novetats de març de 2022: implementació bàsica'
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: 'Novetats de febrer de 2022: implementació bàsica'
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: 'Novetats del desembre de 2021: implementació bàsica'
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 'Novetats de novembre de 2021: implementació bàsica'
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Moneda
               href: sales/sales-currency.md
+            - name: Unitats organitzatives
+              href: sales/OrgUnits.md
         - name: Administració dels clients potencials dels projectes
           href: pro/sales/managing-leads-sales.md
         - name: Administració d'oportunitats dels projectes
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Seguiment d'ingressos laborals en projectes
               href: project-management/project-sales-tracking.md
-            - name: Actualització de l'estimació en finalitzar
-              href: project-management/update-completed-estimate.md
         - name: Membres de l'equip del projecte
           items:
             - name: Informació general dels membres de l'equip del projecte
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Ús d'API de planificació de projectes
               href: project-management/schedule-api-preview.md
+            - name: Ús d'API de planificació de projectes amb el Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Rendiment de l'API de planificació de projectes
               href: project-management/project-schedule-api-performance.md
     - name: Administració de recursos
@@ -886,12 +930,10 @@
           items:
             - name: Informació general sobre l'ús de recursos
               href: resource-management/resource-utilization-overview.md
-    - name: Administració de subcontractacions al Project Operations
+    - name: Administració de subcontractes
       items:
         - name: Administració de subcontractacions al Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Subcontractació en octubre de 2021 amb accés anticipat
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Conceptes clau en la subcontractació
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Administració de les llistes de preus de projectes i proveïdors
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Transicions d'estat en un subcontracte
           href: pro/subcontracting/subcon-states.md
+    - name: Factures del proveïdor del projecte
+      items:
+        - name: 'Facturació del proveïdor: concepte i creació'
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Detalls de la capçalera de les factures del proveïdor
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Línies de factura del proveïdor per al temps
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Línies de factura del proveïdor per a productes
+          href: pro/subcontracting/vi-line-material.md
+        - name: Línies de factura del proveïdor per a fites
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Línies de factura del proveïdor per a categories de despeses
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Verificació de factures del proveïdor amb valors reals aprovats
+          href: pro/subcontracting/VI-Verification.md
+        - name: Cancel·lació d'una factura del proveïdor del projecte
+          href: pro/subcontracting/cancel-vi.md
+        - name: Confirmació d'una factura del proveïdor del projecte
+          href: pro/subcontracting/confirm-vi.md
+        - name: Transicions d'estat en una factura del proveïdor
+          href: pro/subcontracting/vi-state-model.md
     - name: Temps
       items:
         - name: Informació general del temps
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Conjunts d'aprovacions
           href: approvals/approval-sets.md
+        - name: Cancel·lació de l'aprovació de les entrades aprovades anteriorment
+          href: approvals/cancelapproval.md
+        - name: Recuperació d'entrades aprovades prèviament
+          href: approvals/recall-cancel.md
         - name: Notes del desenvolupador
           items:
             - name: Notes del desenvolupador per a aprovacions
               href: approvals/dev-notes-approvals.md
     - name: Valors reals
       items:
+        - name: Transaccions empresarials al Project Operations
+          href: actuals/businesstransactions.md
         - name: Informació general dels valors reals
           href: actuals/actuals-overview.md
-        - name: Enllaç dels valors reals als registres originals
+        - name: 'Orígens de les transaccions: enllaçar els valors reals amb l''origen'
           href: actuals/linkingactuals.md
-        - name: Llibres diari de correcció
+        - name: 'Connexions de transaccions: enllaçar els valors reals de diferents tipus de transaccions'
+          href: actuals/connectingactuals.md
+        - name: Llibres de diari
           items:
+            - name: Creació i confirmació de llibres diari d'entrada
+              href: actuals/create-confirm-entry-journals.md
             - name: Creació i confirmació de llibres diari de correcció
               href: actuals/create-confirm-correction-journals.md
     - name: Facturació proforma
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configuració de l'automatització de factures del projecte
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Actualització
+      items:
+        - name: Actualització de consideracions per a les aprovacions modernes
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplicacions del Project Operations
+      items:
+        - name: Aplicació del membre de l'equip del Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations per a escenaris basats en producció/mantinguts en existències
   items:
     - name: Novetats
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Informació general sobre la comptabilitat i l'administració de projectes
       href: prod-pma/overview-project-management-accounting.md
-    - name: Facturació entre empreses
-      href: prod-pma/intercompany-invoicing.md
-    - name: Configuració de la facturació del projecte entre empreses
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Configuració dels costos estàndard per al treball i les despeses
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Creació i aplicació de les condicions de retenció de pagaments de proveïdors
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Configuració i ús dels pagaments dels proveïdors després del cobrament
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Acumulació de costs de projecte en rebuts de compra
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Facturació del projecte
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Rendiment de propostes de factura de projecte
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Contractes del projecte
-      href: prod-pma/project-contracts.md
-    - name: Creació de contractes avançats per a la facturació basada en el progrés
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Previsions i pressupostos del projecte
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Creació de models de predicció per als pressupostos del projecte
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Transferència de pressupostos de projecte al final de l'exercici fiscal
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Comandes de vendes de projectes
-      href: prod-pma/project-sales-orders.md
-    - name: Comandes de compra per a un projecte
-      href: prod-pma/project-purchase-orders.md
-    - name: Pressupostos del projecte
-      href: prod-pma/project-quotations.md
-    - name: 'Confirmació, actualització i enviament de pressupostos de projecte'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Transferència d'una oferta a un projecte
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Recursos de projecte
+    - name: Procés de vendes de projectes
+      items:
+        - name: Pressupostos del projecte
+          href: prod-pma/project-quotations.md
+        - name: 'Confirmació, actualització i enviament de pressupostos de projecte'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Transferència d'una oferta a un projecte
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Contractes del projecte
+          href: prod-pma/project-contracts.md
+        - name: Concessions del projecte
+          href: prod-pma/project-grants.md
+    - name: Càlcul de preus i costos
+      items:
+        - name: Configuració dels costos estàndard per al treball i les despeses
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Administració de projectes
+      items:
+        - name: Informació general sobre les estructures del desglossament del treball
+          href: prod-pma/work-breakdown-structures.md
+        - name: Integració del Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Informació general de les aplicacions mòbils del projecte
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Àrea de treball mòbil d'entrada de temps del projecte
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Aplicació mòbil del full d'hores del projecte
+          href: prod-pma/project-timesheet.md
+        - name: Fulls d'hores del projecte en un dispositiu mòbil
+          href: prod-pma/mobile-timesheets.md
+        - name: Implementació de camps personalitzats per a l'aplicació mòbil del Project Timesheet
+          href: prod-pma/custom-fields-mobile.md
+    - name: Administració de recursos
       items:
         - name: Informació general sobre els recursos de projecte
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Compliment de recursos per a recursos planificats
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Recepció d'articles en una comanda de compra d'un requisit d'article
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Estructures del desglossament del treball
+    - name: Pressupostos i previsions del projecte
       items:
-        - name: Informació general sobre les estructures del desglossament del treball
-          href: prod-pma/work-breakdown-structures.md
-        - name: Integració del Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: Informació general de les aplicacions mòbils del projecte
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Àrea de treball mòbil d'entrada de temps del projecte
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Aplicació mòbil del full d'hores del projecte
-          href: prod-pma/project-timesheet.md
-        - name: Fulls d'hores del projecte en un dispositiu mòbil
-          href: prod-pma/mobile-timesheets.md
-        - name: Implementació de camps personalitzats per a l'aplicació mòbil de full d'hores del projecte
-          href: prod-pma/custom-fields-mobile.md
-    - name: Concessions del projecte
-      href: prod-pma/project-grants.md
-    - name: Supressió d'una estimació de projecte
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Previsions i pressupostos del projecte
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Creació de models de predicció per als pressupostos del projecte
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Transferència de pressupostos de projecte al final de l'exercici fiscal
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Temps
+      items:
+        - name: Valor per defecte de les dimensions financeres per a les entrades de temps del projecte
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Despesa
+      items:
+        - name: Informació general de la despesa
+          href: expense/expense-overview.md
+        - name: Nova experiència de despesa
+          items:
+            - name: Informes de despeses nous
+              href: expense/expense-reports-reimagined.md
+            - name: Captura d'un rebut amb l'OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Configuració i instal·lació
+          items:
+            - name: Configuració de normes
+              href: expense/set-up-policies.md
+            - name: Configuració de fluxos de treball
+              href: expense/set-up-workflows.md
+            - name: Administració de la delegació
+              href: expense/manage-delegation.md
+            - name: Configuració dels paràmetres d'administració de despeses
+              href: expense/configure-expense-management-parameters.md
+            - name: Configuració de la integració amb targeta de crèdit
+              href: expense/set-up-credit-card-integration.md
+            - name: Configuració de les categories de despesa
+              href: expense/set-up-expense-categories.md
+            - name: Configuració del quilometratge amb els nivells de la taxa de quilometratge
+              href: expense/set-up-mileage.md
+        - name: Desglossament de les despeses
+          href: prod-exp/expense-itemization.md
+        - name: Despeses personals
+          href: expense/personal-expenses-expense-report.md
+        - name: Despeses entre empreses
+          href: prod-exp/intercompany-expense.md
+        - name: Creació d'informes de despeses
+          items:
+            - name: Distribucions en un informe de despeses
+              href: expense/distributions-expense-report.md
+        - name: Aprovació d'informes de despeses
+          items:
+            - name: Informes de despeses i diversos aprovadors
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Publicació d'informes de despeses
+          href: expense/posting-expense-reports.md
+        - name: Petició de viatge
+          href: expense/travel-requisition.md
+        - name: Avançament d'efectiu
+          href: expense/cash-advance.md
+        - name: Despeses per dia
+          href: expense/per-diem-expenses.md
+        - name: Aplicació mòbil de despeses
+          href: expense/expense-using-mobile.md
+        - name: Administració financera
+          items:
+            - name: Recuperació de l'IVA
+              href: expense/vat-recovery.md
+    - name: Proveïment
+      items:
+        - name: Comandes de compra per a un projecte
+          href: prod-pma/project-purchase-orders.md
+        - name: Acumulació de costs de projecte en rebuts de compra
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Recepció d'articles en una comanda de compra d'un requisit d'article
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Configuració i ús dels pagaments dels proveïdors després del cobrament
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Creació i aplicació de les condicions de retenció de pagaments de proveïdors
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Facturació del projecte
+      items:
+        - name: Facturació del projecte
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Rendiment de propostes de factura de projecte
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Creació de contractes avançats per a la facturació basada en el progrés
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Comandes de vendes de projectes
+          href: prod-pma/project-sales-orders.md
+        - name: Requisits d'articles per als contractes de projecte amb diversos orígens de finançament
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Facturació entre empreses
+      items:
+        - name: Facturació entre empreses
+          href: prod-pma/intercompany-invoicing.md
+        - name: Configuració de la facturació del projecte entre empreses
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Reconeixement d'ingressos
+      items:
+        - name: Supressió d'una estimació de projecte
+          href: prod-pma/eliminate-project-estimate.md
 - name: Administració de despeses
   items:
     - name: Informació general sobre l'administració de despeses
@@ -1148,6 +1304,16 @@
       items:
         - name: "Planificació del llançament d'actualitzacions per al Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: "Novetats o canvis del llançament de l'actualització\_43,\_V3"
+          href: psa/whats-new-ur43.md
+        - name: "Novetats o canvis del llançament de l'actualització\_42,\_V3"
+          href: psa/whats-new-ur-42.md
+        - name: "Novetats o canvis del llançament de l'actualització\_41,\_V3"
+          href: psa/whats-new-ur-41.md
+        - name: "Novetats o canvis del llançament de l'actualització\_40,\_V3"
+          href: psa/whats-new-ur-40.md
+        - name: "Novetats o canvis del llançament de l'actualització\_39, V3"
+          href: psa/whats-new-ur-39.md
         - name: "Novetats o canvis del llançament de l'actualització\_38, V3"
           href: psa/whats-new-ur-38.md
         - name: "Novetats o canvis del llançament de l'actualització\_37.5,\_V3"
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: 'Actualització del Project Service Automation al Project Operations: bàsic'
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Canvis de característiques del Project Service Automation al Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: "Actualització del Project Service Automation (versió\_3.x de l'aplicació)"
       items:
         - name: Actualització del Project Service Automation
