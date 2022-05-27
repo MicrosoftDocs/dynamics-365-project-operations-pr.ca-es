@@ -2,16 +2,16 @@
 title: Corregir la comptabilitat a l'esborrany de propostes de factures del projecte
 description: En aquest tema s'explica com s'ajusta la informació relacionada amb la comptabilitat en un esborrany de proposta de factura.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999304"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575062"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Corregir la comptabilitat a l'esborrany de propostes de factures del projecte
 
@@ -27,12 +27,21 @@ Els grups d'impostos sobre les vendes i els grups d'impostos sobre les vendes d'
 
 ## <a name="adjust-financial-dimensions"></a>Ajustar les mesures financeres
 
+### <a name="header-dimensions"></a>Dimensions de la capçalera
+
+Per defecte, les dimensions financeres de la factura es deriven dels registres de transaccions del projecte no facturats. Tanmateix, la configuració del sistema us permet utilitzar dimensions financeres a la capçalera de les propostes de factures del projecte per publicar saldos de clients. Per habilitar aquesta funcionalitat, seleccioneu **Permet les actualitzacions de les dimensions del projecte per als comptes a cobrar** a la **pestanya Finances** de la **pàgina Gestió de projectes i paràmetres comptables**.
+
+Les dimensions financeres de les capçaleres de les factures es poden editar abans de publicar una factura. A la **pàgina Proposta de factura** del projecte, canvieu a la **visualització capçalera** i editeu els valors a la **pestanya Dimensions financeres**.
+
+La **visualització capçalera** només està disponible després que l'administrador del sistema hagibiliti la proposta de factura Del projecte d'ús **i els formularis de diari de factures amb la característica Visualització** capçalera i línies a l'àrea de treball d'administració **de** funcions. Aquesta característica requereix l'actualització financera 10.0.25 o posterior.
+
+### <a name="line-dimensions"></a>Dimensions de la línia
+
 Les mesures financeres no es poden editar directament en una línia de proposta de factura de projecte. Com a alternativa, seguiu aquests passos per ajustar les mesures financeres en una proposta de factura de projecte.
 
 1. A la proposta de factura de projecte, seleccioneu **Suprimeix-ho tot** per suprimir les línies de proposta de factura de projecte.
 
-    > [!NOTE]
-    > El botó **Suprimeix-ho tot** només està disponible quan l'administrador del sistema habilita la característica **Suprimeix les línies de proposta de factura en utilitzar el Project Operations per a escenaris basats en recursos/no mantinguts en existències** a l'àrea de treball **Administració de característiques**.
+    El botó **Suprimeix-ho tot** només està disponible quan l'administrador del sistema habilita la característica **Suprimeix les línies de proposta de factura en utilitzar el Project Operations per a escenaris basats en recursos/no mantinguts en existències** a l'àrea de treball **Administració de característiques**.
 
 2. Ajustar les mesures financeres:
 

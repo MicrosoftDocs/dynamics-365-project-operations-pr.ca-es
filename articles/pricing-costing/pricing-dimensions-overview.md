@@ -3,17 +3,16 @@ title: Informació general de les dimensions de preus
 description: En aquest tema, podreu obtenir informació sobre les dimensions de preus a Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001959"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579203"
 ---
 # <a name="pricing-dimensions-overview"></a>Informació general de les dimensions de preus
 
@@ -58,18 +57,18 @@ A l'exemple següent es mostren les tarifes de facturació que estan configurade
 
 **Tarifes de facturació d'exemple**
 
-| Funció        | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
+| Funció        | Unitat organitzativa    |Unit      |Preu      |Moneda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolupador   | Contoso US  |Hora | 200|USD     |
-| Desenvolupador   | Contoso India |Hora|   112|USD     |
+| Desenvolupador   | Contoso EUA  |Hour | 200|USD     |
+| Desenvolupador   | Contoso India |Hour|   112|USD     |
 
 
 **Percentatge de costos d'exemple**
 
-| Banda de salari     | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
+| Banda de salari     | Unitat organitzativa    |Unit      |Preu      |Moneda  |
 | ----------------|-------------|----------|----------:|----------|
-| La meva empresa_banda1 | Contoso US  |Hora | 145|USD     |
-| La meva empresa_banda2 | Contoso India |Hora|   67|USD     |
+| La meva empresa_banda1 | Contoso EUA  |Hour | 145|USD     |
+| La meva empresa_banda2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

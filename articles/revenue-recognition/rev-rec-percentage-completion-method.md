@@ -4,14 +4,14 @@ description: En aquest tema es proporciona informació sobre els ingressos de pr
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006414"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578696"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projectes d'estimació d'ingressos de preu fix 
 
@@ -26,7 +26,7 @@ Quan creeu una línia de contracte de projecte amb els atributs següents al Dyn
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Revisió de projectes d'estimació d'ingressos de preu fix
 Per revisar els projectes d'estimació d'ingressos de preu fix, seguiu aquests passos:
 
-1. A l'entorn del Dynamics 365 Finance, aneu a **Gestió de projectes i comptabilitat** > **Projectes** > **Projectes d'estimació d'ingressos de preu fix**.
+1. En l'entorn Dynamics 365 Finance, aneu a **Projectes de Gestió de Projectes i Comptabilitat** > **Projectes** > **d'estimació d'ingressos de preu fix**.
 2. Seleccioneu el projecte que voleu visualitzar i feu doble clic a **Identificador del projecte d'estimació** per obrir el registre i revisar els detalls del projecte.
 3. Expandiu la pestanya **Projecte**. Veureu un projecte a la quadrícula **Projectes seleccionats**. El sistema l'utilitza com a projecte per defecte perquè és el projecte associat a la línia de contracte del projecte. 
 4. Per canviar l'associació, seleccioneu projectes addicionals i afegiu-los a la quadrícula **Projectes seleccionats**. Si se seleccionen diversos projectes en aquesta quadrícula, el percentatge completat del projecte i les estimacions d'ingressos es calculen junts per a tots els projectes seleccionats.

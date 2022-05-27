@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826244"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577041"
 ---
 # <a name="set-up-credit-card-integration"></a>Configuració de la integració amb targeta de crèdit
 
@@ -58,10 +58,10 @@ De vegades, després d'importar transaccions de targeta de crèdit, és possible
 
 ## <a name="storing-credit-card-numbers"></a>Emmagatzemar els números de la targeta de crèdit
 
-Hi ha tres opcions disponibles per emmagatzemar números de targetes de crèdit. Els números de la targeta de crèdit s'emmagatzemen a la **pàgina Paràmetres de gestió de** despeses.
+Hi ha tres opcions disponibles per emmagatzemar números de targetes de crèdit. Els números de la targeta de crèdit s'emmagatzemen a la **pàgina Paràmetres** de gestió de despeses.
 
-- **Eviteu l'entrada del número** de targeta: els números de la targeta de crèdit no s'emmagatzemen.
+- **Eviteu l'entrada** del número de targeta: els números de la targeta de crèdit no s'emmagatzemen.
 - **Números de targeta hash (emmagatzemar els últims quatre dígits)** - Els últims quatre dígits dels números de targetes de crèdit s'emmagatzemen en un format xifrat.
-- **Números de targeta de** botiga: els números de la targeta de crèdit s'emmagatzemen en un format sense xifrar. Aquesta opció no compleix amb l'estàndard de seguretat de dades (DSS) de la indústria de targetes de pagament (PCI). Per tant, per mantenir la seva organització d'acord amb les regulacions PCI DSS, els administradors de l'organització han de triar no emmagatzemar números de targeta de crèdit o emmagatzemar números de targeta hash.
+- **Números** de targeta de botiga: els números de la targeta de crèdit s'emmagatzemen en un format sense xifrar. Aquesta opció no compleix amb l'estàndard de seguretat de dades (DSS) de la indústria de targetes de pagament (PCI). Per tant, per mantenir la seva organització d'acord amb les regulacions PCI DSS, els administradors de l'organització han de triar no emmagatzemar números de targeta de crèdit o emmagatzemar números de targeta hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

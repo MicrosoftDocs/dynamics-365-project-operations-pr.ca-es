@@ -2,18 +2,16 @@
 title: Conjunts d'aprovacions
 description: En aquest tema s'explica com es treballa amb els conjunts d'aprovació, les sol·licituds i els subconjunts d'aquestes operacions.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323224"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576212"
 ---
 # <a name="approval-sets"></a>Conjunts d'aprovacions
 
@@ -27,6 +25,18 @@ Els conjunts d'aprovació indiquen l'estat de processament global dels registres
 Les aprovacions que estan a la cua per al processament són visibles a la visualització **Aprovacions de processament**. El sistema processa totes les entrades de manera asíncrona diverses vegades, incloent-hi tornar a provar una aprovació si s'ha produït un error en els intents anteriors.
 
 El camp **Vida del conjunt d'aprovació** registra el nombre d'intents restants per processar el conjunt abans que es marqui com a error.
+
+Els conjunts d'aprovació es processen mitjançant l'activació periòdica basada en un **Servei de projecte anomenat** Cloud Flow **- Recurrently Schedule Project Approval Sets**. Això es troba a la **solució** anomenada **Operacions del projecte**. 
+
+Assegureu-vos que el flux s'activi completant els passos següents.
+
+1. Com a administrador, inicieu la sessió a [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. A l'extrem superior dret, canvieu a l'entorn que utilitzeu per a Dynamics 365 Project Operations.
+3. Seleccioneu **Solucions** per llistar les solucions instal·lades a l'entorn.
+4. A la llista de solucions, seleccioneu **Operacions** del projecte.
+5. Canvia el filtre de **Tots** a fluxos **al** núvol.
+6. Verifiqueu que el flux del **project Service - Planifica recurrentment el flux dels conjunts d'aprovació del** projecte està definit com a **Encitat**. Si no és així, seleccioneu el flux i, a continuació, seleccioneu **Activa**.
+7. Verifiqueu que el processament es produeixi cada cinc minuts revisant la **llista Feines** **del sistema a l'àrea Configuració de l'entorn** Operacions Dataverse del projecte.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Aprovacions i conjunts d'aprovació amb errors
 A la visualització **Aprovacions amb error** s'enumeren totes les aprovacions que requereixen la intervenció de l'usuari. Obriu els registres del conjunt d'aprovació associats per identificar la causa de l'error.

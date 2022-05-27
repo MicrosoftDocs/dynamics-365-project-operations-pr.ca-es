@@ -4,20 +4,20 @@ description: En aquest tema es proporciona informació sobre com registrar-se i 
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323404"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575798"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrar-se a les subscripcions de versió preliminar del Project Operations per a escenaris de recursos/sense existències
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 En aquest tema s'explica com subscriure's a l'oferta de prova i implementar l'entorn del Project Operations per als escenaris basats en recursos/no mantinguts en existències.
 
@@ -40,16 +40,16 @@ Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador 
 
   Veureu que l'oferta de confirmació s'ha bescanviat correctament.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Prova de versió preliminar del Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Prova de previsualització de Dynamics 365 Finance
 
 Aneu a [Prova de versió preliminar del Dynamics 365 for Finance](https://aka.ms/trypoche) i repetiu els passos de la secció anterior amb l'oferta Registrar-se per obtenir un entorn allotjat al núvol.  
 
 ## <a name="assign-licenses"></a>Assignar llicències
 
 > [!IMPORTANT]
-> Necessitareu accés d'administrador al portal del Microsoft 365 de l'organització per completar els passos següents.
+> Necessitareu accés d'administrador al portal de l'Microsoft 365 de l'organització per completar els passos següents.
 
-1. Aneu al [centre d'administració del Microsoft 365](https://portal.office.com/) per assignar les llicències als usuaris.
+1. Aneu al [Microsoft 365 centre](https://portal.office.com/) d'administració per assignar les llicències als usuaris.
 
 2. A la pàgina **Usuaris actius**, seleccioneu els usuaris als quals voleu assignar una llicència.
 

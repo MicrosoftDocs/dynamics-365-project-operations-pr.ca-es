@@ -2,16 +2,16 @@
 title: Còpia d'un projecte
 description: Aquest tema proporciona informació sobre la còpia de projectes al Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+ms.date: 03/07/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007179"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574418"
 ---
 # <a name="copy-a-project"></a>Còpia d'un projecte
 
@@ -25,39 +25,47 @@ Amb el Dynamics 365 Project Operations, podeu crear projectes nous ràpidament s
 - Estimacions del projecte
 - Estimacions de despesa del projecte
 - Estimacions de materials del projecte
+- Llistes de comprovació del projecte
+- Cubells del projecte
 
 ## <a name="project-properties"></a>Les propietats del projecte
 
-Quan el projecte es copia, es copien els valors dels camps següents:
+Quan es copia el projecte, es copien els valors dels camps següents.
 
-- Nom
-- Descripció
-- Client
-- Plantilla de calendari
-- Moneda
-- Unitat de contractació
-- Administrador de projectes
-- Estat
-- Estat general del projecte
-- Comentaris
-- Estimacions
-- Data d'inici prevista: aquesta és la data de creació del projecte a partir de la còpia.
-- Data de finalització prevista: aquesta data s'ajusta segons la data d'inici del nou projecte que s'ha fet a partir de la còpia.
-- Esforç (hores)
-- Cost estimat de la mà d’obra
-- Cost estimat de les despeses
-- Cost estimat del material
+| Camp | Operacions de projecte Materials no emmagatzemats | Operacions del projecte Lite | Projecte per a la web |
+|-------|------------------------------------------|-------------------------|---------------------|
+| Nom | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Descripció | :heavy_check_mark: | :heavy_check_mark: | |
+| Client | :heavy_check_mark: | :heavy_check_mark: | |
+| Plantilla de calendari | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Moneda | :heavy_check_mark: | :heavy_check_mark: | |
+| Unitat de contractació | :heavy_check_mark: | :heavy_check_mark: | |
+| Empresa propietària | :heavy_check_mark: | | |
+| Administrador de projectes | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Estat d'execució | :heavy_check_mark: | :heavy_check_mark: | |
+| Estat general del projecte | :heavy_check_mark: | :heavy_check_mark: | |
+| Comentaris | :heavy_check_mark: | :heavy_check_mark: | |
+| Estimacions | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Data d’inici estimada</p><p><strong>Nota:</strong> Aquest camp especifica la data en què es crea el projecte a partir de la còpia. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Data de finalització estimada</p><p><strong>Nota:</strong> La data d'aquest camp s'ajusta en funció de la data d'inici del nou projecte que s'ha fet a partir de la còpia.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| Esforç (hores) | :heavy_check_mark: | :heavy_check_mark: | |
+| Cost estimat de la mà d’obra | :heavy_check_mark: | :heavy_check_mark: | |
+| Cost estimat de les despeses | :heavy_check_mark: | :heavy_check_mark: | |
+| Cost estimat del material | | :heavy_check_mark: | |
 
 > [!NOTE]
 > Copiar un projecte és una operació de llarga execució. També es copien els registres de projecte, els seus atributs rellevants i moltes entitats relacionades. A causa del caràcter de llarga execució de l'operació, un cop iniciada la còpia, la pàgina del projecte de destinació queda blocada per editar-la fins que l'operació de còpia s'ha completat.
 
 ## <a name="work-breakdown-structure"></a>Estructura del desglossament del treball
 
-Quan es copia el projecte, es copia tota l'estructura del desglossament del treball carregada de recursos. Els recursos amb nom se substitueixen per recursos genèrics. Si els recursos amb nom no tenen les mateixes hores de feina que el recurs genèric, la planificació es tornarà a calcular i les duracions de les tasques poden canviar.
+Quan es copia el projecte, es copia tota l'estructura del desglossament del treball carregada de recursos. Els recursos amb nom se substitueixen per recursos genèrics. Si els recursos amb nom no tenen les mateixes hores de treball que el recurs genèric, la planificació es tornarà a calcular i la durada de les tasques pot canviar.
 
 ## <a name="project-team-members"></a>Membres de l'equip del projecte
 
 Quan un equip del projecte es copia des del projecte d'origen, es copien els recursos genèrics. Les assignacions de recursos genèrics també es mantenen com estaven al projecte d'origen. Els recursos amb nom es convertiran en membres de l'equip genèric.
+
+> [!NOTE]
+> Els membres de l'equip i les tasques no es copien al Project for the Web.
 
 ## <a name="estimates"></a>Estimacions
 
@@ -65,5 +73,8 @@ Quan es copia el projecte, les línies de càlcul de recursos, despeses i materi
 
 Per obtenir informació sobre com accedir mitjançant programació a Copia el projecte, vegeu [Desenvolupar plantilles de projecte amb Copia el projecte](dev-copy-project.md).
 
+## <a name="quotes-and-contracts"></a>Ofertes i contractes
+
+Les ofertes i els contractes no estan vinculats al projecte de destinació.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

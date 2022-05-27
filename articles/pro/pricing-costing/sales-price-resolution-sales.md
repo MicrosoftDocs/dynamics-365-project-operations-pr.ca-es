@@ -4,14 +4,14 @@ description: En aquest tema es proporciona informació sobre com es resolen els 
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2152b3f59050482cab0d1c5940d6743f420206bfc90e034dc2d754df8bd513a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8aa731d48a3ce39dfbf4fc1e5934b0844caf2953
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996064"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575707"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Resolució dels preus de venda per a les estimacions i els valors reals del projecte
 

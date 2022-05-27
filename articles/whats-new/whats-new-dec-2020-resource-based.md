@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984859"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579846"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de desembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -21,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
 - Project Operations en entorn del Dataverse versió 4.5.0.134
-- Administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance versió 10.0.15
+- Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.15
 
 Per obtenir informació sobre com actualitzar a aquesta versió, vegeu [Actualitzar el Project Operations al vostre entorn de Finances](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ En aquesta versió s'inclouen les característiques següents:
 | Planificació i seguiment de projectes | 2057197          | La còpia de la línia d'estimació amb referència de tasca no està admesa                                                                                                     |
 | Planificació i seguiment de projectes | 2060687          | L'advertiment de fus horari ara desapareix després d'un temps concret                                                                                                      |
 | Administració de recursos           | 1832887          | L'ID de categoria de recurs per defecte ha de ser estàtic per garantir càrregues de dades repetibles per a entorns de Dataverse i de Finances                                                 |
-| Temps i despesa              | 2081793          | **El nom de la categoria de despesa** ha d'estar assignat al camp **Descripció de la categoria de despesa** a les aplicacions de Finance and Operations                                                  |
+| Temps i despesa              | 2081793          | **El nom** de la categoria de despeses s'ha d'assignar al **camp Descripció de la** categoria de despeses a les aplicacions Finances i Operacions                                                  |
 | Temps i despesa              | 2034882          | El botó **Nou** es visualitza dues vegades a la barra d'ordres per a les entrades de temps quan Dynamics 365 Field Service està instal·lat                                          |
 | Temps i despesa              | 2056028          | Actualitza la pàgina **Edició de temps** per incloure la línia de temps                                                                                                              |
 | Temps i despesa              | 1983747          | El gràfic d'entrada de temps mostra dades addicionals                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestió de projectes i comptabilitat en Dynamics 365 Finance
 
 | Àrea de característiques                        | Número de referència | Actualització de qualitat                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ En aquesta versió s'inclouen les característiques següents:
 | Viatges i despesa                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | El flux de treball de publicació automàtica de l'informe de despeses s'ha completat, però la factura no s'ha publicat                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reguladores de les aplicacions financeres i d'operacions, consulta [Actualitzacions reguladores](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
