@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928649"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594796"
 ---
 # <a name="provision-a-new-environment"></a>Proveïment d'un entorn nou
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 En aquest tema es proporciona informació sobre com proveir un nou entorn de Dynamics 365 Project Operations per a escenaris basats en recursos/sense existències.
 
@@ -34,7 +34,7 @@ Seguiu aquests passos per habilitar el flux de proveïment automatitzat del Proj
 
 ## <a name="provision-a-project-operations-environment"></a>Proveïment d'un entorn del Project Operations
 
-1. Obriu una nova implementació d'un [entorn de demostració](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) o [entorn de producció](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) del Dynamics 365 Finance. 
+1. Obriu un entorn [de demostració Dynamics 365 Finance](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) nou o [un desplegament de l'entorn](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) de producció de l'espai aïllat. 
 2. Seguiu els passos de l'auxiliar **Proveïment de l'entorn**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Pot ser que hàgiu d'aplicar actualitzacions de qualitat al vostre entorn del Fi
 
     ![Aplicar les solucions.](./media/13ApplySolutions.png)
 
-5. Seleccioneu les dues solucions, el mapa d'entitats del **Dynamics 365 Finance and Operations d'escriptura doble** i els mapes d'entitat del **Dynamics 365 Project Operations d'escriptura doble** i, a continuació, seleccioneu **Aplicar**.
+5. Seleccioneu ambdues solucions, **Dynamics 365 Finance and Operations mapa** d'entitats d'escriptura dual i **Dynamics 365 Project Operations assignacions** d'entitats d'escriptura dual i, a continuació, seleccioneu **Aplica**.
 
     ![Confirmar les solucions.](./media/14ConfirmSolutions.png)
 

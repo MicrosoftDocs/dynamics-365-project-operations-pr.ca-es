@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f8f23c1f32d94a514de9ae40bd07b3d8063824c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004794"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593673"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Habilitar les característiques de l'aplicació Project Finder Mobile (Project Service)
 
@@ -47,11 +48,11 @@ Els vostres recursos poden utilitzar l'aplicació Project Finder Mobile amb l'[!
   
 4. Definiu **Permet l'actualització d'aptitud per recurs** com a **Sí**.  
   
-   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    És una configuració global. Els administradors de projectes poden definir si un projecte individual estarà visible a la pàgina **Equip del projecte** del projecte.  
   
-   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService&#95; ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Notificacions de correu electrònic  
  l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] envia correus electrònics en relació amb sol·licituds de recursos als destinataris i a les hores següents:  

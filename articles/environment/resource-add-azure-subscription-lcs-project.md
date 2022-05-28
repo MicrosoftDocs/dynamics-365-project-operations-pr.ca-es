@@ -4,14 +4,14 @@ description: En aquest tema es proporciona informació sobre com connectar la su
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986659"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595900"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Addició d'una subscripció a l'Azure a un projecte del LCS
 
@@ -65,7 +65,7 @@ L'autorització ja s'ha completat.
 8. Seleccioneu la regió de l'Azure per implementar i seleccioneu un centre de dades a prop del lloc on teniu pensat utilitzar aquest sistema.
 9.  Seleccioneu **Connecta**.
 
-Heu connectat correctament la subscripció de l'Azure. Ara podeu implementar els entorns allotjats al núvol del Dynamics 365 Finance.
+Heu connectat correctament la subscripció de l'Azure. Ara podeu implementar Dynamics 365 Finance entorns allotjats al núvol.
 
 
 

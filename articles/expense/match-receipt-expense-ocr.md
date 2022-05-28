@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798028"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596268"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Captura d'un rebut amb l'OCR
 
@@ -52,7 +52,7 @@ Per crear una despesa o fer coincidir una despesa d'un rebut, seguiu els passos 
 
 ## <a name="installation"></a>Instal·lació
 
-Per utilitzar aquestes capacitats de despesa avançades, instal·leu el complement del Servei d'administració de despeses per a Microsoft Dynamics 365 Finance i activeu les funcions de la instància. Podeu accedir al complement del vostre projecte a Microsoft Dynamics Lifecycle Services (LCS).
+Per utilitzar aquestes capacitats de despesa avançades, instal·leu el complement del Servei de gestió de despeses per a Microsoft Dynamics 365 Finance i activeu les funcions de la instància. Podeu accedir al complement des del projecte al Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicieu la sessió al LCS i obriu l'entorn desitjat.
 2. Aneu a **Detalls complets**.
@@ -73,7 +73,7 @@ Quan activeu aquestes característiques es produeixen les següents accions:
 - S'afegirà un element de menú nou per a la visibilitat del camp de despeses.
 - Encara podeu obrir la pàgina **Informes de despeses** anterior anant a **Administració de despeses > Les meves despeses > Informes de despeses**.
 - Els fluxos de treball i les aprovacions encara us porten a la pàgina d'informes de despeses existent.
-- Els rebuts es processaran a través Microsoft Azure Serveis Cognitius, i s'extrauran i afegiran metadades.
+- Els rebuts es processaran mitjançant el Microsoft Azure Cognitive Services i s'extrauran i s'afegiran les metadades.
 - S'ha afegit una opció que us permet crear un informe de despeses que inclogui rebuts coincidents no adjunts.
 - Una opció afegida als informes de despeses us permet crear una línia de despesa a partir d'un rebut o intenta fer coincidir un rebut existent amb una línia de despesa existent.
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753280"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598476"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats d'octubre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753280"
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
    - Project Operations en un entorn del Microsoft Dataverse, versió 4.25.0.91
-   - Administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance versió 10.0.21
+   - Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 
@@ -49,7 +49,7 @@ Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les 
 | Facturació i preus | 2338357 | La moneda al registre d'ús de materials ha de ser per defecte la moneda del projecte quan el projecte se selecciona. |
 | Temps i despeses | 2414777 | Ha de ser possible cancel·lar una aprovació quan la despesa o entrada de temps té més d'una aprovació de projecte associada. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestió de projectes i comptabilitat sobre Dynamics 365 Finance
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |

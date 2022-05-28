@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998449"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593600"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Pàgina d'inici de dimensions de preus i de costos
 
@@ -64,18 +65,18 @@ A l'exemple següent es mostren les tarifes de facturació que estan configurade
 
 **Tarifes de facturació d'exemple**
 
-| Funció        | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
+| Funció        | Unitat organitzativa    |Unit      |Preu      |Moneda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolupador   | Contoso US  |Hora | 200|USD     |
-| Desenvolupador   | Contoso India |Hora|   112|USD     |
+| Desenvolupador   | Contoso EUA  |Hour | 200|USD     |
+| Desenvolupador   | Contoso India |Hour|   112|USD     |
 
 
 **Percentatge de costos d'exemple**
 
-| Banda de salari     | Unitat organitzativa    |Unitat      |Preu      |Moneda  |
+| Banda de salari     | Unitat organitzativa    |Unit      |Preu      |Moneda  |
 | ----------------|-------------|----------|----------:|----------|
-| La meva empresa_banda1 | Contoso US  |Hora | 145|USD     |
-| La meva empresa_banda2 | Contoso India |Hora|   67|USD     |
+| La meva empresa_banda1 | Contoso EUA  |Hour | 145|USD     |
+| La meva empresa_banda2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

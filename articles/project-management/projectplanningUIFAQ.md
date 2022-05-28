@@ -2,17 +2,17 @@
 title: Solucionar problemes de funcionament a la quadrícula de tasques
 description: En aquest tema es proporciona informació sobre la detecció d'errors que es necessita quan es treballa a la quadrícula de tasques.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547187"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596406"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemes de funcionament a la quadrícula de tasques 
 
@@ -70,6 +70,9 @@ El Project Operations requereix que un paràmetre de projecte faci referència a
       | Project Operations                   | tipus=2             |
 
 4. Suprimiu el camp de la pàgina **Paràmetres del projecte**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigació 3: inicia sessió a project.microsoft.com
+Microsoft Edge Al navegador, obriu una pestanya nova, aneu a project.microsoft.com i inicieu la sessió mitjançant la funció d'usuari que utilitzeu per accedir a les operacions del projecte.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problema: el projecte no es carrega i la interfície d'usuari es troba atrapada en el control giratori
 

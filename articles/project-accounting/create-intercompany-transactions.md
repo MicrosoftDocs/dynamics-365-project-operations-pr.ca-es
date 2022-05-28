@@ -4,14 +4,14 @@ description: En aquest tema es proporciona informació sobre com crear transacci
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005469"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599948"
 ---
 # <a name="create-intercompany-transactions"></a>Creació de transaccions entre empreses
 
@@ -30,14 +30,14 @@ Quan s'aprova una transacció entre empreses, es creen les operacions reals seg�
 
 El cost, el cost unitari de recursos i els preus i la moneda de transacció de venda entre unitats d'organització es regeixen per la **unitat d'organització**. Això és important recordar-ho a l'hora de decidir la manera d'estructurar empreses i unitats organitzatives en la implementació.
 
-Quan creeu registres d'oportunitat, oferta, contracte de projecte i projecte, el sistema verifica que la moneda de la unitat de contractació coincideixi amb el moneda comptable de l'empresa contractant. Quan no són iguals, aquests registres no es poden crear. La moneda de la unitat organitzativa es defineix al Dynamics 365 Project Operations anant a **Dataverse** > **Configuració** > **Unitats organitzatives**. La moneda comptable d'una empresa es defineix al Dynamics 365 Finance anant a **Llibre major** > **Configuració del llibre major** > **Llibre major**. La moneda se sincronitza amb l'entorn de Dataverse mitjançant el mapa d'escriptura dual de llibres majors.
+Quan creeu registres d'oportunitat, oferta, contracte de projecte i projecte, el sistema verifica que la moneda de la unitat de contractació coincideixi amb el moneda comptable de l'empresa contractant. Quan no són iguals, aquests registres no es poden crear. La moneda de la unitat organitzativa es defineix al Dynamics 365 Project Operations anant a **Dataverse** > **Configuració** > **Unitats organitzatives**. La moneda comptable d'una empresa es defineix en Dynamics 365 Finance anant al **Llibre major** > **general de la configuració** > **del llibre major**. La moneda se sincronitza amb l'entorn de Dataverse mitjançant el mapa d'escriptura dual de llibres majors.
 
 El sistema crea costos unitaris de recursos i valors reals de vendes entre unitats d'organització en les situacions següents:
 
   - Quan la unitat de recursos és diferent de la unitat de contractació
   - Quan l'empresa de recursos és diferent de l'empresa de contractació
 
-No obstant, només les transaccions que tenen una empresa de recursos diferent de l'empresa contractant es transferiran a l'entorn del Dynamics 365 Finance per a la comptabilitat addicional.
+No obstant això, només les operacions que tinguin una empresa de recursos diferent de l'empresa contractant es transferiran a l'entorn Dynamics 365 Finance per a una comptabilitat addicional.
 
 La comptabilització per a valors reals del projecte es registra en el diari d'integració de Project Operations a Finances. El sistema crea les línies de diari següents.
 
@@ -60,7 +60,7 @@ Molly Clark, desenvolupador que treballa a GBPM registra 10 hores de feina en un
     4. Definiu la moneda com a **USD**.
     5. Desar el registre.
 3. Aneu a **Vendes** > **Contractes de projecte** i creeu un contracte de projecte nou per a Adventure Works.
-    1. Definiu l'empresa propietària com a **USPM** i la unitat de contracte com a **Contoso Robotics US**.
+    1. Definiu l'empresa propietària com a **USPM** i la unitat de contractació com a **Contoso Robotics US**.
     2. Seleccioneu Adventure Works com a client.
     3. Seleccioneu una llista de preus de productes i deseu el registre.
     4. A la pestanya **Línies de contracte**, creeu una línia de contracte nova. Definiu-ne el nom i seleccioneu **Temps i materials** com a mètode de facturació.

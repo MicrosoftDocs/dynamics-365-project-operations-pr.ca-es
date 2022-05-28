@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e5175b12c9e06962888bf09c8e07119b9505dda
-ms.sourcegitcommit: 2aba2082d50b20b596ee86735045644cd647c2b0
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7901505"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598706"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Novetats o canvis de la versió d'actualització 38 del Project Service Automation, V3
 
@@ -39,20 +40,20 @@ S'han corregit els problemes següents.
 **Temps i despesa**
 
 - Una excepció es produeix quan la longitud dels registres del conjunt d'aprovació supera els 100.000 registres.
-- Els usuaris no poden accedir a la **quadrícula d'entrada de temps** des de **la pàgina principal de l'entrada de l'hora.**
-- El **quadre de diàleg Importació** d'entrades d'hora no mostra cap text quan no hi ha elements aptes per a la importació.
-- Els usuaris poden crear conjunts d'aprovació on el camp Estat de destinació **està definit com a Desconegut** **·**.
+- Els usuaris no poden accedir a la **quadrícula d'entrada** de temps des de la pàgina principal de l'entrada **de l'hora**.
+- El **quadre de diàleg Importació d'entrades** d'hora no mostra cap text quan no hi ha elements aptes per a la importació.
+- Els usuaris poden crear conjunts d'aprovació on el camp Estat de **destinació** està definit com a **Desconegut**.
 
 **Administració de projectes**
 
 - Els contorns no es mostren correctament a les assignacions de recursos per a UTC(+09:30) i UTC(+10:00) quan s'inicia l'horari d'estiu.
-- El **camp Columna addicional per a les** estructures de desglossament de treball està amagat en alguns llocs.
-- El selectador de dates per al control de calendari a la **quadrícula Tasques del projecte** no està localitzat correctament per al xinès.
+- El **camp Columna** addicional per a les estructures de desglossament de treball està amagat en alguns llocs.
+- El selectador de dates per al control de calendari a la quadrícula Tasques **del** projecte no està localitzat correctament per al xinès.
 
 **Vendes**
 
-- **Els** valors rendiment del contracte i **cost real del projecte no** coincideixen quan els recursos que es poden reservar que tenen diferents unitats de contractació i monedes envien entrades de temps.
+- **Els valors rendiment del** contracte i **cost** real del projecte no coincideixen quan els recursos que es poden reservar que tenen diferents unitats de contractació i monedes envien entrades de temps.
 - Un flux de treball personalitzat per confirmar automàticament les factures falla quan les factures s'importen com a solució administrada. Es mostra el missatge següent: "Microsoft.Xrm.Sdk.InvalidPluginExecutionException Message: Estat de la factura no vàlid".
-- Quan **Root és seleccionat com** l'opció de resum, i el projecte té estimacions d'una barreja de classes de transaccions (per exemple, una combinació de temps, despesa i estimacions de materials), el sistema es resumeix entre les classes de transaccions com una sola línia de tarifa.
+- Quan **Root** és seleccionat com l'opció de resum, i el projecte té estimacions d'una barreja de classes de transaccions (per exemple, una combinació de temps, despesa i estimacions de materials), el sistema es resumeix entre les classes de transaccions com una sola línia de tarifa.
 - En els escenaris en què s'afegeix una línia de despeses abans que una línia de contracte s'associï amb un projecte, el preu correcte no s'introdueix com a valor per defecte al camp Actualitza el **preu**.
 - No es permeten quantitats de vendes negatives a les **entitats projecte** i **tasca**.

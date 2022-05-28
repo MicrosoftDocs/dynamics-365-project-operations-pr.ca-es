@@ -4,27 +4,27 @@ description: En aquest tema es proporciona informació sobre com configurar i ap
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986614"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594704"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configuració i aplicació de les dades de configuració al Common Data Service 
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Requisits previs
 
 Abans de començar a configurar les dades al Common Data Service (CDS), cal complir els requisits previs següents:
 
-1.  Proveir un entorn del CDS i un entorn del Dynamics 365 Finance per al Project Operations.
-2.  La informació de les entitats jurídiques del Dynamics 365 Finance es comparteix a l'entorn del CDS. Això significa que l'entitat **Empresa** al CDS té els següents registres d'empresa:
+1.  Proporcioneu un entorn CDS i un entorn Dynamics 365 Finance per a les operacions del projecte.
+2.  La informació de les persones jurídiques de Dynamics 365 Finance es comparteix amb l'entorn CDS. Això significa que l'entitat **Empresa** al CDS té els següents registres d'empresa:
   - THPM
   - USPM
   - GBPM

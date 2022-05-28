@@ -4,14 +4,14 @@ description: Aquest tema proporciona informació sobre com crear i utilitzar pla
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993544"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594198"
 ---
 # <a name="set-up-cost-templates"></a>Configuració de plantilles de costos
 
@@ -56,7 +56,7 @@ Decidir quin enfocament utilitzar per crear una plantilla de costos pot dependre
 ## <a name="create-cost-templates"></a>Crear plantilles de costos
 Per crear plantilles de costos, seguiu aquests passos:
 
-1. Per accedir a les plantilles de costos, a l'entorn del Dynamics 365 Finance, aneu a **Administració de projectes i comptabilitat** > **Configuració** > **Estimacions** > **Plantilla de costos**.
+1. Per accedir a les plantilles de costos, a l'entorn Dynamics 365 Finance, aneu a La **plantilla De costos d'estimacions d'estimacions** > **d'instal·lació** > **de projectes i comptabilitat** > **·**.
 2. Seleccioneu **Crea** per crear una plantilla de costos nova. Introduïu un nom i una descripció.
 3. Proporcioneu l'identificador de la línia de cost per a cada tipus de transacció.
 4. Seleccioneu un mètode de compleció per defecte:

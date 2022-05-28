@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992689"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597050"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Novetats i canvis de juliol de 2021 del Project Operations per a escenaris basats en producció o mantinguts en existències
 
@@ -20,7 +20,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en producció/manting
 
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
-- Administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance versió 10.0.20
+- Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.20
  
 ### <a name="quality-updates"></a>Actualitzacions de qualitat
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Aquest tema s'aplica als components i versions següents del Dynamics 365 Projec
 | Viatge i despesa                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | L'eina **Restableix l'estat del document de despeses** ha de restablir l'estat de l'informe de despeses a **Esborrany** si no s'ha trobat el flux de treball. 
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al Lifecycle Services (LCS) i visualitzar les actualitzacions normatives planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reguladores de les aplicacions financeres i d'operacions, consulta [Actualitzacions reguladores](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al Lifecycle Services (LCS) i visualitzar les actualitzacions normatives planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
