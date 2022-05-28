@@ -2,41 +2,41 @@
 title: Actualitzacions del Project Operations
 description: En aquest tema es proporciona informació sobre les versions publicades del Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 11/15/2021
+ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f5e37bc90a74e6bc9f1bf3d3820a34c3f4c3496d
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
+ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942827"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8732919"
 ---
 # <a name="project-operations-updates"></a>Actualitzacions del Project Operations
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense existències, implementació bàsica: tracte de facturació proforma i Project Operations per a escenaris amb existències/basats en producció_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="project-operations-components"></a>Components del Project Operations
 
 El Dynamics 365 Project Operations consta de dos components:
 
 - El Project Operations a l'entorn del Dataverse cobreix funcionalitats des de l'oportunitat fins a la facturació proforma. El Dataverse s'utilitza en la implementació bàsica i la implementació en escenaris de recursos/sense existències al Project Operations.
-- L'administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance cobreix les funcionalitats d'administració de despeses, la comptabilitat de projectes i el reconeixement d'ingressos. L'entorn d'aplicació del Finance and Operations s'utilitza al Project Operations per a escenaris basats en recursos/sense existències i Project Operations per a escenaris amb existències/basats en producció.
+- La gestió de projectes i la comptabilitat en l'entorn Dynamics 365 Finance cobreix les capacitats de gestió de despeses, la comptabilitat de projectes i el reconeixement d'ingressos. L'entorn d'aplicacions Finances i Operacions s'utilitza a Operacions de projectes per a escenaris basats en recursos/ no emmagatzemats i Operacions de projecte per a escenaris emmagatzemats / basats en la producció.
 
 ## <a name="project-operations-release-notes"></a>Notes de la versió de Project Operations
-- Notes de la versió més recents de Project Operations per a l'escenari [Recursos/sense existències](whats-new-dec-2021-resource-based.md).
-- Notes de la versió més recents de Project Operations per a l'escenari [Implementació bàsica](../pro/whats-new/whats-new-dec-2021-lite.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [Recursos/sense existències](whats-new-may-2022-resource-based.md).
+- Notes de la versió més recents de Project Operations per a l'escenari [Implementació bàsica](../pro/whats-new/whats-new-may-2022-lite.md).
 - Notes de la versió més recents de Project Operations per a l'escenari [en existències/producció](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Versió més recent del Project Operations
 
-| Project Operations a l'entorn del Dataverse | Administració de projectes i comptabilitat en entorns d'aplicacions del Finance and Operations | 
+| Project Operations a l'entorn del Dataverse | Gestió de projectes i comptabilitat en entorns d'apps de Finances i Operacions | 
 | --- | --- |
-| 4.27.0.242 | 10.0.23 |
+| 4.42.0.70 | 10.0.26 |
 
 Per a l'escenari de recursos d'operacions del projecte o no proveït, us recomanem que utilitzeu la versió d'orquestració de doble escriptura 2.3.1.15 o superior.
 
@@ -47,43 +47,40 @@ Les actualitzacions del Project Operations a l'entorn del Dataverse estan dispon
 | Estació | Regió | Número de versió actual | Actualitzacions automàtiques per a la implementació bàsica | Actualitzacions automàtiques per a la implementació basada en recursos/sense inventari | Número de la versió següent | Pròxima versió disponible de manera general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estació 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primera versió         |  4.27.0.242     | Complet*          | Complet*           | TBD                 | 14 de gener de 2022    |
+|   &nbsp;  | Primera versió         |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
 | Estació 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Sud         |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 14 de gener de 2022    |
-|   &nbsp;  | Canadà                |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 14 de gener de 2022    |
-|   &nbsp;  | Índia                 |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 14 de gener de 2022    |
-|   &nbsp;  | França                |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 14 de gener de 2022    |
-|   &nbsp;  | República de Sud-àfrica          |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 14 de gener de 2022    |
+|   &nbsp;  | Amèrica del Sud         |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
+|   &nbsp;  | Canadà                |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
+|   &nbsp;  | Índia                 |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
+|   &nbsp;  | França                |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
+|   &nbsp;  | República de Sud-àfrica          |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
+|   &nbsp;  | Suïssa           |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
 | Estació 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japó                 |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 21 de gener de 2022    |
-|   &nbsp;  | Pacífic asiàtic          |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 21 de gener de 2022    |
-|   &nbsp;  | Gran Bretanya         |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 21 de gener de 2022    |
-|   &nbsp;  | Oceania               |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 21 de gener de 2022    |
-|   &nbsp;  | Emirats Àrabs Units  |  4.27.0.242     | Complet           | 07 de gener de 2022    | TBD                 | 21 de gener de 2022    |
+|   &nbsp;  | Japó                 |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
+|   &nbsp;  | Pacífic asiàtic          |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
+|   &nbsp;  | Gran Bretanya         |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
+|   &nbsp;  | Oceania               |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
+|   &nbsp;  | Emirats Àrabs Units  |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
 | Estació 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.26.0.155     | Complet           | 07 de gener de 2022    | 4.27.0.242          | 10 de gener de 2022    |
+|   &nbsp;  | Europa                |  4.41.0.45      | Complet           | Complet            | 4.42.0.70           | 13 de maig de 2022        |
 | Estació 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Nord         |  4.26.0.155     | 07 de gener de 2022   | 14 de gener de 2022    | 4.27.0.242          | 17 de gener de 2022    |
+|   &nbsp;  | Amèrica del Nord         |  4.41.0.45      | Complet           | Complet            | 4.42.0.70           | 20 de maig de 2022        |
 
->[!Note]
-> - Completa* - Actualitzacions automàtiques completades amb 4.27.0.195 de la versió.
-
-
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificació de llançaments per a l'administració de projectes i comptabilitat a l'entorn de les aplicacions del Finance and Operations
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendari de llançaments per a la gestió de projectes i la comptabilitat a l'entorn d'aplicacions de finances i operacions
 
 Les actualitzacions per a l'administració de projectes i comptabilitat es publiquen vuit vegades l'any.
 
 |Versió admesa| Disponibilitat en versió preliminar (PEAP) | Disponible de manera general (actualització autoservei) | Data d'inici de producció de la planificació de l'actualització automàtica (mitjançant la configuració de l'actualització de l'LCS) |   Fi del servei   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.23     |      15 d'octubre de 2021       |        10 de desembre de 2021          |                          31 de desembre de 2021                           | 18 de març de 2022     |
-|     10.0.22     |      3 de setembre de 2021      |        22 d'octubre de 2021           |                          5 de novembre de 2021                            | 14 de gener de 2022   |
+|     10.0.26     |      4 de març de 2022          |        15 d'abril de 2022             |                          29 d'abril de 2022                              | 15 de juliol de 2022      |
+|     10.0.25     |      31 de gener de 2022       |        18 de març de 2022             |                          1 d'abril de 2022                               | 10 de juny de 2022      |
 
 
 Les dates de llançament objectiu estan subjectes a canvis. Per obtenir més informació, vegeu [Disponibilitat d'actualització del servei](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Versió de destinació | Disponibilitat en versió preliminar (PEAP) | Disponible de manera general (actualització autoservei) | Data d'inici de producció de la planificació de l'actualització automàtica (mitjançant la configuració de l'actualització de l'LCS) |   Fi del servei   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.24     |      3 de desembre de 2021       |        14 de gener de 2022           |                          4 de febrer de 2022                            | 15 d'abril de 2022     |
-|     10.0.25     |      31 de gener de 2022       |        18 de març de 2022             |                          1 d'abril de 2022                               | 10 de juny de 2022      |
+|     10.0.27     |      22 d'abril de 2022         |        17 de juny de 2022              |                          1 de juliol de 2022                                | 16 de setembre de 2022 |
+|     10.0.28     |      27 de maig de 2022           |        15 de juliol de 2022              |                          29 de juliol de 2022                               | 21 d'octubre de 2022   |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
