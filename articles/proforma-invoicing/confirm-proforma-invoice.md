@@ -4,14 +4,14 @@ description: Aquest tema proporciona informació sobre com confirmar una factura
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 88dccb63247fe6937240921de7bc7a30a3737dad3f62c6c441d732c046aaddc3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 46db66be0c346b9ad0006efc3ca2f3019a467daa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985849"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580490"
 ---
 # <a name="confirm-a-proforma-project-based-invoice"></a>Confirmació d'una factura proforma basada en projectes
 

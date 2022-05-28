@@ -4,20 +4,20 @@ description: En aquest tema podreu obtenir informació sobre el model de seguret
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991474"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585734"
 ---
 # <a name="security-model"></a>Model de seguretat
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 El Microsoft Dynamics 365 Project Operations conté un model de seguretat únic que permet un model de seguretat empresarial basat en funcions que col·labora amb els Grups de Microsoft Office. 
 
@@ -70,7 +70,7 @@ A mesura que el model de col·laboració de grups de l'Office evoluciona, s'afeg
 
 Per obtenir més informació, vegeu [Seguretat al Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Seguretat del Project Operations i Microsoft Dynamics 365 Finance
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Operacions de projectes i Microsoft Dynamics seguretat financera 365
 El Project Operations inclou les funcions següents:
 
 - Administrador de projectes

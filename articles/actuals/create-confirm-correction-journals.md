@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986704"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582791"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Creació i confirmació de diaris de correcció
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-De vegades, pot ser que s'introdueixi una entrada de temps o de despesa incorrectament. Per exemple, un consultor podria seleccionar una data incorrecta en el moment de crear una entrada de temps o podria transposar els números en introduir una despesa. Si un consultor no pot fer les actualitzacions a les entrades enviades, un administrador pot corregir directament l'entrada d'un projecte.
-
-Per completar els procediments d'aquest tema, necessitareu permisos d'administrador.
+De tant en tant, es pot introduir incorrectament una entrada de temps o de despeses. Per exemple, un consultor pot seleccionar la data incorrecta quan crea una entrada d'hora o pot seleccionar un projecte equivocat quan introdueixi una despesa. Si un consultor no pot actualitzar les entrades enviades, un administrador de back-end pot corregir directament els reals d'un projecte.
 
 ## <a name="correct-approved-time-entries"></a>Correcció de les entrades de temps aprovades     
 
@@ -46,8 +42,8 @@ Completeu els passos següents per corregir una o diverses entrades de temps d'u
 
 6. Seleccioneu **Visualització prèvia**. Al quadre de diàleg, seleccioneu **Accepta**. A la pestanya **Línies del llibre diari**, podeu visualitzar una llista dels valors reals originals relacionats amb les entrades de temps seleccionades que s'han invertit i les línies corresponents corregides que s'han creat. Si s'han de fer correccions addicionals, repetiu els passos 5 i 6. 
 
-> [!NOTE]
-> Tots els valors reals corregits tindran els mateixos valors que heu seleccionat a la secció **Valors nous per a les entrades de temps**.
+    > [!NOTE]
+    > Tots els valors reals corregits tindran els mateixos valors que heu seleccionat a la secció **Valors nous per a les entrades de temps**.
 
 7. Si les correccions es mostren segons el previst, seleccioneu **Confirma**. Al quadre de diàleg, seleccioneu **Accepta**.
 
@@ -55,12 +51,10 @@ Completeu els passos següents per corregir una o diverses entrades de temps d'u
 
 9. A la pàgina **Projectes**, de la pestanya **Valors reals**, visualitzeu els canvis que heu fet. 
 
-> [!NOTE]
-> Si la pestanya **Valors reals** no està visible, seleccioneu **Relacionat** > **Valors reals**.  
+    > [!NOTE]
+    > Si la pestanya **Valors reals** no està visible, seleccioneu **Relacionat** > **Valors reals**.  
 
 10. A la llista **Visualització associada de valors reals**, podeu veure que les entrades de temps originals que s'han invertit encara es mostren, així com les entrades de temps corregides corresponents. 
-
-Per exemple, en el gràfic següent hi ha dos elements de línia amb una quantitat de 8,00 que tenen dèbits enumerats a la columna Import. A més, hi ha dos elements de línia amb una quantitat de -8,00 que mostren els imports dels crèdits a la columna Import. Aquestes correccions aporten la quantitat a zero.
 
  
 ## <a name="correct-approved-expense-entries"></a>Correcció de les entrades de despeses aprovades
@@ -79,14 +73,30 @@ Seguiu aquests passos per corregir una o diverses entrades de despeses.
 
 6. Si els valors corregits es mostren segons el previst, seleccioneu **Confirma**. Al quadre de diàleg, seleccioneu **Accepta**. Si els valors no es mostren com s'esperava, seleccioneu **Cancel·la** per tornar a la llista **Despeses aprovades**. Repetiu els passos del 2 al 5. 
 
-> [!NOTE]
-> Els valors reals corregits tindran els mateixos valors que heu seleccionat a la secció **Valors nous per a les despeses**.
+7. Després de confirmar el diari de correcció, torneu al projecte o als projectes que heu actualitzat per veure els canvis.
 
-7. Després de confirmar el diari de correcció, torneu al projecte o als projectes que heu actualitzat, per visualitzar els canvis.  
-
-8. A la pàgina del projecte, a la pestanya **Valors reals**, reviseu **Visualització associada de valors reals**. Les entrades originals i les corregides es mostren a la llista. En el següent gràfic es mostren els imports d'entrada de despeses originals i les quantitats d'entrada de despeses corregides corresponents. 
+8. A la pàgina del projecte, a la **pestanya Fets reals**, reviseu la **llista Visualització** associada real. Les entrades originals i les corregides es mostren a la llista.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Corregir els registres d'ús de material aprovats
+
+Completeu els passos següents per corregir una o més entrades de registre d'ús de material.
+
+1. A l'àrea **Vendes**, a la subfinestra de navegació de l'esquerra, a **Transaccions**, seleccioneu **Actuals**.
+
+2. A la **llista Actuals**, utilitzeu filtres de columna per seleccionar la **classe de transacció Material**, de manera que només es mostrin els reals dels materials. Utilitzeu altres filtres de columna per limitar encara més els reals que es mostren. Després de trobar el conjunt de reals desitjat, seleccioneu els reals i, a **continuació, seleccioneu** Entrades correctes. Es crea automàticament una nova revista de correcció i s'assigna el **tipus de correcció** material.
+
+3. A la **pàgina Nou diari**, al **camp Descripció**, introduïu una descripció per a la correcció. A continuació, a la **pestanya Correcció** de materials, a la **secció Valors nous per a materials**, seleccioneu els camps de dades que cal corregir per a les línies de material seleccionades. Per exemple, podeu assignar el material a un altre projecte o corregir el producte, la data del material o la subcontractació.
+
+4. Seleccioneu **Visualització prèvia**. A continuació, al quadre de diàleg, seleccioneu **D'acord**.
+
+5. A la **pestanya Línies** del diari, verifiqueu les correccions. Podeu veure una llista dels reals originals que estan relacionats amb les entrades de material seleccionades que s'han invertit i les línies corresponents corregides que s'han creat.
+
+6. Si els valors corregits es mostren segons el previst, seleccioneu **Confirma**. A continuació, al quadre de diàleg, seleccioneu **D'acord**. Si els valors no són els esperats, seleccioneu **Cancel·la** per tornar a la **llista De reals.** Repetiu els passos del 2 al 5.
+
+7. Després de confirmar el diari de correcció, torneu al projecte o als projectes que heu actualitzat per veure els canvis.
+
+8. A la pàgina del projecte, a la **pestanya Fets reals**, reviseu la **llista Visualització** associada real. Les entrades originals i les corregides es mostren a la llista.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

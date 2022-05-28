@@ -3,16 +3,15 @@ title: Informació general de la facturació entre empreses
 description: En aquest tema es proporciona informació i exemples sobre la facturació entre empreses per a projectes.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005379"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586240"
 ---
 # <a name="intercompany-invoicing-overview"></a>Informació general de la facturació entre empreses
 
@@ -20,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 La vostra organització pot tenir diverses divisions, filials i altres entitats jurídiques que es transfereixen productes i serveis entre si per als projectes. L'entitat jurídica que proporciona el servei o producte s'anomena *entitat jurídica prestadora*. L'entitat jurídica que rep el servei o producte s'anomena *entitat jurídica prestatària*.
 
-A la il·lustració següent es mostra un escenari habitual en què dues entitats jurídiques, Contoso Robotics USA (entitat jurídica prestatària) i Contoso Robotics UK (entitat jurídica prestadora), comparteixen recursos per al client, Adventure Works. Per a aquest escenari, Contoso rep un contracte per al lliurament de la feina a Adventure Works.
+A la il·lustració següent es mostra un escenari típic on dos entitats jurídiques, Contoso Robotics USA (l'entitat jurídica prestatària) i Contoso Robotics UK (l'entitat jurídica prestadora) comparteixen recursos per dur a terme un projecte per al client, Adventure Works. Per a aquest escenari, Contoso Robotics USA és contractada per dur a terme el treball a Adventure Works.
 
 ![Facturació entre empreses.](./media/IntercompanyScenario.png) 
 

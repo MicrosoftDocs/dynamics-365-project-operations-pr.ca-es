@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986569"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585780"
 ---
 # <a name="expense-management-integration"></a>Integració de l'administració de despeses
 
@@ -22,19 +22,19 @@ Aquest tema proporciona informació sobre la integració d'informes de despeses 
 
 ## <a name="expense-categories"></a>Categories de despesa
 
-En una implementació total de les despeses, es creen i es mantenen les categories de despesa a les aplicacions del Finance and Operations. Per crear una categoria de despesa nova, seguiu aquests passos:
+En un desplegament complet de despeses, es creen i mantenen categories de despeses a les aplicacions finances i operacions. Per crear una categoria de despesa nova, seguiu aquests passos:
 
-1. Al Microsoft Dataverse, creeu una categoria de **Transacció**. La integració amb doble escriptura sincronitzarà aquesta categoria de transacció a les aplicacions del Finance and Operations. Per obtenir més informació, vegeu [Configuració de les categories de projecte](/dynamics365/project-operations/project-accounting/configure-project-categories) i [Configuració del Project Operations i integració de dades de configuració](resource-dual-write-setup-integration.md). Com a resultat d'aquesta integració, el sistema crea quatre registres de categoria compartida a les aplicacions del Finance and Operations.
+1. Al Microsoft Dataverse, creeu una categoria de **Transacció**. La integració de doble escriptura sincronitzarà aquesta categoria de transacció amb les aplicacions financeres i operacions. Per obtenir més informació, vegeu [Configuració de les categories de projecte](/dynamics365/project-operations/project-accounting/configure-project-categories) i [Configuració del Project Operations i integració de dades de configuració](resource-dual-write-setup-integration.md). Com a resultat d'aquesta integració, el sistema crea quatre registres de categories compartides a les aplicacions de finances i operacions.
 2. A Finances, aneu a **Administració de despeses** > **Configuració** > **Categories compartides** i seleccioneu una categoria compartida amb una classe de transacció **Despesa**. Definiu el paràmetre **Es pot utilitzar en despesa** com a **Cert** i definiu el tipus de despesa que s'utilitzarà.
 3. Amb aquest registre de categoria compartida, creeu una categoria de despesa nova anant a **Administració de despeses** > **Configuració** > **Categories de despeses** i seleccionant **Crea**. Quan el registre es desa, la doble escriptura utilitza l'assignació de taules **Entitat d'exportació de categories de despeses del projecte d'integració del Project Operations (msdyn\_despesescategories)** per sincronitzar aquest registre amb el Dataverse.
 
   ![Integració de categories de despesa.](./media/DW6ExpenseCategories.png)
 
-Les categories de despesa de les aplicacions del Finance and Operations són específiques de l'empresa o de l'entitat jurídica. Hi ha registres específics d'entitats jurídiques corresponents i separades al Dataverse. Quan un administrador del projecte calcula les despeses, no pot seleccionar les categories de despeses creades per a un projecte que és propietat d'una empresa diferent de l'empresa propietària del projecte en què estan treballant. 
+Les categories de despeses de les aplicacions de finances i operacions són específiques de l'empresa o de la persona jurídica. Hi ha registres específics d'entitats jurídiques corresponents i separades al Dataverse. Quan un administrador del projecte calcula les despeses, no pot seleccionar les categories de despeses creades per a un projecte que és propietat d'una empresa diferent de l'empresa propietària del projecte en què estan treballant. 
 
 ## <a name="expense-reports"></a>Informes de despeses
 
-Els informes de despeses es creen i s'aproven a les aplicacions del Finance and Operations. Per obtenir més informació, vegeu [Crear i processar informes de despeses al Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Després que l'administrador del projecte aprovi l'informe de despeses, s'envia al registre general. Al Project Operations, les línies d'informe de despeses relacionades amb el projecte es publiquen mitjançant regles de publicació especials:
+Els informes de despeses es creen i s'aproven a les aplicacions de finances i operacions. Per obtenir més informació, vegeu [Crear i processar informes de despeses al Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Després que l'administrador del projecte aprovi l'informe de despeses, s'envia al registre general. Al Project Operations, les línies d'informe de despeses relacionades amb el projecte es publiquen mitjançant regles de publicació especials:
 
   - El cost relacionat amb el projecte (incloent-hi els impostos que no es poden recuperar) no es publica immediatament al compte de cost del projecte en un registre general, sinó que es publica al compte d'integració de despeses. Aquest compte es configura a **Administració i comptabilitat del projecte** > **Configuració** > **Paràmetres d'administració i comptabilitat del projecte** i la pestanya de **Project Operations al Dynamics 365 Customer Engagement**.
   - La doble escriptura se sincronitza amb el Dataverse mitjançant l'assignació de taules **Entitat d'exportació de despeses del projecte d'integració del Project Operations (msdyn\_expenses)**.

@@ -4,14 +4,14 @@ description: Aquest tema proporciona detalls sobre el processament de factures d
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989899"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585596"
 ---
 # <a name="manage-project-invoice-proposals"></a>Administració de propostes de factura de projecte
 
@@ -22,7 +22,7 @@ El departament de facturació pot processar les propostes de factura de projecte
   - L'administrador del projecte confirma la factura de proforma al Microsoft Dataverse.
   - Totes les transaccions de vendes no facturades materials i de sempre que s'inclouen a la factura de proforma es publiquen mitjançant el llibre diari de la integració del Dynamics365 **Project Operations**.
 
-Seguiu els passos següents per completar una proposta de factura del projecte al Dynamics 365 Finance.
+Utilitzeu els passos següents per completar una proposta de factura del projecte el Dynamics 365 Finance.
 
 1. Reviseu la informació de facturació per a transaccions de temps i materials i publiqueu el llibre diari de la **integració de Project Operations**.
 2. Reviseu la informació de facturació de les fites de facturació de preus fixos.

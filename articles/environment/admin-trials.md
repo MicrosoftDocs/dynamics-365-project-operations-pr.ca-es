@@ -2,22 +2,22 @@
 title: Registre per a les proves del Project Operations
 description: En aquest tema es proporciona informació sobre com implementar una prova del Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
-ms.translationtype: HT
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901605"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584262"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registre per a les proves del Project Operations 
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense existències, implementació bàsica: tracte de facturació proforma i Project Operations per a escenaris amb existències/basats en producció_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 En aquest tema s'explica com subscriure's a l'oferta per a associats de la versió preliminar i implementar un entorn del Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ A la taula següent es donen els detalls de la nova oferta de prova.
 | Ús d'ofertes                    | Una vegada per inquilí                          |
 | Durada de l'oferta               | 30 dies naturals                             |
 | Bescanvis per inquilí       | 1                                            |
-| Nombre d'usuaris              | 25                                           |
 | Extensió                    | 1 extensió, 30 dies naturals               |
 | Nombre d'entorns de prova | 3                                            |
 
@@ -87,7 +86,7 @@ Abans de començar, inicieu la sessió en un navegador amb el compte de treball 
  
   Quan s'ha completat el proveïment, l'estat del vostre entorn és **A punt**. El proveïment de l'entorn inclou la implementació de dades de demostració.
  
-4.  Seleccioneu l'adreça URL del Microsoft Dataverse i les adreces URL de les aplicacions del Finance and Operations respectives per validar la implementació.
+4.  Seleccioneu l'URL respectiu Microsoft Dataverse i els URL de les aplicacions de finances i operacions per validar la implementació.
 
 ## <a name="configuring-dual-write"></a>Configuració de l'escriptura doble
 - Per configurar les funcions de seguretat per a la doble escriptura, vegeu [Actualitza la configuració de seguretat a Les operacions del projecte al Dataverse](resource-provision-new-environment.md).
@@ -95,9 +94,9 @@ Abans de començar, inicieu la sessió en un navegador amb el compte de treball 
 
 ## <a name="assign-licenses"></a>Assignar llicències
 
-Necessitareu accés d'administrador al portal del Microsoft 365 de l'organització per completar els passos següents.
+Necessitareu accés d'administrador al portal de l'Microsoft 365 de l'organització per completar els passos següents.
 
-1. Aneu al [centre d'administració del Microsoft 365](https://portal.office.com/) per assignar les llicències als vostres usuaris.
+1. Aneu al [Microsoft 365 centre](https://portal.office.com/) d'administració per assignar les llicències als usuaris.
 
    ![Pàgina principal del centre d'administració](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Els recursos següents proporcionen instruccions útils a l'hora de començar a 
 
 ## <a name="frequently-asked-questions"></a>Preguntes freqüents
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Què he de fer si necessito ALM o ELM per al meu entorn d'aplicacions de Finance and Operations?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Què passa si necessito ALM o ELM per al meu entorn d'aplicacions de finances i operacions?
 
 - Per als associats que requereixen capacitats completes de gestió del cicle de vida de l'entorn, consulteu la [Sol·licitud de llicència d'espai aïllat per a associats](https://experience.dynamics.com/requestlicense) per revisar l'oferta nova per a associats. 
 - Per als associats que cerquen més informació sobre els Drets d'ús intern, vegeu [Avantatges al núvol i en programari dels Drets d'ús intern (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Els recursos següents proporcionen instruccions útils a l'hora de començar a 
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Puc ampliar la versió de prova passats els 30 dies?
 Per ampliar la versió de prova, seguiu els passos següents.
 
-1. Al **centre d'administració del Microsoft 365**, aneu a **Facturació** > **Els vostres productes**.
+1. **Microsoft 365 Al Centre** d'administració, aneu a **Facturar els** > **vostres productes**.
 2. Seleccioneu **Dynamics 365 Project Operations (CE): versió preliminar de prova**.
 3. A **Data de caducitat**, seleccioneu **Amplia la data**.
 

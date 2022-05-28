@@ -2,16 +2,16 @@
 title: Ampliació d'entrades de temps
 description: En aquest tema es proporciona informació sobre com els desenvolupadors poden ampliar el control d'entrada de temps.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993319"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582974"
 ---
 # <a name="extending-time-entries"></a>Ampliació d'entrades de temps
 
@@ -43,7 +43,7 @@ Les entrades de temps són una entitat principal utilitzada en diversos escenari
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Entrades de temps i entitat d'origen de temps
-Cada entrada de temps està associada a un registre d'origen de temps. Aquest registre determina la manera i quines aplicacions han de processar l'entrada de temps.
+Cada entrada de temps està associada a un registre d'origen de temps. Aquest registre determina quines aplicacions han de processar l'entrada de temps i com.
 
 Les entrades de temps són sempre un bloc contigu de temps amb l'inici, la finalització i la duració enllaçats.
 
@@ -55,7 +55,7 @@ La lògica actualitzarà automàticament el registre d'entrada de temps en les s
     - **msdyn_end**
     - **msdyn_duration**
 
-- Els camps **msdyn_start** i **msdyn_end** tenen en compte la zona horària.
+- Els **camps msdyn_start** i **msdyn_end** són conscients de la zona horària.
 - Les entrades de temps creades amb només **msdyn_date** i **msdyn_duration** especificats s'iniciaran a mitjanit. Els camps **msdyn_start** i **msdyn_end** s'actualitzaran en conseqüència.
 
 #### <a name="time-entry-types"></a>Tipus d'entrada de temps
@@ -72,73 +72,63 @@ Els registres d'entrada de temps tenen un tipus associat que defineix el comport
 |Vacances   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Personalització del control d'entrada de temps setmanal
 Els desenvolupadors poden afegir camps i cerques addicionals a altres entitats i implementar regles de negoci personalitzades per admetre els seus escenaris empresarials.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Afegir camps personalitzats amb cerques a altres entitats
 Hi ha tres passos principals per afegir un camp personalitzat a la quadrícula d'entrada de temps setmanal.
 
-1. Afegiu el camp personalitzat al quadre de diàleg de creació ràpida.
+1. Afegiu el camp personalitzat al quadre de **diàleg Creació** ràpida.
 2. Configureu la quadrícula per mostrar el camp personalitzat.
-3. Afegiu el camp personalitzat al flux de la tasca d'edició de la fila o el flux de la tasca d'edició de la cel·la.
+3. Afegiu el camp personalitzat a la pàgina Edició **de fila o** Edició **de l'entrada** hora, segons correspongui.
 
-Assegureu-vos que el camp nou tingui les validacions necessàries al flux de la tasca d'edició de la fila o de la cel·la. Com a part d'aquest pas, bloqueu el camp, segons l'estat de l'entrada de temps.
+Assegureu-vos que el camp nou tingui les validacions necessàries a la pàgina Edició **de fila o** Edició **de l'entrada** hora. Com a part d'aquesta tasca, bloquegeu el camp, en funció de l'estat de l'entrada de temps.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Afegir el camp personalitzat al quadre de diàleg de creació ràpida
-Afegiu el camp personalitzat al quadre de diàleg **Creació ràpida d'entrada de temps**. Llavors, quan s'afegeixen entrades de temps, podeu introduir un valor seleccionant **Nova**.
+Quan afegiu un camp personalitzat a la **quadrícula d'entrada** de temps i, a continuació, creeu entrades de temps directament a la quadrícula, el camp personalitzat per a aquestes entrades s'estableix automàticament perquè coincideixi amb la fila. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Afegeix el camp personalitzat al quadre de diàleg Creació ràpida
+Afegeix el camp personalitzat al quadre de **diàleg Creació ràpida: crea una entrada** de temps. Els usuaris poden introduir un valor quan afegeixen entrades de temps seleccionant **Nova**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Configurar la quadrícula per mostrar el camp personalitzat
-Hi ha dues maneres d'afegir un camp personalitzat a la quadrícula d'entrada de temps setmanal:
+Hi ha dues maneres d'afegir un camp personalitzat a la **quadrícula d'entrada** de temps setmanal.
 
-  - Personalitzar una visualització i afegir un camp personalitzat
-  - Crea una entrada de temps personalitzada per defecte nova 
+- Personalitzeu la **visualització Les meves entrades** de temps setmanal i afegiu-hi el camp personalitzat. Podeu especificar la posició i la mida del camp personalitzat a la quadrícula editant les propietats de la visualització.
+- Creeu una visualització d'entrada de temps personalitzada nova i definiu-la com a visualització per defecte. Aquesta visualització ha de contenir els **camps Descripció** i **Comentaris** externs, a més de les columnes que voleu que inclogui la quadrícula. Podeu especificar la posició, la mida i l'ordre d'ordenació per defecte de la quadrícula editant les propietats de la visualització. A continuació, configureu el control personalitzat per a aquesta visualització per tal que sigui un control **Quadrícula d'entrada de temps**. Afegiu el control a la visualització i seleccioneu-lo per al **web**, **el telèfon** i **la tauleta**. A continuació, configureu els paràmetres de la **quadrícula d'entrada** de temps setmanal. Definiu el **camp Data d'inici** com a **data\_ de l'msdyn**, definiu el **camp Durada** a **la durada de l'msdyn\_** i definiu el **camp Estat** com a **msdyn\_ entrystatus**. El **camp Llista** d'estat només de lectura està definit com a **192350002 (Aprovat)**, **192350003 (Enviat)** o **192350004 (Sol·licitud de recuperació).**
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Afegeix el camp personalitzat a la pàgina d'edició adequada
+Les pàgines que s'utilitzen per editar una entrada de temps o una fila d'entrades de temps es poden trobar a **Formularis**. El **botó Edita l'entrada** de la quadrícula obre la pàgina Edita l'entrada **i** el botó Edita la **fila** obre la pàgina Edició **de fila**. Podeu editar aquestes pàgines perquè incloguin camps personalitzats.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Personalitzar una visualització i afegir un camp personalitzat
+Ambdues opcions eliminen alguns filtres descodificadors a les **entitats Projecte** i **Tasca** del projecte, de manera que totes les visualitzacions de cerca de les entitats siguin visibles. De fàbrica, només es veuen les visualitzacions de cerca rellevants.
 
-Personalitzeu la visualització **Les meves entrades de temps setmanal** i afegir-hi el camp personalitzat. Podeu triar la posició i la mida del camp personalitzat a la quadrícula editant aquestes propietats a la visualització.
+Heu de determinar la pàgina adequada per al camp personalitzat. El més probable és que, si heu afegit el camp a la quadrícula, hauria d'anar a la pàgina Edició **de fila que s'utilitza** per als camps que s'apliquen a tota la fila d'entrades de temps. Si el camp personalitzat té un valor únic a la fila cada dia (per exemple, si és un camp personalitzat per a l'hora de finalització), hauria d'anar a la pàgina d'edició **de l'entrada** hora.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Crea una entrada de temps personalitzada per defecte nova
-
-Aquesta visualització hauria de contenir els camps **Descripció** i **Comentaris externs**, a més de les columnes que voleu tenir a la quadrícula. 
-
-1. Trieu la posició, la mida i l'ordre per defecte de la quadrícula editant aquestes propietats a la visualització. 
-2. Configureu el control personalitzat per a aquesta visualització per tal que sigui un control **Quadrícula d'entrada de temps**. 
-3. Afegiu aquest control a la visualització i seleccioneu-lo per a la web, telèfons i tauletes. 
-4. Configureu els paràmetres per a la quadrícula d'entrada de temps setmanal. 
-5. Definiu el camp **Data d'Inici** a **msdyn_date**, definiu el camp **Duració** a **msdyn_duration** i definiu el camp **Estat** a **msdyn_entrystatus**. 
-6. Per a la visualització per defecte, el camp **Llista d'estat de només lectura** s'estableix a **192350002,19235003,192350004**. El camp **Flux de tasca d'edició de fila** s'estableix a **msdyn_timeentryrowedit**. El camp **Flux de tasca d'edició de cel·la** s'estableix a **msdyn_timeentryedit**. 
-7. Podeu personalitzar aquests camps per afegir o suprimir l'estat de només de lectura o per utilitzar una altra experiència basada en tasques (TBX) per a la fila o l'edició de la cel·la. Aquests camps estan ara enllaçats a un valor estàtic.
-
-
-> [!NOTE] 
-> Ambdues opcions retiraran alguns filtres de fàbrica de les entitats **Projecte** i **Tasca de projecte**, de manera que es veuran totes les visualitzacions de cerca per a les entitats. De fàbrica, només es veuen les visualitzacions de cerca rellevants.
-
-Determineu el flux de la tasca adient per al camp personalitzat. Si heu afegit el camp a la quadrícula, hauria d'anar al flux de la tasca d'edició de files que s'utilitza per als camps que s'apliquen a tota la fila d'entrades de temps. Si el camp personalitzat té un valor únic cada dia, com ara un camp personalitzat per a l'**Hora d'acabament**, hauria d'anar al flux de la tasca d'edició de cel·les.
-
-Per afegir el camp personalitzat a un flux de la tasca, arrossegueu un element **Camp** a la posició adient de la pàgina i, a continuació, definiu les propietats del camp. Definiu la propietat **Origen** a **Entrada de temps** i definiu la propietat **Camp de dades** al camp personalitzat. La propietat **Camp** especifica el nom de visualització a la pàgina de TBX. Seleccioneu **Aplica** per desar els canvis al camp i, a continuació, seleccioneu **Actualitza** per desar els canvis a la pàgina.
-
-Per utilitzar una nova pàgina personalitzada de TBX en el seu lloc, creeu un procés nou. Definiu la categoria a **Flux del procés de negoci**, definiu l'entitat a **Entrada d'hora** i definiu el tipus de procés de negoci a **Executa el procés com a flux de la tasca**. A **Propietats**, la propietat **Nom de la pàgina** s'ha de definir al nom de visualització de la pàgina. Afegiu tots els camps corresponents a la pàgina de TBX. Deseu i activeu el procés. Actualitzeu la propietat del control personalitzat del flux de la tasca rellevant al valor **Nom** del procés.
+Per afegir el camp personalitzat a una pàgina, arrossegueu un **element Field** a la posició adequada de la pàgina i, a continuació, definiu-ne les propietats.
 
 ### <a name="add-new-option-set-values"></a>Afegir nous valors de conjunts d'opcions
-Per afegir valors de conjunt d'opcions a un camp de fàbrica, obriu la pàgina d'edició del camp i, a continuació, a **Tipus**, seleccioneu **Edita** al costat del conjunt d'opcions. Afegiu una opció nova que tingui una etiqueta i un color personalitzats. Si voleu afegir un nou estat de l'entrada de temps, el camp de fàbrica es diu **Estat de l'entrada**, no **Estat**.
+Per afegir valors conjunt d'opcions a un camp desallotjat, seguiu aquests passos.
+
+1. Obriu la pàgina d'edició del camp i, **a Escriviu**, seleccioneu **Edita** al costat de la conjunt d'opcions.
+2. Afegiu una opció nova que tingui una etiqueta i un color personalitzats. Si voleu afegir un estat d'entrada de temps nou, el camp desastró s'anomena **Estat d'entrada**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designar un nou estat d'entrada de temps com a només de lectura
-Per designar un nou estat d'entrada de temps com a només de lectura, afegiu el nou valor d'entrada de temps a la propietat **Llista d'estat de només de lectura**. La part editable de la quadrícula d'entrada de temps es bloquejarà per a les files que tenen l'estat nou.
-A continuació, afegiu regles de negoci per blocar tots els camps de les pàgines de TBX **Edició de les files d'entrades de temps** i **Edició d'entrades de temps**. Podeu accedir a les regles de negoci d'aquestes pàgines obrint l'editor del flux del procés de negoci de la pàgina i,a continuació, seleccionant **Regles de negoci**. Podeu afegir l'estat nou a la condició en les regles de negocis existents o bé afegir una regla de negocis nova per a l'estat nou.
+Per designar un nou estat d'entrada de temps com a només de lectura, afegiu el nou valor d'entrada de temps a la propietat **Llista d'estat de només de lectura**. Assegureu-vos d'afegir el número, no l'etiqueta. La part editable de la quadrícula d'entrada de temps ara es bloquejarà per a les files que tinguin el nou estat. Per definir la **propietat Llista** d'estat només de lectura de manera diferent per a diferents **visualitzacions d'entrada de** temps, afegiu la **quadrícula d'entrada** de temps a la secció Controls **personalitzats d'una** visualització i configureu els paràmetres segons convingui.
+
+A continuació, afegiu regles de negoci per bloquejar tots els camps de les **pàgines Edició** fila i **edició** d'entrada hora. Per accedir a les regles de negoci d'aquestes pàgines, obriu el editor de formularis per a cada pàgina i, a continuació, seleccioneu **Regles de negoci**. Podeu afegir l'estat nou a la condició en les regles de negocis existents o bé afegir una regla de negocis nova per a l'estat nou.
 
 ### <a name="add-custom-validation-rules"></a>Afegir regles de validació personalitzades
-Hi ha dos tipus de regles de validació que podeu afegir per a l'experiència de quadrícula d'entrada de temps setmanal:
+Podeu afegir dos tipus de regles de validació per a l'experiència setmanal de quadrícula **d'entrada** de temps:
 
-- Regles de negoci del client que funcionen en quadres de diàleg de creació ràpida i a les pàgines de TBX.
-- Validacions del connector del costat del servidor que s'apliquen a totes les actualitzacions d'entrada de temps.
+- Regles de negoci del costat del client que funcionen a les pàgines
+- Validacions de complements del costat del servidor que s'apliquen a les actualitzacions d'entrada de tots els temps
 
-#### <a name="business-rules"></a>Regles de negocis
-Utilitzeu regles de negoci per bloquejar i desbloquejar camps, introduir valors per defecte als camps i definir validacions que requereixin informació del registre d'entrada de temps actual. Podeu accedir a les regles de negoci d'una pàgina de TBX obrint l'editor del flux del procés de negoci de la pàgina i, a continuació, seleccionant **Regles de negoci**. A continuació, podeu editar les regles de negocis existents o afegir una regla de negocis nova. Per a validacions encara més personalitzades, podeu fer que una regla de negocis executi JavaScript.
+#### <a name="client-side-business-rules"></a>Regles de negoci del costat del client
+Utilitzeu regles de negoci per bloquejar i desbloquejar camps, introduir valors per defecte als camps i definir validacions que requereixin informació del registre d'entrada de temps actual. Per accedir a les regles de negoci d'una pàgina, obriu el editor de formularis i, a continuació, seleccioneu **Regles de negoci**. A continuació, podeu editar les regles de negocis existents o afegir una regla de negocis nova.
 
-#### <a name="plug-in-validations"></a>Validacions de complement
-Utilitzeu validacions de complements per a totes les validacions que requereixin un context més ampli que el disponible en un registre de temps únic o per a totes les validacions que voleu executar en actualitzacions en línia a la quadrícula. Per completar la validació, creeu un complement personalitzat a l'entitat **Entrada de temps**.
+#### <a name="server-side-plug-in-validations"></a>Validacions de complements del servidor
+Heu d'utilitzar validacions de complements per a les validacions que requereixin més context del que està disponible en un únic registre d'entrada de temps. També hauríeu d'utilitzar-los per a qualsevol validació que vulgueu executar en actualitzacions en línia a la quadrícula. Per completar les validacions, creeu un complement personalitzat a l'entitat **Entrada** de temps.
+
+### <a name="limits"></a>Límits
+Actualment, la **quadrícula d'entrada** de temps té un límit de mida de 500 files. Si hi ha més de 500 files, l'excés de files no es mostrarà. No hi ha manera d'augmentar aquest límit de mida.
 
 ### <a name="copying-time-entries"></a>Còpia d'entrades de temps
 Utilitzeu la visualització **Còpia de columnes d'entrada de temps** per definir la llista de camps que es copiaran durant l'entrada de temps. **Data** i **Duració** són camps obligatoris i no s'han d'eliminar de la visualització.

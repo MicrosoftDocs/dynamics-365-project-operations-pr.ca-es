@@ -4,14 +4,14 @@ description: En aquest tema es proporciona informació per ajudar-vos a determin
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994624"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584124"
 ---
 # <a name="determine-your-deployment-type"></a>Determinació del tipus d'implementació
 
@@ -25,7 +25,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clients existents del Dynamics que utilitzen el Dynamics 365 Project Service Automation
 El Project Operations inclou les capacitats incloses al Project Service Automation. Es llançarà un camí d'actualització per a aquests clients a la fase 1 de llançament de 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clients existents del Dynamics 365 Finance que utilitzen l'administració de projectes i la comptabilitat 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clients existents de Dynamics 365 Finance utilitzant la gestió de projectes i la comptabilitat 
 
 Els clients existents del Finance que utilitzen la funcionalitat d'administració de projectes i comptabilitat poden continuar utilitzant-la sense canvis. Vegeu [Project Operations per a escenaris mantinguts en existències/d’ordre de producció](#pma).
 
@@ -42,7 +42,7 @@ El nostre [qüestionari d'implementació](https://aka.ms/provisionprojectoperati
 - [Project Operations per a escenaris de recursos/no mantinguts en existències](#integrated)
 - [Project Operations per a escenaris mantinguts en existències/d’ordre de producció](#pma)
 
-El Project Operations admet escenaris d'existències/ordre de producció i escenaris sense existències/basats en recursos en el mateix entorn mitjançant configuracions de nivell d'entitat legal. Per exemple, Contoso pot utilitzar les capacitats d'ordre de producció o emmagatzematge a la seva instal·lació de fabricació dels EUA (Entitat legal = Fabricació de Contoso als Estats Units). Contoso pot utilitzar les capacitats sense existències/basades en recursos en la seva instal·lació de serveis de Contoso Robotics Arms al Regne Unit (Entitat legal = Contoso Robotics Regne Unit).
+El Project Operations admet escenaris d'existències/ordre de producció i escenaris sense existències/basats en recursos en el mateix entorn mitjançant configuracions de nivell d'entitat legal. Per exemple, Contoso pot utilitzar les funcionalitats de comanda amb existències/producció en la seva planta de fabricació dels EUA (Entitat jurídica = Contoso Manufacturing United States). Contoso pot utilitzar les funcionalitats sense existències/basades en recursos en la seva instal·lació de servei de braços robòtics de Contoso al Regne Unit (Entitat jurídica = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementació bàsica: tracte de facturació proforma
 

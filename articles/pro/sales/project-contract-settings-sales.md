@@ -2,16 +2,16 @@
 title: Configuració de contractes de projectes (bàsic)
 description: Aquest tema proporciona informació sobre els camps que afecten les línies de contracte i la informació sobre el contracte que es resumeix en tots els elements de la línia.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995929"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586378"
 ---
 # <a name="header-details-for-project-contracts"></a>Detalls de la capçalera per als contractes de projecte
 
@@ -32,12 +32,15 @@ A la taula següent es detallen els camps d'un contracte de projecte que són ex
 | Límit que no s’ha de superar | Pestanya **Resum** | Aquest camp indica el límit negociat sobre el valor final que el client ha acordat per a aquest acord. | El màxim s'avalua durant l'execució i s'aplica a tots els elements de la línia i als projectes associats amb aquest acord. |
 | Data de lliurament sol·licitada | Pestanya **Resum** | Quan es crea un contracte a partir d'una oferta de projecte, aquest camp es copia des del camp corresponent a l'oferta de projecte. | Aquesta data s'utilitza com a data d'acabament per a la generació de planificacions de factura. |
 
-Els KPI següents estan disponibles a la pestanya **Rendiment del contracte** d'un contracte de projecte.
+Els KPI següents estan disponibles a la pestanya **Rendiment del contracte** d'un contracte de projecte. 
 
-| Camp | Location | Descripció |
+>[!NOTE]
+>Tots els imports de la **pestanya Rendiment** del contracte s'expressen en la moneda predeterminada de l'entorn.
+
+| Camp | Ubicació | Descripció |
 | --- | --- | --- |
-| Valor del contracte | Contracte general | Valor total del contracte del projecte. |
-| Import facturat | Contracte general | Suma dels imports en totes les factures d'aquest contracte. |
+| Valor del contracte | Contracte general | El valor total del contracte del projecte.|
+| Import facturat | Contracte general | Suma dels imports en totes les factures d'aquest contracte.|
 | Cost acumulat | Contracte general | Suma de tots els valors reals registrats en tots els projectes que s'assignen al contracte. |
 | Marge brut | Contracte general | Import facturat - cost incorregut fins a la data/import facturat |
 | Marge esperat | Contracte general | (Valor del contracte - costos previstos)/valor del contracte Costos estimats = suma de tots els costos previstos en tots els projectes assignats al contracte.|

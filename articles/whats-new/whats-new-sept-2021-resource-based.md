@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547142"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582882"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de setembre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547142"
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
    - Project Operations en un entorn del Microsoft Dataverse, versió 4.14.0.99.
-   - Administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance versió 10.0.20.
+   - Gestió de projectes i comptabilitat en Dynamics 365 Finance entorn versió 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualitzacions de les assignacions de doble ecriptura del Project Operations
 
@@ -45,7 +45,7 @@ Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les 
 | Facturació i preus | 2385802 | S'ha corregit l'error que es produeix amb hores reals negatives quan s'actualitzen els totals del projecte. |
 | Facturació i preus | 2389675 | Comportament millorat de confirmació de factura proforma. L'entitat de feines que duren molt de temps ha de tenir en compte l'activitat necessària per escriure resultats de confirmació de comptabilitat. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestió de projectes i comptabilitat en Dynamics 365 Finance
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |

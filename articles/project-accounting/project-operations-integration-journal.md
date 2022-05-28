@@ -4,29 +4,29 @@ description: Aquest tema proporciona informació sobre com treballar amb el diar
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987919"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582422"
 ---
 # <a name="integration-journal-in-project-operations"></a>Llibre diari d'integració del Project Operations
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Les entrades de temps i despeses creen transaccions de **valors reals** que representen la visualització operativa del treball completat en relació amb un projecte. El Dynamics 365 Project Operations proporciona als comptables una eina per revisar les transaccions i ajustar els atributs comptables segons calgui. Un cop finalitzada la revisió i els ajustos, les transaccions es comptabilitzen al llibre diari del projecte i al llibre diari general. Un comptable pot realitzar aquestes activitats a través del diari **Integració del Project Operations** (**Dynamics 365 Finance** > **Administració de projectes i comptabilitat** > **Diaris** > **Integració del Project Operations**.
+Les entrades de temps i despeses creen transaccions de **valors reals** que representen la visualització operativa del treball completat en relació amb un projecte. El Dynamics 365 Project Operations proporciona als comptables una eina per revisar les transaccions i ajustar els atributs comptables segons calgui. Un cop finalitzada la revisió i els ajustos, les transaccions es comptabilitzen al llibre diari del projecte i al llibre diari general. Un comptable pot dur a terme aquestes activitats utilitzant el **diari Project Operations Integration**(**Dynamics 365 Finance** > **Project management and accounting** > **Journals Project Operations Integration journals** > **.**
 
 ![Flux del diari d'integració.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Crear registres al diari d'integració del Project Operations
 
-Els registres al diari d'integració del Project Operations es creen mitjançant un procés periòdic, **Importa de la taula intermèdia**. Podeu executar aquest procés anant a **Dynamics 365 Finance** > **Administració de projectes i comptabilitat** > **Periòdic** > **Integració del Project Operations** > **Importa d'una taula intermèdia**. Podeu executar el procés de manera interactiva o configurar el procés perquè s'executi en segon pla segons calgui.
+Els registres al diari d'integració del Project Operations es creen mitjançant un procés periòdic, **Importa de la taula intermèdia**. Podeu executar aquest procés anant a **Dynamics 365 Finance Gestió de** > **projectes i comptabilitat** > **Importació d'integració** > **d'operacions periòdiques** > **de projectes des de la taula** de posada en escena. Podeu executar el procés de manera interactiva o configurar el procés perquè s'executi en segon pla segons calgui.
 
 Quan s'executa el procés periòdic, es troben els valors reals que encara no s'han afegit al diari d'integració del Project Operations. Es crea una línia del llibre diari per a cada transacció real.
-El sistema agrupa les línies de diari en diaris separats en funció del valor seleccionat en el camp **Unitat periòdica al diari d'integració del Project Operations** (**Finance** > **Administració de projectes i comptabilitat** > **Configuració** > **Paràmetres de l'administració de projectes i la comptabilitat**, pestanya **Project Operations al Dynamics 365 Customer Engagement**). Els valors possibles per a aquest camp inclouen:
+El sistema agrupa línies de diari en revistes separades en funció del valor seleccionat a la **unitat period del camp de la revista** Project Operations Integration (**Gestió de projectes financers** > **i** > **comptabilitat Gestió de projectes de configuració** > **i paràmetres comptables**, **operacions de projecte a Dynamics 365 Customer Engagement** pestanya). Els valors possibles per a aquest camp inclouen:
 
   - **Dies**: els valors reals s'agrupen per data de transacció. Es crea un diari separat per a cada dia.
   - **Mesos**: els valors reals s'agrupen per mes natural. Es crea un diari separat per a cada mes.
@@ -40,10 +40,10 @@ Les línies del llibre diari es creen a partir dels valors reals del projecte. L
   - El camp **Comprovant** mostra el número de comprovant per a cada transacció real. La seqüència de números de comprovant es defineix a la pestanya **Seqüències numèriques**, a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**. A cada línia se li assigna un número nou. Un cop comptabilitzat el comprovant, podeu veure com es relacionen els costos i les transaccions de vendes no facturades seleccionant **Comprovants relacionats** a la pàgina **Transacció de comprovant**.
   - El camp **Categoria** representa una transacció de projecte i per defecte té el valor en funció de la categoria de transacció del valor real del projecte relacionat.
     - Si **Categoria de transacció** es defineix al valor real del projecte i hi ha una **Categoria de projecte** relacionada en una entitat jurídica determinada, la categoria per defecte és aquesta categoria de projecte.
-    - Si **Categoria de transacció** no s'ha definit al valor real del projecte, el sistema utilitza el valor del camp **Valors per defecte de la categoria de projecte** a la pestanya **Project Operations al Dynamics 365 Customer Engagement** de la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**.
+    - Si **la categoria** Transacció no està establerta al projecte real, el sistema utilitza el valor del camp Per defecte **de la** categoria del projecte a la pestanya Operacions del **projecte de Dynamics 365 Customer Engagement** de la **pàgina Gestió de projectes i paràmetres comptables**.
   - El camp **Recurs** representa el recurs de projecte relacionat amb aquesta transacció. El recurs s'utilitza com a referència a les propostes de factura del projecte als clients.
-  - El camp **Tipus de canvi** per defecte és el **Tipus de canvi de moneda** establert al Dynamics 365 Finance. Si falta la configuració del tipus de canvi, el procés periòdic **Importa de l'intermedi** no afegirà el registre a un diari i s'afegirà un missatge d'error al registre d'execució de la feina.
-  - El camp **Propietat de la línia** representa el tipus de facturació als valors reals del projecte. L'assignació de propietats de línia i tipus de facturació es defineix a la pestanya **Project Operations al Dynamics 365 Customer Engagement** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**.
+  - El **camp Tipus** de canvi per defecte del tipus de **canvi de** moneda definit a Dynamics 365 Finance. Si falta la configuració del tipus de canvi, el procés periòdic **Importa de l'intermedi** no afegirà el registre a un diari i s'afegirà un missatge d'error al registre d'execució de la feina.
+  - El camp **Propietat de la línia** representa el tipus de facturació als valors reals del projecte. La propietat de la línia i l'assignació de tipus de facturació es defineixen a la pestanya Operacions del **projecte a Dynamics 365 Customer Engagement** de la **pàgina Gestió de projectes i paràmetres comptables**.
 
 Només es poden actualitzar els atributs comptables següents a les línies del llibre diari d'integració del Project Operations:
 
