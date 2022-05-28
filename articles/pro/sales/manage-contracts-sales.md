@@ -4,14 +4,14 @@ description: Aquest tema proporciona informació sobre la visualització de cont
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001824"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590472"
 ---
 # <a name="manage-project-contracts"></a>Administració de contractes de projectes
 
@@ -31,6 +31,9 @@ Es pot veure una llista de tots els contractes del projecte a la pàgina de llis
 2. Seleccioneu el **Commutador de visualització** (la fletxa desplegable que hi ha al costat del nom de la visualització) per seleccionar altres visualitzacions filtrades. Podeu crear visualitzacions pròpies amb criteris de filtratge personalitzats.
 
 Es poden crear o suprimir contractes des d'aquesta pàgina de llista o des de les pàgines de detalls.
+
+> [!NOTE]
+> Els contractes que tenen projectes, tasques, estimacions, revistes i/o reals associats no es poden suprimir. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

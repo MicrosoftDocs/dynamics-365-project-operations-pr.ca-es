@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986479"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591163"
 ---
 # <a name="vendor-invoice-integration"></a>Integració de factures del proveïdor
 
@@ -34,7 +34,7 @@ Al Project Operations, les factures del proveïdor relacionades amb el projecte 
      > [!NOTE]
      > Els detalls de la factura del proveïdor del Dataverse no es poden editar.
 
-El subllibre de comptabilitat d'impostos, el subllibre de comptabilitat de proveïdors i les altres publicacions financeres es registren segons calgui al Dynamics 365 Finance en el moment de publicar la factura del proveïdor.
+El subledger d'impostos, el subledger de proveïdors i altres publicacions financeres es registren segons correspongui a Dynamics 365 Finance quan es publica la factura del proveïdor.
 
 ![Integració de factures del proveïdor.](media/DW7VendorInvoice.png)
 

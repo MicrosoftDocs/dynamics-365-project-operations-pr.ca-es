@@ -1,5 +1,5 @@
 ---
-title: Unitats organitzatives
+title: Unitats organitzatives avançades
 description: En aquest tema s'ofereix informació sobre les unitats organitzatives al Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005064"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589414"
 ---
-# <a name="organizational-units"></a>Unitats organitzatives 
+# <a name="about-organizational-units"></a>Quant a les unitats organitzatives 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -122,7 +123,7 @@ No. A la versió actual del PSA, les unitats organitzatives no estan jerarquitza
 Quan teniu una jerarquia complexa de centres de cost, divisions, oficines de facturació, etc., configureu els nodes fulla d'aquesta jerarquia com a unitats organitzatives diferents.
 A l'exemple següent es mostra una jerarquia típica:
 
-**ContosoÍndia**
+**Contoso India**
 
   - Pràctica SAP 
 
@@ -134,7 +135,7 @@ A l'exemple següent es mostra una jerarquia típica:
     - Consultors tècnics
     - Consultors funcionals 
     
-**Contoso US**
+**Contoso EUA**
 
  - Pràctica SAP 
 

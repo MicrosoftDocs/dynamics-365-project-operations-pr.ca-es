@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008124"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589092"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de l'abril de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -21,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
 - Project Operations en entorn del Dataverse versió 4.9.0.221
-- Administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance versió 10.0.17
+- Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 
@@ -42,13 +42,13 @@ A la llista següent es mostren les assignacions de doble escriptura que s'han m
 | **Assignació d'entitats** | **Versió actualitzada** | **Comentaris** |
 | --- | --- | --- |
 | Valors reals d'integració del Project Operations (msdyn\_actuals) | 1.0.0.14 | Assignació modificada per sincronitzar els valors reals del projecte material. |
-| Entitat d'integració del Project Operations per a l'estimació de despeses (msdyn\_estimateslines) | 1.0.0.2 | S'ha afegit la sincronització de línia de contracte a les aplicacions del Finance and Operations per al suport de facturació basat en tasques. |
-| Entitat d'integració del Project Operations per a l'estimació d'hores (msdyn\_resourceassignments) | 1.0.0.5 | S'ha afegit la sincronització de línia de contracte a les aplicacions del Finance and Operations per al suport de facturació basat en tasques. |
-| Taula d'integració del Project Operations per a estimacions de materials (msdyn\_estimatelines) | 1.0.0.0 | Nova assignació de taules per sincronitzar les estimacions de materials del Dataverse a les aplicacions del Finance and Operations. |
-| Entitat d'exportació de factura del proveïdor del projecte de la integració del Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova assignació de taules per sincronitzar les capçaleres de factures del proveïdor de les aplicacions del Finance and Operations al Dataverse. |
-| Entitat d'exportació de la línia de factura del proveïdor del projecte de la integració del Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nova assignació de taules per sincronitzar les línies de factures del proveïdor de les aplicacions del Finance and Operations al Dataverse. |
+| Entitat d'integració del Project Operations per a l'estimació de despeses (msdyn\_estimateslines) | 1.0.0.2 | S'ha afegit la sincronització de la línia de contracte del projecte a les aplicacions Financeres i Operacions per al suport de facturació basat en tasques. |
+| Entitat d'integració del Project Operations per a l'estimació d'hores (msdyn\_resourceassignments) | 1.0.0.5 | S'ha afegit la sincronització de la línia de contracte del projecte a les aplicacions Financeres i Operacions per al suport de facturació basat en tasques. |
+| Taula d'integració del Project Operations per a estimacions de materials (msdyn\_estimatelines) | 1.0.0.0 | Mapa de taula nou per sincronitzar les estimacions de material des de Dataverse les aplicacions Finances i Operacions. |
+| Entitat d'exportació de factura del proveïdor del projecte de la integració del Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Mapa de taula nou per sincronitzar les capçaleres de factures del proveïdor des de les aplicacions Finances i Operacions a Dataverse. |
+| Entitat d'exportació de la línia de factura del proveïdor del projecte de la integració del Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Mapa de taula nou per sincronitzar les línies de factures del proveïdor des de les aplicacions Finances i Operacions fins al Dataverse. |
 
-Heu d'executar sempre la versió més recent de l'assignació a l'entorn i habilitar totes les assignacions de taules relacionades a mesura que actualitzeu la versió de la solució del Dataverse del Project Operations i la solució del Finance and Operations. És possible que algunes característiques i capacitats no funcionin correctament si la versió més recent del mapa no s'activa. Podeu veure la versió activa de l'assignació a la columna **Versió** de la pàgina **Escriptura doble**. Per activar una versió nova de l'assignació, seleccioneu **Versions de l'assignació de la taula**, seleccioneu la versió més recent i després deseu la versió seleccionada. Si heu personalitzat una assignació de taules llesta per al seu ús, torneu a aplicar els canvis. Per a més informació, vegeu [Administració del cicle de vida de les aplicacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Sempre heu d'executar l'última versió del mapa al vostre entorn i habilitar tots els mapes de taula relacionats a mesura que actualitzeu la solució d'operacions Dataverse de projecte i la versió de la solució de finances i operacions. És possible que algunes característiques i capacitats no funcionin correctament si la versió més recent del mapa no s'activa. Podeu veure la versió activa de l'assignació a la columna **Versió** de la pàgina **Escriptura doble**. Per activar una versió nova de l'assignació, seleccioneu **Versions de l'assignació de la taula**, seleccioneu la versió més recent i després deseu la versió seleccionada. Si heu personalitzat una assignació de taules llesta per al seu ús, torneu a aplicar els canvis. Per a més informació, vegeu [Administració del cicle de vida de les aplicacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les instruccions de la secció [Problemes de columnes de la taula que falten](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) de la guia de detecció d'errors de doble escriptura.
 
@@ -79,7 +79,7 @@ Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les 
 | Temps i despesa | 2204377 | Els fulls d'hores copiats s'han de mostrar automàticament quan seleccioneu **Copia la setmana** durant l'entrada de l'hora. |
 | Temps i despesa | 2209059 | El camp **Estat** es pot editar per a les entrades de temps del Dynamics 365 Field Service. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestió de projectes i comptabilitat en Dynamics 365 Finance
 
 | **Àrea de característiques** | **Número de referència** | **Actualització de qualitat** |
 | --- | --- | --- |

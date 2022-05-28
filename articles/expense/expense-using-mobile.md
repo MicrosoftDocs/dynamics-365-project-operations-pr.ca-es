@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818171"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588908"
 ---
 # <a name="mobile-expense-app"></a>Aplicació mòbil de despeses
 
@@ -206,11 +206,11 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 
 ### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Per què l'aplicació mòbil Expense no introdueix la forma de pagament de manera predeterminada?
 
-Les organitzacions poden personalitzar la configuració de la **forma de pagament per defecte per a cada categoria de despesa a mesura que es** crea. A més, quan configureu les formes de pagament, podeu definir el **camp Mètode de pagament per defecte com a Importa** **només**.
+Les organitzacions poden personalitzar la configuració de la **forma de** pagament per defecte per a cada categoria de despesa a mesura que es crea. A més, quan configureu les formes de pagament, podeu definir el camp Mètode de **pagament** per defecte com a **Importa només**.
 
-Quan **la importació només està** habilitada per a una forma de pagament, la forma de pagament no s'introdueix per defecte. Estarà en blanc en les categories de despeses on es configura aquesta forma de pagament. Aquest comportament és coherent tant en l'experiència web com en l'experiència mòbil.
+Quan **la importació només** està habilitada per a una forma de pagament, la forma de pagament no s'introdueix per defecte. Estarà en blanc en les categories de despeses on es configura aquesta forma de pagament. Aquest comportament és coherent tant en l'experiència web com en l'experiència mòbil.
     
-Quan **la importació només no està** habilitada per a una forma de pagament, el valor definit s'introdueix per defecte per a les categories de despeses en què està configurada aquesta forma de pagament. No obstant això, hi ha un problema conegut en què el valor per defecte no s'introdueix a l'aplicació mòbil Expense. Per resoldre aquest problema, seleccioneu manualment una forma de pagament abans de desar l'informe de despeses. 
+Quan **la importació només** no està habilitada per a una forma de pagament, el valor definit s'introdueix per defecte per a les categories de despeses en què està configurada aquesta forma de pagament. No obstant això, hi ha un problema conegut en què el valor per defecte no s'introdueix a l'aplicació mòbil Expense. Per resoldre aquest problema, seleccioneu manualment una forma de pagament abans de desar l'informe de despeses. 
 
 ### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Per què no puc afegir ni editar dimensions financeres a l'aplicació mòbil Expense?
 

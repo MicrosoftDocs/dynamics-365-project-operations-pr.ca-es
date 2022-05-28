@@ -4,14 +4,14 @@ description: "En aquest tema es proporciona informació sobre com subscriure's i
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991519"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587988"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registre per obtenir una subscripció de versió preliminar (bàsica) 
 
@@ -40,10 +40,10 @@ Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador 
 ## <a name="assign-licenses"></a>Assignar llicències
 
 > [!IMPORTANT]
-> Necessitareu accés d'administrador al portal del Microsoft 365 de l'organització per completar els passos següents.
+> Necessitareu accés d'administrador al portal de l'Microsoft 365 de l'organització per completar els passos següents.
 
 
-1. Aneu al [centre d'administració del Microsoft 365](https://portal.office.com/) per assignar les llicències als usuaris.
+1. Aneu al [Microsoft 365 centre](https://portal.office.com/) d'administració per assignar les llicències als usuaris.
 2. A la pàgina **Usuaris actius**, seleccioneu els usuaris als quals voleu assignar una llicència.
 3. Verifiqueu que la llicència del **Dynamics 365 Project Operations** estigui seleccionada. 
 4. Seleccioneu **Desa els canvis**.

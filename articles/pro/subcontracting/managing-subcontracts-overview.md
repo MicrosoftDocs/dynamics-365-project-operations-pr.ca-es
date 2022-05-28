@@ -3,15 +3,15 @@ title: Administració de subcontractacions al Project Operations
 description: En aquest tema es proporciona informació general del procés d'administració de subcontractes d'extrem a extrem típic de les organitzacions basades en projectes.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323584"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593002"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Administració de subcontractacions al Project Operations
 
@@ -46,7 +46,7 @@ Una línia de subcontracte pot estar basada en quantitat o en treball.
 
 Quan una línia de subcontracte està **basada en quantitat**, la quantitat que es compra a la línia de subcontracte per a temps, despeses o material es pot utilitzar en qualsevol projecte.
 
-Quan una línia de subcontracte està **basada en el treball**, la línia de subcontracte s'assigna a un cos de treball representat per un node del pla del projecte. El valor de la línia de subcontracte és la suma de tots els components necessaris per dur a terme aquest cos del treball. Es modelen com a detalls de la línia de subcontracte i poden ser un conjunt de temps, despeses o material. Per a una línia de subcontracte basada en treball, la línia de subcontracte també es dedica a un únic projecte.
+Quan una línia de subcontracte està **basada en el treball**, la línia de subcontracte s'assigna a un cos de treball representat per un node del pla del projecte. El valor de la línia de subcontracte és la suma de tots els components necessaris per dur a terme aquest cos del treball. Es modelen com a detalls de la línia de subcontracte i poden ser un conjunt de temps, despeses o material. Per a una línia de subcontracte basada en treball, la línia de subcontracte també es dedica a un únic projecte. Aquest tipus de subcontractacions no són compatibles amb les operacions del projecte.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

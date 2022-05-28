@@ -1,24 +1,24 @@
 ---
 title: Aplicació de les dades de demostració en un entorn allotjat al núvol del Finance
-description: En aquest tema s'explica com aplicar les dades de demostració del Project Operations en un entorn del Dynamics 365 Finance allotjat al núvol.
+description: Aquest tema explica com aplicar les dades de demostració de Project Operations a un entorn Dynamics 365 Finance allotjat al núvol.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009654"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588954"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicació de les dades de demostració en un entorn allotjat al núvol del Finance
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
 > [!IMPORTANT]
-> Aquest tema només és aplicable només a la versió 10.0.13 del Microsoft Dynamics 365 Finance i només es pot fer en un entorn allotjat al núvol. Completeu els passos d'aquest tema **ABANS** d'aplicar les actualitzacions de qualitat a l'entorn.
+> Aquest tema només és aplicable Microsoft Dynamics a la versió 10.0.13 de 365 Finance i només es pot realitzar en un entorn allotjat al núvol. Completeu els passos d'aquest tema **ABANS** d'aplicar les actualitzacions de qualitat a l'entorn.
 
 1. Al projecte del LCS, obriu la pàgina **Detalls de l'entorn**. Observeu que inclou els detalls necessaris per connectar-se a l'entorn mitjançant el protocol d'escriptori remot (RDP).
 
@@ -76,7 +76,7 @@ Això tarda parell de minuts a completar-se. Rebreu un missatge de confirmació 
 
 18. Tanqueu la sessió d'escriptori remot i utilitzeu la pàgina **Detalls de l'entorn** del LCS per iniciar la sessió a l'entorn per confirmar que està funcionant de la manera esperada.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Finances i operacions.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

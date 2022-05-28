@@ -4,14 +4,14 @@ description: En aquest tema s'explica com registrar línies de subcontracte per 
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
-ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
+ms.openlocfilehash: 9eba8b70aeb98389515ee679e4bfb1426736ee2c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "7506087"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591668"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Línies de subcontracte per a categories de despeses
 

@@ -4,14 +4,14 @@ description: En aquest tema s'explica com implementar manualment l'aplicació Da
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986434"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591208"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Implementació manual de l'aplicació Dataverse del Project Operations amb compatibilitat amb l'escriptura doble
 
@@ -37,7 +37,7 @@ Per completar aquest procediment, heu d'iniciar la sessió com a administrador.
 3. Seleccioneu el tipus d'entorn. Si us heu registrat per obtenir l'oferta de prova, seleccioneu **Prova (basada en subscripció)**.
 4. Confirmeu la regió d'implementació.
 5. Habiliteu l'opció **Crea una base de dades per a aquest entorn**. 
-6. Confirmeu la llengua i, a continuació, confirmeu que la moneda coincideixi amb la moneda de les aplicacions del Finance and Operations.
+6. Confirmeu l'idioma i confirmeu que la moneda coincideix amb la moneda de les aplicacions Finances i Operacions.
 7. Habiliteu l'opció **Aplicacions del Dynamics 365** i confirmeu que el camp **Implementa automàticament aquestes aplicacions** estigui definit com a **Cap**.
 8. Afegiu un grup de seguretat, si és obligatori.
 9. Seleccioneu **Desa** per crear l'entorn.
@@ -62,4 +62,4 @@ Aquest procediment només es pot completar si heu completat els procediments ant
 
 ## <a name="link-your-environments"></a><a name="link"></a>Enllaçar els entorns
 
-Un cop implementat l'entorn del Dataverse, podeu configurar l'enllaç a les aplicacions del Finance and Operations. Seguiu els passos que es mostren a [Utilitzar l'auxiliar d'escriptura doble per enllaçar els entorns](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Un cop desplegat l'entorn Dataverse, podeu configurar l'enllaç a les aplicacions Finances i Operacions. Seguiu els passos que es mostren a [Utilitzar l'auxiliar d'escriptura doble per enllaçar els entorns](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

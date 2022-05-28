@@ -4,14 +4,14 @@ description: En aquest tema es proporciona informació sobre com crear factures 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989228"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591484"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Creació de factures entre empreses de clients i proveïdors
 
@@ -27,7 +27,7 @@ Utilitzeu aquest procediment per crear manualment una factura de client interemp
 
 Cal fer els passos següents a l'entitat jurídica prestadora. 
 
-1. Al Dynamics 365 Finance, aneu a **Gestió de projectes i comptabilització** > **Factures del projecte** > **Factures de client interempresa**. A la pàgina de **Factures de clients interempresa**, a la subfinestra d'Acció, seleccioneu **Crea**.
+1. En Dynamics 365 Finance, ves a **Gestió de Projectes i comptabilitat** > **factures de projectes Factures** > **intercompanyes de clients**. A la pàgina de **Factures de clients interempresa**, a la subfinestra d'Acció, seleccioneu **Crea**.
 2. A la pàgina **Crea una factura interempresa**, al camp **Entitat jurídica**, seleccioneu una entitat jurídica prestatària.
 3. Opcional: introduïu un contracte de projecte i un número de projecte específics.
 4. Restringiu la cerca seleccionant un interval de dates. Introduïu dates específiques als camps **Data d'inici** i **Data de finalització**. Només les transaccions entre empreses que es publiquen dins d'aquest interval de dates es visualitzen als resultats de la cerca.

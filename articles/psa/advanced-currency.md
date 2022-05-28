@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005109"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590150"
 ---
 # <a name="multiple-currency-scenarios"></a>Escenaris multidivisa
 
@@ -34,7 +35,7 @@ El Microsoft Dynamics 365 té dos conceptes de moneda:
 - **Moneda de transacció**: la moneda en què es produeix una transacció. 
 - **Moneda base**: la moneda de la instància del Dynamics 365. Aquesta moneda es configura quan es proveeix una instància del Dynamics 365. No es pot canviar.
 
-Per exemple, Contoso US va vendre 100 samarretes a un client del Regne Unit per 15 lliures esterlines (GBP) cadascuna. A la taula següent es mostra com s'enregistra aquesta transacció a l'entitat Producte de la comanda.
+Per exemple, Contoso US va vendre 100 samarretes per a un client del Regne Unit per 15 lliures esterlines (GBP) cadascuna. A la taula següent es mostra com s'enregistra aquesta transacció a l'entitat Producte de la comanda.
 
 | Producte | Quantitat | Preu per unitat | Moneda | Import | Tipus de canvi | Preu per unitat (base)| Import (base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,11 +67,11 @@ El PSA amplia el concepte de moneda de transacció per al cost i les vendes de l
 
 ## <a name="multiple-currency-scenario"></a>Escenari multidivisa
 
-En aquesta secció es descriu un exemple d'un projecte que Contoso UK lliura a un client que s'anomena Fabrikam, Japó. Així és com s'ha configurat l'escenari:
+En aquesta secció es descriu un exemple d'un projecte que Contoso UK lliura per a un client que s'anomena Fabrikam, Japó. Així és com s'ha configurat l'escenari:
 
 1. GBP i el ien japonès (JPY) es configuren a **Configuració** \> **Administració empresarial** \> **Monedes**. 
 2. Un compte de client que es diu **Fabrikam - Japó** està configurat i el JPY se selecciona com a moneda del compte.
-3. Es configura una unitat organitzativa anomenada **Contoso UK** i GBP se selecciona com a moneda.
+3. S'ha configurat una unitat organitzativa anomenada **Contoso UK** i GBP se selecciona com a moneda.
 4. Es crea un contracte de projecte, on **Contoso UK** s'especifica com a unitat de contractació i **Fabrikam – Japó** s'especifica com a client.
 5. Es creen línies de contracte de projecte, basades en els arranjaments de facturació de les diferents classes de transaccions en el projecte, com ara la facturació per temps versus la facturació per despeses.
 6. Es crea un projecte on s'especifica **Contoso UK** com a unitat de contractació. Aquest projecte es crea i s'assigna a les línies de contracte del projecte.

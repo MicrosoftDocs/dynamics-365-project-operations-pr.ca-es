@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002319"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591898"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuració de camps personalitzats com a dimensions de preus 
 
@@ -73,10 +74,10 @@ Hi ha dos tipus de dimensions de preus:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Hores extra                 |15     |
 |             | Contoso India|Local             |                    |Hores extra                 |10     |
-|             | Contoso US   |Local             |                    |Hores extra                 |20     |
+|             | Contoso EUA   |Local             |                    |Hores extra                 |20     |
 
 
-Si un recurs de Contoso India la tarifa base del qual és 100 USD treballa in situ, i registra 8 hores de temps normal i 2 hores de temps extra a l'entrada de temps, el motor de preus del Project Service utilitzarà la tarifa base de 100 per a les 8 hores per registrar 800 USD. Per a les 2 hores extres, s'aplicarà un marge comercial del 15% a la tarifa base de 100 per obtenir un preu d'unitat de 115 USD i registrarà un cost total de 230 USD.
+Si un recurs de Contoso India la tarifa base del qual és 100 USD treballa in situ, i registra 8 hores de temps normal i 2 hores de temps extra a l'entrada de temps, el motor de preus del Project Service utilitzarà la tarifa base de 100 per a les 8 hores per registrar 800 USD. Per a les 2 hores extres, s'aplicarà un marge comercial del 15% a la tarifa base de 100 per obtenir un preu d'unitat de 115 USD i registrarà un cost total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Aplicable al cost 
 Si està definit com a **Sí**, indica que el valor de la dimensió del context d'entrada s'ha d'utilitzar per coincidir amb **Preu per funció** i **Marge comercial del preu per funció** quan es recuperen les tarifes de costos i marge comercial.

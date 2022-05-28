@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005559"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589598"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Novetats o canvis al Project Operations a abril de 2021 per a escenaris basats en producció/mantinguts en existències
 
@@ -20,7 +20,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en producció/manting
 
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
-- Administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance versió 10.0.18
+- Gestió de projectes i comptabilitat en Dynamics 365 Finance entorn versió 10.0.18
  
 ### <a name="quality-updates"></a>Actualitzacions de qualitat
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Aquest tema s'aplica als components i versions següents del Dynamics 365 Projec
 | Viatge i despesa                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Quan la categoria de despesa és una categoria que no és de projecte, les condicions financeres seleccionades a la pàgina **Despeses** no es copien a l'informe de despeses.                                          |
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reguladores de les aplicacions financeres i d'operacions, consulta [Actualitzacions reguladores](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
