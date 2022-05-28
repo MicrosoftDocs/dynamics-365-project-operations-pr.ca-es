@@ -4,14 +4,14 @@ description: En aquest tema s'ofereix informació sobre com crear solucions per 
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992194"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601098"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Creació d'una solució per a les dimensions de preus personalitzades
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992194"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Creació d'una solució per a les dimensions de preus personalitzades
 
 1.  Seleccioneu **Configuració** > **Solucions** i, a continuació, **Nova**.
-2.  Anomeneu la solució, *<your organization name>: dimensions de preus*.
+2.  Anomeneu la solució, *\<your organization name\>: dimensions de preus*.
 3. Introduïu la informació requerida restant i seleccioneu **Desa**.
 
   ![Creació d'una solució de dimensió de preus personalitzada.](./media/Creation-of-custom-pricing-dimension-solution.png)

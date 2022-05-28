@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007314"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684860"
 ---
 # <a name="project-resourcing-home-page"></a>Pàgina d'inici d'assignació de recursos a projectes
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007314"
 
 Aquest tema proporciona informació sobre l'assignació de recursos a projectes.
 
-Un dels reptes dels administradors de projectes i administradors de recursos de la fase de planificació del projecte és l'assignació de recursos, on han de determinar i reservar el recurs correcte per treballar en un projecte. Al Dynamics 365 Finance, les capacitats d'assignació de recursos per als projectes us permeten definir funcions que es tracten com a recursos temporals que es poden reservar per a un compromís específic o com a part d'un compromís. Aquest tipus d'assignació de recursos permet als administradors de projecte i els administradors de recursos completar les tasques següents:
+Un dels reptes dels administradors de projectes i administradors de recursos de la fase de planificació del projecte és l'assignació de recursos, on han de determinar i reservar el recurs correcte per treballar en un projecte. En Dynamics 365 Finance, les capacitats de recursos per a projectes us permeten definir rols que es tracten com a recursos temporals que es poden reservar per a un compromís específic o part d'un compromís. Aquest tipus d'assignació de recursos permet als administradors de projecte i els administradors de recursos completar les tasques següents:
 
 - Definiu una funció que tingui les competències necessàries, de manera que sigui fàcil fer coincidir els recursos.
 - Utilitzar funcions per definir una planificació inicial de la interacció basada en recursos reservats.

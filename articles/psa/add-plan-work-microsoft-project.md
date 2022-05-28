@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005289"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727946"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilitzar el complement Project Service Automation per planificar el vostre treball al Microsoft Project
 
@@ -40,7 +41,7 @@ El [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u
 ## <a name="download-and-install-the-add-in"></a>Descarregar i instal·lar el complement  
  Heu de tenir la informació d'inici de sessió del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] preparada. Necessitareu aquesta informació per connectar-vos del [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Al centre de baixades, baixeu el complement per a la versió compatible del servei del Project Service, ja sigui la [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) o la [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Al centre de baixades, baixeu el complement per a la versió compatible del servei del Project Service, ja sigui la [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) o la [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Feu clic a l'enllaç de descàrrega.  
 
@@ -87,9 +88,8 @@ Quan s'hagi completat la planificació del projecte, el següent pas és importa
 
 El projecte s'importarà al [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. S'aplica el procés de generació de preus i d'equip. Obriu el projecte a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per veure que s'han generat l'equip, les estimacions del projecte i l'estructura del desglossament del treball. La taula següent mostra on trobar els resultats:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Detalles |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gràfic de Gantt**   | Importa a la pantalla de l-**estructura del desglossament del treball** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Full de recursos** |   Importa a la pantalla dels **membres de l'equip del projecte** del [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilitzar l'ús**    |    Importa a la pantalla d'**Estimacions del projecte** de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |

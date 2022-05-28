@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997189"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683115"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicació mòbil Project timesheet
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997189"
 
 ## <a name="overview"></a>Informació general
 
-L'aplicació mòbil Microsoft Dynamics 365 Project Timesheet permet que els usuaris presentin i aprovin els fulls d'hores per als projectes en el seu dispositiu mòbil (iPhone o Android). Aquesta aplicació mòbil presenta la funcionalitat de fulls d'hores de l'àrea d'administració de projectes i comptabilitat del Dynamics 365 Finance i millora la productivitat i l'eficiència dels usuaris, alhora que permet la introducció oportuna i l'aprovació dels fulls d'hores dels projectes.
+L'aplicació mòbil Microsoft Dynamics 365 Project Timesheet permet que els usuaris presentin i aprovin els fulls d'hores per als projectes en el seu dispositiu mòbil (iPhone o Android). Aquesta aplicació mòbil aflora la funcionalitat del full de temps que resideix en l'àrea de gestió de projectes i comptabilitat de Dynamics 365 Finance, millorant la productivitat i l'eficiència de l'usuari, així com permetent l'entrada i aprovació oportuna dels fulls d'hores del projecte.
 
 ## <a name="download-and-install-the-mobile-app"></a>Descarregar i instal·lar l'aplicació mòbil
 

@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001464"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682790"
 ---
 # <a name="expense-management-mobile-workspace"></a>Àrea de treball mòbil d'administració de despeses
 
@@ -35,7 +34,7 @@ Moltes organitzacions requereixen que s'adjunti una còpia d'un rebut a un infor
 
 Específicament, l'àrea de treball mòbil **Administració de despeses** permet que els usuaris realitzin aquestes tasques:
 
-- Fer una foto d'un rebut i carregar-la al Dynamics 365 Finance. Després podeu adjuntar aquesta foto a un informe de despeses.
+- Feu una foto d'un rebut i pengeu-lo a Dynamics 365 Finance. Després podeu adjuntar aquesta foto a un informe de despeses.
 - Carregar un fitxer com a rebut capturat. A continuació, podeu adjuntar aquest fitxer a un informe de despeses més endavant.
 - Crear una línia de cost nova mitjançant un rebut adjunt. A continuació, podeu afegir l'element de la línia a un informe de despeses més endavant i enviar-lo per a la seva aprovació i reemborsament.
 
@@ -53,7 +52,7 @@ També podeu utilitzar aquestes característiques:
 ## <a name="prerequisites"></a>Requisits previs
 Els prerequisits difereixen, segons la versió que s'hagi implementat per a la vostra organització.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisits previs si utilitzeu el Dynamics 365 Finance 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisits previs si utilitzeu Dynamics 365 Finance 
 Si el Finance s'ha implementat per a la vostra organització, l'administrador del sistema ha de publicar l'àrea de treball mòbil **Administració de despeses**. Per obtenir instruccions, vegeu [Publicar àrees de treball mòbils](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Requisits previs si utilitzeu la versió 1611 amb l'actualització de la plataforma 3 o posterior

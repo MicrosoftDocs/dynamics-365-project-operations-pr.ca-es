@@ -1,24 +1,23 @@
 ---
 title: Processament de rebuts de despeses
-description: Aquest tema proporciona informació sobre el processament del reconeixement òptic de caràcters (OCR) per als rebuts. Aquesta característica està dissenyada per millorar l'experiència de l'usuari en crear informes de despeses al Microsoft Dynamics 365 Finance.
+description: Aquest tema proporciona informació sobre el processament del reconeixement òptic de caràcters (OCR) per als rebuts. Aquesta funció està dissenyada per millorar l'experiència de l'usuari quan es creen informes de despeses al Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001374"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684308"
 ---
 # <a name="expense-receipt-processing"></a>Processament de rebuts de despeses
 
@@ -51,7 +50,7 @@ Per crear una despesa o fer coincidir una despesa d'un rebut, feu el següent:
 
 Aquesta característica funciona en combinació amb la característica **Informes de despeses reinventats** per ajudar a simplificar l'experiència de despesa. Aquesta característica només està disponible per a entorns del nivell 2 o superior, que són espai aïllat i producció.
 
-Per utilitzar aquestes capacitats de despesa avançada, instal·leu el complement Servei d'administració de despeses per al Microsoft Dynamics 365 Finance i activeu les característiques a la instància. Podeu accedir al complement des del projecte al Microsoft Dynamics Lifecycle Services (LCS).
+Per utilitzar aquestes capacitats de despesa avançades, instal·leu el complement del Servei de gestió de despeses per a Microsoft Dynamics 365 Finance i activeu les funcions de la instància. Podeu accedir al complement des del projecte al Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicieu la sessió al LCS i obriu l'entorn desitjat.
 2. Aneu a **Detalls complets**.

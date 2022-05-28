@@ -3,25 +3,23 @@ title: Informació general sobre l'administració de projectes i la comptabilita
 description: La funcionalitat d'administració de projectes i comptabilitat pot utilitzar-se en diversos sectors per oferir un servei, produir un producte o aconseguir un resultat.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007494"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683572"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informació general sobre l'administració de projectes i la comptabilitat
 
@@ -248,7 +246,7 @@ A la taula següent es descriuen els mètodes per calcular el cost per completar
 <tbody>
 <tr class="odd">
 <td>Cost total: real</td>
-<td>Els costos estimats s'han d'introduir manualment. Després de completar la columna <strong>Cost total</strong> o <strong>Quantitat total</strong> de la pàgina <strong>Estimació de costos</strong>, els costos reals es resten dels totals introduïts per l'usuari. El resultat és el cost de completar el projecte. Normalment, el progrés dels costos no se segueix segons, per exemple, el nombre d'estades en hotels i àpats que es registren en cada període. En canvi. El seguiment sol basar-se en una comparació amb la quantitat total d'hores estimades. Aquest enfocament no requereix un model de previsió i la quantitat total o el cost total es poden canviar manualment. Quan un valor s'introdueix en la columna <strong>Cost total</strong> o <strong>Quantitat total</strong>, el Finance compara aquest valor amb les transaccions reals que s'han comptabilitzat durant el període i, a continuació, disminueix el valor de la columna <strong>Quantitat per completar</strong> o <strong>Cost per completar</strong>.</td>
+<td>Els costos estimats s'han d'introduir manualment. Després de completar la columna <strong>Cost total</strong> o <strong>Quantitat total</strong> de la pàgina <strong>Estimació de costos</strong>, els costos reals es resten dels totals introduïts per l'usuari. El resultat és el cost de completar el projecte. Normalment, el progrés dels costos&#39; no es fa un seguiment basat, per exemple, en el nombre d'estades i àpats d'hotel que es registren en cada període. En canvi. El seguiment sol basar-se en una comparació amb la quantitat total d'hores estimades. Aquest enfocament no&#39; requereix un model de previsió i el cost total o la quantitat total es pot canviar manualment. Quan un valor s'introdueix en la columna <strong>Cost total</strong> o <strong>Quantitat total</strong>, el Finance compara aquest valor amb les transaccions reals que s'han comptabilitzat durant el període i, a continuació, disminueix el valor de la columna <strong>Quantitat per completar</strong> o <strong>Cost per completar</strong>.</td>
 </tr>
 <tr class="even">
 <td>Pressupost total: real</td>

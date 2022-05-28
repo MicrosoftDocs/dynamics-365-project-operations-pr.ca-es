@@ -1,32 +1,31 @@
 ---
-title: Sincronitzar els valors reals del projecte directament des del Project Service Automation al diari d'integració del projecte per a la comptabilització al Finance and Operations
-description: Aquest tema descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar els valors reals del projecte directament des del Microsoft Dynamics 365 Project Service Automation al Finance and Operations.
+title: Sincronitza els reals del projecte directament des del Project Service Automation fins al diari d'integració de projectes per publicar-los a Finances i Operacions
+description: Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar els reals del projecte directament des de Microsoft Dynamics 365 Project Service Automation Finances i Operacions.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988099"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683526"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronitzar els valors reals del projecte directament des del Project Service Automation al diari d'integració del projecte per a la comptabilització al Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronitza els reals del projecte directament des del Project Service Automation fins al diari d'integració de projectes per publicar-los a Finances i Operacions
 
 [!include[banner](../includes/banner.md)]
 
-Aquest tema descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar els valors reals del projecte directament des del Dynamics 365 Project Service Automation al Dynamics 365 Finance.
+Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar els reals del projecte directament des de Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 La plantilla sincronitza les transaccions del Project Service Automation en una taula intermèdia al Finance. Un cop completada la sincronització, **haureu** d'importar les dades de la taula intermèdia al diari d'integració.
 
@@ -42,7 +41,7 @@ La solució d'integració del Project Service Automation al Finance utilitza la 
 
 A la il·lustració següent es mostren les dades que se sincronitzen entre el Project Service Automation i el Finance.
 
-[![Flux de dades per a la integració de Project Service Automation amb el Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Flux de dades per a la integració de Project Service Automation amb finances i operacions.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Valors reals del Project Service Automation
 
@@ -75,7 +74,7 @@ Abans que es puguin produir la sincronització de valors reals, heu de configura
 
 ### <a name="power-query"></a>Power Query
 
-A la plantilla de valors reals del projecte, heu d'utilitzar el Microsoft Power Query per a l'Excel per completar aquestes tasques:
+A la plantilla real del projecte, heu d'utilitzar Microsoft Power Query per a l'Excel per completar aquestes tasques:
 
 - Transformar el tipus d'operació al Project Service Automation al tipus de transacció correcte al Finance. Aquesta transformació ja està definida a la plantilla Valors reals del projecte (PSA a Fin and Ops).
 - Transformar el tipus de facturació al Project Service Automation al tipus de facturació correcte al Finance. Aquesta transformació ja està definida a la plantilla Valors reals del projecte (PSA a Fin and Ops). El tipus de facturació s'assigna a la propietat de línia, en funció de la configuració de la pàgina **Paràmetres d'integració del Project Service Automation**.
@@ -84,9 +83,9 @@ A la plantilla de valors reals del projecte, heu d'utilitzar el Microsoft Power 
 - Si el valors reals de temps entre empreses o despesa entre empreses no se sincronitzaran amb el Finance, heu de suprimir la darrera columna condicional inserida de la plantilla. Altrament, pot ser que es produeixi un error d'integració o que s'importin transaccions reals incorrectes al Finance.
 
 #### <a name="contract-organizational-unit"></a>Unitat organitzativa del contracte
-Per actualitzar la columna condicional inserida a la plantilla, feu clic a la fletxa **Assignació** per obrir l'assignació. Seleccioneu l'enllaç **Consulta i filtratge avançats** per obrir el Power Query.
+Per actualitzar la columna condicional inserida a la plantilla, feu clic a la fletxa **Assignació** per obrir l'assignació. Seleccioneu l'enllaç **de consulta i filtratge** avançat per obrir Power Query.
 
-- Si utilitzeu la plantilla Valors reals del projecte (PSA a Fin and Ops) per defecte, al Power Query, seleccioneu l'última **Condició inserida** de la secció **Passos aplicats**. A l'entrada **Funció**, substituïu **USSI** pel nom de l'entitat jurídica que s'ha d'utilitzar amb la integració. Afegiu condicions addicionals a l'entrada **Funció** que necessiteu i actualitzeu la condició **else** d'**USMF** a l'entitat jurídica correcta.
+- Si utilitzeu la plantilla predeterminada de reals del projecte (PSA a Fin i Ops), a Power Query, seleccioneu l'última **condició** inserida de la **secció Passos aplicats**. A l'entrada **Funció**, substituïu **USSI** pel nom de l'entitat jurídica que s'ha d'utilitzar amb la integració. Afegiu condicions addicionals a l'entrada **Funció** que necessiteu i actualitzeu la condició **else** d'**USMF** a l'entitat jurídica correcta.
 - Si esteu creant una plantilla nova, heu d'afegir la columna per admetre les despeses i els temps entre empreses. Seleccioneu **Afegeix una columna condicional** i introduïu un nom per a la columna, com ara **LegalEntity**. Introduïu la condició per a la columna, on, if **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null.
 
 ### <a name="template-mapping-in-data-integration"></a>Assignació de plantilles a la integració de dades
@@ -126,7 +125,7 @@ Els valors reals del projecte estan administrats al Project Service Automation i
 
 ### <a name="power-query"></a>Power Query
 
-A la plantilla d'actualització de valors reals del projecte, heu d'utilitzar el Microsoft Power Query per completar aquestes tasques:
+A la plantilla d'actualització real del projecte, heu d'utilitzar-les Power Query per completar aquestes tasques:
 
 - Transformar el tipus d'operació al Finance al tipus de transacció correcte al Project Service Automation. Aquesta transformació ja està definida a la plantilla Actualització dels valors reals del projecte (Fin and Ops a PSA).
 - Transformar el tipus de facturació al Finance al tipus de facturació correcte al Project Service Automation. Aquesta transformació ja està definida a la plantilla Actualització dels valors reals del projecte (Fin and Ops a PSA).

@@ -1,32 +1,31 @@
 ---
 title: Paràmetres d'integració del Project Service Automation
-description: Aquest tema explica com configurar com s'introdueixen les dades per defecte quan integreu el Microsoft Dynamics 365 for Project Service Automation amb el Microsoft Dynamics 365 Finance.
+description: En aquest tema s'explica com configurar com s'introdueixen les dades per defecte quan s'integra Microsoft Dynamics 365 for Project Service Automation amb Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005829"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683664"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Paràmetres d'integració del Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-A la pàgina **Paràmetres d'integració del Project Service Automation** podeu configurar com s'introdueixen les dades per defecte quan integreu el Dynamics 365 Project Service Automation amb el Dynamics 365 Finance. Per tal que els projectes se sincronitzin correctament del Project Service Automation al Finance, heu de configurar els camps següents.
+A la pàgina Paràmetres **d'integració** del Project Service Automation, podeu configurar com s'introdueixen les dades per defecte quan us integreu Dynamics 365 Project Service Automation amb Dynamics 365 Finance. Per tal que els projectes se sincronitzin correctament del Project Service Automation al Finance, heu de configurar els camps següents.
 
 Per obrir la pàgina **Paràmetres d'integració del Project Service Automation**, aneu a **Administració de projectes i comptabilitat** \> **Configuració** \> **Paràmetres d'integració del Dynamics 365 for Project Service Automation**. 
 

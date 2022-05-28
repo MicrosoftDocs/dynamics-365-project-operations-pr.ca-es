@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679197"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600776"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de juny de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -21,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
 - Project Operations en un entorn del Dynamics 365 Dataverse, versió 4.11.0.156 o 4.11.0.164.
-- Administració de projectes i comptabilitat en entorns d'aplicacions del Finance and Operations, versió 10.0.19.
+- Gestió de projectes i comptabilitat en entorns d'aplicacions de finances i operacions versió 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 
@@ -38,7 +38,7 @@ En aquesta versió no hi ha actualitzacions per a les assignacions d'escriptura 
 
 Per a una llista actual i versions de les assignacions d'escriptura doble del Project Operations, consulteu [Versions de les assignacions d'escriptura doble del Project Operations](../environment/resource-dual-write-maps.md).
 
-Heu d'executar sempre la versió més recent de l'assignació a l'entorn i habilitar totes les assignacions de taules relacionades a mesura que actualitzeu la versió de la solució del Dataverse del Project Operations i la solució d'aplicacions del Finance and Operations. És possible que algunes característiques i capacitats no funcionin correctament si la versió més recent del mapa no s'activa. Podeu veure la versió activa de l'assignació a la pàgina **Escriptura doble**, a la columna **Versió**. Per activar una versió nova de l'assignació, seleccioneu les **Versions de l’assignació de taules**, seleccioneu la versió més recent i deseu la versió seleccionada. Si heu personalitzat una assignació de taules llesta per al seu ús, torneu a aplicar els canvis. Per a més informació, vegeu [Administració del cicle de vida de les aplicacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Executeu sempre la versió més recent del mapa al vostre entorn i habiliteu tots els mapes de taula relacionats a mesura que actualitzeu la solució d'operacions Dataverse de projecte i la versió de la solució d'aplicacions financeres i operacions. És possible que algunes característiques i capacitats no funcionin correctament si la versió més recent del mapa no s'activa. Podeu veure la versió activa de l'assignació a la pàgina **Escriptura doble**, a la columna **Versió**. Per activar una versió nova de l'assignació, seleccioneu les **Versions de l’assignació de taules**, seleccioneu la versió més recent i deseu la versió seleccionada. Si heu personalitzat una assignació de taules llesta per al seu ús, torneu a aplicar els canvis. Per a més informació, vegeu [Administració del cicle de vida de les aplicacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les instruccions de la secció [Problema Falten columnes de la taula a les assignacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) de la guia de solució de problemes de l'escriptura doble.
 
@@ -62,7 +62,7 @@ Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les 
 | Temps i despesa | 2194431 | La quadrícula **Entrada de temps** ha de tenir l'inici de la setmana definit igual que a la **Configuració del sistema**. |
 | Temps i despesa | 2277311 | Després de suprimir el valor d'una cel·la a la quadrícula **Entrada de temps**, el cursor es queda a la quadrícula. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestió de projectes i comptabilitat sobre Dynamics 365 Finance
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |

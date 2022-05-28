@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis de la versió d'actualització 37.5 del Project Service Automation, V3
-description: Aquest tema llista les característiques i correccions que estan disponibles a Microsoft Dynamics 365 Project Service Automation Versió d'actualització 37.5, V3.
+description: En aquest tema s'enumeren les característiques i les correccions disponibles a la Versió 37.5 d'actualització Microsoft Dynamics 365 Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 11/15/2021
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4bb9a33f72cd98b74a4576bcc2a3760b42b3486
-ms.sourcegitcommit: 6a852ca1e3aacb55d7357cd474d2f07b39381f03
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f36d15bdce7b7b243cf26f6513665c6519bee8fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7816658"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601144"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-375-v3"></a>Novetats o canvis de la versió d'actualització 37.5 del Project Service Automation, V3
 
@@ -37,4 +38,4 @@ En aquest tema es mostren les característiques i correccions que són noves o s
 S'han corregit els problemes següents.
 
 **Administració de recursos**
-- Les reserves duplicades es creen quan actualitzeu les reserves existents i **Proporcional se selecciona per al mètode Augmenta les hores o el mètode Disminueix** **·** **hores**.
+- Les reserves duplicades es creen quan actualitzeu les reserves existents i **Proporcional** se selecciona per al mètode Augmenta les hores o **el** mètode **Disminueix hores**.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008034"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600868"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de juliol de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008034"
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
    - Project Operations en un entorn del Microsoft Dataverse, versió 4.12.0.148 o 4.12.0.152.
-   - Administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance versió 10.0.20.
+   - Gestió de projectes i comptabilitat en Dynamics 365 Finance entorn versió 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 
@@ -80,7 +80,7 @@ Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les 
 | General                       | 2253682              | La solució d'escriptura doble del Project Operations no s'ha d'instal·lar quan s'instal·la la versió bàsica de l'escriptura doble en un entorn sense la solució d'orquestració d'escriptura doble.                                                |
 | General                       | 2316420              | Es produeix un error en proveir la versió bàsica del Project Service si canvia la unitat de negoci de l'usuari de l'aplicació.                                                                                                                     |
 | General                       | 2376405              | S'ha solucionat un problema d'actualització de l'editor (l'actualització de la qualitat està disponible a la versió 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestió de projectes i comptabilitat sobre Dynamics 365 Finance
 
 | Àrea de característiques                      | Número de referència | Actualització de qualitat                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

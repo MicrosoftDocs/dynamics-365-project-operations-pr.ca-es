@@ -1,32 +1,31 @@
 ---
-title: Sincronitzar les estimacions del projecte directament des del Project Service Automation al Finance and Operations
-description: Aquest tema descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar estimacions d'hores de projecte i estimacions de despeses de projecte directament des del Microsoft Dynamics 365 Project Service Automation al Dynamics 365 Finance.
+title: Sincronitza les estimacions del projecte directament des de Project Service Automation fins a Finances i Operacions
+description: Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les estimacions de l'hora del projecte i les estimacions de despeses del projecte directament des de Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988189"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684584"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronitzar les estimacions del projecte directament des del Project Service Automation al Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronitza les estimacions del projecte directament des de Project Service Automation fins a Finances i Operacions
 
 [!include[banner](../includes/banner.md)]
 
-Aquest tema descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar estimacions d'hores de projecte i estimacions de despeses de projecte directament des del Dynamics 365 Project Service Automation al Dynamics 365 Finance.
+Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les estimacions de l'hora del projecte i les estimacions de despeses del projecte directament des de Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - La integració de tasques de projecte, les categories de transaccions de despeses, les estimacions d'hores, les estimacions de despeses i el bloqueig de funcionalitats estan disponibles a la versió 8.0.
@@ -70,7 +69,7 @@ Abans de la sincronització de les estimacions d'hores del projecte, cal sincron
 
 ### <a name="power-query"></a>Power Query
 
-A la plantilla d'estimacions d'hores del projecte, heu d'utilitzar el Microsoft Power Query per a l'Excel per completar aquestes tasques:
+A la plantilla d'estimacions de l'hora del projecte, heu d'utilitzar Microsoft Power Query per a l'Excel per completar aquestes tasques:
 
 - Definiu l'identificador del model de previsió per defecte que s'utilitzarà quan la integració creï previsions d'hores noves.
 - Filtreu tots els registres específics del recurs a la tasca que no es podran integrar en previsions d'hores.
@@ -81,7 +80,7 @@ A la plantilla d'estimacions d'hores del projecte, heu d'utilitzar el Microsoft 
 Per actualitzar l'identificador del model de previsió per defecte a la plantilla, feu clic a la fletxa **Assignació** per obrir l'assignació. A continuació, seleccioneu l'enllaç **Consulta i filtratge avançats**.
 
 - Si utilitzeu la plantilla Estimacions d'hores del projecte (PSA a Fin and Ops) per defecte, seleccioneu la **Condició inserida** a la llista de **Passos aplicats**. A l'entrada de **Funció**, substituïu **O\_previsió** pel nom de l'identificador del model de previsió que s'ha d'utilitzar amb la integració. La plantilla per defecte té un ID de model de previsió a partir de les dades de demostració.
-- Si esteu creant una plantilla nova, heu d'afegir aquesta columna. Al Power Query, seleccioneu **Afegeix una columna condicional** i introduïu un nom per a la columna nova, com ara **ModelID**. Introduïu la condició per a la columna, on, if Project task is not null, then \<enter the forecast model ID\>; else null.
+- Si esteu creant una plantilla nova, heu d'afegir aquesta columna. A Power Query, seleccioneu **Afegeix una columna** condicional i introduïu un nom per a la columna nova, com **ara ModelID**. Introduïu la condició per a la columna, on, if Project task is not null, then \<enter the forecast model ID\>; else null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrar els registres específics de recurs
 
@@ -126,7 +125,7 @@ Abans de la sincronització de les estimacions de despesa del projecte, cal sinc
 
 ### <a name="power-query"></a>Power Query
 
-A la plantilla d'estimacions de despesa del projecte, heu d'utilitzar el Power Query per completar les tasques següents:
+A la plantilla d'estimacions de despeses del projecte, heu d'utilitzar Power Query per completar les tasques següents:
 
 - Filtrar per incloure només els registres de la línia d'estimació de despesa.
 - Definiu l'identificador del model de previsió per defecte que s'utilitzarà quan la integració creï previsions d'hores noves.
@@ -141,8 +140,8 @@ La plantilla Estimacions de despesa de projecte (PSA a Fin and Ops) té un filtr
 
 Per actualitzar l'identificador del model de previsió per defecte a la plantilla, seleccioneu la tasca **Estimacions de despesa** i feu clic a la fletxa **Assignació** per obrir l'assignació. Seleccioneu l'enllaç **Consulta i filtratge avançats**.
 
-- Si utilitzeu la plantilla Estimacions de despesa del projecte (PSA a Fin and Ops) per defecte, al Power Query, seleccioneu la primera **Condició inserida** de la secció **Passos aplicats**. A l'entrada de **Funció**, substituïu **O\_previsió** pel nom de l'identificador del model de previsió que s'ha d'utilitzar amb la integració. La plantilla per defecte té un ID de model de previsió a partir de les dades de demostració.
-- Si esteu creant una plantilla nova, heu d'afegir aquesta columna. Al Power Query, seleccioneu **Afegeix una columna condicional** i introduïu un nom per a la columna nova, com ara **ModelID**. Introduïu la condició per a la columna, on, if Estimate line ID is not null, then \<enter the forecast model ID\>; else null.
+- Si utilitzeu la plantilla predeterminada d'estimacions de despeses del projecte (PSA a Fin i Ops), a Power Query, seleccioneu la primera **condició** inserida de la **secció Passos aplicats**. A l'entrada de **Funció**, substituïu **O\_previsió** pel nom de l'identificador del model de previsió que s'ha d'utilitzar amb la integració. La plantilla per defecte té un ID de model de previsió a partir de les dades de demostració.
+- Si esteu creant una plantilla nova, heu d'afegir aquesta columna. A Power Query, seleccioneu **Afegeix una columna** condicional i introduïu un nom per a la columna nova, com **ara ModelID**. Introduïu la condició per a la columna, on, if Estimate line ID is not null, then \<enter the forecast model ID\>; else null.
 
 #### <a name="transform-the-billing-types"></a>Transformar els tipus de facturació
 

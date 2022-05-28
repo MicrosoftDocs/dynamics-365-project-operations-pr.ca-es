@@ -4,14 +4,14 @@ description: Aquest tema proporciona informació sobre les actualitzacions de qu
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007944"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600362"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de novembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -20,7 +20,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
 - Project Operations en entorn del CDS versió 4.4.0.70
-- Administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance versió 10.0.14
+- Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Actualitzacions al Project Operations per a escenaris basats en recursos/sense existències
 
@@ -42,7 +42,7 @@ Aquest tema s'aplica als components i versions següents del Dynamics 365 Projec
 | Entrada de temps i despesa ràpida | 2059859          | S'obre una finestra emergent inesperada en crear una entrada de despesa.                                                                                                                         |
 | Un altre                        | 2044181          | [Desinstal·lació de la comanda de compra]: l'error "El registre no està disponible" es produeix quan intenteu desinstal·lar les solucions msdyn_ProjectServiceCore_Patch i msdyn_ProjectServiceCore.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestió de projectes i comptabilitat en Dynamics 365 Finance
 
 | Àrea de característiques        | Número de referència | Actualització de qualitat                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Aquest tema s'aplica als components i versions següents del Dynamics 365 Projec
 | Comptabilitat del projecte  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Si habiliteu la característica, no són possibles diverses línies de contracte sense la integració del CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions del Finance and Operations, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reguladores de les aplicacions financeres i d'operacions, consulta [Actualitzacions reguladores](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

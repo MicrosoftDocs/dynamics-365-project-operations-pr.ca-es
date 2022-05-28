@@ -1,32 +1,31 @@
 ---
-title: Sincronitzar categories de despeses del projecte entre el Finance and Operations i el Project Service Automation
-description: Aquest tema descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar categories de despesa entre el Microsoft Dynamics 365 Finance i el Dynamics 365 Project Service Automation.
+title: Sincronitza les categories de despeses del projecte entre finances i operacions i automatització de serveis de projectes
+description: Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les categories de despeses del projecte entre Microsoft Dynamics 365 Finance i Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001104"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685458"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronitzar categories de despeses del projecte entre el Finance and Operations i el Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronitza les categories de despeses del projecte entre finances i operacions i automatització de serveis de projectes
 
 [!include[banner](../includes/banner.md)]
 
-Aquest tema descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar categories de despesa entre el Dynamics 365 Finance i el Dynamics 365 Project Service Automation.
+Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les categories de despeses del projecte entre Dynamics 365 Finance i Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - La integració de tasques de projecte, les categories de transaccions de despeses, les estimacions d'hores, les estimacions de despeses i el bloqueig de funcionalitats estan disponibles a la versió 8.0.
@@ -81,10 +80,10 @@ Les categories de despesa del projecte estan administrades al Finance i se sincr
 
 ### <a name="power-query"></a>Power Query
 
-Quan estigueu sincronitzant al Project Service Automation, heu d'utilitzar el Microsoft Power Query per a l'Excel per definir el tipus de facturació a la categoria de la transacció. La plantilla Categories de transaccions de despesa del projecte (Fin and Ops a PSA) proporciona una columna i una assignació per defecte. Si creeu una plantilla pròpia, heu d'afegir una columna condicional al Power Query. Seguiu aquests passos.
+Quan sincronitzeu amb el Project Service Automation, heu d'utilitzar Microsoft Power Query per a l'Excel per definir el tipus de facturació a la categoria de transacció. La plantilla Categories de transaccions de despesa del projecte (Fin and Ops a PSA) proporciona una columna i una assignació per defecte. Si creeu la vostra pròpia plantilla, heu d'afegir una columna condicional a Power Query. Seguiu aquests passos.
 
 1. Feu clic a la fletxa per obrir l'assignació de la tasca de categories de despesa del projecte a la plantilla Categories de transaccions de despesa del projecte (Fin and Ops a PSA).
-2. Feu clic a l'enllaç **Consulta i filtratge avançats** per obrir el Power Query.
+2. Feu clic a l'enllaç **Consulta avançada i filtratge** per obrir Power Query.
 2. Seleccioneu **Afegeix una columna condicional**.
 3. Introduïu un nom per a la columna nova, com ara **BillingType**.
 4. Introduïu la condició següent: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

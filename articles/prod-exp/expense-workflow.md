@@ -1,6 +1,6 @@
 ---
 title: Flux de treball d'administració de despeses
-description: Aquest tema explica com podeu utilitzar el sistema de flux de treball al Microsoft Dynamics 365 Finance per configurar un procés de revisió per als informes de despeses a l'administració de despeses.
+description: En aquest tema s'explica com podeu utilitzar el sistema de flux de treball al Microsoft Dynamics 365 Finance per configurar un procés de revisió dels informes de despeses a Gestió de despeses.
 author: ShylaThompson
 ms.date: 09/13/2017
 ms.topic: article
@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c2a2cae435342139f32d1bb5d38d68acd920453f5e6f6551e1f6d57967d8053
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3eb4d57194ce2dd7f80d75c2c765f1cfa48b0348
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001284"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684239"
 ---
 # <a name="expense-management-workflow"></a>Flux de treball d'administració de despeses
 
