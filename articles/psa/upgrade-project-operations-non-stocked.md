@@ -1,6 +1,6 @@
 ---
 title: Millora de l'automatització del project service a les operacions del projecte
-description: Aquest tema proporciona una visió general del procés a actualitzar des de Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations.
+description: En aquest article s'ofereix una visió general del procés a actualitzar des de Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626732"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912964"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Millora de l'automatització del project service a les operacions del projecte
 
-Estem encantats d'anunciar la primera de les tres fases per actualitzar des de Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations. Aquest tema proporciona una visió general per als clients que s'embarquen en aquest emocionant viatge. Els temes futurs inclouran consideracions per als desenvolupadors i detalls sobre les millores de funcions. No només us proporcionaran orientació per ajudar-vos a preparar l'actualització a les operacions del projecte, sinó que també explicaran què podeu esperar després d'haver actualitzat.
+Estem encantats d'anunciar la primera de les tres fases per actualitzar des de Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations. Aquest article proporciona una visió general per als clients que s'embarquen en aquest emocionant viatge. Els articles futurs inclouran consideracions per a desenvolupadors i detalls sobre les millores de les funcions. No només us proporcionaran orientació per ajudar-vos a preparar l'actualització a les operacions del projecte, sinó que també explicaran què podeu esperar després d'haver actualitzat.
 
 El programa de lliurament d'actualitzacions es dividirà en les tres fases.
 
@@ -90,7 +90,7 @@ Després d'actualitzar les personalitzacions per importar netament les operacion
     > [!NOTE]
     > Depenent de la quantitat de dades de l'entorn, l'actualització pot trigar diverses hores. L'equip principal que gestiona l'actualització ha de planificar en conseqüència i executar l'actualització durant l'horari no comercial. En alguns casos, si el volum de dades és gran, l'actualització s'ha d'executar durant el cap de setmana. La decisió sobre la planificació s'ha de basar en els resultats de les proves en entorns inferiors.
 
-3. Actualitzeu les solucions personalitzades segons convingui. En aquest punt, implementeu els canvis que hàgiu fet a les personalitzacions a la [secció Prova i refacció de personalitzacions](#testing-and-refactoring-customizations) d'aquest tema.
+3. Actualitzeu les solucions personalitzades segons convingui. En aquest punt, desplegueu els canvis que hàgiu fet a les personalitzacions a la [secció Prova i refacció de personalitzacions](#testing-and-refactoring-customizations) d'aquest article.
 4. Aneu a **Solucions de configuració i seleccioneu per desinstal** \> **·lar la solució Components** obsolets de les **operacions del projecte.**
 
     Aquesta solució és una solució temporal que conté el model de dades existent i els components que estan presents durant l'actualització. Si suprimiu aquesta solució, suprimiu tots els camps i components que ja no s'utilitzen. D'aquesta manera, ajudeu a simplificar la interfície i facilitar la integració i l'extensió.
@@ -126,7 +126,6 @@ Com a part de les inversions contínues en operacions de projectes, hi ha divers
 | Project Service Automation                             | Implementació de Lite d'operacions del projecte                        | Admès               |
 | Dynamics 365 Finance Gestió i Comptabilitat de Projectes | Implementació de Lite d'operacions del projecte                        | Actualment no s'admet |
 | Gestió i Comptabilitat de Projectes Financers              | Project Operations per a escenaris de recursos/no mantinguts en existències     | Actualment no s'admet |
-| Gestió i Comptabilitat de Projectes Financers              | Project Operations per a escenaris mantinguts en existències/d’ordre de producció | Actualment no s'admet |
 | Automatització de serveis de projectes 3.x                         | Project Operations per a escenaris de recursos/no mantinguts en existències     | Actualment no s'admet |
 | Projecte per a la web (entorn dedicat)            | Implementació de Lite d'operacions del projecte                        | Actualment no s'admet |
 

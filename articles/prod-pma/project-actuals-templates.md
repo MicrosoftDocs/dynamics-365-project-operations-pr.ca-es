@@ -1,6 +1,6 @@
 ---
 title: Sincronitza els reals del projecte directament des del Project Service Automation fins al diari d'integració de projectes per publicar-los a Finances i Operacions
-description: Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar els reals del projecte directament des de Microsoft Dynamics 365 Project Service Automation Finances i Operacions.
+description: En aquest article es descriuen les plantilles i les tasques subjacents que s'utilitzen per sincronitzar els reals del projecte directament des de Microsoft Dynamics 365 Project Service Automation Finances i Operacions.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
-ms.translationtype: MT
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929478"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronitza els reals del projecte directament des del Project Service Automation fins al diari d'integració de projectes per publicar-los a Finances i Operacions
 
 [!include[banner](../includes/banner.md)]
 
-Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar els reals del projecte directament des de Dynamics 365 Project Service Automation Dynamics 365 Finance.
+En aquest article es descriuen les plantilles i les tasques subjacents que s'utilitzen per sincronitzar els reals del projecte directament des de Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 La plantilla sincronitza les transaccions del Project Service Automation en una taula intermèdia al Finance. Un cop completada la sincronització, **haureu** d'importar les dades de la taula intermèdia al diari d'integració.
 

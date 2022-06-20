@@ -1,6 +1,6 @@
 ---
 title: Canvis d'entitat, control i interfície d'usuari (Project Service Automation 3.x)
-description: En aquest tema s'expliquen els canvis a les solucions per al Microsoft Dynamics Project Service Automation 3.x.
+description: En aquest article es descriuen els canvis de solució per al Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926856"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Canvis d'entitat, control i interfície d'usuari (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Amb el llançament del Microsoft Dynamics Project Service Automation (PSA) 3.x, s'han fet molts canvis a les entitats, els controls, les visualitzacions i la interfície d'usuari. Aquest tema proporciona informació sobre aquests canvis importants.
+Amb el llançament del Microsoft Dynamics Project Service Automation (PSA) 3.x, s'han fet molts canvis a les entitats, els controls, les visualitzacions i la interfície d'usuari. Aquest article proporciona informació sobre aquests canvis importants.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relacions principal-secundari per a les entitats de documents de vendes, línia de documents de vendes, detalls de línies de documents de vendes
 En versions del Dynamics 365 Project Service Automation (PSA) publicades abans de la versió 3.0, algunes de les relacions entre les entitats de documents de vendes, línies de documents de vendes i detall de línies de documents de vendes es van implementar a través de camps de cadenes de text que tindrien una representació de cadena de text de GUID de l'entitat relacionada. Això es devia a les limitacions de la plataforma que requerien un codi personalitzat significatiu al costat del servidor i del client de la solució per fer que aquestes relacions funcionessin de manera similar a les relacions d'entitat típiques del Dynamics CRM i per fer que els camps de cadena de text actuessin com a camps de cerca.

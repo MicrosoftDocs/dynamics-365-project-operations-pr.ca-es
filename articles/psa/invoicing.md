@@ -1,6 +1,6 @@
 ---
 title: Facturació al Project Service Automation
-description: Aquest tema proporciona informació sobre la facturació.
+description: En aquest article s'ofereix informació sobre la facturació.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926810"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturació al Project Service Automation
 
@@ -94,7 +94,7 @@ Després d'haver acabat d'executar-se **ProcessRunner**, crida a **ProcessRunCal
 El treball de processament per lots per crear factures és una feina recurrent. Si aquest procés per lots s'executa moltes vegades, es creen diverses instàncies del treball que causen errors. Per tant, hauríeu d'iniciar el procés de processament per lots només una vegada i reiniciar-lo només si s'atura l'execució.
 
 > [!NOTE]
-> La facturació per lots al Project Service Automation només funciona per a les línies de contracte del projecte que es configuren mitjançant planificacions de facturació. Una línia de contracte amb un mètode de facturació de preu fix ha de tenir les fites configurades. Una línia de contracte de projecte amb un mètode de facturació de temps i material necessitarà una configuració de planificació de facturació basada en la data. Podeu trobar informació sobre la configuració de les freqüències de facturació en el context d'un projecte basat en una línia d'oferta al tema [Ofertes i línies d'oferta](basic-quote-lines.md#invoice-schedule). El mateix s'aplica a una línia de contracte basada en projectes.      
+> La facturació per lots al Project Service Automation només funciona per a les línies de contracte del projecte que es configuren mitjançant planificacions de facturació. Una línia de contracte amb un mètode de facturació de preu fix ha de tenir les fites configurades. Una línia de contracte de projecte amb un mètode de facturació de temps i material necessitarà una configuració de planificació de facturació basada en la data. La informació sobre la configuració de freqüències de facturació en el context d'un projecte que es basa en una línia d'oferta, es proporciona a l'article, [Ofertes i línies d'oferta](basic-quote-lines.md#invoice-schedule). El mateix s'aplica a una línia de contracte basada en projectes.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Editar un esborrany de factura del PSA
 

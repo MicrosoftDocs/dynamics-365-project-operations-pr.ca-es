@@ -1,21 +1,21 @@
 ---
-title: Registre per obtenir una subscripció de versió preliminar (bàsic)
-description: "En aquest tema es proporciona informació sobre com subscriure's i implementar la implementació bàsica del Project Operations: acord a facturació proforma."
+title: Registre per obtenir una subscripció de versió preliminar (bàsica)
+description: "En aquest article s'ofereix informació sobre com subscriure i implementar la implementació de lite d'operacions del projecte: tracteu la facturació proforma."
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921244"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registre per obtenir una subscripció de versió preliminar (bàsica) 
 
-En aquest tema s'explica com subscriure's a l'oferta de prova i implementar l'oferta d'implementació bàsica del Dynamics 365 Project Operations a la facturació proforma.
+En aquest article s'explica com subscriure's a l'oferta de prova i implementar Dynamics 365 Project Operations el desplegament lite: tracteu la facturació proforma.
 
 > [!NOTE]
 > Aquest procés canviarà en pròximes versions del Project Operations.
@@ -50,7 +50,7 @@ Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador 
 
 ## <a name="create-a-new-dataverse-environment"></a>Crear un entorn nou del Dataverse
 
-1. Proveïu d'un nou entorn d'implementació del Dataverse del Project Operations seguint les instruccions del tema [Model d'implementació del Dataverse](lite-deployment.md). Quan seleccioneu el tipus d'entorn, assegureu-vos d'utilitzar **Prova (basada en subscripció)**.
+1. Proporcioneu un entorn de desplegament d'operacions Dataverse de projecte nou seguint les instruccions de l'article, [Dataverse model de desplegament](lite-deployment.md). Quan seleccioneu el tipus d'entorn, assegureu-vos d'utilitzar **Prova (basada en subscripció)**.
 
   ![Entorn nou.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador 
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instal·lar una configuració del CDS i configurar les dades de demostració
 
-Instal·leu la configuració del CDS i configureu les dades de demostració seguint les instruccions del tema [Aplicar la configuració de la demostració i les dades de configuració](lite-apply-demo-setup-config-data.md).
+Instal·leu la configuració del CDS i configureu les dades de demostració seguint les instruccions de l'article, [Aplica les dades de configuració i configuració de la demostració](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

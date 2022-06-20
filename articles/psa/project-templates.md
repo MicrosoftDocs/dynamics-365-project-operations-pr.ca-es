@@ -1,6 +1,6 @@
 ---
 title: Plantilles de projecte
-description: En aquest tema es proporciona informació sobre com utilitzar les plantilles de projecte per a la configuració ràpida del projecte.
+description: En aquest article s'ofereix informació sobre com utilitzar plantilles de projecte per a una configuració ràpida del projecte.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: aff6fc5bb855fe1e9007933fdc1a88eb020da0ad
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 03cccf8f0201d82db57e52dc1175fcf9a7812a53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930858"
 ---
 # <a name="project-templates"></a>Plantilles de projecte 
 

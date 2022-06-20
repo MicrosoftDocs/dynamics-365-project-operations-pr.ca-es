@@ -1,17 +1,17 @@
 ---
 title: Corregir la comptabilitat a l'esborrany de propostes de factures del projecte
-description: En aquest tema s'explica com s'ajusta la informació relacionada amb la comptabilitat en un esborrany de proposta de factura.
+description: En aquest article s'explica com ajustar la informació relacionada amb la comptabilitat d'un esborrany de proposta de factura.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921198"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Corregir la comptabilitat a l'esborrany de propostes de factures del projecte
 
@@ -19,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 L'administrador del projecte conserva els *Detalls de l'operació* de les factures del projecte en una factura proforma. Aquests detalls inclouen la decisió sobre les hores, les despeses, els materials o les fites que s'han de facturar, les tarifes i l'aplicació d'imports anticipats i de bestreta. Després de confirmar la factura proforma original, podeu ajustar els detalls operatius creant i confirmant una [factura proforma correctiva](../proforma-invoicing/corrective-invoices.md).
 
-Els *Detalls de comptabilitat* de les factures del projecte es mantenen en un document de factura del client. Aquestes dades inclouen el càlcul de l'impost de vendes i les mesures financeres que s'apliquen a la factura. En aquest tema es proporcionen detalls sobre com aquests detalls de comptabilitat es poden ajustar en un esborrany de proposta de factura de projecte.
+Els *Detalls de comptabilitat* de les factures del projecte es mantenen en un document de factura del client. Aquestes dades inclouen el càlcul de l'impost de vendes i les mesures financeres que s'apliquen a la factura. En aquest article s'ofereixen detalls sobre com es poden ajustar aquestes dades comptables en una proposta de factura del projecte.
 
 ## <a name="adjust-sales-tax"></a>Ajustar l’impost sobre les vendes
 

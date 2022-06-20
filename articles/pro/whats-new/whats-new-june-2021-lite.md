@@ -1,24 +1,24 @@
 ---
 title: 'Novetats de juny del 2021: implementació de la versió bàsica del Project Operations'
-description: En aquest tema es proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de juny de 2021 de la implementació bàsica del Project Operations.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de juny de 2021 de la implementació lite d'operacions del projecte.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06ea83152e4f601ef842a0f8d975c16c2be95612
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 16fffb06ebb72ac25982374bff27a015eccfae1b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913930"
 ---
 # <a name="whats-new-june-2021---project-operations-lite-deployment"></a>Novetats de juny del 2021: implementació de la versió bàsica del Project Operations
 
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
   - Project Operations en un entorn del Dataverse, versió 4.11.0.156 o 4.11.0.164.
 

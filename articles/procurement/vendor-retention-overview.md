@@ -1,18 +1,18 @@
 ---
 title: Informació general de la retenció de proveïdors
-description: En aquest tema es proporciona informació general de les capacitats de retenció de proveïdors.
+description: En aquest article s'ofereix una visió general de les capacitats de retenció de proveïdors.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f9e4a1e63e47524bb622771f645c04e61c279496
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 680786f239125905f3b8746cb8318732aa74d9e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916828"
 ---
 # <a name="vendor-retention-overview"></a>Informació general de la retenció de proveïdors
 

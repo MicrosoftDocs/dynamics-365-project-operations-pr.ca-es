@@ -1,6 +1,6 @@
 ---
 title: Progrés del projecte i consum de cost
-description: En aquest tema es proporciona informació sobre el seguiment del progrés del projecte i del consum de costos.
+description: En aquest article s'ofereix informació sobre el seguiment del progrés del projecte i el consum de costos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921750"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Progrés del projecte i consum de cost
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575246"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-La necessitat de fer un seguiment del progrés davant d'una planificació varia segons la indústria. Algunes indústries fan el seguiment en un nivell granular, mentre que altres indústries fan el seguiment en un nivell superior. En aquest tema es mostra la manera de planificar per tal de satisfer els requisits de la vostra organització.
+La necessitat de fer un seguiment del progrés davant d'una planificació varia segons la indústria. Algunes indústries fan el seguiment en un nivell granular, mentre que altres indústries fan el seguiment en un nivell superior. En aquest article es mostra com s'ha de planificar per tal de satisfer els requisits de la vostra organització.
 
 ## <a name="effort-tracking-view"></a>Vista Seguiment de l'esforç
 

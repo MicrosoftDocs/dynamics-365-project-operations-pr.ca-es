@@ -1,25 +1,25 @@
 ---
 title: Implementació manual de l'aplicació Dataverse del Project Operations amb compatibilitat amb l'escriptura doble
-description: En aquest tema s'explica com implementar manualment l'aplicació Dataverse del Project Operations per tal que admeti l'escriptura doble.
+description: En aquest article s'explica com implementar manualment l'aplicació Project Operations Dataverse perquè admeti la doble escriptura.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911998"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Implementació manual de l'aplicació Dataverse del Project Operations amb compatibilitat amb l'escriptura doble
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-En aquest tema s'explica com implementar manualment l'aplicació Microsoft Dynamics 365 Project Operations al Microsoft Dataverse per tal que admeti l'escriptura doble. El Project Operations detecta la configuració de l'entorn i afegeix compatibilitat addicional per a l'escriptura doble si es compleixen els requisits previs.
+En aquest article s'explica com implementar manualment Microsoft Dynamics 365 Project Operations Microsoft Dataverse de manera que admeti la doble escriptura. El Project Operations detecta la configuració de l'entorn i afegeix compatibilitat addicional per a l'escriptura doble si es compleixen els requisits previs.
 
-Durant la implementació amb el Microsoft Dynamics Lifecycle Services (LCS), si heu seguit les instruccions d'aquest tema, podeu ometre la implementació de la integració del Microsoft Power Platform (coneguda anteriorment com a entorn del Common Data Service).
+Durant el desplegament a través Microsoft Dynamics de Lifecycle Services (LCS), si heu seguit les instruccions d'aquest article, podeu ometre el desplegament de la Microsoft Power Platform integració (anteriorment coneguda com a Common Data Service entorn).
 
 El procés d'implementació del Project Operations al Dataverse per tal que admeti l'escriptura doble té quatre passos principals:
 

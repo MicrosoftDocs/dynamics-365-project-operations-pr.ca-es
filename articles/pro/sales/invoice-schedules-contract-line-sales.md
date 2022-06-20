@@ -1,17 +1,17 @@
 ---
 title: Creació de programacions de facturació en una línia de contracte basada en projecte (bàsic)
-description: En aquest tema es proporciona informació sobre la creació de planificacions de factures i fites.
+description: En aquest article s'ofereix informació sobre la creació de planificacions i fites de factures.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: edacae144f5c4879d3cfdf9585281858d7312589
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 403b993c3f61ca5f0fb1bac45331aa0613d16439
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921106"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Creació de programacions de facturació en una línia de contracte basada en projecte (bàsic)
 

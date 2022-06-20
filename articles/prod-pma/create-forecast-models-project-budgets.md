@@ -1,6 +1,6 @@
 ---
 title: Creació de models de predicció per als pressupostos del projecte
-description: Aquest tema descriu com crear un model de previsió per als pressupostos restants.
+description: En aquest article es descriu com crear un model de previsió per a la resta de pressupostos.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916690"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Creació de models de predicció per als pressupostos del projecte 
 
 [!include [banner](../includes/banner.md)]
 
-Aquest tema descriu com crear un model de previsió per als pressupostos restants. Un projecte que està subjecte al control pressupostari utilitza dos tipus de pressupostos: original i restant. Quan creeu un pressupost de projecte, heu d'especificar els models de previsió del pressupost original i restant que es van crear en la pàgina **Models de previsió**. Els pressupostos del projecte basats en els models especificats es creen quan publiqueu el pressupost del projecte.
+En aquest article es descriu com crear un model de previsió per a la resta de pressupostos. Un projecte que està subjecte al control pressupostari utilitza dos tipus de pressupostos: original i restant. Quan creeu un pressupost de projecte, heu d'especificar els models de previsió del pressupost original i restant que es van crear en la pàgina **Models de previsió**. Els pressupostos del projecte basats en els models especificats es creen quan publiqueu el pressupost del projecte.
 
 > [!NOTE]
 > Un model de previsió que s'utilitza per al control pressupostari no pot tenir un submodel o utilitzar-se com a submodel.

@@ -1,18 +1,18 @@
 ---
 title: Utilitza categories d'adquisició amb ordres de compra de projectes i factures pendents del proveïdor
-description: Aquest tema descriu com configurar categories de contractació que es poden utilitzar amb ordres de compra de projectes i factures pendents de proveïdor.
+description: En aquest article es descriu com configurar les categories d'adquisició que es poden utilitzar amb ordres de compra de projectes i factures pendents del proveïdor.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927408"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Utilitza categories d'adquisició amb ordres de compra de projectes i factures pendents del proveïdor
 
@@ -47,7 +47,7 @@ Seguiu aquests passos per assignar categories de projectes a categories de contr
 
 1. Aneu a les **categories \> de contractació de contractació i aprovisionament**.
 1. Seleccioneu **Edita la jerarquia de categories**.
-1. Seleccioneu el node de jerarquia de categories de categories desitjat i, a continuació, a la **pestanya Assigna les categories** del projecte, associeu el node amb la categoria del projecte des de la **categoria Temps**, Despesa**o **,Projecte** d'element (és a dir, la **categoria Per** defecte o **despesa** per defecte).
+1. Seleccioneu el node de jerarquia de categories de categories desitjat i, a continuació, a la **pestanya Assigna les categories** del projecte, associeu el node amb la categoria del projecte des de la **categoria Temps**, **Despesa** o Projecte **d'element** (és a dir, la **categoria Per** defecte o **despesa** per defecte).
 1. Seleccioneu **Desa**.
 1. Tanqueu la pàgina.
 

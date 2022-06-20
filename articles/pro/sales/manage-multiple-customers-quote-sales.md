@@ -1,17 +1,17 @@
 ---
 title: Administració de diversos clients a les ofertes de projectes (bàsic)
-description: En aquest tema es proporciona informació sobre com treballar en les ofertes amb diversos clients que finançaran el projecte. (Sales)
+description: En aquest article s'ofereix informació sobre com treballar en ofertes amb diversos clients que finançaran el projecte. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 867d34f955ba53c74e9c31349b7f67d84ba10da4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 337619e8d8081cdebd73f9336fa9fa99885a0ab2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921060"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Administració de diversos clients a les ofertes de projectes (bàsic)
 

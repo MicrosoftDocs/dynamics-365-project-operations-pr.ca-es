@@ -1,23 +1,23 @@
 ---
 title: Mètodes de càlcul de costos per a la finalització
-description: En aquest tema es proporciona informació sobre els mètodes que s'utilitzen per calcular el cost per completar un projecte.
+description: Aquest article proporciona informació sobre els mètodes utilitzats per calcular el cost per completar un projecte.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920278"
 ---
 # <a name="cost-to-complete-methods"></a>Mètodes de càlcul de costos per a la finalització
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-En aquest tema es proporciona informació sobre els mètodes que s'utilitzen per calcular el cost per completar un projecte. Hi ha diversos mètodes que podeu utilitzar per calcular el cost per completar un projecte. 
+Aquest article proporciona informació sobre els mètodes utilitzats per calcular el cost per completar un projecte. Hi ha diversos mètodes que podeu utilitzar per calcular el cost per completar un projecte. 
 
 Quan creeu una estimació per a un projecte, a la pàgina **Crear una estimació**, al camp **Mètode de cost per completar**, podeu seleccionar un dels mètodes de cost per completar següents.
 

@@ -1,6 +1,6 @@
 ---
 title: Àrea de treball mòbil d'administració de despeses
-description: En aquest tema es proporciona informació l'administració de despeses amb l'àrea de treball mòbil. Aquesta àrea de treball permet que els usuaris capturin i carreguin un rebut per tal que el puguin adjuntar a un informe de despeses més endavant. Els usuaris també poden crear ràpidament una línia de despesa mitjançant un rebut adjunt i crear i administrar els informes de despeses.
+description: En aquest article s'ofereix informació sobre l'àrea de treball mòbil gestió de despeses. Aquesta àrea de treball permet que els usuaris capturin i carreguin un rebut per tal que el puguin adjuntar a un informe de despeses més endavant. Els usuaris també poden crear ràpidament una línia de despesa mitjançant un rebut adjunt i crear i administrar els informes de despeses.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920876"
 ---
 # <a name="expense-management-mobile-workspace"></a>Àrea de treball mòbil d'administració de despeses
 
-En aquest tema es proporciona informació l'àrea de treball mòbil **Administració de despeses**. Aquesta àrea de treball permet que els usuaris capturin i carreguin un rebut per tal que el puguin adjuntar a un informe de despeses més endavant. Els usuaris també poden crear ràpidament una línia de despesa mitjançant un rebut adjunt i crear i administrar els informes de despeses. A més, els aprovadors poden utilitzar l'àrea de treball mòbil **Administració de despeses** per veure els informes de despeses que se'ls assignin i aprovar o rebutjar aquests informes de despeses.
+En aquest article s'ofereix informació sobre l'àrea **de treball mòbil gestió** de despeses. Aquesta àrea de treball permet que els usuaris capturin i carreguin un rebut per tal que el puguin adjuntar a un informe de despeses més endavant. Els usuaris també poden crear ràpidament una línia de despesa mitjançant un rebut adjunt i crear i administrar els informes de despeses. A més, els aprovadors poden utilitzar l'àrea de treball mòbil **Administració de despeses** per veure els informes de despeses que se'ls assignin i aprovar o rebutjar aquests informes de despeses.
 
 
 Aquesta àrea de treball mòbil està dissenyada per utilitzar-se amb l'aplicació mòbil Dynamics 365 Unified Ops.

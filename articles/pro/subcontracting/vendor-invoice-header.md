@@ -1,25 +1,25 @@
 ---
-title: Detalls de la capçalera per a les factures del proveïdor
-description: En aquest tema s'explica la funcionalitat que es proporciona a la capçalera de la factura del proveïdor a Microsoft Dynamics 365 Project Operations.
+title: Detalls de la capçalera de les factures del proveïdor
+description: En aquest article s'explica la funcionalitat que es proporciona a la capçalera de la factura del proveïdor a Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929846"
 ---
-# <a name="header-details-for-vendor-invoices"></a>Detalls de la capçalera per a les factures del proveïdor
+# <a name="header-details-for-vendor-invoices"></a>Detalls de la capçalera de les factures del proveïdor
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-En aquest tema s'explica la funcionalitat que es proporciona a la capçalera de la factura del proveïdor a Microsoft Dynamics 365 Project Operations.
+En aquest article s'explica la funcionalitat que es proporciona a la capçalera de la factura del proveïdor a Microsoft Dynamics 365 Project Operations.
 
 A mesura que els gestors de projectes planifiquen i executen projectes, poden contractar subcontractistes i comprar productes i serveis de proveïdors. Durant l'execució d'un projecte, els costos s'incorren en serveis, materials i categories de despeses que s'adquireixen en subcontractes amb proveïdors. Els proveïdors facturen aquests costos als projectes creant factures de proveïdor.
 

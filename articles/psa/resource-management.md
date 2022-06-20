@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici d'assignació de recursos a projectes
-description: En aquest tema es proporciona informació sobre les característiques d'administració de recursos al Project Service Automation (PSA) for Dynamics 365.
+description: En aquest article s'ofereix informació sobre les capacitats d'administració de recursos al Project Service Automation (PSA) per al Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925246"
 ---
 # <a name="resourcing-projects-home-page"></a>Pàgina d'inici d'assignació de recursos a projectes
 
@@ -46,7 +46,7 @@ Els recursos són l'actiu més important d'una organització basada en serveis. 
 - Mantenir un dipòsit d'aptituds i competència.
 
 
-Podeu assignar personal al vostre projecte amb un equip de recursos genèrics o amb nom al PSA. Podeu utilitzar diversos mètodes per afegir i assignar membres de l'equip i per administrar les seves reserves i assignacions. Per obtenir informació addicional, vegeu els temes següents:
+Podeu assignar personal al vostre projecte amb un equip de recursos genèrics o amb nom al PSA. Podeu utilitzar diversos mètodes per afegir i assignar membres de l'equip i per administrar les seves reserves i assignacions. Per a més informació, consulteu els següents articles:
 
 - [Reservar recursos que es poden reservar a un equip de projecte i assignar-los tasques](assign-named-bookable-resource.md)
 - [Assignar recursos que es poden reservar genèrics i generar requisits de recursos](assign-generic-bookable-resource.md)

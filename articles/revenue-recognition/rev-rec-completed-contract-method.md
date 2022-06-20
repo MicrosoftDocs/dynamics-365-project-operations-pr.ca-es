@@ -1,23 +1,23 @@
 ---
 title: Administració de les estimacions d'ingressos
-description: En aquest tema es proporciona informació sobre com treballar amb estimacions d'ingressos per a projectes.
+description: En aquest article s'ofereix informació sobre com treballar amb estimacions d'ingressos per a projectes.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928466"
 ---
 # <a name="manage-revenue-estimates"></a>Administració de les estimacions d'ingressos
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Podeu crear, calcular, comptabilitzar, revertir o suprimir estimacions d'ingressos. Podeu fer-ho manualment o mitjançant un procés periòdic. En aquest tema es proporciona informació sobre com treballar amb estimacions d'ingressos per a projectes.
+Podeu crear, calcular, comptabilitzar, revertir o suprimir estimacions d'ingressos. Podeu fer-ho manualment o mitjançant un procés periòdic. En aquest article s'ofereix informació sobre com treballar amb estimacions d'ingressos per a projectes.
 
 ### <a name="manage-revenue-estimates-manually"></a>Administració manual d'estimacions d'ingressos
 

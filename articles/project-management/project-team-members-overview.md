@@ -1,17 +1,17 @@
 ---
 title: Membres de l'equip del projecte
-description: En aquest tema es proporciona informació sobre com treballar amb la informació dels membres d'un equip del projecte, els atributs i la planificació.
+description: En aquest article s'ofereix informació sobre com treballar amb la informació, els atributs i la planificació dels membres de l'equip del projecte.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 75b140a4ea17dbb3093f926367f439544c32d587
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3465688fb267f3ab785fcb0d252e8616ac1aa1c8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929294"
 ---
 # <a name="project-team-members"></a>Membres de l'equip del projecte
 

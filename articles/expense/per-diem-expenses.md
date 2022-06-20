@@ -1,6 +1,6 @@
 ---
-title: Despeses de Per diem
-description: Aquest tema proporciona informació sobre com treballar amb les despeses de per diem.
+title: Despeses per dia
+description: En aquest article s'ofereix informació sobre com treballar amb les despeses de per diem.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923176"
 ---
-# <a name="per-diem-expenses"></a>Despeses de Per diem
+# <a name="per-diem-expenses"></a>Despeses per dia
 
 > [!IMPORTANT] 
-> La funcionalitat que es descriu en aquest tema està disponible per als usuaris orientats com a part d'una versió de visualització prèvia.
+> La funcionalitat que es descriu en aquest article està disponible per als usuaris orientats com a part d'una versió de visualització prèvia.
 
 Un pagament per diem és una assignació diària fixa i predeterminada que una empresa paga als seus empleats per allotjament (hotels), menjars i despeses incidentals en què incorren aquests empleats mentre viatgen per feina. L'empresa paga aquesta assignació als empleats en lloc de pagar les despeses reals de viatge. Els empleats poden utilitzar la seva **franquícia incidentals / altres** per diem per cobrir consells, servei d'habitacions, bugaderia o serveis de rentatge en sec per a reunions de negocis importants. La tarifa per diem pot variar, depenent de si l'empresari opta per reemborsar el cost combinat de l'allotjament i els àpats, o només pel cost dels àpats i les despeses addicionals.
 

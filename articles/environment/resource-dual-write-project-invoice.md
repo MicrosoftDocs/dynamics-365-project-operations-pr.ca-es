@@ -1,22 +1,22 @@
 ---
 title: Integració de la factura del projecte
-description: Aquest tema proporciona informació sobre la integració de doble escriptura del Project Operations per a factures de clients.
+description: En aquest article s'ofereix informació sobre la integració de doble escriptura de Project Operations per a la facturació del client.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912090"
 ---
 # <a name="project-invoice-integration"></a>Integració de la factura del projecte
 
-Aquest tema proporciona informació sobre la integració de doble escriptura del Project Operations per a factures de clients.
+En aquest article s'ofereix informació sobre la integració de doble escriptura de Project Operations per a la facturació del client.
 
 Al Project Operations, l'administrador del projecte administra els treballs pendents de facturació del projecte i crea una factura proforma per al client al Microsoft Dataverse. En funció d'aquesta factura proforma, el responsable del compte a cobrar o el comptable del projecte crea una factura orientada al client. La integració de doble escriptura garanteix que els detalls de la factura proforma se sincronitzin amb les aplicacions de finances i operacions. Un cop publicada la factura orientada al client, el sistema actualitza els valors reals del projecte rellevants al Dataverse amb el detall de comptabilitat. El gràfic següent proporciona una visió general conceptual d'alt nivell d'aquesta integració.
 

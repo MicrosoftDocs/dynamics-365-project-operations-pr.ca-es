@@ -1,17 +1,17 @@
 ---
 title: 'Novetats de novembre de 2020: implementació bàsica del Project Operations; tracte de facturació proforma'
-description: 'Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de novembre de 2020 de la implementació bàsica del Project Operations: tracte de facturació proforma.'
+description: 'Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de novembre de 2020 de la implementació del Project Operations Lite: acord amb la facturació proforma.'
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3a7d63e746edf73873840aee2f095192364cb286
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dfa39c702446fb47359fac442bde52f0e2ab9cf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913838"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Novetats de novembre de 2020: implementació bàsica del Project Operations; tracte de facturació proforma
 

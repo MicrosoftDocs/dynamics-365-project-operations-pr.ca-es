@@ -1,23 +1,23 @@
 ---
 title: Configuració de la integració del Project Operations per entitat jurídica
-description: Aquest tema proporciona informació sobre la configuració de la integració per entitat jurídica al Project Operations.
+description: En aquest article s'ofereix informació sobre la configuració de la integració per persona jurídica a Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914666"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configuració de la integració del Project Operations per entitat jurídica 
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema us guia pels passos necessaris a l'hora de configurar el Dynamics 365 Project Operations per entitat legal.
+Aquest article us guiarà pels passos necessaris per configurar Dynamics 365 Project Operations per persona jurídica.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Habilita les tecles de característiques a Dynamics 365 Finance
 

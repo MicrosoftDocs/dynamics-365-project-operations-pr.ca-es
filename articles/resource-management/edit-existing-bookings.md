@@ -1,24 +1,24 @@
 ---
 title: Edició de reserves
-description: En aquest tema es proporciona informació sobre com actualitzar i fer canvis en les reserves.
+description: En aquest article s'ofereix informació sobre com actualitzar i fer canvis en les reserves.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915218"
 ---
 # <a name="edit-bookings"></a>Edició de reserves
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 
-Quan es produeixen canvis en un projecte que requereixen actualitzar les reserves existents, hi ha diverses maneres de fer els canvis. En aquest tema es ressalta informació sobre com actualitzar i fer canvis en les reserves.
+Quan es produeixen canvis en un projecte que requereixen actualitzar les reserves existents, hi ha diverses maneres de fer els canvis. En aquest article s'explica com actualitzar i fer canvis en les reserves.
 
 ## <a name="resource-reconciliation"></a>Conciliació de recursos
 

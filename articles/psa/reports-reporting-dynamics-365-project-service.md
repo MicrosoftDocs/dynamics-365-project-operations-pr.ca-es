@@ -1,6 +1,6 @@
 ---
 title: Pàgina inicial d'informes
-description: Aquest tema proporciona informació sobre els informes al Dynamics 365 Project Service Automation.
+description: En aquest article s'ofereix informació sobre els informes a Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921658"
 ---
 # <a name="reporting-home-page"></a>Pàgina inicial d'informes
 
@@ -47,7 +47,7 @@ Junts, el Microsoft Power BI i el Dynamics 365 us proporcionen una manera podero
 
 
 ## <a name="additional-resources"></a>Recursos addicionals
-Per obtenir més informació sobre els informes al PSA, vegeu els temes següents:
+Per obtenir més informació sobre els informes al PSA, consulteu els articles següents:
 
 - [Treballar amb el model de dades del Project Service](reports-working-project-service-data-model.md)
 - [Escriptoris digitals](reports-dashboards.md)

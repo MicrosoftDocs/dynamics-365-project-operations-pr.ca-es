@@ -1,23 +1,23 @@
 ---
 title: 'Novetats de novembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de novembre de 2020 del Project Operations per a escenaris de recursos/sense existències.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de novembre de 2020 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923406"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de novembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
 - Project Operations en entorn del CDS versió 4.4.0.70
 - Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.14

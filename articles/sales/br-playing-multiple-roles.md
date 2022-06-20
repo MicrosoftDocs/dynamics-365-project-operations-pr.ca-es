@@ -1,17 +1,17 @@
 ---
 title: Estimació de les vendes i els costos del projecte quan un recurs que es pot reservar duu a terme diverses funcions en un projecte
-description: En aquest tema s'explica la manera d'utilitzar les dimensions de la fixació de preus i les estimacions de costos d'un recurs que duu a terme diverses funcions en un projecte.
+description: En aquest article s'explica com s'utilitzen les dimensions dels preus per donar suport als preus i a les estimacions de costos d'un recurs que omple diverses funcions d'un projecte.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9bb59537aaa75d9003925bec37642a2fa7c9ca22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923452"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimació de les vendes i els costos del projecte quan un recurs que es pot reservar duu a terme diverses funcions en un projecte 
 

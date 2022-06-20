@@ -1,6 +1,6 @@
 ---
 title: Configuració de camps personalitzats com a dimensions de preus
-description: En aquest tema, podreu obtenir informació sobre la configuració de dimensions de preus amb camps personalitzats.
+description: En aquest article s'ofereix informació sobre com configurar les dimensions dels preus mitjançant camps personalitzats.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917564"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configuració de camps personalitzats com a dimensions de preus
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Abans de començar, aquest tema assumeix que heu completat els procediments dels temes [Crear camps i entitats personalitzats](create-custom-fields-entities-pricing-dimensions.md) i [Afegir camps personalitzats obligatoris a la configuració de preus i les entitats transaccionals](add-custom-fields-price-setup-transactional-entities.md). Si no heu completat aquests procediments, aneu enrere per completar-los torneu a aquest tema. 
+Abans de començar, aquest article assumeix que heu completat els procediments dels articles, [Creeu camps i entitats personalitzats i](create-custom-fields-entities-pricing-dimensions.md) Afegiu camps personalitzats necessaris [a la configuració de preus i a les entitats transaccionals](add-custom-fields-price-setup-transactional-entities.md). Si no heu completat aquests procediments, torneu enrere i completeu-los i torneu a aquest article. 
 
-En aquest tema, podreu obtenir informació sobre la configuració de dimensions de preus personalitzades. A la pàgina **Paràmetres**, la pestanya **Dimensions de preus basades en l'import** mostra els registres de les entitats de dimensions de preus. Per defecte, hi ha dues files a la quadrícula en aquesta pestanya:
+En aquest article s'ofereix informació sobre la configuració de les dimensions de preus personalitzades. A la pàgina **Paràmetres**, la pestanya **Dimensions de preus basades en l'import** mostra els registres de les entitats de dimensions de preus. Per defecte, hi ha dues files a la quadrícula en aquesta pestanya:
 
 - **msdyn_resourcecategory** (Funció)
 - **msdyn_OrganizationalUnit** (Unitat organitzativa)

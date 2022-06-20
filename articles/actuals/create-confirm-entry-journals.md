@@ -1,6 +1,6 @@
 ---
-title: Crear i confirmar revistes d'entrada
-description: Aquest tema proporciona informació sobre com crear i confirmar revistes d'entrada a Microsoft Dynamics 365 Project Operations.
+title: Creació i confirmació de llibres diari d'entrada
+description: En aquest article s'ofereix informació sobre com crear i confirmar les revistes d'entrada a Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,14 +13,14 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912320"
 ---
-# <a name="create-and-confirm-entry-journals"></a>Crear i confirmar revistes d'entrada
+# <a name="create-and-confirm-entry-journals"></a>Creació i confirmació de llibres diari d'entrada
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 

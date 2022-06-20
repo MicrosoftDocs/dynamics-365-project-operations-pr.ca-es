@@ -1,25 +1,25 @@
 ---
-title: Utilitza les API de planificació del projecte amb Power Automate
-description: Aquest tema proporciona un flux d'exemple que utilitza les interfícies de programació d'aplicacions de planificació del projecte (API).
+title: Ús d'API de planificació de projectes amb el Power Automate
+description: Aquest article proporciona un flux d'exemple que utilitza les interfícies de programació d'aplicacions de planificació del projecte (API).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597694"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916322"
 ---
-# <a name="use-project-schedule-apis-with-power-automate"></a>Utilitza les API de planificació del projecte amb Power Automate
+# <a name="use-project-schedule-apis-with-power-automate"></a>Ús d'API de planificació de projectes amb el Power Automate
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Aquest tema descriu un flux d'exemple que mostra com crear un pla de projecte complet mitjançant Microsoft Power Automate, com crear un conjunt d'operacions i com actualitzar una entitat. L'exemple mostra com crear un projecte, un membre de l'equip del projecte, un conjunt d'operacions, tasques de projecte i assignacions de recursos. Aquest tema també explica com actualitzar una entitat i executar un conjunt d'operacions.
+En aquest article es descriu un flux d'exemple que mostra com crear un pla de projecte complet mitjançant l'ús Microsoft Power Automate de, com crear un conjunt d'operacions i com actualitzar una entitat. L'exemple mostra com crear un projecte, un membre de l'equip del projecte, un conjunt d'operacions, tasques de projecte i assignacions de recursos. En aquest article també s'explica com actualitzar una entitat i executar un conjunt d'operacions.
 
-A continuació es mostra una llista completa dels passos que es documenten en el flux d'exemple en aquest tema:
+A continuació es mostra una llista completa dels passos que es documenten en el flux d'exemple d'aquest article:
 
 1. [Crear un PowerApps disparador](#1)
 2. [Crear un projecte](#2)
@@ -40,7 +40,7 @@ A continuació es mostra una llista completa dels passos que es documenten en el
 
 ## <a name="assumptions"></a>Supòsits
 
-Aquest tema assumeix que teniu un coneixement bàsic de la plataforma, els fluxos en el Dataverse núvol i la interfície de programació d'aplicacions de planificació de projectes (API). Per obtenir més informació, vegeu la [secció Referències](#references) més endavant en aquest tema.
+Aquest article assumeix que teniu un coneixement bàsic de la plataforma, els fluxos en el Dataverse núvol i la interfície de programació d'aplicacions de planificació de projectes (API). Per obtenir més informació, vegeu la [secció Referències](#references) més endavant en aquest article.
 
 ## <a name="create-a-flow"></a>Creació d'un flux
 
@@ -65,7 +65,7 @@ Seguiu aquests passos per crear un [flux](/power-automate/overview-solution-flow
 1. A la **pàgina Solucions**, seleccioneu la solució que heu creat i seleccioneu **Crea**.
 2. A la subfinestra esquerra, seleccioneu **Flux de núvols** \> **Automation** \> **Cloud flux** \> **instantani.**
 3. Al camp Nom **del** flux, introduïu **Planifica el flux** de demostració de l'API.
-4. A la **selecció De com activar aquesta llista de flux**, seleccioneu **Power Apps**. Quan creeu un Power Apps disparador, la lògica depèn de vosaltres com a autor. En aquest tema, deixeu els paràmetres d'entrada en blanc per a propòsits de prova.
+4. A la **selecció De com activar aquesta llista de flux**, seleccioneu **Power Apps**. Quan creeu un Power Apps disparador, la lògica depèn de vosaltres com a autor. En aquest article, deixeu els paràmetres d'entrada en blanc per a propòsits de prova.
 5. Seleccioneu **Crea**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Pas 2: Crear un projecte
@@ -85,7 +85,7 @@ Seguiu aquests passos per crear un projecte d'exemple.
 ![Canviar el nom d'un pas.](media/renamestep.png)
 
 4. Canvia el nom del pas **Crea un projecte**.
-5. Al camp Nom de l'acció **, seleccioneu** msdyn **CreateProjectV1\_.**
+5. Al camp Nom **de l'acció**, seleccioneu **msdyn\_ CreateProjectV1**.
 6. A sota del **camp tema\_ msdyn**, seleccioneu **Afegeix contingut** dinàmic.
 7. A la **pestanya Expressió**, al camp funció, introduïu **Nom del projecte - utcNow()**.
 8. Seleccioneu **D'acord**.
@@ -146,7 +146,7 @@ Seguiu aquests passos per crear un projecte d'exemple.
 2. Al quadre de **diàleg Trieu una operació**, al camp de cerca, introduïu **afegeix una fila** nova. A continuació, a la **pestanya Accions**, seleccioneu l'operació a la llista de resultats.
 3. Al pas nou, seleccioneu l'el·lipsi (**...**) i, a continuació, seleccioneu **Canvia el nom**.
 4. Canvia el nom del pas **Crea una galleda**.
-5. Al camp Nom **de la** taula, seleccioneu **Cubells del projecte**.
+5. Al camp Nom **de la** taula, seleccioneu **Cubells** del projecte.
 6. **Al camp Nom**, introduïu **ScheduleAPIDemoBucket1**.
 7. Per al **camp Projecte**, seleccioneu **msdyn\_ CreateProjectV1Response ProjectId** al quadre de **diàleg Contingut** dinàmic.
 
@@ -229,8 +229,8 @@ Seguiu aquests passos per crear una tasca de projecte que tingui un identificado
     - **msdyn\_ project\@ odata.bind** – L'identificador del projecte del projecte propietari. El valor serà contingut dinàmic que prové de la resposta del pas "Crea un projecte". Assegureu-vos d'introduir el camí complet i afegir contingut dinàmic entre parèntesis. Es requereixen cometes. Per exemple, introduïu **"/msdyn\_ projects(ADD DYNAMIC CONTENT)"**.
     - **tema msdyn\_**: qualsevol nom de tasca.
     - **msdyn\_ projectbucket\@ odata.bind** – La galleda del projecte que conté les tasques. El valor serà contingut dinàmic que prové de la resposta del pas "Crea cub". Assegureu-vos d'introduir el camí complet i afegir contingut dinàmic entre parèntesis. Es requereixen cometes. Per exemple, introduïu **"/msdyn\_ projectbuckets(ADD DYNAMIC CONTENT)"**.
-    - **inici\_ msdyn**: contingut dinàmic per a la data d'inici. Per exemple, demà es representarà com a **"addDays(utcNow(), 1)"**.
-    - **msdyn\_ scheduledstart** : la data d'inici programada. Per exemple, demà es representarà com a **"addDays(utcNow(), 1)"**.
+    - **inici\_ msdyn**: contingut dinàmic per a la data d'inici. Per exemple, demà es representarà com **"addDays(utcNow(), 1)"."**
+    - **msdyn\_ scheduledstart** : la data d'inici programada. Per exemple, demà es representarà com **"addDays(utcNow(), 1)"."**
     - **msdyn\_ scheduleend** : la data de finalització programada. Seleccioneu una data en el futur. Per exemple, especifiqueu **"addDays(utcNow(), 5)"**.
     - **msdyn\_ LinkStatus** : L'estat de l'enllaç. Per exemple, introduïu **"192350000".**
 

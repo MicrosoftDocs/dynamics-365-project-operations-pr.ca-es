@@ -1,17 +1,17 @@
 ---
 title: Desglossament de les despeses
-description: En aquest tema s'explica com detallar les despeses mitjançant l'espai de treball de despeses reimaginat.
+description: En aquest article s'explica com detallar les despeses mitjançant l'espai de treball de despeses reimaginat.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 71bfbe83259804fc0b0355c81d430805da23dd45
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920922"
 ---
 # <a name="expense-itemization"></a>Desglossament de les despeses
 

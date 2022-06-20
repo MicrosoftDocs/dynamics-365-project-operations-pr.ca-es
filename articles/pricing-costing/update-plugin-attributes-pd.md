@@ -1,33 +1,33 @@
 ---
 title: Actualització dels atributs de complement amb noves dimensions de preus
-description: En aquest tema s'ofereix informació sobre com actualitzar atributs de complement per a les dimensions de preus.
+description: En aquest article s'ofereix informació sobre com actualitzar els atributs de complement per a les dimensions dels preus.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575016"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920002"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Actualitzar els atributs de complement amb noves dimensions de preus
 
-En aquest tema s'ofereix informació sobre com actualitzar atributs de complement per a les dimensions de preus.
+En aquest article s'ofereix informació sobre com actualitzar els atributs de complement per a les dimensions dels preus.
 
 > [!NOTE]
-> Aquest tema només és aplicable a les característiques de l'oferta i el contracte del Dynamics 365 Project Operations.
+> Aquest article només s'aplica a les funcions d'oferta i contracte del Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Requisits previs
-Abans de completar els passos d'aquest tema, heu d'haver completat els procediments en els temes següents:
+Abans de completar els passos d'aquest article, heu d'haver completat els tràmits en els articles següents:
 
   - [Creació de camps i entitats personalitzats](create-custom-fields-entities-pricing-dimensions.md) 
   - [Addició de camps personalitzats a la configuració de preus i a entitats transaccionals ](add-custom-fields-price-setup-transactional-entities.md)
   - [Configuració de camps personalitzats com a dimensions de preus](set-up-custom-fields-pricing-dimensions.md). 
   
-Si no heu completat aquests procediments, aneu enrere per completar-los i torneu a aquest tema.
+Si no heu completat aquests procediments, completeu-los i torneu a aquest article.
 
 ## <a name="register-a-plug-in"></a>Registrar un complement
 Quan es crea un detall de línia d'oferta a la pàgina **Línia d'oferta** d'una línia d'oferta de projecte, el sistema crea dues línies d'estimació. Una línia és per al costat de l'estimació del cost i l'altra línia és per al costat de les vendes. Això és el mateix per a les línies de contracte del projecte.

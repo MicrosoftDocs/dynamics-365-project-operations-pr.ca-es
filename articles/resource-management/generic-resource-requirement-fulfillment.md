@@ -1,17 +1,17 @@
 ---
 title: Compliment dels requisits de recursos genèrics
-description: Aquest tema proporciona informació sobre com reservar recursos amb nom per a un requisit de recurs genèric.
+description: En aquest article s'ofereix informació sobre com reservar recursos amb nom per a un requisit genèric de recursos.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 92255564e2a1ffa4077ded9b3cf5216dedba0913
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 149ad8305b1442f5bf501d7415264fd4ad7c088d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918530"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Compliment dels requisits de recursos genèrics
 

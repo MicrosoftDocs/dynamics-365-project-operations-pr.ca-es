@@ -1,6 +1,6 @@
 ---
 title: Guia d'administració de recursos
-description: En aquest tema s'enllaça a informació sobre l'administració de recursos al Project Service Automation
+description: Aquest article proporciona enllaços a informació sobre l'administració de recursos a Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910760"
 ---
 # <a name="resource-management-guide"></a>Guia d'administració de recursos
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595440"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-S'ha suprimit l'enllaç PDF que abans es trobava en aquest tema i s'ha mogut el contingut als temes següents:
+S'ha eliminat l'enllaç PDF que hi havia anteriorment en aquest article i el contingut s'ha traslladat als següents articles:
 
 - [Pàgina d'inici d'administració de recursos](../resource-management-home-page.md)
 - [Conceptes clau](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ S'ha suprimit l'enllaç PDF que abans es trobava en aquest tema i s'ha mogut el 
 - [PMF de l'administració de recursos](../resource-management-faq.md)
 
 > [!NOTE]
-> Aquest tema s'eliminarà en una futura actualització de la documentació. 
+> Aquest article se suprimirà en una futura actualització de documentació. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

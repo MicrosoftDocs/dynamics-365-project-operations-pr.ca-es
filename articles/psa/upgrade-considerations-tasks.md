@@ -1,6 +1,6 @@
 ---
 title: Consideracions d'actualització per a l'estructura del desglossament del treball
-description: En aquest tema es proporciona informació sobre l'actualització de l'estructura del desglossament del treball del Project Service Automation 2.x al 3.x.
+description: En aquest article s'ofereix informació sobre l'actualització de l'estructura del desglossament del treball des del Project Service Automation 2.x fins al 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913102"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Consideracions d'actualització per a l'estructura del desglossament del treball
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-En aquest tema es proporciona informació sobre l'actualització de l'estructura del desglossament del treball del Project Service Automation 2.x al 3.x. Aquest tema defineix l'estat saludable d'un projecte del Project Service Automation (PSA) necessari per a una actualització correcta. També hi ha informació sobre les condicions de bloqueig habituals que faran que falli l'actualització. Per obtenir més informació sobre la definició de tasques de projecte i les seves funcions dins d'una planificació del projecte, vegeu [Planificacions de projecte](project-creating.md).
+En aquest article s'ofereix informació sobre l'actualització de l'estructura del desglossament del treball des del Project Service Automation 2.x fins al 3.x. En aquest article es defineix l'estat saludable d'un projecte en Project Service Automation (PSA) que es requereix per a una actualització reeixida. També hi ha informació sobre les condicions de bloqueig habituals que faran que falli l'actualització. Per obtenir més informació sobre la definició de tasques de projecte i les seves funcions dins d'una planificació del projecte, vegeu [Planificacions de projecte](project-creating.md).
 
 ## <a name="key-entities"></a>Entitats clau
 Per a una estructura de desglossament del treball exacta que ja està carregada de recursos, són necessàries les entitats següents:

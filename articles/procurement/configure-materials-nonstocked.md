@@ -1,18 +1,18 @@
 ---
 title: Configuració de materials sense existències i de factures pendents del proveïdor
-description: En aquest tema s'explica com s'han d'habilitar els materials sense existències i les factures pendents del proveïdor.
+description: En aquest article s'explica com habilitar materials no emmagatzemats i factures pendents de proveïdor.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913746"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configuració de materials sense existències i de factures pendents del proveïdor
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Executar assignacions de doble escriptura per a la integració de materials sense existències i de factures del proveïdor
 
-Aquesta secció proporciona informació sobre les assignacions específiques necessàries per als materials sense existències i les factures de proveïdors. Verifiqueu que les assignacions de requisits previs que s'enumeren al tema [Proveïment d'un entorn nou](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) s'estiguin executant al vostre entorn.
+Aquesta secció proporciona informació sobre les assignacions específiques necessàries per als materials sense existències i les factures de proveïdors. Verifiqueu que els mapes de requisit previ que figuren a la disposició d'un [article d'entorn](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) nou s'estan executant al vostre entorn.
 
 1. Aneu a Lifecycle Services (LCS), aneu al projecte LCS i aneu a la pàgina **Detalls de l'entorn**.
 2. A la secció **Informació de l'entorn Common Data Service**, seleccioneu **Enllaça amb CDS per a aplicacions**. Després de seleccionar l'enllaç, se us redirigirà a la llista d'entitats de les assignacions.

@@ -1,17 +1,17 @@
 ---
 title: Recursos de línia de subcontracte
-description: En aquest tema s'explica com s'especifiquen els recursos dedicats que proporciona el proveïdor per a una línia de subcontracte específica per a temps.
+description: En aquest article s'explica com especificar els recursos dedicats que proporciona el proveïdor per a una línia de subcontractació específica durant el temps.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96bce2d6797c124331ce0174b16804ff8dfec993
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84fbbd6e1a82db2b2d998b5f41579396df884ec3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924142"
 ---
 # <a name="subcontract-line-resources"></a>Recursos de línia de subcontracte
 

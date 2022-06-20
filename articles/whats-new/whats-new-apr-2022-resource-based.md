@@ -1,24 +1,24 @@
 ---
 title: "Novetats de l'abril de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències"
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió d'abril de 2022 de Microsoft Dynamics 365 Project Operations per a escenaris basats en recursos / no emmagatzemats.
+description: En aquest article s'ofereix informació sobre les actualitzacions de qualitat disponibles a la versió d'abril de 2022 de Microsoft Dynamics 365 Project Operations per a escenaris basats en recursos o no emmagatzemats.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912366"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de l'abril de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
 
 - 4.41.0.45 d'operacions del projecte en una Dataverse versió d'entorn
 - Gestió de projectes i comptabilitat en un entorn Dynamics 365 Finance versió 10.0.26
@@ -58,4 +58,4 @@ Si trobeu un problema quan inicieu el mapa, seguiu les instruccions del problema
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestió de projectes i comptabilitat en Dynamics 365 Finance
 
-Per obtenir informació sobre les correccions d'errors que s'inclouen en aquesta actualització, inicieu la sessió a Microsoft Dynamics Lifecycle Services (LCS) i visualitzeu l'article de la [KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).
+Per obtenir informació sobre les correccions d'errors que s'inclouen en aquesta actualització, inicieu la sessió a Microsoft Dynamics Lifecycle Services (LCS) i visualitzeu l'article [de la](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864) KB.

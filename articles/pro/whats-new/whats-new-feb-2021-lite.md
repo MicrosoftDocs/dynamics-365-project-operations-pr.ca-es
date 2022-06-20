@@ -1,22 +1,22 @@
 ---
 title: Novetats del febrer del 2021 - Implementació bàsica del Project Operations
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de febrer de 2021 de la implementació bàsica del Project Operations.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de febrer de 2021 de la implementació lite d'operacions del projecte.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914022"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Novetats del febrer del 2021 - Implementació bàsica del Project Operations
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
   - Project Operations en entorn del Dataverse versió 4.7.0.95
 

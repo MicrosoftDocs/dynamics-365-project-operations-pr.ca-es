@@ -1,24 +1,24 @@
 ---
 title: "Novetats d'agost del 2021: implementació de la versió bàsica del Project Operations"
-description: En aquest tema es proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'agost de 2021 de la implementació bàsica del Project Operations.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'agost de 2021 de la implementació lite d'operacions del projecte.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922026"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>Novetats d'agost del 2021: implementació de la versió bàsica del Project Operations
 
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
   - Project Operations en entorn del Dataverse versió 4.13.0.152
 

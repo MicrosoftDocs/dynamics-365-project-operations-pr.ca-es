@@ -1,24 +1,24 @@
 ---
 title: Integració de l'administració de despeses
-description: Aquest tema proporciona informació sobre la integració de l'informe de despeses al Project Operations mitjançant doble escriptura.
+description: En aquest article s'ofereix informació sobre la integració de l'informe de despeses a les operacions del projecte mitjançant la doble escriptura.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924602"
 ---
 # <a name="expense-management-integration"></a>Integració de l'administració de despeses
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema proporciona informació sobre la integració d'informes de despeses al Project Operations [implementació total de despeses](../expense/expense-overview.md) mitjançant doble escriptura.
+En aquest article s'ofereix informació sobre la integració dels informes de despeses en el desplegament [complet de despeses de Project Operations](../expense/expense-overview.md) mitjançant la doble escriptura.
 
 ## <a name="expense-categories"></a>Categories de despesa
 

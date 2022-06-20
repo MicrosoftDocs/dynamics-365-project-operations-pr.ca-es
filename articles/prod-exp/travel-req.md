@@ -1,6 +1,6 @@
 ---
 title: Informació general de les peticions de viatge
-description: En aquest tema es proporciona informació les peticions de viatge. Una petició de viatge documenta les despeses de viatge planificades.
+description: En aquest article s'ofereix informació sobre les sol·licituds de viatge. Una petició de viatge documenta les despeses de viatge planificades.
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd4502459214f010a800dece74285b721642cd8e
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fd317947688daeae251fe22bda1218f244b2aa9a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927362"
 ---
 # <a name="travel-requisitions-overview"></a>Informació general de les peticions de viatge
 

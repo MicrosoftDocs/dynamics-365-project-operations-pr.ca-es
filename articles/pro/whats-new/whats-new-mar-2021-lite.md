@@ -1,25 +1,25 @@
 ---
 title: Novetats del març del 2021 - Implementació bàsica del Project Operations
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de març de 2021 de la implementació bàsica del Project Operations.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de març de 2021 de la implementació lite d'operacions del projecte.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913884"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Novetats del març del 2021 - Implementació bàsica del Project Operations
 
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
 - Project Operations en entorn del Dataverse versió 4.8.0.91 
 

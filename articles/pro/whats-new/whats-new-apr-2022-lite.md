@@ -1,24 +1,24 @@
 ---
 title: "Novetats de l'abril de 2022: implementació bàsica del Project Operations"
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió d'abril de 2022 de la implementació de Microsoft Dynamics 365 Project Operations lite.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió d'abril de 2022 de la implementació de Microsoft Dynamics 365 Project Operations lite.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f75d75e57d6a6396b0148f0449899735089b06a
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 6d6fc52d535244b339e43f88e85797a957d98b89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927454"
 ---
 # <a name="whats-new-april-2022---project-operations-lite-deployment"></a>Novetats de l'abril de 2022: implementació bàsica del Project Operations
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Aquest tema s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
 
 - 4.41.0.45 d'operacions del projecte en una Dataverse versió d'entorn
 

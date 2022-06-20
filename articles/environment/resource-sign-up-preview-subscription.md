@@ -1,17 +1,17 @@
 ---
 title: Registrar-se a les subscripcions de versió preliminar del Project Operations per a escenaris de recursos/sense existències
-description: En aquest tema es proporciona informació sobre com registrar-se i implementar el Project Operations per a escenaris de recursos/sense existències.
+description: En aquest article s'ofereix informació sobre com subscriure's i implementar operacions de projecte per a escenaris basats en ressortits o no emmagatzemats.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920094"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrar-se a les subscripcions de versió preliminar del Project Operations per a escenaris de recursos/sense existències
 
@@ -19,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 
 
-En aquest tema s'explica com subscriure's a l'oferta de prova i implementar l'entorn del Project Operations per als escenaris basats en recursos/no mantinguts en existències.
+En aquest article s'explica com subscriure's a l'oferta de prova i implementar l'entorn d'operacions de projectes per a escenaris basats en recursos o no emmagatzemats.
 
 ## <a name="prerequisites"></a>Requisits previs
 - L'usuari que implementa la versió preliminar ha de tenir drets d'administrador global a l'inquilí de l'Azure. Podeu crear un inquilí en bescanviar la primera oferta. 
@@ -60,19 +60,19 @@ Aneu a [Prova de versió preliminar del Dynamics 365 for Finance](https://aka.ms
 
 ## <a name="start-a-new-project-in-lcs"></a>Iniciar un projecte nou al LCS
 
-Creeu un projecte nou del LCS tal com es descriu al tema [Iniciar un projecte nou al LCS](create-lcs-project.md)
+Crea un projecte LCS nou tal com es descriu a l'article, [Inicia un projecte nou a LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Addició d'una subscripció a l'Azure a un projecte del LCS
 
-Per completar aquesta tasca, seguiu els passos del tema [Afegir una subscripció de l'Azure al projecte del LCS](resource-add-azure-subscription-lcs-project.md).
+Per completar aquesta tasca, seguiu els passos de l'article, [Afegiu una subscripció de l'Azure al projecte LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementar l'entorn de demostració del Finance amb el Project Operations per a escenaris de recursos/sense existències
 
-Seguiu les instruccions del tema [Proveir un nou entorn](resource-provision-new-environment.md) per completar la implementació. Utilitzeu el tipus d'implementació [entorn de demostració](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) per a la versió preliminar. 
+Seguiu la guia de l'article, [Proporcioneu un entorn](resource-provision-new-environment.md) nou per completar el desplegament. Utilitzeu el tipus d'implementació [entorn de demostració](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) per a la versió preliminar. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Configuració de la instal·lació del CDS i dades de configuració
 
-Instal·leu les dades instal·lació i les dades de configuració del CDS com es descriu al tema [Configurar i aplicar les dades de configuració al Common Data Service](resource-apply-pro-setup-config-data.md).
+Instal·leu les dades de configuració i configuració del CDS tal com es descriu a l'article, [Configureu i apliqueu les dades de configuració al Common Data Service](resource-apply-pro-setup-config-data.md).
 Completeu aquest pas només quan s'implementi l'entorn de demostració del Finance i les dades de demostració estiguin a punt.
 
 

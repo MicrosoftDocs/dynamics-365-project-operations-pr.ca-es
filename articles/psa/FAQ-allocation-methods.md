@@ -1,6 +1,6 @@
 ---
 title: Mètodes d'assignació de reserves al Project Service Automation
-description: En aquest tema es proporciona informació sobre les diferents maneres de fer la reserva d'assignacions.
+description: En aquest article trobareu informació sobre les diferents maneres de reservar assignacions.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929156"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Mètodes d'assignació de reserves al Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Si afegiu un membre de l'equip directament a un projecte a la pestanya **Equip**, o reserveu un recurs per a un projecte o requisit del Tauler de planificació, hi ha alguns mètodes d'assignació de reserva diferents que podeu utilitzar. Aquest tema explica com funciona cada mètode i quins mètodes podrien dur-vos a l'excés de reserves de recursos.
+Si afegiu un membre de l'equip directament a un projecte a la pestanya **Equip**, o reserveu un recurs per a un projecte o requisit del Tauler de planificació, hi ha alguns mètodes d'assignació de reserva diferents que podeu utilitzar. En aquest article s'explica com funciona cada mètode i quins mètodes podrien conduir a l'overbooking de recursos.
 
 ## <a name="full-capacity"></a>Capacitat total 
 El mètode Capacitat total reserva la capacitat total del recurs per a les dates d'inici i fi especificades. Per exemple, si un recurs té un calendari configurat per treballar vuit hores al dia, cinc dies a la setmana, en establir una data d'inici i final que cobreix cinc dies hàbils, es reserva el recurs durant 40 hores. La reserva es realitza sense tenir en compte la capacitat restant del recurs. Si un recurs ja està reservat durant aquest període en altres projectes, les 40 hores es reserven com a hores addicionals, acció que podria derivar en un excés de reserva.

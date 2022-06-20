@@ -1,6 +1,6 @@
 ---
 title: Impacte real en un compromís de preu fix
-description: Aquest tema proporciona informació sobre l'impacte a la taula De reals en diversos esdeveniments durant el cicle de vida d'una interacció de preus fixos a Microsoft Dynamics 365 Project Operations.
+description: En aquest article s'ofereix informació sobre l'impacte a la taula Des de fets en diversos esdeveniments durant el cicle de vida d'una interacció de preus fixos a Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918116"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>Impacte real en un compromís de preu fix
 
@@ -37,6 +37,6 @@ La taula següent llista els reals dels diferents tipus de transaccions que es c
 | El contracte està confirmat. | <p>L'estat d'ajust dels actuals de cost antics s'actualitza a **Ajustat**.</p><p>Es creen reals de costos de reversió que tenen un estat d'ajust d'Undjustable **·**.</p><p>Es creen nous costos reals després de la reavaluació de les regles contractuals.</p> | No aplicable | No aplicable | <p>Existents reals que s'actualitzen:</p><ul><li>**Cost real:** Bob Kozack, 8 h, USD 800, *Ajustat*</li></ul><p>Nou real que es crea per revertir l'impacte financer anterior:</p><ul><li>**Cost real:** Bob Kozack, (8 h), (USD 800), *Inajustable*</li></ul><p>Nou real que es crea per a l'impacte financer reavaluat:</p><ul><li>**Cost real:** Bob Kozack, 8 h, USD 800</li></ul> |
 | S'ha creat una factura. | No aplicable | No aplicable | No aplicable | |
 | La factura es confirma amb una fita. | No aplicable | No aplicable | Es creen nous reals de vendes facturades basades en fites. | <p>Existents que es mantenen inalterables:</p><ul><li>**Cost real:** Bob Kozack, 8 h, USD 800</li></ul><p>Nou real que es crea per registrar els valors de vendes facturats:</p><ul><li>**Vendes facturades reals:** Milestone, USD 5,000</li></ul> |
-| La factura es corregeix per acreditar la fita. | No aplicable | No aplicable | Es creen els reals de vendes facturats. | <p>Existents que es mantenen inalterables:</p><ul><li>**Cost real:** Bob Kozack, 8 h, 800 USD</li></ul><p>Existents reals que s'actualitzen:</p><ul><li>**Vendes facturades reals:** Fita, USD 5,000, *Ajustada*</li></ul><p>Nou real que es crea per invertir els valors de vendes facturats anteriors:</p><ul><li>**Vendes facturades reals:** Milestone, (USD 5,000), *Undjustable*</li></ul> |
+| La factura es corregeix per acreditar la fita. | No aplicable | No aplicable | Es creen els reals de vendes facturats. | <p>Existents que es mantenen inalterables:</p><ul><li>**Cost real:** Bob Kozack, 8 h, 800 USD</li></ul><p>Existents reals que s'actualitzen:</p><ul><li>**Vendes facturades reals:** Fita, USD 5,000, *Ajustat*</li></ul><p>Nou real que es crea per invertir els valors de vendes facturats anteriors:</p><ul><li>**Vendes facturades reals:** Milestone, (USD 5,000), *Undjustable*</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

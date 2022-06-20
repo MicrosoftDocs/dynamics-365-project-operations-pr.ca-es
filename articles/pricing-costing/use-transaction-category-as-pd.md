@@ -1,17 +1,17 @@
 ---
 title: Utilització d'una categoria de transacció com a dimensió de preus
-description: En aquest tema es proporciona informació sobre l'ús del camp Categoria de transacció com a dimensió de preu.
+description: En aquest article s'ofereix informació sobre com utilitzar el camp Categoria de transacció com a dimensió de preus.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911682"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilització d'una categoria de transacció com a dimensió de preus
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591116"
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 
-En aquest tema s'explica com utilitzar el camp **Categoria de transacció** com a dimensió de preu. 
+En aquest article s'explica com s'utilitza el **camp Categoria de** transacció com a dimensió de preus. 
 
 ## <a name="prerequisites"></a>Requisits previs
-Abans de completar els procediments d'aquest tema, heu de tenir una solució de dimensió de preus nova per a la vostra organització. Si encara no l'heu creat, vegeu [Crear camps i entitats personalitzats com a dimensions de preus](create-custom-fields-entities-pricing-dimensions.md).
+Abans de completar els tràmits d'aquest article, heu de tenir una solució de dimensió de preus nova per a la vostra organització. Si encara no l'heu creat, vegeu [Crear camps i entitats personalitzats com a dimensions de preus](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Afegir el camp Categoria de transacció a formularis i visualitzacions
 Per fer que el camp **Categoria de transacció** sigui visible a la solució de la dimensió de preus, heu d'afegir el camp a tots els formularis i les visualitzacions com a entitat.

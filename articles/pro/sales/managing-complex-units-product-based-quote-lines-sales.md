@@ -1,17 +1,17 @@
 ---
 title: Administració d'unitats complexes, com ara per usuari o per mes, de les línies d'oferta basades en productes (bàsic)
-description: En aquest tema s'ofereix informació sobre l'administració d'unitats complexes per a línies d'oferta basades en projectes.
+description: En aquest article s'ofereix informació sobre la gestió d'unitats complexes per a les línies d'oferta basades en productes.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6ef70a328164291f37e42d106649178c8cfbe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88173468cd2e898331c4aa0a398792d9a0f3df10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929892"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Administració d'unitats complexes, com ara per usuari o per mes, de les línies d'oferta basades en productes (bàsic)
 

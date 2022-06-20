@@ -1,19 +1,19 @@
 ---
-title: 'Connexions de transacció: enllaça reals de diferents tipus de transaccions'
-description: En aquest tema s'explica com s'utilitza una connexió de transacció per enllaçar reals de diferents tipus per ajudar a fer un seguiment de la rendibilitat, el registre de facturació i els càlculs d'ingressos facturats en comparació amb els ingressos no facturats.
+title: 'Connexions de transaccions: enllaçar els valors reals de diferents tipus de transaccions'
+description: En aquest article s'explica com s'utilitza una connexió de transacció per enllaçar reals de diferents tipus per ajudar a fer un seguiment de la rendibilitat, el registre de facturació i els càlculs d'ingressos facturats en comparació amb els ingressos no facturats.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926074"
 ---
-# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Connexions de transacció: enllaça reals de diferents tipus de transaccions
+# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Connexions de transaccions: enllaçar els valors reals de diferents tipus de transaccions
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 

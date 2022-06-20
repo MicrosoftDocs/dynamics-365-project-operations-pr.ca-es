@@ -1,24 +1,24 @@
 ---
 title: Configuració del Project Operations i integració de les dades de configuració
-description: Aquest tema proporciona informació sobre la configuració d'assignacions de doble escriptura del Project Operations.
+description: En aquest article s'ofereix informació sobre la configuració i la configuració d'assignacions de doble escriptura d'operacions del projecte.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914528"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Configuració del Project Operations i integració de les dades de configuració
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema proporciona informació sobre la integració de doble escriptura del Project Operations per a les entitats de configuració.
+Aquest article proporciona informació sobre la integració de doble escriptura de Project Operations per a entitats de configuració i configuració.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Contractes del projecte, línies de contracte i projectes
 

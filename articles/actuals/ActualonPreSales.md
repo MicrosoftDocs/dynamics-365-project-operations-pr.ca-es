@@ -1,6 +1,6 @@
 ---
 title: Impacte real durant la fase de prevenda d'un compromís
-description: Aquest tema proporciona informació sobre l'impacte a la taula Des de fets en diversos esdeveniments, mentre que un engagment es troba en la fase de prevenda a Microsoft Dynamics 365 Project Operations.
+description: En aquest article s'ofereix informació sobre l'impacte a la taula Des de fets en diversos esdeveniments, mentre que un engagment es troba en la fase de prevenda a Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad62639b345d5519b103d4bde3fbb033b9a7a519
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d03d6ac2154806189d0d9d0b232bb317f51071ba
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922348"
 ---
 # <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>Impacte real durant la fase de prevenda d'un compromís
 

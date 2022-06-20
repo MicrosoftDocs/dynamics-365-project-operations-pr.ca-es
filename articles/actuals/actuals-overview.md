@@ -1,6 +1,6 @@
 ---
 title: Valors reals
-description: En aquest tema es proporciona informació sobre com treballar amb valors reals al Microsoft Dynamics 365 Project Operations.
+description: En aquest article s'ofereix informació sobre com treballar amb reals a Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924786"
 ---
 # <a name="actuals"></a>Valors reals
 
@@ -33,7 +33,7 @@ Els valors reals representen el progrés financer revisat i aprovat i la planifi
 
 Project Operations registra les transaccions financeres que es produeixen durant el cicle de vida del compromís del projecte com a reals. La creació de reals en diversos esdeveniments del cicle de vida varia, depenent de si el compromís del projecte utilitza el model de facturació de temps i materials o el model de facturació de preus fixos, i si es troba en fase de prevenda o és un projecte intern.
 
-Els temes següents expliquen l'impacte a la taula De reals en diversos esdeveniments per a diferents variacions:
+Els articles següents expliquen l'impacte a la taula Des de fets en diversos esdeveniments per a diferents variacions:
 
 - [Impacte real en un compromís de temps i materials](ActualsonTM.md)
 - [Impacte real en un compromís de preu fix](ActualonFP.md)

@@ -1,24 +1,24 @@
 ---
 title: Integració d'estimacions i valors reals del projecte
-description: Aquest tema proporciona informació sobre la integració de doble escriptura del Project Operations per a les estimacions i els valors reals del projecte.
+description: Aquest article proporciona informació sobre la integració de doble escriptura d'operacions de projecte per a estimacions i reals del projecte.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914574"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integració d'estimacions i valors reals del projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema proporciona informació sobre la integració de doble escriptura del Project Operations per a les estimacions i els valors reals del projecte.
+Aquest article proporciona informació sobre la integració de doble escriptura d'operacions de projecte per a estimacions i reals del projecte.
 
 ## <a name="project-estimates"></a>Estimacions del projecte
 

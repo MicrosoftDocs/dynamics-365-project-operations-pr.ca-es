@@ -1,25 +1,25 @@
 ---
 title: Solucionar problemes de funcionament a la quadrícula de tasques
-description: En aquest tema es proporciona informació sobre la detecció d'errors que es necessita quan es treballa a la quadrícula de tasques.
+description: Aquest article proporciona la informació necessària per resoldre problemes quan es treballa a la quadrícula de tasques.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911032"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemes de funcionament a la quadrícula de tasques 
 
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/no mantinguts en existències, implementació bàsica: tracte de facturació proforma, Project for the web_
 
-La quadrícula de tasques que utilitza el Dynamics 365 Project Operations és un iframe allotjat dins del Microsoft Dataverse. Com a resultat d'aquest ús, s'han de complir requisits específics per garantir el funcionament correcte de l'autenticació i l'autorització. En aquest tema es descriuen els problemes habituals que poden afectar la capacitat de representar la quadrícula o administrar tasques en l'estructura del desglossament del treball (WBS).
+La quadrícula de tasques que utilitza el Dynamics 365 Project Operations és un iframe allotjat dins del Microsoft Dataverse. Com a resultat d'aquest ús, s'han de complir requisits específics per garantir el funcionament correcte de l'autenticació i l'autorització. En aquest article es descriuen els problemes comuns que poden afectar la capacitat de renderitzar la quadrícula o gestionar tasques a l'estructura del desglossament del treball (WBS).
 
 Alguns problemes comuns són:
 

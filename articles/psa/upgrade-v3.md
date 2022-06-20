@@ -1,6 +1,6 @@
 ---
 title: "Consideracions d'actualització: de la versió 2.x o 1.x a la versió 3 del Microsoft Dynamics 365 Project Service Automation"
-description: En aquest tema es proporciona informació sobre les consideracions que heu de fer en actualitzar des de la versió 2.x o 1.x a la versió 3 del Project Service Automation.
+description: En aquest article s'ofereix informació sobre les consideracions que heu de fer quan actualitzeu des de la versió 2.x o 1.x del Project Service Automation fins a la versió 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918898"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideracions d'actualització - Versió 2.x o 1.x del PSA a la versió 3
 
@@ -40,7 +40,7 @@ A la versió 2 i la versió 1 del Project Service Automation, les assignacions d
 
 A la versió 3 del Project Service Automation, l'esquema subjacent d'assignar recursos que es poden reservar a tasques ha canviat. La tasca de línia és obsoleta i hi ha una relació directa 1:1 entre la tasca a l'entitat **Tasca** i el membre de l 'equip a l'entitat **Assignació de recursos**. Les tasques assignades a un membre d'equip del projecte ara s'emmagatzemen directament a l'entitat Assignació de recursos.  
 
-Aquests canvis afecten l'actualització de tots els projectes existents que tenen assignacions de recursos per a recursos que es poden reservar amb nom i recursos genèrics en un equip del projecte. En aquest tema es proporcionen les consideracions que haureu de tenir en compte per als projectes en què actualitzeu a la versió 3. 
+Aquests canvis afecten l'actualització de tots els projectes existents que tenen assignacions de recursos per a recursos que es poden reservar amb nom i recursos genèrics en un equip del projecte. En aquest article s'ofereixen les consideracions que haureu de tenir en compte per als vostres projectes quan actualitzeu a la versió 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tasques assignades a recursos amb nom
 Amb l'entitat de la tasca subjacent, les tasques de la versió 2 i la versió 1 permetien que els membres de l'equip representessin una funció que no fos la seva funció definida per defecte. Per exemple, la Jana Jorba, que per defecte està assignada a la funció d'administradora de programa, podria assignar-se a una tasca amb la funció de desenvolupadora. A la versió 3, la funció d'un membre de l'equip amb nom és sempre el valor per defecte, per la qual cosa qualsevol tasca a la qual s'assigni la Jana Jorba utilitza la funció per defecte de la Jana d'administradora de programes.

@@ -1,18 +1,18 @@
 ---
 title: Informació general de les dimensions de preus
-description: En aquest tema, podreu obtenir informació sobre les dimensions de preus a Dynamics 365 Project Operations.
+description: En aquest article s'ofereix informació sobre les dimensions dels preus a Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918024"
 ---
 # <a name="pricing-dimensions-overview"></a>Informació general de les dimensions de preus
 
@@ -34,7 +34,7 @@ El Dynamics 365 Project Operations inclou de sèrie un conjunt de dimensions de 
 
 ![Captura de pantalla dels paràmetres del Project Service amb "Aplicable a les vendes" ressaltat.](media/PS-OOB-parameters.png)
 
-Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats. Per obtenir més informació, vegeu els temes següents. 
+Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats. Per a més informació, consulteu els següents articles. 
   
   > [!NOTE]
   > Els procediments s'han de dur a terme en l'ordre en què es mostren.

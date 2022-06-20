@@ -1,17 +1,17 @@
 ---
 title: 'Contractes de projecte: conceptes clau'
-description: Aquest tema proporciona informació sobre els conceptes clau dels contractes de projectes al Project Operations.
+description: Aquest article proporciona informació sobre els conceptes clau dels contractes de projectes en operacions de projectes.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926212"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Conceptes únics per a contractes basats en projectes
 
@@ -19,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 
 
-En aquest tema es proporcionen els conceptes clau que cal tenir en compte abans de començar a utilitzar els contractes de Project a Dynamics 365 Project Operations:
+En aquest article s'ofereixen els conceptes clau que cal tenir en compte abans de començar a utilitzar els contractes del projecte a Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Empresa propietària
 

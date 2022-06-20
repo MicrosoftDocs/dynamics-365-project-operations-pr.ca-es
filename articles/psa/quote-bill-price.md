@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici d'ofertes, preus i facturació
-description: En aquest tema es proporciona informació sobre les ofertes, els preus i la facturació.
+description: En aquest article s'ofereix informació sobre la citació, els preus i la facturació.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926718"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Pàgina d'inici d'ofertes, preus i facturació
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581088"
 
 Les ofertes, els preus i la facturació són característiques que s'utilitzen per a les organitzacions petites i grans. En comprendre com funcionen aquestes característiques a l'aplicació, les organitzacions poden personalitzar de manera més fàcil la configuració.
 
-Els temes següents proporcionen més informació sobre la funcionalitat d'ofertes, preus facturació al PSA:
+Els articles següents proporcionen més informació sobre la funcionalitat de cotització, preus i facturació a PSA:
 
 - [Procés de venda](basic-sales-process.md)
 - [Línies d'oferta](basic-quote-lines.md)

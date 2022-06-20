@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici d'administració de recursos
-description: En aquest tema es proporciona informació sobre la manera d'administrar els recursos.
+description: En aquest article s'ofereix informació sobre com gestionar els recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913240"
 ---
 # <a name="resource-management-home-page"></a>Pàgina d'inici d'administració de recursos
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578742"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Els recursos són l'actiu més important d'una organització basada en serveis. La capacitat de trobar i reservar els recursos correctes quan els necessiteu i mantenir-los utilitzats ajuda a l'organització a assolir els objectius d'ingressos i els objectius de satisfacció del client. Els temes següents es centren en les capacitats d'administració de recursos del Dynamics 365 Project Service Automation:
+Els recursos són l'actiu més important d'una organització basada en serveis. La capacitat de trobar i reservar els recursos correctes quan els necessiteu i mantenir-los utilitzats ajuda a l'organització a assolir els objectius d'ingressos i els objectius de satisfacció del client. Els articles següents se centren en les capacitats de gestió de recursos de Dynamics 365 Project Service Automation:
 
-- [Administrar els recursos](manage-resources.md)
+- [Administra els recursos](manage-resources.md)
 - [Conceptes clau](reports-key-concepts.md)
 - [Complir sol·licituds de recursos](resource-management-fulfill-requests.md)
 - [Proposar recursos](resource-management-propose-resources.md)

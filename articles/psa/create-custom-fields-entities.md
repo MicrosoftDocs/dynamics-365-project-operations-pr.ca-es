@@ -1,6 +1,6 @@
 ---
 title: Crear camps i entitats personalitzats
-description: En aquest tema s'explica com crear conjunts d'opcions i entitats a la vostra pròpia solució a la plataforma Power Apps.
+description: En aquest article s'explica com crear conjunts d'opcions i entitats a la vostra pròpia solució a la Power Apps plataforma.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926902"
 ---
 # <a name="create-custom-fields-and-entities"></a>Crear camps i entitats personalitzats 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Completeu els passos següents en qualsevol moment que vulgueu crear un conjunt d'opcions o una entitat personalitzada a la plataforma del Power Apps.  
-Els procediments d'aquest tema s'han d'emplenar mitjançant la interfície web del Project Service Automation (PSA).
+Els procediments d'aquest article s'han de completar utilitzant la interfície web del Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Us recomanem que realitzeu tots els canvis de dimensió de preus personalitzats en una solució separada. Aquestes pràctiques recomanades importants proporcionen una flexibilitat futura per actualitzar o suprimir els canvis segons calgui, us ajudaran a reutilitzar el vostre treball i facilita la portabilitat d'aquests canvis en una altra instància. Després d'haver fet tots els canvis necessaris, exporteu aquesta solució com a **Solució administrada** i importeu-la a altres instàncies per tornar a utilitzar la configuració dels preus.

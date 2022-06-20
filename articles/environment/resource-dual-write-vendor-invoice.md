@@ -1,18 +1,18 @@
 ---
 title: Integració de factures del proveïdor
-description: Aquest tema proporciona informació sobre la integració de factures del proveïdor al Project Operations.
+description: En aquest article s'ofereix informació sobre la integració de factures de proveïdors a Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912044"
 ---
 # <a name="vendor-invoice-integration"></a>Integració de factures del proveïdor
 
@@ -21,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 La compra relacionada amb el projecte al Dynamics 365 Project Operations es pot registrar anant a **Compte a pagar** > **Factures** > **Factures pendents del proveïdor** i utilitzant un document de factura pendent del proveïdor. Per obtenir més informació, vegeu [Compra de materials sense existències mitjançant una factura pendent del proveïdor](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Abans d'utilitzar la funcionalitat descrita en aquest tema, reviseu i apliqueu les configuracions necessàries. Per obtenir més informació, vegeu [Habilitar materials sense existències i factures pendents del proveïdor](../procurement/configure-materials-nonstocked.md).
+> Abans d'utilitzar la funcionalitat descrita en aquest article, reviseu i apliqueu les configuracions necessàries. Per obtenir més informació, vegeu [Habilitar materials sense existències i factures pendents del proveïdor](../procurement/configure-materials-nonstocked.md).
 
 Al Project Operations, les factures del proveïdor relacionades amb el projecte es publiquen mitjançant regles de publicació especials:
 

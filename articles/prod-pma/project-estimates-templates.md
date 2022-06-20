@@ -1,6 +1,6 @@
 ---
 title: Sincronitza les estimacions del projecte directament des de Project Service Automation fins a Finances i Operacions
-description: Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les estimacions de l'hora del projecte i les estimacions de despeses del projecte directament des de Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+description: En aquest article es descriuen les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les estimacions de l'hora del projecte i les estimacions de despeses del projecte directament des de Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
-ms.translationtype: MT
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920830"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronitza les estimacions del projecte directament des de Project Service Automation fins a Finances i Operacions
 
 [!include[banner](../includes/banner.md)]
 
-Aquest tema descriu les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les estimacions de l'hora del projecte i les estimacions de despeses del projecte directament des de Dynamics 365 Project Service Automation Dynamics 365 Finance.
+En aquest article es descriuen les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les estimacions de l'hora del projecte i les estimacions de despeses del projecte directament des de Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - La integració de tasques de projecte, les categories de transaccions de despeses, les estimacions d'hores, les estimacions de despeses i el bloqueig de funcionalitats estan disponibles a la versió 8.0.

@@ -1,23 +1,23 @@
 ---
 title: Configuració de contractes de projecte
-description: Aquest tema proporciona informació sobre els camps que afecten les línies de contracte i la informació sobre el contracte que es resumeix en tots els elements de la línia.
+description: En aquest article s'ofereix informació sobre els camps que afecten les línies de contracte i la informació sobre el contracte que es resumeix en tots els elements de la línia.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921566"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Detalls de la capçalera per als contractes basats en projectes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-En aquest tema es proporciona informació sobre els camps que s'apliquen a tot el contracte del projecte, incloent-hi la configuració que afecta totes les línies de contracte. També s'inclou informació sobre el contracte que es resumeix en tots els elements de la línia per impulsar els KPI del contracte de projecte.
+En aquest article s'ofereix informació sobre els camps que s'apliquen a tot el contracte del projecte, inclosa la configuració que afecta totes les línies de contracte. També s'inclou informació sobre el contracte que es resumeix en tots els elements de la línia per impulsar els KPI del contracte de projecte.
 
 A la taula següent es detallen els camps d'un contracte de projecte que són exclusius del Dynamics 365 Project Operations o que tenen alguns canvis importants en el comportament de les comandes de vendes al Dynamics 365 Sales.
 

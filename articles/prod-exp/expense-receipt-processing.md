@@ -1,6 +1,6 @@
 ---
 title: Processament de rebuts de despeses
-description: Aquest tema proporciona informació sobre el processament del reconeixement òptic de caràcters (OCR) per als rebuts. Aquesta funció està dissenyada per millorar l'experiència de l'usuari quan es creen informes de despeses al Microsoft Dynamics 365 Finance.
+description: Aquest article proporciona informació sobre el processament de reconeixement òptic de caràcters (OCR) per als rebuts. Aquesta funció està dissenyada per millorar l'experiència de l'usuari quan es creen informes de despeses al Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 5a72802e3c52b6a9e55ac779aa36c32072dc8b8b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911400"
 ---
 # <a name="expense-receipt-processing"></a>Processament de rebuts de despeses
 

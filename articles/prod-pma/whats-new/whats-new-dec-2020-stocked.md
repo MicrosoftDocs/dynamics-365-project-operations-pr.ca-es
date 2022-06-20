@@ -1,24 +1,24 @@
 ---
 title: 'Novetats del desembre de 2020: Project Operations per a escenaris basats en producció/mantinguts en existències'
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de desembre de 2020 del Project Operations per a escenaris basats en producció/ mantinguts en existències.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de desembre de 2020 d'Operacions de projectes per a escenaris emmagatzemats / basats en la producció.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911354"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novetats o canvis del desembre de 2020 a Project Operations per a escenaris basats en producció/mantinguts en existències
 
 _S'aplica a: Project Operations per a escenaris basats en producció/mantinguts en existències_
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
   - Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.15
 

@@ -1,24 +1,24 @@
 ---
 title: 'Novetats de març de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió de març de 2022 de Project Operations per a escenaris basats en recursos / no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió de març de 2022 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910894"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de març de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
 *S'aplica a: Project Operations per a escenaris basats en recursos/sense cotització*
 
-Aquest tema s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
 
 - 4.30.0.99 d'operacions del projecte en una Dataverse versió d'entorn
 - Gestió de projectes i comptabilitat en un entorn Dynamics 365 Finance versió 10.0.25
@@ -91,11 +91,11 @@ Si trobeu un problema quan inicieu el mapa, seguiu les instruccions del problema
 
 ## <a name="removed-and-deprecated-features"></a>Característiques eliminades i obsoletes
 
-Les [característiques eliminades o obsoletes del tema Operacions](removed-depreciated-features-project.md) del projecte descriuen les característiques que s'han suprimit o obsolet per a Dynamics 365 Project Operations.
+Les [característiques eliminades o obsoletes de l'article Operacions del](removed-depreciated-features-project.md) projecte descriuen les característiques que s'han suprimit o obsolet per a Dynamics 365 Project Operations.
 
 - Les característiques suprimides deixen d'estar disponibles al producte.
 - Una característica obsoleta no està en desenvolupament actiu i es pot suprimir en una actualització futura.
 
-Apareixerà un anunci de despreocupat a les funcions Eliminades o obsoletes del [tema Operacions](removed-depreciated-features-project.md) del projecte 12 mesos abans que s'elimini cap característica del producte.
+Apareixerà un anunci d'obsolet a les funcions eliminades o obsoletes de l'article [d'operacions](removed-depreciated-features-project.md) del projecte 12 mesos abans que s'elimini cap característica del producte.
 
 Per trencar els canvis que només afecten el temps de compilació, però són binaris compatibles amb sandbox i entorns de producció, el temps d'espera serà inferior a 12 mesos. Normalment, aquests canvis són actualitzacions funcionals que s'han de fer al compilador.

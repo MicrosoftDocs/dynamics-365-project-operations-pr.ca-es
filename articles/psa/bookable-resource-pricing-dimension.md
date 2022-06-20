@@ -1,6 +1,6 @@
 ---
 title: Utilitzar un recurs que es pot reservar com a dimensió de preus
-description: En aquest tema es proporciona informació sobre l'ús d'un recurs disponible com a dimensió de preu.
+description: En aquest article s'ofereix informació sobre l'ús d'un recurs que es pot reservar com a dimensió de preus.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916092"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilitzar un recurs que es pot reservar com a dimensió de preus
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-En aquest tema es proporciona informació sobre l'ús d'un recurs disponible com a dimensió de preu. Abans de començar, si encara no heu creat una solució de la dimensió de preus, haureu de crear-ne una de nova. Si ja teniu una solució de dimensió de preus, podeu fer els canvis en aquesta solució. Si no heu creat una solució nova per a la dimensió de preus de l'organització, completeu els procediments del tema [Crear camps i entitats personalitzats](create-custom-fields-entities.md).
+En aquest article s'ofereix informació sobre l'ús d'un recurs que es pot reservar com a dimensió de preus. Abans de començar, si encara no heu creat una solució de la dimensió de preus, haureu de crear-ne una de nova. Si ja teniu una solució de dimensió de preus, podeu fer els canvis en aquesta solució. Si no heu creat una solució de dimensió de preus nova per a la vostra organització, completeu els procediments a l'article [Crea camps i entitats](create-custom-fields-entities.md) personalitzats.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Afegir un recurs que es pot reservar als formularis i a les visualitzacions
 Per fer que els camps siguin visibles a la interfície d'usuari a la solució de la dimensió de preus, haureu de recórrer tots els formularis i les visualitzacions de les entitats clau del Project Service i afegir aquests camps als formularis i visualitzacions d'aquestes entitats.

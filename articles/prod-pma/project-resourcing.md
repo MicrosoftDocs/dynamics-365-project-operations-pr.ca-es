@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici d'assignació de recursos a projectes
-description: Aquest tema proporciona informació sobre l'assignació de recursos a projectes.
+description: En aquest article s'ofereix informació sobre els recursos del projecte.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924004"
 ---
 # <a name="project-resourcing-home-page"></a>Pàgina d'inici d'assignació de recursos a projectes
 
 [!include [banner](../includes/banner.md)]
 
-Aquest tema proporciona informació sobre l'assignació de recursos a projectes.
+En aquest article s'ofereix informació sobre els recursos del projecte.
 
 Un dels reptes dels administradors de projectes i administradors de recursos de la fase de planificació del projecte és l'assignació de recursos, on han de determinar i reservar el recurs correcte per treballar en un projecte. En Dynamics 365 Finance, les capacitats de recursos per a projectes us permeten definir rols que es tracten com a recursos temporals que es poden reservar per a un compromís específic o part d'un compromís. Aquest tipus d'assignació de recursos permet als administradors de projecte i els administradors de recursos completar les tasques següents:
 
@@ -41,7 +41,7 @@ Un dels reptes dels administradors de projectes i administradors de recursos de 
 
 A mesura que avança la planificació del projecte, els recursos planificats poden substituir-se per recursos de personal. L'administrador de projectes també pot tornar enrere i actualitzar les reserves de recursos durant qualsevol fase del projecte.
 
-Els següents temes proporcionen informació sobre les tasques que s'han de completar quan esteu treballant en l'assignació de recursos a projectes.
+Els articles següents proporcionen informació sobre les tasques que s'han de completar quan esteu treballant en projectes de recursos.
 
 - [Configuració dels recursos del projecte](set-up-project-resources.md)
 - [Administració de competències de recursos](manage-resource-competencies.md)

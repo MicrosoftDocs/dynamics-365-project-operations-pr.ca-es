@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici de dimensions de preus i de costos
-description: Aquest tema proporciona una visió general de les dimensions de preus.
+description: En aquest article s'ofereix una visió general de les dimensions dels preus.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925430"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Pàgina d'inici de dimensions de preus i de costos
 
@@ -47,7 +47,7 @@ El PSA inclou de sèrie un conjunt de dimensions de preus per defecte. Podeu vis
 > [!IMPORTANT]
 > Si heu estat utilitzant els camps de fàbrica de funció i unitat organitzativa com a dimensions de preus abans de la versió 3 del PSA, no hi haurà cap canvi observable. Podeu continuar utilitzant el Project Service com de costum. 
 
-Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats. Per obtenir més informació, vegeu els temes següents, però fixeu-vos que heu d'emplenar els procediments en l'ordre que es detalla a continuació:
+Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats. Per a més informació, consulteu els articles següents, però tingueu en compte que heu de completar els tràmits de la comanda que s'indica a continuació:
 
 - [Crear camps i entitats personalitzats](create-custom-fields-entities.md)
 - [Afegir camps personalitzats a la configuració de preus i a entitats transaccionals](field-references.md)

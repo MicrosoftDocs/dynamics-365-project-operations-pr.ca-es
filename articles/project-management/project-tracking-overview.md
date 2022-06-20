@@ -1,23 +1,23 @@
 ---
 title: Seguiment de l'esforç del projecte
-description: En aquest tema es proporciona informació sobre com fer el seguiment de l'esforç del projecte i el progrés de la feina.
+description: Aquest article proporciona informació sobre com fer un seguiment de l'esforç del projecte i el progrés del treball.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929248"
 ---
 # <a name="project-effort-tracking"></a>Seguiment de l'esforç del projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-La necessitat de fer un seguiment del progrés davant d'una planificació varia segons la indústria. Algunes indústries fan el seguiment en un nivell granular, mentre que altres indústries fan el seguiment en un nivell superior. En aquest tema es mostra la manera de planificar per tal de satisfer els requisits de la vostra organització.
+La necessitat de fer un seguiment del progrés davant d'una planificació varia segons la indústria. Algunes indústries fan el seguiment en un nivell granular, mentre que altres indústries fan el seguiment en un nivell superior. En aquest article es mostra com s'ha de planificar per tal de satisfer els requisits de la vostra organització.
 
 ## <a name="effort-tracking-view"></a>Vista Seguiment de l'esforç
 

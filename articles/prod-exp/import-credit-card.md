@@ -1,6 +1,6 @@
 ---
 title: Importació i manteniment de transaccions de targeta de crèdit
-description: En aquest tema es descriu la manera d'importar i mantenir transaccions amb targetes de crèdit relacionades amb les despeses. Aquestes transaccions es poden establir de manera que s'importin automàticament segons una planificació recurrent, o es poden importar manualment quan es necessitin.
+description: En aquest article s'explica com importar i mantenir transaccions amb targeta de crèdit relacionades amb les despeses. Aquestes transaccions es poden establir de manera que s'importin automàticament segons una planificació recurrent, o es poden importar manualment quan es necessitin.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: bd7ca997e18bf3c11fa188b603c899cc470df035
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 44aac1db60ef8f0e3f25612d03b46520dd09ee9e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916782"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importació i manteniment de transaccions de targeta de crèdit
 

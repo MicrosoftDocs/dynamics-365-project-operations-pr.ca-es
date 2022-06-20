@@ -1,24 +1,24 @@
 ---
 title: Novetats o canvis al Project Operations a abril de 2021 per a escenaris basats en producció/mantinguts en existències
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'abril de 2021 del Project Operations per a escenaris basats en producció/mantinguts en existències.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'abril de 2021 de Project Operations per a escenaris emmagatzemats / basats en la producció.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916460"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Novetats o canvis al Project Operations a abril de 2021 per a escenaris basats en producció/mantinguts en existències
 
 _**S'aplica a:** Project Operations per a escenaris basats en producció/mantinguts en existències_
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
 - Gestió de projectes i comptabilitat en Dynamics 365 Finance entorn versió 10.0.18
  

@@ -1,6 +1,6 @@
 ---
 title: Addició de camps personalitzats obligatoris a la configuració de preus i a entitats transaccionals
-description: En aquest tema es proporciona informació sobre com afegir referències de camps personalitzats obligatoris a entitats i a formularis i visualitzacions.
+description: En aquest article s'ofereix informació sobre com afegir les referències de camp personalitzades necessàries a les entitats i als formularis i visualitzacions.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926028"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Addició de camps personalitzats obligatoris a la configuració de preus i a entitats transaccionals
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-En aquest tema s'assumeix que heu completat els procediments en el tema [Crear camps i entitats personalitzats per utilitzar-los com a dimensions de preus](create-custom-fields-entities-pricing-dimensions.md). Si no heu completat aquests procediments, aneu enrere per completar-los torneu a aquest tema. 
+En aquest article s'assumeix que heu completat els procediments de l'article, [Crea camps i entitats personalitzats que s'utilitzaran com a dimensions de preus](create-custom-fields-entities-pricing-dimensions.md). Si no heu completat aquests procediments, torneu enrere i completeu-los i torneu a aquest article. 
 
-En aquest tema, els procediments us mostraran com afegir les referències de camp personalitzades necessàries a les entitats i als elements de la interfície d'usuari (IU), com ara formularis i visualitzacions.
+En aquest article, els procediments us mostraran com afegir les referències de camp personalitzades necessàries a les entitats i als elements de la interfície d'usuari (IU), com ara formularis i visualitzacions.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Afegeix camps de dimensió de preus personalitzats 
 Quan s'han creat camps i entitats personalitzats, el pas següent és fer que les entitats de configuració de preus i transaccionals reconeguin qualsevol entitat o conjunt d'opcions personalitzades creant camps de referència. En funció de si la llista de dimensions de preus de preus inclou dimensions o dimensions de l'entitat de conjunt d'opcions o ambdues, seguiu només els passos a **Dimensions de preus personalitzades basades en el conjunt d'opcions** o **Dimensions de preus personalitzades basades en l'entitat**, o ambdues, respectivament.

@@ -1,6 +1,6 @@
 ---
 title: Informació general sobre l'administració dels recursos
-description: En aquest tema es proporciona informació sobre la funcionalitat d'administració de recursos al Dynamics 365 Project Operations.
+description: Aquest article proporciona informació sobre la funcionalitat d'administració de recursos a les operacions del Projecte Dynamics 365.
 author: ruhercul
 ms.date: 06/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3873c4e4c10179dcc522ed3f3b6732b5ee58765c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dae7e7315a2e119a9038e0fae12287a5320c1dfb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920324"
 ---
 # <a name="resource-management-overview"></a>Informació general sobre l'administració dels recursos
 

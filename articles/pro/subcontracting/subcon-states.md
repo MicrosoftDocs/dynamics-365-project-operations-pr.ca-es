@@ -1,17 +1,17 @@
 ---
 title: Transicions d'estat en un subcontracte
-description: Aquest tema explica les transicions d'estat en una subcontracta a Microsoft Dynamics 365 Project Operations a mesura que la subcontractació es crea, s'executa i es tanca.
+description: En aquest article s'expliquen les transicions d'estat en una subcontracta a Microsoft Dynamics 365 Project Operations a mesura que la subcontractació es crea, s'executa i es tanca.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919726"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Transicions d'estat en un subcontracte 
 
@@ -19,7 +19,7 @@ ms.locfileid: "8579156"
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Aquest tema explica les transicions d'estat en una subcontracta a Microsoft Dynamics 365 Project Operations. Cada estat es representa com a esborrany, confirmat, tancat o cancel·lat. La següent imatge representa les transicions d'estat.
+En aquest article s'expliquen les transicions d'estat en una subcontracta a Microsoft Dynamics 365 Project Operations. Cada estat es representa com a esborrany, confirmat, tancat o cancel·lat. La següent imatge representa les transicions d'estat.
 
 ![Model d'estat de subcontractació](../media/SubconStates.png)  
 

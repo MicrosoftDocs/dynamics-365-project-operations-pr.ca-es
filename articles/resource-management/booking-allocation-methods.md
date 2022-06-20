@@ -1,6 +1,6 @@
 ---
 title: Mètodes d'assignació de reserves
-description: En aquest tema s'ofereix informació sobre com funcionen els mètodes d'assignació de reserves al Project Operations.
+description: En aquest article s'ofereix informació sobre com funcionen els mètodes d'assignació de reserves a Les operacions del projecte.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912688"
 ---
 # <a name="booking-allocation-methods"></a>Mètodes d'assignació de reserves
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Si afegiu un membre de l'equip directament a un projecte a la pestanya **Equip**, o reserveu un recurs per a un projecte o requisit del Tauler de planificació, hi ha alguns mètodes d'assignació de reserva diferents que podeu utilitzar. Aquest tema explica com funciona cada mètode i quins mètodes podrien dur-vos a l'excés de reserves de recursos.
+Si afegiu un membre de l'equip directament a un projecte a la pestanya **Equip**, o reserveu un recurs per a un projecte o requisit del Tauler de planificació, hi ha alguns mètodes d'assignació de reserva diferents que podeu utilitzar. En aquest article s'explica com funciona cada mètode i quins mètodes podrien conduir a l'overbooking de recursos.
 
 ## <a name="booking-allocation-methods"></a>Mètodes d'assignació de reserves
 

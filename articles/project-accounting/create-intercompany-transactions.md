@@ -1,17 +1,17 @@
 ---
 title: Creació de transaccions entre empreses
-description: En aquest tema es proporciona informació sobre com crear transaccions entre empreses.
+description: En aquest article s'ofereix informació sobre com crear transaccions interempresases.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: da6fd8e0e6bfe2e2543f5c4a453ed769e412f1e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919358"
 ---
 # <a name="create-intercompany-transactions"></a>Creació de transaccions entre empreses
 

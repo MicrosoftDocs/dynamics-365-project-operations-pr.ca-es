@@ -1,21 +1,21 @@
 ---
 title: Administració de diversos clients en contractes de projectes
-description: Aquest tema proporciona informació sobre com administrar diversos clients en un contracte de projecte.
+description: En aquest article s'ofereix informació sobre com gestionar diversos clients en un contracte de projecte.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928328"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Administració de diversos clients en contractes de projectes
 
-Aquest tema proporciona informació sobre com administrar diversos clients en un contracte de projecte. Podeu utilitzar un contracte de projecte quan es necessiti un acord contractual per a diversos clients per al finançament d'un tracte. A la pàgina **Contracte de projecte**, la pestanya **Resum** inclou informació sobre el client principal d'un tracte. Altres clients que participen en el tracte es poden afegir a la pestanya **Clients**.
+En aquest article s'ofereix informació sobre com gestionar diversos clients en un contracte de projecte. Podeu utilitzar un contracte de projecte quan es necessiti un acord contractual per a diversos clients per al finançament d'un tracte. A la pàgina **Contracte de projecte**, la pestanya **Resum** inclou informació sobre el client principal d'un tracte. Altres clients que participen en el tracte es poden afegir a la pestanya **Clients**.
 
 Tots els clients de contracte de la pestanya **Clients** del contracte de projecte són per defecte els clients de línia de contracte en qualsevol línia de contracte nova basada en projecte que es creï per al contracte de projecte. Les línies de contracte basades en projecte existents no hereten els registres de clients de contracte nous que es creen posteriorment.
 

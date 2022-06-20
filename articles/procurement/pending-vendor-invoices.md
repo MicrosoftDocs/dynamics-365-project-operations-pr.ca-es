@@ -1,18 +1,18 @@
 ---
 title: Compra materials no emmagatzemats o categories d'adquisició mitjançant una factura de proveïdor pendent
-description: En aquest tema s'explica com es registren les factures pendents del proveïdor.
+description: En aquest article s'explica com registrar les factures pendents del proveïdor.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921980"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Compra materials no emmagatzemats o categories d'adquisició mitjançant una factura de proveïdor pendent
 
@@ -23,7 +23,7 @@ Com que una empresa adquireix materials no emmagatzemats o categories d'adquisic
 Per exemple, Contoso Robotics US està realitzant un projecte de renovació d'equipament i necessita llicències de programari. Aquestes llicències provenen d'un proveïdor de tercers.  Utilitzant Dynamics 365 Finance, l'empleat que es paga als comptes registra un document de factura de proveïdor pendent i atribueix els costos de la llicència directament contra el projecte de renovació d'equips. 
 
 > [!IMPORTANT]
-> Abans d'utilitzar la funcionalitat descrita en aquest tema, reviseu i apliqueu les configuracions necessàries. Per obtenir més informació, vegeu [Habilitar materials no emmagatzemats i factures pendents de proveïdor i](configure-materials-nonstocked.md) Utilitzar categories de contractació amb ordres [de compra de projectes i factures pendents del proveïdor](configure-procurement-categories.md)
+> Abans d'utilitzar la funcionalitat descrita en aquest article, reviseu i apliqueu les configuracions necessàries. Per obtenir més informació, vegeu [Habilitar materials no emmagatzemats i factures pendents de proveïdor i](configure-materials-nonstocked.md) Utilitzar categories de contractació amb ordres [de compra de projectes i factures pendents del proveïdor](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Publicar una factura pendent del proveïdor relacionada amb el projecte 
 

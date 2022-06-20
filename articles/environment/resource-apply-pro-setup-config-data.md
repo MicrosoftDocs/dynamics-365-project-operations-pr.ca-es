@@ -1,17 +1,17 @@
 ---
 title: Configuració i aplicació de les dades de configuració al Common Data Service
-description: En aquest tema es proporciona informació sobre com configurar i aplicar les dades de configuració al Project Operations.
+description: En aquest article s'ofereix informació sobre la configuració i l'aplicació de dades de configuració a les operacions del projecte.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928006"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configuració i aplicació de les dades de configuració al Common Data Service 
 

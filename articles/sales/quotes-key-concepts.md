@@ -1,6 +1,6 @@
 ---
 title: 'Ofertes: conceptes clau'
-description: En aquest tema s'ofereix informació sobre les ofertes de projectes i ofertes de vendes disponibles al Project Operations.
+description: En aquest article s'ofereix informació sobre les ofertes del projecte i les ofertes de vendes disponibles a Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912504"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Conceptes únics per a ofertes basades en projectes
 
@@ -35,7 +35,7 @@ Al Dynamics 365 Project Operations, hi ha dos tipus d'ofertes, de projectes i de
 - **Camps i conceptes**: una oferta de vendes no inclou els camps i els conceptes inclosos en una oferta de projecte. Els camps inclouen **Unitat de contractació**, **Administrador de comptes** i **Nom del contacte de la factura**.  
 - **Tipus**: les ofertes de vendes i d'ofertes de projectes també s'identifiquen pel camp basat en conjunt d'opcions, **Tipus**. Per a una oferta de vendes, aquest camp té el valor **Basada en un element**. Per a una oferta de projecte, té el valor **Basada en el treball**.
 
-Aquest tema es centra en els detalls de les ofertes del projecte.
+Aquest article se centra en els detalls de les cites del projecte.
 
 Una oferta de projecte al Project Operations pot tenir diversos elements de línia o línies d'oferta. De fet, una oferta de projecte té dues quadrícules per als elements de línia. Una quadrícula és per a les línies basades en projectes que permeten estimacions detallades. L'altra quadrícula és per a les línies basades en productes que utilitzen un preu d'unitat senzill i un enfocament basat en la quantitat.
 

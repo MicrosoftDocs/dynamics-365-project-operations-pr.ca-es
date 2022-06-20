@@ -1,18 +1,18 @@
 ---
 title: Configuració de les tarifes de cost i de vendes per als productes del catàleg (bàsic)
-description: Aquest tema proporciona informació sobre com configurar els costos i les tarifes de venda dels articles en un catàleg de productes.
+description: En aquest article s'ofereix informació sobre com configurar les taxes de cost i de vendes dels articles d'un catàleg de productes.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 12e09d99e9832c93c3aea34ec0d4488cdf6b02fa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4689d6929e24ebaa992232f809a7ec60908ee517
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917380"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Configuració de les tarifes de cost i de vendes per als productes del catàleg (bàsic)
 

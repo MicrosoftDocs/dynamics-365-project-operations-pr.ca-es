@@ -1,17 +1,17 @@
 ---
 title: Configuració de les tarifes de cost i de vendes per als materials
-description: Aquest tema proporciona informació sobre com configurar les tarifes de cost i de vendes dels materials utilitzats en els projectes.
+description: En aquest article s'ofereix informació sobre com configurar les taxes de cost i venda dels materials utilitzats en projectes.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0a7d84c2dcaa228e06add2f3cb06a530b29e0e35
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911768"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Configuració de les tarifes de cost i de vendes per als materials
 

@@ -1,6 +1,6 @@
 ---
 title: Creació de contractes avançats per a la facturació basada en el progrés
-description: Aquest tema explica com crear contractes de projectes de manera que es puguin generar factures per als clients, basades en un percentatge del treball completat.
+description: En aquest article s'explica com crear contractes de projecte perquè puguis generar factures per als clients, en funció d'un percentatge de treball realitzat.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913654"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Creació de contractes avançats per a la facturació basada en el progrés
 [!include [banner](../includes/banner.md)]
 
-Aquest tema explica com crear contractes de projectes de manera que es puguin crear factures per als clients, basades en un percentatge del treball completat. Els imports de la factura es calculen automàticament per a les categories de treball que heu configurat per a un projecte. El temps de la factura s'estableix quan es negocia el contracte del projecte amb el client.
+En aquest article s'explica com crear contractes de projecte perquè pugueu crear factures per als clients, en funció d'un percentatge del treball completat. Els imports de la factura es calculen automàticament per a les categories de treball que heu configurat per a un projecte. El temps de la factura s'estableix quan es negocia el contracte del projecte amb el client.
 
-Utilitzeu els procediments d'aquest tema per configurar un contracte, un projecte associat i les regles de facturació que calculen les quantitats de facturació per a les categories de pressupost de treball que heu establert per al projecte.
+Utilitzeu els procediments d'aquest article per configurar un contracte, un projecte associat i les regles de facturació que calculen els imports de la factura de les categories de pressupost de treball que configureu per al projecte.
 
 Després de crear el contracte i el projecte, podeu establir els detalls del projecte. Per exemple, podeu definir activitats i assignar treballadors al projecte.
 

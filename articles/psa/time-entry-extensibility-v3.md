@@ -1,6 +1,6 @@
 ---
-title: Personalitzar l'entrada de temps setmanal
-description: En aquest tema es proporciona informació sobre com implementar regles de negoci personalitzades que segueixin les pràctiques d'una organització.
+title: Personalització de l'entrada de temps setmanal
+description: En aquest article s'ofereix informació sobre com implementar regles de negoci personalitzades que admeten les pràctiques d'una organització.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918944"
 ---
 # <a name="customize-weekly-time-entry"></a>Personalització de l'entrada de temps setmanal 
 
@@ -46,7 +46,7 @@ A la secció **Dimensions** es mostren, com a capçaleres de columna, totes les 
 - Tipus
 - Estat de l'entrada
 
-La secció **Dimensions** no permet l'edició en línia. Aquesta secció està basada en una visualització que permet afegir camps personalitzats a la quadrícula d'entrada de temps setmanal. Per obtenir informació sobre com afegir camps personalitzats, vegeu la secció "Extensibilitat" més endavant en aquest tema.
+La secció **Dimensions** no permet l'edició en línia. Aquesta secció està basada en una visualització que permet afegir camps personalitzats a la quadrícula d'entrada de temps setmanal. Per obtenir informació sobre com afegir camps personalitzats, vegeu la secció "Extensibilitat" més endavant en aquest article.
 
 ### <a name="duration"></a>Duració
 La secció Duració mostra els dies de la setmana com a capçaleres de columna. Aquesta secció permet l'edició en línia. Després de crear una fila d'entrada de temps que té les dimensions adequades, els usuaris poden introduir ràpidament, en línia, la quantitat de temps que han invertit en aquestes dimensions.

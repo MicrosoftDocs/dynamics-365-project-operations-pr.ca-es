@@ -1,24 +1,24 @@
 ---
 title: Configuració de la retenció de proveïdors
-description: En aquest tema s'explica com es configura la retenció de proveïdors.
+description: En aquest article s'explica com configurar la retenció del proveïdor.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929754"
 ---
 # <a name="set-up-vendor-retention"></a>Configuració de la retenció de proveïdors
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema proporciona informació sobre com es configura la retenció de proveïdors.
+En aquest article s'ofereix informació sobre com configurar la retenció de proveïdors.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Configurar un compte de retenció del proveïdor al llibre general
 

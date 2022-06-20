@@ -1,6 +1,6 @@
 ---
 title: Canvis a l'administració de recursos (Project Service Automation 3.x)
-description: En aquest tema es proporciona informació sobre els canvis en l'àrea administració de recursos.
+description: En aquest article s'ofereix informació sobre els canvis a l'àrea d'administració de recursos.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916000"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Canvis a l'administració de recursos (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-A les seccions d'aquest tema es proporciona informació sobre els canvis que s'han dut a terme a l'àrea administració de recursos de la versió 3.x del Dynamics 365 Project Service Automation.
+Les seccions d'aquest article proporcionen informació sobre els canvis que s'han fet a l'àrea d'administració de recursos de la Dynamics 365 Project Service Automation versió 3.x.
 
 ## <a name="project-estimates"></a>Estimacions del projecte
 

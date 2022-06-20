@@ -1,6 +1,6 @@
 ---
-title: Transaccions comercials en operacions de projectes
-description: Aquest tema proporciona una visió general del concepte de transaccions comercials a Microsoft Dynamics 365 Project Operations.
+title: Transaccions empresarials al Project Operations
+description: En aquest article s'ofereix una visió general del concepte de transaccions comercials a Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2022-01-31
-ms.openlocfilehash: 0c6fe583af0dcaa62204b35c1093746b13b6e00e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fab0061af6e615c25d0fbf79d024370285dc6f86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923268"
 ---
-# <a name="business-transactions-in-project-operations"></a>Transaccions comercials en operacions de projectes
+# <a name="business-transactions-in-project-operations"></a>Transaccions empresarials al Project Operations
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 

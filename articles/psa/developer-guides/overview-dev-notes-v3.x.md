@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici de desenvolupament (Project Service Automation 3.x)
-description: En aquest tema es proporcionen enllaços a temes que proporcionen informació de desenvolupament de la versió 3.x del Dynamics 365 Project Service Automation (PSA).
+description: Aquest article proporciona enllaços a articles que proporcionen informació de desenvolupament per a Dynamics 365 Project Service Automation (PSA) versió 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 86bfe8e5103bfcac89a2966b99f15b7c34a213fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5cf7d738d5a7f6fb5d79849bdaf54831414de6de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928972"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Pàgina d'inici de desenvolupament (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-El Dynamics 365 Project Service Automation 3.x ofereix noves funcionalitats, la implementació de noves funcionalitats de plataforma i millores a les característiques existents en diverses àrees. Els temes següents proporcionen més informació sobre els canvis que s'han fet a la versió més recent del PSA:
+El Dynamics 365 Project Service Automation 3.x ofereix noves funcionalitats, la implementació de noves funcionalitats de plataforma i millores a les característiques existents en diverses àrees. Els següents articles proporcionen més informació sobre els canvis que es van fer en la versió més recent de PSA:
 
 - [Canvis d'entitat, control i interfície d'usuari (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Canvis de temps i despeses (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

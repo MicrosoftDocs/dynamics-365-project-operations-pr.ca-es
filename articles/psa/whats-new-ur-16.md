@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis de la versió d'actualització 16 del Project Service Automation, V3
-description: En aquest tema es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 16.
+description: En aquest article s'enumeren les característiques i les correccions que estan disponibles a la versió 16, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5651f8b3a2ddf406fcfd7a4e21901c53789fa4ed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e4429ace3d8206369b91917cf87f6968fbb12277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926488"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation, versió d'actualització 16, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Estem encantats d'anunciar-vos l'última actualització per a l'aplicació Project Service Automation per al Dynamics 365. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat.  Aquest llançament és compatible amb el Dynamics 365 9.x. Per actualitzar a aquesta versió, visiteu el Centre d'administració del Dynamics 365 en línia i aneu a la pàgina de solucions per instal·lar l'actualització. Per obtenir més informació, vegeu [Instal·lació, actualització o supressió d'una solució preferida](/dynamics365/project-service/upgrade-psa-home-page).
-En aquest tema es mostren les característiques i correccions que són noves o s'han canviat per al PSA V3, versió d'actualització 16. Aquesta versió té el número de compilació V3.10.6.34 i està disponible de forma general a través d'una actualització automàtica el gener de 2020.
+En aquest article s'enumeren les característiques i les correccions que són noves o canviades per pSA V3, Actualització versió 16. Aquesta versió té el número de compilació V3.10.6.34 i està disponible de forma general a través d'una actualització automàtica el gener de 2020.
 
 
 ## <a name="update-release-16"></a>Versió d'actualització 16

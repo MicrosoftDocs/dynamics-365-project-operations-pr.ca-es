@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici de planificació de projectes
-description: Aquest tema proporciona informació sobre la planificació de projectes.
+description: Aquest article proporciona informació sobre la planificació del projecte.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919036"
 ---
 # <a name="project-planning-home-page"></a>Pàgina d'inici de planificació de projectes
 
@@ -43,7 +43,7 @@ Les eines d'administració de projectes del PSA us ajudaran a executar de manera
 - Preveure els requisits de recursos dels projectes es troben en el pipeline.
 - Lliurar correctament els projectes mitjançant el seguiment del progrés i el consum de costos.
 
-Els temes següents proporcionen informació que ajudarà els administradors de projectes a estimar el treball, estimar els costos del projecte i preveure els requisits dels recursos mitjançant les eines admeses al PSA:
+Els articles següents proporcionen informació que ajudarà els gestors de projectes a estimar el treball, estimar els costos del projecte i predir els requisits de recursos mitjançant l'ús de les eines compatibles amb PSA:
 
 - [Crear una planificació](project-creating.md)
 - [Fer una estimació dels costos i ingressos d'un projecte](project-estimating.md)

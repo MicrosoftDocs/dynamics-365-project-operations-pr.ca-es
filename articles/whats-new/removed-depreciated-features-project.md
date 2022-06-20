@@ -1,24 +1,24 @@
 ---
 title: Característiques suprimides o obsoletes a Dynamics 365 Project Operations
-description: Aquest tema descriu les característiques que s'han suprimit o que estan planificades per suprimir-les del Dynamics 365 Project Operations.
+description: En aquest article es descriuen les característiques que s'han suprimit o que estan planificades per suprimir-les del Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921474"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Característiques suprimides o obsoletes a Dynamics 365 Project Operations
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense existències, implementació bàsica: tracte de facturació proforma i Project Operations per a escenaris amb existències/basats en producció_
 
-Aquest tema descriu les característiques que s'han suprimit o que estan planificades per suprimir-les del Dynamics 365 Project Operations.
+En aquest article es descriuen les característiques que s'han suprimit o que estan planificades per suprimir-les del Dynamics 365 Project Operations.
 
 - Les característiques *suprimides* deixen d'estar disponibles al producte.
 - Les característiques *obsoletes* no estan en desenvolupament actiu i podrien suprimir-se en una actualització futura.

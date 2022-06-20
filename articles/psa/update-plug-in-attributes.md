@@ -1,6 +1,6 @@
 ---
 title: Actualitzar els atributs de complement per incloure noves dimensions de preus
-description: En aquest tema s'ofereix informació sobre l'actualització d'atributs de complement per a les dimensions de preus.
+description: En aquest article s'ofereix informació sobre l'actualització d'atributs de complement per a les dimensions dels preus.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913194"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Actualitzar els atributs de complement per incloure noves dimensions de preus
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Si no utilitzeu el les característiques d'oferta i contractació del Project Service Automation (PSA), podeu ometre aquest tema.
+> Si no utilitzeu les funcions de citació i contractació del Project Service Automation (PSA), podeu ometre aquest article.
 
-En aquest tema s'assumeix que heu completat els procediments dels temes [Crear camps i entitats personalitzats](create-custom-fields-entities.md), [Afegir camps personalitzats a la configuració de preus i les entitats transaccionals](field-references.md) i [Configurar camps personalitzats com a dimensions de preus](set-up-pricing-dimensions.md). Si no heu completat aquests procediments, aneu enrere per completar-los torneu a aquest tema.
+En aquest article s'assumeix que heu completat els procediments dels articles, [Creeu camps i entitats](create-custom-fields-entities.md) personalitzats, [Afegiu camps personalitzats a la configuració de preus i a les entitats transaccionals](field-references.md) i [Configureu camps personalitzats com a dimensions de preus](set-up-pricing-dimensions.md). Si no heu completat aquests procediments, torneu enrere i completeu-los i torneu a aquest article.
 
 Quan es crea un detall de la línia d'oferta a la pàgina **Línia d'oferta** d'una línia d'oferta de projecte, el sistema crea dues línies d'estimació en segon terme, una línia per a la part del cost de l'estimació i una per a la part de les vendes. Això és el mateix per a les línies de contracte del projecte.
 

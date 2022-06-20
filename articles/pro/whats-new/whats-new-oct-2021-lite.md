@@ -1,24 +1,24 @@
 ---
 title: "Novetats d'octubre de 2021: implementació bàsica del Project Operations"
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles a la implementació bàsica de la versió d'octubre de 2021 del Project Operations.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'octubre de 2021 de la implementació lite d'operacions del projecte.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921934"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Novetats d'octubre de 2021: implementació bàsica del Project Operations
 
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
   - Project Operations en entorn del Microsoft Dataverse versió 4.25.0.91
 

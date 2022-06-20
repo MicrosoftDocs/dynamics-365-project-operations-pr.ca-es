@@ -1,24 +1,24 @@
 ---
 title: Novetats de novembre de 2021 - Desplegament de lite d'operacions de projectes
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió de novembre de 2021 de la implementació del lite Project Operations.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió de novembre de 2021 de la implementació lite d'operacions del projecte.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 947e7f6183ddeef3ab9a88d140331956bbcf23bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587758"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913792"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Novetats de novembre de 2021 - Desplegament de lite d'operacions de projectes
 
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
-Aquest tema s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
 
 - Operacions del projecte en una Dataverse versió d'entorn 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   

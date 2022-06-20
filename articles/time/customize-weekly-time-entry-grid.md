@@ -1,17 +1,17 @@
 ---
 title: Ampliació d'entrades de temps
-description: En aquest tema es proporciona informació sobre com els desenvolupadors poden ampliar el control d'entrada de temps.
+description: En aquest article s'ofereix informació sobre com els desenvolupadors poden ampliar el control d'entrada de temps.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914758"
 ---
 # <a name="extending-time-entries"></a>Ampliació d'entrades de temps
 

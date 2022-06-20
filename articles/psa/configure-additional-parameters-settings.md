@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919220"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Configurar paràmetres addicionals (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592312"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Un cop hàgiu configurat els elements als temes anteriors, heu de definir paràmetres addicionals per utilitzar-los per als vostres projectes. Quan hàgiu instal·lat l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per primer cop, podeu crear paràmetres per crear per primer cop tots els registres necessaris per que funcionin a l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Ara és el moment de tornar enrere i configurar camps addicionals per a aquests paràmetres.  
+Un cop hàgiu configurat els elements en articles anteriors, heu d'establir paràmetres de projecte addicionals per utilitzar-los per als vostres projectes. Quan hàgiu instal·lat l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per primer cop, podeu crear paràmetres per crear per primer cop tots els registres necessaris per que funcionin a l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Ara és el moment de tornar enrere i configurar camps addicionals per a aquests paràmetres.  
   
  Haureu d'haver configurat els paràmetres següents:  
   

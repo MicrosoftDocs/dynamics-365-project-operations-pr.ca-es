@@ -1,25 +1,25 @@
 ---
 title: Actualitzeu el Project Operations a l'entorn de finances
-description: Aquest tema proporciona informació sobre com actualitzar les operacions del projecte al vostre entorn Dynamics 365 Finance.
+description: En aquest article s'ofereix informació sobre com actualitzar les operacions del projecte a l'entorn Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912458"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Actualitzeu el Project Operations a l'entorn de finances
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
 
-Aquest tema proporciona informació sobre com actualitzar-se Dynamics 365 Project Operations al vostre entorn Dynamics 365 Finance. Hi ha tres procediments que són necessaris per actualitzar el Project Operations a l'actualització 5 (UR5):
+En aquest article s'ofereix informació sobre com actualitzar-se Dynamics 365 Project Operations en el seu entorn Dynamics 365 Finance. Hi ha tres procediments que són necessaris per actualitzar el Project Operations a l'actualització 5 (UR5):
 
 - [Importa el paquet al vostre projecte de visualització prèvia](#import)
 - [Aplica l'actualització](#apply)

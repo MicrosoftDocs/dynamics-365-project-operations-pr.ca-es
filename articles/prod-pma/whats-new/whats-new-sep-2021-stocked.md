@@ -1,24 +1,24 @@
 ---
 title: Novetats o canvis en operacions de projectes, setembre de 2021 per a escenaris basats en la producció
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat que estan disponibles al llançament de setembre de 2021 d'Operacions de projecte per a escenaris emmagatzemats / basats en la producció.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió de setembre de 2021 d'Operacions de projectes per a escenaris emmagatzemats / basats en la producció.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916506"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Novetats o canvis en operacions de projectes, setembre de 2021 per a escenaris basats en la producció
 
 _**S'aplica a:** Project Operations per a escenaris basats en producció/mantinguts en existències_
 
-Aquest tema s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
 
 - Gestió de projectes i comptabilitat en un entorn Dynamics 365 Finance versió 10.0.21
  

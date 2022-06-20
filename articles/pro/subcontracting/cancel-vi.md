@@ -1,19 +1,19 @@
 ---
-title: Cancel·lar una factura del proveïdor del projecte
-description: En aquest tema s'explica com cancel·lar una factura del proveïdor del projecte a Microsoft Dynamics 365 Project Operations i l'impacte financer de cancel·lar una factura del proveïdor del projecte.
+title: Cancel·lació d'una factura del proveïdor del projecte
+description: En aquest article s'explica com es cancel·la una factura del proveïdor del projecte a Microsoft Dynamics 365 Project Operations i l'impacte financer de cancel·lar una factura del proveïdor del projecte.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6bdca30c5779e3d70922e75609ff4cdfca167
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580628"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911538"
 ---
-# <a name="cancel-a-project-vendor-invoice"></a>Cancel·lar una factura del proveïdor del projecte
+# <a name="cancel-a-project-vendor-invoice"></a>Cancel·lació d'una factura del proveïdor del projecte
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

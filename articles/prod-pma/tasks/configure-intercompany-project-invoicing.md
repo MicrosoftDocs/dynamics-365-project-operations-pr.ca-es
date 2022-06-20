@@ -1,6 +1,6 @@
 ---
 title: Configurar la facturació del projecte entre empreses
-description: En aquest tema es mostra com configurar la facturació d'un projecte entre dues empreses de l'organització.
+description: En aquest article es mostra com configurar la facturació del projecte entre dues empreses de la vostra organització.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916598"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurar la facturació del projecte entre empreses
 
 [!include [banner](../../includes/banner.md)]
 
-En aquest tema es mostra com configurar la facturació d'un projecte entre dues empreses de l'organització. Aquesta tasca utilitza el conjunt de dades d'USSI.
+En aquest article es mostra com configurar la facturació del projecte entre dues empreses de la vostra organització. Aquesta tasca utilitza el conjunt de dades d'USSI.
 
 1. A la subfinestra de navegació, aneu a **Mòduls > Compte a pagar > Proveïdors > Tots els proveïdors**.
 2. A la llista **Tots els proveïdors**, cerqueu i seleccioneu el registre que vulgueu.
