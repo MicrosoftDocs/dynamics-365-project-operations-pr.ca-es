@@ -1,17 +1,17 @@
 ---
 title: Manteniment dels membres de l'equip
-description: En aquest tema es proporciona informació sobre la reserva de recursos amb nom a equips de projecte i assignar-los a tasques.
+description: En aquest article s'ofereix informació sobre la reserva de recursos amb nom als equips del projecte i l'assignació a tasques.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7c7b2f45c56289c46cfa8f79c0704a7085f6db3a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6ab1541cc79870fcab9dbce45073e6b5a7bb0133
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933434"
 ---
 # <a name="maintain-team-members"></a>Manteniment dels membres de l'equip
 

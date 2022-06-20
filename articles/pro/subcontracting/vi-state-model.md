@@ -1,25 +1,25 @@
 ---
-title: Transicions d'estat en una factura de proveïdor
-description: En aquest tema s'expliquen les transicions d'estat d'una factura de proveïdor a Microsoft Dynamics 365 Project Operations.
+title: Transicions d'estat en una factura del proveïdor
+description: En aquest article s'expliquen les transicions d'estat d'una factura de proveïdor a Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934308"
 ---
-# <a name="state-transitions-on-a-vendor-invoice"></a>Transicions d'estat en una factura de proveïdor
+# <a name="state-transitions-on-a-vendor-invoice"></a>Transicions d'estat en una factura del proveïdor
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-En aquest tema s'expliquen les transicions d'estat d'una factura de proveïdor a Microsoft Dynamics 365 Project Operations. S'utilitzen els estats següents: Esborrany, En revisió **,** Confirmat **,** En espera **i** Cancel·lat **.** **·**
+En aquest article s'expliquen les transicions d'estat d'una factura de proveïdor a Microsoft Dynamics 365 Project Operations. S'utilitzen els estats següents: Esborrany, En revisió **,** Confirmat **,** En espera **i** Cancel·lat **.** **·**
 
 Les següents il·lustracions mostren les transicions d'estat.
 

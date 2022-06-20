@@ -1,17 +1,17 @@
 ---
 title: Versions d'assignació de doble escriptura del Project Operations
-description: En aquest tema es proporciona la llista d'assignacions de doble escriptura necessàries per al Dynamics 365 Project Operations.
+description: En aquest article es proporciona la llista de mapes de doble escriptura necessaris per a Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: MT
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612738"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959605"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versions d'assignació de doble escriptura del Project Operations
 
@@ -54,7 +54,7 @@ Les assignacions següents són necessàries per a una solució del Project Oper
 | Entitat d'integració del Project Operations per a l'estimació d'hores (msdyn_resourceassignments) | 1.0.0.5 | No és necessari per al proveïment. ||
 | Entitat d'exportació de categories de despeses del projecte d'integració del Project Operations (msdyn_expensecategories) | 1.0.0.1 | No és necessari per al proveïment. ||
 | Entitat d'exportació de despeses del projecte d'integració del Project Operations (msdyn_expenses) | 1.0.0.3 | No és necessari per al proveïment. ||
-| Entitat d'exportació de factura del proveïdor del projecte de la integració del Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | No és necessari per al proveïment. ||
+| Entitat d'exportació de factura del proveïdor del projecte de la integració del Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | No és necessari per al proveïment. |10.0.26 o posterior|
 | Entitat d'exportació de la línia de factura del proveïdor del projecte de la integració del Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | No és necessari per al proveïment. | 10.0.26 o posterior |
 | Funcions de recurs del projecte per a totes les empreses (bookableresourcecategories) | 1.0.0.1 | Requereix una sincronització inicial perquè l'assignació de taules sincronitzi les funcions de recurs de l'administrador de projectes i del membre de l'equip que s'han emplenat a l'entorn del Dataverse del Dynamics 365 el proveïment. El Dataverse és l'origen principal de la sincronització inicial. ||
 | Tasques del projecte (msdyn_projecttasks) | 1.0.0.4 | No és necessari per al proveïment. ||

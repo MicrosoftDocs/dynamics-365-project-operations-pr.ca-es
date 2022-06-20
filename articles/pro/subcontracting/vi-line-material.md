@@ -1,19 +1,19 @@
 ---
-title: Línies de factures del proveïdor per a productes
-description: En aquest tema s'explica com registrar les línies de factures dels proveïdors dels productes i utilitzar els diferents camps per registrar les compres de productes dels proveïdors.
+title: Línies de factura del proveïdor per a productes
+description: En aquest article s'explica com registrar les línies de factures dels proveïdors dels productes i utilitzar els diferents camps per registrar les compres de productes dels proveïdors.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af078cd4392f8353b509db2dc48dc5237b8ee275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931364"
 ---
-# <a name="vendor-invoice-lines-for-products"></a>Línies de factures del proveïdor per a productes
+# <a name="vendor-invoice-lines-for-products"></a>Línies de factura del proveïdor per a productes
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

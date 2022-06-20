@@ -1,25 +1,25 @@
 ---
 title: Novetats del gener del 2021 - Implementació bàsica del Project Operations
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de gener de 2021 de la implementació bàsica del Project Operations.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de gener de 2021 de la implementació lite d'operacions del projecte.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 17accd33a6126918e02e90b67636d95342efdd65
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47932fb89cdd9481988d00f2f3be094b68110cbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934262"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Novetats del gener del 2021 - Implementació bàsica del Project Operations
 
 
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
   - Project Operations en l'entorn del Dataverse versió 4.6.0.154.
   

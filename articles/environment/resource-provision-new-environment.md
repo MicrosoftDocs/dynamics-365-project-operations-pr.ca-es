@@ -1,18 +1,18 @@
 ---
 title: Proveïment d'un entorn nou
-description: En aquest tema s'ofereix informació sobre com proveir un entorn nou del Project Operations.
+description: En aquest article s'ofereix informació sobre com proveir un entorn d'operacions de projecte nou.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931594"
 ---
 # <a name="provision-a-new-environment"></a>Proveïment d'un entorn nou
 
@@ -20,7 +20,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 
 
-En aquest tema es proporciona informació sobre com proveir un nou entorn de Dynamics 365 Project Operations per a escenaris basats en recursos/sense existències.
+En aquest article s'ofereix informació sobre com proveir un nou Dynamics 365 Project Operations entorn per a escenaris basats en recursos o no emmagatzemats.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Habilitar el proveïment automatitzat del Project Operations en un projecte del LCS
 

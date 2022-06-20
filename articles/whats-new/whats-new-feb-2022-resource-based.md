@@ -1,24 +1,24 @@
 ---
 title: 'Novetats de febrer de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió de febrer de 2022 de Project Operations per a escenaris basats en recursos / no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió de febrer de 2022 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932974"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de febrer de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
 *S'aplica a: Project Operations per a escenaris basats en recursos/sense cotització*
 
-Aquest tema s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
 
 - 4.28.0.120 d'operacions del projecte en una Dataverse versió d'entorn
 - Gestió de projectes i comptabilitat en un entorn Dynamics 365 Finance versió 10.0.24
@@ -49,7 +49,7 @@ Si trobeu un problema quan inicieu el mapa, seguiu les instruccions del problema
 | --- | --- | --- |
 | Facturació i preus | 2415109 | El valor per defecte del camp Condicions **de** pagament d'operacions ha de ser el registre de client del contracte del projecte i el registre de factura proforma. |
 | Facturació i preus | 2497369 | La correcció de material ha de seguir el valor de data en els **paràmetres de correcció**. |
-| Facturació i preus | 2498697 | S'ha millorat la configuració de seguretat per a **la recuperació** de l'entrada de temps. |
+| Facturació i preus | 2498697 | S'ha millorat la configuració de seguretat per a **la recuperació de l'entrada de temps**. |
 | Facturació i preus | 2513824 | Per als escenaris basats en recursos, l'identificador de categoria de transacció no pot superar els 28 caràcters a Operacions del projecte. |
 | Facturació i preus | 2517455 | No s'ha **de permetre que l'acció Actualitza les transaccions** de línia de factura s'activi diverses vegades simultànies per a la mateixa factura. |
 | Facturació i preus | 2517465 | L'acció **Desactiva els detalls de** la línia de factura està bloquejada perquè no és compatible. |
@@ -76,11 +76,11 @@ Si trobeu un problema quan inicieu el mapa, seguiu les instruccions del problema
 
 ## <a name="removed-and-deprecated-features"></a>Característiques eliminades i obsoletes
 
-Les [característiques eliminades o obsoletes del tema Operacions](removed-depreciated-features-project.md) del projecte descriuen les característiques que s'han suprimit o obsolet per a Dynamics 365 Project Operations.
+Les [característiques eliminades o obsoletes de l'article Operacions del](removed-depreciated-features-project.md) projecte descriuen les característiques que s'han suprimit o obsolet per a Dynamics 365 Project Operations.
 
 - Les característiques suprimides deixen d'estar disponibles al producte.
 - Una característica obsoleta no està en desenvolupament actiu i es pot suprimir en una actualització futura.
 
-Apareixerà un anunci de despreocupat a les funcions Eliminades o obsoletes del [tema Operacions](removed-depreciated-features-project.md) del projecte 12 mesos abans que s'elimini cap característica del producte.
+Apareixerà un anunci d'obsolet a les funcions eliminades o obsoletes de l'article [d'operacions](removed-depreciated-features-project.md) del projecte 12 mesos abans que s'elimini cap característica del producte.
 
 Per trencar els canvis que només afecten el temps de compilació, però són binaris compatibles amb sandbox i entorns de producció, el temps d'espera serà inferior a 12 mesos. Normalment, aquests canvis són actualitzacions funcionals que s'han de fer al compilador.

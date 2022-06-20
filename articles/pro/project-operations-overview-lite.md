@@ -1,17 +1,17 @@
 ---
 title: Informació general de la implementació bàsica
-description: En aquest tema es proporciona informació sobre la implementació bàsica del Dynamics 365 Project Operations.
+description: Aquest article proporciona informació sobre el desplegament de Lite de Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7e7f5de70b1a050039509c40d1378302392f2ec9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2019d3e178167a0bcded5707a6dfe1fa1631794b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932698"
 ---
 # <a name="lite-deployment-overview"></a>Informació general de la implementació bàsica
 

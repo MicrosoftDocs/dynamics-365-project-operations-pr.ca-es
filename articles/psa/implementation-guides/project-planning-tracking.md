@@ -1,6 +1,6 @@
 ---
 title: Planificació i seguiment de projectes
-description: En aquest tema s'enllaça a informació sobre les la planificació i el seguiment al Project Service Automation.
+description: En aquest article s'ofereix un enllaç a la informació sobre la planificació i el seguiment a Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933250"
 ---
 # <a name="project-planning-and-tracking"></a>Planificació i seguiment de projectes
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589874"
 
 L'aplicació del Project Service ajuda les organitzacions de servei a identificar oportunitats, enviar ofertes, arribar a acords contractuals, administrar recursos, fer el seguiment del temps i les despeses, enviar factures als clients i lliurar els projectes a temps i dins del pressupost. 
 
-S'ha suprimit l'enllaç PDF que abans es trobava en aquest tema i s'ha mogut el contingut als temes següents:
+S'ha eliminat l'enllaç PDF que hi havia anteriorment en aquest article i el contingut s'ha traslladat als següents articles:
 
 - [Planificació del projecte](../project-creating.md)
 - [Ingressos i costos del projecte](../project-estimating.md)
@@ -43,7 +43,7 @@ S'ha suprimit l'enllaç PDF que abans es trobava en aquest tema i s'ha mogut el 
 - [Configuració del projecte](../project-settings.md)
 
 > [!NOTE]
-> Aquest tema s'eliminarà en una futura actualització de la documentació. 
+> Aquest article se suprimirà en una futura actualització de documentació. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

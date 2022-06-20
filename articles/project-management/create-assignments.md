@@ -1,24 +1,24 @@
 ---
 title: Crear assignacions de recursos
-description: Aquest tema proporciona informació sobre la creació d'assignacions de recursos genèriques i amb nom.
+description: Aquest article proporciona informació sobre la creació d'assignacions de recursos genèriques i amb nom.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933480"
 ---
 # <a name="create-resource-assignments"></a>Crear assignacions de recursos
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 
-Una assignació de recursos és l'associació directa d'un membre d'un equip de projecte a una tasca de node fulla. En aquest tema es proporciona informació sobre les diferents maneres d'assignar recursos.
+Una assignació de recursos és l'associació directa d'un membre d'un equip de projecte a una tasca de node fulla. En aquest article s'ofereix informació sobre les diferents maneres d'assignar recursos.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Crear un membre de l'equip genèric a través de l'assignació de tasques
 

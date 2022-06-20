@@ -1,24 +1,24 @@
 ---
 title: 'Novetats de desembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de desembre de 2020 del Project Operations per a escenaris de recursos/sense existències.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de desembre de 2020 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933020"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de desembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
 - Project Operations en entorn del Dataverse versió 4.5.0.134
 - Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.15

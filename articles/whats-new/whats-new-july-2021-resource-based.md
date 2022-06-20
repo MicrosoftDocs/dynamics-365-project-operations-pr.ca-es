@@ -1,24 +1,24 @@
 ---
 title: 'Novetats de juliol de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de juliol de 2021 del Project Operations per a escenaris basats en recursos/no mantinguts en existències.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de juliol de 2021 de Project Operations per a escenaris basats en recursos / no emmagatzemats.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c004a6adc265f8f02fc557700d9b88a174c221c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931686"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de juliol de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
 *S'aplica a: Project Operations per a escenaris basats en recursos/sense cotització*
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
    - Project Operations en un entorn del Microsoft Dataverse, versió 4.12.0.148 o 4.12.0.152.
    - Gestió de projectes i comptabilitat en Dynamics 365 Finance entorn versió 10.0.20.

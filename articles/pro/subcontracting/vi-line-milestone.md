@@ -1,19 +1,19 @@
 ---
-title: Línies de factures del proveïdor per a fites
-description: En aquest tema s'explica com crear línies de factures de proveïdor per a fites en una subcontracta.
+title: Línies de factura del proveïdor per a fites
+description: En aquest article s'explica com es creen les línies de factures del proveïdor per a fites en una subcontracta.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4fa11e2a4f459016b3ce141b03fe97e55c9a2759
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931318"
 ---
-# <a name="vendor-invoice-lines-for-milestones"></a>Línies de factures del proveïdor per a fites
+# <a name="vendor-invoice-lines-for-milestones"></a>Línies de factura del proveïdor per a fites
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

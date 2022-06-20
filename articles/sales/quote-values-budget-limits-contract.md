@@ -1,17 +1,17 @@
 ---
 title: Configuració de les ofertes dels projectes
-description: Aquest tema proporciona informació sobre la informació i la configuració que s'apliquen i tenen un impacten en les ofertes del projecte.
+description: En aquest article s'ofereix informació sobre la informació i la configuració que s'apliquen i impacten les ofertes del projecte.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c5870c75d5337b951a453000369baf9f6e81a1da
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 661dd40edeea890ad684b801bcc99ce2c242bb9b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931916"
 ---
 # <a name="header-details-for-project-based-quotes"></a>Detalls de la capçalera per a les ofertes basades en projectes
 

@@ -1,17 +1,17 @@
 ---
 title: Administració d'oportunitats basades en projectes
-description: Aquest tema proporciona informació sobre com treballar amb oportunitats relacionades amb els projectes.
+description: Aquest article proporciona informació sobre com treballar amb oportunitats relacionades amb projectes.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933204"
 ---
 # <a name="manage-project-based-opportunities"></a>Administració d'oportunitats basades en projectes
 
@@ -19,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Les empreses basades en projectes solen tenir les seves operacions de lliurament distribuïdes entre països i zones geogràfiques. El cost de l'execució i lliurament del projecte pot variar en funció de la zona geogràfica o divisió que gestiona el lliurament. Al seu torn, això pot afectar els marges de l'acord. El lliurament de serveis basats en projectes sol implicar grans quantitats de temps de recursos humans, despeses considerables per a viatges, costos materials i altres despeses.
 
-Les oportunitats basades en projectes al Dynamics 365 Project Operations estan dissenyades amb extensions del Dynamics 365 Sales. El tema proporciona detalls sobre els diferents camps i la lògica empresarial inclosa en la funcionalitat addicional que necessiten les empreses basades en projectes per administrar les oportunitats basades en projectes.
+Les oportunitats basades en projectes al Dynamics 365 Project Operations estan dissenyades amb extensions del Dynamics 365 Sales. L'article proporciona detalls sobre els diferents camps i la lògica empresarial inclosos en la funcionalitat addicional que requereixen les empreses basades en projectes per gestionar oportunitats basades en projectes.
 
 ## <a name="view-all-project-based-opportunities"></a>Visualitzar totes les oportunitats basades en projectes
 

@@ -1,18 +1,18 @@
 ---
 title: Actualitzacions del Project Operations
-description: En aquest tema es proporciona informació sobre les versions publicades del Dynamics 365 Project Operations.
+description: Aquest article proporciona informació sobre les versions publicades de Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732919"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959616"
 ---
 # <a name="project-operations-updates"></a>Actualitzacions del Project Operations
 
@@ -36,7 +36,7 @@ El Dynamics 365 Project Operations consta de dos components:
 
 | Project Operations a l'entorn del Dataverse | Gestió de projectes i comptabilitat en entorns d'apps de Finances i Operacions | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Per a l'escenari de recursos d'operacions del projecte o no proveït, us recomanem que utilitzeu la versió d'orquestració de doble escriptura 2.3.1.15 o superior.
 
@@ -47,24 +47,24 @@ Les actualitzacions del Project Operations a l'entorn del Dataverse estan dispon
 | Estació | Regió | Número de versió actual | Actualitzacions automàtiques per a la implementació bàsica | Actualitzacions automàtiques per a la implementació basada en recursos/sense inventari | Número de la versió següent | Pròxima versió disponible de manera general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estació 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primera versió         |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
+|   &nbsp;  | Primera versió         |  4.43.0.77      | Complet           | Complet            | TBD                 | 01 de juliol de 2022       |
 | Estació 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Sud         |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
-|   &nbsp;  | Canadà                |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
-|   &nbsp;  | Índia                 |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
-|   &nbsp;  | França                |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
-|   &nbsp;  | República de Sud-àfrica          |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
-|   &nbsp;  | Suïssa           |  4.42.0.70      | Complet           | Complet            | TBD                 | 27 de maig de 2022        |
+|   &nbsp;  | Amèrica del Sud         |  4.43.0.77      | Complet           | Complet            | TBD                 | 01 de juliol de 2022       |
+|   &nbsp;  | Canadà                |  4.43.0.77      | Complet           | Complet            | TBD                 | 01 de juliol de 2022       |
+|   &nbsp;  | Índia                 |  4.43.0.77      | Complet           | Complet            | TBD                 | 01 de juliol de 2022       |
+|   &nbsp;  | França                |  4.43.0.77      | Complet           | Complet            | TBD                 | 01 de juliol de 2022       |
+|   &nbsp;  | República de Sud-àfrica          |  4.43.0.77      | Complet           | Complet            | TBD                 | 01 de juliol de 2022       |
+|   &nbsp;  | Suïssa           |  4.43.0.77      | Complet           | Complet            | TBD                 | 01 de juliol de 2022       |
 | Estació 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japó                 |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
-|   &nbsp;  | Pacífic asiàtic          |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
-|   &nbsp;  | Gran Bretanya         |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
-|   &nbsp;  | Oceania               |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
-|   &nbsp;  | Emirats Àrabs Units  |  4.42.0.70      | 13 de maig de 2022       | 13 de maig de 2022        | TBD                 | 03 de juny de 2022       |
+|   &nbsp;  | Japó                 |  4.43.0.77      | 03 de juny de 2022      | 03 de juny de 2022       | TBD                 | 08 de juliol de 2022       |
+|   &nbsp;  | Pacífic asiàtic          |  4.43.0.77      | 03 de juny de 2022      | 03 de juny de 2022       | TBD                 | 08 de juliol de 2022       |
+|   &nbsp;  | Gran Bretanya         |  4.43.0.77      | 03 de juny de 2022      | 03 de juny de 2022       | TBD                 | 08 de juliol de 2022       |
+|   &nbsp;  | Oceania               |  4.43.0.77      | 03 de juny de 2022      | 03 de juny de 2022       | TBD                 | 08 de juliol de 2022       |
+|   &nbsp;  | Emirats Àrabs Units  |  4.43.0.77      | 03 de juny de 2022      | 03 de juny de 2022       | TBD                 | 08 de juliol de 2022       |
 | Estació 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.41.0.45      | Complet           | Complet            | 4.42.0.70           | 13 de maig de 2022        |
+|   &nbsp;  | Europa                |  4.42.0.70      | Complet           | Complet            | 4.43.0.77           | 10 de juny de 2022       |
 | Estació 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Nord         |  4.41.0.45      | Complet           | Complet            | 4.42.0.70           | 20 de maig de 2022        |
+|   &nbsp;  | Amèrica del Nord         |  4.42.0.70      | Complet           | Complet            | 4.43.0.77           | 17 de juny de 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendari de llançaments per a la gestió de projectes i la comptabilitat a l'entorn d'aplicacions de finances i operacions
 

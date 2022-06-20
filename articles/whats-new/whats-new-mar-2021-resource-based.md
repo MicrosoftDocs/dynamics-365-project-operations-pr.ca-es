@@ -1,24 +1,24 @@
 ---
 title: 'Novetats de març de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest tema proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de març de 2021 del Project Operations per a escenaris de recursos/sense existències.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de març de 2021 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
-ms.translationtype: MT
+ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: HT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932928"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de març de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest tema s'aplica als components i versions següents del Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
 - Project Operations en entorn del Dataverse versió 4.8.0.91 
 - Gestió de projectes i comptabilitat sobre Dynamics 365 Finance entorn versió 10.0.16 

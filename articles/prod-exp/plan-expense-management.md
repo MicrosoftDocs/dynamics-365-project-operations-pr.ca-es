@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933986"
 ---
 # <a name="configure-expense-management"></a>Configurar l'administració de despeses
 
-Aquest tema descriu les consideracions i les decisions que heu de prendre durant el procés de planificació abans de configurar l'administració de despeses. A l'administració de despeses, es pot emmagatzemar informació sobre els mètodes de pagament, les sol·licituds de viatge, els informes de despeses, les normes, etc.
+En aquest article es descriuen les consideracions i les decisions que heu de prendre durant el procés de planificació abans de configurar la gestió de despeses. A l'administració de despeses, es pot emmagatzemar informació sobre els mètodes de pagament, les sol·licituds de viatge, els informes de despeses, les normes, etc.
 
 Com que moltes de les decisions que preneu quan planifiqueu la vostra configuració per a l'administració de despeses es basen en la jerarquia i l'estructura financera de la vostra organització, cal que consulteu els documents de planificació per a aquestes àrees.
 
