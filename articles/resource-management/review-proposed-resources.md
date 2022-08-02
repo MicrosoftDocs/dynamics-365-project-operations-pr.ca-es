@@ -1,6 +1,6 @@
 ---
 title: Revisió dels recursos proposats
-description: Aquest article proporciona informació sobre com proposar els recursos del projecte.
+description: Aquest article proporciona informació sobre com proposar recursos del projecte.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924832"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183962"
 ---
 # <a name="review-proposed-resources"></a>Revisió dels recursos proposats
 
@@ -40,8 +40,8 @@ Per revisar els recursos proposats, seguiu aquests passos:
     Es produeixen les següents actualitzacions d'estat:
 
     - A la pàgina **Auxiliar de planificació**, els indicadors d'estat s'actualitzen per indicar que es proposa la reserva, no que es reserva de manera fixa.
-    - A la sol·licitud de recursos, l'estat canvia a **Necessita revisió**.
-    - A la pestanya **Equip** del projecte, el valor **Estat de la sol·licitud** de l'equip genèric es canvia a **Necessita revisió**.
+    - A la sol·licitud de recurs, el revisor de la sol·licitud hauria de canviar l'estat a **Revisió de necessitats**.
+    - A la **pestanya Equip** del projecte, el valor Estat **de sol·licitud del membre de l'equip genèric es** canvia automàticament a **Revisió de necessitats**.
 
 L'administrador de projectes pot acceptar o rebutjar la proposta.
 

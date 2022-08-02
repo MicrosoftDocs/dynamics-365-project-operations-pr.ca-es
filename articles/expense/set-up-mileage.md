@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930122"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064266"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Configuració del quilometratge amb els nivells de la taxa de quilometratge
 
@@ -50,5 +50,15 @@ La característica **Càlcul d'imports de quilometratge per a diversos nivells d
 
 Després d'habilitar la característica, restabliu els nivells de quilometratge per reflectir correctament el valor del camp **Quantitat**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Habiliteu el càlcul de totals de quilometratge per exercici fiscal funció
+
+El **càlcul de totals de quilometratge per exercici fiscal** funció permet una nova configuració en paràmetres de gestió de despeses que realitza càlculs de totals de quilometratge per exercici fiscal en lloc de l'any natural. Completeu els passos següents per habilitar aquesta característica.
+
+1. Aneu a **Àrees de treball** > **Administració de característiques**.
+1. A la llista, localitzeu i seleccioneu **Càlcul de totals de quilometratge per exercici fiscal** i, a continuació, seleccioneu **Habilita ara**.
+1. Aneu a **Configuració de despeses** > **Paràmetres** > **de gestió de despeses generals** > **·**.
+1. A la **pàgina Paràmetres** de gestió de despeses, localitzeu i habiliteu **Utilitza exercici fiscal per als totals** de quilometratge.
+
+Després d'activar **Use exercici fiscal per als totals** de quilometratge, els totals de quilometratge es calculen per exercici fiscal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

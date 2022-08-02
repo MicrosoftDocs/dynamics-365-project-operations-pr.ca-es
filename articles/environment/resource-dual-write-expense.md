@@ -1,30 +1,30 @@
 ---
 title: Integració de l'administració de despeses
-description: En aquest article s'ofereix informació sobre la integració de l'informe de despeses a les operacions del projecte mitjançant la doble escriptura.
+description: Aquest article proporciona informació sobre la integració d'informes de despeses a Project Operations mitjançant escriptura dual.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924602"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029197"
 ---
 # <a name="expense-management-integration"></a>Integració de l'administració de despeses
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-En aquest article s'ofereix informació sobre la integració dels informes de despeses en el desplegament [complet de despeses de Project Operations](../expense/expense-overview.md) mitjançant la doble escriptura.
+Aquest article proporciona informació sobre la integració d'informes de despeses en el desplegament [complet de despeses del Project Operations](../expense/expense-overview.md) mitjançant la doble escriptura.
 
 ## <a name="expense-categories"></a>Categories de despesa
 
-En un desplegament complet de despeses, es creen i mantenen categories de despeses a les aplicacions finances i operacions. Per crear una categoria de despesa nova, seguiu aquests passos:
+En un desplegament complet de despeses, es creen i mantenen categories de despeses a les aplicacions de finances i operacions. Per crear una categoria de despesa nova, seguiu aquests passos:
 
-1. Al Microsoft Dataverse, creeu una categoria de **Transacció**. La integració de doble escriptura sincronitzarà aquesta categoria de transacció amb les aplicacions financeres i operacions. Per obtenir més informació, vegeu [Configuració de les categories de projecte](/dynamics365/project-operations/project-accounting/configure-project-categories) i [Configuració del Project Operations i integració de dades de configuració](resource-dual-write-setup-integration.md). Com a resultat d'aquesta integració, el sistema crea quatre registres de categories compartides a les aplicacions de finances i operacions.
+1. Al Microsoft Dataverse, creeu una categoria de **Transacció**. La integració de doble escriptura sincronitzarà aquesta categoria de transaccions amb les aplicacions de finances i operacions. Per obtenir més informació, vegeu [Configuració de les categories de projecte](/dynamics365/project-operations/project-accounting/configure-project-categories) i [Configuració del Project Operations i integració de dades de configuració](resource-dual-write-setup-integration.md). Com a resultat d'aquesta integració, el sistema crea quatre registres de categories compartits en aplicacions de finances i operacions.
 2. A Finances, aneu a **Administració de despeses** > **Configuració** > **Categories compartides** i seleccioneu una categoria compartida amb una classe de transacció **Despesa**. Definiu el paràmetre **Es pot utilitzar en despesa** com a **Cert** i definiu el tipus de despesa que s'utilitzarà.
 3. Amb aquest registre de categoria compartida, creeu una categoria de despesa nova anant a **Administració de despeses** > **Configuració** > **Categories de despeses** i seleccionant **Crea**. Quan el registre es desa, la doble escriptura utilitza l'assignació de taules **Entitat d'exportació de categories de despeses del projecte d'integració del Project Operations (msdyn\_despesescategories)** per sincronitzar aquest registre amb el Dataverse.
 

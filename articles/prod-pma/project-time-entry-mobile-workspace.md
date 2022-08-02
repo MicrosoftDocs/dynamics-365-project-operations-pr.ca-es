@@ -1,6 +1,6 @@
 ---
 title: Àrea de treball mòbil Entrada de temps del projecte
-description: En aquest article s'ofereix informació sobre l'àrea de treball mòbil d'entrada de l'hora del projecte. Aquesta àrea de treball permet als usuaris introduir i desar el temps d'un projecte mitjançant el seu dispositiu mòbil.
+description: Aquest article proporciona informació sobre l'espai de treball mòbil d'entrada al temps del projecte. Aquesta àrea de treball permet als usuaris introduir i desar el temps d'un projecte mitjançant el seu dispositiu mòbil.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 50388bd024fdf2de0d28e49ef07a01b03c6b88f0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919525"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029656"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Àrea de treball mòbil Entrada de temps del projecte
 
 [!include [banner](../includes/banner.md)]
 
-En aquest article s'ofereix informació sobre l'àrea **de treball mòbil d'entrada de l'hora** del projecte. Aquesta àrea de treball permet als usuaris introduir i desar el temps d'un projecte mitjançant el seu dispositiu mòbil.
+Aquest article proporciona informació sobre l'espai **de treball mòbil d'entrada** al temps del projecte. Aquesta àrea de treball permet als usuaris introduir i desar el temps d'un projecte mitjançant el seu dispositiu mòbil.
 
 Aquesta àrea de treball mòbil està dissenyada per utilitzar-se amb l'aplicació mòbil Dynamics 365 Unified Ops. 
 
@@ -82,7 +82,7 @@ Si la versió 1611 amb l'actualització de la plataforma 3 o posterior s'ha impl
 
 ## <a name="download-and-install-the-mobile-app"></a>Descarregar i instal·lar l'aplicació mòbil
 
-Descarrega't i instal·la l'aplicació mòbil Finances i Operacions:
+Descarrega't i instal·la l'aplicació mòbil de finances i operacions:
 
 -   [Per a telèfons Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Per a iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -1,21 +1,21 @@
 ---
 title: Factures de projecte de correcció
-description: En aquest article s'ofereix informació sobre com crear i confirmar factures correctores a Les operacions del projecte.
+description: En aquest article es proporciona informació sobre com crear i confirmar factures correctives al Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c6176247db37c3276d775050497585ead011e5a1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 3e8e10d69368f4704ec6121106fbfd35394dc441
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917334"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023647"
 ---
 # <a name="corrective-project-invoices"></a>Factures de projecte de correcció
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Implementació bàsica: tracte de facturació proforma, Project Operations per a escenaris basats en recursos/sense cotització_
 
 Una factura confirmada del projecte es pot corregir per processar canvis o crèdits com s'hagin negociat amb el client i l'administrador del projecte.
 

@@ -1,25 +1,25 @@
 ---
 title: Solucionar problemes de funcionament a la quadrícula de tasques
-description: Aquest article proporciona la informació necessària per resoldre problemes quan es treballa a la quadrícula de tasques.
+description: En aquest article es proporciona la informació de resolució de problemes necessària quan es treballa a la quadrícula tasques.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911032"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188219"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemes de funcionament a la quadrícula de tasques 
 
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/no mantinguts en existències, implementació bàsica: tracte de facturació proforma, Project for the web_
 
-La quadrícula de tasques que utilitza el Dynamics 365 Project Operations és un iframe allotjat dins del Microsoft Dataverse. Com a resultat d'aquest ús, s'han de complir requisits específics per garantir el funcionament correcte de l'autenticació i l'autorització. En aquest article es descriuen els problemes comuns que poden afectar la capacitat de renderitzar la quadrícula o gestionar tasques a l'estructura del desglossament del treball (WBS).
+La quadrícula de tasques que utilitza Dynamics 365 Project Operations és un iframe allotjat dins de Microsoft Dataverse. Com a resultat d'aquest ús, s'han de complir requisits específics per garantir l'autenticació i el funcionament correcte de l'autorització. En aquest article es descriuen els problemes comuns que poden afectar la capacitat de renderitzar la xarxa o gestionar tasques a l'estructura del desglossament del treball (WBS).
 
 Alguns problemes comuns són:
 
@@ -32,7 +32,7 @@ Alguns problemes comuns són:
 
 ### <a name="mitigation-1-enable-cookies"></a>Mitigació 1: habilitar les galetes
 
-El Project Operations requereix que s'habilitin les galetes de tercers per representar l'estructura del desglossament del treball. Quan les galetes de tercers no estan habilitades, en lloc de veure les tasques, veureu una pàgina en blanc quan seleccioneu la pestanya **Tasques** a la pàgina **Projecte**.
+El Project Operations requereix que s'habilitin les galetes de tercers per representar l'estructura del desglossament del treball. Quan les galetes de tercers no estiguin habilitades, en lloc de veure tasques, veureu una pàgina en blanc quan seleccioneu la **pestanya Tasques** de la **pàgina Projecte**.
 
 Per als navegadors Microsoft Edge o Google Chrome, a continuació s'explica com s'actualitza la configuració del navegador per habilitar les galetes de tercers.
 
@@ -72,11 +72,14 @@ El Project Operations requereix que un paràmetre de projecte faci referència a
 4. Suprimiu el camp de la pàgina **Paràmetres del projecte**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigació 3: inicia sessió a project.microsoft.com
-Microsoft Edge Al navegador, obriu una pestanya nova, aneu a project.microsoft.com i inicieu la sessió mitjançant la funció d'usuari que utilitzeu per accedir a les operacions del projecte.
+
+Al navegador, obriu una pestanya nova, aneu a project.microsoft.com i inicieu la sessió amb la funció d'usuari que utilitzeu per accedir al Project Operations. És important que només un usuari hagi iniciat la sessió en un producte de Microsoft al navegador. El missatge d'error "login.microsoftonline.com refusat a connectar-se" es produeix més sovint quan hi ha més d'un usuari que ha iniciat la sessió, tal com es mostra a la il·lustració següent.
+
+![Trieu una pàgina d'inici de sessió del compte que mostri que dos usuaris han iniciat la sessió.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problema: el projecte no es carrega i la interfície d'usuari es troba atrapada en el control giratori
 
-Per a l'autenticació, cal habilitar les finestres emergents per carregar la quadrícula Tasca. Si les finestres emergents no estan habilitades, la pantalla es quedarà bloquejada en la càrrega del control giratori. Al gràfic següent es mostra l'adreça URL amb una etiqueta emergent bloquejada a la barra d'adreces, la qual cosa fa que el control giratori es bloquegi en intentar carregar la pàgina. 
+Per a l'autenticació, cal habilitar les finestres emergents per carregar la quadrícula Tasca. Si les finestres emergents no estan habilitades, la pantalla es quedarà bloquejada en la càrrega del control giratori. El gràfic següent mostra l'URL amb una etiqueta emergent bloquejada a la barra d'adreces, cosa que provoca que el filador es quedi atrapat intentant carregar la pàgina. 
 
    ![Control giratori encallat i bloqueig de finestres emergents.](media/popupsblocked.png)
 
@@ -112,7 +115,7 @@ Com a alternativa, també podeu completar els passos següents.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problema 3: administració de privilegis per al Project for the Web
 
-El Project Operations es basa en un servei de planificació extern. El servei requereix que un usuari tingui diverses funcions assignades que li permetin llegir i escriure a entitats relacionades amb el sistema WBS. Aquestes entitats inclouen tasques de projecte, assignacions de recursos i dependències de tasques. Si un usuari no pot representar el sistema WBS quan va a la pestanya **Tasques**, probablement és perquè **Project** for **Project Operations** no s'ha habilitat. Un usuari pot rebre un error de funció de seguretat o un error relacionat amb una denegació d'accés.
+El Project Operations es basa en un servei de planificació extern. El servei requereix que un usuari tingui assignats diversos rols que li permetin llegir i escriure a entitats relacionades amb el WBS. Aquestes entitats inclouen tasques de projecte, assignacions de recursos i dependències de tasques. Si un usuari no pot representar el WBS quan navega a la **pestanya Tasques**, probablement sigui perquè **el Project** for Project for **Project Operations** no s'ha habilitat. Un usuari pot rebre un error de funció de seguretat o un error relacionat amb una denegació d'accés.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Mitigació 1: validar les funcions de seguretat d'usuari d'aplicació i usuari final
 

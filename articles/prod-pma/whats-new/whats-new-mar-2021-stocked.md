@@ -1,18 +1,18 @@
 ---
 title: Novetats o canvis al Project Operations a març de 2021 per a escenaris basats en producció/mantinguts en existències
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de març de 2021 d'Operacions de projectes per a escenaris emmagatzemats / basats en la producció.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de març de 2021 del Project Operations per a escenaris basats en la producció o en estoc.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911308"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028736"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Novetats o canvis al Project Operations a març de 2021 per a escenaris basats en producció/mantinguts en existències
 
@@ -20,7 +20,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en producció/manting
 
 Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
-- Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.17
+- Administració i comptabilitat de projectes en Dynamics 365 Finance'entorn versió 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 En aquesta versió s'inclouen les característiques següents:
@@ -121,7 +121,7 @@ En aquesta versió s'inclouen les característiques següents:
 | Administració i comptabilitat de projectes | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | El mètode de classe d'estructura de desglossament del treball heretat, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** és obsolet.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reguladores de les aplicacions financeres i d'operacions, consulta [Actualitzacions reguladores](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reguladores de les aplicacions de finances i operacions, vegeu [Actualitzacions normatives](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

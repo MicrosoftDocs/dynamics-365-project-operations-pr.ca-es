@@ -1,25 +1,25 @@
 ---
 title: Actualitzeu el Project Operations a l'entorn de finances
-description: En aquest article s'ofereix informació sobre com actualitzar les operacions del projecte a l'entorn Dynamics 365 Finance.
+description: En aquest article es proporciona informació sobre com actualitzar les Operacions del Projecte a l'entorn Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912458"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030023"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Actualitzeu el Project Operations a l'entorn de finances
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
 
-En aquest article s'ofereix informació sobre com actualitzar-se Dynamics 365 Project Operations en el seu entorn Dynamics 365 Finance. Hi ha tres procediments que són necessaris per actualitzar el Project Operations a l'actualització 5 (UR5):
+En aquest article es proporciona informació sobre com actualitzar Dynamics 365 Project Operations a l'entorn Dynamics 365 Finance. Hi ha tres procediments que són necessaris per actualitzar el Project Operations a l'actualització 5 (UR5):
 
 - [Importa el paquet al vostre projecte de visualització prèvia](#import)
 - [Aplica l'actualització](#apply)
@@ -119,7 +119,7 @@ Les actualitzacions següents per als privilegis de seguretat per a les entitats
 4. A la pàgina **Vversió de l'assignació de la taula**, apliqueu una versió nova del mapa a cadascuna de les tres entitats.
 5. A la pàgina **Escriptura doble**, seleccioneu executa per reiniciar les assignacions.
 6. A la llista de mapes, seleccioneu l'assignació **Llibre major (msdyn_ledgers)** amb tots els requisits previs i activeu la casella de selecció **Sincronització inicial**. 
-7. Al camp Mestre per a la **sincronització** inicial, seleccioneu **Aplicacions de finances i operacions** i seleccioneu **Executa**.
+7. Al camp Màster per a la **sincronització** inicial, seleccioneu **Aplicacions** financeres i operatives i, a continuació, Seleccioneu **Executa**.
  
  ![Sincronització de l'assignació de llibres majors.](media/DW6.png)
  

@@ -1,21 +1,21 @@
 ---
 title: Administració de les llistes de preus de projectes a les ofertes de projectes
-description: En aquest article s'ofereix informació sobre com ara treballar amb llistes de preus de projecte entre cometes.
+description: Aquest article proporciona informació sobre com treballar amb les llistes de preus del projecte a les cotitzacions.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929938"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023601"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Administració de les llistes de preus de projectes a les ofertes de projectes 
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Implementació bàsica: tracte de facturació proforma, Project Operations per a escenaris basats en recursos/sense cotització_
 
 Les ofertes del projecte estan dissenyades per admetre llistes de preus de vendes efectives de diverses dates. Amb el Dynamics 365 Project Operations, s'afegeix una nova entitat associada anomenada **Llistes de preus del projecte**. Aquesta entitat té una relació d'1 a diversos a una oferta de projecte.
 

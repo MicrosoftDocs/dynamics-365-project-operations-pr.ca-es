@@ -1,6 +1,6 @@
 ---
-title: Sincronitza les categories de despeses del projecte entre finances i operacions i automatització de serveis de projectes
-description: En aquest article es descriuen les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les categories de despeses del projecte entre Microsoft Dynamics 365 Finance i Dynamics 365 Project Service Automation.
+title: Sincronitzar les categories de despesa del projecte entre finances i operacions i Project Service Automation
+description: Aquest article descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar les categories de despeses del projecte entre Microsoft Dynamics 365 Finance i Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 8eba7defb93bd880db4b0e8fe425d07312cf5cb9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927224"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028920"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronitza les categories de despeses del projecte entre finances i operacions i automatització de serveis de projectes
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronitzar les categories de despesa del projecte entre finances i operacions i Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-En aquest article es descriuen les plantilles i les tasques subjacents que s'utilitzen per sincronitzar les categories de despeses del projecte entre Dynamics 365 Finance i Dynamics 365 Project Service Automation.
+En aquest article es descriuen les plantilles i tasques subjacents que s'utilitzen per sincronitzar les categories de despeses del projecte entre Dynamics 365 Finance i Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - La integració de tasques de projecte, les categories de transaccions de despeses, les estimacions d'hores, les estimacions de despeses i el bloqueig de funcionalitats estan disponibles a la versió 8.0.

@@ -1,18 +1,18 @@
 ---
 title: 'Novetats de desembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de desembre de 2020 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de desembre de 2020 del Project Operations per a escenaris basats en recursos o no emmagatzemats.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933020"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029702"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de desembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -21,7 +21,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
 - Project Operations en entorn del Dataverse versió 4.5.0.134
-- Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.15
+- Administració i comptabilitat de projectes en entorn Dynamics 365 Finance versió 10.0.15
 
 Per obtenir informació sobre com actualitzar a aquesta versió, vegeu [Actualitzar el Project Operations al vostre entorn de Finances](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ En aquesta versió s'inclouen les característiques següents:
 | Planificació i seguiment de projectes | 2057197          | La còpia de la línia d'estimació amb referència de tasca no està admesa                                                                                                     |
 | Planificació i seguiment de projectes | 2060687          | L'advertiment de fus horari ara desapareix després d'un temps concret                                                                                                      |
 | Administració de recursos           | 1832887          | L'ID de categoria de recurs per defecte ha de ser estàtic per garantir càrregues de dades repetibles per a entorns de Dataverse i de Finances                                                 |
-| Temps i despesa              | 2081793          | **El nom** de la categoria de despeses s'ha d'assignar al **camp Descripció de la** categoria de despeses a les aplicacions Finances i Operacions                                                  |
+| Temps i despesa              | 2081793          | **El nom** de la categoria de despesa s'ha d'assignar al camp Descripció **de la categoria de despeses de** les aplicacions de finances i operacions                                                  |
 | Temps i despesa              | 2034882          | El botó **Nou** es visualitza dues vegades a la barra d'ordres per a les entrades de temps quan Dynamics 365 Field Service està instal·lat                                          |
 | Temps i despesa              | 2056028          | Actualitza la pàgina **Edició de temps** per incloure la línia de temps                                                                                                              |
 | Temps i despesa              | 1983747          | El gràfic d'entrada de temps mostra dades addicionals                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestió de projectes i comptabilitat en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració i comptabilitat de projectes en Dynamics 365 Finance
 
 | Àrea de característiques                        | Número de referència | Actualització de qualitat                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ En aquesta versió s'inclouen les característiques següents:
 | Viatges i despesa                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | El flux de treball de publicació automàtica de l'informe de despeses s'ha completat, però la factura no s'ha publicat                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reguladores de les aplicacions financeres i d'operacions, consulta [Actualitzacions reguladores](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reguladores de les aplicacions de finances i operacions, vegeu [Actualitzacions normatives](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

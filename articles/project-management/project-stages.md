@@ -1,6 +1,6 @@
 ---
 title: Fases del projecte
-description: En aquest article s'ofereix informació sobre les fases del projecte que estan disponibles a Microsoft Dynamics Les operacions del projecte.
+description: Aquest article proporciona informació sobre les etapes del projecte que estan disponibles a Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911124"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177367"
 ---
 # <a name="project-stages"></a>Fases del projecte
 
@@ -47,7 +47,7 @@ Quan associeu un projecte a una oferta o creeu un projecte a partir d'una oferta
 
 ## <a name="plan"></a>Pla
 
-Quan guanyeu una oferta associada amb un projecte, i quan el projecte avança a la fase **Contracte**, la fase de projecte s'actualitza a **Pla**. Quan el projecte està en la fase **Pla**, els detalls del contracte es mostren a la pàgina **Entitat del projecte**.
+Quan guanyeu una oferta associada amb un projecte, i quan el projecte avança a la fase **Contracte**, la fase de projecte s'actualitza a **Pla**. Mentre el projecte es troba en fase de **pla**, la **pestanya Vendes** de la **pàgina Entitat** del projecte mostra els detalls del contracte.
 
 ## <a name="deliver"></a>Lliurament
 

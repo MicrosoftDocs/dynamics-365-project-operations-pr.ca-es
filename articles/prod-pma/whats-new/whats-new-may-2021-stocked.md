@@ -1,18 +1,18 @@
 ---
 title: Novetats i canvis de maig de 2021 del Project Operations per a escenaris basats en producció o mantinguts en existències
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de maig de 2021 de Project Operations per a escenaris emmagatzemats / basats en la producció.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de maig de 2021 de Project Operations per a escenaris basats en la producció o en estoc.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927132"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029380"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Novetats i canvis de maig de 2021 del Project Operations per a escenaris basats en producció o mantinguts en existències
 
@@ -20,7 +20,7 @@ _ **S'aplica a**: Project Operations per a escenaris basats en producció/mantin
 
 Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
-- Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.19
+- Administració i comptabilitat de projectes en Dynamics 365 Finance'entorn versió 10.0.19
  
 ### <a name="quality-updates"></a>Actualitzacions de qualitat
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ Aquest article s'aplica als components i versions següents Dynamics 365 Project
 | Viatge i despesa                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Hi ha problemes de sincronització amb l'aplicació mòbil de despeses. 
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reguladores de les aplicacions financeres i d'operacions, consulta [Actualitzacions reguladores](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al Lifecycle Services (LCS) i visualitzar les actualitzacions normatives planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reguladores de les aplicacions de finances i operacions, vegeu [Actualitzacions normatives](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al Lifecycle Services (LCS) i visualitzar les actualitzacions normatives planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

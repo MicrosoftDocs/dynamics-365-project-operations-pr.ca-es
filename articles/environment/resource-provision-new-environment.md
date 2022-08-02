@@ -1,18 +1,18 @@
 ---
 title: Proveïment d'un entorn nou
-description: En aquest article s'ofereix informació sobre com proveir un entorn d'operacions de projecte nou.
+description: En aquest article es proporciona informació sobre com proveir un nou entorn d'Operacions del Projecte.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931594"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028485"
 ---
 # <a name="provision-a-new-environment"></a>Proveïment d'un entorn nou
 
@@ -20,7 +20,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 
 
-En aquest article s'ofereix informació sobre com proveir un nou Dynamics 365 Project Operations entorn per a escenaris basats en recursos o no emmagatzemats.
+Aquest article proporciona informació sobre com proveir un entorn nou Dynamics 365 Project Operations per a escenaris basats en recursos o no emmagatzemats.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Habilitar el proveïment automatitzat del Project Operations en un projecte del LCS
 
@@ -34,7 +34,7 @@ Seguiu aquests passos per habilitar el flux de proveïment automatitzat del Proj
 
 ## <a name="provision-a-project-operations-environment"></a>Proveïment d'un entorn del Project Operations
 
-1. Obriu un entorn [de demostració Dynamics 365 Finance](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) nou o [un desplegament de l'entorn](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) de producció de l'espai aïllat. 
+1. Obriu un nou entorn de demostració Dynamics 365 Finance [o](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) una [implementació de l'entorn](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) de producció / espai aïllat. 
 2. Seguiu els passos de l'auxiliar **Proveïment de l'entorn**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Pot ser que hàgiu d'aplicar actualitzacions de qualitat al vostre entorn del Fi
 
     ![Aplicar les solucions.](./media/13ApplySolutions.png)
 
-5. Seleccioneu ambdues solucions, **Dynamics 365 Finance and Operations mapa** d'entitats d'escriptura dual i **Dynamics 365 Project Operations assignacions** d'entitats d'escriptura dual i, a continuació, seleccioneu **Aplica**.
+5. Seleccioneu ambdues solucions, **Dynamics 365 Finance mapa d'entitats d'escriptura dual i** mapes **Dynamics 365 Project Operations** d'entitats d'escriptura dual i, a continuació, seleccioneu **Aplica**.
 
     ![Confirmar les solucions.](./media/14ConfirmSolutions.png)
 

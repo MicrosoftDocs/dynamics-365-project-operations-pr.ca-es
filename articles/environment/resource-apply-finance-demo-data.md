@@ -1,24 +1,24 @@
 ---
 title: Aplicació de les dades de demostració en un entorn allotjat al núvol del Finance
-description: En aquest article s'explica com aplicar les dades de demostració de Project Operations a un entorn Dynamics 365 Finance allotjat al núvol.
+description: En aquest article s'explica com aplicar les dades de demostració del Project Operations a un entorn allotjat al núvol Dynamics 365 Finance.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924648"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029885"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicació de les dades de demostració en un entorn allotjat al núvol del Finance
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
 > [!IMPORTANT]
-> Aquest article només és aplicable Microsoft Dynamics a la versió 10.0.13 de 365 Finance i només es pot realitzar en un entorn allotjat al núvol. Completeu els passos d'aquest article **ABANS d'aplicar** actualitzacions de qualitat a l'entorn.
+> Aquest article només Microsoft Dynamics és aplicable a la versió 365 finance 10.0.13 i només es pot realitzar en un entorn allotjat al núvol. Completeu els passos d'aquest article **ABANS d'aplicar** actualitzacions de qualitat a l'entorn.
 
 1. Al projecte del LCS, obriu la pàgina **Detalls de l'entorn**. Observeu que inclou els detalls necessaris per connectar-se a l'entorn mitjançant el protocol d'escriptori remot (RDP).
 

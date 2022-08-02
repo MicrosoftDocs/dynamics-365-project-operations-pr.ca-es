@@ -1,17 +1,17 @@
 ---
 title: Registre per a les proves del Project Operations
-description: En aquest article s'ofereix informació sobre com implementar una versió de prova de Dynamics 365 Project Operations.
+description: Aquest article proporciona informació sobre com implementar una versió de prova de Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
-ms.translationtype: HT
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959613"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029288"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registre per a les proves del Project Operations 
 
@@ -19,9 +19,9 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense exi
 
 
 
-En aquest article s'explica com subscriure's a l'oferta de socis de previsualització i implementar un Dynamics 365 Project Operations entorn.
+En aquest article s'explica com subscriure's a l'oferta de socis de visualització prèvia i implementar un Dynamics 365 Project Operations entorn.
 
-Amb la nova versió de prova de Project Operations, podeu implementar automàticament qualsevol dels tres escenaris d'implementació admesos completant un qüestionari que recomana el millor mètode d'implementació. Aquest article proporciona informació sobre com:
+Amb la nova versió de prova de Project Operations, podeu implementar automàticament qualsevol dels tres escenaris d'implementació admesos completant un qüestionari que recomana el millor mètode d'implementació. En aquest article s'ofereix informació sobre com:
 
 - Bescanviar l'oferta de prova.
 - Iniciar el proveïment.
@@ -86,18 +86,18 @@ Abans de començar, inicieu la sessió en un navegador amb el compte de treball 
  
   Quan s'ha completat el proveïment, l'estat del vostre entorn és **A punt**. El proveïment de l'entorn inclou la implementació de dades de demostració.
  
-4.  Seleccioneu l'URL respectiu Microsoft Dataverse i els URL de les aplicacions de finances i operacions per validar la implementació.
+4.  Seleccioneu l'URL respectiva Microsoft Dataverse i les aplicacions de finances i operacions URL per validar la implementació.
 
 ## <a name="configuring-dual-write"></a>Configuració de l'escriptura doble
-- Per configurar les funcions de seguretat per a la doble escriptura, vegeu [Actualitza la configuració de seguretat a Les operacions del projecte al Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Per accedir a la configuració de doble escriptura, aneu a la instància finances i operacions i, a continuació, aneu a **l'escriptura dual de l'administració de** > **dades**.
-- Per configurar mapes de doble escriptura, vegeu [Executa els mapes](resource-provision-new-environment.md#run-project-operations-dual-write-maps) de doble escriptura d'operacions del projecte.
+- Per configurar les funcions de seguretat per escriure dues vegades, vegeu [Actualització dels paràmetres de seguretat del Project Operations a Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Per accedir a la configuració de doble escriptura, aneu a la instància de finances i operacions i, a continuació, aneu a **Gestió de dades** > **Escriptura dual**.
+- Per configurar mapes de doble escriptura, vegeu [Executar mapes de doble escriptura de project operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Assignar llicències
 
 Necessitareu accés d'administrador al portal de l'Microsoft 365 de l'organització per completar els passos següents.
 
-1. Aneu al [Microsoft 365 centre](https://portal.office.com/) d'administració per assignar les llicències als usuaris.
+1. Aneu al Centre [Microsoft 365 d'administració](https://portal.office.com/) per assignar les llicències als usuaris.
 
    ![Pàgina principal del centre d'administració](./media/14AdminPortal.png)
 
@@ -125,7 +125,7 @@ Els recursos següents proporcionen instruccions útils a l'hora de començar a 
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Puc ampliar la versió de prova passats els 30 dies?
 Per ampliar la versió de prova, seguiu els passos següents.
 
-1. **Microsoft 365 Al Centre** d'administració, aneu a **Facturar els** > **vostres productes**.
+1. Al Centre d'administració **Microsoft 365, aneu a** Facturació dels **vostres productes** > **.**
 2. Seleccioneu **Dynamics 365 Project Operations (CE): versió preliminar de prova**.
 3. A **Data de caducitat**, seleccioneu **Amplia la data**.
 

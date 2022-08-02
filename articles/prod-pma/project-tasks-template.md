@@ -1,5 +1,5 @@
 ---
-title: Sincronitza les tasques del projecte directament des del Project Service Automation fins a les finances i operacions
+title: Sincronitzeu les tasques del projecte directament des del Project Service Automation fins al finançament i les operacions
 description: En aquest article es descriu la plantilla i la tasca subjacent que s'utilitzen per sincronitzar les tasques del projecte directament des de Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: ed559fcd9e0e666f68e7d9f4f1fca91417fe4970
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931134"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028297"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronitza les tasques del projecte directament des del Project Service Automation fins a les finances i operacions
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronitzeu les tasques del projecte directament des del Project Service Automation fins al finançament i les operacions
 
 [!include[banner](../includes/banner.md)]
 
@@ -67,11 +67,11 @@ Abans que es produeixi la sincronització de tasques del projecte, cal sincronit
 
 ## <a name="power-query"></a>Power Query
 
-Heu d'utilitzar Microsoft Power Query per a l'Excel per filtrar dades si es compleix aquesta condició:
+Heu d'utilitzar Microsoft Power Query for Excel per filtrar les dades si es compleix aquesta condició:
 
 - Teniu registres específics de recurs en una tasca del projecte.
 
-Si heu d'utilitzar Power Query, seguiu aquesta guia:
+Si heu d'utilitzar Power Query, seguiu aquesta pauta:
 
 - La plantilla Tasques del projecte (PSA a Fin and Ops) té un filtre per defecte que exclou els registres específics d'un recurs d'una tasca del projecte establint el filtre a **IsLineTask** com a **False**. Si creeu una plantilla pròpia, heu d'afegir aquest filtre.
 

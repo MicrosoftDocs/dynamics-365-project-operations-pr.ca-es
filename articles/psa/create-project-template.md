@@ -4,7 +4,7 @@ description: Com crear una plantilla de projecte al Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598982"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177413"
 ---
 # <a name="create-a-project-template-project-service"></a>Crea una plantilla de projecte (Project Service)
 
@@ -35,14 +35,21 @@ Les plantilles de projecte us ajuden a estalviar temps si la vostra empresa pres
 ## <a name="components-of-project-template"></a>Components de la plantilla de projecte
  Una plantilla de projecte consta de tres components:  
   
-- **Estructura del desglossament del treball**: una estructura del desglossament del treball d'una plantilla de projecte té el mateix conjunt d'elements que el projecte. Podeu crear una jerarquia de tasca, associar funcions a taques, definir atributs de planificació, definir dependències i visualitzar totes les dades al gràfic de Gantt. L'estructura del desglossament de treball de les plantilles de projecte també admet modes de tasca per a cada tasca. No hi ha cap diferència entre una plantilla de projecte i un projecte quan es crea la planificació de treball.  
+- **Estructura del desglossament del treball**: una estructura del desglossament del treball d'una plantilla de projecte té el mateix conjunt d'elements que el projecte. Podeu crear una jerarquia de tasques, associar funcions a tasques, definir atributs de planificació, definir dependències i veure totes les dades al Gantt. L'estructura del desglossament del treball a les plantilles de projecte també admet modes de tasca per a cada tasca. No hi ha cap diferència entre una plantilla de projecte i un projecte a l'hora de crear una planificació de treball.  
   
 - **Estimacions de projecte**: les estimacions de projecte de les plantilles funcionen de la mateixa manera que amb els projectes, excepte la llista de preus utilitzada per definir que el cost i els preus de venda per defecte siguin sempre les llistes de preus de vendes i costos definides als paràmetres de l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. La resta de funcions són les mateixes que al projecte.  
   
 - **Formació de l'equip del projecte**: en formar un equip de projecte per a una plantilla de projecte, no podeu reservar un recurs amb nom d'una plantilla. Podeu utilitzar **Generar equip de projecte** a l'estructura del desglossament del treball per generar un conjunt de recursos genèrics. També podeu especificar les aptituds i competències necessàries per als recursos genèrics. Podeu substituir un recurs genèric per un recurs que es pot reservar a les plantilles de projecte.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Crear una plantilla de projecte a partir d'un projecte existent
+Podeu crear una plantilla de projecte a partir d'un projecte de les maneres següents:
+
+- **Estructura del desglossament** del treball: Una estructura de desglossament del treball en una plantilla derivada d'un projecte copiarà totes les tasques i dependències. Les assignacions que es creïn es basaran en els membres genèrics de l'equip que s'afegeixen a l'equip del projecte quan es crea la plantilla de projecte.
+- **Estimacions** del projecte: quan es crea una plantilla de projecte a partir d'un projecte existent, les estimacions del projecte d'origen es copien a la plantilla de projecte.
+- **Membres de l'equip** de projecte: quan es crea una plantilla a partir d'un projecte existent, tots els membres de l'equip nomenats se substitueixen pel recurs genèric de l'organització. Es mantenen tots els noms i rols de les posicions.
+
 ## <a name="create-a-project-from-a-template"></a>Crear un projecte a partir d'una plantilla  
- Podeu crear un projecte a partir d'una plantilla de les formes següents:  
+ Podeu crear un projecte a partir d'una plantilla de les maneres següents:  
   
 -   En crear un projecte a partir d'una oferta, podeu triar una plantilla de projecte al formulari de creació ràpida de projectes.  
   

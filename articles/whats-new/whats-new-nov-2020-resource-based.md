@@ -1,17 +1,17 @@
 ---
 title: 'Novetats de novembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de novembre de 2020 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de novembre de 2020 del Project Operations per a escenaris basats en recursos o no emmagatzemats.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923406"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029518"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de novembre de 2020: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -20,7 +20,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
 
 - Project Operations en entorn del CDS versió 4.4.0.70
-- Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.14
+- Administració i comptabilitat de projectes en Dynamics 365 Finance'entorn versió 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Actualitzacions al Project Operations per a escenaris basats en recursos/sense existències
 
@@ -42,7 +42,7 @@ Aquest article s'aplica als components i versions següents Dynamics 365 Project
 | Entrada de temps i despesa ràpida | 2059859          | S'obre una finestra emergent inesperada en crear una entrada de despesa.                                                                                                                         |
 | Un altre                        | 2044181          | [Desinstal·lació de la comanda de compra]: l'error "El registre no està disponible" es produeix quan intenteu desinstal·lar les solucions msdyn_ProjectServiceCore_Patch i msdyn_ProjectServiceCore.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestió de projectes i comptabilitat en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració i comptabilitat de projectes en Dynamics 365 Finance
 
 | Àrea de característiques        | Número de referència | Actualització de qualitat                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Aquest article s'aplica als components i versions següents Dynamics 365 Project
 | Comptabilitat del projecte  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Si habiliteu la característica, no són possibles diverses línies de contracte sense la integració del CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reguladores de les aplicacions financeres i d'operacions, consulta [Actualitzacions reguladores](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reguladores de les aplicacions de finances i operacions, vegeu [Actualitzacions normatives](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
