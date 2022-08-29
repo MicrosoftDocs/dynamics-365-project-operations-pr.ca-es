@@ -1,25 +1,23 @@
 ---
 title: Transicions d'estat en un subcontracte
-description: En aquest article s'expliquen les transicions d'estat en una subcontracta a Microsoft Dynamics 365 Project Operations a mesura que la subcontractació es crea, s'executa i es tanca.
+description: En aquest article s'expliquen les transicions estatals sobre una subcontractació a Microsoft Dynamics 365 Project Operations a mesura que es crea, s'executa i es tanca la subcontractació.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919726"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261170"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Transicions d'estat en un subcontracte 
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-En aquest article s'expliquen les transicions d'estat en una subcontracta a Microsoft Dynamics 365 Project Operations. Cada estat es representa com a esborrany, confirmat, tancat o cancel·lat. La següent imatge representa les transicions d'estat.
+En aquest article s'expliquen les transicions estatals sobre una subcontracta en Microsoft Dynamics 365 Project Operations. Cada estat es representa com a esborrany, confirmat, tancat o cancel·lat. La imatge següent representa les transicions d'estat.
 
 ![Model d'estat de subcontractació](../media/SubconStates.png)  
 
@@ -27,10 +25,10 @@ La taula següent proporciona una descripció del que representa cada estat en e
 
 | Estat o província | Descripció | Transicions permeses |
 | --- | --- | --- |
-| Esborrany | Això representa l'estat inicial d'una subcontracta. Les negociacions amb el venedor estan en curs. Les línies i els preus estan subjectes a modificacions. Una subcontracta en aquest estat es pot utilitzar per estimar i el personal dels requisits del projecte de recursos i materials. També es pot fer referència a temps, despesa i ús de material en un projecte. Una subcontracta en aquest estat es pot editar i suprimir. | Confirmat |
-| Confirmat | Això representa l'etapa d'una subcontracta després que s'hagin completat les negociacions amb el proveïdor sobre preus i articles de línia que es compren. No obstant això, el lliurament real de materials i/o treballs per part de recursos subcontractats continua. Una subcontracta en aquest estat es pot utilitzar per estimar i el personal dels requisits del projecte de recursos i materials. També es pot fer referència a temps, despesa i ús de material en un projecte. Una subcontracta d'aquest estat no es pot editar ni suprimir. El **botó Cancel·la** permet cancel·lar una subcontracta confirmada. El **botó Torna a obrir** us permet tornar a obrir la subcontracta per tornar-la a l'estat **d'esborrany**. Utilitzeu el **botó Tanca** per tancar una subcontracta confirmada. | Tancada <br> Cancel·lada <br> Esborrany |
-| Tancada | Això representa l'etapa d'una subcontracta quan es completa el lliurament real de materials i / o treballs per recursos subcontractats. Una subcontracta en aquest estat ja no es pot utilitzar per estimar i el personal dels requisits del projecte de recursos i materials. A més, ja no es pot fer referència a temps, despesa i ús de material en un projecte. Una subcontracta d'aquest estat no es pot editar ni suprimir. | cap |
-| Cancel·lada | Això representa l'etapa d'una subcontracta quan el lliurament real de materials i / o treballs per recursos subcontractats ja no és necessari. Una subcontracta en aquest estat no es pot utilitzar per estimar i el personal dels requisits del projecte per als recursos i materials ni, es pot fer referència a temps, despesa i ús de material en un projecte. Una subcontracta d'aquest estat no es pot editar ni suprimir. | cap |
+| Esborrany | Això representa l'estat inicial d'una subcontractació. Les negociacions amb el proveïdor estan en curs. Les línies i els preus estan subjectes a modificacions. Una subcontracta en aquest estat es pot utilitzar per estimar i planificar els requisits del projecte de recursos i materials. També es pot fer referència sobre el temps, la despesa i l'ús de material en un projecte. Un subcontractat en aquest estat es pot editar i suprimir. | Confirmat |
+| Confirmat | Això representa l'etapa d'una subcontractació després que s'hagin completat les negociacions amb el proveïdor sobre els preus i els articles de línia que s'estan comprant. No obstant això, el lliurament real de materials i/o treballs per part dels recursos subcontractats continua en curs. Una subcontracta en aquest estat es pot utilitzar per estimar i planificar els requisits del projecte de recursos i materials. També es pot fer referència sobre el temps, la despesa i l'ús de material en un projecte. Una subcontractació en aquest estat no es pot editar ni suprimir. El **botó Cancel·lar** permet cancel·lar una subcontracta confirmada. El **botó Torna a obrir** permet tornar a obrir la subcontracta per tornar-la **a l'estat Esborrany**. Utilitzeu el **botó Tanca** per tancar una subcontracta confirmada. | Tancada <br> Cancel·lada <br> Esborrany |
+| Tancada | Això representa l'etapa d'una subcontractació quan es completa el lliurament real de materials i/o treballs per part dels recursos subcontractats. Una subcontracta en aquest estat ja no es pot utilitzar per estimar i planificar els requisits del projecte de recursos i materials. A més, ja no es pot fer referència a l'ús de temps, despeses i material en un projecte. Una subcontractació en aquest estat no es pot editar ni suprimir. | cap |
+| Cancel·lada | Això representa l'etapa d'una subcontractació quan ja no es necessita el lliurament real de materials i/o treballs per part dels recursos subcontractats. Una subcontractació en aquest estat no es pot utilitzar per estimar i els requisits del projecte de personal per a recursos i materials ni tampoc es pot fer referència a temps, despeses i ús de material en un projecte. Una subcontractació en aquest estat no es pot editar ni suprimir. | cap |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

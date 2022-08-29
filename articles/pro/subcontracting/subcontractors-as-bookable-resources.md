@@ -1,21 +1,19 @@
 ---
 title: Configurar els subcontractistes com a recursos que es poden reservar
-description: En aquest article s'explica com configurar i mantenir els recursos dels subcontractistes que es creen a partir d'usuaris i contactes del sistema, de manera que es puguin associar a subcontractacions a Microsoft Dynamics 365 Project Operations.
+description: En aquest article s'explica com configurar i mantenir els recursos subcontractistes que es creen a partir d'usuaris i contactes en el sistema, perquè puguin associar-se a subcontractes en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 07/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f005a05fb874f9e32a0041db5fc8fa1228fc91f1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927500"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261311"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Configurar els subcontractistes com a recursos que es poden reservar
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 

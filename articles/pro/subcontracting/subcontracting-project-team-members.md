@@ -6,54 +6,52 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 649687cb9ac66e684069434a353b63155103aefb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916874"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261358"
 ---
 # <a name="subcontracting-project-team-members"></a>Subcontractació de membres de l'equip del projecte
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-A Microsoft Dynamics 365 Project Operations, podeu triar subcontractar membres de l'equip del projecte no autoritzats o amb personal.
+A Microsoft Dynamics 365 Project Operations, podeu optar per subcontractar membres de l'equip de projecte sense personal o amb personal.
 
-- Els membres de l'equip del projecte no autoritzats tenen assignat un recurs genèric.
+- Els membres de l'equip del projecte sense personal tenen assignat un recurs genèric.
 - Els membres de l'equip amb personal tenen assignat un recurs amb nom.
 
-Quan enllaceu un membre de l'equip del projecte a una línia de subcontractació, les assignacions a les tasques que tingui el membre de l'equip es tornaran a abordar en funció de la llista de preus de compra adjunta a la subcontractació.  A la **pestanya Estimacions** de la **pàgina Detalls** del projecte, seleccioneu el **botó Actualitza els preus per veure els** preus actualitzats i/o els costos resultants de la decisió de subcontractar. 
+Quan vinculeu un membre de l'equip del projecte a una línia de subcontractació, les assignacions a tasques que tingui el membre de l'equip es tornaran a plantejar en funció de la llista de preus de compra adjunta a la subcontractació.  A la **pestanya Estimacions de la** pàgina Detalls **del projecte, seleccioneu el** botó Actualitza els preus per veure els **preus actualitzats** i / o els costos resultants de la decisió de subcontractar. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subcontractar un membre de l'equip del projecte no autoritzat
-La **pàgina Detalls del membre de** l'equip té camps de línia de subcontractació i subcontractació que permeten a un gestor de projectes expressar com li agradaria extreure la capacitat requerida d'una subcontracta. Per subcontractar un membre de l'equip del projecte com a recurs genèric, seguiu aquests passos:
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subcontractació d'un membre de l'equip del projecte sense personal
+La **pàgina de detalls** del membre de l'equip disposa de camps de línies de subcontractació i subcontractació que permeten a un gestor de projectes expressar com vol treure la capacitat requerida d'un subcontractat. Per subcontractar un membre de l'equip del projecte com a recurs genèric, seguiu aquests passos:
 
-1.  Trieu una subcontracta a la pàgina Detall **del membre de l'equip**.
+1.  Trieu un subcontractista a la pàgina de detalls dels membres de l'equip **·**.
 
-2.  Només podeu seleccionar subcontractes amb **l'estat Esborrany** o **Confirmat**. **No es poden seleccionar subcontractes tancades** o **cancel·lades**. 
+2.  Només pots seleccionar subcontractes amb **Estat esborrany** o **confirmat**. **No es poden seleccionar subcontractes tancades** o **cancel·** lades. 
 
-3.  El **camp Línia** subcontractada es fa visible després de seleccionar una subcontracta.
+3.  El **camp Línia subcontractada** es fa visible després de seleccionar un subcontractista.
 
-4.  **Al camp Línia** subcontractada, només podeu seleccionar les línies de subcontractació que siguin per temps. No podeu seleccionar línies de subcontractació per a despeses o materials.
+4.  En l'àmbit **Línia de subcontractació**, només es poden seleccionar línies de subcontractació que siguin per temps. No es poden seleccionar línies de subcontractació per a despeses o material.
 
-5.  El rol del registre del membre de l'equip del projecte ha de coincidir amb el rol de la línia de subcontractació. Això assegura que el temps per al paper que s'està estimant en el projecte és el mateix paper que es compra a la línia de subcontractació. 
+5.  El paper per al registre de membres de l'equip del projecte ha de coincidir amb el paper a la línia de subcontractació. Això garanteix que el temps per al paper que s'està estimant en el projecte sigui el mateix que es compra a la línia de subcontractació. 
 
-Quan un membre genèric de l'equip estigui associat amb una línia de subcontractació i subcontractació, el **camp tipus** de treballador de la fila de membres genèrics de l'equip s'actualitzarà a **Treballador** contractat i **la validesa** de subcontractació s'establirà com a **Vàlida**.
+Quan un membre de l'equip genèric estigui associat a una línia de subcontractació i subcontractació, el **camp Tipus** de treballador de la fila genèrica de membres de l'equip s'actualitzarà a **Treballador del** contracte i **la validesa** del subcontractista s'establirà com a **Vàlid**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Subcontractació d'un membre de l'equip del projecte amb personal
-Igual que els membres genèrics o no autoritzats de l'equip, la capacitat de membre de l'equip necessari en un projecte també es pot vincular a una subcontracta. Per subcontractar un membre de l'equip del projecte amb nom, seguiu aquests passos:
+Igual que els membres de l'equip genèrics o sense personal, la capacitat dels membres de l'equip requerida en un projecte també es pot vincular a una subcontractació. Per subcontractar un membre de l'equip del projecte amb nom, seguiu aquests passos:
 
-1.  Assegureu-vos que el recurs amb nom estigui configurat com a tipus de recurs que es pot reservar per a treballadors contractats. A més, assegureu-vos que el **camp Venedor** del recurs que es pot reservar coincideixi amb el proveïdor de la subcontractació que esteu seleccionant. 
+1.  Assegureu-vos que el recurs anomenat estigui configurat com un tipus de recurs que es pot reservar com a treballador del contracte. A més, assegureu-vos que el **camp Proveïdor** del recurs que es pot reservar coincideixi amb el proveïdor de la subcontracta que esteu seleccionant. 
 
-2.  Només podeu seleccionar subcontractes a l'estat **Esborrany** o **Confirmat**. **No es poden seleccionar subcontractes tancades** o **cancel·lades**. 
+2.  Només pots seleccionar subcontractes en **Estat esborrany** o **confirmat**. **No es poden seleccionar subcontractes tancades** o **cancel·** lades. 
 
-3.  El **camp Línia** subcontractada es fa visible després de seleccionar una subcontracta.
+3.  El **camp Línia subcontractada** es fa visible després de seleccionar un subcontractista.
 
-4.  **Al camp Línia** subcontractada, només podeu seleccionar les línies de subcontractació que siguin per temps. No podeu seleccionar línies de subcontractació per a despeses o materials.
+4.  En l'àmbit **Línia de subcontractació**, només es poden seleccionar línies de subcontractació que siguin per temps. No es poden seleccionar línies de subcontractació per a despeses o material.
 
-5.  El rol del registre del membre de l'equip del projecte ha de coincidir amb el rol de la línia de subcontractació. Això assegura que el temps per al paper que s'està estimant en el projecte és el mateix paper que es compra a la línia de subcontractació. 
+5.  El paper per al registre de membres de l'equip del projecte ha de coincidir amb el paper a la línia de subcontractació. Això garanteix que el temps per al paper que s'està estimant en el projecte sigui el mateix que es compra a la línia de subcontractació. 
 
-Els membres de l'equip del projecte nomenats que es configuren com a tipus de recurs reservable per a treballadors contractats **es** mostraran amb un estat de validesa de subcontracta que **no és vàlid** si no estan vinculats amb una subcontracta. Quan un membre de l'equip del projecte amb nom estigui associat amb una línia de subcontractació i subcontractació, el **camp tipus** de treballador de la fila membre de l'equip s'actualitzarà a **Contract Worker** i **La validesa** de subcontractació s'establirà com a **Vàlida**.
+Els membres de l'equip de projecte nomenats que es constitueixin com a treballadors amb contracte tipus de **recurs** Reservable es mostraran amb un estat de validesa de subcontractació de **No vàlid** si no estan vinculats a una subcontractació. Quan un membre de l'equip de projecte nomenat estigui associat a una línia de subcontractació i subcontractació, el **camp Tipus** de treballador de la fila de membres de l'equip s'actualitzarà a **Treballador del** contracte i **La validesa** del subcontractista s'establirà com a **Vàlid**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

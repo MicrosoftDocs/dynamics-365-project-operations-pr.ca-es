@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028874"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316975"
 ---
 # <a name="project-mobile-applications-overview"></a>Informació general de les aplicacions mòbils del projecte
 
@@ -42,9 +42,8 @@ Els meus fulls d'hores (optimitzat per a mòbils) i Fulls d'hores per a la meva 
 ## <a name="for-more-information"></a>Per obtenir més informació
 
 - [Aplicació mòbil Project timesheet](project-timesheet.md)
-- [Entrada de temps del projecte]( project-time-entry-mobile-workspace.md)
+- [Entrada de temps del projecte](project-time-entry-mobile-workspace.md)
 - [Fulls d'hores del projecte en un dispositiu mòbil](Mobile-timesheets.md)
 - [Implementar camps personalitzats per a l'aplicació mòbil del Microsoft Dynamics 365 Project Timesheet a l'iOS i l'Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

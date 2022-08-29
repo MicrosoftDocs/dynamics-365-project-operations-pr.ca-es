@@ -1,21 +1,19 @@
 ---
 title: Fites de línia de subcontracte
-description: En aquest article s'explica com crear i mantenir una planificació de factures basada en fites per a una subcontracta amb un proveïdor.
+description: En aquest article s'explica com crear i mantenir un calendari de factures basat en fites per a un subcontractista amb un proveïdor.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b146bf0becff5d0fa0da59f50c0d04aafaf5115f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927592"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261781"
 ---
 # <a name="subcontract-line-milestones"></a>Fites de línia de subcontracte
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 

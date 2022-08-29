@@ -1,17 +1,17 @@
 ---
 title: Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació
-description: En aquest article es proporciona informació i mostres per utilitzar les API de planificació del projecte.
+description: Aquest article proporciona informació i mostres per utilitzar API de planificació de projectes.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929202"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230303"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació
 
@@ -42,12 +42,12 @@ OperationSet és un patró d'unitat de treball que es pot utilitzar quan diverse
 
 A continuació es mostra una llista de les API de planificació de projectes actuals.
 
-- **msdyn_CreateProjectV1**: aquesta API es pot utilitzar per crear un projecte. El projecte i el cub del projecte per defecte es creen immediatament.
+- **msdyn_CreateProjectV1**: aquesta API es pot utilitzar per crear un projecte. El projecte i el cub de projecte per defecte es creen immediatament.
 - **msdyn_CreateTeamMemberV1**: aquesta API es pot utilitzar per crear un membre de l'equip del projecte. El registre del membre de l'equip es crea immediatament.
 - **msdyn_CreateOperationSetV1**: aquesta API es pot utilitzar per planificar diverses sol·licituds que s'han de fer dins d'una transacció.
-- **msdyn_PSSCreateV1**: aquesta API es pot utilitzar per crear una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació de creació.
-- **msdyn_PSSUpdateV1**: aquesta API es pot utilitzar per actualitzar una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació d'actualització.
-- **msdyn_PSSDeleteV1**: aquesta API es pot utilitzar per suprimir una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació de supressió.
+- **msdyn_PssCreateV1**: aquesta API es pot utilitzar per crear una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació de creació.
+- **msdyn_PssUpdateV1**: aquesta API es pot utilitzar per actualitzar una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació d'actualització.
+- **msdyn_PssDeleteV1**: aquesta API es pot utilitzar per suprimir una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació de supressió.
 - **msdyn_ExecuteOperationSetV1**: aquesta API s'utilitza per executar totes les operacions dins del conjunt d'operacions determinat.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Utilitzar API de planificació de projectes amb OperationSet
@@ -58,10 +58,10 @@ Com que els registres amb **CreateProjectV1** i **CreateTeamMemberV1** es creen 
 
 | Entitat de planificació | Creació | Update | Delete | Consideracions importants |
 | --- | --- | --- | --- | --- |
-Tasca del projecte | Sí | Sí | Sí | Els **camps Progrés**, **EsforçCompletat** i **EsforçRemaining** es poden editar al Project for the Web, però no es poden editar a Operacions del projecte.  |
+Tasca del projecte | Sí | Sí | Sí | Els **camps Progrés**, **EsforçComplet** i **EsforçRemaining** es poden editar al Project for the Web, però no es poden editar al Project Operations.  |
 | Dependència de les tasques del projecte | Sí |  | Sí | Els registres de dependència de les tasques del projecte no s'actualitzen. En lloc d'això, es pot suprimir un registre antic i crear un registre nou. |
 | Assignació de recursos | Sí | Sí | | No s'admeten les operacions amb els camps següents: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** i **PlannedWork**. Els registres d'assignació de recursos no s'actualitzen. En lloc d'això, es pot suprimir el registre antic i es pot crear un registre nou. |
-| Dipòsit de projecte | Sí | Sí | Sí | El cub per defecte es crea mitjançant l'API **CreateProjectV1**. El suport per crear i suprimir cubs de projectes s'ha afegit a la versió d'actualització 16. |
+| Dipòsit de projecte | Sí | Sí | Sí | El cub per defecte es crea mitjançant l'API **CreateProjectV1**. El suport per crear i suprimir cubs de projecte es va afegir a la versió 16 d'actualització. |
 | Membre de l'equip del projecte | Sí | Sí | Sí | Per a l'operació de creació, utilitzeu l'API **CreateTeamMemberV1**. |
 | Project | Sí | Sí |  | Les operacions amb els camps següents no estan admeses: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** i **Duration**. |
 
@@ -71,11 +71,11 @@ La propietat ID és opcional. Si es proporciona, el sistema intenta utilitzar-la
 
 ## <a name="restricted-fields"></a>Camps restringits
 
-Les taules següents defineixen els camps restringits des de **Crea** i **Edita**.
+Les taules següents defineixen els camps restringits de **Crea** i **Edita**.
 
 ### <a name="project-task"></a>Tasca del projecte
 
-| Nom lògic                           | Es pot crear     | Pot editar         |
+| Nom lògic                           | Pot crear     | Pot editar         |
 |----------------------------------------|----------------|------------------|
 | msdyn_actualcost                       | No             | No               |
 | msdyn_actualcost_base                  | No             | No               |
@@ -86,8 +86,8 @@ Les taules següents defineixen els camps restringits des de **Crea** i **Edita*
 | msdyn_costatcompleteestimate           | No             | No               |
 | msdyn_costatcompleteestimate_base      | No             | No               |
 | msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | No (sí al projecte)             | No (sí al projecte)               |
-| msdyn_effortremaining                  | No (sí al projecte)              | No (sí al projecte)                |
+| msdyn_effortcompleted                  | No (sí per a Projecte)             | No (sí per a Projecte)               |
+| msdyn_effortremaining                  | No (sí per a Projecte)              | No (sí per a Projecte)                |
 | msdyn_effortestimateatcomplete         | No             | No               |
 | msdyn_iscritical                       | No             | No               |
 | msdyn_iscriticalname                   | No             | No               |
@@ -103,7 +103,7 @@ Les taules següents defineixen els camps restringits des de **Crea** i **Edita*
 | msdyn_plannedsales                     | No             | No               |
 | msdyn_plannedsales_base                | No             | No               |
 | msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | No (sí al projecte)             | No (sí al projecte) |
+| msdyn_progress                         | No (sí per a Projecte)             | No (sí per a Projecte) |
 | msdyn_remainingcost                    | No             | No               |
 | msdyn_remainingcost_base               | No             | No               |
 | msdyn_remainingsales                   | No             | No               |
@@ -130,7 +130,7 @@ Les taules següents defineixen els camps restringits des de **Crea** i **Edita*
 
 ### <a name="project-task-dependency"></a>Dependència de les tasques del projecte
 
-| Nom lògic                  | Es pot crear     | Pot editar     |
+| Nom lògic                  | Pot crear     | Pot editar     |
 |-------------------------------|----------------|--------------|
 | msdyn_linktype                | No             | No           |
 | msdyn_linktypename            | No             | No           |
@@ -144,7 +144,7 @@ Les taules següents defineixen els camps restringits des de **Crea** i **Edita*
 
 ### <a name="resource-assignment"></a>Assignació de recursos
 
-| Nom lògic                 | Es pot crear     | Pot editar     |
+| Nom lògic                 | Pot crear     | Pot editar     |
 |------------------------------|----------------|--------------|
 | msdyn_bookableresourceid     | Sí            | No           |
 | msdyn_bookableresourceidname | Sí            | No           |
@@ -174,7 +174,7 @@ Les taules següents defineixen els camps restringits des de **Crea** i **Edita*
 
 ### <a name="project-team-member"></a>Membre de l'equip del projecte
 
-| Nom lògic                                     | Es pot crear     | Pot editar     |
+| Nom lògic                                     | Pot crear     | Pot editar     |
 |--------------------------------------------------|----------------|--------------|
 | msdyn_calendarid                                 | No             | No           |
 | msdyn_creategenericteammemberwithrequirementname | No             | No           |
@@ -196,7 +196,7 @@ Les taules següents defineixen els camps restringits des de **Crea** i **Edita*
 
 ### <a name="project"></a>Project
 
-| Nom lògic                           | Es pot crear     | Pot editar     |
+| Nom lògic                           | Pot crear     | Pot editar     |
 |----------------------------------------|----------------|--------------|
 | msdyn_actualexpensecost                | No             | No           |
 | msdyn_actualexpensecost_base           | No             | No           |
@@ -255,7 +255,7 @@ Les taules següents defineixen els camps restringits des de **Crea** i **Edita*
 
 ### <a name="project-bucket"></a>Dipòsit de projecte
 
-| Nom lògic          | Es pot crear      | Pot editar     |
+| Nom lògic          | Pot crear      | Pot editar     |
 |-----------------------|-----------------|--------------|
 | msdyn_displayorder    | Sí             | No           |
 | msdyn_name            | Sí             | Sí          |
@@ -265,7 +265,7 @@ Les taules següents defineixen els camps restringits des de **Crea** i **Edita*
 ## <a name="limitations-and-known-issues"></a>Limitacions i problemes coneguts
 A continuació es mostra una llista de limitacions i problemes coneguts:
 
-- Les API de planificació del projecte només les poden utilitzar **els usuaris amb llicència** de projecte de Microsoft. No les poden utilitzar:
+- Les API project schedule només les poden utilitzar **els usuaris amb llicència** de Microsoft Project. No les poden utilitzar:
 
     - Usuaris de l'aplicació
     - Usuaris del sistema

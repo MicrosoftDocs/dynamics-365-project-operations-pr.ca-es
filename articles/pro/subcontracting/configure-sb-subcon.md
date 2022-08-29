@@ -1,66 +1,64 @@
 ---
 title: Configurar el tauler de planificació per mostrar els empleats del contracte i la capacitat subcontractada
-description: En aquest article es descriu com configurar el Tauler de planificació a Microsoft Dynamics 365 Project Operations per mostrar la capacitat de recursos subcontractada quan es personalitza els requisits de recursos del projecte.
+description: En aquest article es descriu com configurar el Tauler de planificació a Microsoft Dynamics 365 Project Operations per mostrar la capacitat de recursos subcontractats quan es compleixen els requisits de recursos del projecte.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 355691b63f437de789afab499369afcdf87e6d3d
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919818"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262204"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Configurar el tauler de planificació per mostrar els empleats del contracte i la capacitat subcontractada 
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-El Tauler de planificació de Microsoft Dynamics 365 Project Operations es pot utilitzar per cercar recursos de dues maneres:
+El tauler de planificació a Microsoft Dynamics 365 Project Operations es pot utilitzar per cercar recursos de dues maneres:
 
-- Cerca general de recursos sense el context de cap requisit específic de recursos basats en projectes.
+- Cerca general de recursos sense el context de cap requisit específic de recurs basat en projectes.
 - Cerca de recursos específics per a requisits on el requisit del projecte proporcionarà el context dels recursos suggerits.
 
-Per notificar al tauler de planificació la capacitat de recursos subcontractada i els treballadors contractats, heu de fer actualitzacions de la configuració del Tauler de planificació. Aquestes actualitzacions inclouen: 
-- Actualitza la configuració del Tauler de planificació per a la cerca general de recursos.
-- Actualitza la configuració del Tauler de planificació per a la cerca de recursos basada en requisits.
+Per notificar al tauler d'horaris la capacitat de recursos subcontractats i els treballadors contractats, heu de fer actualitzacions a la configuració del tauler de planificació. Aquestes actualitzacions inclouen: 
+- Actualitzeu la configuració del tauler de planificació per a la cerca general de recursos.
+- Actualització de la configuració del tauler de planificació per a la cerca de recursos basada en requisits.
 
-## <a name="update-schedule-board-settings-for-general-resource-search"></a>Actualitza la configuració del Tauler de planificació per a la cerca general de recursos
-### <a name="update-filters-for-general-resource-search"></a>Actualitza els filtres per a la cerca general de recursos
-Quan cerqueu un recurs, els filtres disponibles al tauler de planificació s'han d'actualitzar perquè també pugueu cercar recursos externs especificant qualsevol o tots els següents:
-  - Tipus de treballador, si els recursos mostrats han de ser treballadors contractats o empleats.
-  - Empresa venedora a la qual ha de pertànyer un recurs.
+## <a name="update-schedule-board-settings-for-general-resource-search"></a>Actualització de la configuració del tauler de planificació per a la cerca general de recursos
+### <a name="update-filters-for-general-resource-search"></a>Actualitzar els filtres per a la cerca general de recursos
+Quan cerqueu un recurs, els filtres disponibles al tauler de planificació s'han d'actualitzar de manera que també pugueu cercar recursos externs especificant algun o tots els elements següents:
+  - Tipus de treballador, tant si els recursos mostrats han de ser treballadors contractats com treballadors per compte d'altri.
+  - Empresa venedora a la qual hauria de pertànyer un recurs.
   - Recursos que pertanyen a una línia específica de subcontractació o subcontractació.
     
-### <a name="update-retrieve-resource-query"></a>Actualitza la consulta de recursos de recuperació
-La consulta utilitzada per a la cerca també s'ha d'actualitzar per utilitzar aquests atributs de filtre addicionals. Utilitzeu els passos següents per actualitzar la configuració del Tauler de planificació per a la cerca general de recursos:  
-1. Obre **la configuració del tauler de planificació** per a un tauler de planificació específic.
-2. Obriu la **pestanya Configuració general i desplaceu-vos** fins a **Altres opcions de configuració**.
-3. A la llista de paràmetres d'aquesta secció, actualitzeu la disposició del filtre a la **disposició** de filtre per defecte per al Lite d'operacions del projecte **.**
-4. Actualitza recupera **la consulta** de recursos per recuperar la **consulta de recursos per defecte per al Lite** d'operacions del projecte.
+### <a name="update-retrieve-resource-query"></a>Actualitzar recuperar la consulta del recurs
+La consulta utilitzada per a la cerca també s'ha d'actualitzar per utilitzar aquests atributs de filtre addicionals. Utilitzeu els passos següents per actualitzar la configuració del tauler de planificació per a la cerca general de recursos:  
+1. Obriu **configuració del tauler de planificació** per a un tauler de planificació específic.
+2. Obriu la **pestanya Configuració** general i desplaceu-vos fins a **Altres configuracions**.
+3. A la llista de paràmetres d'aquesta secció, actualitzeu la disposició del filtre a **la** **disposició del filtre per defecte per al Project Operations Lite**.
+4. Update **Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Lite**.
 
-![Actualitza la configuració del Tauler de planificació per a la cerca general de recursos](../media/BoardSettings.png)  
+![Actualització de la configuració del tauler de planificació per a la cerca general de recursos](../media/BoardSettings.png)  
 
-## <a name="update-schedule-board-settings-for-requirementbased-resource-search"></a>Actualitza la configuració del Tauler de planificació per a la cerca de recursos basada en requisits
-### <a name="update-filters-for-requirement-specific-resource-search"></a>Actualitza els filtres per a la cerca de recursos específics dels requisits 
-Quan cerqueu un recurs, els filtres disponibles al tauler de planificació s'han d'actualitzar perquè també pugueu cercar recursos externs especificant qualsevol o tots els següents:
- - Tipus de treballador, si els recursos mostrats han de ser treballadors contractats o empleats.
- - Empresa venedora a la qual ha de pertànyer un recurs.
+## <a name="update-schedule-board-settings-for-requirementbased-resource-search"></a>Actualització de la configuració del tauler de planificació per a la cerca de recursos basada en requisits
+### <a name="update-filters-for-requirement-specific-resource-search"></a>Actualitzar els filtres per a la cerca de recursos específics de requisits 
+Quan cerqueu un recurs, els filtres disponibles al tauler de planificació s'han d'actualitzar de manera que també pugueu cercar recursos externs especificant algun o tots els elements següents:
+ - Tipus de treballador, tant si els recursos mostrats han de ser treballadors contractats com treballadors per compte d'altri.
+ - Empresa venedora a la qual hauria de pertànyer un recurs.
  - Recursos que pertanyen a una línia específica de subcontractació o subcontractació.
 
-### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Actualitza la consulta de recursos de recuperació per a la cerca de recursos específics per a requisits 
-La consulta utilitzada per a la cerca també s'ha d'actualitzar per utilitzar aquests atributs de filtre addicionals. Utilitzeu els passos següents per actualitzar la configuració del Tauler de planificació per a la cerca de recursos basada en requisits:
+### <a name="update-retrieve-resource-query-for-requirement-specific-resource-search"></a>Update retrieve resource query per a la cerca de recursos específics del requisit 
+La consulta utilitzada per a la cerca també s'ha d'actualitzar per utilitzar aquests atributs de filtre addicionals. Utilitzeu els passos següents per actualitzar la configuració del tauler de planificació per a la cerca de recursos basada en requisits:
 
-1. Obriu **La configuració** del tauler de planificació per a un tauler de planificació específic i seleccioneu **Obre la configuració** per defecte per obrir la configuració de la cerca específica de requisits.
-2. Obriu la **pestanya Configuració general i desplaceu-vos** fins a **Altres opcions de configuració**.
-3. A la llista de paràmetres d'aquesta secció, actualitzeu la disposició del filtre a la **disposició** de filtre per defecte per al Lite d'operacions del projecte **.**
-4. Actualitza recupera **la consulta** de recursos per recuperar la **consulta de recursos per defecte per al Lite** d'operacions del projecte.
-5. Obriu la **pestanya Tipus de** planificació i aneu al **projecte**.
-6. A la configuració del Projecte **, actualitzeu** la consulta **de l'Auxiliar de planificació Per recuperar recursos per defecte per recuperar** la consulta de recursos per al projecte Operations Lite **i actualitzeu** la consulta **de l'Auxiliar de planificació Retrievea restriccions per defecte** per recuperar la consulta per al projecte Operacions Lite **.**
+1. Obriu **Configuració del tauler de** planificació per a un tauler de planificació específic i, a continuació, seleccioneu **Obre la configuració** per defecte per obrir la configuració per a la cerca específica dels requisits.
+2. Obriu la **pestanya Configuració** general i desplaceu-vos fins a **Altres configuracions**.
+3. A la llista de paràmetres d'aquesta secció, actualitzeu la disposició del filtre a **la** **disposició del filtre per defecte per al Project Operations Lite**.
+4. Update **Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Lite**.
+5. Obriu la **pestanya Tipus de** planificació i aneu a **Projecte**.
+6. A la configuració del projecte, actualitzeu **l'Assistent** de planificació Recupereu la consulta **de recursos a la consulta de recursos de recuperació per defecte per al** Project Operations Lite **i actualitzeu** l'Assistent de planificació Recupereu restriccions Consulta **per defecte per a** les operacions del Projecte Lite **.**
 
-![Actualitza la configuració del Tauler de planificació per a la cerca de recursos basada en requisits](../media/SASettings.png)  
+![Actualització de la configuració del tauler de planificació per a la cerca de recursos basada en requisits](../media/SASettings.png)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

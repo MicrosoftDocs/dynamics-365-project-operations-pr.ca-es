@@ -1,25 +1,24 @@
 ---
 title: Conceptes clau en la subcontractació
-description: En aquest article s'expliquen alguns conceptes clau que s'apliquen a la subcontractació a Microsoft Dynamics 365 Project Operations.
+description: En aquest article s'expliquen alguns conceptes clau que s'apliquen a la subcontractació en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927684"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262157"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Conceptes clau en la subcontractació
 
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-L'article explica alguns conceptes clau que hauríeu de tenir en compte abans de començar a utilitzar la funcionalitat de subcontractació a Microsoft Dynamics 365 Project Operations.
+L'article explica alguns conceptes clau que has de tenir en compte abans de començar a utilitzar la funcionalitat de subcontractació en Microsoft Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Unitat de contracte de la subcontractació
 

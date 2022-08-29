@@ -1,17 +1,17 @@
 ---
-title: Configuració i aplicació de les dades de configuració al Common Data Service
-description: En aquest article s'ofereix informació sobre la configuració i l'aplicació de dades de configuració a les operacions del projecte.
+title: Configuració i aplicació de les dades de configuració al Microsoft Dataverse
+description: Aquest article proporciona informació sobre com configurar i aplicar les dades de configuració al Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928006"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230213"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configuració i aplicació de les dades de configuració al Common Data Service 
 
@@ -21,10 +21,10 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ## <a name="prerequisites"></a>Requisits previs
 
-Abans de començar a configurar les dades al Common Data Service (CDS), cal complir els requisits previs següents:
+Abans de començar a configurar les dades en el Microsoft Dataverse, s'han de complir els següents requisits previs:
 
-1.  Proporcioneu un entorn CDS i un entorn Dynamics 365 Finance per a les operacions del projecte.
-2.  La informació de les persones jurídiques de Dynamics 365 Finance es comparteix amb l'entorn CDS. Això significa que l'entitat **Empresa** al CDS té els següents registres d'empresa:
+1.  Proporcionar un Dataverse entorn i un entorn Dynamics 365 Finance per a les operacions del projecte.
+2.  La informació de les persones jurídiques de Dynamics 365 Finance es comparteix amb l'entorn Dataverse. Això significa que l'entitat de l'empresa **té** Dataverse els registres socials següents:
   - THPM
   - USPM
   - GBPM
