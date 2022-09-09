@@ -1,17 +1,17 @@
 ---
 title: Aplicació de la configuració de la demostració i les dades de configuració (bàsic)
-description: En aquest article s'ofereix informació sobre com aplicar la configuració de la demostració i les dades de configuració per a les operacions del projecte.
+description: En aquest article es proporciona informació sobre com aplicar les dades de configuració i configuració de demostració per al Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922302"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409965"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicació de la configuració de la demostració i les dades de configuració per al Project Operations (bàsic) 
 
@@ -21,7 +21,7 @@ _**Implementació bàsica: acord a facturació proforma_
 
 ## <a name="prerequisites"></a>Requisits previs
 
-Abans de començar la configuració, heu de tenir un entorn del Common Data Service (CDS) proveït per al Dynamics 365 Project Operations.
+Abans de començar la configuració, heu de tenir un Dataverse entorn proveït per a Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Instruccions

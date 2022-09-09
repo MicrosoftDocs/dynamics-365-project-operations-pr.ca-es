@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348093"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403844"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats d'agost de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -38,6 +38,11 @@ Si trobeu un problema en iniciar el mapa, seguiu les instruccions del problema F
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |
 |   Administració d'oportunitats | 2762089 | Gestió d'errors en tancar el contracte com a perdut si el desament automàtic està desactivat a l'organització.|
+|Planificació i seguiment de projectes | 2767841 | Actualitzacions de telemetria Entitat del projecte Crear o actualitzar escenaris.|
+|Facturació i preus | 2771072 | Gestió d'excepcions de referència nul·la mentre es guanya el pressupost.|
+|Facturació i preus | 2844181 |Error en obtenir un identificador de correlació i bloquejar la creació d'una factura.|
+|Facturació i preus | 2852836 | Falten reals interempresarials per a despeses interempresa creades i aprovades en CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Administració i comptabilitat de projectes en finances
 

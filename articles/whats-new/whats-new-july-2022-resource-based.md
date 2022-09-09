@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183874"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403939"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de juliol de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -45,6 +45,12 @@ Si trobeu un problema en iniciar el mapa, seguiu les instruccions del problema F
 | Facturació i preus | 2675880 | Eviteu que un projecte estigui vinculat a una línia de contracte que no estigui basada en la feina. |
 | Facturació i preus | 2664396 | Si es desa una llista de preus d'un pressupost sense pressupost, hi ha d'haver un error que indiqui que l'oferta no es pot buidar. |
 | Facturació i preus | 2184019 | La **pestanya Facturació** basada en tasques no s'ha de mostrar per als projectes que no tenen cap contracte ni pressupost de suport. |
+| Temps i despesa | 2754459 | Quan el flux de núvol de planificació recurrent estigui inactiu, mostreu el bàner i ometeu el processament d'async. |
+| Facturació i preus | 2724391 | Es llança una excepció incorrecta quan la regla de facturació dividida del contracte de projecte no té un valor de client. |
+| Facturació i preus | 2708638 | El registre no s'ha trobat mentre es cercava mitjançant la cerca a la quadrícula a Usos i aprovacions de materials per a usos de materials.|
+| Facturació i preus | 2686977 | Evitar la validació de la línia de factures durant la creació de factures. |
+| Facturació i preus | 2683032 | La còpia de funcions i categories encarregades no supera els 5000 registres.|
+| Facturació i preus | 2673363 | El % de consum de costos en el projecte es corromp quan existeixen estimacions i reals tant d'esforç com de despeses per a un projecte. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Administració i comptabilitat de projectes en finances
 

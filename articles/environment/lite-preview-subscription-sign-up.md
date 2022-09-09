@@ -1,21 +1,21 @@
 ---
 title: Registre per obtenir una subscripció de versió preliminar (bàsica)
-description: "En aquest article s'ofereix informació sobre com subscriure i implementar la implementació de lite d'operacions del projecte: tracteu la facturació proforma."
+description: Aquest article proporciona informació sobre com subscriure's i implementar el desplegament de Project Operations lite - deal to proforma invoicing.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 29bf31cd1bc9c1c5ac757de989154b4c7acc53fe
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921244"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409974"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registre per obtenir una subscripció de versió preliminar (bàsica) 
 
-En aquest article s'explica com subscriure's a l'oferta de prova i implementar Dynamics 365 Project Operations el desplegament lite: tracteu la facturació proforma.
+En aquest article s'explica com subscriure's a l'oferta de prova i desplegar Dynamics 365 Project Operations el desplegament de lite: tracte a la facturació proforma.
 
 > [!NOTE]
 > Aquest procés canviarà en pròximes versions del Project Operations.
@@ -43,14 +43,14 @@ Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador 
 > Necessitareu accés d'administrador al portal de l'Microsoft 365 de l'organització per completar els passos següents.
 
 
-1. Aneu al [Microsoft 365 centre](https://portal.office.com/) d'administració per assignar les llicències als usuaris.
+1. Aneu al [Microsoft 365 Centre](https://portal.office.com/) d'administració per assignar les llicències als usuaris.
 2. A la pàgina **Usuaris actius**, seleccioneu els usuaris als quals voleu assignar una llicència.
 3. Verifiqueu que la llicència del **Dynamics 365 Project Operations** estigui seleccionada. 
 4. Seleccioneu **Desa els canvis**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Crear un entorn nou del Dataverse
 
-1. Proporcioneu un entorn de desplegament d'operacions Dataverse de projecte nou seguint les instruccions de l'article, [Dataverse model de desplegament](lite-deployment.md). Quan seleccioneu el tipus d'entorn, assegureu-vos d'utilitzar **Prova (basada en subscripció)**.
+1. Proporcioneu un nou entorn de desplegament d'operacions Dataverse de projecte seguint les instruccions de l'article, [Dataverse model de desplegament](lite-deployment.md). Quan seleccioneu el tipus d'entorn, assegureu-vos d'utilitzar **Prova (basada en subscripció)**.
 
   ![Entorn nou.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador 
 
 ![Instal·lar la solució.](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instal·lar una configuració del CDS i configurar les dades de demostració
+## <a name="set-up-demo-data"></a>Configurar les dades de demostració
 
-Instal·leu la configuració del CDS i configureu les dades de demostració seguint les instruccions de l'article, [Aplica les dades de configuració i configuració de la demostració](lite-apply-demo-setup-config-data.md).
+Configureu les dades de demostració seguint les instruccions de l'article Aplica [les dades de configuració i configuració de demostració](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,45 +1,85 @@
 ---
-title: Resolució dels preus de cost per a les estimacions i els valors reals de projecte
-description: En aquest article s'ofereix informació sobre com es resolen els preus de cost de les estimacions i els reals del projecte.
+title: Determineu les taxes de costos per a les estimacions i els reals del projecte
+description: Aquest article proporciona informació sobre com es determinen les taxes de costos per a les estimacions i els reals del projecte.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917518"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410088"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Resolució dels preus de cost per a les estimacions i els valors reals de projecte 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determineu les taxes de costos per a les estimacions i els reals del projecte
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Per resoldre els preus de cost i la llista de preus de cost per a les estimacions i els valors reals, el sistema utilitza la informació en els camps **Data**, **Moneda** i **Unitat contractant** del projecte relacionat. Després de resoldre la llista de preus de cost, l'aplicació resol la tarifa de cost.
+Per determinar la llista de preus de cost i les taxes de cost en l'estimació i els contextos reals, el sistema utilitza la informació dels **camps Data**, **Moneda** i **Unitat** de contractació del projecte relacionat.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Resolució de tarifes de cost en línies de valors reals i estimacions per al temps
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinació de taxes de costos en l'estimació i contextos reals de Time
 
-Les línies estimades per a temps fan referència a l'oferta i els detalls de la línia de contracte per a les assignacions de temps i recursos en un projecte.
+El context d'estimació **del temps** es refereix a:
 
-Després de resoldre una llista de preus de cost, els camps **Funció** i **Unitat de recursos** de la línia de previsió per a Temps es relacionen amb les línies de preu de la funció de la llista de preus. Aquesta coincidència suposa que utilitzeu les mètriques de preus estàndard per al cost laboral. Si heu configurat el sistema perquè coincideixi amb els camps en lloc de, o a més de **Funció** i **Unitat de recursos**, llavors s'utilitzarà una combinació diferent per recuperar una línia de preu per funció coincident. Si l'aplicació troba una línia de preu per funció que té una tarifa de cost per a la combinació **Funció** i **Unitat de recursos**, aquesta és la tarifa de cost per defecte. Si l'aplicació no pot fer coincidir els valors **Funció** i **Unitat de recursos**, llavors recupera les línies de preu per funció amb una funció coincident, però valors nuls de la **Unitat de recursos**. Després que tingui un registre de preu per funció coincident, la tarifa de cost pren el valor per defecte d'aquest registre. 
+- Detalls de la línia de pressupost per a **Time**.
+- Dades de la línia de contracte per a **Time**.
+- Assignacions de recursos sobre un projecte.
+
+El context real del **temps** es refereix a:
+
+- Línies de diari d'entrada i correcció del **temps**.
+- Línies de diari que es creen quan s'envia una entrada de temps.
+
+Després de determinar una llista de preus de cost, el sistema completa els passos següents per introduir la taxa de cost predeterminada.
+
+1. El sistema coincideix amb la combinació dels **camps Role** i **Resourcing Unit** en l'estimació o context real de **Time** amb les línies de preus de rol de la llista de preus. Aquesta coincidència suposa que utilitzeu les dimensions de preus estàndard per al cost laboral. Si heu configurat el sistema perquè coincideixi amb camps que no siguin o a **més de La funció** i **la unitat** de recursos, s'utilitza una combinació diferent per recuperar una línia de preus de rol coincident.
+1. Si el sistema troba una línia de preus de rol que té una taxa de cost per a la combinació d'unitats **de** funció **i** recurs, aquesta taxa de cost s'utilitza com a taxa de cost per defecte.
+1. Si el sistema no pot coincidir amb els valors de la **unitat** de funció **i** recurs, recupera les línies de preus de la funció que tenen valors coincidents per al **camp Funció**, però valors nuls per al **camp Unitat** de recursos. Després que el sistema tingui un registre de preus de funció coincident, la taxa de cost d'aquest registre s'utilitzarà com a taxa de cost predeterminada.
 
 > [!NOTE]
-> Si configureu una priorització diferent de **Funció** i **Unitat de recursos**, o si teniu altres dimensions que tenen una prioritat més alta, aquest comportament canviarà en conseqüència. El sistema recupera els registres de preus per funció amb valors que coincideixen amb cadascun dels valors de la dimensió de preus en ordre de prioritat amb les files que tenen valors nuls per a aquestes dimensions al final.
+> Si configureu una priorització diferent dels camps Funció **i** Unitat **de** recursos, o si teniu altres dimensions que tenen més prioritat, el comportament anterior canviarà en conseqüència. El sistema recupera registres de preus de funció que tenen valors que coincideixen amb cada valor de dimensió de preus per ordre de prioritat. Les files que tenen valors nuls per a aquestes dimensions són les últimes.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Resolució de tarifes de cost en línies de valors reals i estimacions per a les despeses
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Determinació de les taxes de cost en línies reals i d'estimació de despeses
 
-Les línies estimades per a despeses fan referència a l'oferta i els detalls de la línia de contracte per a les despeses i línies d'estimació de despeses en un projecte.
+El context d'estimació **de la despesa** es refereix a:
 
-Després de resoldre una llista de preus de cost, el sistema utilitza una combinació dels camps **Categoria** i **Unitat** de la línia de previsió de despeses per tal que coincideixi amb les línies de **Preu de categoria** de la llista de preus resolta. Si el sistema troba una línia de preu per categoria que té una tarifa de cost per a la combinació de camps **Categoria** i **Unitat**, aquesta és la tarifa de cost per defecte. Si el sistema no pot fer coincidir els valors **Categoria** i **Unitat**, o si és possible trobar una línia de preu de categoria que coincideixi, però el mètode de preus no és **Preu per unitat**, el valor per defecte del percentatge de cost és zero(0).
+- Detalls de la línia de pressupostos per a **despeses**.
+- Dades de la línia de contractació de **despesa**.
+- Estimacions de despeses d'un projecte.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Resolució de percentatges de cost de les línies de valor real i de previsió de materials
+El context real de **la despesa** es refereix a:
 
-Les línies d'estimació per a materials fan referència als detalls de les ofertes i de les línies de contracte per als materials i les línies de previsió de materials d'un projecte.
+- Registre i correcció de línies de registre de **despeses**.
+- Línies de diari que es creen quan s'envia una entrada de despeses.
 
-Després de resoldre una llista de preus de cost, el sistema utilitza una combinació dels camps **Producte** i **Unitat** de la línia de previsió per tal que una estimació de material coincideixi amb les línies **Elements de la llista de preus** de la llista de preus resolta. Si el sistema troba una línia de preu de producte que té una tarifa de cost per a la combinació dels camps **Producte** i **Unitat**, la tarifa de cost s'utilitza per defecte. Si el sistema no pot fer coincidir els valors **Producte** i **Unitat**, o si és possible trobar una línia d'element de la llista de preus coincident, però el mètode de càlcul de preus es basa en el Cost estàndard o el Cost actual i tampoc es defineix al producte, el cost per defecte de la unitat tindrà per defecte el valor zero.
+Després de determinar una llista de preus de cost, el sistema completa els passos següents per introduir la taxa de cost predeterminada.
 
+1. El sistema coincideix amb la combinació dels **camps Categoria** i **Unitat** en l'estimació o context real de **Despesa** amb les línies de preus de categoria de la llista de preus.
+1. Si el sistema troba una línia de preus de categoria que té una taxa de cost per a la **combinació de categoria** i **unitat**, aquesta taxa de cost s'utilitza com a taxa de cost predeterminada.
+1. Si el sistema no pot coincidir amb els **valors Categoria** i **Unitat**, el preu s'estableix en **0** (zero) per defecte.
+1. En el context de l'estimació, si el sistema pot trobar una línia de preus de categoria coincident, però el mètode de preus és una altra cosa que **el preu per unitat**, la taxa de cost s'estableix en **0** (zero) per defecte.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Determinació de taxes de costos en línies reals i d'estimació de Material
+
+El context d'estimació **del material** es refereix a:
+
+- Detalls de la línia de pressupostos per a **Material**.
+- Dades de la línia de contracte de **Material**.
+- Estimacions de materials sobre un projecte.
+
+El context **real del material** es refereix a:
+
+- Línies de diari d'entrada i correcció de **material**.
+- Línies de diari que es creen quan s'envia un registre d'ús de materials.
+
+Després de determinar una llista de preus de cost, el sistema completa els passos següents per introduir la taxa de cost predeterminada.
+
+1. El sistema utilitza la combinació dels **camps Producte** i **Unitat** en el context estimatiu o real de **Material** contra les línies d'articles de la llista de preus de la llista de preus.
+1. Si el sistema troba una línia d'articles de llista de preus que té una taxa de cost per a la **combinació Producte** i **Unitat**, aquesta taxa de cost s'utilitza com a taxa de cost predeterminada.
+1. Si el sistema no pot coincidir amb els **valors Producte** i **Unitat**, el cost unitari es defineix com a **0** (zero) per defecte.
+1. En l'estimació o en el context real, si el sistema pot trobar una línia d'articles de llista de preus coincidents, però el mètode de preus és una altra cosa que **l'import** de la moneda, el cost unitari s'estableix en **0** per defecte. Aquest comportament es produeix perquè Project Operations només admet el mètode de preus de l'import **de la** moneda per als materials que s'utilitzen en un projecte.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
