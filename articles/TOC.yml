@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Còpia de les ofertes de projectes
               href: sales/lose-quote.md
+            - name: Activar i revisar una oferta de projecte
+              href: sales/activation-and-revision.md
             - name: Tancament de les ofertes de projectes
               href: sales/win-quote.md
         - name: Administració de contractes de projectes
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Creació de planificacions de facturació en línies de contracte basades en projectes
                   href: sales/invoice-schedules-contract-line.md
+            - name: Copiar contractes basats en projectes
+              href: sales/copy-project-based-contracts-sales.md
             - name: Confirmació d'un contracte de projecte
               href: pro/sales/confirm-contract-sales.md
             - name: Avançaments i bestretes
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Substitució de les llistes de preus de vendes de projectes
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Resolució dels preus de cost per a les estimacions i els valors reals
+            - name: Determinar els preus de cost per a les estimacions i els valors reals
               href: pricing-costing/cost-price-resolution.md
-            - name: Resolució dels preus de venda per a les estimacions i els valors reals
+            - name: Determinar els preus de venda per a les estimacions i els valors reals
               href: pricing-costing/sales-price-resolution.md
             - name: Còpia de les llistes de preus
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Còpia d'ofertes basades en projectes
               href: sales/lose-quote.md
+            - name: Activar i revisar una oferta de projecte
+              href: sales/activation-and-revision.md
             - name: Tancament d'ofertes basades en projectes
               href: pro/sales/win-quote-sales.md
         - name: Administració de contractes basats en projectes
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Substitució de les llistes de preus de vendes de projectes
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Resolució dels preus de cost per a les estimacions i els valors reals de projecte
+            - name: Determinar els preus de cost per a les estimacions i els valors reals de projecte
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Resolució dels preus de venda per a les estimacions i els valors reals del projecte
+            - name: Determinar els preus de venda per a les estimacions i els valors reals del projecte
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Còpia de les llistes de preus
               href: pricing-costing/copy-price-lists.md
