@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Substitució de les llistes de preus de vendes de projectes
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar substitucions de data de vigència per a preus específics d'una llista de preus
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar els preus de cost per a les estimacions i els valors reals
               href: pricing-costing/cost-price-resolution.md
             - name: Determinar els preus de venda per a les estimacions i els valors reals
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Comanda de productes i serveis en existències per als projectes amb comandes de compra del projecte
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Factures del proveïdor per a subcontractes al Dataverse
+          items:
+            - name: Crea factures del proveïdor
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verificació de factures del proveïdor amb valors reals aprovats
+              href: pro/subcontracting/VI-Verification.md
+            - name: Confirmació de factures del proveïdor del projecte
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Retenció de proveïdors
           items:
             - name: Informació general de la retenció de proveïdors
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Substitució de les llistes de preus de vendes de projectes
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar substitucions de data de vigència per a preus específics d'una llista de preus
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar els preus de cost per a les estimacions i els valors reals de projecte
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Determinar els preus de venda per a les estimacions i els valors reals del projecte
