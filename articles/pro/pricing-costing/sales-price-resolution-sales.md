@@ -1,23 +1,23 @@
 ---
-title: Determinar els preus de venda de les estimacions i els reals del projecte
+title: Determinar els preus de venda per a les estimacions i els valors reals del projecte
 description: Aquest article proporciona informació sobre com es determinen els preus de venda de les estimacions i els reals del projecte.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410106"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475172"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Determinar els preus de venda de les estimacions i els reals del projecte
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Determinar els preus de venda per a les estimacions i els valors reals del projecte
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Per determinar els preus de venda sobre estimacions i reals a Microsoft Dynamics 365 Project Operations, el sistema utilitza primer la data i la moneda en l'estimació entrant o context real per determinar la llista de preus de venda. En el context actual específicament, el sistema utilitza el camp Data **de la** transacció per determinar quina llista de preus és aplicable. Un cop determinada la llista de preus de venda, el sistema determina la taxa de vendes o factura.
+Per determinar els preus de venda sobre estimacions i reals a Microsoft Dynamics 365 Project Operations, el sistema utilitza primer la data i la moneda en l'estimació entrant o context real per determinar la llista de preus de venda. En el context actual específicament, el sistema utilitza el camp Data **de la** transacció per determinar quina llista de preus és aplicable. El **valor de la data** de transacció de l'estimació entrant o real es compara amb els **valors Inici efectiu (zona horària independent)** i **Final efectiu (zona horària independent)** de la llista de preus. Un cop determinada la llista de preus de venda, el sistema determina la taxa de vendes o factura.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Determinació de les taxes de vendes en línies reals i d'estimació del temps
 
