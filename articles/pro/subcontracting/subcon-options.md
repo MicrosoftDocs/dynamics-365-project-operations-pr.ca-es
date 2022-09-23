@@ -2,20 +2,20 @@
 title: Opcions de subcontractació per a membres de l'equip del projecte
 description: En aquest article s'expliquen les opcions de subcontractació per als membres de l'equip del projecte a Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261593"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522266"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Opcions de subcontractació per a membres de l'equip del projecte
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 A Microsoft Dynamics 365 Project Operations, podeu avaluar les opcions de subcontractació disponibles per a un o més membres de l'equip del projecte. Les opcions de subcontractació disponibles permeten:
 

@@ -2,20 +2,20 @@
 title: Càlcul de costos d'assignacions de recursos subcontractats
 description: En aquest article s'explica com Microsoft Dynamics 365 Project Operations calcula l'estimació de costos de les assignacions de recursos subcontractades.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262047"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522642"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Càlcul de costos d'assignacions de recursos subcontractats
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 Les assignacions de tasques dels membres de l'equip de projecte subcontractats es costen mitjançant la llista de **preus de compra** adjunta a la subcontractació al registre de membres de l'equip relacionat. Això és diferent de com es costen les assignacions de recursos dels empleats on es costen les assignacions de tasques dels recursos dels empleats mitjançant la **llista de preus de cost** que s'adjunta a la unitat de contractació del projecte. 
 

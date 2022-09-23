@@ -2,20 +2,20 @@
 title: Subcontractació de membres de l'equip del projecte
 description: En aquest article s'explica com subcontractar els membres de l'equip del projecte a Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261358"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522783"
 ---
 # <a name="subcontracting-project-team-members"></a>Subcontractació de membres de l'equip del projecte
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 A Microsoft Dynamics 365 Project Operations, podeu optar per subcontractar membres de l'equip de projecte sense personal o amb personal.
 

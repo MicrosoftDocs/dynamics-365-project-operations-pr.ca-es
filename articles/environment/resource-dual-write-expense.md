@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029197"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527975"
 ---
 # <a name="expense-management-integration"></a>Integració de l'administració de despeses
 
@@ -34,7 +34,7 @@ Les categories de despeses de les aplicacions de finances i operacions són espe
 
 ## <a name="expense-reports"></a>Informes de despeses
 
-Els informes de despeses es creen i s'aproven a les aplicacions de finances i operacions. Per obtenir més informació, vegeu [Crear i processar informes de despeses al Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Després que l'administrador del projecte aprovi l'informe de despeses, s'envia al registre general. Al Project Operations, les línies d'informe de despeses relacionades amb el projecte es publiquen mitjançant regles de publicació especials:
+Els informes de despeses es creen i s'aproven a les aplicacions de finances i operacions. Per obtenir més informació, vegeu [Crear i processar informes de despeses al Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Després que l'administrador del projecte aprovi l'informe de despeses, s'envia al registre general. Al Project Operations, les línies d'informe de despeses relacionades amb el projecte es publiquen mitjançant regles de publicació especials:
 
   - El cost relacionat amb el projecte (incloent-hi els impostos que no es poden recuperar) no es publica immediatament al compte de cost del projecte en un registre general, sinó que es publica al compte d'integració de despeses. Aquest compte es configura a **Administració i comptabilitat del projecte** > **Configuració** > **Paràmetres d'administració i comptabilitat del projecte** i la pestanya de **Project Operations al Dynamics 365 Customer Engagement**.
   - La doble escriptura se sincronitza amb el Dataverse mitjançant l'assignació de taules **Entitat d'exportació de despeses del projecte d'integració del Project Operations (msdyn\_expenses)**.

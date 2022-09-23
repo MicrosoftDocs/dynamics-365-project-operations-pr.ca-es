@@ -1,8 +1,8 @@
 ---
 title: Publicació d'informes de despeses
 description: En aquest article s'explica com publicar informes de despeses.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934492"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524857"
 ---
 # <a name="post-expense-reports"></a>Publicació d'informes de despeses
 
@@ -30,5 +30,15 @@ Per comptabilitzar un informe de despeses, a la pàgina **Informes de despeses a
 
 També podeu comptabilitzar tots els informes de despeses a la llista alhora. Seleccioneu tots els informes de despeses i, a continuació, seleccioneu **Comptabilitza**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Habiliteu la possibilitat de publicar responsabilitats de despeses en moneda del proveïdor per a la funció de mètode de pagament en efectiu
+
+La **possibilitat de publicar responsabilitats de despeses en moneda del proveïdor per a la funció de mètode** de pagament en efectiu permet publicar informes de despeses en una moneda del proveïdor per a la forma de pagament en efectiu.
+
+Actualment, quan envieu despeses en efectiu, els informes de despeses es publiquen a la moneda comptable. A causa de la conversió d'import entre la moneda de la transacció, la moneda comptable i la moneda del proveïdor, es paga un import incorrecte als proveïdors si la data de transacció de la despesa i la data de pagament real tenen tipus de canvi diferents.
+
+Aquesta funció garantirà que el saldo del proveïdor es registri a la moneda del proveïdor quan es publiqui l'informe de despeses.
+
+1. Aneu a **Àrees de treball** \> **Administració de característiques**.
+2. A la llista, cerqueu i seleccioneu **Capacitat per publicar la responsabilitat de despeses en la moneda del proveïdor per a la forma** de pagament en efectiu i, a continuació, seleccioneu **Habilita ara**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

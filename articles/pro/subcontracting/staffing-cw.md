@@ -2,20 +2,20 @@
 title: Dotar de personal un projecte amb empleats de contracte i capacitat subcontractada
 description: En aquest article s'explica com es poden personalitzar els requisits del projecte mitjançant treballadors contractats o capacitat subcontractada a Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261242"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522423"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Dotar de personal un projecte amb empleats de contracte i capacitat subcontractada
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 Els membres genèrics de l'equip del projecte poden ser empleats o treballadors contractats. Quan personalitzeu un projecte amb treballadors contractats, podeu limitar les vostres opcions de personal a treballadors amb contracte específics que estiguin assignats a una línia de subcontractació. 
 

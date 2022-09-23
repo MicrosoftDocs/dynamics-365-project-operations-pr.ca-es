@@ -2,20 +2,20 @@
 title: Línies de subcontracte per a categories de despeses
 description: En aquest article s'explica com registrar les línies de subcontractació per a despeses i utilitzar els camps per registrar la compra de temps als proveïdors.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261828"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522595"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Línies de subcontracte per a categories de despeses
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 Un subcontracte al Dynamics 365 Project Operations pot tenir una línia per a categories de despesa. Les línies de subcontracte de les categories de despesa permeten a un Administrador de projectes adquirir categories de serveis o productes als proveïdors que poden carregar a un projecte.
 

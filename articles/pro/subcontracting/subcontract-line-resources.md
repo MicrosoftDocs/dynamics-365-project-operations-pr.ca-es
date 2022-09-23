@@ -2,20 +2,20 @@
 title: Recursos de línia de subcontracte
 description: En aquest article s'explica com especificar els recursos dedicats que proporciona el proveïdor per a una línia de subcontractació específica durant el temps.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261452"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522360"
 ---
 # <a name="subcontract-line-resources"></a>Recursos de línia de subcontracte
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 Al Dynamics 365 Project Operations, un proveïdor pot especificar recursos que s'utilitzaran per proporcionar la capacitat de recursos que s'adquireix amb la línia de subcontracte per a temps.
 

@@ -2,16 +2,16 @@
 title: Llibre diari d'integració del Project Operations
 description: Aquest article proporciona informació sobre com treballar amb la revista Integration in Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106263"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541065"
 ---
 # <a name="integration-journal-in-project-operations"></a>Llibre diari d'integració del Project Operations
 
@@ -65,6 +65,12 @@ La publicació es pot realitzar de manera interactiva o per lots. Tingueu en com
 > [!NOTE]
 > Per utilitzar aquesta capacitat, habiliteu Transferir totes les **línies amb la publicació d'errors a una nova funció de diari** d'integració del Project Operations a l'espai de treball De gestió **de** funcions.
 
-Durant la publicació al diari d'integració project operations, el sistema valida totes les línies de la revista. El sistema publica totes les línies que no tenen errors i crea un nou diari per a totes les línies que tenen errors de publicació. Per revisar les revistes que tenen línies d'error de publicació, aneu a **Gestió de projectes i comptabilitat** > **Revista d'integració** > **de Project** Operations i filtreu les revistes mitjançant el camp Original de la **revista**.
+Aquesta característica ajuda a millorar l'experiència amb el diari d'integració project operations. Quan està habilitat, els problemes de sincronització de doble escriptura i els problemes de configuració ja no impedeixen que es publiquin revistes vàlides. Durant la publicació al diari d'integració project operations, el sistema valida totes les línies de la revista. Publica totes les línies que no tenen errors i crea un nou diari per a totes les línies que tenen errors de publicació.
+
+Per revisar les revistes que han publicat línies d'error, aneu a **Gestió de projectes i comptabilitat** \> **Revista d'integració** de Project \>**Operations** i filtreu la llista de revistes mitjançant el camp Original de la **revista.** La il·lustració següent mostra un exemple on les revistes de la pàgina de la **revista** d'integració d'operacions del projecte s'han filtrat d'aquesta manera.
+
+![Diari original que es mostra a la pàgina del diari d'integració del Project Operations.](./media/transferLines-originalJournal.png)
+
+Si es configura un treball per lots periòdics per publicar la revista d'integració, es tornarà a temptar la publicació i es publicaran les revistes si s'ha solucionat el problema de temps. La resta de revistes s'han d'investigar manualment revisant els registres i prenent les mesures necessàries.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

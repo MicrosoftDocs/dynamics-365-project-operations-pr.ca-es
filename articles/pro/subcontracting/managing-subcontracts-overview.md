@@ -2,21 +2,21 @@
 title: Administració de subcontractacions al Project Operations
 description: Aquest article proporciona una visió general del procés de gestió de subcontractes d'extrem a extrem normalment en organitzacions basades en projectes.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 09/14/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b2e4518f77b2099f9818ea56623be9efb20b01f4
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261171"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522313"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Administració de subcontractacions al Project Operations
 
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 Aquest article proporciona una visió general del procés de gestió de subcontractes d'extrem a extrem en organitzacions basades en projectes. La subcontractació per a serveis normalment segueix el flux del procés de negoci que es mostra al diagrama següent.
 
