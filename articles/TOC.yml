@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Recuperació d'entrades aprovades prèviament
           href: approvals/recall-cancel.md
+        - name: Seguretat i aprovacions
+          href: approvals/approvals-security.md
         - name: Notes del desenvolupador
           items:
             - name: Notes del desenvolupador per a aprovacions
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Configuració de la retenció de proveïdors
               href: procurement/set-up-vendor-retention.md
+            - name: Pagament al cobrament
+              href: procurement/Pay-when-paid.md
     - name: Facturació
       items:
         - name: Informació general del procés de facturació
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Recuperació d'entrades aprovades prèviament
           href: approvals/recall-cancel.md
+        - name: Seguretat i aprovacions
+          href: approvals/approvals-security.md
         - name: Notes del desenvolupador
           items:
             - name: Notes del desenvolupador per a aprovacions
