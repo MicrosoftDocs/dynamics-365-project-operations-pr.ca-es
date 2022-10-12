@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409923"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621998"
 ---
 # <a name="project-operations-updates"></a>Actualitzacions del Project Operations
 
@@ -47,24 +47,24 @@ Les actualitzacions del Project Operations a l'entorn del Dataverse estan dispon
 | Estació | Regió | Número de versió actual | Actualitzacions automàtiques per a la implementació bàsica | Actualitzacions automàtiques per a la implementació basada en recursos/sense inventari | Número de la versió següent | Pròxima versió disponible de manera general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estació 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primera versió         |  4.45.0.53      | Complet           | Complet            | TBD                 | 09 de setembre de 2022      |
+|   &nbsp;  | Primera versió         |  4.46.0.60      | Complet           | Complet            | TBD                 | 07 d'octubre de 2022      |
 | Estació 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Sud         |  4.45.0.53      | Complet           | Complet            | TBD                 | 09 de setembre de 2022       |
-|   &nbsp;  | Canadà                |  4.45.0.53      | Complet           | Complet            | TBD                 | 09 de setembre de 2022       |
-|   &nbsp;  | Índia                 |  4.45.0.53      | Complet           | Complet            | TBD                 | 09 de setembre de 2022       |
-|   &nbsp;  | França                |  4.45.0.53      | Complet           | Complet            | TBD                 | 09 de setembre de 2022       |
-|   &nbsp;  | República de Sud-àfrica          |  4.45.0.53      | Complet           | Complet            | TBD                 | 09 de setembre de 2022       |
-|   &nbsp;  | Suïssa           |  4.45.0.53      | Complet           | Complet            | TBD                 | 09 de setembre de 2022       |
+|   &nbsp;  | Amèrica del Sud         |  4.46.0.60      | Complet           | Complet            | TBD                 | 14 d'octubre de 2022       |
+|   &nbsp;  | Canadà                |  4.46.0.60      | Complet           | Complet            | TBD                 | 14 d'octubre de 2022       |
+|   &nbsp;  | Índia                 |  4.46.0.60      | Complet           | Complet            | TBD                 | 14 d'octubre de 2022       |
+|   &nbsp;  | França                |  4.46.0.60      | Complet           | Complet            | TBD                 | 14 d'octubre de 2022       |
+|   &nbsp;  | República de Sud-àfrica          |  4.46.0.60      | Complet           | Complet            | TBD                 | 14 d'octubre de 2022       |
+|   &nbsp;  | Suïssa           |  4.46.0.60      | Complet           | Complet            | TBD                 | 14 d'octubre de 2022       |
 | Estació 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japó                 |  4.45.0.53      | Complet      | Complet       | TBD                 | 09 de setembre de 2022       |
-|   &nbsp;  | Pacífic asiàtic          |  4.45.0.53      | Complet      | Complet       | TBD                 | 09 de setembre de 2022       |
-|   &nbsp;  | Gran Bretanya         |  4.45.0.53      | Complet      | Complet       | TBD                 | 09 de setembre de 2022       |
-|   &nbsp;  | Oceania               |  4.45.0.53      | Complet      | Complet       | TBD                 | 09 de setembre de 2022       |
-|   &nbsp;  | Emirats Àrabs Units  |  4.45.0.53      | Complet      | Complet       | TBD                 | 09 de setembre de 2022       |
+|   &nbsp;  | Japó                 |  4.46.0.60      | Complet      | Complet       | TBD                 | 21 d'octubre de 2022       |
+|   &nbsp;  | Pacífic asiàtic          |  4.46.0.60      | Complet      | Complet       | TBD                 | 21 d'octubre de 2022       |
+|   &nbsp;  | Gran Bretanya         |  4.46.0.60      | Complet      | Complet       | TBD                 | 21 d'octubre de 2022       |
+|   &nbsp;  | Oceania               |  4.46.0.60      | Complet      | Complet       | TBD                 | 21 d'octubre de 2022       |
+|   &nbsp;  | Emirats Àrabs Units  |  4.46.0.60      | Complet      | Complet       | TBD                 | 21 d'octubre de 2022       |
 | Estació 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Complet           | Complet            | TBD           | 16 de setembre de 2022       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Complet           | Complet            | TBD           | 28 d'octubre de 2022       |
 | Estació 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amèrica del Nord         |  4.45.0.53      | Complet           | Complet            | TBD           | 16 de setembre de 2022       |
+|   &nbsp;  | Amèrica del Nord         |  4.46.0.60      | Complet           | Complet            | TBD           | 04 de novembre de 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendari de versions per a l'administració i la comptabilitat de projectes a l'entorn de les aplicacions de finances i operacions
 

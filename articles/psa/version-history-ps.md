@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295819"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621929"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Planificació de les versions d'actualització del Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295819"
 
 | Solució  | Versió més recent |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Complement d'escriptori del Project Service Automation                | 3.60          |
 
 Per obtenir informació sobre les actualitzacions del Project Service, vegeu els [plans de llançament del Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Per obtenir informació sobre les actualitzacions del Project Service, vegeu els
 | Estació  | Regió | Versió actual | Versió següent |  Data planificada
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Estació 1</strong> | |  |  | |
-| | <i>Primera versió</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 26 d'agost del 2022
+| | <i>Primera versió</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 07 d'octubre de 2022
 |<strong>Estació 2</strong> | |  |  | |
-| | <i>Amèrica del Sud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembre de 2022
-| | <i>Canadà</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembre de 2022
-| | <i>Índia</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembre de 2022
-| | <i>França</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembre de 2022
-| | <i>República de Sud-àfrica</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembre de 2022
-| | <i>Alemanya</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembre de 2022
-| | <i>Suïssa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembre de 2022
-| | <i>Corea del Sud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembre de 2022
-| | <i>Noruega</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembre de 2022
+| | <i>Amèrica del Sud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 d'octubre de 2022
+| | <i>Canadà</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 d'octubre de 2022
+| | <i>Índia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 d'octubre de 2022
+| | <i>França</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 d'octubre de 2022
+| | <i>República de Sud-àfrica</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 d'octubre de 2022
+| | <i>Alemanya</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 d'octubre de 2022
+| | <i>Suïssa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 d'octubre de 2022
+| | <i>Corea del Sud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 d'octubre de 2022
+| | <i>Noruega</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 d'octubre de 2022
 |<strong>Estació 3</strong> | |  |  | |
-| | <i>Japó</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembre de 2022
-| | <i>Pacífic asiàtic</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembre de 2022
-| | <i>Gran Bretanya</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembre de 2022
-| | <i>Oceania</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembre de 2022
-| | <i>Emirats Àrabs Units</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembre de 2022
+| | <i>Japó</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 d'octubre de 2022
+| | <i>Pacífic asiàtic</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 d'octubre de 2022
+| | <i>Gran Bretanya</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 d'octubre de 2022
+| | <i>Oceania</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 d'octubre de 2022
+| | <i>Emirats Àrabs Units</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 d'octubre de 2022
 |<strong>Estació 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16 de setembre de 2022
+| | <i>Europa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 d'octubre de 2022
 |<strong>Estació 5</strong> | |  |  | |
-| | <i>Amèrica del Nord</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23 de setembre de 2022
+| | <i>Amèrica del Nord</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04 de novembre de 2022
 |<strong>Estació 6</strong> | |  |  | |
-| | <i>Núvol de la comunitat de l'administració pública</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21 de setembre de 2022
-| | <i>Grups d'escala dedicats</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30 de setembre de 2022
+| | <i>Núvol de la comunitat de l'administració pública</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02 de novembre de 2022
+| | <i>Grups d'escala dedicats</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11 de novembre de 2022
 
 
 
