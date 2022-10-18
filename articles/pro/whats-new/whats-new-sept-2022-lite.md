@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621323"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634840"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Novetats de setembre de 2022: implementació bàsica del Project Operations
 
@@ -30,6 +30,7 @@ Aquest article s'aplica als components i versions de Microsoft Dynamics 365 Proj
 | Facturació i preus | **Impagament de preus agnòstics de zona horària**<br>Project Operations ha introduït el concepte de data agnòstica de zona horària en tots els reals del projecte. Un camp nou, **Data de transacció**, ja està disponible a les línies de diari i als reals, i s'utilitzarà per emmagatzemar la data en què es va produir la transacció, però sense convertir aquesta data a hora universal coordinada. Aquesta data s'utilitzarà per a processos aigües avall, com ara l'impagament de preus i la creació de factures. | <p>[Determineu les taxes de cost per a estimacions i reals basades en projectes](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Determinar els preus de venda de les estimacions i els reals basats en projectes](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Facturació i preus | **Substitució de preus data-efectiva a Project Operations**<br>Les substitucions de preus efectives amb data proporcionen una manera d'anul·lar o canviar preus específics de la llista de preus. | [El preu efectiu de la data substitueix](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Temps i despesa | **Aprovador global**<br>Aquesta característica permet un proveïdor de programari independent (ISV) i una aprovació centralitzada, independentment de l'estatus del projecte o membre de l'equip del projecte. | [Seguretat i aprovacions](/dynamics365/project-operations/approvals/approvals-security) |
+|Planificació i seguiment de projectes|**Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació** </br> </br>L'API d'edició de contorn d'assignació de recursos permet als desenvolupadors especificar programàticament l'esforç d'un cessionari de tasques en qualsevol interval de dates admès per a una planificació d'esforç per fases de temps més granular.|[Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Actualitzacions de qualitat
 

@@ -1,17 +1,17 @@
 ---
 title: Creació d'una estructura del desglossament del treball
-description: En aquest article s'explica com crear una estructura de desglossament de treball (WBS) que inclou els controls bàsics de la nova interfície de planificació.
+description: En aquest article s'explica com crear una estructura de desglossament del treball (WBS) que inclogui els controls bàsics de la nova interfície de planificació.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932054"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655176"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creació d'una estructura del desglossament del treball (WBS)
 
@@ -63,7 +63,7 @@ Feu els passos següents per indentar o ascendir una tasca.
 
 ### <a name="move-tasks-up-and-down"></a>Mou tasques amunt i avall
 
-Les tasques es poden desplaçar a qualsevol nivell de l'estructura del desglossament del treball d'una de dues maneres:
+Les tasques es poden moure a qualsevol nivell de l'estructura del desglossament del treball d'una d'aquestes dues maneres:
 
 - Seleccioneu una tasca més i arrossegueu-les a la ubicació desitjada.
 - Seleccioneu una o diverses tasques, feu clic amb el botó dret del ratolí i seleccioneu **Retalla**, seleccioneu la cel·la de destinació a la planificació i, a continuació, feu clic amb el botó dret del ratolí i seleccioneu **Enganxa**.
@@ -95,11 +95,11 @@ Com a administrador, podeu definir camps personalitzats a l'entitat de la tasca.
 
 ## <a name="staffing-attributes"></a>Atributs de personal
 
-Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o seleccionar **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.  Quan cerqueu un recurs mitjançant el selector de recursos a la quadrícula de tasques, la visualització del tauler o el gantt, la cerca retorna els membres de l'equip del projecte existents o els recursos actius que es poden reservar.
+Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o seleccionar **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.  Quan cerqueu un recurs mitjançant el selector de recursos a la quadrícula de tasques, a la visualització del tauler o a Gantt, la cerca retorna els membres de l'equip de projecte existents o els recursos que es poden reservar actius.
 
 Els camps **Funció**, **Unitat de recursos** i **Nom del càrrec** s'utilitzen per descriure els requisits de dotació de la tasca. Aquests atributs de personal, juntament amb la planificació de tasques, s'utilitzen per trobar els recursos disponibles per fer aquesta tasca.
 
-   - **Funció**: especifiqueu el tipus de recurs necessari per fer la tasca.,
+   - **Funció**: especifiqueu el tipus de recurs necessari per fer la tasca.
    - **Unitat de recursos**: especifiqueu la unitat a la qual han d'assignar-se els recursos per a la tasca. Aquest atribut afecta l'estimació de costos i vendes per a la tasca si la tarifa de cost i de facturació del recurs es defineix a partir d'unitats de recursos.
    - **Nom del càrrec**: introduïu un nom amigable per al recurs genèric que serveixi com a contenidor per al recurs que en última instància farà la feina.
 
@@ -112,6 +112,18 @@ El camp **Categoria** conté els valors que indiquen un tipus més ampli de treb
 Podeu utilitzar la planificació al Project Operations per crear relacions de predecessor entre tasques. El camp **Predecessor** fa servir un o diversos valors per indicar les tasques de què depèn una tasca. Quan s'assignen valors de predecessor a una tasca, la tasca només pot començar quan s'hagin completat totes les tasques de predecessor. A causa de la dependència, la data d'inici planificada de la tasca es restableix a la data en què s'han completat les tasques del predecessor.
 
 El mode de la tasca no té cap efecte sobre les actualitzacions que es fan a la data d'inici i d'acabament del treball predecessor o dependent.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Comprensió dels impactes de la durada, els calendaris de recursos i els calendaris de projectes en les tasques
+La durada d'una tasca es defineix com el nombre d'hores de treball entre l'hora d'inici de la data d'inici i l'hora de finalització de la data de finalització de la tasca.   Projecte per a la web defineix unitats de mesura de durada de la següent manera:
+
+| **Mesura de durada** | **Quantitat**|
+|----------------------------------------------------|----------------------|
+| Hores al dia | 8 |
+| Hores setmanals |  40 |
+| Dies al mes |  20 |
+
+Les tasques no assignades es programen mitjançant el calendari del projecte. Tanmateix, després de l'assignació inicial de recursos, la planificació d'una tasca s'actualitza de manera que respecti el calendari del recurs. Els canvis posteriors a una tasca que tingui una assignació es regiran pel [mode](scheduling-modes.md) de planificació del projecte. Per obtenir més informació sobre la influència dels calendaris en les tasques, vegeu [Calendaris de recursos al projecte per al web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) i [Temps d'inici de tasques i els vostres projectes.](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Dreceres de teclat i accessibilitat
 
@@ -127,7 +139,7 @@ Heu de tenir en compte les limitacions següents si esteu utilitzant l'estructur
 | Recursos totals màxims per a un projecte              | 300                  |
 | Enllaços totals màxims (només successor) per a un projecte | 600                  |
 | Camps personalitzats totals màxims per a un projecte          | 10                   |
-| Màxims elements de la llista de comprovació per tasca                   | 20                   |
+| Màxima llista de comprovació d'elements per tasca                   | 20                   |
 
 **Limitacions de les tasques**
 

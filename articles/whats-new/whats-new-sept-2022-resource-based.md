@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621322"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634793"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novetats de setembre de 2022: Project Operations per a escenaris basats en recursos/no mantinguts en existències
 
@@ -35,6 +35,7 @@ Aquest article s'aplica als components i versions de Microsoft Dynamics 365 Proj
 | Administració de despeses | **Possibilitat de publicar la responsabilitat de despeses en la moneda del proveïdor**<br>Aquesta funció permet publicar informes de despeses en una moneda de proveïdor per a la forma de pagament en efectiu. | [Possibilitat de publicar la responsabilitat de despeses en la moneda del proveïdor](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Contractació de projectes | **Pagar quan es paguin pagaments al proveïdor**<br>Aquesta característica permet utilitzar la funció Pay when paid (PWP) amb entorns que no són d'estoc del Project Operations. Permet bloquejar / retenir els pagaments del proveïdor, en funció dels terminis de retenció, fins que es rebi el pagament del client. | [Pagar quan es paguin pagaments al proveïdor](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Contractació de projectes | **Sol·licituds de compra de projectes**<br>Aquesta característica permet als usuaris crear ordres de compra relacionades amb el projecte en entitats jurídiques on el Project Operations on Dynamics 365 Customer Engagement integració està habilitada. Les ordres de compra del projecte es poden utilitzar per registrar la contractació de material no emmagatzemat contra el projecte per part del departament de Contractació persona. Les ordres de compra del projecte no se sincronitzaran amb Dataverse. Tanmateix, podeu utilitzar una entitat virtual per mostrar línies de comandes de compra de projectes per obtenir Dataverse informació sobre el gestor de projectes. El cost de la factura del proveïdor relacionat amb el projecte s'integra amb l'entitat Project Actuals a Dataverse. El cost del projecte es registra al subledger Del projecte mitjançant el diari Project Operations Integration. | |
+|Planificació i seguiment de projectes|**Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació** </br> </br>L'API d'edició de contorn d'assignació de recursos permet als desenvolupadors especificar programàticament l'esforç d'un cessionari de tasques en qualsevol interval de dates admès per a una planificació d'esforç per fases de temps més granular.|[Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualitzacions de les assignacions de doble ecriptura del Project Operations
 

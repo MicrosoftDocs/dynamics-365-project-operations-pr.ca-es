@@ -1,9 +1,9 @@
 ---
-title: Canvis de característiques per al Project Service Automation a Project Operations
+title: Procés de conversió de Project Service Automation to Project Operations de planificació de projectes
 description: Aquest article proporciona una visió general dels canvis de la característica per Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
+ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621305"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642556"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Canvis de característiques per al Project Service Automation a Project Operations
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Procés de conversió de Project Service Automation to Project Operations de planificació de projectes
 
 Després que un projecte s'hagi actualitzat correctament de 3.X a Microsoft Dynamics 365 Project Service Automation Lite, no és possible editar les tasques del projecte a l'estructura de desglossament del treball de la quadrícula de Dynamics 365 Project Operations tasques (WBS). Els clients podran revisar els WBS a la quadrícula de seguiment on s'han afegit nous camps per proporcionar tots els detalls relacionats amb la tasca. Per als projectes en què es requereixen modificacions al WBS, podeu convertir selectivament els projectes elegibles al nou projecte per a l'experiència de programació web.
 
