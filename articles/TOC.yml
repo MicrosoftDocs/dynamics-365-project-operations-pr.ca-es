@@ -664,7 +664,7 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Implementació del Project Operations (bàsica)
           href: environment/lite-deployment.md
-        - name: Aplicació de la configuració i les dades de configuració de la demostració (Lite)
+        - name: Aplicació de la configuració i les dades de configuració de la demostració (bàsica)
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model de seguretat
           href: environment/security-model.md
@@ -702,7 +702,7 @@
               href: pro/whats-new/whats-new-august-2021-lite.md
             - name: 'Novetats de juliol de 2021: implementació bàsica'
               href: pro/whats-new/whats-new-july-2021-lite.md
-            - name: 'Novetats de juny de 2021: implementació Lite'
+            - name: 'Novetats de juny de 2021: implementació bàsica'
               href: pro/whats-new/whats-new-june-2021-lite.md
             - name: 'Novetats de maig de 2021: implementació bàsica'
               href: pro/whats-new/whats-new-may-2021-lite.md
@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: "Novetats o canvis del Project Service Automation\_V3"
           href: psa/whats-new-changed-v3.md
+    - name: Actualització del Project Service Automation (versió de l'aplicació Project Operations bàsica 4.x)
+      items:
+        - name: Actualització del Project Service Automation al Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Canvis de característiques del Project Service Automation al Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Procés de conversió de planificació del projecte del Project Service Automation al Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: "Planificació de la implementació (versió\_3.x de l'aplicació)"
       items:
         - name: Instal·lació de les dades d'exemple
