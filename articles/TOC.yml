@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Com puc personalitzar el flux del procés de negoci de les fases del projecte?
               href: psa/FAQ-customize-bpf.md
-            - name: Consideracions d'actualització per a l'estructura del desglossament del treball
-              href: psa/upgrade-considerations-tasks.md
         - name: Notes del producte
           href: psa/white-papers.md
         - name: Guia de l'administrador
