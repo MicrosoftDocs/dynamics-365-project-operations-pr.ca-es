@@ -1,6 +1,6 @@
 ---
 title: Creació de models de predicció per als pressupostos del projecte
-description: En aquest article es descriu com crear un model de previsió per a la resta de pressupostos.
+description: Aquest article descriu com crear un model de previsió per als pressupostos restants.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8916690"
 
 [!include [banner](../includes/banner.md)]
 
-En aquest article es descriu com crear un model de previsió per a la resta de pressupostos. Un projecte que està subjecte al control pressupostari utilitza dos tipus de pressupostos: original i restant. Quan creeu un pressupost de projecte, heu d'especificar els models de previsió del pressupost original i restant que es van crear en la pàgina **Models de previsió**. Els pressupostos del projecte basats en els models especificats es creen quan publiqueu el pressupost del projecte.
+Aquest article descriu com crear un model de previsió per als pressupostos restants. Un projecte que està subjecte al control pressupostari utilitza dos tipus de pressupostos: original i restant. Quan creeu un pressupost de projecte, heu d'especificar els models de previsió del pressupost original i restant que es van crear en la pàgina **Models de previsió**. Els pressupostos del projecte basats en els models especificats es creen quan publiqueu el pressupost del projecte.
 
 > [!NOTE]
 > Un model de previsió que s'utilitza per al control pressupostari no pot tenir un submodel o utilitzar-se com a submodel.

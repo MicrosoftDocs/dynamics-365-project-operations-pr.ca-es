@@ -1,6 +1,6 @@
 ---
 title: Creació d'estimacions en una línia d'oferta
-description: En aquest article s'ofereix informació sobre com crear una estimació en una línia d'oferta per a un projecte.
+description: En aquest article es proporciona informació sobre com crear una estimació en una línia d'oferta d'un projecte.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

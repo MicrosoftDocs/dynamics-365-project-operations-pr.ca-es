@@ -1,6 +1,6 @@
 ---
 title: Afegir membres de l'equip des de la quadrícula Membre de l'equip
-description: En aquest article trobareu informació sobre com podeu gestionar els recursos dels membres de l'equip.
+description: En aquest article es proporciona informació sobre com administrar els recursos de membre de l'equip.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

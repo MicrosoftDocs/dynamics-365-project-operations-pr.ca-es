@@ -1,6 +1,6 @@
 ---
 title: Administració de diversos clients a les línies de contracte basades en projectes
-description: En aquest article s'ofereix informació sobre el treball amb línies de contracte i contractes que contenen diversos clients.
+description: Aquest article proporciona informació sobre com treballar amb línies de contracte i contractes que contenen diversos clients.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Configuració de les tarifes de la factura de treball
-description: En aquest article s'ofereix informació sobre com configurar les taxes de facturació laboral a Les operacions del projecte.
+description: Aquest article proporciona informació sobre com configurar tarifes de facturació de treball al Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

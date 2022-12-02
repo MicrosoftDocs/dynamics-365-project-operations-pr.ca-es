@@ -1,6 +1,6 @@
 ---
 title: Reserves de recursos i com es relacionen amb les assignacions de tasques
-description: En aquest article s'ofereix informació sobre com gestionar els recursos amb nom, les reserves de recursos i les tasques i com es relacionen entre si.
+description: En aquest article es proporciona informació sobre la manera d'administrar els recursos amb nom, les reserves de recursos i les assignacions de tasques i la seva relació entre ells.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

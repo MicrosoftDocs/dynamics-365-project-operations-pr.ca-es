@@ -1,6 +1,6 @@
 ---
 title: Integració de factures del proveïdor
-description: En aquest article s'ofereix informació sobre la integració de factures de proveïdors a Project Operations.
+description: Aquest article proporciona informació sobre la integració de factures del proveïdor al Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -34,7 +34,7 @@ Al Project Operations, les factures del proveïdor relacionades amb el projecte 
      > [!NOTE]
      > Els detalls de la factura del proveïdor del Dataverse no es poden editar.
 
-El subledger d'impostos, el subledger de proveïdors i altres publicacions financeres es registren segons correspongui a Dynamics 365 Finance quan es publica la factura del proveïdor.
+El subllibre de comptabilitat d'impostos, el subllibre de comptabilitat de proveïdors i les altres publicacions financeres es registren segons calgui al Dynamics 365 Finance en el moment de publicar la factura del proveïdor.
 
 ![Integració de factures del proveïdor.](media/DW7VendorInvoice.png)
 

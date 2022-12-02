@@ -1,6 +1,6 @@
 ---
 title: Integració d'escriptura doble del Project Operations
-description: Aquest article proporciona una visió general de la integració de doble escriptura de les operacions del projecte.
+description: En aquest article es proporciona una descripció general de la integració d'escriptura doble del Project Operations.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "8927960"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Project Operations utilitza [capacitats](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) de doble escriptura per sincronitzar dades a través Microsoft Dataverse i Dynamics 365 Finance.
+El Project Operations utilitza [capacitats de doble escriptura](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) per sincronitzar dades a través del Microsoft Dataverse i del Dynamics 365 Finance.
 
 A la il·lustració següent es mostra la manera que se sincronitzen les dades com a part d'aquesta integració entre el Dataverse i Finances.
 

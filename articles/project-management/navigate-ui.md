@@ -1,6 +1,6 @@
 ---
 title: Navegació per la interfície d'usuari
-description: En aquest article es proporciona informació sobre l'administració de projectes a les operacions del Projecte Dynamics 365.
+description: En aquest article es proporciona informació sobre la funcionalitat d'administració de projectes al Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Preus del catàleg de productes
-description: En aquest article s'ofereix informació sobre com funciona el preu del catàleg de productes Dynamics 365 Project Service Automation (PSA).
+description: En aquest article s'ofereix informació sobre com funcionen els preus del catàleg de productes al Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

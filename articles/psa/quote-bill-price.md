@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici d'ofertes, preus i facturació
-description: En aquest article s'ofereix informació sobre la citació, els preus i la facturació.
+description: En aquest article es proporciona informació sobre les ofertes, els preus i la facturació.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926718"
 
 Les ofertes, els preus i la facturació són característiques que s'utilitzen per a les organitzacions petites i grans. En comprendre com funcionen aquestes característiques a l'aplicació, les organitzacions poden personalitzar de manera més fàcil la configuració.
 
-Els articles següents proporcionen més informació sobre la funcionalitat de cotització, preus i facturació a PSA:
+Els articles següents proporcionen més informació sobre la funcionalitat d'ofertes, preus facturació al PSA:
 
 - [Procés de venda](basic-sales-process.md)
 - [Línies d'oferta](basic-quote-lines.md)

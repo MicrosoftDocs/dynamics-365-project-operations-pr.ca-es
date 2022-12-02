@@ -1,6 +1,6 @@
 ---
 title: Configuració i ús dels pagaments dels proveïdors després del cobrament
-description: En aquest article s'explica com podeu crear termes de pagament (PWP) perquè pugueu publicar pagaments parcials de proveïdors, basats en els pagaments dels clients.
+description: Aquest article explica com crear termes de pagament després del pagament (PWP) de manera que pugueu alliberar pagaments parcials de proveïdors, en funció dels pagaments del client.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

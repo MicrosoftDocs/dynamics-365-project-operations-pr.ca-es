@@ -1,6 +1,6 @@
 ---
 title: Sincronitzar la capacitat dels recursos
-description: En aquest article s'ofereix informació sobre com sincronitzar la capacitat d'un recurs entre calendaris i projectes.
+description: Aquest article proporciona informació sobre com sincronitzar la capacitat d'un recurs entre calendaris i projectes.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis de la versió d'actualització 25 del Project Service Automation, V3
-description: En aquest article s'enumeren les característiques i les correccions que estan disponibles a la versió 25, V3.
+description: En aquest article es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 25.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8922532"
 
 Estem encantats d'anunciar-vos l'última actualització per a l'aplicació Project Service Automation per al Dynamics 365. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. Aquest llançament és compatible amb el Dynamics 365 9.x. Per actualitzar a aquesta versió, visiteu el Centre d'administració del Dynamics 365 en línia i aneu a la pàgina de solucions per instal·lar l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](/power-platform/admin/install-remove-preferred-solution).
 
-Aquest article llista les característiques i les correccions que són noves o canviades per al Project Service Automation V3, Update Release 25 Aquesta versió té un nombre de compilació de V 3.10.43.76 i generalment està disponible a través d'una auto-actualització a l'octubre de 2020.
+Aquest article enumera les característiques i correccions noves o canviades per al Project Service Automation V3, llançament d'actualització 25 Aquesta versió té el número de compilació V3.10.43.76 i està disponible de manera general a través d'una actualització autoservei l'octubre de 2020.
 
 ## <a name="update-release-25"></a>Versió d'actualització 25
 

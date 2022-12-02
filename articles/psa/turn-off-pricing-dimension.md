@@ -1,6 +1,6 @@
 ---
 title: Desactivar una dimensió de preus
-description: En aquest article es mostra com es poden configurar les dimensions dels preus a la solució del Project Service.
+description: En aquest article es mostra com configurar les dimensions de preus a la solució del Project Service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

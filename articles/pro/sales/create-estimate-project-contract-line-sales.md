@@ -1,6 +1,6 @@
 ---
 title: Estimació d'una línia de contracte basada en projectes (bàsic)
-description: En aquest article s'ofereix informació sobre l'estimació d'una línia de contracte basada en projectes.
+description: Aquest article proporciona informació sobre l'estimació d'una línia de contracte basada en projectes.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

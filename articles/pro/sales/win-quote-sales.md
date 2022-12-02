@@ -1,6 +1,6 @@
 ---
 title: Tancament d'una oferta (bàsic)
-description: En aquest article s'ofereix informació sobre com tancar una oferta a Operacions del projecte.
+description: En aquest article es proporciona informació sobre el tancament d'una oferta al Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

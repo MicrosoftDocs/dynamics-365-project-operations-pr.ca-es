@@ -1,6 +1,6 @@
 ---
 title: Registrar-se a les subscripcions de versió preliminar del Project Operations per a escenaris de recursos/sense existències
-description: En aquest article s'ofereix informació sobre com subscriure's i implementar operacions de projecte per a escenaris basats en ressortits o no emmagatzemats.
+description: En aquest article es proporciona informació sobre com subscriure's i implementar el Project Operations per a escenaris de recursos/sense existències.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 
 
-En aquest article s'explica com subscriure's a l'oferta de prova i implementar l'entorn d'operacions de projectes per a escenaris basats en recursos o no emmagatzemats.
+En aquest article s'explica com subscriure's a l'oferta de prova i implementar l'entorn del Project Operations per als escenaris basats en recursos/no mantinguts en existències.
 
 ## <a name="prerequisites"></a>Requisits previs
 - L'usuari que implementa la versió preliminar ha de tenir drets d'administrador global a l'inquilí de l'Azure. Podeu crear un inquilí en bescanviar la primera oferta. 
@@ -40,7 +40,7 @@ Abans de començar, assegureu-vos que hàgiu iniciat la sessió en un navegador 
 
   Veureu que l'oferta de confirmació s'ha bescanviat correctament.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Prova de previsualització de Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Prova de versió preliminar del Dynamics 365 Finance
 
 Aneu a [Prova de versió preliminar del Dynamics 365 for Finance](https://aka.ms/trypoche) i repetiu els passos de la secció anterior amb l'oferta Registrar-se per obtenir un entorn allotjat al núvol.  
 
@@ -49,7 +49,7 @@ Aneu a [Prova de versió preliminar del Dynamics 365 for Finance](https://aka.ms
 > [!IMPORTANT]
 > Necessitareu accés d'administrador al portal de l'Microsoft 365 de l'organització per completar els passos següents.
 
-1. Aneu al [Microsoft 365 centre](https://portal.office.com/) d'administració per assignar les llicències als usuaris.
+1. Aneu al [Centre d'administració del Microsoft 365](https://portal.office.com/) per assignar les llicències als usuaris.
 
 2. A la pàgina **Usuaris actius**, seleccioneu els usuaris als quals voleu assignar una llicència.
 
@@ -60,19 +60,19 @@ Aneu a [Prova de versió preliminar del Dynamics 365 for Finance](https://aka.ms
 
 ## <a name="start-a-new-project-in-lcs"></a>Iniciar un projecte nou al LCS
 
-Crea un projecte LCS nou tal com es descriu a l'article, [Inicia un projecte nou a LCS](create-lcs-project.md)
+Creeu un projecte nou del LCS tal com es descriu a l'article [Iniciar un projecte nou al LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Addició d'una subscripció a l'Azure a un projecte del LCS
 
-Per completar aquesta tasca, seguiu els passos de l'article, [Afegiu una subscripció de l'Azure al projecte LCS](resource-add-azure-subscription-lcs-project.md).
+Per completar aquesta tasca, seguiu els passos de l'article [Afegir una subscripció de l'Azure al projecte del LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementar l'entorn de demostració del Finance amb el Project Operations per a escenaris de recursos/sense existències
 
-Seguiu la guia de l'article, [Proporcioneu un entorn](resource-provision-new-environment.md) nou per completar el desplegament. Utilitzeu el tipus d'implementació [entorn de demostració](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) per a la versió preliminar. 
+Seguiu les instruccions de l'article [Proveir un nou entorn](resource-provision-new-environment.md) per completar la implementació. Utilitzeu el tipus d'implementació [entorn de demostració](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) per a la versió preliminar. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Configuració de la instal·lació del CDS i dades de configuració
 
-Instal·leu les dades de configuració i configuració del CDS tal com es descriu a l'article, [Configureu i apliqueu les dades de configuració al Common Data Service](resource-apply-pro-setup-config-data.md).
+Instal·leu les dades instal·lació i les dades de configuració del CDS com es descriu a l'article [Configurar i aplicar les dades de configuració al Common Data Service](resource-apply-pro-setup-config-data.md).
 Completeu aquest pas només quan s'implementi l'entorn de demostració del Finance i les dades de demostració estiguin a punt.
 
 

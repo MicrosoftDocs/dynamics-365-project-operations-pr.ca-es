@@ -1,6 +1,6 @@
 ---
 title: Transferència de pressupostos de projecte al final de l'exercici fiscal
-description: En aquest article s'ofereix informació sobre com transferir els imports restants del pressupost als anys futurs i crear detalls del registre del pressupost.
+description: Aquest article proporciona informació sobre com transferir les quantitats restants del pressupost a anys futurs i crear detalls del registre pressupostari.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

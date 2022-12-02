@@ -1,6 +1,6 @@
 ---
 title: 'Contractes de projecte: conceptes clau'
-description: Aquest article proporciona informació sobre els conceptes clau dels contractes de projectes en operacions de projectes.
+description: Aquest article proporciona informació sobre els conceptes clau dels contractes de projectes al Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 
 
-En aquest article s'ofereixen els conceptes clau que cal tenir en compte abans de començar a utilitzar els contractes del projecte a Dynamics 365 Project Operations:
+En aquest article es proporcionen els conceptes clau que cal tenir en compte abans de començar a utilitzar els contractes de Project a Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Empresa propietària
 
-L'empresa propietària és la persona jurídica del mòdul de gestió i comptabilitat **de** projectes d'operacions de projectes de Dynamics 365 Finance. L'empresa propietària representa l'entitat jurídica que representarà el cost i els ingressos que s'obtenen d'un acord.
+L'empresa propietària és l'entitat legal del mòdul **Administració de projectes i comptabilitat** per al Project Operations del Dynamics 365 Finance. L'empresa propietària representa l'entitat jurídica que representarà el cost i els ingressos que s'obtenen d'un acord.
 
 ## <a name="contracting-unit"></a>Unitat de contractació
 

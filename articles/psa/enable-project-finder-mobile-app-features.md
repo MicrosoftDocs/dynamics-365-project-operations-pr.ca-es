@@ -48,11 +48,11 @@ Els vostres recursos poden utilitzar l'aplicació Project Finder Mobile amb l'[!
   
 4. Definiu **Permet l'actualització d'aptitud per recurs** com a **Sí**.  
   
-   ![ProjectService&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    És una configuració global. Els administradors de projectes poden definir si un projecte individual estarà visible a la pàgina **Equip del projecte** del projecte.  
   
-   ![ProjectService&#95; ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Notificacions de correu electrònic  
  l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] envia correus electrònics en relació amb sol·licituds de recursos als destinataris i a les hores següents:  

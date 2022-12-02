@@ -1,6 +1,6 @@
 ---
 title: Crear camps i entitats personalitzats
-description: En aquest article s'explica com crear conjunts d'opcions i entitats a la vostra pròpia solució a la Power Apps plataforma.
+description: En aquest article s'explica com crear conjunts d'opcions i entitats a la vostra pròpia solució a la plataforma Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926902"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Completeu els passos següents en qualsevol moment que vulgueu crear un conjunt d'opcions o una entitat personalitzada a la plataforma del Power Apps.  
-Els procediments d'aquest article s'han de completar utilitzant la interfície web del Project Service Automation (PSA).
+Els procediments d'aquest article s'han d'emplenar mitjançant la interfície web del Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Us recomanem que realitzeu tots els canvis de dimensió de preus personalitzats en una solució separada. Aquestes pràctiques recomanades importants proporcionen una flexibilitat futura per actualitzar o suprimir els canvis segons calgui, us ajudaran a reutilitzar el vostre treball i facilita la portabilitat d'aquests canvis en una altra instància. Després d'haver fet tots els canvis necessaris, exporteu aquesta solució com a **Solució administrada** i importeu-la a altres instàncies per tornar a utilitzar la configuració dels preus.

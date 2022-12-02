@@ -1,6 +1,6 @@
 ---
 title: Utilitzar el Tauler de planificació per reservar recursos de projecte
-description: En aquest article s'ofereix informació sobre com reservar recursos.
+description: En aquest article es proporciona informació sobre la manera de reservar els recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

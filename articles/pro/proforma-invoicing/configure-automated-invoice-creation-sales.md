@@ -1,6 +1,6 @@
 ---
 title: Configuració de la creació de factures automàtica
-description: En aquest article s'ofereix informació sobre la configuració i la configuració automàtica de factures proforma.
+description: Aquest article proporciona informació sobre com configurar la creació automàtica de factures proforma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Desglossament de les despeses
-description: En aquest article s'explica com detallar les despeses mitjançant l'espai de treball de despeses reimaginat.
+description: En aquest article s'explica com es desglossen les despeses mitjançant la nova àrea de treball Despeses.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -19,31 +19,31 @@ ms.locfileid: "8920922"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Les organitzacions sovint requereixen que els empleats proporcionin un desglossament detallat de les despeses incorregudes durant el viatge. Per exemple, un foli d'hotel pot contenir diverses línies detallades per al preu de l'habitació, els impostos, l'aparcament i altres despeses diverses incorregudes cada dia durant la durada de l'estada. O una despesa de menjar pot requerir que proporcioneu una avaria més granular per esmorzar, dinar o sopar. Siguin quines siguin les necessitats de l'organització, cada categoria de despeses es pot configurar per reflectir les subcategories o les partides de línia que conformen una despesa. Tot i que la desglossació sempre s'ha compatible amb **la gestió** de despeses, l'àrea **de treball de despeses** reimaginada permet una detallització més eficient quan la funció, **La possibilitat de detallar les despeses recurrents ràpidament** està habilitada.  
+Les organitzacions requereixen sovint que els empleats proporcionin un desglossament detallat de les despeses en que incorren durant els desplaçaments. Per exemple, un compte de client de l'hotel pot contenir diverses línies desglossades per al preu d'habitació, els impostos, l'aparcament i altres despeses ocasionades cada dia durant l'estada. O una despesa d'àpats pot requerir que indiqueu un desglossament més granular per a l'esmorzar, el dinar o el sopar. Independentment de les necessitats de l'organització, cada categoria de despesa es pot configurar per reflectir les subcategories o els elements de línia que componen una despesa. Mentre que l'ús del desglossament sempre s'ha admès a **Administració de despeses**, la **nova àrea de treball de Despeses** permet un desglossament més eficient quan la característica **Capacitat de desglossar les despeses periòdiques ràpidament** està habilitada.  
 
-## <a name="enable-quick-itemization"></a>Habilita l'elementació ràpida 
+## <a name="enable-quick-itemization"></a>Habilitar el desglossament ràpid 
 
-Podeu utilitzar la **funció Capacitat per detallar les despeses recurrents ràpidament** per detallar les despeses recurrents ràpidament, evitant la necessitat d'introduir les despeses diàries cada vegada durant la durada de l'estada. Completeu els passos següents per habilitar l'elementització ràpida.
+Podeu utilitzar la **Capacitat de desglossar les despeses periòdiques ràpidament** per desglossar les despeses periòdiques ràpidament i evitar la necessitat d'introduir les despeses diàries cada vegada durant tota l'estada. Completeu els passos següents per habilitar el desglossament ràpid.
 
-1. Aneu a l'àrea **de treball Gestió** de funcions i, a la llista de funcions, localitzeu i seleccioneu, **Informes de despeses Reimaginats**. 
+1. Aneu a l'àrea de treball **Administració de característiques** i, a la llista de característiques, localitzeu i seleccioneu **Nous informes de despeses**. 
 2. Seleccioneu **Habilita ara**. 
-3. A la llista de funcions, localitzeu i seleccioneu, **Possibilitat de detallar ràpidament** les despeses recurrents.
+3. A la llista de característiques, localitzeu i seleccioneu **Capacitat de desglossar ràpidament les despeses periòdiques**.
 4. Seleccioneu **Habilita ara**. 
 
-## <a name="itemization-grid"></a>Quadrícula d'elements 
+## <a name="itemization-grid"></a>Quadrícula de desglossament 
 
-Si una categoria de despeses té subcategories o components diferents que componen aquesta despesa, es pot detallar. Per detallar una despesa, seleccioneu la línia de despeses de l'informe de despeses i, a la **subfinestra Dades de despeses**, seleccioneu **Accions** > **elementa**. El **control lliscant Itemization** revela una quadrícula amb camps. La taula següent proporciona un exemple de cada camp de la quadrícula i com es representa el camp a l'informe de despeses. 
+Si una categoria de despesa té subcategories o components diferents que componen aquesta despesa, també la podreu desglossar. Per desglossar una despesa, seleccioneu la línia de despesa a l'informe de despeses i, a la subfinestra **Detalls de la despesa**, seleccioneu **Accions** > **Desglossa**. El control lliscant **Desglossament** mostra una quadrícula amb camps. A la taula següent es mostra un exemple de cada camp de la quadrícula i de quina manera es representa el camp a l'informe de despeses. 
 
 |     Camp          |     Descripció                                                                                  |     Exemple              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-|     Subcategoria    |     La llista de subcategories configurades sota el tipus de categoria de despeses, **Hotel**.             |     Tarifa d'habitació diària      |
-|     Data d’inici     |     La data en què es va incórrer per primera vegada en l'article de despeses.                                           |     09/13/2021           |
-|     Tarifa diària     |     L'import incorregut per l'import de la partida de despeses.                                                    |     200                  |
-|     Quantitat       |     Nombre de vegades que la càrrega es repeteix al llarg d'un període continu.                       |     3                    |
+|     Subcategoria    |     Llista de subcategories configurades segons el tipus de categoria de despesa, **Hotel**.             |     Tarifa diària d'habitació      |
+|     Data d’inici     |     La data en què es va incórrer per primer cop l'article de la despesa.                                           |     09/13/2021           |
+|     Tarifa diària     |     L'import incorregut per l'article de la despesa.                                                    |     200                  |
+|     Quantitat       |     Nombre de vegades que el càrrec es repeteix en un període continu.                       |     3                    |
 
-![Desglossa la despesa.](media/Itemization%20screen%201.png)
+![Desglosseu la despesa.](media/Itemization%20screen%201.png)
 
-Quan deseu una elementització, veureu una línia desglossada individual per a la quantitat especificada a la quadrícula d'element. Cada línia comença en la data especificada a la quadrícula.
+Quan deseu un desglossament, veureu una línia desglossada individual per a la quantitat especificada a la quadrícula Desglossament. Cada línia s'inicia a la data que s'especifica a la quadrícula.
 
 ![Informe desglossat.](media/Itemization%20screen%202.png)
 

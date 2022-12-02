@@ -1,6 +1,6 @@
 ---
 title: Administració de propostes de factura de projecte
-description: En aquest article s'ofereixen detalls sobre el processament de factures orientades al client amb el Projecte Operacions per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona detalls sobre el processament de factures dels clients amb Project Operations per a escenaris basats en recursos/no en existències.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ El departament de facturació pot processar les propostes de factura de projecte
   - L'administrador del projecte confirma la factura de proforma al Microsoft Dataverse.
   - Totes les transaccions de vendes no facturades materials i de sempre que s'inclouen a la factura de proforma es publiquen mitjançant el llibre diari de la integració del Dynamics365 **Project Operations**.
 
-Utilitzeu els passos següents per completar una proposta de factura del projecte el Dynamics 365 Finance.
+Seguiu els passos següents per completar una proposta de factura del projecte al Dynamics 365 Finance.
 
 1. Reviseu la informació de facturació per a transaccions de temps i materials i publiqueu el llibre diari de la **integració de Project Operations**.
 2. Reviseu la informació de facturació de les fites de facturació de preus fixos.

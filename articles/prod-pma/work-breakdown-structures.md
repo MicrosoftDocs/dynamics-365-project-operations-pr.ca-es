@@ -35,7 +35,7 @@ El grau de detall d'una WBS depèn del nivell de precisió necessari a les estim
 
 Per contra, els projectes en sectors com ara els mitjans de comunicació i la publicitat, el programari i la infraestructura de TI tendeixen a ser propis, i la productivitat és relativa a l'experiència i la competència de la persona que està duent a terme la tasca. Per tant, aquests sectors utilitzen una WBS per aconseguir una aproximació de la mida d'un projecte i no fer un seguiment del progrés del projecte en detall. 
 
-La creació d'una WBS és un procés intensiu que sol fer-se durant un llarg període, i que requereix la col·laboració i la informació d'una gran varietat de persones. En aquest article es descriu com podeu utilitzar les millores del WBS per satisfer els vostres requisits per a estimacions i seguiment.
+La creació d'una WBS és un procés intensiu que sol fer-se durant un llarg període, i que requereix la col·laboració i la informació d'una gran varietat de persones. En aquest article es descriu com podeu utilitzar millores de WBS per satisfer els vostres requisits per a les estimacions i el seguiment.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Requisits previs per crear una WBS
 Per crear una WBS, heu de poder crear una planificació del treball i estimar el cost del treball.
@@ -166,7 +166,7 @@ El Finance té tres visualitzacions per a la WBS d'un projecte: la visualitzaci�
 
 ### <a name="planning-view"></a>Visualització Planificació
 
-La visualització Planificació mostra l'estimació planificada o de línia de la informació de planificació i de cost. Tot i que no hi ha cap funció per fer el seguiment de la versió i la línia de base per a la WBS d'un projecte, els valors d'aquesta visualització pretenen representar la versió de línia de base. Les seccions Estimació de planificació i estimació de costos d'aquest article descriuen aquesta visualització i com s'utilitza per crear un WBS.
+La visualització Planificació mostra l'estimació planificada o de línia de la informació de planificació i de cost. Tot i que no hi ha cap funció per fer el seguiment de la versió i la línia de base per a la WBS d'un projecte, els valors d'aquesta visualització pretenen representar la versió de línia de base. Les seccions Estimació de la planificació i Estimació de costos d'aquest article descriuen aquesta visualització i com s'utilitza per crear una WBS.
 
 ### <a name="effort-tracking-view"></a>Vista Seguiment de l'esforç
 

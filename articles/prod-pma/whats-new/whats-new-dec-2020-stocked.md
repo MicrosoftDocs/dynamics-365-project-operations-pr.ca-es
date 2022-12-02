@@ -1,6 +1,6 @@
 ---
 title: 'Novetats del desembre de 2020: Project Operations per a escenaris basats en producció/mantinguts en existències'
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de desembre de 2020 d'Operacions de projectes per a escenaris emmagatzemats / basats en la producció.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de desembre de 2020 del Project Operations per a escenaris basats en producció/ mantinguts en existències.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "8911354"
 
 _S'aplica a: Project Operations per a escenaris basats en producció/mantinguts en existències_
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
-  - Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.15
+  - Administració de projectes i comptabilitat en l'entorn del Dynamics 365 Finance, versió 10.0.15
 
 ## <a name="quality-updates"></a>Actualitzacions de qualitat
 
@@ -139,7 +139,7 @@ Aquest article s'aplica als components i versions següents Dynamics 365 Project
 
 ## <a name="regulatory-updates"></a>Actualitzacions reglamentàries
 
-Per obtenir informació sobre les actualitzacions reguladores per a Dynamics 365 Finance, consulteu [Actualitzacions reguladores](/dynamics365/finance/localizations/regulatory-updates). Una altra manera de saber les actualitzacions reglamentàries és iniciar sessió als Lifecycle Services (LCS) i visualitzar les actualitzacions reglamentàries planificades mitjançant l'eina de cerca d'edicions. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reglamentàries del Dynamics 365 Finance, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). Una altra manera de saber les actualitzacions reglamentàries és iniciar sessió als Lifecycle Services (LCS) i visualitzar les actualitzacions reglamentàries planificades mitjançant l'eina de cerca d'edicions. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

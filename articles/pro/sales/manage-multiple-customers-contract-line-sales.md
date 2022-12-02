@@ -1,6 +1,6 @@
 ---
 title: Administració de diversos clients a les línies de contracte basades en projectes (bàsic)
-description: En aquest article s'ofereix informació sobre la gestió de diversos clients en línies de contracte basades en projectes.
+description: Aquest article proporciona informació sobre l'administració de diversos clients en línies de contracte basades en projectes.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

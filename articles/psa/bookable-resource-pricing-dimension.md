@@ -1,6 +1,6 @@
 ---
 title: Utilitzar un recurs que es pot reservar com a dimensió de preus
-description: En aquest article s'ofereix informació sobre l'ús d'un recurs que es pot reservar com a dimensió de preus.
+description: En aquest article es proporciona informació sobre l'ús d'un recurs disponible com a dimensió de preu.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8916092"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-En aquest article s'ofereix informació sobre l'ús d'un recurs que es pot reservar com a dimensió de preus. Abans de començar, si encara no heu creat una solució de la dimensió de preus, haureu de crear-ne una de nova. Si ja teniu una solució de dimensió de preus, podeu fer els canvis en aquesta solució. Si no heu creat una solució de dimensió de preus nova per a la vostra organització, completeu els procediments a l'article [Crea camps i entitats](create-custom-fields-entities.md) personalitzats.
+En aquest article es proporciona informació sobre l'ús d'un recurs disponible com a dimensió de preu. Abans de començar, si encara no heu creat una solució de la dimensió de preus, haureu de crear-ne una de nova. Si ja teniu una solució de dimensió de preus, podeu fer els canvis en aquesta solució. Si no heu creat una solució nova per a la dimensió de preus de l'organització, completeu els procediments de l'article [Crear camps i entitats personalitzats](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Afegir un recurs que es pot reservar als formularis i a les visualitzacions
 Per fer que els camps siguin visibles a la interfície d'usuari a la solució de la dimensió de preus, haureu de recórrer tots els formularis i les visualitzacions de les entitats clau del Project Service i afegir aquests camps als formularis i visualitzacions d'aquestes entitats.

@@ -1,6 +1,6 @@
 ---
 title: Conjunts d'aprovacions al Project Service Automation
-description: Aquest article proporciona informació sobre el conjunt d'aprovació, les sol·licituds i els subconjunts d'aquestes operacions.
+description: En aquest article es proporciona informació sobre els conjunts d'aprovació, les sol·licituds i els subconjunts d'aquestes operacions.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

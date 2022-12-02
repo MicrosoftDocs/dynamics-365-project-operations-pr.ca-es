@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis de la versió d'actualització 43 del Project Service Automation, V3
-description: En aquest article s'enumeren les característiques i correccions que estan disponibles a Microsoft Dynamics 365 Project Service Automation Update Release 43, V3.
+description: En aquest article s'enumeren les característiques i les correccions disponibles a la Versió 43 d'actualització Microsoft Dynamics 365 Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/04/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8915294"
 
 Ens complau anunciar l'última actualització de l'aplicació Microsoft Dynamics 365 Project Service Automation. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. És compatible amb el Dynamics 365 9.x. Per actualitzar aquesta versió, visiteu la pàgina de solucions en línia del Centre d'administració del Dynamics 365 i instal·leu l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](/power-platform/admin/install-remove-preferred-solution).
 
-En aquest article s'enumeren les característiques i les correccions que són noves o canviades per a la versió 43, V3. Aquesta versió té el número de compilació V3.10.74.200 i està disponible de manera general a través d'una actualització automàtica el maig de 2022.
+En aquest article es mostren les característiques i correccions que són noves o s'han canviat per al llançament de l'actualització 43, V3, de Project Service Automation. Aquesta versió té el número de compilació V3.10.74.200 i està disponible de manera general a través d'una actualització automàtica el maig de 2022.
 
 ## <a name="update-release-43"></a>Versió d'actualització 43
 
@@ -40,6 +40,6 @@ S'han corregit els problemes següents.
 
 **Temps i despesa**
 
-- Quan s'importen entrades de temps des de reserves o assignacions de recursos, no es manté la referència al recurs que es pot reservar relacionat.
-- Quan la quadrícula d'entrada de temps s'expandeix a pantalla completa, navegar per la quadrícula amb la tecla de pestanya no funciona.
-- Quan envieu una entrada de temps creada per un altre usuari, el **camp Enviat per** s'emplena incorrectament amb l'usuari que ha creat el full de temps.
+- En importar entrades de temps des de reserves o assignacions de recursos, no es manté la referència al recurs que es pot reservar relacionat.
+- Quan la quadrícula d'entrada de temps s'expandeix a pantalla completa, la navegació per la quadrícula amb la tecla de tabulació no funciona.
+- En enviar una entrada de temps creada per un altre usuari, el camp **Enviat per** no s'emplena correctament amb l'usuari que ha creat el full d'hores.

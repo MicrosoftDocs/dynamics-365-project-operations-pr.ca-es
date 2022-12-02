@@ -1,6 +1,6 @@
 ---
 title: Desactivació de llistes de preus
-description: En aquest article s'explica com desactivar o eliminar llistes de preus no usades o antigues.
+description: En aquest article s'explica com desactivar o suprimir llistes de preus no usades o antigues.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

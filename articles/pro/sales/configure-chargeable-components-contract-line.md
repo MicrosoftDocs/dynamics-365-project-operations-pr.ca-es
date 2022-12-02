@@ -1,6 +1,6 @@
 ---
 title: Configuració dels components facturables d'una línia de contracte basada en projectes
-description: En aquest article s'ofereix informació sobre com afegir components carregables a les línies de contracte de Project Operations.
+description: Aquest article proporciona informació sobre com afegir components imputables a les línies de contracte al Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

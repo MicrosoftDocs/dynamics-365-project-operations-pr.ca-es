@@ -1,6 +1,6 @@
 ---
 title: Escriptoris digitals
-description: En aquest article es proporciona informació sobre els escriptoris digitals d'informes que s'inclouen al Dynamics 365 Project Service Automation.
+description: En aquest article es proporciona informació sobre els escriptoris digitals d'informes inclosos al Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

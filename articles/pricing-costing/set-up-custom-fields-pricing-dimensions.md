@@ -1,6 +1,6 @@
 ---
 title: Configuració de camps personalitzats com a dimensions de preus
-description: En aquest article s'ofereix informació sobre com configurar les dimensions dels preus mitjançant camps personalitzats.
+description: En aquest article, podreu obtenir informació sobre la configuració de dimensions de preus amb camps personalitzats.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917564"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Abans de començar, aquest article assumeix que heu completat els procediments dels articles, [Creeu camps i entitats personalitzats i](create-custom-fields-entities-pricing-dimensions.md) Afegiu camps personalitzats necessaris [a la configuració de preus i a les entitats transaccionals](add-custom-fields-price-setup-transactional-entities.md). Si no heu completat aquests procediments, torneu enrere i completeu-los i torneu a aquest article. 
+Abans de començar, aquest article assumeix que heu completat els procediments dels article [Crear camps i entitats personalitzats](create-custom-fields-entities-pricing-dimensions.md) i [Afegir camps personalitzats obligatoris a la configuració de preus i les entitats transaccionals](add-custom-fields-price-setup-transactional-entities.md). Si no heu completat aquests procediments, aneu enrere per completar-los torneu a aquest article. 
 
-En aquest article s'ofereix informació sobre la configuració de les dimensions de preus personalitzades. A la pàgina **Paràmetres**, la pestanya **Dimensions de preus basades en l'import** mostra els registres de les entitats de dimensions de preus. Per defecte, hi ha dues files a la quadrícula en aquesta pestanya:
+En aquest article, podreu obtenir informació sobre la configuració de dimensions de preus personalitzades. A la pàgina **Paràmetres**, la pestanya **Dimensions de preus basades en l'import** mostra els registres de les entitats de dimensions de preus. Per defecte, hi ha dues files a la quadrícula en aquesta pestanya:
 
 - **msdyn_resourcecategory** (Funció)
 - **msdyn_OrganizationalUnit** (Unitat organitzativa)

@@ -1,6 +1,6 @@
 ---
 title: Novetats del febrer del 2022 - Implementació bàsica del Project Operations
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió de febrer de 2022 de la implementació del lloc de treball del projecte Operations.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat que estan disponibles en el llançament de febrer de 2022 de la implementació bàsica del Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -18,22 +18,22 @@ ms.locfileid: "8922808"
 
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
-Aquest article s'aplica als components i versions següents de Microsoft Dynamics 365 Project Operations:
+Aquest article s'aplica als components i les versions següents del Microsoft Dynamics 365 Project Operations:
 
-- 4.28.0.120 d'operacions del projecte en una Dataverse versió d'entorn
+- Project Operations en un entorn del Dataverse, versió 4.28.0.120
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 
-A partir d'aquest llançament, podeu afegir fins a 300 membres de l'equip a un sol projecte. Anteriorment, el límit en el nombre de membres de l'equip era de 150. Per obtenir més informació, vegeu [Límits del projecte](../../project-management/create-wbs.md#project-limitations).
+A partir d'aquesta versió, podeu afegir fins a 300 membres de l'equip a un únic projecte. Anteriorment, el límit pel que fa al nombre de membres de l'equip era de 150. Per obtenir més informació, vegeu [Límits de projecte](../../project-management/create-wbs.md#project-limitations).
 
 ## <a name="quality-updates"></a>Actualitzacions de qualitat
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |
-| Facturació i preus | 2497369 | La correcció de material ha de seguir el valor de data en els **paràmetres de correcció**. |
-| Facturació i preus | 2498697 | S'ha millorat la configuració de seguretat per a **la recuperació de l'entrada de temps**. |
-| Facturació i preus | 2517455 | No s'ha **de permetre que l'acció Transaccions** de línia de factura actualitzada s'activi diverses vegades simultànies per a la mateixa factura. |
-| Facturació i preus | 2517465 | L'acció **Desactiva els detalls de** la línia de factura està bloquejada perquè no és compatible. |
-| Facturació i preus | 2556660 | S'han corregit les comprovacions d'eficàcia de la data que es fan a la llista de preus que s'adjunta a un registre de paràmetres del projecte. |
-|   Administració d'oportunitats | 2369202 | S'ha corregit la lògica empresarial que verifica que les llistes de preus que tenen dates d'eficàcia superposades es poden adjuntar al mateix contracte de projecte. |
-|   Administració d'oportunitats | 2385965 | S'ha corregit el comportament de la **pestanya Clients** de la **pàgina Contracte del projecte** quan seleccioneu **Desa i tanca**. |
+| Facturació i preus | 2497369 | La correcció de materials ha de seguir el valor de data dels paràmetres de **Correcció**. |
+| Facturació i preus | 2498697 | S'ha millorat la configuració de seguretat de **Recuperació d'entrada de temps**. |
+| Facturació i preus | 2517455 | L'acció **Transaccions de línia de factura actualitzades** no es pot permetre que s'activi diverses vegades simultànies per a la mateixa factura. |
+| Facturació i preus | 2517465 | L'acció **Desactiva els detalls de la línia de factura** està bloquejada perquè no està admesa. |
+| Facturació i preus | 2556660 | S'han corregit les comprovacions d'efectivitat de la data que es fan a la llista de preus que s'adjunta a un registre de paràmetres de projecte. |
+|   Administració d'oportunitats | 2369202 | S'ha corregit la lògica empresarial que verifica que es poden adjuntar llistes de preus que tenen dates d'efecte superposades al mateix contracte de projecte. |
+|   Administració d'oportunitats | 2385965 | S'ha corregit el comportament de la pestanya **Clients** de la pàgina **Contracte del projecte** quan seleccioneu **Desa i tanca**. |

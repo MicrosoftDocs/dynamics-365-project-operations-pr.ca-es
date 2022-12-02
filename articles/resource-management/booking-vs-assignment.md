@@ -1,6 +1,6 @@
 ---
 title: Reserves en comparació amb assignacions
-description: En aquest article s'ofereix informació sobre les diferències entre les reserves de recursos i les assignacions de recursos.
+description: En aquest article es proporciona informació sobre les diferències entre les reserves de recursos i les assignacions de recursos.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

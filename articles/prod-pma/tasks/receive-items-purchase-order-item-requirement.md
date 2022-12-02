@@ -1,6 +1,6 @@
 ---
 title: Rebre articles en una comanda de compra d'un requisit d'article
-description: En aquest article s'explica com rebre articles en una comanda de compra a partir d'un requisit d'article.
+description: Aquest article explica com rebre articles en una comanda de compra d'un requisit d'article.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929524"
 
 [!include [banner](../../includes/banner.md)]
 
-En aquest article s'explica com rebre articles en una comanda de compra a partir d'un requisit d'article.
+Aquest article explica com rebre articles en una comanda de compra d'un requisit d'article.
 
 Mitjançant l'ús d'un requisit d'article en comptes d'una transacció d'articles, podeu planificar l'entrega just abans d'utilitzar l'article, crear una comanda de compra, incloure l'article a l'estructura de l'acord de comerç i incloure el requisit d'article a la planificació de la producció. 
 

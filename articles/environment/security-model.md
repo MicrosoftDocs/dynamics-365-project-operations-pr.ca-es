@@ -1,6 +1,6 @@
 ---
 title: Model de seguretat
-description: En aquest article s'ofereix informació sobre el model de seguretat a Dynamics 365 Project Operations.
+description: En aquest article podreu obtenir informació sobre el model de seguretat del Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -70,7 +70,7 @@ A mesura que el model de col·laboració de grups de l'Office evoluciona, s'afeg
 
 Per obtenir més informació, vegeu [Seguretat al Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Operacions de projectes i Microsoft Dynamics seguretat financera 365
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Seguretat del Project Operations i el Microsoft Microsoft Dynamics 365 Finance
 El Project Operations inclou les funcions següents:
 
 - Administrador de projectes

@@ -1,6 +1,6 @@
 ---
 title: Utilitzar el complement Project Service per planificar el vostre treball al Microsoft Project | MicrosoftDocs
-description: En aquest article s'ofereix informació sobre com afegir, configurar i utilitzar el complement del Microsoft Project per al Servei del Microsoft Project.
+description: En aquest article es proporciona informació sobre com afegir, configurar i utilitzar el complement del Microsoft Project per al Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

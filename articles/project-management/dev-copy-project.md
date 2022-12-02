@@ -1,6 +1,6 @@
 ---
 title: Desenvolupament de plantilles de projecte amb la característica Copia el projecte
-description: En aquest article s'ofereix informació sobre com crear plantilles de projecte mitjançant l'acció personalitzada Copia el projecte.
+description: En aquest article es proporciona informació sobre com crear plantilles de projecte mitjançant l'acció personalitzada Copia el projecte.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,42 +25,42 @@ Quan seleccioneu **Copia el projecte**, l'estat del projecte de destinació s'ac
 
 ### <a name="name"></a>Nom 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Paràmetres d’entrada
 
 Hi ha tres paràmetres d'entrada:
 
-- **ReplaceNamedResources** o **ClearTeamsAndAssignments** : definiu només una de les opcions. No els fixeu tots dos.
+- **ReplaceNamedResources** o **ClearTeamsAndAssignments**: definiu només una de les opcions. No els definiu tots dos.
 
-    - **\{"ReplaceNamedResources":true\}** - El comportament per defecte de les operacions del projecte. Tots els recursos amb nom se substitueixen per recursos genèrics.
-    - **\{"ClearTeamsAndAssignments":true\}** - El comportament per defecte del Projecte per al Web. Se suprimeixen totes les tasques i membres de l'equip.
+    - **\{"ReplaceNamedResources":true\}**: comportament per defecte del Project Operations. Els recursos amb nom se substitueixen per recursos genèrics.
+    - **\{"ClearTeamsAndAssignments":true\}**: el comportament per defecte del Project for the Web. Totes les assignacions i els membres de l'equip se suprimeixen.
 
-- **SourceProject** : la referència d'entitat del projecte d'origen del qual copiar. Aquest paràmetre no pot ser nul.
-- **Destinació** : la referència d'entitat del projecte de destinació a la qual copiar. Aquest paràmetre no pot ser nul.
+- **SourceProject**: referència de l'entitat del projecte d'origen del qual es copiarà. Aquest paràmetre no pot ser nul.
+- **Target**: referència de l'entitat del projecte de destinació al qual es copiarà. Aquest paràmetre no pot ser nul.
 
-La taula següent proporciona un resum dels tres paràmetres.
+La taula següent ofereix un resum dels tres paràmetres.
 
 | Paràmetre                | Type             | Valor                 |
 |--------------------------|------------------|-----------------------|
-| SubstitueixNamedResources    | Boolean          | **Cert** o **fals** |
-| ClearTeamsAndAssignments | Boolean          | **Cert** o **fals** |
+| ReplaceNamedResources    | Boolean          | **True** o **False** |
+| ClearTeamsAndAssignments | Boolean          | **True** o **False** |
 | SourceProject            | Referència d’entitat | El projecte d'origen    |
-| Meta                   | Referència d’entitat | El projecte objectiu    |
+| Meta                   | Referència d’entitat | El projecte de destinació    |
 
-Per obtenir més valors per defecte a les accions, vegeu [Utilitzar accions](/powerapps/developer/common-data-service/webapi/use-web-api-actions) de l'API web.
+Per veure més valors per defecte a les accions, vegeu [Utilitzar les accions de l'API web](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 ### <a name="validations"></a>Validacions
 
-Es realitzen les següents validacions.
+Es fan les validacions següents.
 
-1. Nul verifica i recupera els projectes d'origen i destinació per confirmar l'existència d'ambdós projectes a l'organització.
+1. Comprova els valors nuls i recupera els projectes d'origen i de destinació per confirmar l'existència d'ambdós projectes a l'organització.
 2. El sistema valida que el projecte de destinació és vàlid per copiar verificant les condicions següents:
 
-    - No hi ha cap activitat anterior al projecte (inclosa la selecció de la **pestanya Tasques**) i el projecte és de nova creació.
-    - No hi ha cap còpia anterior, no s'ha sol·licitat cap importació en aquest projecte i el projecte no té un **estat fallit**.
+    - Al projecte no hi ha cap activitat anterior (incloent-hi la selecció de la pestanya **Tasques**) i es crea el projecte.
+    - No hi ha cap còpia prèvia, no s'ha sol·licitat cap importació en aquest projecte i el projecte no té un estat **Amb error**.
 
-3. L'operació no es crida mitjançant HTTP.
+3. No es crida l'operació mitjançant HTTP.
 
 ## <a name="specify-fields-to-copy"></a>Especificar els camps que es copiaran
 
@@ -68,7 +68,7 @@ Quan es crida l'acció, **Copia el projecte** consultarà la visualització del 
 
 ### <a name="example"></a>Exemple
 
-L'exemple següent mostra com anomenar l'acció **personalitzada CopyProjectV3** amb el conjunt de **paràmetres RemoveNamedResources**.
+A l'exemple següent es mostra com es crida l'acció personalitzada **CopyProjectV3** amb el conjunt de paràmetres **removeNamedResources**.
 
 ```C#
 {

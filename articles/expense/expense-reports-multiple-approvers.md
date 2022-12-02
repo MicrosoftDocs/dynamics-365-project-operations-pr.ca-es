@@ -1,6 +1,6 @@
 ---
 title: Informes de despeses i diversos aprovadors
-description: En aquest article s'ofereix informació sobre els informes de despeses que requereixen l'aprovació de més d'una persona.
+description: En aquest article es proporciona informació sobre els informes de despeses que requereixen l'aprovació de més d'una persona.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

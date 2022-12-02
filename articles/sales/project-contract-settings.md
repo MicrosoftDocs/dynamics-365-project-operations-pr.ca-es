@@ -1,6 +1,6 @@
 ---
 title: Configuració de contractes de projecte
-description: En aquest article s'ofereix informació sobre els camps que afecten les línies de contracte i la informació sobre el contracte que es resumeix en tots els elements de la línia.
+description: Aquest article proporciona informació sobre els camps que afecten les línies de contracte i la informació sobre el contracte que es resumeix en tots els elements de la línia.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8921566"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-En aquest article s'ofereix informació sobre els camps que s'apliquen a tot el contracte del projecte, inclosa la configuració que afecta totes les línies de contracte. També s'inclou informació sobre el contracte que es resumeix en tots els elements de la línia per impulsar els KPI del contracte de projecte.
+En aquest article es proporciona informació sobre els camps que s'apliquen a tot el contracte del projecte, incloent-hi la configuració que afecta totes les línies de contracte. També s'inclou informació sobre el contracte que es resumeix en tots els elements de la línia per impulsar els KPI del contracte de projecte.
 
 A la taula següent es detallen els camps d'un contracte de projecte que són exclusius del Dynamics 365 Project Operations o que tenen alguns canvis importants en el comportament de les comandes de vendes al Dynamics 365 Sales.
 

@@ -1,6 +1,6 @@
 ---
 title: Importació i manteniment de transaccions de targeta de crèdit
-description: En aquest article s'explica com importar i mantenir transaccions amb targeta de crèdit relacionades amb les despeses. Aquestes transaccions es poden establir de manera que s'importin automàticament segons una planificació recurrent, o es poden importar manualment quan es necessitin.
+description: En aquest article es descriu la manera d'importar i mantenir transaccions amb targetes de crèdit relacionades amb les despeses. Aquestes transaccions es poden establir de manera que s'importin automàticament segons una planificació recurrent, o es poden importar manualment quan es necessitin.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Crear solucions personalitzades per a les dimensions de preus
-description: En aquest article s'explica com es crea una solució personalitzada quan es creen dimensions de preus personalitzades.
+description: Aquest article explica com crear una solució personalitzada en crear dimensions de preus personalitzades.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

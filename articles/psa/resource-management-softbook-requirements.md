@@ -1,6 +1,6 @@
 ---
 title: Reservar requisits manera flexible
-description: En aquest article s'ofereix informació sobre com fer un llibre suau.
+description: En aquest article es proporciona informació sobre com reservar requisits de manera flexible.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

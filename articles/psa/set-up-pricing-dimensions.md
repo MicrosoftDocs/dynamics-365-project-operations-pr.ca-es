@@ -1,6 +1,6 @@
 ---
 title: Configuració de camps personalitzats com a dimensions de preus
-description: En aquest article s'ofereix informació sobre la configuració de les dimensions de preus personalitzades.
+description: En aquest article, podreu obtenir informació sobre la configuració de dimensions de preus personalitzades.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922585"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Abans de començar, aquest article assumeix que heu completat els procediments als articles, [Creeu camps i entitats](create-custom-fields-entities.md) personalitzats i [Afegeix camps personalitzats a la configuració de preus i a les entitats transaccionals](field-references.md). Si no heu completat aquests procediments, torneu enrere i completeu-los i torneu a aquest article. 
+Abans de començar, aquest article assumeix que heu completat els procediments dels articles [Crear camps i entitats personalitzats](create-custom-fields-entities.md) i [Afegir camps personalitzats a la configuració de preus i les entitats transaccionals](field-references.md). Si no heu completat aquests procediments, aneu enrere per completar-los torneu a aquest article. 
 
-En aquest article s'ofereix informació sobre la configuració de les dimensions de preus personalitzades. A la interfície web del Project Service, a la pàgina **Paràmetres**, la pestanya **Dimensions de preus basades en el preu** mostra els registres de l'entitat de dimensions de preus. Per defecte, la instal·lació del Project Service crea 2 files a la quadrícula en aquesta pestanya:
+En aquest article, podreu obtenir informació sobre la configuració de dimensions de preus personalitzades. A la interfície web del Project Service, a la pàgina **Paràmetres**, la pestanya **Dimensions de preus basades en el preu** mostra els registres de l'entitat de dimensions de preus. Per defecte, la instal·lació del Project Service crea 2 files a la quadrícula en aquesta pestanya:
 
 - **msdyn_resourcecategory** (Funció)
 - **msdyn_OrganizationalUnit** (Unitat organitzativa)

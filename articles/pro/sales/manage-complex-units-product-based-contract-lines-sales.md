@@ -1,6 +1,6 @@
 ---
 title: Administració d'unitats complexes per a línies de contracte basades en productes (bàsic)
-description: Aquest article proporciona informació sobre el suport a la venda de productes basats en subscripcions.
+description: Aquest article proporciona informació sobre com admetre la venda de productes basats en subscripcions.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

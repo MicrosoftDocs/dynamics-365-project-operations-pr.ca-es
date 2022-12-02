@@ -1,6 +1,6 @@
 ---
 title: Utilització d'una categoria de transacció com a dimensió de preus
-description: En aquest article s'ofereix informació sobre com utilitzar el camp Categoria de transacció com a dimensió de preus.
+description: En aquest article es proporciona informació sobre l'ús del camp Categoria de transacció com a dimensió de preu.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "8911682"
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 
-En aquest article s'explica com s'utilitza el **camp Categoria de** transacció com a dimensió de preus. 
+En aquest article s'explica com utilitzar el camp **Categoria de transacció** com a dimensió de preu. 
 
 ## <a name="prerequisites"></a>Requisits previs
-Abans de completar els tràmits d'aquest article, heu de tenir una solució de dimensió de preus nova per a la vostra organització. Si encara no l'heu creat, vegeu [Crear camps i entitats personalitzats com a dimensions de preus](create-custom-fields-entities-pricing-dimensions.md).
+Abans de completar els procediments d'aquest article, heu de tenir una solució de dimensió de preus nova per a la vostra organització. Si encara no l'heu creat, vegeu [Crear camps i entitats personalitzats com a dimensions de preus](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Afegir el camp Categoria de transacció a formularis i visualitzacions
 Per fer que el camp **Categoria de transacció** sigui visible a la solució de la dimensió de preus, heu d'afegir el camp a tots els formularis i les visualitzacions com a entitat.

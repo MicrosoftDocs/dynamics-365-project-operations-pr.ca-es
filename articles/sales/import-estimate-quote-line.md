@@ -1,6 +1,6 @@
 ---
 title: Importació de les estimacions d'un projecte a una línia d'oferta del projecte
-description: En aquest article s'ofereix informació sobre la importació d'estimacions d'un projecte a una línia d'oferta del projecte.
+description: Aquest article proporciona informació sobre la importació d'estimacions d'un projecte a una línia d'oferta del projecte.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Personalització de l'entrada de temps setmanal
-description: En aquest article s'ofereix informació sobre com implementar regles de negoci personalitzades que admeten les pràctiques d'una organització.
+description: En aquest article es proporciona informació sobre com implementar regles de negoci personalitzades que segueixin les pràctiques d'una organització.
 author: stsporen
 ms.custom:
 - dyn365-projectservice

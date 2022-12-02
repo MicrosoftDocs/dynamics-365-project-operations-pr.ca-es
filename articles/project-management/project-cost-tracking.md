@@ -1,6 +1,6 @@
 ---
 title: Seguiment del cost del projecte
-description: En aquest article s'ofereix informació sobre com les operacions del projecte fa un seguiment del progrés contra el cost laboral i la despesa en un projecte.
+description: Aquest article proporciona informació sobre com el Project Operations fa el seguiment del progrés segons el cost laboral i la despesa d'un projecte.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

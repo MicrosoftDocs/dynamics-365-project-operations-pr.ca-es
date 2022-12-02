@@ -1,6 +1,6 @@
 ---
 title: Preus del projecte
-description: En aquest article s'ofereix informació sobre com funcionen els preus a Dynamics 365 Project Service Automation.
+description: En aquest article s'ofereix informació sobre la manera com els preus funcionen al Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

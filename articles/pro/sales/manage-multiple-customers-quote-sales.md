@@ -1,6 +1,6 @@
 ---
 title: Administració de diversos clients a les ofertes de projectes (bàsic)
-description: En aquest article s'ofereix informació sobre com treballar en ofertes amb diversos clients que finançaran el projecte. (Sales)
+description: Aquest article proporciona informació sobre com treballar en les ofertes amb diversos clients que finançaran el projecte. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

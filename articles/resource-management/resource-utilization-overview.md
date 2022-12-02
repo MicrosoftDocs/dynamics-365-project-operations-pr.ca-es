@@ -1,6 +1,6 @@
 ---
 title: Informació general sobre l'ús de recursos
-description: En aquest article s'ofereix informació sobre la utilització de recursos a les operacions del projecte.
+description: En aquest article es proporciona informació sobre l'ús dels recursos al Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

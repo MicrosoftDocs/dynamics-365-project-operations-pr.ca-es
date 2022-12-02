@@ -1,6 +1,6 @@
 ---
 title: Escenaris multidivisa (versió 3.x)
-description: En aquest article s'ofereix informació sobre escenaris de moneda múltiple.
+description: Aquest article proporciona informació sobre els escenaris multidivisa.
 author: rumant
 ms.custom:
 - dyn365-projectservice

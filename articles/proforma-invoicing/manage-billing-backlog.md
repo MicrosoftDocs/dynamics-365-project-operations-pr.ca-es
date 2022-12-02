@@ -1,6 +1,6 @@
 ---
 title: Administració del treball pendent de facturació
-description: En aquest article s'ofereix informació sobre com veure i treballar amb el backlog de facturació a Project Operations.
+description: Aquest article proporciona informació sobre com veure i treballar el treball pendent de facturació al Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

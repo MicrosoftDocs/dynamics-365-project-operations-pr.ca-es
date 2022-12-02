@@ -1,6 +1,6 @@
 ---
 title: Instal·lació de les dades d'exemple
-description: En aquest article s'ofereix informació sobre la instal·lació de dades d'exemple al Project Service Automation.
+description: Aquest article proporciona informació sobre la instal·lació de les dades d'exemple al Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

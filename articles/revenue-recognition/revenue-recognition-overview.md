@@ -1,6 +1,6 @@
 ---
 title: Informació general del reconeixement d'ingressos
-description: En aquest article s'ofereix informació sobre el reconeixement d'ingressos a les operacions del projecte.
+description: En aquest article es proporciona informació sobre el reconeixement d'ingressos a Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8926258"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Al Dynamics 365 Project Operations, els principis de reconeixement d'ingressos varien en funció del mètode de facturació seleccionat per a un projecte o una part del projecte. En aquest article s'ofereix informació sobre el reconeixement d'ingressos a les operacions del projecte.
+Al Dynamics 365 Project Operations, els principis de reconeixement d'ingressos varien en funció del mètode de facturació seleccionat per a un projecte o una part del projecte. En aquest article es proporciona informació sobre el reconeixement d'ingressos a Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transaccions comptabilitzades amb el mètode de facturació de temps i material
 

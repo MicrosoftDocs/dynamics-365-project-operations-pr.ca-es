@@ -1,6 +1,6 @@
 ---
 title: Configurar els costos estàndard per al treball i les despeses
-description: En aquest article s'explica com configurar els costos estàndard per a la mà d'obra i les despeses d'un projecte.
+description: En aquest article s'explica la manera de configurar els costos estàndard per al treball i les despeses d'un projecte.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919496"
 
 [!include [banner](../../includes/banner.md)]
 
-En aquest article s'explica com configurar els costos estàndard per a la mà d'obra i les despeses d'un projecte. Aquesta tasca utilitza el conjunt de dades d'USSI.
+En aquest article s'explica la manera de configurar els costos estàndard per al treball i les despeses d'un projecte. Aquesta tasca utilitza el conjunt de dades d'USSI.
 
 1. A la subfinestra de navegació, aneu a **Mòduls > Administració de projectes i comptabilitat > Configuració > Preus > Preu de cost (hora)**.
 2. Seleccioneu **Crea**.

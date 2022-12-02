@@ -1,6 +1,6 @@
 ---
 title: Seguiment de l'esforç del projecte
-description: Aquest article proporciona informació sobre com fer un seguiment de l'esforç del projecte i el progrés del treball.
+description: En aquest article es proporciona informació sobre com fer el seguiment de l'esforç del projecte i el progrés de la feina.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929248"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-La necessitat de fer un seguiment del progrés davant d'una planificació varia segons la indústria. Algunes indústries fan el seguiment en un nivell granular, mentre que altres indústries fan el seguiment en un nivell superior. En aquest article es mostra com s'ha de planificar per tal de satisfer els requisits de la vostra organització.
+La necessitat de fer un seguiment del progrés davant d'una planificació varia segons la indústria. Algunes indústries fan el seguiment en un nivell granular, mentre que altres indústries fan el seguiment en un nivell superior. En aquest article es mostra la manera de planificar per tal de satisfer els requisits de la vostra organització.
 
 ## <a name="effort-tracking-view"></a>Vista Seguiment de l'esforç
 
@@ -45,8 +45,8 @@ Es pot tornar a projectar l'esforç en tasques de resum o contenidor. Els admini
 - Es calcula l'EAC nou en cadascuna de les tasques individuals fins a les tasques de node fulla. 
 - Es torna a calcular l'esforç restant i el percentatge de progrés per a les tasques secundàries afectades fins als nodes fulla en funció del valor de l'EAC. Això es tradueix en una nova projecció per a la variació de l'esforç de la tasca. 
 - Els EAC de les tasques de resum es tornen a calcular fins al node arrel.
-- L'esforç aprovat en una tasca de resum és la suma de l'esforç aprovat en totes les tasques infantils més l'esforç aprovat en la tasca de resum.
-- L'esforç restant en la tasca de resum és la suma de l'esforç restant en totes les tasques infantils menys l'esforç aprovat en la tasca de resum.
+- L'esforç aprovat en una tasca de resum és la suma de l'esforç aprovat per a totes les tasques secundàries i l'esforç aprovat per a la tasca de resum.
+- L'esforç restant de la tasca de resum és la suma de l'esforç restant per a totes les tasques secundàries menys l'esforç aprovat per a la tasca de resum.
 
 ## <a name="project-status-summary"></a>Resum de l'estat del projecte
 

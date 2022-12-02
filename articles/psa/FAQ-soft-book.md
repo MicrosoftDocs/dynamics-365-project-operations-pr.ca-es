@@ -1,6 +1,6 @@
 ---
 title: Reservar de manera flexible un recurs
-description: En aquest article s'ofereix informació sobre com programar provisionalment o reservar suaument els membres de l'equip del projecte.
+description: En aquest article es proporciona informació sobre com planificar provisionalment o de manera flexible els membres de l'equip del projecte.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

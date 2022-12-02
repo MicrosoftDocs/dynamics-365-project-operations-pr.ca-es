@@ -1,6 +1,6 @@
 ---
 title: 'Novetats de desembre de 2020: implementació bàsica del Project Operations; tracte de facturació proforma'
-description: 'Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de desembre de 2020 de la implementació del Project Operations Lite: acord amb la facturació proforma.'
+description: 'Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de desembre de 2020 de la implementació bàsica del Project Operations: tracte de facturació proforma.'
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924050"
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
   - Project Operations en entorn del Dataverse versió 4.5.0.134 
 

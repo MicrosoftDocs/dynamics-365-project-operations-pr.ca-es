@@ -1,6 +1,6 @@
 ---
 title: PMF de l'administració de recursos
-description: Aquest article proporciona respostes a preguntes freqüents sobre la gestió de recursos.
+description: Aquest article proporciona respostes a les preguntes més freqüents sobre l'administració de recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

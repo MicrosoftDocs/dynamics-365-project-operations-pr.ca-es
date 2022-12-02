@@ -1,6 +1,6 @@
 ---
 title: Compliment dels requisits de recursos genèrics
-description: En aquest article s'ofereix informació sobre com reservar recursos amb nom per a un requisit genèric de recursos.
+description: Aquest article proporciona informació sobre com reservar recursos amb nom per a un requisit de recurs genèric.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

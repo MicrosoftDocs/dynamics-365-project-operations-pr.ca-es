@@ -1,6 +1,6 @@
 ---
 title: Creació de contractes avançats per a la facturació basada en el progrés
-description: En aquest article s'explica com crear contractes de projecte perquè puguis generar factures per als clients, en funció d'un percentatge de treball realitzat.
+description: Aquest article explica com crear contractes de projectes de manera que es puguin generar factures per als clients, basades en un percentatge del treball completat.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913654"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Creació de contractes avançats per a la facturació basada en el progrés
 [!include [banner](../includes/banner.md)]
 
-En aquest article s'explica com crear contractes de projecte perquè pugueu crear factures per als clients, en funció d'un percentatge del treball completat. Els imports de la factura es calculen automàticament per a les categories de treball que heu configurat per a un projecte. El temps de la factura s'estableix quan es negocia el contracte del projecte amb el client.
+Aquest article explica com crear contractes de projectes de manera que es puguin crear factures per als clients, basades en un percentatge del treball completat. Els imports de la factura es calculen automàticament per a les categories de treball que heu configurat per a un projecte. El temps de la factura s'estableix quan es negocia el contracte del projecte amb el client.
 
-Utilitzeu els procediments d'aquest article per configurar un contracte, un projecte associat i les regles de facturació que calculen els imports de la factura de les categories de pressupost de treball que configureu per al projecte.
+Utilitzeu els procediments d'aquest article per configurar un contracte, un projecte associat i les regles de facturació que calculen les quantitats de facturació per a les categories de pressupost de treball que heu establert per al projecte.
 
 Després de crear el contracte i el projecte, podeu establir els detalls del projecte. Per exemple, podeu definir activitats i assignar treballadors al projecte.
 

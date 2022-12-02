@@ -1,6 +1,6 @@
 ---
 title: Desactivació d'una dimensió de preus
-description: En aquest article s'ofereix informació sobre com desactivar les dimensions dels preus.
+description: En aquest article podreu obtenir informació sobre com desactivar dimensions de preus.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

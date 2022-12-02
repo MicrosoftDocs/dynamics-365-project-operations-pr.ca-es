@@ -1,6 +1,6 @@
 ---
 title: Complir els requisits de recursos
-description: En aquest article s'ofereix informació sobre com complir els requisits de recursos.
+description: En aquest article es proporciona informació sobre la manera de complir els requisits dels recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Crear i actualitzar un projecte
-description: En aquest article s'ofereix informació sobre l'actualització de projectes d'operacions de projectes.
+description: En aquest article es proporciona informació sobre l'actualització de projectes al Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

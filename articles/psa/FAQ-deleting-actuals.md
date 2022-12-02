@@ -1,6 +1,6 @@
 ---
 title: Per què no puc suprimir registres de l'entitat Valors reals?
-description: En aquest article s'ofereix informació sobre per què no podeu suprimir registres de l'entitat real.
+description: Aquest article proporciona informació sobre els motius pels quals no podeu suprimir registres de l'entitat de valors reals.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

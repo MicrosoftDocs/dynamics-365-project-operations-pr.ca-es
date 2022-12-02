@@ -1,6 +1,6 @@
 ---
 title: Determinació del tipus d'implementació
-description: En aquest article trobareu informació per ajudar-vos a determinar el tipus d'operació de projecte correcte per a la vostra empresa.
+description: En aquest article es proporciona informació per ajudar-vos a determinar el tipus d'implementació correcte del Project Operations per a la vostra empresa.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clients existents del Dynamics que utilitzen el Dynamics 365 Project Service Automation
 El Project Operations inclou les capacitats incloses al Project Service Automation. Es llançarà un camí d'actualització per a aquests clients a la fase 1 de llançament de 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clients existents de Dynamics 365 Finance utilitzant la gestió de projectes i la comptabilitat 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clients existents del Dynamics 365 Finance que utilitzen l'administració de projectes i la comptabilitat 
 
 Els clients existents del Finance que utilitzen la funcionalitat d'administració de projectes i comptabilitat poden continuar utilitzant-la sense canvis. Vegeu [Project Operations per a escenaris mantinguts en existències/d’ordre de producció](#pma).
 

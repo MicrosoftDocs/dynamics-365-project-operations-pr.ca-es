@@ -1,6 +1,6 @@
 ---
 title: Configuració de plantilles de costos
-description: En aquest article s'ofereix informació sobre com crear i utilitzar plantilles de cost a les operacions del projecte.
+description: Aquest article proporciona informació sobre com crear i utilitzar plantilles de costos a Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918392"
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
 
-En aquest article s'ofereix informació sobre com crear i utilitzar plantilles de cost a les operacions del projecte. Una plantilla de costos determina:
+Aquest article proporciona informació sobre com crear i utilitzar plantilles de costos a Project Operations. Una plantilla de costos determina:
 
 - Les categories de projectes per a la predicció i les transaccions reals que s'inclouran en un percentatge del càlcul de compleció del projecte. El valor de percentatge complet s'utilitza després per calcular la quantitat d'ingressos que es reconeixerà.
 - Si el percentatge de compleció es pot modificar si s'ha calculat automàticament.
@@ -56,7 +56,7 @@ Decidir quin enfocament utilitzar per crear una plantilla de costos pot dependre
 ## <a name="create-cost-templates"></a>Crear plantilles de costos
 Per crear plantilles de costos, seguiu aquests passos:
 
-1. Per accedir a les plantilles de costos, a l'entorn Dynamics 365 Finance, aneu a La **plantilla De costos d'estimacions d'estimacions** > **d'instal·lació** > **de projectes i comptabilitat** > **·**.
+1. Per accedir a les plantilles de costos, a l'entorn del Dynamics 365 Finance, aneu a **Administració de projectes i comptabilitat** > **Configuració** > **Estimacions** > **Plantilla de costos**.
 2. Seleccioneu **Crea** per crear una plantilla de costos nova. Introduïu un nom i una descripció.
 3. Proporcioneu l'identificador de la línia de cost per a cada tipus de transacció.
 4. Seleccioneu un mètode de compleció per defecte:

@@ -1,6 +1,6 @@
 ---
 title: Mètodes d'assignació de reserves al Project Service Automation
-description: En aquest article trobareu informació sobre les diferents maneres de reservar assignacions.
+description: En aquest article es proporciona informació sobre les diferents maneres de fer la reserva d'assignacions.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929156"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Si afegiu un membre de l'equip directament a un projecte a la pestanya **Equip**, o reserveu un recurs per a un projecte o requisit del Tauler de planificació, hi ha alguns mètodes d'assignació de reserva diferents que podeu utilitzar. En aquest article s'explica com funciona cada mètode i quins mètodes podrien conduir a l'overbooking de recursos.
+Si afegiu un membre de l'equip directament a un projecte a la pestanya **Equip**, o reserveu un recurs per a un projecte o requisit del Tauler de planificació, hi ha alguns mètodes d'assignació de reserva diferents que podeu utilitzar. Aquest article explica com funciona cada mètode i quins mètodes podrien dur-vos a l'excés de reserves de recursos.
 
 ## <a name="full-capacity"></a>Capacitat total 
 El mètode Capacitat total reserva la capacitat total del recurs per a les dates d'inici i fi especificades. Per exemple, si un recurs té un calendari configurat per treballar vuit hores al dia, cinc dies a la setmana, en establir una data d'inici i final que cobreix cinc dies hàbils, es reserva el recurs durant 40 hores. La reserva es realitza sense tenir en compte la capacitat restant del recurs. Si un recurs ja està reservat durant aquest període en altres projectes, les 40 hores es reserven com a hores addicionals, acció que podria derivar en un excés de reserva.

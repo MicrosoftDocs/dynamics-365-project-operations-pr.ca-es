@@ -1,6 +1,6 @@
 ---
 title: Administració de les llistes de preus de projectes als contractes de projectes
-description: En aquest article s'ofereix informació sobre la gestió de llistes de preus del projecte en els contractes de projectes.
+description: Aquest article proporciona informació sobre l'administració de llistes de preus de projecte en contractes de projecte.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

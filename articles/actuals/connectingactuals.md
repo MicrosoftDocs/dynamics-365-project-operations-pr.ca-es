@@ -1,6 +1,6 @@
 ---
 title: 'Connexions de transaccions: enllaçar els valors reals de diferents tipus de transaccions'
-description: En aquest article s'explica com s'utilitza una connexió de transacció per enllaçar reals de diferents tipus per ajudar a fer un seguiment de la rendibilitat, el registre de facturació i els càlculs d'ingressos facturats en comparació amb els ingressos no facturats.
+description: En aquest article s'explica com s'utilitza una connexió de transacció per enllaçar els valors reals de diferents tipus per fer el seguiment de la rendibilitat, el treball pendent de facturació i els càlculs de valors facturats i no facturats.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -17,22 +17,22 @@ ms.locfileid: "8926074"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Els registres de connexió de transacció es creen per enllaçar reals de diferents tipus a mesura que el temps, la despesa o l'ús de material es mou en el seu cicle de vida des de la fase d'oferta o prevenda fins a la fase de contractació, aprovacions i / o retirades, facturació i facturació potencialment creditícia o correctiva.
+Els registres de connexió de transacció es creen per enllaçar valors reals de diferents tipus a mesura que el temps, la despesa o l'ús material avancen en el cicle de vida des de la fase d'oferta o la fase de prevendes fins a la fase de contracte, les aprovacions o les retirades, la facturació i la facturació potencialment creditícia o correctiva.
 
 A l'exemple següent es mostra el processament típic de les entrades de temps en un cicle de vida de projecte del Project Operations.
 
-> ![Entrades de temps de processament a les operacions del projecte.](media/basic-guide-17.png)
+> ![Processar entrades de temps al Project Operations.](media/basic-guide-17.png)
 
-El processament d'entrades de temps en un cicle de vida del projecte d'operacions de projecte segueix aquests passos: 
+El processament de les entrades de temps en un cicle de vida de projecte del Project Operations segueix aquests passos: 
 
-1. L'enviament d'una entrada de temps fa que es creï dues línies de diari: una per al cost i una altra per a les vendes no blanques. 
-2. L'aprovació definitiva de l'entrada de temps fa que es creï dos reals: un per al cost i un altre per a les vendes nobilades. Aquests 2 reals estan enllaçats mitjançant connexions de transacció.
+1. L'enviament d'una entrada de temps provoca la creació de dues línies de llibre diari: una per a cost i una per a vendes no facturades. 
+2. L'aprovació final de l'entrada de temps provoca la creació de dos valors reals: un per a cost i un per a vendes no facturades. Aquests 2 valors reals s'enllacen mitjançant connexions de transacció.
 3. Quan l'usuari crea una factura de projecte, la transacció de línia de factura es crea mitjançant les dades del valor real de vendes no facturades.
-4. Quan es confirma la factura, això crea dues novetats reals: una inversió de vendes no facturada i una venda facturada real. La inversió de vendes nobilada i les vendes originals nobilades reals es connecten mitjançant connexions de transacció invertides. Les vendes facturades i les vendes originals no facturades també estan connectades per mostrar els vincles entre el que abans era backlog o els ingressos de work in progress (WIP) amb el que ara es factura als ingressos.   
+4. Quan es confirma la factura, es creen dos valors reals nous: una reversió de vendes sense facturar i un valor real de vendes facturades. La reversió de vendes no facturades i les vendes no facturades originals es connecten mitjançant connexions de transacció de reversió. Les vendes facturades i els valors reals de vendes no facturades originals també es connecten per mostrar els enllaços entre el que era treball pendent o els ingressos del treball en curs (WIP) amb el que són ara ingressos facturats.   
 
-Cada esdeveniment del flux de treball de processament activa la creació de registres a la **taula De connexió** transacció. Això ajuda a crear un rastre de les relacions entre els registres que es creen a través dels detalls de l'entrada de temps, la línia de diari, la línia real i la línia de factura.
+Cada incidència del flux de treball de processament activa la creació de registres a la taula de **Connexió de transacció**. Això ajuda a crear una traça de la relació entre els registres que es creen entre l'entrada de temps, la línia de llibre diari, el valor real i els detalls de la línia de factura.
 
-A la taula següent es mostren els registres de l'entitat **Connexió** transacció del flux de treball anterior.
+A la taula següent es mostren els registres de l'entitat **Connexió de transacció** per al flux de treball anterior.
 
 |Incidència                   |Transacció 1                 |Funció de la transacció 1 |Tipus de la transacció 1       |Transacció 2          |Funció de la transacció 2 |Tipus de la transacció 2 |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|
@@ -43,11 +43,11 @@ A la taula següent es mostren els registres de l'entitat **Connexió** transacc
 |                        |GUID de vendes facturades             |Vendes facturades   |msdyn_actual                 |GUID de valor real de vendes no facturades   |Vendes no facturades  |msdyn_actual       |
 |Correcció d'esborrany de factura |GUID de transacció de la línia de factura|Reemplaçament      |msdyn_invoicelinetransaction |GUID de vendes facturades            |Original        |msdyn_actual       |
 |Correcció de confirmació de factura|GUID de la reversió de vendes facturades  |Reversió      |msdyn_actual                 |GUID de vendes facturades            |Original        |msdyn_actual       |
-|                        |Crea un GUID de vendes nobilitzat |Reemplaçament            |msdyn_actual                 |GUID de vendes facturades            |Original        |msdyn_actual       |
+|                        |Nou GUID de vendes no facturades |Reemplaçament            |msdyn_actual                 |GUID de vendes facturades            |Original        |msdyn_actual       |
 
 
-La il·lustració següent mostra els enllaços que es creen entre diferents tipus de reals en diversos esdeveniments utilitzant l'exemple d'entrades de temps a les operacions del projecte.
+A la il·lustració següent es mostren els enllaços que es creen entre els diferents tipus de valors reals en diverses incidències fent servir l'exemple d'entrades de temps del Project Operations.
 
-> ![Com els reals de diferents tipus estan vinculats entre si a les operacions del projecte.](media/TransactionConnections.png)
+> ![Com s'enllacen entre si els valors reals de diferents tipus al Project Operations.](media/TransactionConnections.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

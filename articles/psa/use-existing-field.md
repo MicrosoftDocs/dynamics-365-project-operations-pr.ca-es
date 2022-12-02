@@ -1,6 +1,6 @@
 ---
 title: Utilitzar un camp existent al Project Service com a dimensió de preus
-description: En aquest article s'ofereix informació sobre l'ús dels camps existents del Project Service com a dimensions de preus.
+description: En aquest article es proporciona informació sobre l'ús de camps del Project Service existents com a dimensions de preus.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

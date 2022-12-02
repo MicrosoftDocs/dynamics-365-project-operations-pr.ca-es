@@ -1,6 +1,6 @@
 ---
 title: Confirmació d'una factura proforma basada en projectes
-description: En aquest article s'ofereix informació sobre la confirmació d'una factura basada en projectes proforma.
+description: Aquest article proporciona informació sobre com confirmar una factura proforma basada en projectes.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

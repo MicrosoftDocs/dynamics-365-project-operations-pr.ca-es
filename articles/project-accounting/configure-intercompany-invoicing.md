@@ -1,6 +1,6 @@
 ---
 title: Configuració de la facturació entre empreses
-description: En aquest article es proporciona informació i exemples sobre la configuració de la facturació interempresameny per a projectes.
+description: En aquest article es proporciona informació i exemples sobre la configuració de la facturació entre empreses per a projectes.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ A l'exemple següent, Contoso Robotics USA (USPM) és l'entitat jurídica presta
 
 1. **Configurar la comptabilitat interempresa entre entitats jurídiques**. Cada parell d'entitats jurídiques prestatària i prestadora s'ha de configurar a la pàgina de [Comptabilitat entre empreses](/dynamics365/finance/general-ledger/intercompany-accounting-setup) del Llibre major.
     
-    1. A Dynamics 365 Finance, aneu a **Comptabilitat intercompany de publicació** > **del Llibre major** > **general**. Creeu un registre amb la informació següent:
+    1. Al Dynamics 365 Finance, aneu a **Llibre major** > **Configuració de comptabilització** > **Comptabilitat entre empreses**. Creeu un registre amb la informació següent:
 
         - **Empresa d'origen** = **GBPM**
         - **Empresa de destinació** = **USPM**

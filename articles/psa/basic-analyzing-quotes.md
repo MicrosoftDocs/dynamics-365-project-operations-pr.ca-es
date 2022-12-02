@@ -1,6 +1,6 @@
 ---
 title: Anàlisi de les ofertes del projecte
-description: Aquest article proporciona informació sobre l'anàlisi de les quotes del projecte.
+description: En aquest article es proporciona informació sobre l'anàlisi de les ofertes del projecte.
 author: rumant
 ms.custom:
 - dyn365-projectservice

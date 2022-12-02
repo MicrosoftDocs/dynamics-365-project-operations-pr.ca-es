@@ -1,6 +1,6 @@
 ---
 title: Treballar amb despeses personals en un informe de despeses
-description: En aquest article s'ofereix informació sobre com treballar amb les despeses personals incorregudes pels empleats mentre viatgen amb finalitats comercials.
+description: Aquest article proporciona informació sobre com treballar amb les despeses personals ocasionades pels empleats mentre viatgen amb finalitats empresarials.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

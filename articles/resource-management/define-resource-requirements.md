@@ -1,6 +1,6 @@
 ---
 title: Definició de requisits de recursos
-description: En aquest article s'ofereix informació sobre la definició de la informació sobre els requisits de recursos.
+description: En aquest article es proporciona informació sobre la definició de la informació dels requisits dels recursos.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Aptituds i models de competència
-description: Aquest article proporciona informació sobre com utilitzar les habilitats i els models de competència.
+description: En aquest article es proporciona informació sobre com utilitzar les aptituds i els models de competència.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

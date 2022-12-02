@@ -1,6 +1,6 @@
 ---
 title: Assignar recursos que es poden reservar genèrics a una tasca i equip de projecte
-description: En aquest article s'ofereix informació sobre la reserva de recursos genèrics a tasques i equips de projecte.
+description: En aquest article es proporciona informació sobre la reserva de recursos genèrics a tasques i equips de projecte.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

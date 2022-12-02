@@ -1,6 +1,6 @@
 ---
 title: Afegir nous formularis d'entitat personalitzats (Project Service Automation 2.x)
-description: En aquest article s'ofereix informació sobre com s'afegeixen formularis d'entitat personalitzats per a oportunitats, ofertes, comandes o factures a la Dynamics 365 Project Service Automation 2.x.
+description: En aquest article es proporciona informació sobre com afegir formularis d'entitat personalitzats per a oportunitats, ofertes, comandes o factures al Dynamics 365 Project Service Automation 2.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Configuració de llistes de preus
-description: En aquest article s'ofereix informació sobre com configurar llistes de preus de costos i de venda.
+description: Aquest article proporciona informació sobre com configurar llistes de preus de cost i venda.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

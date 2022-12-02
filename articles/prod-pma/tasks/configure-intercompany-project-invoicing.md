@@ -1,6 +1,6 @@
 ---
 title: Configurar la facturació del projecte entre empreses
-description: En aquest article es mostra com configurar la facturació del projecte entre dues empreses de la vostra organització.
+description: En aquest article es mostra com configurar la facturació d'un projecte entre dues empreses de l'organització.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916598"
 
 [!include [banner](../../includes/banner.md)]
 
-En aquest article es mostra com configurar la facturació del projecte entre dues empreses de la vostra organització. Aquesta tasca utilitza el conjunt de dades d'USSI.
+En aquest article es mostra com configurar la facturació d'un projecte entre dues empreses de l'organització. Aquesta tasca utilitza el conjunt de dades d'USSI.
 
 1. A la subfinestra de navegació, aneu a **Mòduls > Compte a pagar > Proveïdors > Tots els proveïdors**.
 2. A la llista **Tots els proveïdors**, cerqueu i seleccioneu el registre que vulgueu.

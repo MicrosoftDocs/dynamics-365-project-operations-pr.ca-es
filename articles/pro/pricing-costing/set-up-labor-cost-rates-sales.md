@@ -1,6 +1,6 @@
 ---
 title: Configuració de les tarifes de cost de treball (bàsic)
-description: En aquest article s'ofereix informació sobre com configurar les taxes de cost per a la mà d'obra en operacions de projectes.
+description: Aquest article proporciona informació sobre com configurar les tarifes de cost per al treball al Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

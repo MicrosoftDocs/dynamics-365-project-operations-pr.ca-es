@@ -1,6 +1,6 @@
 ---
 title: Configuració del projecte
-description: En aquest article s'ofereix informació sobre la configuració de l'administració de projectes.
+description: Aquest article proporciona informació sobre la configuració de l'administració de projectes.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

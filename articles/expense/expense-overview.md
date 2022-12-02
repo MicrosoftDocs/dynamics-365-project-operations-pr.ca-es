@@ -1,6 +1,6 @@
 ---
 title: Informació general de la despesa
-description: En aquest article s'ofereix informació sobre la funcionalitat de despesa a Les operacions del projecte.
+description: En aquest article es proporciona informació sobre la funcionalitat de despeses al Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

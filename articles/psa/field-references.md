@@ -1,6 +1,6 @@
 ---
 title: Afegir camps personalitzats a la configuració de preus i a entitats transaccionals
-description: En aquest article s'ofereix informació sobre l'addició de camps personalitzats a la configuració de preus i a les entitats transaccionals.
+description: En aquest article es proporciona informació sobre com afegir camps personalitzats a la configuració de preus i a entitats transaccionals.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8920462"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-En aquest article s'assumeix que heu completat els tràmits de l'article, [Crea camps i entitats personalitzats](create-custom-fields-entities.md). Si no heu completat aquests procediments, torneu enrere i completeu-los i torneu a aquest article. 
+En aquest article s'assumeix que heu completat els procediments en l'article [Crear camps i entitats personalitzats](create-custom-fields-entities.md). Si no heu completat aquests procediments, aneu enrere per completar-los torneu a aquest article. 
 
 En aquest article, els procediments us mostraran com afegir les referències de camp personalitzades necessàries a les entitats i als elements de la interfície d'usuari (IU), com ara formularis i visualitzacions.
 

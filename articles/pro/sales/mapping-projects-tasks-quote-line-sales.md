@@ -1,6 +1,6 @@
 ---
 title: Assignació de projectes i tasques a una línia d'oferta basada en projectes
-description: En aquest article s'ofereix informació sobre com assignar projectes i tasques a una línia de tasques basada en projectes.
+description: En aquest article es proporciona informació sobre com assignar projectes i tasques a una línia de tasca basada en projectes.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

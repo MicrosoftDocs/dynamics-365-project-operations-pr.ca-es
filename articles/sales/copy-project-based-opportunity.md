@@ -1,6 +1,6 @@
 ---
 title: Còpia d'oportunitats basades en projectes
-description: En aquest article s'ofereix informació sobre la còpia d'oportunitats basades en projectes a les operacions del projecte.
+description: Aquest article proporciona informació sobre la còpia d'oportunitats basades en projectes al Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

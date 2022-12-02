@@ -1,6 +1,6 @@
 ---
 title: Implementar camps personalitzats per a l'aplicació mòbil del Microsoft Dynamics 365 Project Timesheet a l'iOS i l'Android
-description: En aquest article s'ofereixen patrons comuns per utilitzar extensions per implementar camps personalitzats.
+description: Aquest article proporciona patrons habituals per a l'ús d'extensions per implementar camps personalitzats.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -26,16 +26,16 @@ ms.locfileid: "8913700"
 
 [!include [banner](../includes/banner.md)]
 
-En aquest article s'ofereixen patrons comuns per utilitzar extensions per implementar camps personalitzats. Es tracten els següents articles:
+Aquest article proporciona patrons habituals per a l'ús d'extensions per implementar camps personalitzats. Es cobreixen els articles següents:
 
 - Els diversos tipus de dades que admet el marc de camps personalitzats
 - Com mostrar els camps només de lectura o editables en entrades del full d'hores i desar els valors proporcionats per l'usuari de nou a la base de dades
 - Com mostrar els camps només de lectura a la capçalera del full d'hores
 - Com integrar altres lògiques empresarials personalitzades per introduir valors per defecte als camps i fer una validació addicional
 
-## <a name="audience"></a>Audiència
+## <a name="audience"></a>Públic
 
-Aquest article està pensat per a desenvolupadors que estan integrant els seus camps personalitzats a l'aplicació Microsoft Dynamics 365 Project Timesheet mòbil que està disponible per a Apple iOS i Google Android. S'assumeix és que els lectors estan familiaritzats amb el desenvolupament amb X++ i la funcionalitat de full d'hores del projecte.
+Aquest article està dissenyat per a desenvolupadors que integren els seus camps personalitzats a l'aplicació mòbil del Microsoft Dynamics 365 Project Timesheet que està disponible per a Apple iOS i Google Android. S'assumeix és que els lectors estan familiaritzats amb el desenvolupament amb X++ i la funcionalitat de full d'hores del projecte.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Contracte de dades: classe X++ TSTimesheetCustomField
 
@@ -64,7 +64,7 @@ La propietat **FieldBaseType** de l'objecte **TsTimesheetCustom** determina el t
 
 - Si la propietat **stringOptions** està proporcionada a l'objecte **TSTimesheetCustomField**, aquests elements de llista són els únics valors que els usuaris poden seleccionar mitjançant botons d'opció (botons de selecció).
 
-    En aquest cas, el camp de cadena pot actuar com un valor d'enumeració per a la finalitat de l'entrada de l'usuari. Per desar el valor a la base de dades com a enum, assigneu manualment el valor de la cadena al valor de l'enum abans de desar a la base de dades mitjançant la cadena d'ordres (vegeu la secció "Utilitza la cadena d'ordres a la classe TSTimesheetEntryService per desar una entrada de full de temps de l'aplicació de nou a la base de dades" més endavant en aquest article per a un exemple).
+    En aquest cas, el camp de cadena pot actuar com un valor d'enumeració per a la finalitat de l'entrada de l'usuari. Per desar el valor a la base de dades com una enumeració, heu d'assignar manualment el valor de cadena al valor de l'enumeració abans de desar-lo a la base de dades mitjançant la cadena d'ordres (vegeu la secció "Utilitzar la cadena d'ordres a la classe TSTimesheetEntryService per desar una entrada de temps de l'aplicació a la base de dades" més endavant en aquest article per veure un exemple).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Aquesta propietat especifica l'etiqueta que es mostra al costat del camp a l'apl
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (llista de cadenes)
 
-Aquesta propietat només és aplicable quan **fieldBaseType** està definit com a **String**. Si es defineix **stringOptions**, els valors de cadena que estan disponibles per a la selecció mitjançant els botons d'opció (botons de selecció) s'especifiquen per les cadenes de la llista. Si no es proporcionen cadenes, es permet l'entrada de text lliure al camp de cadena (vegeu la secció "Utilitza la cadena d'ordres a la classe TSTimesheetEntryService per desar una entrada de full de temps de l'aplicació de tornada a la base de dades" més endavant en aquest article per a un exemple).
+Aquesta propietat només és aplicable quan **fieldBaseType** està definit com a **String**. Si es defineix **stringOptions**, els valors de cadena que estan disponibles per a la selecció mitjançant els botons d'opció (botons de selecció) s'especifiquen per les cadenes de la llista. Si no es proporciona cap cadena, es permet l'entrada de text lliure al camp de cadena (vegeu la secció "Utilitzar la cadena d'ordres a la classe TSTimesheetEntryService per desar una entrada del full d'hores de l'aplicació de nou a la base de dades" més endavant en aquest article per veure un exemple).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

@@ -1,6 +1,6 @@
 ---
 title: Creació d'ofertes de projectes a partir d'oportunitats
-description: En aquest article s'ofereix informació sobre la creació d'una oferta de projecte a partir d'una oportunitat.
+description: Aquest article proporciona informació sobre la creació d'una oferta de projecte des d'una oportunitat.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

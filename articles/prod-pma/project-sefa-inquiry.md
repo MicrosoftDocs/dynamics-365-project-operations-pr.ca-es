@@ -1,6 +1,6 @@
 ---
 title: Consulta de la Planificació de despeses per a concessions federals
-description: Aquest article proporciona informació sobre el calendari de despeses de la investigació dels premis federals.
+description: Aquest article proporciona informació sobre la consulta de la Planificació de despeses per a concessions federals.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Creació d'un projecte nou
-description: En aquest article s'ofereix informació sobre com crear un nou projecte.
+description: Aquest article proporciona informació sobre com crear un projecte nou.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: 'Novetats de novembre de 2020: implementació bàsica del Project Operations; tracte de facturació proforma'
-description: 'Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de novembre de 2020 de la implementació del Project Operations Lite: acord amb la facturació proforma.'
+description: 'Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de novembre de 2020 de la implementació bàsica del Project Operations: tracte de facturació proforma.'
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

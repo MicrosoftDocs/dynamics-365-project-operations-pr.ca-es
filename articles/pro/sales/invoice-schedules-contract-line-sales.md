@@ -1,6 +1,6 @@
 ---
 title: Creació de programacions de facturació en una línia de contracte basada en projecte (bàsic)
-description: En aquest article s'ofereix informació sobre la creació de planificacions i fites de factures.
+description: En aquest article es proporciona informació sobre la creació de planificacions de factures i fites.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis de la versió d'actualització 28.5 del Project Service Automation revisió, V3
-description: En aquest article s'enumeren les característiques i les correccions que estan disponibles a la versió d'actualització del Project Service Automation 28.5 Hotfix, V3.
+description: En aquest article es mostren les característiques i correccions que hi ha disponibles per al llançament de l'actualització 28.5, V3, de Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8928696"
 
 Estem encantats d'anunciar-vos l'última actualització per a l'aplicació Project Service Automation per al Dynamics 365. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. Aquest llançament és compatible amb el Dynamics 365 9.x. Per actualitzar a aquesta versió, visiteu el Centre d'administració del Dynamics 365 en línia i aneu a la pàgina de solucions per instal·lar l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](/power-platform/admin/install-remove-preferred-solution).
 
-Aquest article llista les característiques i les correccions que són noves o canviades per al Project Service Automation V3, Update Release 28.5 Aquesta versió té un nombre de compilació de V 3.10.46.87 i generalment està disponible a través d'una auto-actualització al gener de 2021.
+Aquest article enumera les característiques i correccions noves o canviades per al Project Service Automation V3, llançament d'actualització 28.5 Aquesta versió té el número de compilació V3.10.46.87 i està disponible de manera general a través d'una actualització autoservei el gener de 2021.
 
 ## <a name="update-release-285-hotfix"></a>Revisió de la versió 28.5 d'actualització
 

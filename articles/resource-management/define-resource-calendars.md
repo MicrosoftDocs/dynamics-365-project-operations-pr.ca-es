@@ -1,6 +1,6 @@
 ---
 title: Definició de calendaris de recursos
-description: En aquest article s'ofereix informació sobre com definir els calendaris d'hores de treball dels recursos de les operacions del projecte.
+description: En aquest article es proporciona informació sobre com definir els calendaris d'horaris de treball per als recursos al Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

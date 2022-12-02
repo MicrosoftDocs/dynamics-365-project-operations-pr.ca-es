@@ -1,6 +1,6 @@
 ---
 title: Rendiment d'API de planificació de projectes
-description: En aquest article s'ofereix informació sobre els punts de referència de rendiment de les API de planificació del projecte i identifica les millors pràctiques per a un ús òptim.
+description: Aquest article proporciona informació sobre els paràmetres de rendiment de les API de planificació del projecte i identifica pràctiques recomanades per a un ús òptim.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8911170"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/no mantinguts en existències, implementació bàsica: tracte de facturació proforma, Project for the web_
 
-Aquest article proporciona informació sobre els punts de referència de rendiment de les interfícies de programació d'aplicacions de planificació de projectes (API) i identifica les millors pràctiques per optimitzar l'ús.
+Aquest article proporciona informació sobre els paràmetres de rendiment de les interfícies de programació d'aplicacions (API) de planificació del projecte i identifica pràctiques recomanades per optimitzar l'ús.
 
 ## <a name="project-scheduling-service"></a>Servei de planificació de projectes
 El servei de planificació de projectes és un servei de diversos inquilins que s'executa al Microsoft Azure. Està dissenyat per millorar la interacció proporcionant una experiència ràpida i fluïda quan els usuaris treballen en projectes. Aquesta millora s'aconsegueix acceptant sol·licituds de canvi, processant-les i retornant immediatament el resultat. El servei continua de manera asíncrona al Dataverse i no bloqueja les altres operacions que duen a terme els usuaris.
 
-Les API de planificació del projecte depenen del Servei de planificació de projectes per executar sol·licituds que es descriuen amb més detall a les seccions posteriors d'aquest article.
+Les API de planificació de projectes es basen en el Servei de planificació de projectes per executar sol·licituds que es descriuen amb més detall a les seccions posteriors d'aquest article.
 
 Les API de planificació de projectes estan dissenyades per treballar amb les entitats d'estructura del desglossament del treball (WBS) següents:
 

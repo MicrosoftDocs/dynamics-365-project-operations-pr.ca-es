@@ -1,6 +1,6 @@
 ---
 title: Assignació d'un recurs a una tasca
-description: En aquest article s'ofereix informació sobre com assignar recursos a les tasques.
+description: En aquest article es proporciona informació sobre la manera d'assignar recursos a tasques.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

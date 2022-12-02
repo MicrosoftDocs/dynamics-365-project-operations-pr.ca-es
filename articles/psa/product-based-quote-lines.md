@@ -1,6 +1,6 @@
 ---
 title: Línies d'oferta basades en productes
-description: En aquest article s'ofereix informació sobre les línies d'oferta basades en productes.
+description: En aquest article es proporciona informació sobre les línies d'oferta basades en productes.
 author: rumant
 ms.custom:
 - dyn365-projectservice

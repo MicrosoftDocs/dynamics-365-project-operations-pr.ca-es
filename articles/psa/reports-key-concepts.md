@@ -1,6 +1,6 @@
 ---
 title: Conceptes clau
-description: En aquest article s'ofereix informació sobre els conceptes clau per a la gestió de recursos en el Project Service Automation.
+description: En aquest article s'enllaça a informació sobre els conceptes clau de l'administració de recursos al Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

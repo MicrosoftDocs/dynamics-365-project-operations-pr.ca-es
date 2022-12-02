@@ -1,6 +1,6 @@
 ---
 title: Creació de camps i entitats personalitzats com a dimensions de preus
-description: En aquest article s'ofereix informació sobre com crear conjunts d'opcions o entitats personalitzades.
+description: En article tema es proporciona informació sobre com crear conjunts d'opcions o entitats personalitzades.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

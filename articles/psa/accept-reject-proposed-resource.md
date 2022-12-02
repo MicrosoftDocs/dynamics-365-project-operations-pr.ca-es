@@ -1,6 +1,6 @@
 ---
 title: Acceptar o rebutjar un recurs de projecte proposat
-description: En aquest article s'ofereix informació sobre com aprovar o rebutjar un recurs de projecte proposat.
+description: En aquest article es proporciona informació sobre com aprovar o rebutjar un recurs proposat del projecte.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916184"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-En aquest article s'ofereix informació sobre com aprovar o rebutjar un recurs de projecte proposat.
+En aquest article es proporciona informació sobre com aprovar o rebutjar un recurs proposat del projecte.
 
 Quan un administrador de recursos proposa un recurs amb nom per emplenar la sol·licitud de recursos genèrica d'un projecte, el camp **Estat de la sol·licitud** per al membre de l'equip genèric s'actualitzarà a **Necessita revisió**. La sol·licitud s'enviarà a l'administrador del projecte per a la seva aprovació o rebuig.
 

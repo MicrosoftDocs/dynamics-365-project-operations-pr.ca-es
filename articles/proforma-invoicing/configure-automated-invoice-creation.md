@@ -1,6 +1,6 @@
 ---
 title: Configurar la creació automàtica de factures
-description: En aquest article s'ofereix informació sobre com configurar el sistema per generar factures automàticament.
+description: Aquest article proporciona informació sobre com configurar el sistema per generar factures automàticament.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

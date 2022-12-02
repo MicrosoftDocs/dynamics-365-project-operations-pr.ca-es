@@ -1,6 +1,6 @@
 ---
 title: Actualitzar els atributs de complement per incloure noves dimensions de preus
-description: En aquest article s'ofereix informació sobre l'actualització d'atributs de complement per a les dimensions dels preus.
+description: En aquest article s'ofereix informació sobre l'actualització d'atributs de complement per a les dimensions de preus.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913194"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Si no utilitzeu les funcions de citació i contractació del Project Service Automation (PSA), podeu ometre aquest article.
+> Si no utilitzeu el les característiques d'oferta i contractació del Project Service Automation (PSA), podeu ometre aquest article.
 
-En aquest article s'assumeix que heu completat els procediments dels articles, [Creeu camps i entitats](create-custom-fields-entities.md) personalitzats, [Afegiu camps personalitzats a la configuració de preus i a les entitats transaccionals](field-references.md) i [Configureu camps personalitzats com a dimensions de preus](set-up-pricing-dimensions.md). Si no heu completat aquests procediments, torneu enrere i completeu-los i torneu a aquest article.
+En aquest article s'assumeix que heu completat els procediments dels articles [Crear camps i entitats personalitzats](create-custom-fields-entities.md), [Afegir camps personalitzats a la configuració de preus i les entitats transaccionals](field-references.md) i [Configurar camps personalitzats com a dimensions de preus](set-up-pricing-dimensions.md). Si no heu completat aquests procediments, aneu enrere per completar-los torneu a aquest article.
 
 Quan es crea un detall de la línia d'oferta a la pàgina **Línia d'oferta** d'una línia d'oferta de projecte, el sistema crea dues línies d'estimació en segon terme, una línia per a la part del cost de l'estimació i una per a la part de les vendes. Això és el mateix per a les línies de contracte del projecte.
 

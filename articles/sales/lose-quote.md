@@ -1,6 +1,6 @@
 ---
 title: Còpia d'ofertes basades en projectes
-description: En aquest article s'ofereix informació sobre com copiar les ofertes basades en projectes a Les operacions del projecte.
+description: En aquest article es proporciona informació sobre com copiar ofertes basades en projectes al Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

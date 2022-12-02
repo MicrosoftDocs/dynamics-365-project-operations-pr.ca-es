@@ -1,6 +1,6 @@
 ---
 title: Definició de funcions
-description: Aquest article proporciona un enllaç a la informació sobre la configuració de categories de recursos que es poden reservar.
+description: En aquest article es proporciona un enllaç a informació sobre la manera de configurar categories de recursos que es poden reservar.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

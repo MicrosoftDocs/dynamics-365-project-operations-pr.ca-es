@@ -1,6 +1,6 @@
 ---
 title: Administració de diversos clients a les línies d'ofertes basades en projectes (bàsic)
-description: En aquest article es descriu com es gestionen diversos clients en línies d'oferta basades en projectes.
+description: En aquest article es descriu com administrar diversos clients a les línies d'oferta basades en projectes.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

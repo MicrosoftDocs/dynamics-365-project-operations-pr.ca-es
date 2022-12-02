@@ -1,6 +1,6 @@
 ---
 title: Entrada de despesa (bàsica)
-description: Aquest article proporciona informació sobre com treballar amb l'entrada de despeses en un desplegament lite.
+description: En aquest article es proporciona informació sobre com treballar amb l'entrada de despesa en una implementació bàsica.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

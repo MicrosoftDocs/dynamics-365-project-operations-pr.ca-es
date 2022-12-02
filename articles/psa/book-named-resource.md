@@ -1,6 +1,6 @@
 ---
 title: Reservar recursos amb nom a partir de requisits de recursos
-description: En aquest article s'ofereix informació sobre la reserva de recursos amb nom per a un requisit genèric de recursos.
+description: Aquest article proporciona informació sobre la reserva de recursos amb nom per a un requisit de recurs genèric.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

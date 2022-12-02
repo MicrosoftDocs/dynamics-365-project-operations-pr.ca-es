@@ -1,6 +1,6 @@
 ---
 title: Configuració de contractes de projectes (bàsic)
-description: En aquest article s'ofereix informació sobre els camps que afecten les línies de contracte i la informació sobre el contracte que es resumeix en tots els elements de la línia.
+description: Aquest article proporciona informació sobre els camps que afecten les línies de contracte i la informació sobre el contracte que es resumeix en tots els elements de la línia.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917058"
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-En aquest article s'ofereix informació sobre els camps que s'apliquen a tot el contracte del projecte, inclosa la configuració que afecta totes les línies de contracte. També s'inclou informació sobre el contracte que es resumeix en tots els elements de la línia per impulsar els KPI del contracte de projecte.
+En aquest article es proporciona informació sobre els camps que s'apliquen a tot el contracte del projecte, incloent-hi la configuració que afecta totes les línies de contracte. També s'inclou informació sobre el contracte que es resumeix en tots els elements de la línia per impulsar els KPI del contracte de projecte.
 
 A la taula següent es detallen els camps d'un contracte de projecte que són exclusius del Dynamics 365 Project Operations o que tenen alguns canvis importants en el comportament de les comandes de vendes al Dynamics 365 Sales.
 
@@ -35,11 +35,11 @@ A la taula següent es detallen els camps d'un contracte de projecte que són ex
 Els KPI següents estan disponibles a la pestanya **Rendiment del contracte** d'un contracte de projecte. 
 
 >[!NOTE]
->Tots els imports de la **pestanya Rendiment** del contracte s'expressen en la moneda predeterminada de l'entorn.
+>Tots els imports de la pestanya **Rendiment del contracte** s'expressen en la moneda per defecte del entorn.
 
 | Camp | Ubicació | Descripció |
 | --- | --- | --- |
-| Valor del contracte | Contracte general | El valor total del contracte del projecte.|
+| Valor del contracte | Contracte general | Valor total del contracte del projecte.|
 | Import facturat | Contracte general | Suma dels imports en totes les factures d'aquest contracte.|
 | Cost acumulat | Contracte general | Suma de tots els valors reals registrats en tots els projectes que s'assignen al contracte. |
 | Marge brut | Contracte general | Import facturat - cost incorregut fins a la data/import facturat |

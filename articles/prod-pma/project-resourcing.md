@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici d'assignació de recursos a projectes
-description: En aquest article s'ofereix informació sobre els recursos del projecte.
+description: Aquest article proporciona informació sobre l'assignació de recursos a projectes.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924004"
 
 [!include [banner](../includes/banner.md)]
 
-En aquest article s'ofereix informació sobre els recursos del projecte.
+Aquest article proporciona informació sobre l'assignació de recursos a projectes.
 
-Un dels reptes dels administradors de projectes i administradors de recursos de la fase de planificació del projecte és l'assignació de recursos, on han de determinar i reservar el recurs correcte per treballar en un projecte. En Dynamics 365 Finance, les capacitats de recursos per a projectes us permeten definir rols que es tracten com a recursos temporals que es poden reservar per a un compromís específic o part d'un compromís. Aquest tipus d'assignació de recursos permet als administradors de projecte i els administradors de recursos completar les tasques següents:
+Un dels reptes dels administradors de projectes i administradors de recursos de la fase de planificació del projecte és l'assignació de recursos, on han de determinar i reservar el recurs correcte per treballar en un projecte. Al Dynamics 365 Finance, les capacitats d'assignació de recursos per als projectes us permeten definir funcions que es tracten com a recursos temporals que es poden reservar per a un compromís específic o com a part d'un compromís. Aquest tipus d'assignació de recursos permet als administradors de projecte i els administradors de recursos completar les tasques següents:
 
 - Definiu una funció que tingui les competències necessàries, de manera que sigui fàcil fer coincidir els recursos.
 - Utilitzar funcions per definir una planificació inicial de la interacció basada en recursos reservats.
@@ -41,7 +41,7 @@ Un dels reptes dels administradors de projectes i administradors de recursos de 
 
 A mesura que avança la planificació del projecte, els recursos planificats poden substituir-se per recursos de personal. L'administrador de projectes també pot tornar enrere i actualitzar les reserves de recursos durant qualsevol fase del projecte.
 
-Els articles següents proporcionen informació sobre les tasques que s'han de completar quan esteu treballant en projectes de recursos.
+Els següents articles proporcionen informació sobre les tasques que s'han de completar quan esteu treballant en l'assignació de recursos a projectes.
 
 - [Configuració dels recursos del projecte](set-up-project-resources.md)
 - [Administració de competències de recursos](manage-resource-competencies.md)

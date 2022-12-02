@@ -1,6 +1,6 @@
 ---
 title: 'Novetats de setembre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de setembre de 2021 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de setembre de 2021 del Project Operations per als escenaris basats en recursos/no mantinguts en existències.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923360"
 
 *S'aplica a: Project Operations per a escenaris basats en recursos/sense cotització*
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
    - Project Operations en un entorn del Microsoft Dataverse, versió 4.14.0.99.
-   - Gestió de projectes i comptabilitat en Dynamics 365 Finance entorn versió 10.0.20.
+   - Administració de projectes i comptabilitat en l'entorn del Dynamics 365 Finance, versió 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualitzacions de les assignacions de doble ecriptura del Project Operations
 
@@ -45,7 +45,7 @@ Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les 
 | Facturació i preus | 2385802 | S'ha corregit l'error que es produeix amb hores reals negatives quan s'actualitzen els totals del projecte. |
 | Facturació i preus | 2389675 | Comportament millorat de confirmació de factura proforma. L'entitat de feines que duren molt de temps ha de tenir en compte l'activitat necessària per escriure resultats de confirmació de comptabilitat. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestió de projectes i comptabilitat en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |

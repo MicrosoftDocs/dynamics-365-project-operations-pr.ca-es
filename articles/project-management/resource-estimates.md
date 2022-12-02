@@ -1,6 +1,6 @@
 ---
 title: Estimacions financeres per a temps de recursos en projectes
-description: Aquest article proporciona informació sobre com es calculen les estimacions financeres per al temps.
+description: Aquest article proporciona informació sobre com es calculen les estimacions financeres per a temps.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

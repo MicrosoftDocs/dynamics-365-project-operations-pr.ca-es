@@ -1,6 +1,6 @@
 ---
 title: Seguiment de les vendes del projecte
-description: En aquest article s'ofereix informació sobre com les operacions del projecte fa un seguiment del progrés dels ingressos laborals d'un projecte.
+description: Aquest article proporciona informació sobre com el Project Operations fa el seguiment del progrés segons els ingressos laborals d'un projecte.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

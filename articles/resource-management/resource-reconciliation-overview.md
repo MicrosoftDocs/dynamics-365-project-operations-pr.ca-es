@@ -1,6 +1,6 @@
 ---
 title: Informació general sobre la conciliació de recursos
-description: En aquest article trobareu informació que us ajudarà a garantir que les reserves de recursos i les tasques per a projectes estiguin alineades.
+description: Aquest article proporciona informació que us ajudarà a garantir que les reserves i assignacions de recursos per a projectes estan alineades.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

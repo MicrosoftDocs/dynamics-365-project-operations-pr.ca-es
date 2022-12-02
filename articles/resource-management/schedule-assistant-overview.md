@@ -1,6 +1,6 @@
 ---
 title: Informació general sobre l'ajudant de planificació
-description: En aquest article s'ofereix informació sobre com ara treballar amb l'Auxiliar de planificació per reservar recursos.
+description: En aquest article es proporciona informació sobre com treballar amb l'ajudant de planificació per reservar recursos.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

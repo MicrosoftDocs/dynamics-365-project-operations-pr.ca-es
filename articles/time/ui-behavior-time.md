@@ -1,6 +1,6 @@
 ---
 title: Comportament de la interfície d'usuari d'entrada de temps
-description: En aquest article s'ofereix informació sobre el comportament de la interfície d'usuari per a l'entrada de temps.
+description: En aquest article es proporciona informació sobre el comportament de la interfície d'usuari de l'entrada de temps.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

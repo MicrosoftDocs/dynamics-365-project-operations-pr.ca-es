@@ -1,6 +1,6 @@
 ---
 title: Utilitzar una categoria de transacció com a dimensió de preus
-description: En aquest article s'ofereix informació sobre l'ús d'una categoria de transacció com a dimensió de preus.
+description: En aquest article es proporciona informació sobre l'ús d'una categoria de transacció com a dimensió de preu.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915724"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-En aquest article es mostra com s'utilitza una categoria de transacció com a dimensió de preus. Abans de començar, si encara no heu creat una solució de la dimensió de preus, haureu de crear-ne una de nova. Si ja teniu una solució de dimensió de preus, podeu fer els canvis en aquesta solució. Si no heu creat una solució de dimensió de preus nova per a la vostra organització, completeu els procediments a l'article [Crea camps i entitats](create-custom-fields-entities.md) personalitzats.
+En aquest article es mostra com utilitzar una categoria de transacció com a dimensió de preu. Abans de començar, si encara no heu creat una solució de la dimensió de preus, haureu de crear-ne una de nova. Si ja teniu una solució de dimensió de preus, podeu fer els canvis en aquesta solució. Si no heu creat una solució nova per a la dimensió de preus de l'organització, completeu els procediments de l'article [Crear camps i entitats personalitzats](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Afegir una categoria de transacció als formularis i a les visualitzacions
 Per fer que la categoria de transacció sigui visible a la interfície d'usuari a la solució de la dimensió de preus, haureu de recórrer tots els formularis i les visualitzacions de les entitats clau i afegir aquests camps als formularis i visualitzacions d'aquestes entitats.

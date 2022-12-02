@@ -1,6 +1,6 @@
 ---
 title: Informació general del procés de facturació
-description: En aquest article s'ofereix una visió general del procés de la facturació a Les operacions del projecte per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona una vista general del procés de facturació al Project Operations per a escenaris basats en recursos/no en existències.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ El Project Operations per a escenaris basats en recursos/no existències ofereix
 
 ![Diagrama d'un flux de facturació.](./media/invoicing-flow.png)
 
-La línia de contracte del projecte defineix el mètode de facturació de les transaccions de projecte associades. Quan el gestor de projectes aprova les transaccions de temps i despeses, el sistema registra les transaccions a l'entitat **Project Reals** i envia la informació al mòdul de gestió i comptabilitat **de** projectes en Dynamics 365 Finance. A continuació, el comptable del projecte revisa i publica els registres mitjançant el [llibre diari d'integració del Project Operations](../project-accounting/project-operations-integration-journal.md). Aquest, a més a més, inclou detalls importants de comptabilitat per als valors reals del projecte, com ara la facturació, el grup d'impostos sobre les vendes, el grup d'impostos sobre les vendes dels articles de facturació i les mesures financeres.
+La línia de contracte del projecte defineix el mètode de facturació de les transaccions de projecte associades. Quan l'administrador del projecte aprova transaccions de temps i despeses, el sistema registra les transaccions de l'entitat **Valors reals del projecte** i envia la informació al mòdul **Administració i comptabilitat del projecte** del Dynamics 365 Finance. A continuació, el comptable del projecte revisa i publica els registres mitjançant el [llibre diari d'integració del Project Operations](../project-accounting/project-operations-integration-journal.md). Aquest, a més a més, inclou detalls importants de comptabilitat per als valors reals del projecte, com ara la facturació, el grup d'impostos sobre les vendes, el grup d'impostos sobre les vendes dels articles de facturació i les mesures financeres.
 
 L'administrador del projecte pot revisar les transaccions de vendes no facturades mitjançant el mètode de facturació de temps i materials al [Registre de feines pendents de temps i materials](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) i la facturació de preu fix a [Fites de preu fix](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Aquestes visualitzacions us permeten filtrar i seleccionar transaccions que s'han d'incloure al següent cicle de facturació i, a continuació, marcar-les com a **Preparades per a facturar-se**.
 

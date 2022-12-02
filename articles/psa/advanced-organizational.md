@@ -1,6 +1,6 @@
 ---
 title: Unitats organitzatives avançades
-description: Aquest article proporciona informació sobre les unitats organitzatives a Dynamics 365 Project Service Automation.
+description: En aquest article s'ofereix informació sobre les unitats organitzatives al Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

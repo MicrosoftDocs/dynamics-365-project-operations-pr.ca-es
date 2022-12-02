@@ -1,6 +1,6 @@
 ---
 title: Corregir la comptabilitat a l'esborrany de propostes de factures del projecte
-description: En aquest article s'explica com ajustar la informació relacionada amb la comptabilitat d'un esborrany de proposta de factura.
+description: En aquest article s'explica com s'ajusta la informació relacionada amb la comptabilitat en un esborrany de proposta de factura.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 L'administrador del projecte conserva els *Detalls de l'operació* de les factures del projecte en una factura proforma. Aquests detalls inclouen la decisió sobre les hores, les despeses, els materials o les fites que s'han de facturar, les tarifes i l'aplicació d'imports anticipats i de bestreta. Després de confirmar la factura proforma original, podeu ajustar els detalls operatius creant i confirmant una [factura proforma correctiva](../proforma-invoicing/corrective-invoices.md).
 
-Els *Detalls de comptabilitat* de les factures del projecte es mantenen en un document de factura del client. Aquestes dades inclouen el càlcul de l'impost de vendes i les mesures financeres que s'apliquen a la factura. En aquest article s'ofereixen detalls sobre com es poden ajustar aquestes dades comptables en una proposta de factura del projecte.
+Els *Detalls de comptabilitat* de les factures del projecte es mantenen en un document de factura del client. Aquestes dades inclouen el càlcul de l'impost de vendes i les mesures financeres que s'apliquen a la factura. En aquest article es proporcionen detalls sobre com aquests detalls de comptabilitat es poden ajustar en un esborrany de proposta de factura de projecte.
 
 ## <a name="adjust-sales-tax"></a>Ajustar l’impost sobre les vendes
 
@@ -29,13 +29,13 @@ Els grups d'impostos sobre les vendes i els grups d'impostos sobre les vendes d'
 
 ### <a name="header-dimensions"></a>Dimensions de la capçalera
 
-Per defecte, les dimensions financeres de la factura es deriven dels registres de transaccions del projecte no facturats. Tanmateix, la configuració del sistema us permet utilitzar dimensions financeres a la capçalera de les propostes de factures del projecte per publicar saldos de clients. Per habilitar aquesta funcionalitat, seleccioneu **Permet les actualitzacions de les dimensions del projecte per als comptes a cobrar** a la **pestanya Finances** de la **pàgina Gestió de projectes i paràmetres comptables**.
+Per defecte, les dimensions financeres de la factura es deriven dels registres de transacció de projecte no facturats que s'estan facturant. Això no obstant, la configuració del sistema us permet utilitzar dimensions financeres a la capçalera de propostes de factura de projecte per enviar saldos de client. Per habilitar aquesta funcionalitat, seleccioneu **Permet les actualitzacions a les dimensions de projecte per a comptes a cobrar** a la pestanya **Finances** de la pàgina **Administració de projectes i paràmetres de comptabilitat**.
 
-Les dimensions financeres de les capçaleres de les factures es poden editar abans de publicar una factura. A la **pàgina Proposta de factura** del projecte, canvieu a la **visualització capçalera** i editeu els valors a la **pestanya Dimensions financeres**.
+Les dimensions financeres a les capçaleres de factura es poden editar abans de publicar una factura. A la pàgina **Proposta de factura del projecte**, canvieu a la visualització **Capçalera** i editeu els valors de la pestanya **Finances**.
 
-La **visualització capçalera** només està disponible després que l'administrador del sistema hagibiliti la proposta de factura Del projecte d'ús **i els formularis de diari de factures amb la característica Visualització** capçalera i línies a l'àrea de treball d'administració **de** funcions. Aquesta característica requereix l'actualització financera 10.0.25 o posterior.
+La visualització **Capçalera** només està disponible quan l'administrador del sistema ha habilitat la característica **Utilitza els formularis de proposta de factura de projecte i de llibre diari de factura amb les visualitzacions Capçalera i Líniea** a l'àrea de treball **Administració de característiques**. Aquesta característica requereix l'actualització al Finance 10.0.25 o posterior.
 
-### <a name="line-dimensions"></a>Dimensions de la línia
+### <a name="line-dimensions"></a>Dimensions de línia
 
 Les mesures financeres no es poden editar directament en una línia de proposta de factura de projecte. Com a alternativa, seguiu aquests passos per ajustar les mesures financeres en una proposta de factura de projecte.
 

@@ -1,6 +1,6 @@
 ---
 title: Canvis d'entitat, control i interfície d'usuari (Project Service Automation 3.x)
-description: En aquest article es descriuen els canvis de solució per al Microsoft Dynamics Project Service Automation 3.x.
+description: En aquest article s'expliquen els canvis a les solucions per al Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

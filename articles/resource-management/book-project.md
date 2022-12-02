@@ -1,6 +1,6 @@
 ---
 title: Reserva per a un projecte
-description: En aquest article s'ofereix informació sobre com reservar un recurs per a un projecte.
+description: En aquest article es proporciona informació sobre la reserva d'un recurs a un projecte.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Quan un administrador de recursos necessita reservar un recurs directament en un
     - Duració
    
    > [!NOTE]
-   > Actualment, Dynamics 365 Project Operations no és compatible amb el calendari.   
+   > Actualment, el Dynamics 365 Project Operations no admet el tauler de planificació.   
 
 ## <a name="book-from-the-project-form"></a>Reserva des del formulari Projecte
 

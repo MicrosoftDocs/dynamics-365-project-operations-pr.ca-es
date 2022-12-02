@@ -1,6 +1,6 @@
 ---
 title: Registres de planificació de projectes
-description: Aquest article proporciona informació i mostres que us ajudaran a utilitzar els registres de planificació de projectes per fer un seguiment dels errors relacionats amb el Servei de planificació de projectes i les API de planificació de projectes.
+description: Aquest article proporciona informació i exemples que us ajudaran a utilitzar els registres de Planificació del projecte per fer un seguiment dels errors relacionats amb el Servei de planificació de projectes i les API de planificació de projectes.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
@@ -15,88 +15,88 @@ ms.locfileid: "8923683"
 ---
 # <a name="project-scheduling-logs"></a>Registres de planificació de projectes
 
-_**Aplica a:** Operacions de projecte per a escenaris basats en recursos/ no emmagatzemats, implementació de Lite: acord a la facturació_ proforma, _Projecte per al web_
+_**S'aplica a**: Project Operations per a escenaris basats en recursos/no mantinguts en existències, implementació bàsica: tracte de facturació proforma_, _Project for the Web_
 
-Microsoft Dynamics 365 Project Operations utilitza [el Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) com a principal motor de planificació. En lloc d'utilitzar les interfícies de programació d'aplicacions web estàndard Microsoft Dataverse (API), Project Operations utilitza les noves API de planificació de projectes per crear, actualitzar i suprimir tasques de projecte, assignacions de recursos, dependències de tasques, cubells de projectes i membres de l'equip de projecte. Tanmateix, quan les operacions de creació, actualització o supressió s'executen per programació en entitats de l'estructura de desglossament del treball (WBS), es poden produir errors. Per fer un seguiment d'aquests errors i de l'historial d'operacions, s'han implementat dos nous registres administratius: **El conjunt** d'operacions i **el servei de planificació de projectes (PSS).** Per accedir a aquests registres, aneu a **Configuració** \> **de la integració de la planificació.**
+El Microsoft Dynamics 365 Project Operations utilitza [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) com a principal motor de planificació. En comptes d'utilitzar les interfícies de programació d'aplicacions web (API) estàndard del Microsoft Dataverse, el Project Operations utilitza les noves API de planificació del projecte per crear, actualitzar i suprimir tasques de projecte, assignacions de recursos, dependències de tasques, dipòsits de tasques i membres dels equips de projecte. No obstant, quan les operacions de creació, actualització o supressió s'executen mitjançant programació a les entitats de l'estructura del desglossament del treball (WBS), es podrien produir errors. Per fer un seguiment d'aquests errors i de l'historial de les operacions, s'han implementat dos nous registres administratius: **Conjunt d'operacions** i **Servei de planificació de projectes (PSS)**. Per accedir a aquests registres, aneu a **Configuració** \> **Integració de la planificació**.
 
-La il·lustració següent mostra el model de dades dels registres de planificació de projectes.
+A la il·lustració següent es mostra el model de dades per als registres de Planificació de projectes.
 
-![Model de dades per als registres de planificació de projectes.](media/LOGDATAMODEL.jpg)
+![Mode de dades per als registres de Planificació de projectes.](media/LOGDATAMODEL.jpg)
 
 ## <a name="operation-set-log"></a>Registre del conjunt d'operacions
 
-El registre Conjunt d'operacions fa un seguiment de l'execució d'un conjunt d'operacions que s'utilitza per executar una o diverses operacions de creació, actualització o supressió en un lot de projectes, tasques de projecte, assignacions de recursos, dependències de tasques, cubells de projecte o membres de l'equip del projecte. El **camp Operació en estat** mostra l'estat general del conjunt d'operacions. Els detalls de la càrrega útil del conjunt d'operacions es capturen als registres de detalls del conjunt d'operacions relacionats.
+El registre del conjunt d'operacions fa un seguiment de l'execució d'un conjunt d'operacions que s'utilitza per executar una o moltes operacions de creació, actualització o supressió en un lot de projectes, tasques de projectes, assignacions de recursos, dependències de tasques, dipòsits de projectes o membres de l'equip del projecte. El camp **Operació en estat** mostra l'estat global del conjunt d'operacions. Els detalls de la càrrega del conjunt d'operacions es capturen als registres de detalls del conjunt d'operacions relacionats.
 
 ### <a name="operation-set"></a>Conjunt d'operacions
 
-A la taula següent es mostren els camps relacionats amb l'entitat **Conjunt** d'operacions.
+La taula següent mostra els camps que estan relacionats amb l'entitat **Conjunt d'operacions**.
 
 | Nom de l'esquema            | Descripció                                                                                                  | DisplayName            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
-| msdyn_completedon     | La data/hora en què s'ha completat o ha fallat el conjunt d'operacions.                                                | CompletedOn            |
-| msdyn_correlationid   | El **valor de correlacióId** de la sol·licitud.                                                                  | Id. de correlació          |
-| msdyn_description     | La descripció del conjunt d'operacions.                                                                        | Descripció            |
-| msdyn_executedon      | La data i l'hora en què s'ha executat el registre.                                                                       | Data d’execució            |
-| msdyn_operationsetId  | L'identificador únic de les instàncies d'entitat.                                                                   | OperationSet           |
-| msdyn_Project         | El projecte que està relacionat amb el conjunt d'operacions.                                                            | Project                |
-| msdyn_projectid       | El **valor del projecteId** de la sol·licitud.                                                                      | ProjectId (obsolet) |
+| msdyn_completedon     | Data i hora en què el conjunt d'operacions s'ha completat o ha fallat.                                                | CompletedOn            |
+| msdyn_correlationid   | Valor **correlationId** del registre de la sol·licitud.                                                                  | Id. de correlació          |
+| msdyn_description     | Descripció del conjunt d'operacions.                                                                        | Descripció            |
+| msdyn_executedon      | Data i hora d'execució del registre.                                                                       | Data d’execució            |
+| msdyn_operationsetId  | Identificador únic de les instàncies d'entitat.                                                                   | OperationSet           |
+| msdyn_Project         | Projecte relacionat amb el conjunt d'operacions.                                                            | Project                |
+| msdyn_projectid       | Valor **projectId** del registre de la sol·licitud.                                                                      | ProjectId (obsolet) |
 | msdyn_projectName     | No aplicable.                                                                                              | No aplicable         |
-| msdyn_PSSErrorLog     | L'identificador únic del registre d'errors del servei de planificació de projectes associat amb el conjunt d'operacions. | Registre d’errors de PSS          |
+| msdyn_PSSErrorLog     | Identificador únic del registre d'errors del Servei de planificació del projecte que està associat amb el conjunt d'operacions. | Registre d’errors de PSS          |
 | msdyn_PSSErrorLogName | No aplicable.                                                                                              | No aplicable         |
-| msdyn_status          | L'estat del conjunt d'operacions.                                                                             | Estat d'execució                 |
+| msdyn_status          | Estat del conjunt d'operacions.                                                                             | Estat d'execució                 |
 | msdyn_statusName      | No aplicable.                                                                                              | No aplicable         |
-| msdyn_useraadid       | L'identificador Azure Active Directory d'objecte (Azure AD) de l'usuari al qual pertany la sol·licitud.                     | UserAADID              |
+| msdyn_useraadid       | ID d'objecte de l'Azure Active Directory (Azure AD) de l'usuari al qual pertany la sol·licitud.                     | UserAADID              |
 
 ### <a name="operation-set-detail"></a>Detall del conjunt d'operacions
 
-A la taula següent es mostren els camps relacionats amb l'entitat Detall **del** conjunt d'operacions.
+La taula següent mostra els camps que estan relacionats amb l'entitat **Detall del conjunt d'operacions**.
 
 | Nom de l'esquema                 | Descripció                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Els camps serialitzats Dataverse de la sol·licitud.                                            | CdsPayload            |
-| msdyn_entityname           | El nom de l'entitat de la sol·licitud.                                                     | EntityName            |
+| msdyn_cdspayload           | Camps del Dataverse serialitzats per a la sol·licitud.                                            | CdsPayload            |
+| msdyn_entityname           | El nom de l'entitat per a la sol·licitud.                                                     | EntityName            |
 | msdyn_httpverb             | El mètode de sol·licitud.                                                                         | Verb HTTP (obsolet) |
 | msdyn_httpverbName         | No aplicable.                                                                             | No aplicable        |
-| msdyn_operationset         | L'identificador únic del conjunt d'operacions al qual pertany el registre.                      | OperationSet          |
-| msdyn_operationsetdetailId | L'identificador únic de les instàncies d'entitat.                                                  | Detall d’OperationSet   |
+| msdyn_operationset         | Identificador únic del conjunt d'operacions al qual pertany el registre.                      | OperationSet          |
+| msdyn_operationsetdetailId | Identificador únic de les instàncies d'entitat.                                                  | Detall d’OperationSet   |
 | msdyn_operationsetName     | No aplicable.                                                                             | No aplicable        |
-| msdyn_operationtype        | El tipus d'operació de l'operació estableix el detall.                                             | OperationType         |
+| msdyn_operationtype        | Tipus d'operació del detall del conjunt d'operacions.                                             | OperationType         |
 | msdyn_operationtypeName    | No aplicable.                                                                             | No aplicable        |
-| msdyn_psspayload           | Els camps del servei de planificació de projectes serialitzats per a la sol·licitud.                           | PssPayload            |
-| msdyn_recordid             | L'identificador del registre de sol·licitud.                                                       | ID de registre             |
-| msdyn_requestnumber        | Un número generat automàticament que identifica la comanda en què s'han rebut les sol·licituds. | Número de sol·licitud        |
+| msdyn_psspayload           | Els camps de Servei de planificació de projectes serialitzats de la sol·licitud.                           | PssPayload            |
+| msdyn_recordid             | Identificador del registre de la sol·licitud.                                                       | ID de registre             |
+| msdyn_requestnumber        | Número generat automàticament que identifica la comanda en la qual es van rebre les sol·licituds. | Número de sol·licitud        |
 
-## <a name="project-scheduling-service-error-logs"></a>Registres d'errors del servei de planificació de projectes
+## <a name="project-scheduling-service-error-logs"></a>Registres del Servei de planificació de projectes
 
-L'error del servei de planificació de projectes registra errors de captura que es produeixen quan el Servei de planificació de projectes prova una **operació de desament** o **obertura**. Hi ha tres escenaris admesos on es generen aquests registres:
+Els registres d'error del Servei de planificació de projectes capturen els errors que es produeixen quan el Servei de planificació de projectes intenta fer una operació **Desa** o **Obre**. Hi ha tres escenaris admesos en què es generen aquests registres:
 
-- Les accions iniciades per l'usuari fallen críticament (per exemple, no es pot crear una tasca a causa dels privilegis que falten).
-- El Servei de planificació de projectes no pot crear, actualitzar, suprimir ni dur a terme cap altra operació en cascada en cascada en una entitat.
+- Les accions iniciades per l'usuari fallen críticament (per exemple, una assignació no es pot crear a causa de la falta de privilegis).
+- El Servei de planificació de projectes no pot crear, actualitzar, suprimir ni dur a terme cap altra operació en cascada de manera programàtica en una entitat.
 - L'usuari experimenta errors quan un registre no s'obre (per exemple, quan s'obre un projecte o s'actualitza la informació d'un membre de l'equip).
 
-### <a name="project-scheduling-service-log"></a>Registre del servei de planificació de projectes
+### <a name="project-scheduling-service-log"></a>Registre del Servei de planificació de projectes
 
-La taula següent mostra els camps que s'inclouen al registre del servei de planificació de projectes.
+La taula següent mostra els camps que s'inclouen en el registre del Servei de planificació del projecte.
 
 | Nom de l'esquema          | Descripció                                                                    | DisplayName    |
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Pila de trucades de l'excepció.                                               | Pila de trucades     |
-| msdyn_correlationid | L'identificador de correlació de l'error.                                               | Id. de correlació  |
-| msdyn_errorcode     | Un camp que s'utilitza per emmagatzemar el codi d'error Dataverse o el codi d'error HTTP. | Codi d’error     |
-| msdyn_HelpLink      | Un enllaç a la documentació de l'ajuda pública.                                       | Enllaç d'ajuda      |
-| msdyn_log           | El registre del servei de planificació de projectes.                                   | Registre            |
-| msdyn_project       | El projecte associat amb el registre d'errors.                             | Project        |
-| msdyn_projectName   | El nom del projecte si es mantindrà la càrrega útil del conjunt d'operacions. | No aplicable |
-| msdyn_psserrorlogId | L'identificador únic de les instàncies d'entitat.                                     | Registre d’errors de PSS  |
-| msdyn_SessionId     | L'identificador de la sessió del projecte.                                                        | Id. de sessió     |
+| msdyn_correlationid | ID de correlació de l'error.                                               | Id. de correlació  |
+| msdyn_errorcode     | Camp utilitzat per emmagatzemar el codi d'error del Dataverse o el codi d'error HTTP. | Codi d’error     |
+| msdyn_HelpLink      | Enllaç a la documentació d'ajuda pública.                                       | Enllaç d'ajuda      |
+| msdyn_log           | El registre del Servei de planificació del projecte.                                   | Registre            |
+| msdyn_project       | El projecte que està associat amb el registre d'errors.                             | Project        |
+| msdyn_projectName   | El nom del projecte si es manté la càrrega del conjunt d'operacions. | No aplicable |
+| msdyn_psserrorlogId | Identificador únic de les instàncies d'entitat.                                     | Registre d’errors de PSS  |
+| msdyn_SessionId     | ID de sessió del projecte.                                                        | Id. de sessió     |
 
 ## <a name="error-log-cleanup"></a>Neteja del registre d'errors
 
-Per defecte, tant els registres d'errors del servei de planificació de projectes com el registre del conjunt d'operacions es poden netejar cada 90 dies. Se suprimiran els registres que tindran més de 90 dies. Tanmateix, canviant el valor del camp msdyn_StateOperationSetAge **de** la pàgina Paràmetres **del** projecte, els administradors poden ajustar l'interval de neteja perquè sigui entre 1 i 120 dies. Hi ha disponibles diversos mètodes per canviar aquest valor:
+Per defecte, tots dos registres d'error del Servei de planificació del projecte i el registre de conjunt d'operacions es poden netejar cada 90 dies. Els registres que tenen més de 90 dies se suprimeixen. Tanmateix, si canvieu el valor del camp **msdyn_StateOperationSetAge** de la pàgina **Paràmetres del projecte**, els administradors poden ajustar l'interval de neteja per tal que es trobi entre 1 i 120 dies. Hi ha diversos mètodes per canviar aquest valor:
 
-- Personalitzeu l'entitat **Paràmetre del** projecte creant una pàgina personalitzada i afegint el camp Edat del **conjunt d'operacions** obsolet.
-- Utilitzeu el codi de client que utilitzi el kit de [desenvolupament de programari WebApi (SDK).](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord)"
-- Utilitzeu el codi de l'SDK del servei que utilitza el mètode de l'SDK **updateRecord** de l'Xrm (referència de l'API client) a les aplicacions basades en models. Power Apps inclou una descripció i paràmetres admesos per al **mètode updateRecord**.
+- Personalitzeu l'entitat **Paràmetre del projecte** creant una pàgina personalitzada i afegint el camp **Antiguitat de conjunt d'operacions obsolet**.
+- Utilitzeu el codi de client que utilitza el [kit de desenvolupament de programari (SDK) de WebApi](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
+- Utilitzeu el codi SDK del servei que utilitza el mètode **updateRecord** de l'SDK Xrm (referència a API de client) a les aplicacions basades en models. El Power Apps inclou una descripció i els paràmetres compatibles per al mètode **updateRecord**.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

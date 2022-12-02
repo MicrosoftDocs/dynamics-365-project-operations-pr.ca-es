@@ -1,6 +1,6 @@
 ---
 title: Unitats i grups d'unitats
-description: En aquest article s'ofereix informació sobre com crear unitats i grups d'unitats a Dynamics 365 Project Operations.
+description: En aquest article es proporciona informació sobre com crear unitats i grups d'unitats al Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -28,7 +28,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Les unitats són les quantitats o mesures en les quals vendreu els productes o serveis. Per exemple, si veneu materials per a jardineria, els podeu vendre en unitats de paquets, caixes i palets. Un grup d'unitats és un conjunt d'aquestes unitats diferents.
 
-Per completar els passos d'aquest article, assegureu-vos que heu estat assignat a la funció d'administrador del sistema o de gestor professional de vendes o que teniu permisos equivalents.
+Per completar els passos d'aquest article, assegureu-vos que se us hagi assignat la funció Administrador del sistema o Administrador del Sales Professional o que tingueu permisos equivalents.
 
 ## <a name="create-a-unit-group"></a>Crear un grup d'unitats
 

@@ -1,6 +1,6 @@
 ---
 title: Creació i confirmació de diaris de correcció
-description: Aquest article proporciona informació sobre com crear i confirmar una revista de correcció.
+description: En aquest article es proporciona informació sobre com crear i confirmar un diari de correcció.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928052"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-De tant en tant, es pot introduir incorrectament una entrada de temps o de despeses. Per exemple, un consultor pot seleccionar la data incorrecta quan crea una entrada d'hora o pot seleccionar un projecte equivocat quan introdueixi una despesa. Si un consultor no pot actualitzar les entrades enviades, un administrador de back-end pot corregir directament els reals d'un projecte.
+De vegades, pot ser que s'introdueixi una entrada de temps o de despesa incorrectament. Per exemple, un consultor podria seleccionar una data incorrecta en el moment de crear una entrada de temps o podria seleccionar un projecte incorrecte en introduir una despesa. Si un consultor no pot actualitzar les entrades enviades, un administrador de back-end pot corregir directament els valors reals d'un projecte.
 
 ## <a name="correct-approved-time-entries"></a>Correcció de les entrades de temps aprovades     
 
@@ -73,30 +73,30 @@ Seguiu aquests passos per corregir una o diverses entrades de despeses.
 
 6. Si els valors corregits es mostren segons el previst, seleccioneu **Confirma**. Al quadre de diàleg, seleccioneu **Accepta**. Si els valors no es mostren com s'esperava, seleccioneu **Cancel·la** per tornar a la llista **Despeses aprovades**. Repetiu els passos del 2 al 5. 
 
-7. Després de confirmar el diari de correcció, torneu al projecte o als projectes que heu actualitzat per veure els canvis.
+7. Després de confirmar el diari de correcció, torneu al projecte o als projectes que heu actualitzat per visualitzar els canvis.
 
-8. A la pàgina del projecte, a la **pestanya Fets reals**, reviseu la **llista Visualització** associada real. Les entrades originals i les corregides es mostren a la llista.
+8. A la pàgina del projecte, a la pestanya **Valors reals**, reviseu la llista **Visualització associada de valors reals**. Les entrades originals i les corregides es mostren a la llista.
 
 
-## <a name="correct-approved-material-usage-logs"></a>Corregir els registres d'ús de material aprovats
+## <a name="correct-approved-material-usage-logs"></a>Registres d'ús de materials aprovats correctes
 
-Completeu els passos següents per corregir una o més entrades de registre d'ús de material.
+Seguiu aquests passos per corregir una o diverses entrades del registre d'ús de materials.
 
-1. A l'àrea **Vendes**, a la subfinestra de navegació de l'esquerra, a **Transaccions**, seleccioneu **Actuals**.
+1. A l'àrea **Vendes**, a la subfinestra de navegació esquerra, a **Transaccions**, seleccioneu **Valors reals**.
 
-2. A la **llista Actuals**, utilitzeu filtres de columna per seleccionar la **classe de transacció Material**, de manera que només es mostrin els reals dels materials. Utilitzeu altres filtres de columna per limitar encara més els reals que es mostren. Després de trobar el conjunt de reals desitjat, seleccioneu els reals i, a **continuació, seleccioneu** Entrades correctes. Es crea automàticament una nova revista de correcció i s'assigna el **tipus de correcció** material.
+2. A la llista **Valors reals**, utilitzeu els filtres de columna per seleccionar la classe de transacció **Material**, de manera que només es mostrin els valors reals dels materials. Utilitzeu altres filtres de columna per limitar encara més els valors reals que es mostren. Després de trobar el conjunt de valors reals que voleu, seleccioneu els valors reals i, a continuació, seleccioneu **Corregeix les entrades**. Es crearà automàticament un diari de correcció nou i s'assignarà el tipus **Correcció de material**.
 
-3. A la **pàgina Nou diari**, al **camp Descripció**, introduïu una descripció per a la correcció. A continuació, a la **pestanya Correcció** de materials, a la **secció Valors nous per a materials**, seleccioneu els camps de dades que cal corregir per a les línies de material seleccionades. Per exemple, podeu assignar el material a un altre projecte o corregir el producte, la data del material o la subcontractació.
+3. A la pàgina **Diari nou**, al camp **Descripció**, introduïu una descripció per a la correcció. Després, a la pestanya **Correcció de materials**, a la secció **Valors nous de materials**, seleccioneu els camps de dades que voleu corregir per a les línies de materials seleccionades. Per exemple, podeu assignar el material a un altre projecte o corregir el producte, la data del material o el subcontracte.
 
 4. Seleccioneu **Visualització prèvia**. A continuació, al quadre de diàleg, seleccioneu **D'acord**.
 
-5. A la **pestanya Línies** del diari, verifiqueu les correccions. Podeu veure una llista dels reals originals que estan relacionats amb les entrades de material seleccionades que s'han invertit i les línies corresponents corregides que s'han creat.
+5. A la pestanya **Línies del diari**, verifiqueu les correccions. Podeu visualitzar una llista dels valors reals originals relacionats amb les entrades de material seleccionades que s'han invertit i les línies corresponents corregides que s'han creat.
 
-6. Si els valors corregits es mostren segons el previst, seleccioneu **Confirma**. A continuació, al quadre de diàleg, seleccioneu **D'acord**. Si els valors no són els esperats, seleccioneu **Cancel·la** per tornar a la **llista De reals.** Repetiu els passos del 2 al 5.
+6. Si els valors corregits es mostren segons el previst, seleccioneu **Confirma**. A continuació, al quadre de diàleg, seleccioneu **D'acord**. Si els valors no són els que s'esperava, seleccioneu **Cancel·la** per tornar a la llista **Valors reals**. A continuació, repetiu els passos del 2 al 5.
 
-7. Després de confirmar el diari de correcció, torneu al projecte o als projectes que heu actualitzat per veure els canvis.
+7. Després de confirmar el diari de correcció, torneu al projecte o als projectes que heu actualitzat per visualitzar els canvis.
 
-8. A la pàgina del projecte, a la **pestanya Fets reals**, reviseu la **llista Visualització** associada real. Les entrades originals i les corregides es mostren a la llista.
+8. A la pàgina del projecte, a la pestanya **Valors reals**, reviseu la llista **Visualització associada de valors reals**. Les entrades originals i les corregides es mostren a la llista.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

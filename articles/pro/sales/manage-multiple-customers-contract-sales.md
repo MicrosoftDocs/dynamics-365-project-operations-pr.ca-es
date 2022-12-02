@@ -1,6 +1,6 @@
 ---
 title: Administració de diversos clients en contractes de projectes (bàsic)
-description: En aquest article s'ofereix informació sobre la gestió de diversos clients en els contractes de projectes.
+description: Aquest article proporciona informació sobre l'administració de diversos clients en contractes de projectes.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

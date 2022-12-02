@@ -1,6 +1,6 @@
 ---
 title: Configuració de les categories de despesa
-description: En aquest article s'ofereix informació sobre com configurar categories de despeses i categories compartides per als informes de despeses.
+description: En aquest article es proporciona informació sobre la configuració de les categories de despesa i categories compartides per als informes de despeses.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Moneda
-description: En aquest article s'ofereix informació sobre com afegir i suprimir tipus de moneda a les operacions del projecte.
+description: En aquest article es proporciona informació sobre com afegir i suprimir els tipus de moneda al Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

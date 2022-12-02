@@ -1,6 +1,6 @@
 ---
 title: Configuració de les tarifes de la factura de treball (bàsic)
-description: En aquest article s'ofereix informació sobre la configuració de les taxes de facturació laboral a les operacions del projecte.
+description: Aquest article proporciona informació sobre la configuració de tarifes de facturació de treball al Project Operations.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article

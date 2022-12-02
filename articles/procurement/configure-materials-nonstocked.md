@@ -1,6 +1,6 @@
 ---
 title: Configuració de materials sense existències i de factures pendents del proveïdor
-description: En aquest article s'explica com habilitar materials no emmagatzemats i factures pendents de proveïdor.
+description: En aquest article s'explica com s'han d'habilitar els materials sense existències i les factures pendents del proveïdor.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Executar assignacions de doble escriptura per a la integració de materials sense existències i de factures del proveïdor
 
-Aquesta secció proporciona informació sobre les assignacions específiques necessàries per als materials sense existències i les factures de proveïdors. Verifiqueu que els mapes de requisit previ que figuren a la disposició d'un [article d'entorn](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) nou s'estan executant al vostre entorn.
+Aquesta secció proporciona informació sobre les assignacions específiques necessàries per als materials sense existències i les factures de proveïdors. Verifiqueu que les assignacions de requisits previs que s'enumeren a l'article [Proveïment d'un entorn nou](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) s'estiguin executant al vostre entorn.
 
 1. Aneu a Lifecycle Services (LCS), aneu al projecte LCS i aneu a la pàgina **Detalls de l'entorn**.
 2. A la secció **Informació de l'entorn Common Data Service**, seleccioneu **Enllaça amb CDS per a aplicacions**. Després de seleccionar l'enllaç, se us redirigirà a la llista d'entitats de les assignacions.

@@ -1,6 +1,6 @@
 ---
 title: Capçalera/resum de l'oportunitat
-description: Aquest article proporciona informació sobre les ofertes basades en projectes i les línies d'oportunitat basades en projectes.
+description: Aquest article proporciona informació sobre les ofertes basades en el projecte i les línies d'oportunitat basades en el projecte.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

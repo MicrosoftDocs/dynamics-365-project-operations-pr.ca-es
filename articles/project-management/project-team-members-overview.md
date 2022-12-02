@@ -1,6 +1,6 @@
 ---
 title: Membres de l'equip del projecte
-description: En aquest article s'ofereix informació sobre com treballar amb la informació, els atributs i la planificació dels membres de l'equip del projecte.
+description: En aquest article es proporciona informació sobre com treballar amb la informació dels membres d'un equip del projecte, els atributs i la planificació.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

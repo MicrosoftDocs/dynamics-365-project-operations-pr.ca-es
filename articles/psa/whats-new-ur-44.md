@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis de la versió d'actualització 44 del Project Service Automation, V3
-description: En aquest article s'enumeren les característiques i les correccions que estan disponibles a Microsoft Dynamics 365 Project Service Automation Update Release 44, V3.
+description: En aquest article s'enumeren les característiques i les correccions disponibles a la Versió 44 d'actualització Microsoft Dynamics 365 Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/26/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8918668"
 
 Ens complau anunciar l'última actualització de l'aplicació Microsoft Dynamics 365 Project Service Automation. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. És compatible amb el Dynamics 365 9.x. Per actualitzar aquesta versió, visiteu la pàgina de solucions en línia del Centre d'administració del Dynamics 365 i instal·leu l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](/power-platform/admin/install-remove-preferred-solution).
 
-En aquest article s'enumeren les característiques i les correccions que són noves o canviades per a la versió 44, V3. Aquesta versió té el número de compilació V3.10.75.142 i està disponible de manera general a través d'una actualització d'autoservei el juny de 2022.
+En aquest article es mostren les característiques i correccions que són noves o s'han canviat per al llançament de l'actualització 44, V3, de Project Service Automation. Aquesta versió té el número de compilació V3.10.75.142 i està disponible de manera general a través d'una actualització d'autoservei el juny de 2022.
 
 ## <a name="update-release-44"></a>Versió d'actualització 44
 
@@ -39,4 +39,4 @@ S'han corregit els problemes següents.
 
 **Temps i despesa**
 
-- Les feines del sistema retardades impedien la tramitació de les aprovacions pendents.
+- Les feines del sistema retardades impedeixen el processament de les aprovacions pendents.

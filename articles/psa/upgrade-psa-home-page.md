@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici de les actualitzacions
-description: En aquest article es mostra on trobar informació important sobre les característiques noves i canviades a Dynamics 365 Project Service Automation, i el procés d'actualització a la versió més recent.
+description: Aquest article mostra on es troba informació important sobre les característiques noves i canviades al Dynamics 365 Project Service Automation, i el procés per actualitzar a la versió més recent.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -48,14 +48,14 @@ Anteriorment, els clients que tinguessin una instància de la versió 2.x del PS
 Abans de començar el procés d'actualització, us recomanem que completeu les tasques següents:
 
 - Verifiqueu si tant el Dynamics 365 Field Service com el Project Service Automation estan instal·lats a la instància identificada. Si totes dues solucions estan instal·lades, heu de planificar l'actualització de tots dos abans de reprendre l'ús periòdic de la instància.
-- Revisa acuradament els següents articles. La conscienciació i la comprensió dels canvis entre versions us ajudaran en el procés d'actualització. Aquests articles proporcionen informació sobre els principals canvis en PSA, juntament amb consideracions i recomanacions per planificar la vostra actualització a la versió 3.x.
+- Reviseu amb atenció els articles següents. La conscienciació i la comprensió dels canvis entre versions us ajudaran en el procés d'actualització. Aquests articles proporcionen informació sobre els canvis més importants del PSA, així com les consideracions i recomanacions per planificar l'actualització a la versió 3.x.
 
     - [Novetats o canvis al Project Service Automation versió 3](whats-new-changed-v3.md)
     - [Consideracions d'actualització - Project Service Automation 2.x o 1.x a la versió 3.x](upgrade-v3.md)
 
 - Actualitzeu la instància d'espai aïllat per avaluar els canvis en la implementació abans d'actualitzar la instància de producció.
 
-Després de revisar els articles que s'han esmentat anteriorment i que estan preparats per actualitzar a la versió 3.x de PSA o a la versió basada en UCI, envieu una sol·licitud al suport tècnic de Microsoft per fer que l'actualització estigui disponible des del Centre d'administració. A la vostra sol·licitud, proporcioneu els detalls de la instància.
+Després d'haver revisat els articles que s'han esmentat abans i que estigueu preparat per actualitzar a la versió 3.x o la versió basada en UCI, envieu una sol·licitud al suport tècnic de Microsoft per fer que l'actualització estigui disponible des del Centre d'administració. A la vostra sol·licitud, proporcioneu els detalls de la instància.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Versions anteriors del PSA (versió PSA 2.x) en una instància creada recentment
 

@@ -1,6 +1,6 @@
 ---
 title: Estimació de les vendes i els costos del projecte quan un recurs que es pot reservar duu a terme diverses funcions en un projecte
-description: En aquest article s'explica com s'utilitzen les dimensions dels preus per donar suport als preus i a les estimacions de costos d'un recurs que omple diverses funcions d'un projecte.
+description: En aquest article s'explica la manera d'utilitzar les dimensions de la fixació de preus i les estimacions de costos d'un recurs que duu a terme diverses funcions en un projecte.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Estimació d'una línia d'oferta basada en projectes
-description: En aquest article s'ofereix informació sobre com crear una estimació en una línia d'oferta basada en projectes.
+description: En aquest article es proporciona informació sobre com crear una estimació en una línia d'oferta basada en projectes.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

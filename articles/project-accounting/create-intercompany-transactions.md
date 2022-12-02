@@ -1,6 +1,6 @@
 ---
 title: Creació de transaccions entre empreses
-description: En aquest article s'ofereix informació sobre com crear transaccions interempresases.
+description: En aquest article es proporciona informació sobre com crear transaccions entre empreses.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Quan s'aprova una transacció entre empreses, es creen les operacions reals seg�
 
 El cost, el cost unitari de recursos i els preus i la moneda de transacció de venda entre unitats d'organització es regeixen per la **unitat d'organització**. Això és important recordar-ho a l'hora de decidir la manera d'estructurar empreses i unitats organitzatives en la implementació.
 
-Quan creeu registres d'oportunitat, oferta, contracte de projecte i projecte, el sistema verifica que la moneda de la unitat de contractació coincideixi amb el moneda comptable de l'empresa contractant. Quan no són iguals, aquests registres no es poden crear. La moneda de la unitat organitzativa es defineix al Dynamics 365 Project Operations anant a **Dataverse** > **Configuració** > **Unitats organitzatives**. La moneda comptable d'una empresa es defineix en Dynamics 365 Finance anant al **Llibre major** > **general de la configuració** > **del llibre major**. La moneda se sincronitza amb l'entorn de Dataverse mitjançant el mapa d'escriptura dual de llibres majors.
+Quan creeu registres d'oportunitat, oferta, contracte de projecte i projecte, el sistema verifica que la moneda de la unitat de contractació coincideixi amb el moneda comptable de l'empresa contractant. Quan no són iguals, aquests registres no es poden crear. La moneda de la unitat organitzativa es defineix al Dynamics 365 Project Operations anant a **Dataverse** > **Configuració** > **Unitats organitzatives**. La moneda comptable d'una empresa es defineix al Dynamics 365 Finance anant a **Llibre major** > **Configuració del llibre major** > **Llibre major**. La moneda se sincronitza amb l'entorn de Dataverse mitjançant el mapa d'escriptura dual de llibres majors.
 
 El sistema crea costos unitaris de recursos i valors reals de vendes entre unitats d'organització en les situacions següents:
 
   - Quan la unitat de recursos és diferent de la unitat de contractació
   - Quan l'empresa de recursos és diferent de l'empresa de contractació
 
-No obstant això, només les operacions que tinguin una empresa de recursos diferent de l'empresa contractant es transferiran a l'entorn Dynamics 365 Finance per a una comptabilitat addicional.
+No obstant, només les transaccions que tenen una empresa de recursos diferent de l'empresa contractant es transferiran a l'entorn del Dynamics 365 Finance per a la comptabilitat addicional.
 
 La comptabilització per a valors reals del projecte es registra en el diari d'integració de Project Operations a Finances. El sistema crea les línies de diari següents.
 

@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis a la versió 3.x fase 1 2020 del Project Service Automation
-description: Aquest article proporciona informació sobre el que és nou i canviat a project Service Automation versió 3 wave 1 2020.
+description: En aquest article es proporciona informació sobre les novetats i els canvis a la versió 3 fase 1 2020 del Project Service Automation.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928604"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-L'article destaca les consideracions clau d'actualització quan es passa a l'última versió de Project Service Automation (PSA) versió 3.x wave 1 2020.
+L'article destaca les consideracions clau d'actualització en migrar al llançament més recent del Project Service Automation (PSA) versió 3.x fase 1 2020.
 
 ## <a name="time-entry"></a>Entrada de temps
 L'experiència d'entrada de temps s'ha ampliat per oferir capacitats per ampliar l'entrada de temps a més escenaris de clients. Això inclou la capacitat d'afegir tipus d'entrada, que ara tenen un comportament específic segons la **Configuració d'entrada de temps** del nom de l'esquema de temps, que es mostra com a **Origen de temps**. S'ha afegit una solució nova, anomenada Temps, Despesa, Estat i Aprovacions (TESA) per donar suport a aquesta funcionalitat.

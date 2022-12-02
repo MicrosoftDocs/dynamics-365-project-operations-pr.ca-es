@@ -1,6 +1,6 @@
 ---
 title: Revisar el registre de facturació dels projectes i dels contractes del projecte
-description: En aquest article s'ofereix informació sobre com revisar el temps, les despeses i els backlogs del producte i com marcar-los com a preparats per a la facturació.
+description: En aquest article s'ofereix informació sobre com es poden revisar els registres de temps, despeses i productes, i com marcar-los com a preparats per a la facturació.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -28,7 +28,7 @@ ms.locfileid: "8928880"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Quan una transacció està preparada per tenir una factura creada i processada, la transacció s'ha de marcar com a **Llesta per facturar**. En aquest article es descriuen els tipus de transaccions que es poden crear.
+Quan una transacció està preparada per tenir una factura creada i processada, la transacció s'ha de marcar com a **Llesta per facturar**. Aquest article descriu els tipus de transaccions que es poden crear.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Revisar el registre de facturació de temps i material
 

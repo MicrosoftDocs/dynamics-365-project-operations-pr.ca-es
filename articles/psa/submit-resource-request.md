@@ -1,6 +1,6 @@
 ---
 title: Enviar una sol·licitud de recurs
-description: En aquest article s'ofereix informació sobre l'enviament d'una sol·licitud d'un recurs de projecte.
+description: En aquest article s'ofereix informació sobre la presentació d'una sol·licitud d'un recurs del projecte.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

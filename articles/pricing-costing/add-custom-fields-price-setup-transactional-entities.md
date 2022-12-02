@@ -1,6 +1,6 @@
 ---
 title: Addició de camps personalitzats obligatoris a la configuració de preus i a entitats transaccionals
-description: En aquest article s'ofereix informació sobre com afegir les referències de camp personalitzades necessàries a les entitats i als formularis i visualitzacions.
+description: En aquest article es proporciona informació sobre com afegir referències de camps personalitzats obligatoris a entitats i a formularis i visualitzacions.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8926028"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-En aquest article s'assumeix que heu completat els procediments de l'article, [Crea camps i entitats personalitzats que s'utilitzaran com a dimensions de preus](create-custom-fields-entities-pricing-dimensions.md). Si no heu completat aquests procediments, torneu enrere i completeu-los i torneu a aquest article. 
+En aquest article s'assumeix que heu completat els procediments de l'article [Crear camps i entitats personalitzats per utilitzar-los com a dimensions de preus](create-custom-fields-entities-pricing-dimensions.md). Si no heu completat aquests procediments, aneu enrere per completar-los torneu a aquest article. 
 
 En aquest article, els procediments us mostraran com afegir les referències de camp personalitzades necessàries a les entitats i als elements de la interfície d'usuari (IU), com ara formularis i visualitzacions.
 

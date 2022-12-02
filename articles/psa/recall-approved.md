@@ -1,6 +1,6 @@
 ---
 title: Recuperar entrades de temps o de despeses aprovades
-description: En aquest article s'ofereix informació sobre com recordar una transacció de temps o despesa aprovada prèviament.
+description: En aquest article es proporciona informació sobre com recuperar una transacció de despesa i temps de projecte aprovada anteriorment.
 author: rumant
 ms.custom: ''
 ms.author: rumant

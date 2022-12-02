@@ -1,6 +1,6 @@
 ---
 title: Configurar les tarifes de cost laboral
-description: Aquest article proporciona informació sobre com configurar tarifes per al cost de les operacions de projectes laborals
+description: Aquest article proporciona informació sobre com configurar les tarifes per al cost laboral al Project Operations
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

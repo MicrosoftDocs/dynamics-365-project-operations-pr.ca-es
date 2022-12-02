@@ -1,6 +1,6 @@
 ---
 title: Rendiment de propostes de factura de projecte
-description: En aquest article s'ofereix informació sobre les millores de rendiment de les propostes de factures del projecte.
+description: Aquest article proporciona informació sobre millores de rendiment a les propostes de factures de projectes.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

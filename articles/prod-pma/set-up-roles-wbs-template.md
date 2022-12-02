@@ -1,6 +1,6 @@
 ---
 title: Configurar funcions a les plantilles d'estructura del desglossament del treball
-description: En aquest article s'ofereix informació sobre la configuració de la informació de funcions a les plantilles d'estructura del desglossament del treball.
+description: Aquest article proporciona informació sobre la configuració de la informació de les funcions a les plantilles d'estructura del desglossament del treball.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

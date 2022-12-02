@@ -1,6 +1,6 @@
 ---
 title: Administració de clients potencials (bàsic)
-description: Aquest article proporciona informació sobre la gestió de clients potencials basats en projectes (pro).
+description: Aquest article proporciona informació sobre l'administració de clients potencials basats en projectes (pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

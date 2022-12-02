@@ -1,6 +1,6 @@
 ---
 title: Comprensió de l'estat del projecte
-description: En aquest article s'ofereix informació sobre l'estat assignat als projectes de Dynamics 365 Project Operations.
+description: En aquest article es proporciona informació sobre l'estat assignat als projectes al Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

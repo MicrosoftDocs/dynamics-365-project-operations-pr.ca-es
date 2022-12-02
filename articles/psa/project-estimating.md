@@ -1,6 +1,6 @@
 ---
 title: Ingressos i costos del projecte
-description: En aquest article s'ofereix informació sobre l'estimació dels costos i els ingressos del projecte.
+description: En aquest article es proporciona informació sobre l'estimació dels costos i dels ingressos del projecte.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

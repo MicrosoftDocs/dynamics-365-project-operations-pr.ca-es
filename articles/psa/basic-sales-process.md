@@ -1,6 +1,6 @@
 ---
 title: Processos de venda
-description: En aquest article s'ofereix informació sobre els processos bàsics de venda.
+description: En aquest article es proporciona informació sobre els processos de venda bàsics.
 author: rumant
 ms.custom:
 - dyn365-projectservice

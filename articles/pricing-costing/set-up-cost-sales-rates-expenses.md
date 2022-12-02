@@ -1,6 +1,6 @@
 ---
 title: Configuració de les tarifes de cost i de vendes per a les despeses
-description: En aquest article s'ofereix informació sobre com configurar les taxes de costos i vendes per a les categories de transaccions i despeses.
+description: Aquest article proporciona informació sobre com configurar les tarifes de cost i de venda per a les categories de transaccions i despeses.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

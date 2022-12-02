@@ -1,6 +1,6 @@
 ---
 title: Modes de planificació
-description: En aquest article s'ofereix informació sobre els modes de planificació.
+description: Aquest article proporciona informació sobre els modes de planificació.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Quan definiu el mode de planificació d'un projecte, esteu configurant un d'aque
 | Tasca d'esforç fix    | La duració es torna a calcular. | Les unitats es tornen a calcular.    | La duració es torna a calcular. |
 | Tasca de duració fixa  | L'esforç es torna a calcular.   | L'esforç es torna a calcular.    | Les unitats es tornen a calcular.   |
 
-Per obtenir més informació sobre les implicacions d'un mode determinat, vegeu [Canviar el tipus de tasca per obtenir una planificació més precisa](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). En l'article, el terme **Treball** s'utilitza en lloc d'esforç **·**.
+Per obtenir més informació sobre les implicacions d'un mode determinat, vegeu [Canviar el tipus de tasca per obtenir una planificació més precisa](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). En l'article, el terme **Feina** s'utilitza en lloc d'**Esforç**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Canviar el mode de planificació de l'organització
 

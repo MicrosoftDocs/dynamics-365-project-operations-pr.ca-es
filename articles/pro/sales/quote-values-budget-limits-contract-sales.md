@@ -1,6 +1,6 @@
 ---
 title: Informació resumida d'una oferta de projecte (bàsic)
-description: En aquest article s'ofereix informació sobre la informació i la configuració que s'apliquen i impacten les ofertes del projecte. (Sales)
+description: Aquest article proporciona informació sobre la informació i la configuració que s'apliquen i tenen un impacten en les ofertes del projecte. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

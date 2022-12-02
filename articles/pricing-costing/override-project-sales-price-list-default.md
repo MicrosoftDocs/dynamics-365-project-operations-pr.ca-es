@@ -1,6 +1,6 @@
 ---
 title: Substitució de les llistes de preus de vendes de projectes
-description: En aquest article s'ofereix informació sobre la creació de llistes de preus de venda personalitzades.
+description: Aquest article proporciona informació sobre la creació de llistes de preus de vendes personalitzades.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

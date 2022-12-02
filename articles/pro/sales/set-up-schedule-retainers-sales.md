@@ -1,6 +1,6 @@
 ---
 title: Configurar una planificació de bestreta
-description: En aquest article s'ofereix informació sobre com configurar una planificació de retenció a Les operacions del projecte.
+description: Aquest article proporciona informació sobre com configurar una planificació de bestreta al Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

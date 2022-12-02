@@ -1,6 +1,6 @@
 ---
 title: Estimacions de vendes i projectes
-description: En aquest article s'ofereix informació sobre com aprofitar el calendari i les estimacions en el procés de venda.
+description: En aquest article es proporciona informació sobre com aprofitar la planificació i les estimacions del procés de venda.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

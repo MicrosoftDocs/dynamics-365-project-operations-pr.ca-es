@@ -1,6 +1,6 @@
 ---
 title: Estats de les reserves
-description: En aquest article s'ofereix un enllaç per obtenir informació sobre com configurar els estats de reserva per a les operacions del projecte.
+description: Aquest article proporciona un enllaç a informació sobre com configurar els estats de reserva a Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

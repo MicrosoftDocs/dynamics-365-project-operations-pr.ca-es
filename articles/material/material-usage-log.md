@@ -1,6 +1,6 @@
 ---
 title: Registre de l'ús de materials en projectes i tasques de projectes
-description: En aquest article s'ofereix informació sobre com registrar l'ús de material contra projectes i tasques del projecte.
+description: Aquest article proporciona informació sobre com registrar l'ús de materials als projectes i a les tasques de projectes.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

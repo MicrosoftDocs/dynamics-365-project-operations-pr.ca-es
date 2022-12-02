@@ -1,6 +1,6 @@
 ---
 title: Planificacions de facturació en línies d'oferta basades en projectes
-description: En aquest article s'ofereix informació sobre la creació de planificacions de factures i fites per a les línies d'oferta.
+description: En aquest article es proporciona informació sobre la creació e planificacions i fites de facturació per a línies d'oferta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

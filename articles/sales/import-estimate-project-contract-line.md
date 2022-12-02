@@ -1,6 +1,6 @@
 ---
 title: Importació d'una estimació a una línia de contracte basada en projecte
-description: En aquest article s'ofereix informació sobre com importar estimacions d'un projecte a una línia de contracte.
+description: En aquest article es proporciona informació sobre com importar estimacions d'un projecte a una línia de contracte.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

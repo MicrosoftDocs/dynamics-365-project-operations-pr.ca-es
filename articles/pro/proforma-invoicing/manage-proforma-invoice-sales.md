@@ -1,6 +1,6 @@
 ---
 title: Administració d'una factura de projecte proforma
-description: En aquest article s'ofereix informació sobre com treballar amb factures del projecte Proforma.
+description: Aquest article proporciona informació sobre com treballar amb factures proforma del projecte.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

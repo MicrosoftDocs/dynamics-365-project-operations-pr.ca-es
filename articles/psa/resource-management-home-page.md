@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici d'administració de recursos
-description: En aquest article s'ofereix informació sobre com gestionar els recursos.
+description: En aquest article es proporciona informació sobre la manera d'administrar els recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8913240"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Els recursos són l'actiu més important d'una organització basada en serveis. La capacitat de trobar i reservar els recursos correctes quan els necessiteu i mantenir-los utilitzats ajuda a l'organització a assolir els objectius d'ingressos i els objectius de satisfacció del client. Els articles següents se centren en les capacitats de gestió de recursos de Dynamics 365 Project Service Automation:
+Els recursos són l'actiu més important d'una organització basada en serveis. La capacitat de trobar i reservar els recursos correctes quan els necessiteu i mantenir-los utilitzats ajuda a l'organització a assolir els objectius d'ingressos i els objectius de satisfacció del client. Els articles següents es centren en les capacitats d'administració de recursos del Dynamics 365 Project Service Automation:
 
 - [Administra els recursos](manage-resources.md)
 - [Conceptes clau](reports-key-concepts.md)

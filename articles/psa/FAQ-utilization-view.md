@@ -1,6 +1,6 @@
 ---
 title: Veure l'ús imputable dels recursos
-description: Aquest article proporciona informació sobre la visualització d'ús de recursos.
+description: En aquest article es proporciona informació sobre la visualització d'ús dels recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

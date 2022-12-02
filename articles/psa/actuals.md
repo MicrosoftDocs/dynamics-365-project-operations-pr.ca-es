@@ -1,6 +1,6 @@
 ---
 title: Informació general dels valors reals
-description: Aquest article proporciona informació sobre els projectes reals.
+description: Aquest article proporciona informació sobre els valors reals del projecte.
 author: rumant
 ms.custom:
 - dyn365-projectservice

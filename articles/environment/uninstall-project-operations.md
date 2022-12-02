@@ -1,6 +1,6 @@
 ---
 title: Desinstal·lar el Dynamics 365 Project Operations
-description: En aquest article s'ofereix informació sobre com desinstal·lar Dynamics 365 Project Operations.
+description: En aquest article s'ofereix informació sobre com desinstal·lar el Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Per desinstal·lar el Dynamics 365 Project Operations, heu de tenir assignada la
     | 6 | ProjectServiceCore_Patch                           | Sense notes addicionals.                                                                         |
     | 7 | ProjectServiceCore                                 | Sense notes addicionals.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Si no la trobeu, ometeu aquesta solució.                                                            |
-    | 9 | FieldServiceCommon                                 | Necessari per a la doble escriptura amb Dynamics 365 Finance o Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Necessari per a la doble escriptura amb Dynamics 365 Finance o Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Necessari per a la doble escriptura amb el Dynamics 365 Finance o el Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Necessari per a la doble escriptura amb el Dynamics 365 Finance o el Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Camp obligatori per al Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Camp obligatori per al Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Camp obligatori per al Dynamics 365 Field Service.                                                     |

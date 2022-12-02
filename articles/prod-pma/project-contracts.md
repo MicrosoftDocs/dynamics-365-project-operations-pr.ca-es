@@ -44,7 +44,7 @@ Alguns contractes de projecte especifiquen que diverses parts comparteixen la re
 -   Un projecte de carretera està cofinançat per dos municipis.
 -   Un projecte de pont està finançat per una subvenció governamental i una corporació privada.
 
-En Dynamics 365 Finance, podeu dividir la facturació d'una sola transacció o d'un projecte sencer entre diversos clients, subvencions o organitzacions. 
+Al Dynamics 365 Finance, podeu dividir la facturació d'una única transacció o d'un projecte sencer entre diversos clients, subvencions o organitzacions. 
 
 En projectes que tinguin diversos finançadors, totes les parts que contribueixin al finançament d'un projecte de finançament avançat s'anomenen fonts de finançament. Després que un client, una organització o una subvenció es defineixi com a font de finançament, es pot assignar a una o diverses regles de finançament. Les regles de finançament contenen els criteris que determinen la manera com es destinen els càrrecs a les diverses fonts de finançament d'un projecte. 
 

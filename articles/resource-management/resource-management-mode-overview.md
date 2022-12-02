@@ -1,6 +1,6 @@
 ---
 title: Informació general sobre els modes d'administració de recursos
-description: En aquest article es proporciona informació sobre la funcionalitat d'administració de recursos a Dynamics 365 Project Operations.
+description: En aquest article es proporciona informació sobre la funcionalitat d'Administració de recursos al Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
@@ -38,7 +38,7 @@ Per a les organitzacions que requereixin flexibilitat en l'assignació de recurs
 
 ![Mode híbrid.](./media/resource-management-hybrid.png)
 
-A més del procés de mode central compatible, vegeu els articles següents per gestionar tots els altres fluxos de reserva admesos en el mode Híbrid:
+A més del procés del mode central admès, vegeu els articles següents per administrar tots els altres fluxos de reserva admesos en el mode híbrid:
 
 Reservar un recurs directament a un projecte:
 - [Reservar recursos que es poden reservar a un equip de projecte i assignar tasques](/dynamics365/project-service/assign-named-bookable-resource)

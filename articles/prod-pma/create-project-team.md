@@ -1,6 +1,6 @@
 ---
 title: Crear un equip de projecte
-description: En aquest article s'ofereix informació sobre com crear i gestionar equips de projecte.
+description: Aquest article proporciona informació sobre com crear i administrar els equips de projectes.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

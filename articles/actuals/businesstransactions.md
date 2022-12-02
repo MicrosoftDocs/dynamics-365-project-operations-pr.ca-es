@@ -1,6 +1,6 @@
 ---
 title: Transaccions empresarials al Project Operations
-description: En aquest article s'ofereix una visió general del concepte de transaccions comercials a Microsoft Dynamics 365 Project Operations.
+description: En aquest article es proporciona informació general sobre el concepte de les transaccions empresarials al Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -24,7 +24,7 @@ ms.locfileid: "8923268"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-A Microsoft Dynamics 365 Project Operations, *la transacció* comercial és un concepte abstracte que no està representat per cap entitat. No obstant, alguns camps i processos comuns de les entitats estan dissenyats per utilitzar el concepte de transaccions empresarials. Les entitats següents utilitzen aquesta abstracció:
+Al Microsoft Dynamics 365 Project Operations, una *transacció empresarial* és un concepte abstracte que no està representat per cap entitat. No obstant, alguns camps i processos comuns de les entitats estan dissenyats per utilitzar el concepte de transaccions empresarials. Les entitats següents utilitzen aquesta abstracció:
 
 - Detalls de la línia d'oferta
 - Detalls de la línia de contracte
@@ -32,9 +32,9 @@ A Microsoft Dynamics 365 Project Operations, *la transacció* comercial és un c
 - Línies del llibre diari
 - Valors reals
 
-D'aquestes entitats, els detalls de la línia d'oferta, els detalls de la línia del contracte i les línies d'estimació s'assignen a la fase *d'estimació* del cicle de vida del projecte. Les línies del Diari i les entitats actuals s'assignen a la fase *d'execució* del cicle de vida del projecte.
+D'aquestes entitats, els Detalls de la línia d'oferta, els Detalls de la línia de contracte i les Línies d'estimació s'assignen a la *fase d'estimació* del cicle de vida del projecte. Les entitats de Línies del llibre diari i les Valors reals s'assignen a la *fase d'execució* del cicle de vida del projecte.
 
-Project Operations tracta els registres de les cinc entitats com a transaccions comercials. L'única distinció és que els registres de les entitats que s'assignen a la fase d'estimació (detalls de la línia de cotització, detalls de la línia del contracte i línies d'estimació) es consideren *previsions* financeres, mentre que els registres de les entitats que s'assignen a la fase d'execució (Línies de diari i reals) es consideren *fets* financers que ja s'han produït.
+El Project Operations tracta els registres de totes aquestes cinc entitats com a transaccions empresarials. L'única distinció és que els registres de les entitats que estan assignats a la fase d'estimació (Detalls de la línia d'oferta, Detalls de la línia de contracte i Línies d'estimació) tenen la consideració de *previsions financeres*, mentre que les entitats assignades a la fase d'execució (Línies del llibre diari i Valors reals) es consideren *fets financers* que ja s'han produït.
 
 Per obtenir més informació, vegeu [Estimacions](../project-management/estimating-projects-overview.md) i [Valors reals](actuals-overview.md).
 
@@ -49,7 +49,7 @@ Els conceptes següents són únics per al concepte de transaccions empresarials
 
 ### <a name="transaction-type"></a>Tipus de transacció
 
-El tipus de transacció representa el cronometratge i el context de l'impacte financer d'un projecte. Es defineix per un conjunt d'opcions que té els valors admesos següents a les operacions del projecte:
+El tipus de transacció representa el cronometratge i el context de l'impacte financer d'un projecte. Es defineix amb un conjunt d'opcions que té els valors admesos següents al Project Operations:
 
 - Cost
 - Contracte de projecte
@@ -60,7 +60,7 @@ El tipus de transacció representa el cronometratge i el context de l'impacte fi
 
 ### <a name="transaction-class"></a>Classe de la transacció
 
-La classe de la transacció representa els diferents tipus de costos que s'han incorregut en els projectes. Es defineix per un conjunt d'opcions que té els valors admesos següents a les operacions del projecte:
+La classe de la transacció representa els diferents tipus de costos que s'han incorregut en els projectes. Es defineix amb un conjunt d'opcions que té els valors admesos següents al Project Operations:
 
 - Hora
 - Despesa
@@ -70,16 +70,16 @@ La classe de la transacció representa els diferents tipus de costos que s'han i
 - Impostos
 
 > [!NOTE]
-> El **valor Milestone** normalment l'utilitza la lògica empresarial per a la facturació de preu fix a les operacions del projecte.
+> El valor **Fita** s'utilitza normalment per la lògica empresarial per a la facturació a preu fix al Project Operations.
 
 ### <a name="transaction-origin"></a>Origen de la transacció
 
-L'origen de la transacció és una entitat que emmagatzema l'origen de cada transacció comercial per ajudar amb la presentació d'informes i la traçabilitat. A mesura que s'inicia l'execució del projecte, cada transacció comercial crea una altra transacció comercial que, al seu torn, crearà una altra transacció comercial, i així successivament.
+L'origen de la transacció és una entitat que emmagatzema l'origen de cada transacció empresarial per ajudar en els informes i la traçabilitat. Quan s'inicia l'execució, cada transacció empresarial crea una altra transacció empresarial que, al seu torn, en crearà una altra i així successivament.
 
 ### <a name="transaction-connection"></a>Connexió de la transacció
 
-La connexió de transacció és una entitat que emmagatzema la relació entre dues transaccions comercials similars, com ara els reals de costos i vendes relacionades o les reversions de transaccions que s'activen per activitats de facturació, com ara la confirmació de la factura o les correccions de factures.
+La connexió de la transacció és una entitat que emmagatzema la relació entre dues transaccions empresarials similars, com ara els valors reals de vendes i costos relacionats o les reversions de transaccions que desencadenen les activitats de facturació, com ara la confirmació de la factura o correccions de la factura.
 
-En conjunt, les entitats Origen de transacció i connexió de transacció us ajuden a fer un seguiment de les relacions entre les transaccions comercials i les accions que han provocat la creació d'una transacció comercial específica.
+En conjunt, les entitats Origen de la transacció i Connexió de la transacció us ajudaran a fer un seguiment de les relacions entre transaccions empresarials i accions que han originat la creació d'una transacció empresarial concreta.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

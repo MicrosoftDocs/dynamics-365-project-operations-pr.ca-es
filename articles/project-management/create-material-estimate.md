@@ -1,6 +1,6 @@
 ---
 title: Estimacions financeres per a materials en projectes
-description: Aquest article proporciona informació sobre la definició o estimació de materials basats en projectes.
+description: Aquest article proporciona informació sobre la definició o l'estimació de materials basats en projectes.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925669"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-El Dynamics 365 Project Operations permet als administradors de projectes definir els costos de materials basats en projectes per a cada projecte o tasca. Cada estimació de materials es pot associar a una tasca de projecte específica. Els materials que s'utilitzen en projectes poden ser productes o productes d'escriptura del catàleg de productes. Per a cada combinació d'un producte i una unitat, es pot definir un preu a les llistes de preus del projecte per a les vendes i a les llistes de preus del projecte per al cost.  
+El Dynamics 365 Project Operations permet als administradors de projectes definir els costos de materials basats en projectes per a cada projecte o tasca. Cada estimació de materials es pot associar a una tasca de projecte específica. Els materials utilitzats en els projectes poden ser productes fora de catàleg o productes del catàleg de productes. Per a cada combinació d'un producte i una unitat, podeu definir un preu a les llistes de preus del projecte per a vendes i les llistes de preus del projecte per a cost.  
 
 Completeu els passos següents per visualitzar, afegir o suprimir una estimació de materials de projecte.
 

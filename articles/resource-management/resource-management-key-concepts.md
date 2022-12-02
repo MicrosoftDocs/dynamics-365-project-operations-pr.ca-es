@@ -1,6 +1,6 @@
 ---
 title: Conceptes clau de l'administració de recursos
-description: En aquest article s'ofereix informació sobre les capacitats d'administració de recursos a Microsoft Dynamics les operacions del projecte.
+description: En aquest article es proporciona informació sobre les funcionalitats d'administració de recursos al Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

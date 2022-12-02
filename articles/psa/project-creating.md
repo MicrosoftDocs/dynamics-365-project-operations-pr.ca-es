@@ -1,6 +1,6 @@
 ---
 title: Planificació del projecte
-description: En aquest article s'ofereix informació sobre com crear una planificació.
+description: En aquest article es proporciona informació sobre com crear una planificació.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

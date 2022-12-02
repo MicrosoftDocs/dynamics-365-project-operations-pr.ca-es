@@ -1,6 +1,6 @@
 ---
 title: "Novetats d'agost de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències"
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'agost de 2021 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'agost de 2021 del Project Operations per a escenaris basats en recursos/no mantinguts en existències.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8912274"
 
 *S'aplica a: Project Operations per a escenaris basats en recursos/sense cotització*
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
    - Project Operations en un entorn del Microsoft Dataverse, versió 4.13.0.152.
-   - Gestió de projectes i comptabilitat en Dynamics 365 Finance entorn versió 10.0.20.
+   - Administració de projectes i comptabilitat en l'entorn del Dynamics 365 Finance, versió 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 
@@ -54,7 +54,7 @@ Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les 
 | Temps i despeses | 2336884 | El botó **Copia l'hora de la setmana** ha de funcionar per a més que l'usuari actual. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestió de projectes i comptabilitat sobre Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |

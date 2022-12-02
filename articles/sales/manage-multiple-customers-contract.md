@@ -1,6 +1,6 @@
 ---
 title: Administració de diversos clients en contractes de projectes
-description: En aquest article s'ofereix informació sobre com gestionar diversos clients en un contracte de projecte.
+description: Aquest article proporciona informació sobre com administrar diversos clients en un contracte de projecte.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "8928328"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Administració de diversos clients en contractes de projectes
 
-En aquest article s'ofereix informació sobre com gestionar diversos clients en un contracte de projecte. Podeu utilitzar un contracte de projecte quan es necessiti un acord contractual per a diversos clients per al finançament d'un tracte. A la pàgina **Contracte de projecte**, la pestanya **Resum** inclou informació sobre el client principal d'un tracte. Altres clients que participen en el tracte es poden afegir a la pestanya **Clients**.
+Aquest article proporciona informació sobre com administrar diversos clients en un contracte de projecte. Podeu utilitzar un contracte de projecte quan es necessiti un acord contractual per a diversos clients per al finançament d'un tracte. A la pàgina **Contracte de projecte**, la pestanya **Resum** inclou informació sobre el client principal d'un tracte. Altres clients que participen en el tracte es poden afegir a la pestanya **Clients**.
 
 Tots els clients de contracte de la pestanya **Clients** del contracte de projecte són per defecte els clients de línia de contracte en qualsevol línia de contracte nova basada en projecte que es creï per al contracte de projecte. Les línies de contracte basades en projecte existents no hereten els registres de clients de contracte nous que es creen posteriorment.
 

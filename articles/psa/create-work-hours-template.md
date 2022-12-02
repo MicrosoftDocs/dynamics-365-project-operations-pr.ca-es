@@ -1,6 +1,6 @@
 ---
 title: Creació d'una plantilla d'hores de feina
-description: En aquest article es descriu com es crea una plantilla d'hores de treball al Project Service.
+description: Aquest article descriu com crear una plantilla d'hores de treball al Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

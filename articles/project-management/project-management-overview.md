@@ -1,6 +1,6 @@
 ---
 title: Informació general sobre l'administració de projectes
-description: En aquest article s'ofereix informació sobre la gestió de projectes a Dynamics 365 Project Operations.
+description: En aquest article es proporciona informació sobre l'Administració de projectes al Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

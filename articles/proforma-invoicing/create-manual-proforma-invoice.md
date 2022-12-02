@@ -1,6 +1,6 @@
 ---
 title: Factures proforma
-description: En aquest article s'ofereix informació sobre les factures proforma a Les operacions del projecte.
+description: Aquest article proporciona informació sobre les factures proforma a Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Quan creeu un esborrany de factura, totes les transaccions de vendes no facturad
 Seleccioneu **Confirma** per confirmar una factura. L'acció de confirmació és una acció d'un sol sentit. Quan seleccioneu **Confirma**, el sistema fa que la factura sigui només de lectura i creï valors reals de vendes facturades des de cada detall de línia de factura per a cada línia de factura. Si el detall de la línia de factura fa referència a un valor real de vendes no facturades, el sistema també reinverteix el valor real de vendes no facturades. (Qualsevol detall de línia de factura que s'hagi creat des d'una entrada de compte o de despesa farà referència a un valor real de vendes sense facturar.) Els sistemes d'integració general de llibres poden utilitzar aquest canvi per revertir el treball en curs del projecte amb finalitats comptables.
 
 > [!NOTE]
-> Les factures proforma confirmades i els registres relacionats, com ara les línies de factures i els detalls de la línia de factura, no es poden editar ni suprimir. 
+> Les factures proforma confirmades i els registres relacionats, com ara les línies de factura i els detalls de la línia de factura, no es poden editar ni suprimir. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Correcció d'una factura confirmada
 

@@ -1,6 +1,6 @@
 ---
 title: Administració de diversos clients en una oferta de projecte
-description: En aquest article s'ofereix informació sobre el treball en ofertes que involucren diversos clients que finançaran el projecte.
+description: Aquest article proporciona informació sobre com treballar en les ofertes que impliquen diversos clients que finançaran el projecte.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

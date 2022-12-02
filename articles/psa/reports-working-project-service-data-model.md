@@ -1,6 +1,6 @@
 ---
 title: Treballar amb el model de dades del Project Service Automation
-description: En aquest article s'ofereix informació sobre com treballar amb el model de dades.
+description: En aquest article es proporciona informació sobre com treballar amb el model de dades.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8926672"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-El Dynamics 365 Project Service Automation amplia altres entitats de l'aplicació i presenta les seves pròpies entitats al model de dades del Common Data Service. En aquest article es descriuen algunes de les entitats que trobareu en escenaris típics d'informes de PSA.
+El Dynamics 365 Project Service Automation amplia altres entitats de l'aplicació i presenta les seves pròpies entitats al model de dades del Common Data Service. Aquest article descriu algunes de les entitats que trobareu en escenaris típics d'informes del PSA.
 
 ## <a name="reporting-on-opportunities"></a>Informes en oportunitats
 

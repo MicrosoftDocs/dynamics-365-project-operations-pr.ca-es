@@ -1,6 +1,6 @@
 ---
 title: Transferir una oferta a un projecte
-description: En aquest article s'ofereix informació sobre com transferir una cita a un projecte nou o existent.
+description: Aquest article proporciona informació sobre com transferir una oferta a un projecte nou o existent.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

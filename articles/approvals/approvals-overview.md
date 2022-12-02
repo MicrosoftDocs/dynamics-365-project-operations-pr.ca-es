@@ -1,6 +1,6 @@
 ---
 title: Informació general de les aprovacions
-description: En aquest article s'ofereix informació sobre el treball amb aprovacions en operacions de projectes.
+description: En aquest article es proporciona informació sobre treballar amb aprovacions al Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Facturació d'una bestreta o un avançament
-description: En aquest article s'ofereix informació sobre com facturar a un retenidor o un avançament en operacions del projecte.
+description: Aquest article proporciona informació sobre com facturar una bestreta o avançament al Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

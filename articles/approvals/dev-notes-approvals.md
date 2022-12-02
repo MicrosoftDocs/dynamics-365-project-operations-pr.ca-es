@@ -1,6 +1,6 @@
 ---
 title: Notes del desenvolupador per a aprovacions
-description: En aquest article s'ofereix informació addicional per als desenvolupadors sobre com treballar amb aprovacions.
+description: Aquest article proporciona informació addicional al desenvolupador sobre com treballar amb aprovacions.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

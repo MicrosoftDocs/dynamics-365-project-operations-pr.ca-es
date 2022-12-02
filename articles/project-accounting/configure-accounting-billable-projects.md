@@ -1,6 +1,6 @@
 ---
 title: Configuració de la comptabilitat per a projectes facturables
-description: En aquest article s'ofereix informació sobre les opcions comptables per a projectes facturables.
+description: En aquest article es proporciona informació sobre les opcions de comptabilitat dels projectes facturables.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Administració de competències de recursos
-description: En aquest article s'ofereix informació sobre la creació de competències per als recursos del projecte.
+description: En aquest article s'ofereix informació sobre la configuració de competències per a recursos del projecte.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

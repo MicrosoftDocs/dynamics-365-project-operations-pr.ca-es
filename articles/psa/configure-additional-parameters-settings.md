@@ -30,7 +30,7 @@ ms.locfileid: "8919220"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Un cop hàgiu configurat els elements en articles anteriors, heu d'establir paràmetres de projecte addicionals per utilitzar-los per als vostres projectes. Quan hàgiu instal·lat l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per primer cop, podeu crear paràmetres per crear per primer cop tots els registres necessaris per que funcionin a l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Ara és el moment de tornar enrere i configurar camps addicionals per a aquests paràmetres.  
+Un cop hàgiu configurat els elements als articles anteriors, heu de definir paràmetres addicionals per utilitzar-los per als vostres projectes. Quan hàgiu instal·lat l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per primer cop, podeu crear paràmetres per crear per primer cop tots els registres necessaris per que funcionin a l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Ara és el moment de tornar enrere i configurar camps addicionals per a aquests paràmetres.  
   
  Haureu d'haver configurat els paràmetres següents:  
   

@@ -1,6 +1,6 @@
 ---
 title: Informació general de la retenció de proveïdors
-description: En aquest article s'ofereix una visió general de les capacitats de retenció de proveïdors.
+description: En aquest article es proporciona informació general de les capacitats de retenció de proveïdors.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

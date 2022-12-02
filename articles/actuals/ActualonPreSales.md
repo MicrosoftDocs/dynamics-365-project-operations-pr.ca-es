@@ -1,6 +1,6 @@
 ---
-title: Impacte real durant la fase de prevenda d'un compromís
-description: En aquest article s'ofereix informació sobre l'impacte a la taula Des de fets en diversos esdeveniments, mentre que un engagment es troba en la fase de prevenda a Microsoft Dynamics 365 Project Operations.
+title: Impacte real durant la fase de pre-vendes d'una interacció
+description: En aquest article es proporciona informació sobre l'impacte en la taula Valors reals en diverses incidències mentre un compromís està en fase de prevendes al Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -20,20 +20,20 @@ ms.contentlocale: ca-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8922348"
 ---
-# <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>Impacte real durant la fase de prevenda d'un compromís
+# <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>Impacte real durant la fase de pre-vendes d'una interacció
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-La taula següent llista els reals de diferents tipus de transaccions que es creen en diversos esdeveniments durant la fase de prevenda d'un engagement del projecte.
+A la taula següent s'enumeren els valors reals de diferents tipus de transaccions que es creen en diverses incidències durant la fase de prevendes d'un compromís de projecte intern.
 
 | Esdeveniment | Valor real de cost | Exemple |
 |---|---|---|
-| Es crea el temps. | No aplicable | <p>Bob Kozack, de la unitat organitzativa nord-americana Fabrikam que té una taxa de cost de 100 dòlars eua (100 dòlars) per hora, està treballant en un projecte que es diu "Instal·lació d'braços a Adatum". Aquest projecte s'assigna a un mètode de facturació de preu fix a la línia de contracte. Aquí teniu una entrada de temps de mostra de Bob Kozak:</p><p>Bob Kozack - 8 hores</p> |
-| S'ha enviat el temps. | No aplicable | Es crea una línia de diari de cost per a l'entrada de temps. La taxa de cost per defecte s'introdueix a l'entrada del diari. |
-| L'entrada de l'hora es recorda abans que s'aprovi. | No aplicable | |
-| El temps està aprovat. | Es crea un cost real. | <p>Nou real que es crea:</p><ul><li>**Cost real:** Bob Kozack, 8 h, USD 800</li></ul> |
-| S'ha cancel·lat l'aprovació horària. | <p>L'estat d'ajust del cost original real s'actualitza a **Ajustat**.</p><p>Es crea un cost de reversió real que té un estat d'ajust d'Undjustable **·**.</p> | <p>Existents reals que s'actualitzen:</p><ul><li>**Cost real:** Bob Kozack, 8 h, USD 800, *Ajustat*</li></ul><p>Nou real que es crea per revertir l'impacte financer anterior:</p><ul><li>**Cost real:** Bob Kozack, (8 h), (USD 800), *Inajustable*</li></ul> |
-| L'entrada de l'hora es recorda després d'haver estat aprovada. | <p>L'estat d'ajust del cost original real s'actualitza a **Ajustat**.</p><p>Es crea un cost de reversió real que té un estat d'ajust d'Undjustable **·**.</p> | <p>Existents reals que s'actualitzen:</p><ul><li>**Cost real:** Bob Kozack, 8 h, USD 800, *Ajustat*</li></ul><p>Nou real que es crea per revertir l'impacte financer anterior:</p><ul><li>**Cost real:** Bob Kozack, (8 h), (USD 800), *Inajustable*</li></ul> |
-| L'oferta es guanya i es crea un contracte. | <p>L'estat d'ajust dels actuals de cost antics s'actualitza a **Ajustat**.</p><p>Es creen reals de costos de reversió que tenen un estat d'ajust d'Undjustable **·**.</p><p>Es creen nous costos reals després de la reavaluació de les regles contractuals.</p> | <p>Existents reals que s'actualitzen:</p><ul><li>**Cost real:** Bob Kozack, 8 h, USD 800, *Ajustat*</li></ul><p>Nou real que es crea per revertir l'impacte financer anterior:</p><ul><li>**Cost real:** Bob Kozack, (8 h), (USD 800), *Inajustable*</li></ul><p>Nous reals que es creen per a l'impacte financer reavaluat quan es guanya l'oferta i es crea el contracte:</p><ul><li>**Cost real:** Bob Kozack, 8 h, USD 800</li><li>**Vendes nobil·lades reals:** Bob Kozack, 8 h, USD 1,600</li></ul> |
+| Es crea el temps. | No aplicable | <p>Bob Kozack, de la unitat organitzativa Fabrikam US, que té un percentatge de cost de 100 dòlars EUA (100 USD) per hora, està treballant en un projecte que s'anomena "Instal·lació de braç a Adatum". Aquest projecte s'assigna a un mètode de facturació de preu fix a la línia de contracte. A continuació us mostrem una entrada de temps de mostra de Bob Kozak:</p><p>Bob Kozack - 8 hores</p> |
+| S'envia el temps. | No aplicable | Es crea una línia del llibre diari de cost per a l'entrada de temps. El percentatge de cost per defecte s'introdueix a l'entrada del llibre diari. |
+| Es recupera l'entrada de temps abans que s'aprovi. | No aplicable | |
+| El temps s'aprova. | Es crea un valor real de cost. | <p>Valor real nou que es crea:</p><ul><li>**Valor real de cost**: Bob Kozack, 8 h, 800 USD</li></ul> |
+| L'aprovació del temps es cancel·la. | <p>L'estat d'ajustament del valor real de cost original s'actualitza a **Ajustat**.</p><p>Es crea un valor real de cost de la reversió que té un estat d'ajustament de **No ajustable**.</p> | <p>Valor real existent que s'actualitza:</p><ul><li>**Valor real de cost**: Bob Kozack, 8 h, 800 USD, *Ajustat*</li></ul><p>Nou valor real que es crea per revertir l'impacte financer anterior:</p><ul><li>**Valor real de cost**: Bob Kozack (8 h), (800 USD), *No ajustable*</li></ul> |
+| Es recupera l'entrada de temps després que s'aprovi. | <p>L'estat d'ajustament del valor real de cost original s'actualitza a **Ajustat**.</p><p>Es crea un valor real de cost de la reversió que té un estat d'ajustament de **No ajustable**.</p> | <p>Valor real existent que s'actualitza:</p><ul><li>**Valor real de cost**: Bob Kozack, 8 h, 800 USD, *Ajustat*</li></ul><p>Nou valor real que es crea per revertir l'impacte financer anterior:</p><ul><li>**Valor real de cost**: Bob Kozack (8 h), (800 USD), *No ajustable*</li></ul> |
+| L'oferta es guanya i es crea un contracte. | <p>L'estat d'ajustament dels valors reals de cost originals s'actualitza a **Ajustat**.</p><p>Es creen valors reals de cost de la reversió que tenen un estat d'ajustament de **No ajustable**.</p><p>Els valors reals de cost nous es creen després de tornar a avaluar les regles contractuals.</p> | <p>Valor real existent que s'actualitza:</p><ul><li>**Valor real de cost**: Bob Kozack, 8 h, 800 USD, *Ajustat*</li></ul><p>Nou valor real que es crea per revertir l'impacte financer anterior:</p><ul><li>**Valor real de cost**: Bob Kozack (8 h), (800 USD), *No ajustable*</li></ul><p>Valors reals nous que es creen per a l'impacte financer reavaluat quan es guanya l'oferta i es crea el contracte:</p><ul><li>**Valor real de cost**: Bob Kozack, 8 h, 800 USD</li><li>**Valor real de vendes no facturades**: Bob Kozack, 8 h, 1.600 USD</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Recuperació de l'IVA a l'administració de despeses
-description: En aquest article s'explica com es reemborsen les transaccions elegibles de l'impost sobre el valor afegit (IVA).
+description: En aquest article s'explica com es poden rebre reemborsaments en transaccions amb impost sobre el valor afegit (IVA).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

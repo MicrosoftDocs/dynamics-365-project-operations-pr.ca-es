@@ -1,6 +1,6 @@
 ---
 title: Administrar els recursos
-description: En aquest article trobareu informació sobre com podeu gestionar els recursos.
+description: En aquest article es proporciona informació sobre com administrar els recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

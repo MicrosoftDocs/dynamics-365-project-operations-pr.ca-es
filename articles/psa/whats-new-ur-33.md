@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis de la versió d'actualització 33 del Project Service Automation, V3
-description: En aquest article s'enumeren les característiques i les correccions que estan disponibles a la versió 33, V3.
+description: En aquest article es mostren les característiques i correccions disponibles al Project Service Automation V3, versió d'actualització 33.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/30/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8915402"
 
 Ens complau anunciar l'última actualització de l'aplicació Microsoft Dynamics 365 Project Service Automation. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. És compatible amb el Dynamics 365 9.x. Per actualitzar aquesta versió, visiteu la pàgina de solucions en línia del Centre d'administració del Dynamics 365 i instal·leu l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](/power-platform/admin/install-remove-preferred-solution).
 
-En aquest article s'enumeren les característiques i les correccions que són noves o canviades per al Project Service Automation V3, Update Release 33. Aquesta versió té el número de versió V3.10.54.98 i està disponible de forma general mitjançant una autoactualització el juliol de 2021.
+En aquest article es mostren les característiques i correccions que són noves o s'han canviat per al Project Service Automation V3, versió d'actualització 33. Aquesta versió té el número de versió V3.10.54.98 i està disponible de forma general mitjançant una autoactualització el juliol de 2021.
 
 ## <a name="update-release-33"></a>Versió d'actualització 33
 

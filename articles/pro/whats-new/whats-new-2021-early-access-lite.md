@@ -1,6 +1,6 @@
 ---
 title: "Novetats de l'accés anticipat 2 de 2021: implementació bàsica del Project Operations"
-description: Aquest article proporciona informació sobre les funcions disponibles a la versió d'accés anticipat de l'ona 2 2 2 de 2021 de la implementació lite d'operacions del projecte.
+description: En aquest article es proporciona informació sobre les característiques disponibles a la versió d'accés anticipat 2 de 2021 de la implementació bàsica del Project Operations.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924096"
 
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
   - Project Operations en entorn del Dataverse versió 4.23.0.4
 

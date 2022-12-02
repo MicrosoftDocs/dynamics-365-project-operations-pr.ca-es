@@ -1,6 +1,6 @@
 ---
 title: Concessions del projecte
-description: En aquest article s'explica com crear o modificar una subvenció.
+description: Aquest article explica com crear o modificar una subvenció.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

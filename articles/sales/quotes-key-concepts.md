@@ -1,6 +1,6 @@
 ---
 title: 'Ofertes: conceptes clau'
-description: En aquest article s'ofereix informació sobre les ofertes del projecte i les ofertes de vendes disponibles a Project Operations.
+description: En aquest article s'ofereix informació sobre les ofertes de projectes i ofertes de vendes disponibles al Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Al Dynamics 365 Project Operations, hi ha dos tipus d'ofertes, de projectes i de
 - **Camps i conceptes**: una oferta de vendes no inclou els camps i els conceptes inclosos en una oferta de projecte. Els camps inclouen **Unitat de contractació**, **Administrador de comptes** i **Nom del contacte de la factura**.  
 - **Tipus**: les ofertes de vendes i d'ofertes de projectes també s'identifiquen pel camp basat en conjunt d'opcions, **Tipus**. Per a una oferta de vendes, aquest camp té el valor **Basada en un element**. Per a una oferta de projecte, té el valor **Basada en el treball**.
 
-Aquest article se centra en els detalls de les cites del projecte.
+Aquest article es centra en els detalls de les ofertes del projecte.
 
 Una oferta de projecte al Project Operations pot tenir diversos elements de línia o línies d'oferta. De fet, una oferta de projecte té dues quadrícules per als elements de línia. Una quadrícula és per a les línies basades en projectes que permeten estimacions detallades. L'altra quadrícula és per a les línies basades en productes que utilitzen un preu d'unitat senzill i un enfocament basat en la quantitat.
 

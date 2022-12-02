@@ -1,6 +1,6 @@
 ---
 title: Creació i aplicació de les condicions de retenció de pagaments de proveïdors
-description: En aquest article s'ofereix informació sobre com configurar i mantenir les condicions de retenció dels pagaments del proveïdor.
+description: Aquest article proporciona informació sobre com establir i mantenir els termes de retenció de pagaments de proveïdors.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Configuració de la comptabilitat per a projectes interns
-description: En aquest article s'ofereix informació sobre com configurar pràctiques comptables per a projectes interns en operacions de projectes.
+description: Aquest article proporciona informació sobre com configurar les pràctiques de comptabilitat per a projectes interns al Project Operations.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

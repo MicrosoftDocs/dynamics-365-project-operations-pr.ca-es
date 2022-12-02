@@ -1,6 +1,6 @@
 ---
 title: Còpia de les llistes de preus
-description: En aquest article s'ofereix informació sobre com copiar les llistes de preus a Les operacions del projecte.
+description: Aquest article proporciona informació sobre com copiar les llistes de preus al Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

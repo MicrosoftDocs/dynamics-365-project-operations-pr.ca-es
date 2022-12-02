@@ -1,6 +1,6 @@
 ---
 title: Peticions de viatge
-description: En aquest article s'ofereix informació sobre les sol·licituds de viatge.
+description: En aquest article es proporciona informació les peticions de viatge.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

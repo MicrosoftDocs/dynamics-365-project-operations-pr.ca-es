@@ -1,6 +1,6 @@
 ---
 title: Correccions massives de valors reals creades per entrades de temps i de despeses aprovades
-description: En aquest article s'explica com un administrador pot fer correccions úniques o massives a les entrades de temps o despeses aprovades anteriorment si la facturació no s'ha completat.
+description: En aquest article s'explica com un administrador pot fer correccions individuals o massives en entrades de temps o despeses aprovades prèviament si la facturació no està completa.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916277"
 
 De vegades, pot ser que s'introdueixi una entrada de temps o de despesa incorrectament. Per exemple, un consultor podria seleccionar una data incorrecta en el moment de crear una entrada de temps o podria transposar els números en introduir una despesa. Si un consultor no pot fer les actualitzacions a les entrades enviades, un administrador pot corregir directament l'entrada d'un projecte.
 
-Per completar els tràmits d'aquest article, necessitareu permisos d'administrador.
+Per completar els procediments d'aquest article, necessitareu permisos d'administrador.
 
 ## <a name="correct-approved-time-entries"></a>Correcció de les entrades de temps aprovades     
 

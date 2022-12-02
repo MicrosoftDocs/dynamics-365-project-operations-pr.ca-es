@@ -26,7 +26,7 @@ ms.locfileid: "8684952"
 
 [!include [banner](../includes/banner.md)]
 
-La planificació i el manteniment d'una planificació de projecte poden ser complexos, de manera que els administradors de projectes han d'utilitzar eines que els ajudin a administrar aquesta tasca. La integració amb el Microsoft Project Client proporciona suport per obrir i administrar una estructura de desglossament del treball del projecte. El gestor del projecte pot publicar qualsevol canvi al Dynamics 365 Finance estructura del desglossament del treball del projecte.
+La planificació i el manteniment d'una planificació de projecte poden ser complexos, de manera que els administradors de projectes han d'utilitzar eines que els ajudin a administrar aquesta tasca. La integració amb el Microsoft Project Client proporciona suport per obrir i administrar una estructura de desglossament del treball del projecte. L'administrador del projecte pot publicar qualsevol canvi a l'estructura del desglossament del treball del projecte del Dynamics 365 Finance.
 
 > [!NOTE]
 > Si utilitzeu l'actualització de juliol (versió 10.0.4), heu d'instal·lar els KB 4054797 i el 4055884.
@@ -39,7 +39,7 @@ Per habilitar la integració amb el Microsoft Project Client, cal que s'instal·
 • Feu clic a **Obre** i, a continuació, feu clic a **Executa** quan se us demani.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Obrir i editar una estructura de desglossament del treball existent d'esborrany al Microsoft Project Client
-Si un projecte de Dynamics 365 Finance ja té una estructura de desglossament del treball creada, l'estructura de desglossament del treball es pot obrir a l'aplicació Microsoft Project Client si l'estructura del desglossament del treball es troba en un estat d'esborrany. Per obrir-la des de la pàgina **Projecte**, feu clic a l'enllaç **Obre al Microsoft Project** des de la pestanya **Pla**. Aquesta pàgina també es pot obrir des de l'aplicació Microsoft Project Client fent clic a **Obre** la pestanya **Microsoft Dynamics 365**. Seleccioneu una **Entitat jurídica** i **Projecte** de la llista.
+Si un projecte del Dynamics 365 Finance ja té una estructura de desglossament del treball creada, l'estructura del desglossament del treball es pot obrir a l'aplicació Microsoft Project Client si l'estructura del desglossament del treball està en un estat d'esborrany. Per obrir-la des de la pàgina **Projecte**, feu clic a l'enllaç **Obre al Microsoft Project** des de la pestanya **Pla**. Aquesta pàgina també es pot obrir des de l'aplicació Microsoft Project Client fent clic a **Obre** la pestanya **Microsoft Dynamics 365**. Seleccioneu una **Entitat jurídica** i **Projecte** de la llista.
 
 > [!NOTE]
 > Si utilitzeu l'Internet Explorer com a navegador, haureu de fer clic a **Desa** per obrir manualment la ubicació a la qual es descarrega el fitxer. O bé, feu clic a **Desa i obre** per obrir el fitxer Microsoft Project Client. No canvieu el nom del fitxer en desar-lo.

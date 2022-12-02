@@ -1,6 +1,6 @@
 ---
 title: Canvis de temps i despeses (Project Service Automation 3.x)
-description: En aquest article s'ofereix informació sobre els canvis de solució per temps i despesa.
+description: En aquest article es proporciona informació sobre els canvis de la solució per al temps i les despeses.
 author: makk
 ms.custom:
 - dyn365-projectservice

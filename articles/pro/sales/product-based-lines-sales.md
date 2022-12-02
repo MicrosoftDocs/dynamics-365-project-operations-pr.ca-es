@@ -1,6 +1,6 @@
 ---
 title: Línies d'oportunitat basades en productes (bàsic)
-description: En aquest article s'ofereix informació sobre els elements de línia d'oportunitat basats en productes a Les operacions del projecte.
+description: Aquest article proporciona informació sobre els elements de línia d'oportunitat basats en productes al Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

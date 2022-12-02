@@ -1,6 +1,6 @@
 ---
 title: Competències i certificacions
-description: Aquest article proporciona informació sobre l'addició de característiques d'habilitat i certificació als recursos.
+description: En aquest article es proporciona informació sobre com afegir característiques de competències i certificació als recursos.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

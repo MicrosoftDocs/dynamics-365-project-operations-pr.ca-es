@@ -1,6 +1,6 @@
 ---
 title: "Novetats d'octubre de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències"
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'octubre de 2021 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió d'octubre de 2021 del Project Operations per als escenaris basats en recursos/no mantinguts en existències.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914625"
 
 *S'aplica a: Project Operations per a escenaris basats en recursos/sense cotització*
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
    - Project Operations en un entorn del Microsoft Dataverse, versió 4.25.0.91
-   - Gestió de projectes i comptabilitat en entorn Dynamics 365 Finance versió 10.0.21
+   - Administració de projectes i comptabilitat en l'entorn del Dynamics 365 Finance, versió 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 
@@ -49,7 +49,7 @@ Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les 
 | Facturació i preus | 2338357 | La moneda al registre d'ús de materials ha de ser per defecte la moneda del projecte quan el projecte se selecciona. |
 | Temps i despeses | 2414777 | Ha de ser possible cancel·lar una aprovació quan la despesa o entrada de temps té més d'una aprovació de projecte associada. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestió de projectes i comptabilitat sobre Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |

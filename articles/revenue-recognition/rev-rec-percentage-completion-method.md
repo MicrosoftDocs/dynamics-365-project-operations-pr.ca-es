@@ -1,6 +1,6 @@
 ---
 title: Projectes d'estimació d'ingressos de preu fix
-description: En aquest article s'ofereix informació sobre els ingressos de preus fixos en projectes.
+description: En aquest article es proporciona informació sobre els ingressos de preu fix en projectes.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -26,7 +26,7 @@ Quan creeu una línia de contracte de projecte amb els atributs següents al Dyn
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Revisió de projectes d'estimació d'ingressos de preu fix
 Per revisar els projectes d'estimació d'ingressos de preu fix, seguiu aquests passos:
 
-1. En l'entorn Dynamics 365 Finance, aneu a **Projectes de Gestió de Projectes i Comptabilitat** > **Projectes** > **d'estimació d'ingressos de preu fix**.
+1. A l'entorn del Dynamics 365 Finance, aneu a **Gestió de projectes i comptabilitat** > **Projectes** > **Projectes d'estimació d'ingressos de preu fix**.
 2. Seleccioneu el projecte que voleu visualitzar i feu doble clic a **Identificador del projecte d'estimació** per obrir el registre i revisar els detalls del projecte.
 3. Expandiu la pestanya **Projecte**. Veureu un projecte a la quadrícula **Projectes seleccionats**. El sistema l'utilitza com a projecte per defecte perquè és el projecte associat a la línia de contracte del projecte. 
 4. Per canviar l'associació, seleccioneu projectes addicionals i afegiu-los a la quadrícula **Projectes seleccionats**. Si se seleccionen diversos projectes en aquesta quadrícula, el percentatge completat del projecte i les estimacions d'ingressos es calculen junts per a tots els projectes seleccionats.

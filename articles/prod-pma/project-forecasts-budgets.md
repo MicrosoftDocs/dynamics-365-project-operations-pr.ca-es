@@ -1,6 +1,6 @@
 ---
 title: Previsions i pressupostos del projecte
-description: Microsoft Dynamics 365 Finance proporciona previsions de projectes i pressupostos de projectes per gestionar i controlar els seus projectes.
+description: El Microsoft Dynamics 365 Finance proporciona previsions de projecte i pressupostos de projecte per administrar i controlar els vostres projectes.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

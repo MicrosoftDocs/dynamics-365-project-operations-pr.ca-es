@@ -1,6 +1,6 @@
 ---
 title: Importació de les estimacions d'un projecte a una línia d'oferta basada en projecte (bàsic)
-description: En aquest article s'ofereix informació sobre com importar estimacions d'un projecte a una línia d'oferta.
+description: En aquest article es proporciona informació sobre com importar estimacions d'un projecte a una línia d'oferta.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

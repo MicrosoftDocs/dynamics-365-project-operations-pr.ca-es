@@ -1,6 +1,6 @@
 ---
 title: Línies d'oportunitat basades en projectes
-description: En aquest article s'ofereix informació sobre com treballar amb línies d'oportunitat basades en projectes.
+description: En aquest article s'ofereix informació sobre el treball amb línies d'oportunitat basades en projectes.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

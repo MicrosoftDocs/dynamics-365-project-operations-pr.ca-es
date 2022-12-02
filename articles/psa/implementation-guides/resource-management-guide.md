@@ -1,6 +1,6 @@
 ---
 title: Guia d'administració de recursos
-description: Aquest article proporciona enllaços a informació sobre l'administració de recursos a Project Service Automation
+description: En aquest article s'enllaça a informació sobre l'administració de recursos al Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910760"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-S'ha eliminat l'enllaç PDF que hi havia anteriorment en aquest article i el contingut s'ha traslladat als següents articles:
+S'ha suprimit l'enllaç PDF que abans es trobava en aquest article i s'ha mogut el contingut als articles següents:
 
 - [Pàgina d'inici d'administració de recursos](../resource-management-home-page.md)
 - [Conceptes clau](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ S'ha eliminat l'enllaç PDF que hi havia anteriorment en aquest article i el con
 - [PMF de l'administració de recursos](../resource-management-faq.md)
 
 > [!NOTE]
-> Aquest article se suprimirà en una futura actualització de documentació. 
+> Aquest article s'eliminarà en una futura actualització de la documentació. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

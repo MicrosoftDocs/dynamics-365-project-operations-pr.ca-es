@@ -1,6 +1,6 @@
 ---
 title: Informació general de les línies d'oferta basades en productes (bàsic)
-description: En aquest article s'ofereix informació sobre com ara treballar amb línies d'oferta basades en productes.
+description: Aquest article proporciona informació sobre com treballar amb línies d'oferta basades en productes.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

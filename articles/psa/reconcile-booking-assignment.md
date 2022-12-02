@@ -1,6 +1,6 @@
 ---
 title: Conciliar reserves i assignacions
-description: Aquest article proporciona informació sobre els reals.
+description: Aquest article proporciona informació sobre els valors reals.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

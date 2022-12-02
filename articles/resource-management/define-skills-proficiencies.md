@@ -1,6 +1,6 @@
 ---
 title: Definició d'aptituds i competències
-description: En aquest article s'ofereix informació sobre com configurar models de competència per valorar els recursos.
+description: En aquest article es proporciona informació sobre com configurar models de competència per puntuar recursos.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

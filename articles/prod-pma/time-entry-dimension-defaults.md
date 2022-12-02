@@ -1,6 +1,6 @@
 ---
 title: Valor per defecte de les dimensions financeres per a les entrades de temps del projecte
-description: En aquest article s'ofereix informació sobre com s'apliquen les dimensions financeres per defecte a les entrades de temps.
+description: En aquest article es proporciona informació sobre la manera com s'apliquen les valoracions financeres per defecte a les entrades de temps.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8916552"
 
 [!include [banner](../includes/banner.md)]
 
-Quan utilitzeu dimensions financeres per a les entrades de temps del projecte, el valor de dimensió per defecte s'avalua en l'ordre següent:
+Quan utilitzeu dimensions financeres per a les entrades de temps del projecte, el valor de la dimensió per defecte s'avalua en l'ordre següent:
 
 1. Recurs
 2. Project

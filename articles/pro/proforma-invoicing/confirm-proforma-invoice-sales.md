@@ -1,6 +1,6 @@
 ---
 title: Confirmació d'una factura de projecte proforma
-description: En aquest article s'ofereix informació sobre la confirmació de factures del projecte proforma a Les operacions del projecte.
+description: Aquest article proporciona informació sobre la confirmació de factures de projecte proforma a Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

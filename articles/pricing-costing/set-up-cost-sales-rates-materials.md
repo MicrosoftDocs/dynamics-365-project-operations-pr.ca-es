@@ -1,6 +1,6 @@
 ---
 title: Configuració de les tarifes de cost i de vendes per als materials
-description: En aquest article s'ofereix informació sobre com configurar les taxes de cost i venda dels materials utilitzats en projectes.
+description: Aquest article proporciona informació sobre com configurar les tarifes de cost i de vendes dels materials utilitzats en els projectes.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Per configurar les tarifes de cost i de vendes dels productes, seguiu aquests pa
 2. Als **Elements de la llista de preus**, al menú de subquadrícula, seleccioneu **Element de llista de preus nou**. 
 3. A la pàgina **Creació ràpida**, introduïu el producte i la unitat per a la qual esteu creant el preu nou.
 
-Per obtenir més informació sobre com definir els preus dels articles del catàleg, vegeu [Definir els preus dels productes amb llistes de preus i elements](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) de llista de preus i [precisió decimal en moneda i preus](/dynamics365/sales/decimal-precision-currency-pricing).
+Per obtenir més informació sobre com definir els preus per als elements del catàleg, vegeu [Definir els preus dels productes amb llistes de preus i elements de la llista de preus](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) i [Precisió decimal en moneda i preus](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations no admet tots els mètodes de preus dels productes com a Vendes del Dynamics 365. L'únic mètode de preus compatible amb els productes que s'utilitzaran en projectes és *l'import de la moneda*.
+> El Dynamics 365 Project Operations no admet tots els mètodes de preus dels productes com el Dynamics 365 Sales. L'únic mètode de preus compatible amb els productes que s'utilitzaran als projectes és *Quantitat de moneda*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

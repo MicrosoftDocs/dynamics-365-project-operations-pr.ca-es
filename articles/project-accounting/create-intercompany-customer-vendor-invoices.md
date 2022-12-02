@@ -1,6 +1,6 @@
 ---
 title: Creació de factures entre empreses de clients i proveïdors
-description: En aquest article s'ofereix informació sobre com crear factures interempresativa de clients i proveïdors.
+description: En aquest article es proporciona informació sobre com crear factures de proveïdor i de client interempresa.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Utilitzeu aquest procediment per crear manualment una factura de client interemp
 
 Cal fer els passos següents a l'entitat jurídica prestadora. 
 
-1. En Dynamics 365 Finance, ves a **Gestió de Projectes i comptabilitat** > **factures de projectes Factures** > **intercompanyes de clients**. A la pàgina de **Factures de clients interempresa**, a la subfinestra d'Acció, seleccioneu **Crea**.
+1. Al Dynamics 365 Finance, aneu a **Gestió de projectes i comptabilització** > **Factures del projecte** > **Factures de client interempresa**. A la pàgina de **Factures de clients interempresa**, a la subfinestra d'Acció, seleccioneu **Crea**.
 2. A la pàgina **Crea una factura interempresa**, al camp **Entitat jurídica**, seleccioneu una entitat jurídica prestatària.
 3. Opcional: introduïu un contracte de projecte i un número de projecte específics.
 4. Restringiu la cerca seleccionant un interval de dates. Introduïu dates específiques als camps **Data d'inici** i **Data de finalització**. Només les transaccions entre empreses que es publiquen dins d'aquest interval de dates es visualitzen als resultats de la cerca.

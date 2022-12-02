@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici de planificació de projectes
-description: Aquest article proporciona informació sobre la planificació del projecte.
+description: Aquest article proporciona informació sobre la planificació de projectes.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ Les eines d'administració de projectes del PSA us ajudaran a executar de manera
 - Preveure els requisits de recursos dels projectes es troben en el pipeline.
 - Lliurar correctament els projectes mitjançant el seguiment del progrés i el consum de costos.
 
-Els articles següents proporcionen informació que ajudarà els gestors de projectes a estimar el treball, estimar els costos del projecte i predir els requisits de recursos mitjançant l'ús de les eines compatibles amb PSA:
+Els articles següents proporcionen informació que ajudarà els administradors de projectes a estimar el treball, estimar els costos del projecte i preveure els requisits dels recursos mitjançant les eines admeses al PSA:
 
 - [Crear una planificació](project-creating.md)
 - [Fer una estimació dels costos i ingressos d'un projecte](project-estimating.md)

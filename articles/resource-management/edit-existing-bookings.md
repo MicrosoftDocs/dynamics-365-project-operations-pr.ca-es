@@ -1,6 +1,6 @@
 ---
 title: Edició de reserves
-description: En aquest article s'ofereix informació sobre com actualitzar i fer canvis en les reserves.
+description: En aquest article es proporciona informació sobre com actualitzar i fer canvis en les reserves.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915218"
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
 
-Quan es produeixen canvis en un projecte que requereixen actualitzar les reserves existents, hi ha diverses maneres de fer els canvis. En aquest article s'explica com actualitzar i fer canvis en les reserves.
+Quan es produeixen canvis en un projecte que requereixen actualitzar les reserves existents, hi ha diverses maneres de fer els canvis. En aquest article es ressalta informació sobre com actualitzar i fer canvis en les reserves.
 
 ## <a name="resource-reconciliation"></a>Conciliació de recursos
 

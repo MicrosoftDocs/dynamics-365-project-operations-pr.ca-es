@@ -1,6 +1,6 @@
 ---
 title: Utilització d'un recurs que es pot reservar com a dimensió de preus
-description: En aquest article s'ofereix informació sobre com utilitzar un recurs que es pot reservar com a dimensió de preus.
+description: En aquest article es proporciona informació sobre com utilitzar un recurs disponible com a dimensió de preu.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914804"
 
  _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_ 
 
-En aquest article s'ofereix informació sobre com utilitzar un recurs que es pot reservar com a dimensió de preus. Si la vostra estratègia de preus està configurada de manera que cada recurs disponible ha de tenir un preu o un percentatge de cost determinat, utilitzeu un recurs que es pot reservar com a dimensió de preus.
+En aquest article es proporciona informació sobre com utilitzar un recurs disponible com a dimensió de preu. Si la vostra estratègia de preus està configurada de manera que cada recurs disponible ha de tenir un preu o un percentatge de cost determinat, utilitzeu un recurs que es pot reservar com a dimensió de preus.
 
 ## <a name="prerequisites"></a>Requisits previs
-Abans de completar els tràmits d'aquest article, heu de tenir una solució de dimensió de preus nova per a la vostra organització. Si encara no l'heu creat, vegeu [Crear camps i entitats personalitzats](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Abans de completar els procediments d'aquest article, heu de tenir una solució de dimensió de preus nova per a la vostra organització. Si encara no l'heu creat, vegeu [Crear camps i entitats personalitzats](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Afegir el camp Recurs que es pot reservar als formularis i a les visualitzacions
 Per fer que el camp **Recurs que es pot reservar** sigui visible a la solució de la dimensió de preus, heu d'afegir el camp a tots els formularis i les visualitzacions com a entitat.

@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis al Project Service Automation versió 3
-description: En aquest article s'ofereix informació sobre què és nou i s'ha canviat a la versió 3 del Project Service Automation.
+description: En aquest article es proporciona informació sobre les novetats i els canvis a la versió 3 del Project Service Automation.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926580"
 
 
 
-Aquest article proporciona informació sobre els canvis a la interfície d'usuari (interfície d'usuari), la funcionalitat i la terminologia en el Project Service Automation entre la versió 2 o la versió 1 i la versió 3.
+En aquest article es proporciona informació sobre els canvis en la interfície d'usuari (UI), la funcionalitat i la terminologia al Project Service Automation entre la versió 2 o la versió 1 i la versió 3.
 
 ## <a name="project-scheduling"></a>Planificació de projectes
 La planificació del projecte, que es coneixia com a estructura de desglossament de treball (WBS) en versions anteriors, ha canviat el nom a planificació i s'hi accedeix fent clic a la pestanya **Planificació**. 
@@ -150,7 +150,7 @@ Quan teniu assignacions de tasques per a un recurs sense reserves (una manca de 
 En aquesta secció es proporciona informació sobre els canvis en el temps, la despesa i l'aprovació a la versió 3 del Project Service Automation. Com a part de la solució del Dynamics 365 Project Service Automation, s'ha actualitzat la característica **Entrada de temps** per aprofitar el marc de la interfície unificada. Això permet el lliurament d'una interfície d'usuari coherent i homogènia que segueix el disseny responsiu per a una òptima visualització en qualsevol mida de pantalla o dispositiu. 
 
 ### <a name="landing-page"></a>Pàgina de destinació
-L'experiència d'entrada de temps personalitzada no extensible ha quedat obsoleta a la versió 3. En lloc d'això, ara hi ha una experiència de quadrícula nativa extensible i accessible. Podeu accedir a la funcionalitat d'entrada de l'hora mitjançant el mapa del lloc de l'esquerra. Amb aquest canvi, ja no podreu introduir el temps d'una setmana a la vegada. En lloc d'això, haureu de crear una entrada de temps per a cada dia a la quadrícula. Després d'uns quants temps s'han creat entrades, els usuaris poden crear entrades de temps a granel amb **la funció Copia** explicada més endavant en aquest article. 
+L'experiència d'entrada de temps personalitzada no extensible ha quedat obsoleta a la versió 3. En lloc d'això, ara hi ha una experiència de quadrícula nativa extensible i accessible. Podeu accedir a la funcionalitat d'entrada de l'hora mitjançant el mapa del lloc de l'esquerra. Amb aquest canvi, ja no podreu introduir el temps d'una setmana a la vegada. En lloc d'això, haureu de crear una entrada de temps per a cada dia a la quadrícula. Després de crear un parell d'entrades de temps, els usuaris poden crear de manera massiva les entrades de temps amb la funció **Copia** explicada més endavant en aquest article. 
 
 ![Pàgina de destinació d'entrada de temps.](media/time-entry-landing-page-07.png)
  

@@ -1,6 +1,6 @@
 ---
 title: Transaccions empresarials
-description: En aquest article s'ofereix informació sobre les transaccions comercials.
+description: En aquest article es proporciona informació les transaccions empresarials.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Rendiment de planificació dels recursos del projecte
-description: En aquest article s'ofereix informació sobre com millorar el rendiment de la planificació de recursos per a un gran nombre de projectes.
+description: Aquest article proporciona informació sobre com millorar el rendiment de la planificació dels recursos per a un gran nombre de projectes.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

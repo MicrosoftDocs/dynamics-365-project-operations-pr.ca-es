@@ -1,6 +1,6 @@
 ---
 title: Guia d'informes
-description: Aquest article proporciona enllaços a informació sobre informes.
+description: Aquest article proporciona enllaços a informació sobre els informes.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,14 +32,14 @@ ms.locfileid: "8919174"
 
 Els mètodes i les tecnologies d'informes d'aquesta aplicació poden ajudar-vos a determinar la salut dels projectes i identificar quan heu de prendre una acció correctiva. 
 
-S'ha eliminat l'enllaç PDF que hi havia anteriorment en aquest article i el contingut s'ha traslladat als següents articles:
+S'ha suprimit l'enllaç PDF que abans es trobava en aquest article i s'ha mogut el contingut als articles següents:
 
 - [Pàgina inicial d'informes](../reports-reporting-dynamics-365-project-service.md)
 - [Escriptoris digitals](../reports-dashboards.md)
 - [Treballar amb el model de dades del Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Aquest article se suprimirà en una futura actualització de documentació. 
+> Aquest article s'eliminarà en una futura actualització de la documentació. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Reservar recursos que es poden reservar a un equip de projecte i assignar tasques
-description: En aquest article s'ofereix informació sobre com reservar recursos amb nom als equips del projecte i assignar-los a tasques.
+description: En aquest article es proporciona informació sobre la reserva de recursos amb nom a equips de projecte i assignar-los a tasques.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

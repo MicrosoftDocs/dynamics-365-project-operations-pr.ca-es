@@ -1,6 +1,6 @@
 ---
 title: Despeses per dia
-description: En aquest article s'ofereix informació sobre com treballar amb les despeses de per diem.
+description: En aquest article es proporciona informació sobre com treballar amb les despeses per dia.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -23,104 +23,104 @@ ms.locfileid: "8923176"
 # <a name="per-diem-expenses"></a>Despeses per dia
 
 > [!IMPORTANT] 
-> La funcionalitat que es descriu en aquest article està disponible per als usuaris orientats com a part d'una versió de visualització prèvia.
+> La funcionalitat que es descriu en aquest article està disponible per als usuaris de destinació com a part d'una versió preliminar.
 
-Un pagament per diem és una assignació diària fixa i predeterminada que una empresa paga als seus empleats per allotjament (hotels), menjars i despeses incidentals en què incorren aquests empleats mentre viatgen per feina. L'empresa paga aquesta assignació als empleats en lloc de pagar les despeses reals de viatge. Els empleats poden utilitzar la seva **franquícia incidentals / altres** per diem per cobrir consells, servei d'habitacions, bugaderia o serveis de rentatge en sec per a reunions de negocis importants. La tarifa per diem pot variar, depenent de si l'empresari opta per reemborsar el cost combinat de l'allotjament i els àpats, o només pel cost dels àpats i les despeses addicionals.
+Un pagament per dia és una cobertura diària fixa i predeterminada que una empresa paga als seus empleats per a l'allotjament (hotels), els àpats i les despeses incidentals en què els empleats incorren mentre viatgen per feina. L'empresa paga aquesta provisió als empleats en comptes de pagar les despeses reals del viatge. Els empleats poden utilitzar la seva provisió per dia d'**Incidentals/Altres** per cobrir propines, servei d'habitacions, bugaderia o serveis de rentat en sec per a reunions de negocis importants. La taxa per dia pot variar, en funció de si l'empleat tria de reemborsar el cost combinat de l'allotjament i els àpats o només el cost dels àpats i les despeses incidentals.
 
-Els percentatges de les dietes es poden basar en l'època de l'any, en la ubicació del viatge o tots dos. Quan creeu una regla de per diem, podeu especificar que es retindrà un percentatge de la taxa per diem si un empleat rep àpats o serveis gratuïts. També pots establir un nombre mínim d'hores i un nombre màxim d'hores que la tarifa per diem es pot aplicar al viatge d'un empleat.
+Els percentatges de les dietes es poden basar en l'època de l'any, en la ubicació del viatge o tots dos. Quan creeu una regla per dia, podeu especificar que un percentatge de la tarifa per dia es retindrà si un empleat rep àpats o serveis gratuïts. També podeu definir un nombre mínim i màxim d'hores en què el percentatge per dia es pot aplicar als viatges d'un treballador.
 
-El per diem es calcula com l'assignació total que s'ofereix per dia menys la reducció de menjar (cost dels àpats gratuïts) que es proporciona al treballador.
+Les dietes es calculen com la provisió total que s'ofereix per dia menys la reducció per àpats (cost dels àpats gratuïts) que es proporciona al treballador.
 
-## <a name="configure-per-diems"></a>Configure per diems
+## <a name="configure-per-diems"></a>Configurar dietes
 
-Per configurar les despeses de per diem, seguiu aquests passos.
+Per configurar despeses de dietes, seguiu aquests passos.
 
-1. Aneu als **paràmetres** de gestió general \>**de** despeses de gestió \>**·** \> **de** despeses.
-2. A la **pestanya Per diem**, a la Calcula la **reducció dels àpats per** camp, seleccioneu com s'han de calcular els diems:
+1. Aneu a **Administració de despeses** \> **Configuració** \> **General** \> **Paràmetres d'administració de despeses**.
+2. A la pestanya **Dieta**, al camp **Calcula la reducció d'àpats per**, seleccioneu com s'han de calcular les dietes:
 
-    - **Tipus d'àpat per viatge** – Calculeu el per diem en funció del tipus de menjar que s'introdueix (esmorzar, dinar o sopar) i de la reducció de menjar que s'especifica per a cada tipus de menjar per a la franquícia per diem durant la durada del viatge.
-    - **Tipus de menjar per dia** : Calculeu el per diem en funció del tipus de menjar que s'introdueix i de la reducció de menjar que s'especifica per a cada tipus de menjar per a la franquícia per diem per dia.
-    - **Nombre d'àpats per dia** - Calculeu el per diem en funció del nombre d'àpats que s'introdueixen al dia i de la reducció dels àpats per al nombre d'àpats que es proporcionen cada dia.
+    - **Tipus d'àpat per viatge**: calculeu la dieta segons el tipus d'àpat que s'introdueix (esmorzar, dinar o sopar) i, a la reducció d'àpats que s'especifica per a cada tipus de provisió per dietes per a la durada del viatge.
+    - **Tipus d'àpat per dia**: calculeu la dieta segons el tipus d'àpat que s'introdueix i, a la reducció d'àpats que s'especifica per a cada tipus de provisió per dietes per dia.
+    - **Nombre d'àpats per dia** : calculeu la dieta a partir del nombre d'àpats que s'introdueixen al dia i la reducció d'àpats per al nombre d'àpats que es proporcionen cada dia.
 
-3. Aneu a **Càlculs de configuració de gestió** \> **de** \> **despeses i codis** \> **Ubicacions** per diem.
-4. Afegiu ubicacions on es pugui utilitzar per diems.
-5. Per a cada ubicació que afegiu, a la **pestanya Per diems**, seleccioneu la tarifa per diem i la moneda que són vàlides entre dates d'inici i finalització específiques per a l'allotjament, els àpats i altres despeses. Per configurar les tarifes i les monedes per diem, aneu a **Càlculs de configuració de** \> **gestió** \> **de despeses i codis** \> **Per diems.**
+3. Aneu a **Administració de despeses** \> **Configuració** \> **Càlculs i codis** \> **Ubicacions de dietes**.
+4. Afegiu les ubicacions on es pot utilitzar les dietes.
+5. Per a cadascuna de les ubicacions que afegiu, a la pestanya **Dietes**, seleccioneu una tarifa de dieta i la moneda que sigui vàlida entre les dates d'inici i d'acabament específiques per a allotjament, àpats i altres despeses. Per configurar les tarifes de dietes i les monedes, aneu a **Administració de despeses** \> **Configuració** \> **Càlculs i codis** \> **Dietes**.
 
-## <a name="per-diems-in-the-reimagined-expense-interface"></a>Per diems a la interfície de despeses reimaginada
+## <a name="per-diems-in-the-reimagined-expense-interface"></a>Dietes a la nova interfície de despeses
 
-La característica per diem és compatible amb l'espai de treball de gestió de **despeses reimaginat** en Microsoft Dynamics 365 Finance versió 10.0.25 i posteriors.
+La característica de dietes està admesa a la nova àrea de treball **Administració de despeses** del Microsoft Dynamics 365 Finance versió 10.0.25 i posterior.
 
-Per habilitar per diems, seguiu aquests passos.
+Per habilitar les dietes, seguiu aquests passos.
 
-1. A l'àrea **de treball Gestió de** funcions, cerqueu i seleccioneu la **característica Informes de despeses reimaginada** a la llista i, a continuació, seleccioneu **Habilita ara**.
-2. Cerqueu i seleccioneu la funció d'interfície **per**-diem per a l'informe de despeses a la llista i, a continuació, seleccioneu **Habilita ara**.
+1. A l'àrea de treball **Administració de característiques**, cerqueu i seleccioneu la característica **Nous informes de despeses** a la llista i, a continuació, seleccioneu **Habilita ara**.
+2. Cerqueu i seleccioneu la característica **Nova interfície d'informe de dietes per a despeses** a la llista i, a continuació, seleccioneu **Habilita ara**.
 
 ## <a name="how-the-feature-works"></a>Com funciona la característica
 
-Aquesta secció proporciona exemples per a tres escenaris de configuració. Per a cada exemple, el Valora la **reducció de menjar per** camp s'estableix en un valor diferent. Per als tres exemples, l'import total que s'ha de pagar és el mateix fins que s'aplica la reducció del menjar. Després d'aquest punt, l'import total a pagar difereix per a cada exemple.
+Aquesta secció proporciona exemples de tres escenaris de configuració. Per a cada exemple, el camp **Calcula la reducció d'àpats per** es defineix com un valor diferent. Per als tres exemples, l'import total que es paga és el mateix fins que s'aplica la reducció d'àpats. Després d'aquest moment, l'import total que es pot paga és diferent per a cada exemple.
 
-Per crear la despesa per diem que s'utilitza per als tres exemples, seguiu aquests passos.
+Per crear la despesa de dietes que s'utilitza per als tres exemples, seguiu aquests passos.
 
-1. Aneu a Gestió de despeses d'espais **de treball** \> **.**
-2. Seleccioneu **Informe de despeses** nou o seleccioneu un informe de despeses existent.
-3. Afegiu-hi una nova despesa. **Al camp Categoria**, seleccioneu **Per diem**. Seleccioneu la ubicació i les dates d'inici i finalització del viatge. El per diem per allotjament, menjars i incidentals (altres despeses) es calcula en funció de la bonificació diària que s'estableix per a la ubicació seleccionada.
+1. Aneu a **Àrees de treball** \> **Administració de despeses**.
+2. Seleccioneu **Nou informe de despeses** o seleccioneu un informe de despeses existent.
+3. Afegiu una despesa nova. Al camp **Categoria**, seleccioneu **Dieta**. Seleccioneu la ubicació i les dates d'inici i d'acabament del viatge. Les dietes per a allotjament, àpats i incidentals (altres despeses) es calculen segons la provisió diària que s'estableixi per a la ubicació seleccionada.
 
-    Per exemple, seleccioneu **Redmond (EUA)** com a ubicació. L'assignació diària per a aquesta ubicació és de 150 dòlars nord-americans (150 dòlars) per a allotjament, USD 75 per als àpats i USD 5 per a incidents. La data d'inici és el 10 de gener i la data de finalització és el 14 de gener. Per tant, la durada seleccionada és de cinc dies quan la configuració seleccionada és de dies naturals amb hora, i l'hora seleccionada comença i acaba a les 12:00 en les dates d'inici i finalització. Aquests són els càlculs:
+    Per exemple, seleccioneu **Redmond (EUA)** com a ubicació. La provisió diària d'aquesta ubicació és de 150 dòlars EUA (150 USD) per a l'allotjament, 75 USD per a àpats i 5 USD per a incidentals. La data d'inici és el 10 de gener i la data d'acabament és el 14 de gener. Per tant, la durada seleccionada és de cinc dies quan la configuració seleccionada són dies naturals amb temps, i el temps seleccionat comença i acaba a les 12:00 del matí a les dates d'inici i d'acabament. Els càlculs són els següents:
 
-    - Import total a pagar = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-    - Menjar i part incidental de l'import total = 5 × (75 + 5) = USD 400
+    - Import total per pagar = 5 × (150 + 75 + 5) = 5 × 230 = 1.150 USD
+    - Part d'àpats i incidentals de l'import total = 5 × (75 + 5) = 400 USD
 
-Si durant el viatge es proporcionaven esmorzars, dinars i sopars, aquests àpats s'han de tenir en compte com a reducció de menjar.
+Si s'ha ofert l'esmorzar, el dinar i el sopar durant el viatge, aquests àpats s'han de comptar com una reducció d'àpats.
 
-### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>Exemple 1: Per diem on les reduccions de menjar es basen en el tipus de menjar per viatge
+### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>Exemple 1: Dieta on les reduccions d'àpats es basen en el tipus d'àpat per viatge
 
-En aquest exemple, la reducció dels àpats és del 30% per a l'esmorzar, del 30% per al dinar i del 40% per al sopar. A la **pàgina Paràmetres** de gestió de despeses, la reducció de menjar per **camp s'estableix** en **tipus de menjar per viatge**. Aquests són els càlculs si es van proporcionar tres esmorzars, dos dinars i sopars zero a l'empleat:
+En aquest exemple, la reducció d'àpats és del 30 per cent per als esmorzars, el 30 per cent per als dinars i el 40 per cent per als sopars. A la pàgina **Paràmetres d'administració de despeses**, el camp **Calcula la reducció d'àpats per** es defineix com **Tipus d'àpat per viatge**. A continuació es mostren els càlculs si s'han ofert tres esmorzars, dos dinars i cap sopar a l'empleat:
 
-- Reducció de menjar = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112.50
-- Àpats i incidentals = 400 – 112,50 = USD 287.50
-- Import total a pagar = Assignació total – Reducció de menjar = 1.150 – 112,50 = USD 1,037.50
+- Reducció d'àpats = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = 112,50 USD
+- Àpats i incidentals = 400 – 112,50 = 287,50 USD
+- Import total per pagar = Provisió total – Reducció d'àpats = 1.150 – 112,50 = 1.037,50 USD
 
-![Despesa per diem en què la reducció del menjar es basi en el tipus de menjar per viatge.](media/1-meal-type-per-trip.png)
+![Despesa en dietes on la reducció d'àpats es basa en el tipus d'àpat per viatge.](media/1-meal-type-per-trip.png)
 
-### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Exemple 2: Per diem on les reduccions dels àpats es basen en el tipus de menjar per dia
+### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Exemple 2: Dieta on les reduccions d'àpats es basen en el tipus d'àpat per dia
 
-En aquest exemple, la reducció dels àpats és del 30% per a l'esmorzar, del 30% per al dinar i del 40% per al sopar. A la **pàgina Paràmetres** de gestió de despeses, la **reducció de menjar per** camp es defineix en **tipus àpat per dia**. En aquest cas, a la **quadrícula Àpats** del quadre de diàleg Edita les **despeses**, des clearu les caselles de selecció per indicar quins àpats se us han proporcionat durant el viatge.
+En aquest exemple, la reducció d'àpats és del 30 per cent per als esmorzars, el 30 per cent per als dinars i el 40 per cent per als sopars. A la pàgina **Paràmetres d'administració de despeses**, el camp **Calcula la reducció d'àpats per** es defineix com **Tipus d'àpat per dia**. En aquest cas, a la quadrícula **Àpats** del quadre de diàleg **Edita la despesa**, desactiveu les caselles de selecció per indicar quins àpats se us han ofert durant el viatge.
 
-Per exemple, aquí teniu els càlculs si l'esmorzar es va proporcionar durant els tres primers dies del viatge:
+Per exemple, aquí teniu els càlculs si s'ha ofert esmorzar els tres primers dies del viatge:
 
-- Reducció diària de l'àpat per a cada un dels tres primers dies = 75 × 30% = USD 22.50
-- Reducció total dels àpats = 3 × 22,50 = USD 67.50
-- Menjars i incidentals per als dies 1 a 3 = 75 - 22,50 = USD 57.50
-- Menjars totals i incidentals = Suma d'àpats i incidents al llarg de cinc dies = 400 - 67,50 = USD 332.50
-- Import total a pagar = Import total – Reducció del menjar = 1.150 – 67,50 = USD 1,082.50
+- Reducció d'àpats diària per als tres primers dies = 75 × 30% = 22,50 USD
+- Reducció total d'àpats = 3 × 22,50 = 67,50 USD
+- Àpats i incidentals els dies 1 a 3 = 75 – 22,50 = 57,50 USD
+- Total d'àpats i incidentals = Suma d'àpats i incidentals en cinc dies = 400 – 67,50 = 332,50 USD
+- Import total per pagar = Import total – Reducció d'àpats = 1.150 – 67,50 = 1.082,50 USD
 
-![Despesa per diem quan la reducció del menjar es basa en el tipus de menjar per dia.](media/2-meal-type-per-day.png)
+![Despesa en dietes on la reducció d'àpats es basa en el tipus d'àpat per dia.](media/2-meal-type-per-day.png)
 
-### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>Exemple 3: Per diem on les reduccions de menjar es basen en el nombre d'àpats al dia
+### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>Exemple 3: Dieta on les reduccions d'àpats es basen en el nombre d'àpats per dia
 
-En aquest exemple, la reducció dels àpats es calcula en funció del nombre d'àpats que es van proporcionar per dia (és a dir, la pàgina Calcula la **reducció dels àpats per** camp a la **pàgina Paràmetres** de gestió de despeses s'estableix en **Nombre d'àpats per dia**). A la **quadrícula Àpats** del quadre de **diàleg Edita la despesa**, des clearu les caselles de selecció per indicar quins àpats s'han proporcionat.
-En aquest cas, la reducció de l'àpat es basa només en el # dels àpats proporcionats, i no en el tipus de menjar (Esmorzar / dinar / sopar) proporcionat.
+En aquest exemple, la reducció d'àpats es calcula segons el nombre d'àpats que s'han ofert per dia (és a dir, el camp **Calcula la reducció d'àpats per** de la pàgina **Paràmetres d'administració de despeses** es defineix com a **Nombre d'àpats per dia**). A la quadrícula **Àpats** del quadre de diàleg **Edita la despesa**, desactiveu les caselles de selecció per indicar quins àpats se us han ofert.
+En aquest cas, la reducció d'àpats es basa únicament en el nombre d'àpats oferts i no en el tipus d'àpats (esmorzar/dinar/sopar) ofert.
 
-Aquests són els càlculs per diems quan es USD 150 l'assignació diària per a l'allotjament, USD 75 per als àpats i USD 5 per a incidents:
+A continuació es mostren els càlculs de les dietes quan la provisió diària és de 150 USD per a l'allotjament, 75 USD per a als àpats i 5 USD per a incidentals:
 
-- **Import total a** pagar = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-- **Un àpat:** Reducció dels àpats = 20% = USD 15
-- **Dos àpats:** Reducció de menjar = 50% = USD 37.50
-- **Tres àpats:** Reducció de menjars = 100% = USD 75
+- **Import total per pagar** = 5 × (150 + 75 + 5) = 5 × 230 = 1.150 USD
+- **Un àpat**: reducció d'àpats = 20% = 15 USD
+- **Dos àpats**: reducció d'àpats = 50% = 37,50 USD
+- **Tres àpats**: reducció d'àpats = 100% = 75 USD
 
-Aquests són els càlculs de la bonificació **d'àpats** i incidències, que inclou USD 5 per a incidents:
+Aquests són els càlculs de la **provisió per a àpats i incidentals**, que inclou 5 USD per a incidentals:
 
-- Dia 1 - S'ofereixen dos àpats = (75 – 37.50) + 5 = 37.50 + 5 = USD 42.50
-- Dia 2 - S'ofereixen dos àpats = (75 – 37.50) + 5 = 37.50 + 5 = USD 42.50
-- Dia 3 - Un àpat proporcionat = (75 – 15) + 5 = 60 + 5 = USD 65
-- Dia 4 - Àpats nuls proporcionats = (75-0) + 5 = 75 + 5 = USD 80
-- Dia 5 - Tres àpats proporcionats = (75 – 75) + 5 = 0 + 5 = USD 5
+- Dia 1 - Dos àpats oferts = (75 – 37,50) + 5 = 37,50 + 5 = 42,50 USD
+- Dia 2 - Dos àpats oferts = (75 – 37,50) + 5 = 37,50 + 5 = 42,50 USD
+- Dia 3 - Un àpat ofert = (75 – 15) + 5 = 60 + 5 = 65 USD
+- Dia 4 - Cap àpat ofert = (75-0) + 5 = 75 + 5 = 80 USD
+- Dia 5 - Tres àpats oferts = (75 – 75) + 5 = 0 + 5 = 5 USD
 
-- Total d'àpats i incidents = Àpats i incidents per al dia 1 + dia 2 + dia 3 + dia 4 + dia 5 = USD 235
-- Reducció total dels àpats = Reducció de menjar per al dia 1 + dia 2 + dia 3 + dia 4 + dia 5 = 37.5 + 37.5 + 15 + 0 + 75 = USD 165
-- Import total a pagar = Assignació total – Reducció total del menjar = USD 1,150 - USD 165 = USD 985
+- Total d'àpats i incidentals = Àpats i incidentals per al dia 1+ dia 2 + dia 3+ dia 4 + dia 5 = 235 USD
+- Reducció d'àpats total = Reducció d'àpats per al dia 1+ dia 2 + dia 3 + dia 4 + dia 5= 37,5+ 37,5+ 15 + 0+ 75 = 165 USD
+- Import total per pagar = Provisió total – Reducció d'àpats total = 1.150 USD – 165 USD = 985 USD
 
-![Despesa per diem quan la reducció del menjar es basa en el nombre d'àpats per dia.](media/3-number-of-meals-per-day.png)
+![Despesa en dietes on la reducció d'àpats es basa en el nombre d'àpats per dia.](media/3-number-of-meals-per-day.png)
 
 > [!NOTE]
-> A partir de la versió 10.0.23 de Finances, si utilitzeu la interfície de despeses reimaginada, no podeu crear despeses per diem que tinguin dates superposades. Si ho intenteu, rebreu un missatge d'error.
+> A partir de la versió 10.0.23 del Finance, si utilitzeu la nova interfície de despeses, no podeu crear despeses de dietes que tinguin dates superposades. Si proveu de fer-ho, rebreu un missatge d'error.

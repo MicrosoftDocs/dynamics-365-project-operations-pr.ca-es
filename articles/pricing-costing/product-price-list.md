@@ -1,6 +1,6 @@
 ---
 title: Llistes de preus de productes
-description: En aquest article s'ofereix informació sobre les llistes de preus dels preus del catàleg que s'utilitzen per a les ofertes i els contractes del projecte.
+description: En aquest article es proporciona informació sobre les llistes de preus en els preus dels catàlegs utilitzats per a ofertes de projectes i contractes.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

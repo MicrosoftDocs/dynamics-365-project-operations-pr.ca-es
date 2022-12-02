@@ -1,6 +1,6 @@
 ---
 title: Administració de les ofertes de projectes
-description: En aquest article s'ofereix informació sobre les ofertes del projecte.
+description: Aquest article proporciona informació sobre les ofertes del projecte.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Es pot veure una llista de totes les ofertes de projecte a la pàgina de llista 
 Es poden crear o suprimir ofertes des d'aquesta pàgina de llista o des de les pàgines de detalls.
 
  > [!NOTE]
- > Les ofertes que tenen projectes, tasques, estimacions, revistes i/o reals associades no es poden suprimir. A més, quan una oferta es tanca com a Guanyada o Perduda, ja no es pot suprimir ni modificar. 
+ > Les ofertes que tenen projectes, tasques, estimacions, diaris i/o valors reals associats no es poden suprimir. A més, quan una oferta es tanca com a guanyada o perduda, ja no es pot suprimir ni modificar. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

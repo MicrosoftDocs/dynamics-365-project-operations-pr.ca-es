@@ -1,6 +1,6 @@
 ---
 title: Creació d'un avançament ad hoc en un contracte
-description: En aquest article s'ofereix informació sobre la creació d'un avançament d'un contracte segons sigui necessari.
+description: Aquest article proporciona informació sobre la creació d'un avançament en un contracte segons sigui necessari.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

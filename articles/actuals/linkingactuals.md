@@ -1,6 +1,6 @@
 ---
-title: 'Orígens de les transaccions: enllaça els reals amb la seva font'
-description: En aquest article s'explica com el concepte d'orígens de transacció s'utilitza per enllaçar els reals als registres d'origen originals, com ara l'entrada de temps, l'entrada de despeses o els registres d'ús de material.
+title: 'Orígens de les transaccions: enllaçar els valors reals amb els seus orígens'
+description: En aquest article s'explica com s'utilitza el concepte d'orígens de transacció per enllaçar els valors reals amb els registres originals, com ara registres d'entrada de temps, d'entrada de despesa o d'ús de materials.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: ca-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921290"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Orígens de les transaccions: enllaça els reals amb la seva font
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Orígens de les transaccions: enllaçar els valors reals amb els seus orígens
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Els registres d'origen de la transacció es creen per enllaçar els reals a la seva font, com ara entrades de temps, entrades de despeses, registres d'ús de material i factures del projecte.
+Els registres d'origen de les transaccions es creen per enllaçar els valors reals amb els seus orígens, com ara entrades de temps, entrades de despesa, registres d'ús de materials i factures de projecte.
 
 A l'exemple següent es mostra el processament típic de les entrades de temps en un cicle de vida de projecte del Project Operations.
 
-> ![Temps de processament sencers en operacions de projectes.](media/basic-guide-17.png)
+> ![Entrades de temps de processament al Project Operations.](media/basic-guide-17.png)
  
-1. L'enviament d'una entrada de temps fa que es creï dues línies de diari: una per al cost i una altra per a les vendes no blanques.
-2. L'aprovació definitiva de l'entrada de temps fa que es creï dos reals: un per al cost i un altre per a les vendes nobilades.
+1. L'enviament d'una entrada de temps provoca la creació de dues línies de llibre diari: una per a cost i una per a vendes no facturades.
+2. L'aprovació final de l'entrada de temps provoca la creació de dos valors reals: un per a cost i un per a vendes no facturades.
 3. Quan l'usuari crea una factura de projecte, la transacció de línia de factura es crea mitjançant les dades del valor real de vendes no facturades.
 4. Quan es confirma la factura, es creen dos valors reals nous: una reversió de vendes sense facturar i un valor real de vendes facturades.
 
-Cada esdeveniment d'aquest flux de treball de processament activa la creació de registres a l'entitat Origen de la transacció per ajudar a crear un rastre de les relacions entre aquests registres que es creen a través dels detalls de l'entrada de temps, la línia de diari, la línia real i la línia de factura.
+Cada incidència d'aquest flux de treball de processament activa la creació de registres a l'entitat Origen de la transacció per ajudar-vos a construir un seguiment de relacions entre aquests registres creats a l'entrada de temps, la línia del llibre diari, el valor real i els detalls de línia de factura.
 
 A la taula següent es mostren els registres de l'entitat Origen de la transacció per al flux de treball anterior.
 
@@ -70,8 +70,8 @@ A la taula següent es mostren els registres de l'entitat Origen de la transacci
 | GUID de la factura de correcció      | Factura                  | GUID del valor real de vendes no facturades nou    | Real                            |                          |
 
 
-La il·lustració següent mostra els enllaços que es creen entre els reals i les seves fonts en diversos esdeveniments utilitzant l'exemple de les entrades de temps a les operacions del projecte.
+A la il·lustració següent es mostren els enllaços que es creen entre els valors reals i els seus orígens en diverses incidències fent servir l'exemple d'entrades de temps del Project Operations.
 
-> ![Com s'enllacen els reals amb els registres d'origen de les operacions del projecte.](media/TransactionOrigins.png)
+> ![Com s'enllacen els valors reals als registres d'origen al Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

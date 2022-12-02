@@ -1,6 +1,6 @@
 ---
 title: Estimacions financeres per a despeses en projectes
-description: Aquest article proporciona informació sobre la definició o estimació de les despeses basades en projectes.
+description: En aquest article s'ofereix informació sobre la definició o estimació de les despeses basades en el projecte.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

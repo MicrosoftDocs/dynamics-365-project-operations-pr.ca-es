@@ -1,6 +1,6 @@
 ---
 title: Recursos web obsolets al Project Service Automation 3.x
-description: En aquest article es descriuen els recursos web que ja no s'utilitzen en la Dynamics 365 Project Service Automation versió 3.0.
+description: En aquest article es descriuen els recursos web que ja no s'utilitzen al Dynamics 365 Project Service Automation 3.0.
 author: makk
 ms.custom:
 - dyn365-projectservice

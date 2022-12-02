@@ -1,6 +1,6 @@
 ---
 title: Captura d'un rebut amb l'OCR
-description: Aquest article proporciona informació sobre el processament de reconeixement òptic de caràcters (OCR) per als rebuts.
+description: Aquest article proporciona informació sobre el processament del reconeixement òptic de caràcters (OCR) per als rebuts.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Per crear una despesa o fer coincidir una despesa d'un rebut, seguiu els passos 
 
 ## <a name="installation"></a>Instal·lació
 
-Per utilitzar aquestes capacitats de despesa avançades, instal·leu el complement del Servei de gestió de despeses per a Microsoft Dynamics 365 Finance i activeu les funcions de la instància. Podeu accedir al complement des del projecte al Microsoft Dynamics Lifecycle Services (LCS).
+Per utilitzar aquestes capacitats de despesa avançada, instal·leu el complement Servei d'administració de despeses per al Microsoft Dynamics 365 Finance i activeu les característiques a la instància. Podeu accedir al complement des del projecte al Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicieu la sessió al LCS i obriu l'entorn desitjat.
 2. Aneu a **Detalls complets**.
@@ -85,7 +85,7 @@ No, Microsoft ha creat un model d'aprenentatge automàtic general per al servei 
 
 **On està disponible i on es processa aquesta característica?**
 
-La disponibilitat d'aquesta característica en diferents regions es mostra a la taula següent. Si la vostra regió no és compatible actualment, envieu una sol·licitud per prioritzar la disponibilitat del servei OCR a la vostra regió. 
+La disponibilitat d'aquesta característica a diferents regions es mostra a la taula següent. Si la vostra regió no està admesa actualment, envieu una sol·licitud per prioritzar la disponibilitat del servei OCR a la vostra regió. 
 
 | Regió | Admès                         |
 |--------|-----------------------------------|

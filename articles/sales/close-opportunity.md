@@ -1,6 +1,6 @@
 ---
 title: Tancament d'una oportunitat
-description: En aquest article s'ofereix informació sobre com tancar una oportunitat de projecte.
+description: Aquest article proporciona informació sobre el tancament d'una oportunitat del projecte.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

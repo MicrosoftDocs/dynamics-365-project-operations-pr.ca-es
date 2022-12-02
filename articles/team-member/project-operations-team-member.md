@@ -1,6 +1,6 @@
 ---
-title: Aplicació membre de l'equip d'operacions del projecte
-description: En aquest article es proporciona informació sobre l'aplicació Membre de l'equip d'operacions del projecte a Microsoft Dynamics 365 Project Operations.
+title: Aplicació Membre de l'equip del Project Operations
+description: En aquest article es proporciona informació sobre l'aplicació Membre de l'equip del Project Operations al Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: ca-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918208"
 ---
-# <a name="project-operations-team-member-app"></a>Aplicació membre de l'equip d'operacions del projecte
+# <a name="project-operations-team-member-app"></a>Aplicació Membre de l'equip del Project Operations
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-L'aplicació Membre de l'equip d'operacions del projecte (anteriorment coneguda com a Project Resource Hub) inclou totes les capacitats que Microsoft Dynamics 365 Project Operations ofereix a la llicència d'usuari dels membres de l'equip.
+L'aplicació Membre de l'equip del Project Operations (abans anomenada Centre de recursos de projecte) inclou totes les capacitats que ofereix el Microsoft Dynamics 365 Project Operations a la llicència d'usuari de Membres de l'equip.
 
-Aquestes són algunes de les capacitats de l'aplicació Membre de l'equip d'operacions del projecte:
+Aquestes són algunes de les capacitats de l'aplicació Membre de l'equip del Project Operations:
 
 - Entrada de temps
-- Entrada de despeses (desplegament de Lite)
+- Entrada de despesa (implementació bàsica)
 - Ús de materials
 - Approvals
-- Extensibilitat (fins a 15 entitats)
+- Ampliabilitat (fins a 15 entitats)
 
-Per utilitzar l'aplicació Membre de l'equip d'operacions del projecte, heu de tenir una llicència completa d'operacions del projecte o una llicència d'usuari dels membres del Dynamics Team. Per obtenir més informació sobre les llicències, vegeu la Guia de llicències del [Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). L'aplicació Membre de l'equip d'operacions del projecte requereix una implementació de les operacions del projecte.
+Per utilitzar l'aplicació Membre de l'equip del Project Operations, heu de tenir una llicència completa del Project Operations o bé una llicència d'usuari de Membres de l'equip del Dynamics. Per obtenir més informació sobre les llicències, vegeu [Guia de llicències del Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). L'aplicació Membre de l'equip del Project Operations necessita una implementació del Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

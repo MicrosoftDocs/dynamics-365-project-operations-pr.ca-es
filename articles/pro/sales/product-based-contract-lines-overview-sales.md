@@ -1,6 +1,6 @@
 ---
 title: Informació general de les línies de contracte basades en productes (bàsic)
-description: En aquest article s'ofereix informació sobre les línies de contracte basades en productes.
+description: En aquest article es proporciona informació sobre les línies de contracte basades en productes.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

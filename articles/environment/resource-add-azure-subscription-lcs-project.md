@@ -1,6 +1,6 @@
 ---
 title: Addició d'una subscripció a l'Azure a un projecte del LCS
-description: En aquest article s'ofereix informació sobre com connectar la vostra subscripció de l'Azure a un projecte LCS.
+description: En aquest article es proporciona informació sobre com connectar la subscripció de l'Azure a un projecte del LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8912136"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Els entorns allotjats al núvol s'han de implementar mitjançant una subscripció existent de l'Azure. En aquest article s'explica com connectar la vostra subscripció existent de l'Azure a un projecte LCS. 
+Els entorns allotjats al núvol s'han de implementar mitjançant una subscripció existent de l'Azure. En aquest article s'indica com connectar la subscripció de l'Azure existent a un projecte del LCS. 
 
 ## <a name="grant-admin-consent"></a>Concedir el consentiment de l'administrador
 
@@ -59,13 +59,13 @@ L'autorització ja s'ha completat.
 2. Introduïu l'identificador de subscripció de l'Azure. Podeu trobar l'identificador de subscripció de l'Azure al [portal de l'Azure](https://ms.portal.azure.com/), a **Configuració** a la part inferior esquerra de la pantalla.
 3. Al camp **Configura per utilitzar l'Azure Resource Manager**, seleccioneu **Sí**.
 4. Assegureu-vos que el domini de l'inquilí de l'AAD de subscripció de l'Azure coincideixi amb la subscripció de l'Azure propietària del domini que esteu utilitzant i seleccioneu **Següent**.
-5. A la pantalla **Configuració del Microsoft Azure**, seleccioneu **Següent** per confirmar. Si rebeu un error en aquesta pantalla, torneu a la secció [Proporciona accés als Serveis de disposició del Dynamics a la subscripció](#provide) de l'Azure d'aquest article i assegureu-vos que heu completat tots els passos.
+5. A la pantalla **Configuració del Microsoft Azure**, seleccioneu **Següent** per confirmar. Si rebeu un error en aquesta pantalla, torneu a la secció [Proporcionar accés dels serveis d'implementació del Dynamics a la subscripció de l'Azure](#provide) en aquest article i assegureu-vos que heu completat tots els passos.
 6. Baixeu el certificat d'administració de l'Azure a una carpeta local de l'ordinador. Demaneu a l'administrador de subscripció de l'Azure que carregui el certificat a l'Azure Management Portal seleccionant la subscripció i anant a **Configuració** > **Certificats d'administració**. Aquest certificat permet que el LCS es comuniqui amb l'Azure en nom vostre. Podeu ometre aquest pas si l'usuari té accés a la subscripció.
 7. Seleccioneu **Següent**.
 8. Seleccioneu la regió de l'Azure per implementar i seleccioneu un centre de dades a prop del lloc on teniu pensat utilitzar aquest sistema.
 9.  Seleccioneu **Connecta**.
 
-Heu connectat correctament la subscripció de l'Azure. Ara podeu implementar Dynamics 365 Finance entorns allotjats al núvol.
+Heu connectat correctament la subscripció de l'Azure. Ara podeu implementar els entorns allotjats al núvol del Dynamics 365 Finance.
 
 
 

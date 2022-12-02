@@ -1,6 +1,6 @@
 ---
 title: Administració de contractes de projectes
-description: En aquest article s'ofereix informació sobre la visualització de contractes basats en projectes.
+description: Aquest article proporciona informació sobre la visualització de contractes basats en projectes.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Es pot veure una llista de tots els contractes del projecte a la pàgina de llis
 Es poden crear o suprimir contractes des d'aquesta pàgina de llista o des de les pàgines de detalls.
 
 > [!NOTE]
-> Els contractes que tenen projectes, tasques, estimacions, revistes i/o reals associats no es poden suprimir. 
+> Els contractes que tenen projectes, tasques, estimacions, diaris i/o valors reals associats no es poden suprimir. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

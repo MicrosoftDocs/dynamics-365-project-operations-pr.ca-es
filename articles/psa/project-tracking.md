@@ -1,6 +1,6 @@
 ---
 title: Progrés del projecte i consum de cost
-description: En aquest article s'ofereix informació sobre el seguiment del progrés del projecte i el consum de costos.
+description: En aquest article es proporciona informació sobre el seguiment del progrés del projecte i del consum de costos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921750"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-La necessitat de fer un seguiment del progrés davant d'una planificació varia segons la indústria. Algunes indústries fan el seguiment en un nivell granular, mentre que altres indústries fan el seguiment en un nivell superior. En aquest article es mostra com s'ha de planificar per tal de satisfer els requisits de la vostra organització.
+La necessitat de fer un seguiment del progrés davant d'una planificació varia segons la indústria. Algunes indústries fan el seguiment en un nivell granular, mentre que altres indústries fan el seguiment en un nivell superior. En aquest article es mostra la manera de planificar per tal de satisfer els requisits de la vostra organització.
 
 ## <a name="effort-tracking-view"></a>Vista Seguiment de l'esforç
 

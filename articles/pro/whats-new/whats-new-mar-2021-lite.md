@@ -1,6 +1,6 @@
 ---
 title: Novetats del març del 2021 - Implementació bàsica del Project Operations
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de març de 2021 de la implementació lite d'operacions del projecte.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de març de 2021 de la implementació bàsica del Project Operations.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "8913884"
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
 - Project Operations en entorn del Dataverse versió 4.8.0.91 
 

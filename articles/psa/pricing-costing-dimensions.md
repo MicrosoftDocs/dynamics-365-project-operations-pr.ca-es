@@ -1,6 +1,6 @@
 ---
 title: Pàgina d'inici de dimensions de preus i de costos
-description: En aquest article s'ofereix una visió general de les dimensions dels preus.
+description: Aquest article proporciona una visió general de les dimensions de preus.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ El PSA inclou de sèrie un conjunt de dimensions de preus per defecte. Podeu vis
 > [!IMPORTANT]
 > Si heu estat utilitzant els camps de fàbrica de funció i unitat organitzativa com a dimensions de preus abans de la versió 3 del PSA, no hi haurà cap canvi observable. Podeu continuar utilitzant el Project Service com de costum. 
 
-Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats. Per a més informació, consulteu els articles següents, però tingueu en compte que heu de completar els tràmits de la comanda que s'indica a continuació:
+Si heu de posar un preu o un cost als recursos mitjançant atributs addicionals, podeu crear camps, entitats i dimensions personalitzats. Per obtenir més informació, vegeu els articles següents, però fixeu-vos que heu d'emplenar els procediments en l'ordre que es detalla a continuació:
 
 - [Crear camps i entitats personalitzats](create-custom-fields-entities.md)
 - [Afegir camps personalitzats a la configuració de preus i a entitats transaccionals](field-references.md)
