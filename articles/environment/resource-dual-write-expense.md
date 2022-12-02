@@ -1,6 +1,6 @@
 ---
 title: Integració de l'administració de despeses
-description: Aquest article proporciona informació sobre la integració d'informes de despeses a Project Operations mitjançant escriptura dual.
+description: Aquest article proporciona informació sobre la integració de l'informe de despeses al Project Operations mitjançant doble escriptura.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
@@ -18,19 +18,19 @@ ms.locfileid: "9527975"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest article proporciona informació sobre la integració d'informes de despeses en el desplegament [complet de despeses del Project Operations](../expense/expense-overview.md) mitjançant la doble escriptura.
+Aquest article proporciona informació sobre la integració d'informes de despeses al Project Operations [implementació total de despeses](../expense/expense-overview.md) mitjançant doble escriptura.
 
 ## <a name="expense-categories"></a>Categories de despesa
 
-En un desplegament complet de despeses, es creen i mantenen categories de despeses a les aplicacions de finances i operacions. Per crear una categoria de despesa nova, seguiu aquests passos:
+En una implementació total de les despeses, es creen i es mantenen les categories de despesa a les aplicacions de finances i operacions. Per crear una categoria de despesa nova, seguiu aquests passos:
 
-1. Al Microsoft Dataverse, creeu una categoria de **Transacció**. La integració de doble escriptura sincronitzarà aquesta categoria de transaccions amb les aplicacions de finances i operacions. Per obtenir més informació, vegeu [Configuració de les categories de projecte](/dynamics365/project-operations/project-accounting/configure-project-categories) i [Configuració del Project Operations i integració de dades de configuració](resource-dual-write-setup-integration.md). Com a resultat d'aquesta integració, el sistema crea quatre registres de categories compartits en aplicacions de finances i operacions.
+1. Al Microsoft Dataverse, creeu una categoria de **Transacció**. La integració amb doble escriptura sincronitzarà aquesta categoria de transacció a les aplicacions de finances i operacions. Per obtenir més informació, vegeu [Configuració de les categories de projecte](/dynamics365/project-operations/project-accounting/configure-project-categories) i [Configuració del Project Operations i integració de dades de configuració](resource-dual-write-setup-integration.md). Com a resultat d'aquesta integració, el sistema crea quatre registres de categoria compartida a les aplicacions de finances i operacions.
 2. A Finances, aneu a **Administració de despeses** > **Configuració** > **Categories compartides** i seleccioneu una categoria compartida amb una classe de transacció **Despesa**. Definiu el paràmetre **Es pot utilitzar en despesa** com a **Cert** i definiu el tipus de despesa que s'utilitzarà.
 3. Amb aquest registre de categoria compartida, creeu una categoria de despesa nova anant a **Administració de despeses** > **Configuració** > **Categories de despeses** i seleccionant **Crea**. Quan el registre es desa, la doble escriptura utilitza l'assignació de taules **Entitat d'exportació de categories de despeses del projecte d'integració del Project Operations (msdyn\_despesescategories)** per sincronitzar aquest registre amb el Dataverse.
 
   ![Integració de categories de despesa.](./media/DW6ExpenseCategories.png)
 
-Les categories de despeses de les aplicacions de finances i operacions són específiques de l'empresa o de la persona jurídica. Hi ha registres específics d'entitats jurídiques corresponents i separades al Dataverse. Quan un administrador del projecte calcula les despeses, no pot seleccionar les categories de despeses creades per a un projecte que és propietat d'una empresa diferent de l'empresa propietària del projecte en què estan treballant. 
+Les categories de despesa de les aplicacions de finances i operacions són específiques de l'empresa o de l'entitat jurídica. Hi ha registres específics d'entitats jurídiques corresponents i separades al Dataverse. Quan un administrador del projecte calcula les despeses, no pot seleccionar les categories de despeses creades per a un projecte que és propietat d'una empresa diferent de l'empresa propietària del projecte en què estan treballant. 
 
 ## <a name="expense-reports"></a>Informes de despeses
 

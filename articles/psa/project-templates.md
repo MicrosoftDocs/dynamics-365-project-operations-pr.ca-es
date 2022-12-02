@@ -1,6 +1,6 @@
 ---
 title: Plantilles de projecte
-description: En aquest article s'ofereix informació sobre com utilitzar plantilles de projecte per a una configuració ràpida del projecte.
+description: En aquest article es proporciona informació sobre com utilitzar les plantilles de projecte per a la configuració ràpida del projecte.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

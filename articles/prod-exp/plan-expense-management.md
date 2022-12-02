@@ -1,6 +1,6 @@
 ---
 title: Configurar l'administració de despeses
-description: En aquest article es descriuen les consideracions i les decisions que has de prendre durant el procés de planificació abans de configurar la gestió de despeses en Microsoft Dynamics 365 Finances.
+description: Aquest article descriu les consideracions i les decisions que heu de prendre durant el procés de planificació abans de configurar l'administració de despeses al Microsoft Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8933986"
 ---
 # <a name="configure-expense-management"></a>Configurar l'administració de despeses
 
-En aquest article es descriuen les consideracions i les decisions que heu de prendre durant el procés de planificació abans de configurar la gestió de despeses. A l'administració de despeses, es pot emmagatzemar informació sobre els mètodes de pagament, les sol·licituds de viatge, els informes de despeses, les normes, etc.
+Aquest article descriu les consideracions i les decisions que heu de prendre durant el procés de planificació abans de configurar l'administració de despeses. A l'administració de despeses, es pot emmagatzemar informació sobre els mètodes de pagament, les sol·licituds de viatge, els informes de despeses, les normes, etc.
 
 Com que moltes de les decisions que preneu quan planifiqueu la vostra configuració per a l'administració de despeses es basen en la jerarquia i l'estructura financera de la vostra organització, cal que consulteu els documents de planificació per a aquestes àrees.
 

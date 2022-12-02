@@ -1,6 +1,6 @@
 ---
 title: Confirmació, actualització i enviament d'ofertes de projecte
-description: En aquest article s'ofereix informació sobre l'enviament d'una oferta al client per a la seva confirmació, la modificació en funció dels comentaris i, a continuació, el reenviament de l'oferta.
+description: En aquest article es proporciona informació sobre l'enviament d'una oferta al client per a la confirmació, la modificació en funció dels comentaris i, a continuació, el nou enviament de l'oferta.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

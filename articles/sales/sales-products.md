@@ -1,6 +1,6 @@
 ---
 title: Productes
-description: En aquest article trobareu informació sobre el catàleg de productes que podeu utilitzar per proporcionar informació als clients sobre els productes i els preus que ofereix la vostra organització.
+description: En aquest article es proporciona informació sobre el catàleg de productes que podeu utilitzar per proporcionar informació als clients sobre els productes i els preus que ofereix l'organització.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

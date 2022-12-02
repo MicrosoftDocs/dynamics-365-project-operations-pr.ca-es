@@ -1,6 +1,6 @@
 ---
 title: Factures de projecte de correcció
-description: En aquest article es proporciona informació sobre com crear i confirmar factures correctives al Project Operations.
+description: Aquest article proporciona informació sobre com crear i confirmar factures de projecte de correcció a Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

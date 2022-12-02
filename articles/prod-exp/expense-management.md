@@ -1,6 +1,6 @@
 ---
 title: Informació general sobre l'administració de despeses
-description: Aquest article proporciona informació general sobre la gestió de despeses i enllaços a recursos addicionals. Podeu utilitzar l'administració de despeses per crear un flux de treball integrat on pugueu emmagatzemar la informació del mètode de pagament, importar transaccions de targetes de crèdit i fer un seguiment dels diners que els empleats gasten quan incorrin en despeses per a la vostra empresa.
+description: Aquest article proporciona informació general sobre l'administració de despeses i enllaços a recursos addicionals. Podeu utilitzar l'administració de despeses per crear un flux de treball integrat on pugueu emmagatzemar la informació del mètode de pagament, importar transaccions de targetes de crèdit i fer un seguiment dels diners que els empleats gasten quan incorrin en despeses per a la vostra empresa.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Per a més informació, vegeu [Informes de despeses reinventats](ExpenseWorkspac
 
 ### <a name="blogs"></a>Blocs
 
-Podeu trobar opinions, notícies i altra informació al [Microsoft Dynamics bloc 365 i al](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) bloc [Microsoft Dynamics 365 Finances - Finances](https://community.dynamics.com/365/financeandoperations/b/financials).
+Podeu trobar opinions, notícies i més informació al [Blog del Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)i al [Blog del Microsoft Dynamics 365 Finance: dades financeres](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 El [Blog de la comunitat d'associats d'operacions del Microsoft Dynamics](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona als associats del Microsoft Dynamics un únic recurs on poden aprendre les novetats i les tendències de les operacions de MBS.
 

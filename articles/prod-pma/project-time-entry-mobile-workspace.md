@@ -1,6 +1,6 @@
 ---
 title: Àrea de treball mòbil Entrada de temps del projecte
-description: Aquest article proporciona informació sobre l'espai de treball mòbil d'entrada al temps del projecte. Aquesta àrea de treball permet als usuaris introduir i desar el temps d'un projecte mitjançant el seu dispositiu mòbil.
+description: En aquest article es proporciona informació sobre l'àrea de treball mòbil Entrada de temps del projecte. Aquesta àrea de treball permet als usuaris introduir i desar el temps d'un projecte mitjançant el seu dispositiu mòbil.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029656"
 
 [!include [banner](../includes/banner.md)]
 
-Aquest article proporciona informació sobre l'espai **de treball mòbil d'entrada** al temps del projecte. Aquesta àrea de treball permet als usuaris introduir i desar el temps d'un projecte mitjançant el seu dispositiu mòbil.
+En aquest article es proporciona informació sobre l'àrea de treball mòbil **Entrada de temps del projecte**. Aquesta àrea de treball permet als usuaris introduir i desar el temps d'un projecte mitjançant el seu dispositiu mòbil.
 
 Aquesta àrea de treball mòbil està dissenyada per utilitzar-se amb l'aplicació mòbil Dynamics 365 Unified Ops. 
 
@@ -44,7 +44,7 @@ En concret, a l'àrea de treball mòbil **Entrada de temps del projecte**, els u
 ## <a name="prerequisites"></a>Requisits previs
 Els prerequisits difereixen, segons la versió del Microsoft Dynamics 365 que s'hagi implementat per a la vostra organització.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisits previs si utilitzeu Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisits previs si utilitzeu el Dynamics 365 Finance
 Si el Finance s'ha implementat per a la vostra organització, l'administrador del sistema ha de publicar l'àrea de treball mòbil **Entrada de temps del projecte**. Per obtenir instruccions, vegeu [Publicar una àrea de treball mòbil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Requisits previs si utilitzeu la versió 1611 amb l'actualització de la plataforma 3 o posterior
@@ -82,7 +82,7 @@ Si la versió 1611 amb l'actualització de la plataforma 3 o posterior s'ha impl
 
 ## <a name="download-and-install-the-mobile-app"></a>Descarregar i instal·lar l'aplicació mòbil
 
-Descarrega't i instal·la l'aplicació mòbil de finances i operacions:
+Baixeu i instal·leu l'aplicació mòbil de finances i operacions:
 
 -   [Per a telèfons Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Per a iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

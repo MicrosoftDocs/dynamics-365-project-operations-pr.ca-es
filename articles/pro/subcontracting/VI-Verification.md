@@ -1,6 +1,6 @@
 ---
 title: Verificació de factures del proveïdor amb valors reals aprovats
-description: En aquest article s'explica com Microsoft Dynamics 365 Project Operations permet als administradors de projectes verificar les factures dels proveïdors amb els reals que es van aprovar a mesura que els contractistes realitzaven treballs i temps registrat, i les despeses i materials que utilitzaven els membres de l'equip del projecte.
+description: En aquest article s'explica com el Microsoft Dynamics 365 Project Operations permet als gestors de projectes verificar les factures de proveïdor amb els valors reals aprovats quan els contractistes fan feina i registren el temps, i les despeses i els materials utilitzats pels membres de l'equip del projecte.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,58 +17,58 @@ ms.locfileid: "9522935"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Els administradors de projectes de Microsoft Dynamics 365 Project Operations verifiquen les línies de factures dels proveïdors de les maneres següents:
+El Microsoft Dynamics 365 Project Operations permet als administradors del projecte verificar les línies de factura del proveïdor d'aquestes maneres:
 
-- Utilitzeu el **camp Estat de verificació** de les línies de factura de proveïdor.
-- Si les línies de factures del venedor fan referència a una línia de subcontractació, vinculen els costos reals de l'activitat del subcontractista a les línies de factures dels proveïdors. L'enllaç es crea fent coincidir els reals de costos amb les línies de factures del proveïdor.
+- Utilitzar el camp **Estat de verificació** a les línies de factura del proveïdor amb errors.
+- Si les línies de factura del proveïdor fan referència a una línia de subcontracte, enllaçar els valors reals de cost de l'activitat del subcontractista amb aquestes línies de factura del proveïdor. L'enllaç es crea fent coincidir els valors reals de cost amb les línies de factura del proveïdor.
 
     > [!NOTE]
-    > Tot i que es pot fer un seguiment de l'estat de verificació de les línies de factures dels proveïdors que no fan referència a un subcontractista, els costos reals no es poden enllaçar amb aquestes línies de factures de proveïdors.
+    > Tot i que es pot fer el seguiment de l'estat de la verificació per a les línies de factura del proveïdor que no fan referència a un subcontracte, els valors reals de cost no es poden enllaçar a aquestes línies de factura del proveïdor.
 
 ## <a name="verification-status"></a>Estat de verificació
 
-El **camp Estat de verificació d'una** línia de factura del proveïdor indica l'estat de la verificació. S'admeten els següents estats:
+El camp **Estat de verificació** d'una línia de factura del proveïdor indica l'estat de la verificació. S'admeten els estats següents:
 
 1. No s'ha iniciat
 2. En curs
 3. Complet
 
-Es poden editar línies de factures de proveïdor que tinguin un estat de verificació de **No iniciat**.
+Les línies de factura del proveïdor que tenen un estat de verificació de **No iniciada** es poden editar.
 
-Les línies de factures de proveïdor que tinguin l'estat de verificació d'En **curs** ja no es poden editar. Per a una línia de factura del proveïdor que fa referència a un subcontractista, l'estat de verificació s'estableix automàticament a **En curs** tan bon punt el primer cost real coincideix amb la línia de factura del proveïdor.
+Les línies de factura del proveïdor que tenen un estat de verificació d'**En curs** ja no es poden editar. Per a una línia de factura del proveïdor que fa referència a un subcontracte, l'estat de verificació es defineix automàticament com a **En curs** tan bon punt es fa coincidir el primer cost real amb la línia de factura del proveïdor.
 
-Les línies de factures de proveïdor que tinguin l'estat de verificació de **Complete** ja no es poden editar. Quan totes les línies d'una factura de proveïdor tenen aquest estat de verificació, es pot confirmar la factura del proveïdor.
+Les línies de factura del proveïdor que tenen un estat de verificació de **Completa** ja no es poden editar. Si totes les línies d'una factura de proveïdor tenen aquest estat de verificació, la factura de proveïdor no es pot confirmar.
 
-## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Coincidència de costos reals amb línies de factures de proveïdors
+## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Igualar els valors reals de cost amb les línies de factura del proveïdor
 
-La coincidència dels reals de costos ajuda amb el procés de verificació en una línia de factures del proveïdor. Per fer coincidir els costos reals amb una línia de factures de proveïdor, seguiu aquests passos.
+La coincidència dels valors reals de cost ajuda amb el procés de verificació en una línia de factura del proveïdor. Per aparellar els valors reals de cost amb una línia de factura del proveïdor, seguiu aquests passos.
 
-1. Obriu la línia de factures del proveïdor i seleccioneu la **pestanya Costos reals inigualables** . Una quadrícula mostra una llista de costos reals que fan referència a la mateixa línia de subcontractació que la línia de factures del proveïdor.
-2. Seleccioneu un o més dels reals de cost i, a continuació, seleccioneu Coincidència **a** la barra d'eines que hi ha a sobre de la quadrícula. El sistema valida que els reals de cost seleccionats es puguin igualar. Un cop passada la validació, els reals de costos s'enllacen amb la línia de factura del proveïdor.
+1. Obriu la línia de factura del proveïdor i seleccioneu la pestanya **Valors reals de cost sense coincidència**. En una quadrícula es mostra una llista de valors reals de cost que fan referència a la mateixa línia de subcontracte que la línia de factura del proveïdor.
+2. Seleccioneu un o diversos valors reals de cost i, a continuació, seleccioneu **Coincidències** a la barra d'eines que hi ha a sobre de la quadrícula. El sistema valida que es poden igualar els valors reals de cost seleccionats. Un cop passada la validació, els valors reals de cost s'enllacen amb la línia de factura del proveïdor.
 
-### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Criteris de validació que s'utilitzen per vincular els reals de costos a les línies de factures dels proveïdors
+### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Criteris de validació que s'utilitzen per enllaçar els valors reals de cost amb les línies de factura del proveïdor
 
-Durant el procés de coincidència, només es pot establir un vincle entre un cost real i una línia de factura del proveïdor si es compleixen les dues condicions següents:
+Durant el procés de coincidència, es pot establir un enllaç entre un cost real i una línia de factura del proveïdor només si es compleixen les condicions següents:
 
-- El **camp Estat d'ajust** per a cada cost real seleccionat ha d'estar en blanc. Dit d'una altra manera, els costos reals no han d'haver estat substituïts per altres reals de costos durant un procés de retirada, cancel·lació d'aprovació o correcció.
-- Els valors dels camps següents coincideixen entre la línia de factura del proveïdor i el cost real seleccionat. Si no s'estableix cap camp a la línia de factures del proveïdor, no es considera que coincideixi.
+- El camp **Estat d'ajustament** de cada cost real seleccionat ha d'estar buit. En altres paraules, els valors reals de cost no han d'haver estat substituïts per altres valors reals de cost durant un procés de retirada, cancel·lació de l'aprovació o correcció de diari.
+- Els valors dels camps següents s'igualen entre la línia de factura del proveïdor i el cost real seleccionat. Si no es defineix cap camp a la línia de factura del proveïdor, no es considera que coincideixi.
 
     - Contracte de projecte
     - Línia de contracte del projecte
     - Classe de la transacció
     - Project
     - Tasca
-    - Categoria de recurs
+    - Categoria del recurs
     - Categoria de la transacció
     - Producte
-    - Línia de subcontractació
+    - Línia de subcontracte
     - Recurs que es pot reservar
 
-## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Costos reals inigualables d'una línia de factures del proveïdor
+## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Eliminar la coincidència dels valors reals de cost d'una línia de factura del proveïdor
 
-La minimització dels reals de costos també pot ajudar amb el procés de verificació d'una factura de proveïdor, ja que permet eliminar els enllaços establerts prèviament. Els costos reals només es poden igualar des de les línies de factures de proveïdors que tenen un estat de verificació d'En **curs**. Per desencallar els costos reals d'una línia de factures del proveïdor, seguiu aquests passos.
+Eliminar la coincidència dels valors reals de cost també pot ajudar amb el procés de verificació d'una factura del proveïdor habilitant els enllaços establerts anteriorment que s'han de suprimir. Només es pot eliminar la coincidència dels valors reals de cost des de línies de factura del proveïdor que tenen un estat de verificació d'**En curs**. Per eliminar la coincidència dels valors reals de cost d'una línia de factura del proveïdor, seguiu aquests passos.
 
-1. Obriu la línia de factures del proveïdor i seleccioneu la **pestanya Realitats de cost coincidents** . Una quadrícula mostra una llista de costos reals que fan referència a la línia de factures del proveïdor.
-2. Seleccioneu un o més dels reals de cost i, a continuació, seleccioneu **Inigualable** a la barra d'eines que hi ha a sobre de la quadrícula.
+1. Obriu la línia de factura del proveïdor i seleccioneu la pestanya **Valors reals de cost amb coincidència**. En una quadrícula es mostra una llista de valors reals de cost que fan referència a la línia de factura del proveïdor.
+2. Seleccioneu un o diversos valors reals de cost i, a continuació, seleccioneu **Elimina la coincidència** a la barra d'eines que hi ha a sobre de la quadrícula.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

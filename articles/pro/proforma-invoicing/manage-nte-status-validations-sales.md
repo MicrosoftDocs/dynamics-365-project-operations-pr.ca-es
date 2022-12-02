@@ -1,6 +1,6 @@
 ---
 title: Administració de l'estat que no s'ha de superar i les validacions
-description: En aquest article s'ofereix informació sobre les comprovacions de límits que no excedeixen realitzades a les operacions del projecte.
+description: Aquest article proporciona informació sobre les comprovacions de límits que no s'han d'excedir realitzades al Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Configuració dels recursos del projecte
-description: En aquest article s'ofereix informació sobre la configuració o la sol·licitud de recursos del projecte.
+description: Aquest article proporciona informació sobre la configuració o la sol·licitud de recursos del projecte.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

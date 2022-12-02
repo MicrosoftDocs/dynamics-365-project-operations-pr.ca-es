@@ -1,6 +1,6 @@
 ---
 title: Informació general del temps
-description: En aquest article es proporciona informació sobre la funcionalitat Time a Dynamics 365 Project Operations.
+description: En aquest article podreu obtenir informació sobre la funcionalitat de Temps del Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

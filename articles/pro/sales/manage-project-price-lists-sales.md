@@ -1,6 +1,6 @@
 ---
 title: Administració de les llistes de preus de projectes a les ofertes de projectes
-description: Aquest article proporciona informació sobre com treballar amb les llistes de preus del projecte a les cotitzacions.
+description: En aquest article es proporciona informació sobre treballar amb llistes de preus del projecte en ofertes.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Definició dels calendaris del projecte
-description: En aquest article s'ofereix informació sobre com aplicar una plantilla de calendari a un projecte per fer un seguiment de la planificació del projecte.
+description: En aquest article es proporciona informació sobre com aplicar una plantilla de calendari a un projecte per fer el seguiment de la planificació del projecte.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

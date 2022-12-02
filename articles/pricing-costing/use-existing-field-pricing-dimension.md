@@ -1,6 +1,6 @@
 ---
 title: Camps del Project Operations com a dimensions de preus
-description: En aquest article es proporciona informació que utilitza camps com a dimensions de preus a Dynamics 365 Project Operations.
+description: En aquest article podreu obtenir informació sobre l'ús de camps com a dimensions de preus al Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

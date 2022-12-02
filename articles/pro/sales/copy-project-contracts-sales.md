@@ -1,6 +1,6 @@
 ---
 title: Còpia dels contractes del projecte
-description: Aquest article proporciona informació sobre la còpia dels contractes de projecte a Project Operations.
+description: Aquest article proporciona informació sobre la còpia dels contractes de projecte al Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

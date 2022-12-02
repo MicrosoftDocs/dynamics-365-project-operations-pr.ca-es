@@ -1,6 +1,6 @@
 ---
 title: Factures proforma del projecte
-description: En aquest article s'ofereix informació sobre les factures del projecte proforma a Les operacions del projecte.
+description: Aquest article proporciona informació sobre la les factures proforma del projecte a Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

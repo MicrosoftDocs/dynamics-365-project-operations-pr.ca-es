@@ -1,6 +1,6 @@
 ---
 title: Configuració dels paràmetres d'administració de despeses
-description: En aquest article es descriuen els paràmetres que controlen el comportament general en la gestió de despeses.
+description: En aquest article es descriuen els paràmetres que controlen el comportament general a l'administració de despeses.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931456"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-En aquest article es descriuen els paràmetres de control del comportament general en la gestió de despeses.
+En aquest article es descriuen els paràmetres que controlen el comportament general a l'administració de despeses.
 
 ## <a name="general"></a>General
 

@@ -1,6 +1,6 @@
 ---
 title: Administració d'una factura proforma basada en projecte
-description: En aquest article s'ofereix informació sobre com gestionar i treballar amb factures basades en projectes proforma.
+description: Aquest article proporciona informació sobre com administrar i treballar amb factures proforma basades en projecte.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

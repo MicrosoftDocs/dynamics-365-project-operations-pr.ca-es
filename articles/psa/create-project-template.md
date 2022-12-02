@@ -35,7 +35,7 @@ Les plantilles de projecte us ajuden a estalviar temps si la vostra empresa pres
 ## <a name="components-of-project-template"></a>Components de la plantilla de projecte
  Una plantilla de projecte consta de tres components:  
   
-- **Estructura del desglossament del treball**: una estructura del desglossament del treball d'una plantilla de projecte té el mateix conjunt d'elements que el projecte. Podeu crear una jerarquia de tasques, associar funcions a tasques, definir atributs de planificació, definir dependències i veure totes les dades al Gantt. L'estructura del desglossament del treball a les plantilles de projecte també admet modes de tasca per a cada tasca. No hi ha cap diferència entre una plantilla de projecte i un projecte a l'hora de crear una planificació de treball.  
+- **Estructura del desglossament del treball**: una estructura del desglossament del treball d'una plantilla de projecte té el mateix conjunt d'elements que el projecte. Podeu crear una jerarquia de tasques, associar funcions a la tasca, definir atributs de planificació, definir dependències i visualitzar totes les dades al gràfic de Gantt. L'estructura del desglossament del treball a les plantilles de projecte també admet modes de tasca per a cada tasca. No hi ha cap diferència entre una plantilla de projecte i un projecte quan es crea una planificació de treball.  
   
 - **Estimacions de projecte**: les estimacions de projecte de les plantilles funcionen de la mateixa manera que amb els projectes, excepte la llista de preus utilitzada per definir que el cost i els preus de venda per defecte siguin sempre les llistes de preus de vendes i costos definides als paràmetres de l'[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. La resta de funcions són les mateixes que al projecte.  
   
@@ -44,12 +44,12 @@ Les plantilles de projecte us ajuden a estalviar temps si la vostra empresa pres
 ## <a name="create-a-project-template-from-an-existing-project"></a>Crear una plantilla de projecte a partir d'un projecte existent
 Podeu crear una plantilla de projecte a partir d'un projecte de les maneres següents:
 
-- **Estructura del desglossament** del treball: Una estructura de desglossament del treball en una plantilla derivada d'un projecte copiarà totes les tasques i dependències. Les assignacions que es creïn es basaran en els membres genèrics de l'equip que s'afegeixen a l'equip del projecte quan es crea la plantilla de projecte.
-- **Estimacions** del projecte: quan es crea una plantilla de projecte a partir d'un projecte existent, les estimacions del projecte d'origen es copien a la plantilla de projecte.
-- **Membres de l'equip** de projecte: quan es crea una plantilla a partir d'un projecte existent, tots els membres de l'equip nomenats se substitueixen pel recurs genèric de l'organització. Es mantenen tots els noms i rols de les posicions.
+- **Estructura del desglossament del treball**: una estructura del desglossament del treball d'una plantilla derivada d'un projecte copiarà totes les tasques i dependències. Les assignacions que es creen es basen en els membres de l'equip genèric que s'afegeixin a l'equip de projecte quan es creï la plantilla de projecte.
+- **Estimacions del projecte**: quan es crea una plantilla de projecte a partir d'un projecte existent, les estimacions del projecte d'origen es copien a la plantilla de projecte.
+- **Membres de l'equip del projecte**: quan es crea una plantilla a partir d'un projecte existent, tots els membres de l'equip anomenats se substitueixen per un recurs genèric de l'organització. Tots els noms de funció i les funcions es mantenen.
 
 ## <a name="create-a-project-from-a-template"></a>Crear un projecte a partir d'una plantilla  
- Podeu crear un projecte a partir d'una plantilla de les maneres següents:  
+ Podeu crear un projecte a partir d'una plantilla d'una de les maneres següents:  
   
 -   En crear un projecte a partir d'una oferta, podeu triar una plantilla de projecte al formulari de creació ràpida de projectes.  
   

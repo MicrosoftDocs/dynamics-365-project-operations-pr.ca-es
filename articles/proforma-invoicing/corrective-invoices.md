@@ -1,6 +1,6 @@
 ---
 title: Factures basades en projecte de correcció
-description: En aquest article s'ofereix informació sobre com crear i confirmar factures correctores basades en projectes a Les operacions del projecte.
+description: Aquest article proporciona informació sobre com crear i confirmar factures basades en projecte correctives a Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

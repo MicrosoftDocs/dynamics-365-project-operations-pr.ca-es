@@ -1,6 +1,6 @@
 ---
-title: Procés de conversió de Project Service Automation to Project Operations de planificació de projectes
-description: Aquest article proporciona una visió general dels canvis de la característica per Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations.
+title: Procés de conversió de planificació del projecte del Project Service Automation al Project Operations
+description: En aquest article es proporciona informació general sobre els canvis en les característiques per al Microsoft Dynamics 365 Project Service Automation al Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/07/2022
@@ -23,65 +23,65 @@ ms.contentlocale: ca-ES
 ms.lasthandoff: 10/08/2022
 ms.locfileid: "9642556"
 ---
-# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Procés de conversió de Project Service Automation to Project Operations de planificació de projectes
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Procés de conversió de planificació del projecte del Project Service Automation al Project Operations
 
-Després que un projecte s'hagi actualitzat correctament de 3.X a Microsoft Dynamics 365 Project Service Automation Lite, no és possible editar les tasques del projecte a l'estructura de desglossament del treball de la quadrícula de Dynamics 365 Project Operations tasques (WBS). Els clients podran revisar els WBS a la quadrícula de seguiment on s'han afegit nous camps per proporcionar tots els detalls relacionats amb la tasca. Per als projectes en què es requereixen modificacions al WBS, podeu convertir selectivament els projectes elegibles al nou projecte per a l'experiència de programació web.
+Quan un projecte s'ha actualitzat correctament des del Microsoft Dynamics 365 Project Service Automation 3.X al Dynamics 365 Project Operations Lite, no és possible editar les tasques de projecte ala quadrícula de tasques d'estructura del desglossament del treball (WBS). Els clients podran revisar la WBS a la quadrícula de seguiment on s'han afegit camps nous per proporcionar tots els detalls relacionats amb la tasca. Per als projectes en què cal fer edicions a la WBS, podeu convertir selectivament els projectes elegibles a la nova experiència de planificació del Project for the Web.
 
-## <a name="project-conversion-process"></a>Procés de conversió de projectes
+## <a name="project-conversion-process"></a>Procés de conversió del projecte
 
-Per convertir un projecte, seguiu aquests passos.
+Seguiu aquests passos per convertir un projecte.
 
 1. Obriu la pàgina principal del projecte i seleccioneu **Converteix** a la subfinestra d'accions.
 1. Al quadre del missatge de confirmació, seleccioneu **D'acord** per iniciar la conversió del projecte. Es produeixen les accions següents:
 
-    1. Una barra de missatges que apareix a la pàgina principal del projecte indica: "La planificació del projecte s'està convertint. No es poden fer canvis en el projecte fins que no s'hagi completat la conversió."
+    1. Apareix una barra de missatges a la pàgina principal del projecte que diu: "La planificació del projecte s'està convertint. No podeu fer canvis fins al projecte fins que no es completi la conversió."
     1. Se us redirigeix a la llista de projectes.
 
-    Un cop finalitzada la conversió del projecte, es produeixen les accions següents:
+    Un cop completada la conversió del projecte, es produeixen les accions següents:
 
-    1. El gestor de projecte assignat rep una notificació a la part dreta de l'aplicació.
-    1. Se suprimeix la barra de missatges que indica que la conversió està en curs.
-    1. La **pestanya Planificació** mostra la nova experiència de planificació amb Project per al web. Qualsevol usuari que tingui les llicències i funcions de seguretat adequades pot editar el WBS.
-    1. El **camp Motor** de planificació s'actualitza a **Project for the web**.
-    1. El **botó Converteix** s'elimina de la subfinestra d'accions.
+    1. L'administrador de projecte assignat rep una notificació a la dreta de l'aplicació.
+    1. La barra de missatges estableix que la conversió en curs s'està eliminant.
+    1. La pestanya **Planificació** mostra l'experiència de planificació nova amb Project for the Web. Qualsevol usuari que té les llicències i funcions de seguretat adequades pot editar la WBS.
+    1. El camp **Motor de planificació** s'actualitza a **Project for the Web**.
+    1. El botó **Converteix** s'elimina de la subfinestra d'accions.
 
 > [!IMPORTANT]
-> No es permet la conversió massiva de projectes. Qualsevol intent d'actualitzar un gran volum de projectes al mateix temps serà accelerat. Aquesta limitació ajuda a garantir un alt rendiment per a tots els clients.
+> No es permet la conversió massiva de projectes. Qualsevol intent d'actualitzar un gran volum de projectes al mateix temps es limitarà. Aquesta limitació ajuda a garantir un rendiment alt per a tots els clients.
 
-## <a name="manual-tasks-vs-automatic-tasks"></a>Tasques manuals vs. tasques automàtiques
+## <a name="manual-tasks-vs-automatic-tasks"></a>Tasques manuals i tasques automàtiques
 
-Quan s'actualitza un entorn de Project Service Automation a Project Operations, totes les tasques del WBS es consideren programades automàticament. El concepte de tasques planificades manualment no està disponible al Projecte per al web. Tanmateix, podeu definir el comportament de planificació preferit per als vostres projectes mitjançant la configuració del [mode](/project-management/scheduling-modes.md) de planificació quan creeu projectes nous.
+Quan s'actualitza un entorn des del Project Service Automation al Project Operations, totes les tasques de la WBS es consideren planificades automàticament. El concepte de tasques planificades manualment no està disponible a Project for the Web. No obstant això , podeu definir el comportament de planificació preferit per als vostres projectes utilitzant l'opció de configuració del [mode de planificació](/project-management/scheduling-modes.md) en crear nous projectes.
 
-## <a name="restricted-operations-for-pre-conversion-projects"></a>Operacions restringides per a projectes de pre-conversió
+## <a name="restricted-operations-for-pre-conversion-projects"></a>Operacions restringides per a projectes previs a la conversió
 
-En aquesta secció es descriuen les diferències funcionals que podeu esperar quan els projectes no s'han convertit.
+Aquesta secció detalla les diferències funcionals que podeu esperar quan els projectes no s'han convertit.
 
-### <a name="copy-project"></a>Còpia projecte
+### <a name="copy-project"></a>Copia el projecte
 
-L'operació **Copy** només s'admet en projectes convertits. Els projectes actualitzats no es poden copiar abans de la conversió.
+L'operació **Copia** només s'admet en projectes convertits. Els projectes actualitzats no es poden copiar abans de la conversió.
 
-### <a name="move-project"></a>Mou el projecte
+### <a name="move-project"></a>Mou el producte
 
-Un canvi a la data d'inici d'un projecte no mourà proporcionalment l'inici de les tasques tret que el projecte s'hagi convertit.
+Un canvi en la data d'inici d'un projecte no desplaçarà proporcionalment l'inici de les tasques tret que el projecte s'hagi convertit.
 
 ## <a name="frequently-asked-questions"></a>Preguntes freqüents
 
-### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Quines diferències hi ha entre els projectes convertits i els nous que es creen un cop finalitzada l'actualització?
+### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Quines diferències hi ha entre els projectes convertits i els nous projectes que es creen un cop completada l'actualització?
 
-Per als projectes que es converteixen després d'actualitzar l'entorn, s'establirà una bandera que indiqui que la planificació només respecti el calendari del projecte. Aquest comportament coincideix amb el comportament del Project Service Automation. Tanmateix, la bandera no es definirà per als projectes nous que es creïn després de l'actualització. Per tant, l'horari respectarà l'horari de treball dels recursos quan s'assignin a una tasca.
+Per als projectes convertits després que l'entorn s'hagi actualitzat, es definirà un indicador que indica a la planificació que respecti només el calendari del projecte. Aquest comportament coincideix amb el comportament del Project Service Automation. Tanmateix, l'indicador no es definirà per als projectes nous que es creen després de l'actualització. Per tant, la planificació respectarà les hores de feina dels recursos quan s'assignin a una tasca.
 
-### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Què he de fer si el meu projecte no es converteix?
+### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Què he de fer si el meu projecte no es pot convertir?
 
-Si el vostre projecte no es converteix, el primer pas és revisar els registres d'error per identificar qualsevol problema comú relacionat amb el vostre WBS. Si els registres no indiquen cap error específic sobre el qual pugueu prendre mesures, poseu-vos en contacte amb el servei d'atenció al client perquè el vostre cas es pugui revisar més endavant.
+Si el vostre projecte no es pot convertir, el primer pas es revisar els registres d'error per identificar els problemes habituals relacionats amb la WBS. Si els registres no indiquen un error concret en què podeu actuar, poseu-vos en contacte amb el Servei d'atenció al client perquè puguin revisar el cas amb més profunditat.
 
-### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Com es gestionen els tancaments d'empreses a Project for the web?
+### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Com es gestionen els tancaments d'empresa al Project for the Web?
 
-El projecte per al web no respecta els tancaments empresarials que l'empresa defineix a nivell d'organització. No obstant això, respectarà altres tipus de dies de descans que es defineixin en una determinada plantilla d'hores de treball.
+El Project for the Web no respecta els tancaments d'empresa que l'empresa defineix en el nivell de l'organització. Tanmateix, es respectaran altres tipus de dies lliures que es defineixin en una plantilla d'hores de feina determinada.
 
-### <a name="what-are-the-limitations-of-project-for-the-web"></a>Quines són les limitacions de Project for the web?
+### <a name="what-are-the-limitations-of-project-for-the-web"></a>Quines són les limitacions del Project for the Web?
 
-Vegeu [Crear una estructura del desglossament del treball: Limitacions](/project-management/create-wbs#project-limitations.md) del projecte.
+Conulteu [Crear una estructura del desglossament del treball: limitacions del projecte](/project-management/create-wbs#project-limitations.md).
 
-### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Puc esperar canvis en les meves estimacions de costos i vendes?
+### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Puc esperar canvis en les meves estimacions de cost i de vendes?
 
-En casos excepcionals en què es tornen a calcular els contorns d'assignació de recursos o en què es troben en un límit de dates diferent del projecte d'origen, és possible que vegeu diferències en les estimacions de vendes i costos. Com a part del procés d'actualització, s'espera que els clients provin un conjunt d'exemple representatiu de projectes, de manera que puguin entendre qualsevol possible canvi de planificació.
+En pocs casos en què es recalculen els contorns de l'assignació de recursos o en què es troben en un límit de dates diferent que el projecte d'origen, podríeu veure diferències en les estimacions de vendes i de cost. Com a part del procés d'actualització, està previst que els clients provin un conjunt de projectes d'exemple representatiu per tal que coneguin els possibles canvis en la planificació.

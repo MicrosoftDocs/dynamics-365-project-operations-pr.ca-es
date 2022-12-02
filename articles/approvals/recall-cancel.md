@@ -1,6 +1,6 @@
 ---
 title: Recuperació d'entrades aprovades prèviament
-description: En aquest article s'explica com un membre de l'equip del projecte pot sol·licitar la retirada dels registres de temps, despesa i ús de material prèviament enviats i aprovats, i com un gestor de projectes pot aprovar o rebutjar sol·licituds de retirada.
+description: En aquest article s'explica com un membre de l'equip del projecte pot sol·licitar la revisió de registres de temps, despesa i ús materials prèviament enviats i aprovats, i com un administrador de projecte pot aprovar o rebutjar sol·licituds de revisió.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -17,26 +17,26 @@ ms.locfileid: "8930352"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Un membre de l'equip del projecte que presenti una entrada de temps, despesa o ús de material pot recordar aquesta entrada després d'haver estat aprovada. El procés de recuperació té dos passos principals:
+Un membre d'un equip del projecte que presenti una entrada de temps, despesa o ús de material, pot recuperar l'entrada després d'haver estat aprovada. El procés de revisió està format per dos passos principals:
 
 1. Un remitent sol·licita una recuperació.
-2. Un aprovador aprova la sol·licitud de retirada.
+2. Un aprovador aprova la sol·licitud de revisió.
 
 ## <a name="request-a-recall"></a>Sol·licitar una recuperació
 
-Seguiu aquests passos per sol·licitar la recuperació de les entrades de temps, despesa o ús de material aprovades.
+Seguiu aquests passos per sol·licitar la revisió d'entrades de temps, despesa o ús de material aprovades.
 
-1. Segueix un d'aquests passos, en funció del tipus d'entrada que vulguis recordar:
+1. Seguiu un d'aquests passos, en funció del tipus d'entrada que vulgueu revisar:
 
-    - Per a les entrades de temps, aneu a **Project** \> **My Work** \> **Time Entry** i seleccioneu totes les entrades de temps per a una combinació específica d'un projecte i una tasca. De manera alternativa, a la quadrícula, seleccioneu les cel·les individuals per al temps d'una data concreta per a un projecte concret.
-    - Per a les entrades de despeses, aneu a **Projectes** \> **Les meves despeses de** treball \>**i** seleccioneu la fila per a l'entrada de despeses que voleu recuperar.
-    - Per a les entrades d'ús de material, aneu al **Registre d'ús de material de projectes** \> **i** \> **seleccioneu la fila per a l'entrada d'ús de material que voleu recuperar.**
+    - Per a les entrades de temps, aneu a **Projectes** \> **La meva feina** \> **Entrada de temps** i seleccioneu totes les entrades de temps per a una combinació específica d'un projecte i una tasca. De manera alternativa, a la quadrícula, seleccioneu les cel·les individuals per al temps d'una data concreta per a un projecte concret.
+    - Per a les entrades de despeses, aneu a **Projectes** \> **El meu treball** \> **Despeses** i seleccioneu la fila de l'entrada de la despesa que voleu recuperar.
+    - Per a les entrades d'ús de materials, aneu a **Projectes** \> **El meu treball** \> **Registre d'ús de materials** i seleccioneu la fila de l'entrada d'ús de materials que voleu recuperar.
 
-2. Seleccioneu **Recupera**. Apareix un quadre de diàleg de confirmació. Si les entrades d'ús de temps, despesa o ús de material seleccionades ja s'han aprovat, se us demanarà que introduïu un motiu per a la retirada.
+2. Seleccioneu **Recupera**. Apareix un quadre de diàleg de confirmació. Si les entrades de temps, despesa o ús de material seleccionades ja estaven aprovades, se us demanarà que introduïu un motiu per a la recuperació.
 3. Introduïu un motiu per a la recuperació i, a continuació, seleccioneu **D'acord** per confirmar l'operació. El sistema envia a la persona que ha aprovat les entrades una sol·licitud per aprovar la recuperació.
 
 > [!IMPORTANT]
-> No podeu crear una sol·licitud de recuperació per a una entrada de temps, despesa o ús de material aprovada que ja s'ha facturat al client. Si ho intenteu, rebreu un missatge que indica que l'entrada de temps, despesa o ús de material no es pot recuperar perquè ja s'ha facturat. En aquest cas, només es pot sol·licitar la retirada de l'entrada si s'utilitza una factura correctiva per emetre un crèdit complet o reembossament al client a la factura original.
+> No podeu crear una sol·licitud de recuperació per a una entrada de temps, despesa i ús material aprovada que ja s'hagi facturat al client. Si ho intenteu, rebreu un missatge que indica que el registre de temps, despesa o ús de materials no es poden recuperar perquè ja s'han facturat. En aquest cas, podeu sol·licitar la recuperació de l'entrada només si s'utilitza una factura correctiva per emetre un abonament complet o un reemborsament al client per a la factura original.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Aprovar o rebutjar una sol·licitud de recuperació
 
@@ -52,7 +52,7 @@ Seguiu aquests passos per aprovar o rebutjar una sol·licitud de recuperació.
     Si heu seleccionat **Rebutja**, la sol·licitud de recuperació es rebutja.
 
 > [!IMPORTANT]
-> Quan s'aprova una retirada, de la mateixa manera que quan se sol·licita, el sistema comprova si hi ha cap activitat de facturació en les entrades de temps, despesa o ús de material. Si una entrada ja s'ha facturat o si es troba en un esborrany de factura, l'aprovador rep un missatge d'error que indica que el temps o la despesa no es poden aprovar per a la seva retirada perquè ja s'ha facturat. En aquest cas, l'aprovant només pot aprovar la retirada si s'utilitza una factura correctiva per emetre un crèdit complet o reembossament al client a la factura original.
+> Quan s'aprova una recuperació, igual que quan se sol·licita, el sistema comprova si hi ha activitats de facturació a les entrades de temps, despesa o ús de materials. Si una entrada ja s'ha facturat o si està en un esborrany de factura, l'aprovador rep un missatge d'error que indica que el temps o la despesa no es poden aprovar per a la recuperació, perquè ja s'han facturat. En aquest cas, l'aprovador pot sol·licitar la recuperació de l'entrada només si s'utilitza una factura correctiva per emetre un abonament complet o un reemborsament al client per a la factura original.
 
 ## <a name="impact-of-a-recall-request"></a>Impacte d'una sol·licitud de recuperació
 
@@ -60,9 +60,9 @@ Quan una aprovació es recupera, hi ha un impacte operacional i un impacte finan
 
 ### <a name="operational-impact"></a>Impacte operacional
 
-Si una sol·licitud de recuperació d'aprova, el registre d'aprovació es marca com a **Rebutjat**. L'estat de l'entrada es canvia a **Retornat o** Rebutjat **, depenent de si es tracta d'una entrada de temps o d'una entrada de despesa o ús de** material.
+Si una sol·licitud de recuperació d'aprova, el registre d'aprovació es marca com a **Rebutjat**. L'estat de l'entrada es canvia a **Retornada** o **Rebutjada** en funció de si es tracta d'una entrada de temps o d'una entrada de despesa o d'ús de materials.
 
-El membre de l'equip del projecte pot visualitzar entrades, editar i tornar a enviar entrades o suprimir completament les entrades.
+El membre del grup de projectes pot visualitzar les entrades, editar i tornar a enviar les entrades o suprimir les entrades del tot.
 
 Si es rebutja una sol·licitud de recuperació, l'estat de l'entrada continua sent **Aprovada** i l'entrada no es pot editar pel membre de l'equip del projecte o l'aprovador del projecte.
 
@@ -79,14 +79,14 @@ Si es rebutja una sol·licitud de recuperació, no hi ha cap impacte financer en
 
 ## <a name="changes-to-time-entry-records"></a>Canvis en els registres d'entrada de temps
 
-La il·lustració següent mostra els canvis que es produeixen per a les entrades de temps aprovades i els registres d'aprovació corresponents quan es retiren.
+A la il·lustració següent es mostren els canvis que es produeixen per a les entrades de temps aprovades i els registres d'aprovació corresponents quan es recuperen.
 
-![Transicions d'estat d'entrada de temps.](media/TimeEntryStateTransitions.png)
+![Transicions d'estat de l'entrada de temps.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Canvis en els registres d'entrada de despeses i ús de material
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Canvis en els registres d'entrada de despeses i ús de materials
 
-La il·lustració següent mostra els canvis que es produeixen per a les entrades de despeses i ús de material aprovades i els registres d'aprovació corresponents quan es retiren.
+A la il·lustració següent es mostren els canvis que es produeixen per a les entrades de temps i ús de materials aprovades i els registres d'aprovació corresponents quan es recuperen.
 
-![Transició de l'estat d'entrada de despeses.](media/ExpenseEntryStateTransitions.png)
+![Transicions d'estat de l'entrada de despeses.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

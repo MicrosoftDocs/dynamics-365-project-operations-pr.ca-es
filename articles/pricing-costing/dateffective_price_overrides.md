@@ -1,6 +1,6 @@
 ---
-title: El preu efectiu de la data substitueix
-description: En aquest article s'explica com configurar les substitucions de preus per a preus específics a la llista de preus.
+title: Substitucions de preus de data de vigència
+description: En aquest article s'explica com es defineixen les substitucions de preus per als preus específics de la llista de preus.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -14,99 +14,99 @@ ms.contentlocale: ca-ES
 ms.lasthandoff: 09/08/2022
 ms.locfileid: "9445997"
 ---
-# <a name="date-effective-price-overrides"></a>El preu efectiu de la data substitueix 
+# <a name="date-effective-price-overrides"></a>Substitucions de preus de data de vigència 
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-*Les substitucions de preus efectives* amb data proporcionen una manera d'anul·lar o canviar preus específics de la llista de preus. Per exemple, teniu una llista de preus estàndard que és efectiva des de l'1 de gener de 2022 fins al 31 de desembre de 2022. Aquesta llista de preus té preus per a molts rols. El preu configurat per a la **funció de tècnic de** xarxa és de 100 dòlars EUA (USD) per hora. Quan un tècnic de xarxa registra el temps entre l'1 de gener de 2022 i el 31 de desembre de 2022, l'hora té un preu de 100 USD. L'1 d'octubre de 2022, heu d'ajustar el preu *només* per a la **funció de tècnic** de xarxa, de 100 USD per hora a 110 USD per hora. La **funció Data d'anul·lació del** preu efectiu et permet configurar aquest canvi com una substitució de la fila per al preu de funció específic. Per tant, no cal que copieu tota la llista de preus i canvieu el preu d'aquesta fila.
+Les *substitucions de preus de data de vigència* proporcionen una manera de substituir o canviar preus específics de la llista de preus. Per exemple, teniu una llista de preus estàndard efectiva des de l'1 de gener de 2022 fins al 31 de desembre de 2022. Aquesta llista de preus té preus per a moltes funcions. El preu que està configurat per a la funció de **Tècnic de xarxa** és de 100 dòlars EUA (USD) per hora. Quan un tècnic de xarxa registra el temps entre l'1 de gener del 2022 i el 31 de desembre de 2022, el temps es compta com a 100 USD. L'1 d'octubre de 2022, heu d'ajustar el preu *només* per a la funció **Tècnic de xarxa**, de 100 USD per hora a 110 USD per hora. La característica **Substitueix els preus de data de vigència** us permet configurar aquest canvi com una substitució de la fila d'aquest preu de funció específic. Per tant, no cal que copieu la llista de preus completa i canvieu el preu només d'aquesta fila.
 
-## <a name="date-effective-price-overrides-for-labor-pricing"></a>El preu efectiu de la data anul·la els preus laborals
+## <a name="date-effective-price-overrides-for-labor-pricing"></a>Substitucions de preus de data de vigència per als preus laborals
 
-El procés d'establiment del preu efectiu de la data anul·la el temps de treball en un projecte consta de dos passos bàsics.
+El procés de configurar substitucions de preus de data de vigència per a la mà d'obra d'un projecte consta de dos passos bàsics.
 
-1. Activa la **funció Data de substitució** efectiva del preu.
-1. Configureu una substitució del preu efectiva de la data.
+1. Habiliteu la característica **Substitucions de preus de data de vigència**.
+1. Configureu una substitució de preus de data de vigència.
 
-### <a name="enable-the-date-effective-price-overrides-feature"></a>Activeu la funció Data en què el preu efectiu substitueix
+### <a name="enable-the-date-effective-price-overrides-feature"></a>Habilitar la característica Substitucions de preus de data de vigència
 
 > [!NOTE]
-> Un cop activada la **funció Data en què el preu** efectiu substitueix, no es pot desactivar.
+> Després d'habilitar la característica **Substitucions de preus de data de vigència** no es pot inhabilitar.
 
-Per activar la **funció Data d'aprovació del preu**, segueix aquests passos.
+Per habilitar la característica **Substitucions de preus de data de vigència**, seguiu aquests passos.
 
-1. Aneu a **Paràmetres** de configuració \>**·**.
-1. Obriu el **registre Paràmetres**.
-1. A la subfinestra d'accions, a la **pestanya Control de** característiques, seleccioneu **Habilita la data en què s'anul·la** el preu efectiu.
+1. Aneu a **Configuració** \> **Paràmetres**.
+1. Obriu el registre **Paràmetres**.
+1. A la subfinestra Acció, a la pestanya **Control de característiques**, seleccioneu **Habilita les substitucions de preus de data de vigència**.
 1. Al quadre de diàleg de confirmació, seleccioneu **D'acord**.
-1. Al cap d'uns instants, actualitzeu el navegador. Les capacitats d'anul·lació de preus efectives de data ara haurien d'estar disponibles. Sabreu que aquestes capacitats s'han habilitat si **Habilita la data en què el preu efectiu substitueix** ja no apareix a la subfinestra d'acció.
+1. Al cap d'uns moments, actualitzeu el navegador. Ara, les capacitats de substitució de preus de data de vigència haurien d'estar disponibles. Sabreu que aquestes capacitats s'han habilitat si el botó **Habilita les substitucions de data de vigència** ja no apareix a la subfinestra Acció.
 
-### <a name="set-up-a-date-effective-price-override"></a>Configurar una data d'aprovació del preu efectiva
+### <a name="set-up-a-date-effective-price-override"></a>Configurar una substitució de preus de data de vigència
 
-Les substitucions de preus efectives es poden configurar a les **llistes de preus de cost**, **vendes** o **compra**.
+Les substitucions de preus de data de vigència només es poden configurar a les llistes de preus de **Cost**, **Vendes** o **Compra**.
 
 > [!NOTE]
->Actualment, el comportament de la **data en què s'anul·la** el preu efectiu té les limitacions següents:
+>El comportament de **Substitucions de preus de data de vigència** actualment té les limitacions següents:
 >
-> - Només els preus de les funcions i els marcatges de preus de funció admeten la funció Data d'anul·lació efectiva del **preu** del Project Operations.
-> - Quan copieu una llista de preus mitjançant l'acció Copia **de la pàgina Detalls** de la **llista de preus i quan creeu una llista de preus del projecte a partir d'una llista de preus estàndard o personalitzada durant la** creació del contracte, les substitucions de preus efectives de data no **es copien** de la llista de preus d'origen.
+> - Només els preus per funció i els marges comercials de preus per funció admeten la característica **Substitucions de preus de data de vigència** al Project Operations.
+> - Quan copieu una llista de preus mitjançant l'acció **Copia** a la pàgina **Detalls de la llista de preus** i quan creeu una llista de preus del projecte des d'una llista de preus estàndard o personalitzada durant la creació del contracte, les substitucions de preus de data de vigència **no** es copien de la llista de preus d'origen.
 
-Per configurar una substitució de preu efectiva per a un preu de funció o un marcatge del preu de funció, seguiu aquests passos.
+Per configurar una substitució de preus de data de vigència per a un preu per funció o un marge comercial de preu per funció, seguiu aquests passos:
 
-1. Obriu la pàgina de la llista de preus per a la qual voleu configurar la data d'aplicació del preu.
-1. Seleccioneu la **pestanya Preus de funció** . Aquesta pestanya mostra tots els **registres de preus** de rol de la llista de preus.
-1. Seleccioneu el registre de preu de funció **per al qual voleu configurar un preu de substitució nou i efectiu i, a continuació, toqueu dues vegades (o feu doble clic)** Preu **de funció per obrir la pàgina Detalls** del preu de la **funció.**
-1. Seleccioneu la **pestanya Data d'anul·lacions efectives**. La quadrícula d'aquesta pestanya mostra totes les substitucions de preus efectives per al registre de preus **de funció seleccionat**.
-1. A la barra d'eines que hi ha a sobre de la quadrícula, seleccioneu **Substitueix el preu de** la funció nova. S'obre **el control lliscant de substitució** del preu de la funció nova.
-1. Especifiqueu la data efectiva, la unitat i el preu nou per substituir el preu. A continuació, seleccioneu **Desa** i tanqueu el formulari.
+1. Obriu la pàgina de la llista de preus per a la qual voleu configurar la substitució de preus de data de vigència.
+1. Seleccioneu la pestanya **Preus per funcions**. Aquesta pestanya mostra tots els registres de **Preu per funció** de la llista de preus.
+1. Seleccioneu el registre de **Preu per funció** per al qual voleu configurar una substitució de preus de data de vigència i, a continuació, feu doble toc (o doble clic) a **Preu per funció** per obrir la pàgina **Detalls del preu per funció**.
+1. Seleccioneu la pestanya **Substitucions de data de vigència**. La quadrícula d'aquesta pestanya mostra totes les substitucions de preus de data de vigència per al registre de **Preu per funció** seleccionat.
+1. A la barra d'eines que hi ha a sobre de la quadrícula, seleccioneu **Nova substitució de preu per funció**. S'obre el control lliscant **Nova substitució de preu per funció**.
+1. Especifiqueu la data de vigència, la unitat i el preu nou per a la substitució de preu. A continuació, seleccioneu **Desa** i tanqueu el formulari.
 
 > [!NOTE]
-> - Una substitució de preu efectiva de data per a un preu de funció o un marcatge de preus de funció és aplicable a la mateixa combinació de valors de dimensió de preus que hi ha al preu de la funció principal **o al quadre** de preus de **funció**.
-> - La data que se seleccioni al camp Efectiu des de **la** data d'entrada en vigor de la llista de preus principal. La substitució del preu entrarà en vigor a la data que se seleccioni al **camp Efectiu des de** i s'aplicarà fins a la data de finalització de la llista de preus principal. Si configures una altra substitució del preu de data efectiva per al mateix preu de funció, la primera substitució del preu entrarà en vigor a la data que se seleccioni al **camp Efectiu des de** i s'aplicarà fins a l'inici de la segona substitució.
+> - Una substitució de preus de data de vigència per a un preu per funció o un marge comercial de preu per funció és aplicable a la mateixa combinació de valors de dimensió de preus que existeix a la fila **Preu per funció** o **Marge comercial de preu per funció** principal.
+> - La data seleccionada al camp **Efectiu des del** hauria d'estar dins de les dates de vigència de la llista de preus principal. La substitució de preus tindrà efecte en la data seleccionada al camp **Efectiu des del** i s'aplicarà fins a la data d'acabament de la llista de preus principal. Si configureu una altra substitució de preus de data de vigència per al mateix preu per funció, la primera substitució de preus tindrà efecte en la data seleccionada al camp **Efectiu des del** i s'aplicarà fins a l'inici de la segona substitució.
 
 ## <a name="examples"></a>Exemples
 
-### <a name="example-1-determining-date-effectivity-for-a-role-price-that-has-role-price-overrides"></a>Exemple 1: determinació de l'efectivitat de la data per a un preu de funció que substitueix el preu de funció
+### <a name="example-1-determining-date-effectivity-for-a-role-price-that-has-role-price-overrides"></a>Exemple 1: Determinar la data de vigència per a un preu per funció que té substitucions de preus per funció
 
-L'exemple següent mostra com es determina l'efectivitat de la data per a un preu de funció específic per al qual es configuren les substitucions de preus de funció.
+A l'exemple següent es mostra com es determina la data de vigència d'un preu per funció específic per al qual es configuren substitucions de preus per funcions.
 
-**Tarifa de preus A: de l'1 de gener al 30 de juny**
+**Llista de preus A: de l'1 de gener al 30 de juny**
 
-*Preu del rol*
+*Preu per funció*
 
-| Preu del rol | Unit | Preu | Efecte sobre els preus de les transaccions entrants |
+| Preu per funció | Unit | Preu | Efecte sobre els preus de les transaccions entrants |
 |---|---|---|---|
-| Tècnic/a de xarxa | Hora | 100 | Aquest preu s'utilitzarà en totes aquelles operacions en què la data de l'operació estigui compresa entre l'1 de gener i el 14 de març. |
+| Tècnic de xarxa | Hora | 100 | Aquest preu s'utilitzarà en qualsevol transacció on la data de la transacció sigui entre l'1 de gener i el 14 de març. |
 
-*S'anul·la el preu de funció*
+*Substitució de preu per funció*
 
-| Efectiu des de | Unit | Preu | Efecte sobre els preus de les transaccions entrants |
+| Efectiu des del | Unit | Preu | Efecte sobre els preus de les transaccions entrants |
 |---|---|---|---|
-| Març de 15 | Hora | 110 | Aquest preu s'utilitzarà en totes aquelles operacions en què la data de l'operació estigui compresa entre el 15 i el 30 de març. |
-| Abril de 1 | Hora | 120 | Aquest preu s'utilitzarà en totes aquelles operacions en què la data de l'operació estigui compresa entre l'1 d'abril i el 30 de juny. |
+| Març de 15 | Hora | 110 | Aquest preu s'utilitzarà en qualsevol transacció on la data de la transacció sigui entre el 15 de març i el 30 de març. |
+| Abril de 1 | Hora | 120 | Aquest preu s'utilitzarà en qualsevol transacció on la data de la transacció sigui entre l'1 d'abril i el 30 de juny. |
 
-### <a name="example-2-determining-date-effectivity-for-a-role-price-markup-that-has-role-price-markup-overrides"></a>Exemple 2: determinació de l'efectivitat de la data per a un marcatge de preus de funció que té un marcatge de preus de funció substitueix
+### <a name="example-2-determining-date-effectivity-for-a-role-price-markup-that-has-role-price-markup-overrides"></a>Exemple 2: Determinar la data de vigència per a un marge comercial de preu per funció que té substitucions de marges comercials de preus per funció
 
-L'exemple següent mostra com es determina l'efectivitat de la data per a un marcatge de preus de funció específic per al qual es configuren les substitucions de preus de funció.
+A l'exemple següent es mostra com es determina la data de vigència d'un marge comercial de preu per funció específica per a la qual es configuren substitucions de marges comercials de preus per funció.
 
-**Tarifa de preus A: de l'1 de gener al 30 de juny**
+**Llista de preus A: de l'1 de gener al 30 de juny**
 
-*Preu del rol*
+*Preu per funció*
 
-| Preu del rol | Hores de feina | Unit | Preu | Efecte sobre els preus de les transaccions entrants |
+| Preu per funció | Hores de feina | Unit | Preu | Efecte sobre els preus de les transaccions entrants |
 |---|---|---|---|---|
-| Tècnic/a de xarxa | Regular | Hora | 100 | Aquest preu s'utilitzarà en totes aquelles operacions en què la data de l'operació estigui compresa entre l'1 de gener i el 14 de març. |
+| Tècnic de xarxa | Normal | Hora | 100 | Aquest preu s'utilitzarà en qualsevol transacció on la data de la transacció sigui entre l'1 de gener i el 14 de març. |
 
-*Marcatge del preu de la funció*
+*Marge comercial de preu de funció*
 
-| Unitat organitzativa | Hores de feina | Marca % |
+| Unitat d'organització | Hores de feina | % de marge comercial |
 |---|---|---|
 | Contoso EUA | Hores extra | 10% |
 
-*El marcatge de preus de funció substitueix*
+*Substitució de marge comercial de preus per funció*
 
-| Efectiu des de | Preu | Efecte sobre els preus de les transaccions entrants |
+| Efectiu des del | Preu | Efecte sobre els preus de les transaccions entrants |
 |---|---|---|
-| Març de 15 | 20% | Aquest percentatge d'augment s'utilitzarà en qualsevol transacció en què la data de transacció estigui compresa entre el 15 i el 30 de març. |
-| Abril de 1 | 25 % | Aquest marcatge s'utilitzarà en totes aquelles operacions en què la data de l'operació estigui compresa entre l'1 d'abril i el 30 de juny. |
+| Març de 15 | 20% | Aquest percentatge de marge comercial s'utilitzarà en qualsevol transacció on la data de la transacció sigui entre el 15 de març i el 30 de març. |
+| Abril de 1 | 25 % | Aquest marge comercial s'utilitzarà en qualsevol transacció on la data de la transacció sigui entre l'1 d'abril i el 30 de juny. |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

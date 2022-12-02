@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis de la versió d'actualització 41 del Project Service Automation, V3
-description: En aquest article s'enumeren les característiques i les correccions que estan disponibles a Microsoft Dynamics 365 Project Service Automation Update Release 41, V3.
+description: En aquest article s'enumeren les característiques i les correccions disponibles a la Versió 41 d'actualització Microsoft Dynamics 365 Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/07/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8930536"
 
 Ens complau anunciar l'última actualització de l'aplicació Microsoft Dynamics 365 Project Service Automation. Aquesta versió inclou algunes millores importants per a la qualitat, el rendiment i la usabilitat. És compatible amb el Dynamics 365 9.x. Per actualitzar aquesta versió, visiteu la pàgina de solucions en línia del Centre d'administració del Dynamics 365 i instal·leu l'actualització. Per obtenir més informació, vegeu [Instal·lar, actualitzar o eliminar una solució preferida](/power-platform/admin/install-remove-preferred-solution).
 
-En aquest article s'enumeren les característiques i les correccions que són noves o canviades per a la versió 41, V3. Aquesta versió té el número de compilació V3.10.62.162 i està disponible de forma general a través d'una actualització automàtica el març de 2022.
+En aquest article es mostren les característiques i correccions que són noves o s'han canviat per al llançament de l'actualització 41, V3, de Project Service Automation. Aquesta versió té el número de compilació V3.10.62.162 i està disponible de forma general a través d'una actualització automàtica el març de 2022.
 
 ## <a name="update-release-41"></a>Versió d'actualització 41
 
@@ -38,10 +38,10 @@ En aquest article s'enumeren les característiques i les correccions que són no
 S'han corregit els problemes següents.
 
 **Administració de projectes**
-- Quan intenteu crear un projecte a partir d'una plantilla basada en un projecte creat a partir del complement de l'escriptori, es mostra l'error següent: "Validació del camp treball planificat de l'assignació de recursos: la data de finalització de cada temps d'assignació de recursos no ha de ser anterior a la data d'inici".
+- Quan intenteu crear un projecte a partir d'una plantilla basada en un projecte creat des del complement d'escriptori, es visualitza l'error següent: "Validació del camp de feina planificada per a l'assignació de recursos: La data d'acabament de l'interval de temps de cada assignació de recursos no pot ser anterior a la seva data d'inici".
 
 **Temps i despesa**
-- Quan intenteu suprimir una entrada de temps, es mostra el missatge d'error següent: "Es produeix un error inesperat del codi ISV".
+- Quan intenteu suprimir una entrada de temps, es visualitza el missatge d'error següent: "S'ha produït un error inesperat al codi ISV".
 
 **Vendes**
-- Quan creeu una factura per a una fita de preu fix, els **camps Descripció** i **Descripció** externa no s'emplenen. 
+- Quan creeu una factura per a una fita de preu fix, els camps **Descripció** i **Descripció externa** no s'emplenen. 

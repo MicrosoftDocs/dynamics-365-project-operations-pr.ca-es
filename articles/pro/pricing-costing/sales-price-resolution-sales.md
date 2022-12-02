@@ -1,6 +1,6 @@
 ---
 title: Determinar els preus de venda per a les estimacions i els valors reals del projecte
-description: Aquest article proporciona informació sobre com es determinen els preus de venda de les estimacions i els reals del projecte.
+description: En aquest article es proporciona informació sobre com es determinen els preus de venda de les estimacions i els valors reals del projecte.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -17,80 +17,80 @@ ms.locfileid: "9475172"
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Per determinar els preus de venda sobre estimacions i reals a Microsoft Dynamics 365 Project Operations, el sistema utilitza primer la data i la moneda en l'estimació entrant o context real per determinar la llista de preus de venda. En el context actual específicament, el sistema utilitza el camp Data **de la** transacció per determinar quina llista de preus és aplicable. El **valor de la data** de transacció de l'estimació entrant o real es compara amb els **valors Inici efectiu (zona horària independent)** i **Final efectiu (zona horària independent)** de la llista de preus. Un cop determinada la llista de preus de venda, el sistema determina la taxa de vendes o factura.
+Per determinar els preus de venda de les estimacions i els valors reals al Microsoft Dynamics 365 Project Operations, el sistema utilitza primer la data i la moneda de l'estimació entrant o del context real per determinar la llista de preus de venda. En el context real específicament, el sistema utilitza el camp **Data de transacció** per determinar quina llista de preus és aplicable. El valor de **Data de transacció** de l'estimació entrant o real es compara amb els valors d'**Inici efectiu (zona horària independent)** i **Final efectiu (independent de la zona horària)** de la llista de preus. Després de determinar la llista de preus de vendes, el sistema determina la tarifa de vendes o de facturació.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Determinació de les taxes de vendes en línies reals i d'estimació del temps
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Determinació de tarifes de vendes en línies de valors reals i estimacions per al temps
 
-El context d'estimació **del temps** es refereix a:
+El context d'estimació per a **Temps** fa referència a:
 
-- Detalls de la línia de pressupost per a **Time**.
-- Dades de la línia de contracte per a **Time**.
-- Assignacions de recursos sobre un projecte.
+- Detalls de la línia d'oferta per a **Temps**.
+- Detalls de la línia de contracte per a **Temps**.
+- Assignacions de recursos a un projecte.
 
-El context real del **temps** es refereix a:
+El context real per a **Temps** fa referència a:
 
-- Línies de diari d'entrada i correcció del **temps**.
-- Línies de diari que es creen quan s'envia una entrada de temps.
-- Detalls de la línia de factura per a **Time**. 
+- Línies del llibre diari d'entrada i de correcció per a **Temps**.
+- Línies del llibre diari que es creen en enviar una entrada de temps.
+- Detalls de la línia de factura per a **Temps**. 
 
-Després de determinar una llista de preus per a les vendes, el sistema completa els passos següents per introduir la tarifa de factura predeterminada.
+Després de determinar una llista de preus per a les vendes, el sistema completa els següents passos per introduir la tarifa de facturació per defecte.
 
-1. El sistema coincideix amb la combinació dels **camps Role** i **Resourcing Unit** en l'estimació o context real de **Time** amb les línies de preus de rol de la llista de preus. Aquesta coincidència suposa que utilitzeu les dimensions de preus estàndard per a les tarifes de les factures. Si heu configurat els preus de manera que es basin en camps que no siguin o a **més de La funció** i **la unitat** de recursos, aquesta combinació de camps s'utilitza per recuperar una línia de preus de rol coincident.
-1. Si el sistema troba una línia de preus de funció que té una tarifa de factura per a la **combinació Unitat** de funció **i** recurs, aquesta tarifa de factura s'utilitza com a tarifa de factura predeterminada.
-1. Si el sistema no pot coincidir amb els valors de la **unitat** de funció **i** recurs, recupera les línies de preus de la funció que tenen valors coincidents per al **camp Funció**, però valors nuls per al camp Unitat **de** recurs. Després que el sistema trobi un registre de preus de rol coincident, la tarifa de factura d'aquest registre s'utilitzarà com a tarifa de factura predeterminada. Aquesta coincidència assumeix una configuració estàndard per a la prioritat relativa de Role **versus** Resourcing Unit **com a dimensió de** preus de venda.
+1. El sistema compara la combinació dels camps **Funció** i **Unitat de recursos** en el context d'estimació o de valor real per al **Temps** amb les línies de preu per funció de la llista de preus. Aquesta assignació assumeix que esteu utilitzant dimensions de preus estàndard per a les tarifes de facturació. Si heu configurat els preus de manera que es basi en camps diferents o addicionals a **Funció** i **Unitat de recursos**, aquesta és la combinació que s'utilitzarà per recuperar una línia de preu per funció coincident.
+1. Si el sistema troba una línia de preu per funció que té una tarifa de facturació per la combinació de camps **Funció** i **Unitat de recursos**, la tarifa de facturació s'utilitza com a valor per defecte.
+1. Si el sistema no pot de fer coincidir els valors dels camps **Funció** i **Unitat de recursos**, recupera línies de preu per funció que tenen valors coincidents per al camp **Funció**, però valors nuls per al camp **Unitat de recursos**. Quan el sistema troba un registre de preu per funció coincident, la tarifa de facturació d'aquest registre s'utilitza com a tarifa de facturació per defecte. Aquesta assignació assumeix una configuració de fàbrica per a la prioritat relativa de **Funció** o **Unitat de recursos** com a dimensió de preus de vendes.
 
 > [!NOTE]
-> Si configureu una priorització diferent dels camps Funció **i** Unitat **de** recursos, o si teniu altres dimensions que tenen més prioritat, el comportament anterior canviarà en conseqüència. El sistema recupera registres de preus de funció que tenen valors que coincideixen amb cada valor de dimensió de preus per ordre de prioritat. Les files que tenen valors nuls per a aquestes dimensions són les últimes.
+> Si configureu una priorització diferent dels camps **Funció** i **Unitat de recursos**, o si teniu altres dimensions que tenen una prioritat més alta, aquest comportament canviarà en conseqüència. El sistema recupera registres de preu per funció que tenen valors que coincideixen amb cada valor de dimensió de preus per ordre de prioritat. Les files que tenen valors nuls per a aquestes dimensions són les darreres.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Determinació de les taxes de vendes en línies reals i d'estimació de despeses
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Determinació de tarifes de vendes en línies de valors reals i estimacions per a despeses
 
-El context d'estimació **de la despesa** es refereix a:
+El context d'estimació per a **Despesa** fa referència a:
 
-- Detalls de la línia de pressupostos per a **despeses**.
-- Dades de la línia de contractació de **despesa**.
-- Línies d'estimació de despeses d'un projecte.
+- Detalls de la línia d'oferta per a **Despesa**.
+- Detalls de la línia de contracte per a **Despesa**.
+- Línies d'estimació de despesa en un projecte.
 
-El context real de **la despesa** es refereix a:
+El context real per a **Despesa** fa referència a:
 
-- Registre i correcció de línies de registre de **despeses**.
-- Línies de diari que es creen quan s'envia una entrada de despeses.
-- Dades de la línia de factura per a **la despesa**. 
+- Línies del llibre diari d'entrada i de correcció per a **Despesa**.
+- Línies del llibre diari que es creen en enviar una entrada de despesa.
+- Detalls de la línia de factura per a **Despesa**. 
 
-Després de determinar una llista de preus per a les vendes, el sistema completa els passos següents per introduir el preu de venda unitari predeterminat.
+Després de determinar una llista de preus per a les vendes, el sistema completa els següents passos per introduir el preu de venda per unitat per defecte.
 
-1. El sistema coincideix amb la combinació dels **camps Categoria** i **Unitat** de la línia d'estimació de **Despesa** amb les línies de preus de categoria de la llista de preus.
-1. Si el sistema troba una línia de preus de categoria que té una taxa de vendes per a la **combinació categoria** i **unitat**, aquesta taxa de vendes s'utilitza com a taxa de venda predeterminada.
-1. Si el sistema troba una línia de preus de categoria coincident, el mètode de preus es pot utilitzar per introduir el preu de venda predeterminat. La taula següent mostra el comportament per defecte dels preus de despesa a Project Operations.
+1. El sistema fa coincidir la combinació dels camps **Categoria** i **Unitat** a la línia d'estimació de **Despesa** amb les línies de preu de categoria de la llista de preus.
+1. Si el sistema troba una línia de preu per categoria que té una tarifa de venda per a la combinació de **Categoria** i **Unitat**, aquesta tarifa de venda s'utilitza per defecte.
+1. Si el sistema troba una línia de preu per categoria coincident, el mètode de preus es podria utilitzar per introduir el preu de venda per defecte. La següent taula mostra el comportament per defecte per als preus de les despeses al Project Operations.
 
-    | Context | Mètode de càlcul de preus | Preu predeterminat |
+    | Context | Mètode de càlcul de preus | Preu per defecte |
     | --- | --- | --- |
-    | Aproximat | Preu per unitat | Segons la línia de preus de la categoria. |
+    | Aproximat | Preu per unitat | Basat en la línia de preus per categoria. |
     |        | A partir del cost | 0.00 |
     |        | Marge comercial sobre el cost | 0.00 |
-    | Real | Preu per unitat | Segons la línia de preus de la categoria. |
-    |        | A partir del cost | En funció del cost real relacionat. |
-    |        | Marge comercial sobre el cost | S'aplica un marcatge, tal com es defineix per la línia de preus de categoria, a la taxa de cost unitari del cost real relacionat. |
+    | Real | Preu per unitat | Basat en la línia de preus per categoria. |
+    |        | A partir del cost | Basat en el valor real de cost relacionat. |
+    |        | Marge comercial sobre el cost | S'aplica un marge comercial tal com defineix la línia de preus de categoria a la tarifa de cost unitari del valor real de cost relacionat. |
 
-1. Si el sistema no pot coincidir amb els **valors categoria** i **unitat**, la taxa de vendes s'estableix en **0** (zero) per defecte.
+1. Si el sistema no pot fer coincidir els valors de **Categoria** i **Unitat**, la tarifa de venda es defineix com a **0** (zero) per defecte.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Determinació de les taxes de vendes en línies reals i d'estimació de Material
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Determinació de percentatges de vendes de les línies de valor real i de previsió de materials
 
-El context d'estimació **del material** es refereix a:
+El context d'estimació per a **Material** fa referència a:
 
-- Detalls de la línia de pressupostos per a **Material**.
-- Dades de la línia de contracte de **Material**.
-- Línies d'estimació de materials d'un projecte.
+- Detalls de la línia d'oferta per a **Material**.
+- Detalls de la línia de contracte per a **Material**.
+- Línies d'estimació de materials en un projecte.
 
-El context **real del material** es refereix a:
+El context real per a **Material** fa referència a:
 
-- Línies de diari d'entrada i correcció de **material**.
-- Línies de diari que es creen quan s'envia un registre d'ús de materials.
-- Dades de la línia de factura de **Material**. 
+- Línies del llibre diari d'entrada i de correcció per a **Material**.
+- Línies del llibre diari que es creen en enviar un registre d'ús de material.
+- Detalls de la línia de factura per a **Material**. 
 
-Després de determinar una llista de preus per a les vendes, el sistema completa els passos següents per introduir el preu de venda unitari predeterminat.
+Després de determinar una llista de preus per a les vendes, el sistema completa els següents passos per introduir el preu de venda per unitat per defecte.
 
-1. El sistema coincideix amb la combinació dels camps Producte **i** Unitat **de la** línia d'estimació de **Material** amb les línies d'articles de la llista de preus de la llista de preus.
-1. Si el sistema troba una línia d'articles de llista de preus que té una taxa de venda per a la **combinació Producte** i **Unitat**, i si el mètode de fixació de preus és **Import** de moneda, s'utilitza el preu de venda especificat a la línia de llista de preus. 
-1. Si els valors del **camp Producte** i **Unitat** no coincideixen o si el mètode de preus no és una altra cosa que **l'import** de la moneda, la taxa de vendes s'estableix en **0** (zero) de manera predeterminada. Aquest comportament es produeix perquè Project Operations només admet el mètode de preus de l'import **de la** moneda per als materials que s'utilitzen en un projecte.
+1. El sistema fa coincidir la combinació de camps **Producte** i **Unitat** de la línia d'estimació per a **Material** amb les línies d'element de la llista de preus de la llista de preus.
+1. Si el sistema troba una línia d'element de la llista de preus que té un percentatge de vendes per a la combinació **Producte** i **Unitat** i el mètode de càlcul de preus és **Quantitat de moneda**, s'utilitza el preu de venda que s'especifica a la línia de la llista de preus. 
+1. Si els valors dels camps **Producte** i **Unitat** no coincideixen, o si el mètode de preus és una cosa diferent de **Import monetari**, el percentatge de vendes es defineix com a **0** (zero) per defecte. Aquest comportament es produeix perquè el Project Operations només admet el mètode de preus **Import monetari** per als materials que s'utilitzen en un projecte.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Informes de despeses reimaginats (conté vídeo)
-description: En aquest article s'explica l'experiència redissenyada i reimaginada per a l'entrada de l'informe de despeses.
+title: Informes de despeses nous (conté vídeo)
+description: En aquest article s'explica l'experiència redissenyada i nova per a l'entrada d'informes de despeses.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Per activar la nova experiència, utilitzeu l'àrea de treball **Administració 
 | Deseu i afegiu línies de despeses noves | Els botons **Desa** i **Nou** estan disponibles quan s'introdueixen les despeses noves per ajudar-vos a introduir ràpidament les línies de despesa. |
 | Visibilitat millorada a les línies dividides i desglossades | Les línies desglossades i dividides s'afegeixen directament a la llista de despeses per augmentar la visibilitat i ajudar-vos a determinar fàcilment si hi ha cap error. |
 | Visualitzar els detalls de la subcategoria en línies desglossades | Les línies desglossades d'una despesa principal mostren les etiquetes de subcategoria a l'informe de despeses. El desglossament permet revisar d'un cop d'ull els detalls granulars.|
-|Desglossa ràpidament les despeses recurrents | L'àrea de treball de despeses reimaginada proporciona la possibilitat de detallar ràpidament les despeses recurrents afegint la subcategoria, la data d'inici i la quantitat. La quantitat es refereix al nombre de vegades que la càrrega es repeteix al llarg d'un període continu. |
+|Desglossar les despeses periòdiques ràpidament | La nova àrea de treball de despeses proporciona la capacitat de desglossar les despeses periòdiques ràpidament afegint la subcategoria, la data d'inici i la quantitat. La quantitat fa referència al nombre de vegades que el càrrec es repeteix en un període continu. |
 | Mostra els rebuts durant el desglossament | Els rebuts poden mostrar-se durant el desglossament. |
 | Selecció de bestreta en efectiu | Seleccioneu una o diverses bestretes en efectiu per realitzar una transacció de despesa única. |
 | Balanç de bestreta en efectiu | Reviseu el balanç de bestreta en efectiu en temps real quan creeu una entrada de despesa per a bestretes en efectiu aprovades i pagades. |

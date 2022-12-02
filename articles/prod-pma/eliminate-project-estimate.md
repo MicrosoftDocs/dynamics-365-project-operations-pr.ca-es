@@ -1,6 +1,6 @@
 ---
 title: Supressió d'una estimació de projecte
-description: Aquest article proporciona informació sobre l'eliminació d'una estimació del projecte després de completar-la.
+description: Aquest article proporciona informació sobre la supressió d'una estimació del projecte després que s'hagi completat.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

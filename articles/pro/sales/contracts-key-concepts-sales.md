@@ -19,7 +19,7 @@ _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
 
 
-En aquest article s'ofereixen els conceptes clau que cal tenir en compte abans de començar a utilitzar els contractes del projecte a Dynamics 365 Project Operations:
+En aquest article es proporcionen els conceptes clau que cal tenir en compte abans de començar a utilitzar els contractes de Project a Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unitat de contractació
 

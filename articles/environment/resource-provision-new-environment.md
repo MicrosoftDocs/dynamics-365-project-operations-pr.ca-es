@@ -1,6 +1,6 @@
 ---
 title: Proveïment d'un entorn nou
-description: En aquest article es proporciona informació sobre com proveir un nou entorn d'Operacions del Projecte.
+description: En aquest article s'ofereix informació sobre com proveir un entorn nou del Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 
 
-Aquest article proporciona informació sobre com proveir un entorn nou Dynamics 365 Project Operations per a escenaris basats en recursos o no emmagatzemats.
+En aquest article es proporciona informació sobre com proveir un nou entorn de Dynamics 365 Project Operations per a escenaris basats en recursos/sense existències.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Habilitar el proveïment automatitzat del Project Operations en un projecte del LCS
 
@@ -34,7 +34,7 @@ Seguiu aquests passos per habilitar el flux de proveïment automatitzat del Proj
 
 ## <a name="provision-a-project-operations-environment"></a>Proveïment d'un entorn del Project Operations
 
-1. Obriu un nou entorn de demostració Dynamics 365 Finance [o](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) una [implementació de l'entorn](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) de producció / espai aïllat. 
+1. Obriu una nova implementació d'un [entorn de demostració](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) o un [entorn d'espai aïllat/de producció](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) del Dynamics 365 Finance. 
 2. Seguiu els passos de l'auxiliar **Proveïment de l'entorn**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Pot ser que hàgiu d'aplicar actualitzacions de qualitat al vostre entorn del Fi
 
     ![Aplicar les solucions.](./media/13ApplySolutions.png)
 
-5. Seleccioneu ambdues solucions, **Dynamics 365 Finance mapa d'entitats d'escriptura dual i** mapes **Dynamics 365 Project Operations** d'entitats d'escriptura dual i, a continuació, seleccioneu **Aplica**.
+5. Seleccioneu les dues solucions, el **mapa d'entitats d'escriptura doble del Dynamics 365 Finance** i els **mapes d'entitat d'escriptura doble del Dynamics 365 Project Operations** i, a continuació, seleccioneu **Aplica**.
 
     ![Confirmar les solucions.](./media/14ConfirmSolutions.png)
 

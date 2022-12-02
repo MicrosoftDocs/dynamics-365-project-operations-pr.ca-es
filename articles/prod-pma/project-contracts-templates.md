@@ -1,6 +1,6 @@
 ---
 title: Sincronitzar contractes de projectes i projectes directament des del Project Service Automation a Finances
-description: En aquest article es descriu la plantilla i les tasques subjacents que s'utilitzen per sincronitzar contractes i projectes de projectes directament des de Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+description: Aquest article descriu la plantilla i tasques subjacents que s'utilitzen per sincronitzar els contractes del projecte i els projectes directament des del Microsoft Dynamics 365 Project Service Automation al Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933848"
 
 
 
-En aquest article es descriu la plantilla i les tasques subjacents que s'utilitzen per sincronitzar contractes i projectes de projectes directament des de Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Aquest article descriu la plantilla i tasques subjacents que s'utilitzen per sincronitzar els contractes del projecte i els projectes directament des del Dynamics 365 Project Service Automation al Dynamics 365 Finance.
 
 > [!NOTE] 
 > Si utilitzeu l'Enterprise Edition 7.3.0, heu d'instal·lar el KB 4074835.
@@ -120,15 +120,15 @@ Quan s'aplica la solució d'integració del Project Service Automation al Financ
 
 ## <a name="power-query"></a>Power Query
 
-Utilitzeu Microsoft Power Query per a l'Excel per filtrar les dades si es compleixen les condicions següents:
+Utilitzeu el Microsoft Power Query per a l'Excel per filtrar les dades si es compleixen les condicions següents:
 
 - Teniu comandes de vendes al Dynamics 365 Sales.
 - Teniu diverses unitats organitzatives al Project Service Automation, i aquestes unitats organitzatives s'assignaran a diverses entitats jurídiques al Finance.
 
-Si heu d'utilitzar Power Query, seguiu aquestes directrius:
+Si heu d'utilitzar el Power Query, seguiu aquestes instruccions:
 
 - La plantilla Projectes i contractes (PSA a Fin and Ops) té un filtre per defecte que inclou només les comandes de venda del tipus **Element de treball (msdyn\_ordertype = 192350001)**. Aquest filtre ajuda a garantir que els contractes del projecte no es creen per a les comandes de vendes al Finance. Si creeu una plantilla pròpia, heu d'afegir aquest filtre.
-- Creeu un Power Query filtre que inclogui només les organitzacions de contractes que s'han de sincronitzar amb l'entitat jurídica del conjunt de connexions d'integració. Per exemple, els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso US s'han de sincronitzar a l'entitat jurídica USSI, però els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso Global se sincronitzaran amb l'entitat jurídica USMF. Si no afegiu aquest filtre a l'assignació de tasques, tots els contractes del projecte se sincronitzaran amb l'entitat jurídica que es defineixi per al conjunt de connexions, independentment de la unitat organitzativa del contracte.
+- Creeu un filtre del Power Query que només inclogui les organitzacions de contracte que s'han de sincronitzar amb l'entitat legal del conjunt de connexió d'integració. Per exemple, els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso US s'han de sincronitzar a l'entitat jurídica USSI, però els contractes de projecte que teniu amb la unitat organitzativa de contracte de Contoso Global se sincronitzaran amb l'entitat jurídica USMF. Si no afegiu aquest filtre a l'assignació de tasques, tots els contractes del projecte se sincronitzaran amb l'entitat jurídica que es defineixi per al conjunt de connexions, independentment de la unitat organitzativa del contracte.
 
 ## <a name="template-mapping-in-data-integration"></a>Assignació de plantilles a la integració de dades
 

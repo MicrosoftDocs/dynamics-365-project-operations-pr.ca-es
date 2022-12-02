@@ -1,6 +1,6 @@
 ---
 title: Línies del subcontracte per al temps
-description: En aquest article s'explica com registrar les línies de subcontractació durant el temps i registrar la compra de temps als venedors.
+description: En aquest article s'explica com registrar línies de subcontracte per al temps i registrar la compra de temps dels proveïdors.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

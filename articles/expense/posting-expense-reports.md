@@ -1,6 +1,6 @@
 ---
 title: Publicació d'informes de despeses
-description: En aquest article s'explica com publicar informes de despeses.
+description: En aquest article es descriu com comptabilitzar informes de despeses.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Per comptabilitzar un informe de despeses, a la pàgina **Informes de despeses a
 
 També podeu comptabilitzar tots els informes de despeses a la llista alhora. Seleccioneu tots els informes de despeses i, a continuació, seleccioneu **Comptabilitza**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Habiliteu la possibilitat de publicar responsabilitats de despeses en moneda del proveïdor per a la funció de mètode de pagament en efectiu
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Habilitar Capacitat de publicar la responsabilitat de despeses en la moneda del proveïdor per a la característica de mètode de pagament en efectiu
 
-La **possibilitat de publicar responsabilitats de despeses en moneda del proveïdor per a la funció de mètode** de pagament en efectiu permet publicar informes de despeses en una moneda del proveïdor per a la forma de pagament en efectiu.
+La característica **Capacitat de publicar la responsabilitat de despeses en la moneda del proveïdor per a la característica de mètode de pagament en efectiu** permet publicar els informes de despeses en una moneda de proveïdor per al mètode de pagament en efectiu.
 
-Actualment, quan envieu despeses en efectiu, els informes de despeses es publiquen a la moneda comptable. A causa de la conversió d'import entre la moneda de la transacció, la moneda comptable i la moneda del proveïdor, es paga un import incorrecte als proveïdors si la data de transacció de la despesa i la data de pagament real tenen tipus de canvi diferents.
+Actualment, quan envieu despeses d'efectiu, els informes de despesa es publiquen en la moneda de comptabilitat. A causa de la conversió de l'import entre la moneda de la transacció, la moneda de comptabilitat i la moneda del proveïdor, es paga un import incorrecte als proveïdors si la data de transacció de la despesa i la data de pagament real tenen diferents tipus de canvi.
 
-Aquesta funció garantirà que el saldo del proveïdor es registri a la moneda del proveïdor quan es publiqui l'informe de despeses.
+Aquesta característica garantirà que es registri el saldo del proveïdor en la moneda del proveïdor quan es publiqui l'informe de despeses.
 
 1. Aneu a **Àrees de treball** \> **Administració de característiques**.
-2. A la llista, cerqueu i seleccioneu **Capacitat per publicar la responsabilitat de despeses en la moneda del proveïdor per a la forma** de pagament en efectiu i, a continuació, seleccioneu **Habilita ara**.
+2. A la llista, cerqueu i seleccioneu **Capacitat de publicar la responsabilitat de despeses en la moneda del proveïdor per al mètode de pagament en efectiu** i, a continuació, seleccioneu **Habilita ara**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

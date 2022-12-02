@@ -1,6 +1,6 @@
 ---
 title: Administració de la delegació
-description: En aquest article s'ofereix informació sobre com un delegat de despeses pot crear i gestionar informes de despeses per a un altre empleat.
+description: En aquest article es proporciona informació sobre com un delegat de despesa pot crear i administrar informes de despeses per a un altre empleat.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

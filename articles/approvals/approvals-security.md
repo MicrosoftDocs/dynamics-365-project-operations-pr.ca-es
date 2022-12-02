@@ -1,6 +1,6 @@
 ---
 title: Seguretat i aprovacions
-description: Aquest article proporciona informació sobre la configuració de seguretat per treballar amb aprovacions a Microsoft Dynamics 365 Project Operations.
+description: En aquest article es proporciona informació sobre la configuració de seguretat per treballar amb aprovacions al Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 08/29/2022
 ms.topic: security
@@ -17,22 +17,22 @@ ms.locfileid: "9709385"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Microsoft Dynamics 365 Project Operations utilitza dues funcions de seguretat per permetre l'aprovació de les entrades de temps, despeses i material:
+El Microsoft Dynamics 365 Project Operations utilitza dues funcions de seguretat per permetre l'aprovació d'entrades de temps, despesa i materials:
 
 - Aprovador del projecte
-- Administrador d'aprovació de projectes
+- Administrador aprovador del projecte
 
 ## <a name="project-approver"></a>Aprovador del projecte
 
-Heu de tenir el **funció de seguretat d'aprovació** del projecte per aprovar el temps, les despeses i les entrades de material del projecte. També heu de tenir accés a les entitats relacionades pertinents, com **ara Project**. Aquest accés el pot assignar algú que tingui la **funció de gestor** de projectes. A més, heu de ser membre de l'equip del projecte i marcar-lo com a aprovador.
+Heu de tenir la funció de seguretat d'**Aprovador del projecte** per aprovar les entrades de temps, despesa i materials del projecte. També heu de tenir accés a les entitats relacionades rellevants, com ara **Projecte**. Algú que té la funció **Administrador de projectes** pot concedir-hi accés. A més, heu de ser membre de l'equip del projecte i estar marcat com a aprovador.
 
-Per aprovar les candidatures que no són de projecte, heu de ser el gestor del remitent.
+Per aprovar les entrades que no són de projecte, heu de ser l'administrador de la persona que fa l'enviament.
 
-## <a name="project-approver-admin"></a>Administrador d'aprovació de projectes
+## <a name="project-approver-admin"></a>Administrador aprovador del projecte
 
 > [!NOTE]
-> La característica Conjunts [d](approval-sets.md)'aprovació s'ha d'habilitar abans de poder utilitzar la funcionalitat Administració d'aprovació de projectes.
+> La característica [Conjunts d'aprovació](approval-sets.md) ha d'estar habilitada per poder utilitzar la funcionalitat d'Administrador aprovador del projecte.
 
-El **funció de seguretat d'administració** d'aprovació de projectes permet als usuaris eludir les polítiques i permet l'aprovació d'entrades en tots els projectes. L'assignació d'aquesta funció evitarà la lògica de validació que requereix la pertinença a l'equip i que es marcarà com a aprovador. Heu de tenir accés a les taules relacionades pertinents, com **ara Project**, mitjançant funcions de seguretat que se us assignin.
+La funció de seguretat **Administrador aprovador del projecte** permet als usuaris ignorar les normes i permet l'aprovació d'entrades a tots els projectes. L'assignació d'aquesta funció ometrà la lògica de validació que requereix pertànyer a l'equip i estar marcat com a aprovador. Heu de tenir accés a les taules relacionades rellevants, com ara **Projecte**, a través de les funcions de seguretat que teniu assignades.
 
-El context d'usuari del SISTEMA evita les validacions de la mateixa manera que el funció de seguretat d'administració d'aprovació de projectes.
+El context d'usuari del SISTEMA omet les validacions de la mateixa manera que la funció de seguretat d'Administrador aprovador de projecte.

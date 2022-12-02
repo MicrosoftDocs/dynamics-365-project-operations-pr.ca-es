@@ -50,15 +50,15 @@ La característica **Càlcul d'imports de quilometratge per a diversos nivells d
 
 Després d'habilitar la característica, restabliu els nivells de quilometratge per reflectir correctament el valor del camp **Quantitat**. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Habiliteu el càlcul de totals de quilometratge per exercici fiscal funció
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Habiliteu la característica Càlcul de totals de quilometratge per exercici fiscal
 
-El **càlcul de totals de quilometratge per exercici fiscal** funció permet una nova configuració en paràmetres de gestió de despeses que realitza càlculs de totals de quilometratge per exercici fiscal en lloc de l'any natural. Completeu els passos següents per habilitar aquesta característica.
+La característica **Càlcul de totals de quilometratge per exercici fiscal** permet una nova configuració dels paràmetres d'administració de despeses que duu a terme els càlculs dels totals de quilometratge per exercici fiscal en comptes de per any natural. Completeu els passos següents per habilitar aquesta característica.
 
 1. Aneu a **Àrees de treball** > **Administració de característiques**.
-1. A la llista, localitzeu i seleccioneu **Càlcul de totals de quilometratge per exercici fiscal** i, a continuació, seleccioneu **Habilita ara**.
-1. Aneu a **Configuració de despeses** > **Paràmetres** > **de gestió de despeses generals** > **·**.
-1. A la **pàgina Paràmetres** de gestió de despeses, localitzeu i habiliteu **Utilitza exercici fiscal per als totals** de quilometratge.
+1. A la llista, localitzeu i seleccioneu **Càlcul del totals de quilometratge per exercici fiscal** i, a continuació, seleccioneu **Habilita ara**.
+1. Aneu a **Administració de despeses** > **Configuració** > **General** > **Paràmetres d'administració de despeses**.
+1. A la pàgina **Paràmetres d'administració de despeses**, localitzeu i habiliteu **Utilitza l'exercici fiscal per als totals de quilometratge**.
 
-Després d'activar **Use exercici fiscal per als totals** de quilometratge, els totals de quilometratge es calculen per exercici fiscal.
+Després d'habilitar **Utilitza l'exercici fiscal per als totals de quilometratge**, els totals de quilometratge es calculen per exercici fiscal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

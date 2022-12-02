@@ -1,6 +1,6 @@
 ---
 title: Editar un requisit de recursos
-description: Aquest article proporciona informació sobre l'actualització de la informació sobre els requisits de recursos.
+description: En aquest article es proporciona informació sobre l'actualització de la informació dels requisits dels recursos.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: 'Novetats de gener de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de gener de 2021 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de gener de 2021 del Project Operations per a escenaris de recursos/sense existències.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "9029565"
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
   - Project Operations en entorn del Dataverse versió 4.6.0.154
-  - Administració i comptabilitat de projectes en Dynamics 365 Finance'entorn versió 10.0.16
+  - Administració de projectes i comptabilitat en l'entorn del Dynamics 365 Finance, versió 10.0.16
 
 ## <a name="quality-updates"></a>Actualitzacions de qualitat
 
@@ -43,7 +43,7 @@ Aquest article s'aplica als components i versions següents Dynamics 365 Project
 | **Planificació i seguiment de projectes** | 2090202 | S'han marcat les regles de negoci que ja no s'utilitzen com a **Obsoletes**. |
 | **Temps i despesa** | 2091249 | S'han ajustat els controls de manera que els usuaris no poden canviar la tasca en una entrada de temps enviada o aprovada. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració i comptabilitat de projectes en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
 
 | **Àrea de característiques** | **Número de referència** | **Actualització de qualitat** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Aquest article s'aplica als components i versions següents Dynamics 365 Project
 
 ## <a name="regulatory-updates"></a>Actualitzacions reglamentàries
 
-Per obtenir informació sobre les actualitzacions reguladores de les aplicacions de finances i operacions, vegeu [Actualitzacions normatives](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions de finances i operacions, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

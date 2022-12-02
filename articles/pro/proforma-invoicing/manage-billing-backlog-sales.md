@@ -1,6 +1,6 @@
 ---
 title: Administració del treball pendent de facturació del projecte
-description: Aquest article proporciona informació sobre les diverses visualitzacions disponibles per utilitzar en gestionar el registre de facturació en projectes.
+description: En aquest article es proporciona informació sobre les diferents visualitzacions disponibles per utilitzar-les quan s'administra el registre de facturació als projectes.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

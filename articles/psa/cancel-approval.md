@@ -1,6 +1,6 @@
 ---
 title: Cancel·lar entrades de temps i de despeses aprovades prèviament
-description: En aquest article s'ofereix informació sobre com cancel·lar una transacció de temps i despeses aprovada del projecte.
+description: En aquest article es proporciona informació sobre com cancel·lar una transacció de despesa i temps de projecte aprovada.
 author: rumant
 ms.custom:
 - dyn365-projectservice

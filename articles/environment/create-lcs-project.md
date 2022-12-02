@@ -1,6 +1,6 @@
 ---
 title: Inici d'un projecte LCS nou
-description: En aquest article es proporciona informació sobre la creació d'un projecte nou en LCS per al vostre entorn d'operacions de projecte.
+description: En aquest article s'ofereix informació sobre la creació d'un projecte nou al LCS per a l'entorn del Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Utilitzeu els Lifecycle Services (LCS) per administrar els entorns del Dynamics 
   ![Trieu el tipus de projecte LCS.](./media/create-lcs-1.png)
 
 5. Anomeneu el projecte. 
-6. Seleccioneu **Finances i operacions** com a nom del producte i seleccioneu la indústria i la metodologia. 
+6. Seleccioneu **Finances i operacions** com a nom del producte i, a continuació, seleccioneu el sector i la metodologia. 
 7. Seleccioneu **Crea**.
 
 ![Crea el projecte LCS.](./media/create-lcs-2.png)

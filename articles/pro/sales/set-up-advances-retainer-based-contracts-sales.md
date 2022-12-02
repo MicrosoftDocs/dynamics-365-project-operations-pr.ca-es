@@ -1,6 +1,6 @@
 ---
 title: Avançaments i contractes de bestreta
-description: En aquest article s'ofereix informació sobre els models de contractació basats en retenidors i els avenços en operacions de projectes.
+description: Aquest article proporciona informació sobre els models de contractació basats en bestretes i els avançaments al Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Configuració i aplicació de les dades de configuració al Microsoft Dataverse
-description: Aquest article proporciona informació sobre com configurar i aplicar les dades de configuració al Project Operations.
+description: En aquest article es proporciona informació sobre com configurar i aplicar les dades de configuració al Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 ## <a name="prerequisites"></a>Requisits previs
 
-Abans de començar a configurar les dades en el Microsoft Dataverse, s'han de complir els següents requisits previs:
+Abans de començar a configurar les dades al Microsoft Dataverse, cal complir els requisits previs següents:
 
-1.  Proporcionar un Dataverse entorn i un entorn Dynamics 365 Finance per a les operacions del projecte.
-2.  La informació de les persones jurídiques de Dynamics 365 Finance es comparteix amb l'entorn Dataverse. Això significa que l'entitat de l'empresa **té** Dataverse els registres socials següents:
+1.  Proveir un entorn del Dataverse i un entorn del Dynamics 365 Finance per al Project Operations.
+2.  La informació de les entitats jurídiques del Dynamics 365 Finance es comparteix a l'entorn del Dataverse. Això significa que l'entitat **Empresa** al Dataverse té els següents registres d'empresa:
   - THPM
   - USPM
   - GBPM

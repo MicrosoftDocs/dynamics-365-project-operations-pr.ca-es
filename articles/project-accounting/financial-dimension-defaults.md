@@ -1,6 +1,6 @@
 ---
 title: Valors per defecte de la dimensió financera
-description: En aquest article s'ofereix informació sobre com configurar els valors predeterminats de les dimensions financeres.
+description: Aquest article proporciona informació sobre com configurar els valors predeterminats de les dimensions financeres.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 
 
-Dynamics 365 Project Operations utilitza el [marc de dimensions financeres](/dynamics365/finance/general-ledger/financial-dimensions) a Dynamics 365 Finance per proporcionar informació addicional sobre les transaccions de subledger de projectes i llibres de comptabilitat general.
+El Dynamics 365 Project Operations utilitza el marc de [Dimensions financeres](/dynamics365/finance/general-ledger/financial-dimensions) del Dynamics 365 Finance per proporcionar informació addicional sobre les transaccions del subdiari del projecte i el diari general.
 
 Les dimensions financeres predeterminades es poden establir en un client, font de finançament de projectes, fita, línia de contracte de projecte o projecte.
 

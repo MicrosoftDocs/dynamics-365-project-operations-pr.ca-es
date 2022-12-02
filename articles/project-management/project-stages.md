@@ -1,6 +1,6 @@
 ---
 title: Fases del projecte
-description: Aquest article proporciona informació sobre les etapes del projecte que estan disponibles a Microsoft Dynamics Project Operations.
+description: En aquest article s'ofereix informació sobre les fases del projecte disponibles al Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Quan associeu un projecte a una oferta o creeu un projecte a partir d'una oferta
 
 ## <a name="plan"></a>Pla
 
-Quan guanyeu una oferta associada amb un projecte, i quan el projecte avança a la fase **Contracte**, la fase de projecte s'actualitza a **Pla**. Mentre el projecte es troba en fase de **pla**, la **pestanya Vendes** de la **pàgina Entitat** del projecte mostra els detalls del contracte.
+Quan guanyeu una oferta associada amb un projecte, i quan el projecte avança a la fase **Contracte**, la fase de projecte s'actualitza a **Pla**. Quan el projecte està en la fase **Pla**, els detalls del contracte es mostren a la pestanya **Vendes** de la pàgina **Entitat del projecte**.
 
 ## <a name="deliver"></a>Lliurament
 

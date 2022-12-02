@@ -1,6 +1,6 @@
 ---
 title: Avançament d'efectiu
-description: En aquest article s'ofereix informació sobre les bestretes d'efectiu.
+description: Aquest article proporciona informació sobre els avançaments d'efectiu.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Abans d'enviar un informe de despeses, podeu seleccionar l'avançament en efecti
  
  Quan aquestes característiques estan habilitades:
  
-  - Pots afegir una o més bestretes en efectiu per a cada línia de despeses.
+  - Podeu afegir una o més bestretes d'efectiu per cada línia de despesa.
   - El saldo disponible d'una bestreta d'efectiu és visible en temps real quan es desa un informe de despeses. Això us permet processar les transaccions de despeses i la transacció de devolució d'efectiu al mateix temps.
   - Podeu seleccionar diversos avançaments d'efectiu per a una transacció de despesa.
   - Les dades de conciliació d'avançament d'efectiu estan disponibles mitjançant una consulta. 

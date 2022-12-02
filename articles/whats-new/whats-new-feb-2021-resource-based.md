@@ -1,6 +1,6 @@
 ---
 title: 'Novetats de febrer de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de febrer de 2021 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de febrer de 2021 del Project Operations per a escenaris de recursos/sense existències.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029603"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
 - Project Operations a l'entorn del Dataverse 4.7.0.95
-- Administració i comptabilitat de projectes en Dynamics 365 Finance'entorn versió 10.0.16 
+- Administració de projectes i comptabilitat en l'entorn del Dynamics 365 Finance, versió 10.0.16 
 
 ## <a name="quality-updates"></a>Actualitzacions de qualitat
 
@@ -44,14 +44,14 @@ Aquest article s'aplica als components i versions següents Dynamics 365 Project
 | **Entrada de temps** | 2129161 | S'apliquen restriccions més ajustades per garantir que els usuaris no poden canviar ni actualitzar una entrada de temps enviada o aprovada. |
 | **Entrada de temps** | 2103572 | La aprovació de temps per a entrades de tempos que no són de projecte no pot estar cercant funció d'aprovador de projecte. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració i comptabilitat de projectes en Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance 
 
-Per obtenir més informació sobre l'administració de projectes i la comptabilitat en Dynamics 365 Finance, vegeu [Novetats de gener de 2021 - Operacions del projecte per a escenaris basats en recursos o no emmagatzemats](whats-new-jan-2021-resource-based.md).
+Per obtenir més informació sobre l'administració i la comptabilitat de projectes al Dynamics 365 Finance, vegeu [Novetats del gener de 2021 - Project Operations per a escenaris basats en recursos/sense existències](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Actualitzacions reglamentàries
 
-Per obtenir informació sobre les actualitzacions reguladores de les aplicacions de finances i operacions, vegeu [Actualitzacions normatives](/dynamics365/finance/localizations/regulatory-updates). Una altra manera de saber les actualitzacions reglamentàries és iniciar sessió als Lifecycle Services (LCS) i visualitzar les actualitzacions reglamentàries planificades mitjançant l'eina de cerca d'edicions. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions de finances i operacions, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). Una altra manera de saber les actualitzacions reglamentàries és iniciar sessió als Lifecycle Services (LCS) i visualitzar les actualitzacions reglamentàries planificades mitjançant l'eina de cerca d'edicions. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

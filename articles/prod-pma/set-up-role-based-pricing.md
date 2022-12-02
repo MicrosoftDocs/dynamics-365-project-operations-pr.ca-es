@@ -1,6 +1,6 @@
 ---
 title: Configurar els preus basats en funcions
-description: En aquest article s'ofereix informació sobre com configurar els preus per a funcions específiques.
+description: Aquest article proporciona informació sobre com configurar preus per a funcions específiques.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

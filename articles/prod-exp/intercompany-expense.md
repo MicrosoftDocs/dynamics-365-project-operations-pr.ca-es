@@ -1,6 +1,6 @@
 ---
 title: Despeses entre empreses
-description: En aquest article s'informació sobre com utilitzar les despeses interempresasables per assignar les despeses d'un treballador a la persona jurídica per a la qual es va realitzar l'obra.
+description: En aquest article es proporciona informació sobre com utilitzar les despeses entre empreses per assignar les despeses d'un treballador a l'entitat legal per a la qual es va dur a terme la feina.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

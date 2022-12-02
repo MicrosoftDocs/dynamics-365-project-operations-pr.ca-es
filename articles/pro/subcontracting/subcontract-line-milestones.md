@@ -1,6 +1,6 @@
 ---
 title: Fites de línia de subcontracte
-description: En aquest article s'explica com crear i mantenir un calendari de factures basat en fites per a un subcontractista amb un proveïdor.
+description: En aquest article s'explica com crear i mantenir una planificació de facturació basada en fites per a un subcontracte amb un proveïdor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Línies de factura del proveïdor per a productes
-description: En aquest article s'explica com registrar les línies de factures dels proveïdors dels productes i s'utilitzen els diferents camps per registrar les compres de productes dels proveïdors.
+description: En aquest article s'explica com registrar les línies de factura de proveïdor per als productes i utilitzar els diferents camps per registrar les compres de productes dels proveïdors.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,30 +17,30 @@ ms.locfileid: "9261546"
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Una factura de proveïdor a Microsoft Dynamics 365 Project Operations pot tenir línies de factures de proveïdors per als productes (també anomenats materials). Els gestors de projectes poden utilitzar línies de factures de proveïdors de productes per registrar els costos dels productes que s'han comprat en projectes.
+Una factura del proveïdor del Microsoft Dynamics 365 Project Operations pot tenir línies de factura del proveïdor per als productes (també anomenades materials). Els administradors de projecte poden utilitzar les línies de factura de proveïdor per a productes per registrar els costos dels productes comprats en els projectes.
 
-Les línies de factures dels proveïdors de productes poden fer referència o no a una línia de subcontractació de materials. Si una línia de factures de proveïdors de productes fa referència a un subcontractista, els gestors de projectes podran fer coincidir i verificar els productes que estan sent facturats per la línia de factura del venedor amb l'ús de productes comprats que són registrats i aprovats pels gestors del projecte.
+Les línies de factura de proveïdor per a productes podrien o no fer referència a una línia de subcontracte per a materials. Si una línia de factura de proveïdor per a productes fa referència a un subcontracte, els administradors de projecte podran fer coincidir i verificar els productes que s'estan facturant amb la línia de factura de proveïdor amb l'ús dels productes comprats que registren i aproven els administradors del projecte.
 
-La taula següent proporciona informació sobre els camps de les línies de factures de proveïdors de productes.
+La taula següent proporciona informació sobre els camps de les línies de factura de proveïdor per a productes.
 
 | Camp | Descripció | Impacte funcional |
 | --- | --- | --- |
-| Nom | El nom de la línia de factura del venedor, per ajudar a la identificació. | Aquest nom es mostrarà com a primera columna de totes les cerques basades en línies de factures de proveïdor. |
-| Descripció | Una breu descripció dels productes que està facturant el venedor a la línia de factura del proveïdor. | cap |
-| Subcontracte | La subcontractació en què es van encarregar originalment els productes. | Quan se selecciona un subcontractista per a la factura del venedor, totes les línies de la factura del venedor heretaran aquesta selecció. Una factura de proveïdor no pot tenir línies de factures de proveïdors que facin referència a diferents subcontractes. |
-| Línia de subcontractació | La línia de subcontractació en la qual es van encarregar els productes. La llista de línies de subcontractació que es poden seleccionar es limita a les línies de la subcontractació seleccionada. | Quan se selecciona una línia de subcontractació en una línia de factura de proveïdor per a productes, els valors predeterminats per als **camps Projecte**, **Tasca** i **Producte** s'introdueixen des dels camps corresponents de la línia de subcontractació. Si la línia de subcontractació seleccionada té valors als **camps Projecte**, **Tasca** i **Producte**, els valors dels camps corresponents de la línia de factura del proveïdor no poden diferir d'aquests valors. |
-| Data de la transacció | La data en què es registrarà al projecte el cost real de la línia de factura del proveïdor. | cap|
-| Classe de la transacció | Quan es facturen productes, aquest camp s'ha d'establir a **Material**. | El valor **Material** indica que la línia de factura del proveïdor s'està utilitzant per registrar l'import de la factura dels materials que es van comprar. |
-| Project | El nom del projecte en què es van utilitzar els productes que s'estan facturant. | Aquest camp és obligatori i no es pot deixar en blanc. |
-| Tasca | El nom de la tasca del projecte en què es van utilitzar els productes que s'estan facturant. Aquest camp només està disponible si se selecciona un projecte. La selecció d'una tasca de projecte és opcional. | Si aquest camp es deixa en blanc, el gestor de projectes pot fer coincidir la línia de factura del proveïdor amb el producte comprat que s'utilitza en qualsevol tasca del projecte. Si la línia de factures del proveïdor no fa referència a una línia de subcontractació i aquest camp es deixa en blanc, el cost real creat per la línia de factures del proveïdor no estarà vinculat a cap real de vendes no codificat. En aquest cas, si es configura la facturació basada en tasques, els costos no es podran facturar al client final. |
-| Seleccioneu el producte | Seleccioneu si el producte que s'està facturant és un producte existent del catàleg o un producte escrit. | El valor per defecte s'introdueix des de la línia de subcontractació quan se selecciona una línia de subcontractació. |
-| Producte | Seleccioneu el producte del catàleg. Si el producte és un producte escrit, introduïu el nom del producte. | Aquest camp s'utilitza per introduir els preus de compra predeterminats dels productes existents. |
-| Quantitat | Introduïu la quantitat de material que està facturant el venedor en aquesta línia de factura. | cap |
+| Nom | Nom de la línia de factura de proveïdor per ajudar a identificar-la. | Aquest nom es mostrarà com la primera columna de totes les consultes basades en les línies de factura de proveïdor. |
+| Descripció | Descripció breu dels productes que factura el proveïdor a la línia de factura de proveïdor. | cap |
+| Subcontracte | El subcontracte en què es van demanar els productes originalment. | Quan se selecciona un subcontracte per a la factura del proveïdor, totes les línies de la factura del proveïdor heretaran aquesta selecció. Una factura del proveïdor no pot tenir línies de factura del proveïdor que facin referència a diferents subcontractes. |
+| Línia de subcontracte | La línia de subcontracte en què es van demanar els productes. La llista de línies de subcontracte que es poden seleccionar està limitada a les línies del subcontracte seleccionat. | Quan se selecciona una línia de subcontracte en una línia de factura de proveïdor per a productes, els valors per defecte dels camps **Projecte**, **Tasca** i **Producte** s'introdueixen des dels camps corresponents de la línia de subcontracte. Si la línia de subcontracte seleccionada té valors als camps **Projecte**, **Tasca** i **Producte**, els valors dels camps corresponents de la línia de factura de proveïdor no poden diferir d'aquests valors. |
+| Data de la transacció | La data en què el valor real de cost de la línia de factura del proveïdor es registrarà al projecte. | cap|
+| Classe de la transacció | Quan es facturen els productes, aquest camp s'ha de definir com a **Material**. | El valor de **Material** indica que la línia de factura del proveïdor s'utilitza per registrar l'import de la factura dels materials que s'han comprat. |
+| Project | Nom del projecte on s'han utilitzat els productes que es facturen. | Aquest camp és obligatori i no es pot deixar en blanc. |
+| Tasca | Nom de la tasca de projecte on s'han utilitzat els productes que es facturen. Aquest camp només està disponible si se selecciona un projecte. La selecció d'una tasca de projecte és opcional. | Si aquest camp es deixa en blanc, l'administrador del projecte pot aparellar la línia de factura de proveïdor amb el producte comprat que s'utilitza en qualsevol tasca del projecte. Si la línia de factura del proveïdor no fa referència a una línia de subcontracte i aquest camp es deixa en blanc, el valor real de cost que crea la línia de factura del proveïdor no s'enllaçarà amb cap valor real de vendes no facturades. En aquest cas, si es configura la facturació basada en tasques, els costos no es podran facturar al client final. |
+| Seleccioneu el producte | Seleccioneu si el producte que s'està facturant és un producte existent del catàleg o si és un producte fora de catàleg. | El valor per defecte s'introdueix des de la línia de subcontracte quan se selecciona una línia de subcontracte. |
+| Producte | Seleccioneu el producte del catàleg. Si el producte és un producte fora de catàleg, introduïu el nom del producte. | Aquest camp s'utilitza per introduir els preus de compra per defecte per als productes existents. |
+| Quantitat | Introduïu la quantitat de material que factura el proveïdor en aquesta línia de factura. | cap |
 | Grup d'unitats | Seleccioneu el grup d'unitats de la unitat en què s'expressa la quantitat que s'està facturant. | cap |
-| Unit | El valor per defecte és la unitat base del grup d'unitats que se selecciona. Podeu canviar aquest valor per pagar en qualsevol unitat del grup d'unitats seleccionat. | La combinació de valors Producte i Unitat s'utilitzarà **com a valor per defecte o computat per al camp Preu** unitari de **la línia de factura del proveïdor.** **·** |
-| Preu unitari | El preu unitari per defecte utilitza la combinació de valors Producte **i** **Unitat** de la llista de preus del projecte que s'aplica a la data de transacció de la línia de factura de proveïdor. | cap |
-| Subtotal | Aquest camp només de lectura es calcula com a *Quantitat*&times;*Preu* unitari, si s'introdueixen valors tant al camp Quantitat **com** al **camp Preu** unitari. Si un o tots dos camps estan en blanc, podeu introduir un valor en aquest camp. | cap |
+| Unit | El valor per defecte és la unitat base del grup d'unitats seleccionat. Podeu canviar aquest valor per pagar qualsevol unitat del grup d'unitats seleccionat. | La combinació dels valors **Producte** i **Unitat** s'utilitzarà com a valor per defecte o valor calculat per al camp **Preu unitari** de la línia de factura de proveïdor. |
+| Preu unitari | El preu unitari per defecte utilitza la combinació dels valors **Producte** i **Unitat** de la llista de preus del projecte aplicable a la data de la transacció de la línia de factura de proveïdor. | cap |
+| Subtotal | És un camp només de lectura que es calcula com *Quantitat* &times; *Preu unitari* si s'introdueixen valors tant en el camp **Quantitat** com en el camp **Preu unitari**. Si un o tots dos camps estan en blanc, podeu introduir un valor en aquest camp. | cap |
 | Impost sobre les vendes | Especifiqueu l'import de l'impost sobre les vendes. | cap |
-| Import total | L'import total de la línia de factures del proveïdor, inclosos els impostos. Aquest camp es calcula com a *impost sobre les vendes subtotals* + *·*. | cap |
+| Import total | Quantitat total de la línia de factura de proveïdor amb els impostos. Aquest camp es calcula com *Subtotal* + *Impost sobre les vendes*. | cap |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

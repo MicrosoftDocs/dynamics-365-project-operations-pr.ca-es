@@ -1,6 +1,6 @@
 ---
 title: Administració de subcontractacions al Project Operations
-description: Aquest article proporciona una visió general del procés de gestió de subcontractes d'extrem a extrem normalment en organitzacions basades en projectes.
+description: En aquest article es proporciona informació general del procés d'administració de subcontractes d'extrem a extrem típic de les organitzacions basades en projectes.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522313"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Aquest article proporciona una visió general del procés de gestió de subcontractes d'extrem a extrem en organitzacions basades en projectes. La subcontractació per a serveis normalment segueix el flux del procés de negoci que es mostra al diagrama següent.
+En aquest article es proporciona informació general del procés d'administració de subcontractes d'extrem a extrem en organitzacions basades en projectes. La subcontractació per a serveis normalment segueix el flux del procés de negoci que es mostra al diagrama següent.
 
 ![Flux del procés de subcontractació](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Una línia de subcontracte pot estar basada en quantitat o en treball.
 
 Quan una línia de subcontracte està **basada en quantitat**, la quantitat que es compra a la línia de subcontracte per a temps, despeses o material es pot utilitzar en qualsevol projecte.
 
-Quan una línia de subcontracte està **basada en el treball**, la línia de subcontracte s'assigna a un cos de treball representat per un node del pla del projecte. El valor de la línia de subcontracte és la suma de tots els components necessaris per dur a terme aquest cos del treball. Es modelen com a detalls de la línia de subcontracte i poden ser un conjunt de temps, despeses o material. Per a una línia de subcontracte basada en treball, la línia de subcontracte també es dedica a un únic projecte. Aquest tipus de subcontractes són currenlty no suportades per Project Operations.
+Quan una línia de subcontracte està **basada en el treball**, la línia de subcontracte s'assigna a un cos de treball representat per un node del pla del projecte. El valor de la línia de subcontracte és la suma de tots els components necessaris per dur a terme aquest cos del treball. Es modelen com a detalls de la línia de subcontracte i poden ser un conjunt de temps, despeses o material. Per a una línia de subcontracte basada en treball, la línia de subcontracte també es dedica a un únic projecte. Aquests tipus de subcontractes no estan admesos al Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

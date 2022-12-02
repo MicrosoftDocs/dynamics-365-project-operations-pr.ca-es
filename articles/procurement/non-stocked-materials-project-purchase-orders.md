@@ -1,6 +1,6 @@
 ---
 title: Comanda de materials no mantinguts en existències per a un projecte amb comandes de compra del projecte
-description: En aquest article s'explica com podeu demanar materials no emmagatzemats per a un projecte mitjançant ordres de compra de projectes.
+description: En aquest article s'explica com podeu fer una comanda de materials no mantinguts en existències per a un projecte amb comandes de compra del projecte.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -14,20 +14,20 @@ ms.contentlocale: ca-ES
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8929800"
 ---
-# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Categories de contractació de comandes o materials no emmagatzemats per a un projecte mitjançant ordres de compra de projectes
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Comanda de categories de proveïment o materials no mantinguts en existències per a un projecte amb comandes de compra del projecte
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-El departament de compres de l'organització podria utilitzar les [comandes de compra](/dynamics365/supply-chain/procurement/purchase-order-overview) per fer el seguiment de les comandes de béns i serveis. Les comandes de compra per a categories d'adquisició o materials no estoc es poden atribuir a un projecte. La facturació d'aquestes comandes de compra registra el cost al projecte.
+El departament de compres de l'organització podria utilitzar les [comandes de compra](/dynamics365/supply-chain/procurement/purchase-order-overview) per fer el seguiment de les comandes de béns i serveis. Les comandes de compra de categories de proveïment o materials que no es mantenen en existències es poden atribuir a un projecte. La facturació d'aquestes comandes de compra registra el cost al projecte.
 
 ## <a name="prerequisites"></a>Requisits previs
 Completeu els passos següents per habilitar la funcionalitat de les comandes de compra del projecte.
 
-1. Al Dynamics 365 Finance, aneu a l'àrea **de treball Gestió de** funcions.
+1. Al Dynamics 365 Finance, aneu a l'àrea de treball **Administració de característiques**.
 2. A la llista de característiques, cerqueu i seleccioneu la característica **Habilita les comandes de compra de projecte al Project Operations per a escenaris basats en recursos/no mantinguts en existències**.
 3. Seleccioneu **Habilita**.
 4. Configureu els materials no mantinguts en existències i les factures de proveïdor pendents tal com s'explica a [Configurar materials no mantinguts en existències i les factures de proveïdor pendents](configure-materials-nonstocked.md).
-5. Configureu les categories d'adquisició tal com es descriu a [Utilitza les categories d'adquisició amb ordres de compra de projectes i factures pendents de proveïdor](configure-procurement-categories.md).
+5. Configureu les categories de proveïment tal com es descriu a [Utilitza les categories de proveïment amb les comandes de compra de projectes i les factures de proveïdor pendents](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Crear una comanda de compra de projecte des de la llista de comandes de compra del projecte
 
@@ -35,12 +35,12 @@ Completeu els passos següents per habilitar la funcionalitat de les comandes de
 2. A la subfinestra Acció, a la pestanya **Administra**, al grup **Nou**, seleccioneu **Tasta d'element** > **Comanda de compra**.
 3. A la pàgina **Crea la comanda de compra**, seleccioneu el proveïdor amb el qual voleu fer la comanda de compra, introduïu la informació que calgui i, a continuació, seleccioneu **D'acord**.
 4. A la pàgina **Comanda de compra**, a la quadrícula **Adquireix línies de comanda**, seleccioneu **Afegeix línia**.
-5. Introduïu un número d'article o una categoria d'adquisició, quantitat, unitat, preu unitari i altra informació segons convingui.
+5. Introduïu un número d'element o una categoria de proveïment, quantitat, unitat, preu unitari i altres dades segons calgui.
 
     > [!NOTE]
-    > Només es poden utilitzar categories d'adquisició, articles no proveïts i serveis amb ordres de compra de projectes. Els elements emmagatzemats no són compatibles.
+    > Només es poden utilitzar categories de proveïment, article sense existències i serveis amb les comandes de compra de projecte. Els articles en estoc no estan admesos.
 
-6. Continueu afegint articles o categories de contractació segons calgui i confirmeu l'ordre de compra.
+6. Continueu afegint articles o categories de proveïment segons calgui i confirmeu la comanda de compra.
 
     Els rebuts de béns i serveis es poden registrar creant i comptabilitzant un rebut de producte.
 

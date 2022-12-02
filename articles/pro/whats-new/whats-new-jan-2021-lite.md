@@ -1,6 +1,6 @@
 ---
 title: Novetats del gener del 2021 - Implementació bàsica del Project Operations
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de gener de 2021 de la implementació lite d'operacions del projecte.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles en el llançament de gener de 2021 de la implementació bàsica del Project Operations.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "8934262"
 
 _S'aplica a: implementació bàsica: tracte de facturació proforma_
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
   - Project Operations en l'entorn del Dataverse versió 4.6.0.154.
   

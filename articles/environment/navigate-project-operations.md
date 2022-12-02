@@ -1,6 +1,6 @@
 ---
 title: Navegació pel Project Operations
-description: En aquest article s'ofereix informació sobre com accedir a les operacions del projecte des de Lifecycle Services.
+description: Aquest article proporciona informació sobre com accedir al Project Operations des del Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 El Dynamics 365 Project Operations per a escenaris de recursos/sense existències està format per dos components: 
 
  - **Project Operations a l'entorn del Common Data Service (CDS)**: aquest component cobreix funcionalitats i processos des de l'oportunitat fins a la facturació proforma. 
- - **Gestió de projectes i comptabilitat en Dynamics 365 Finance entorn**: aquest component cobreix les capacitats de gestió de despeses, la comptabilitat de projectes i el reconeixement d'ingressos. 
+ - **Administració de projectes i comptabilitat a l'entorn del Dynamics 365 Finance**: aquest component cobreix les funcionalitats d'administració de despeses, la comptabilitat de projectes i el reconeixement d'ingressos. 
 
-Després de proporcionar operacions de projecte tal com es descriu en aquest article, la pàgina Detalls de l'entorn **del cicle de vida (LCS)** proporciona un accés fàcil als dos components de les operacions del projecte.  
+Després de proveir el Project Operations tal com es descriu en aquest article, la pàgina **Detalls de l'entorn** del Lifecycle Services (LCS) proporciona un accés fàcil als components del Project Operations.  
 
 Utilitzeu el nom de l'entorn a la secció **Nom de l'entorn del Common Data Service** per navegar al Project Operations en un entorn del CDS. 
 

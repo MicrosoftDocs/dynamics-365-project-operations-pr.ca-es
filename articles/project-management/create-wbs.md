@@ -1,6 +1,6 @@
 ---
 title: Creació d'una estructura del desglossament del treball
-description: En aquest article s'explica com crear una estructura de desglossament del treball (WBS) que inclogui els controls bàsics de la nova interfície de planificació.
+description: En aquest article s'explica com es crea una estructura de desglossament del treball (WBS) que inclogui els controls bàsics de la nova interfície de planificació.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Feu els passos següents per indentar o ascendir una tasca.
 
 ### <a name="move-tasks-up-and-down"></a>Mou tasques amunt i avall
 
-Les tasques es poden moure a qualsevol nivell de l'estructura del desglossament del treball d'una d'aquestes dues maneres:
+Les tasques es poden desplaçar a qualsevol nivell de l'estructura del desglossament del treball d'una de dues maneres:
 
 - Seleccioneu una tasca més i arrossegueu-les a la ubicació desitjada.
 - Seleccioneu una o diverses tasques, feu clic amb el botó dret del ratolí i seleccioneu **Retalla**, seleccioneu la cel·la de destinació a la planificació i, a continuació, feu clic amb el botó dret del ratolí i seleccioneu **Enganxa**.
@@ -95,7 +95,7 @@ Com a administrador, podeu definir camps personalitzats a l'entitat de la tasca.
 
 ## <a name="staffing-attributes"></a>Atributs de personal
 
-Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o seleccionar **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.  Quan cerqueu un recurs mitjançant el selector de recursos a la quadrícula de tasques, a la visualització del tauler o a Gantt, la cerca retorna els membres de l'equip de projecte existents o els recursos que es poden reservar actius.
+Als atributs de personal s'hi accedeix a través del camp **Recursos** a la planificació. Podeu cercar un recurs existent o seleccionar **Crea** i a la subfinestra **Creació ràpida**, afegir un membre d'equip de projecte com a recurs nou.  Quan cerqueu un recurs utilitzant el selector de recursos a la quadrícula de tasques, la visualització del tauler o el gràfic de Gantt, la cerca retorna els membres de l'equip del projecte existents o els recursos actius que es poden reservar.
 
 Els camps **Funció**, **Unitat de recursos** i **Nom del càrrec** s'utilitzen per descriure els requisits de dotació de la tasca. Aquests atributs de personal, juntament amb la planificació de tasques, s'utilitzen per trobar els recursos disponibles per fer aquesta tasca.
 
@@ -113,16 +113,16 @@ Podeu utilitzar la planificació al Project Operations per crear relacions de pr
 
 El mode de la tasca no té cap efecte sobre les actualitzacions que es fan a la data d'inici i d'acabament del treball predecessor o dependent.
 
-## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Comprensió dels impactes de la durada, els calendaris de recursos i els calendaris de projectes en les tasques
-La durada d'una tasca es defineix com el nombre d'hores de treball entre l'hora d'inici de la data d'inici i l'hora de finalització de la data de finalització de la tasca.   Projecte per a la web defineix unitats de mesura de durada de la següent manera:
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Comprendre els impactes de la durada, els calendaris de recursos i els calendaris de projecte a les tasques
+La durada d'una tasca es defineix com el nombre d'hores de feina entre l'hora d'inici de la data d'inici i l'hora d'acabament de la data d'acabament de la tasca.   Project for the web defineix les unitats de durada de mesura de la següent manera:
 
 | **Mesura de durada** | **Quantitat**|
 |----------------------------------------------------|----------------------|
 | Hores al dia | 8 |
-| Hores setmanals |  40 |
+| Hores a la setmana |  40 |
 | Dies al mes |  20 |
 
-Les tasques no assignades es programen mitjançant el calendari del projecte. Tanmateix, després de l'assignació inicial de recursos, la planificació d'una tasca s'actualitza de manera que respecti el calendari del recurs. Els canvis posteriors a una tasca que tingui una assignació es regiran pel [mode](scheduling-modes.md) de planificació del projecte. Per obtenir més informació sobre la influència dels calendaris en les tasques, vegeu [Calendaris de recursos al projecte per al web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) i [Temps d'inici de tasques i els vostres projectes.](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Les tasques no assignades es planifiquen mitjançant el calendari del projecte. Tanmateix, en l'assignació de recursos inicial, la planificació d'una tasca s'actualitza perquè respecti el calendari del recurs. Els canvis posteriors en una tasca que té una assignació es regiran pel [mode de planificació](scheduling-modes.md) del projecte. Per obtenir més informació sobre la influència dels calendaris en les tasques, vegeu [Calendaris de recursos al Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) i [Hores d'inici de les tasques i els vostres projectes!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Dreceres de teclat i accessibilitat
@@ -139,7 +139,7 @@ Heu de tenir en compte les limitacions següents si esteu utilitzant l'estructur
 | Recursos totals màxims per a un projecte              | 300                  |
 | Enllaços totals màxims (només successor) per a un projecte | 600                  |
 | Camps personalitzats totals màxims per a un projecte          | 10                   |
-| Màxima llista de comprovació d'elements per tasca                   | 20                   |
+| Màxim d'elements de llista de verificació per tasca                   | 20                   |
 
 **Limitacions de les tasques**
 

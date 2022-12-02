@@ -1,6 +1,6 @@
 ---
 title: Aplicació mòbil Project timesheet
-description: Aquest article proporciona informació sobre l'aplicació Microsoft Dynamics 365 Project Timesheet mòbil. L'aplicació mòbil Project Timesheet permet que els usuaris presentin i aprovin els fulls d'hores per als projectes en el seu dispositiu mòbil.
+description: En aquest article es proporciona informació sobre l'aplicació mòbil Microsoft Dynamics 365 Project Timesheet. L'aplicació mòbil Project Timesheet permet que els usuaris presentin i aprovin els fulls d'hores per als projectes en el seu dispositiu mòbil.
 author: abruer
 ms.date: 06/29/2022
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "9110963"
 
 ## <a name="overview"></a>Informació general
 
-L'aplicació Microsoft Dynamics 365 Project Timesheet mòbil permet als usuaris enviar i aprovar fulls d'hores per als projectes al seu dispositiu mòbil (iPhone o Android). Aquesta aplicació mòbil mostra la funcionalitat del full d'hores que resideix a l'àrea d'administració de projectes i comptabilitat de Dynamics 365 Finance. Ajuda a millorar la productivitat i l'eficiència dels usuaris, i també permet l'entrada i aprovació oportuna dels fulls de temps del projecte.
+L'aplicació mòbil Microsoft Dynamics 365 Project Timesheet permet als usuaris presentar i aprovar els fulls d'hores per als projectes en el seu dispositiu mòbil (iPhone o Android). Aquesta aplicació mòbil ofereix la funcionalitat de fulls d'hores que resideix a l'àrea d'administració de projectes i comptabilitat del Dynamics 365 Finance. Ajuda a millorar la productivitat i l'eficiència de l'usuari, i també permet l'entrada oportuna i l'aprovació dels fulls d'hores del projecte.
 
 ## <a name="download-and-install-the-mobile-app"></a>Descarregar i instal·lar l'aplicació mòbil
 
@@ -38,18 +38,18 @@ Baixeu i instal·leu l' aplicació mòbil Microsoft Dynamics 365 Project Timeshe
 
 Al Finance, l'aplicació mòbil Project Timesheet ha d'estar habilitada. Per habilitar la funcionalitat, aneu **Paràmetres de l'administració de projectes i comptabilitat \> Fulls d'hores** i seleccioneu el paràmetre **Habilita el Microsoft Dynamics 365 Project Timesheet**.
 
-### <a name="resolve-sign-in-issues"></a>Resoldre problemes relacionats amb l'inici de sessió
+### <a name="resolve-sign-in-issues"></a>Resoldre errors d'inici de sessió
 
-**Problema:** durant l'inici de sessió a l'aplicació Project Timesheet Mobile, els usuaris reben un missatge d'error que indica que "no poden accedir a l'aplicació 2bc50526-cdc3-4e36-a970-c284c34cbd6e" en aquest inquilí.
+**Problema**: durant l'inici de sessió a l'aplicació Project Timesheet Mobile, els usuaris reben un missatge d'error que diu que "no es pot accedir a l'aplicació "2bc50526-cdc3-4e36-a970-c284c34cbd6e" en aquest inquilí."
 
-**Problema:** durant l'inici de sessió a l'aplicació Project Timesheet Mobile, els usuaris reben un error que s'assembla a un dels exemples següents:
+**Problema**: durant l'inici de sessió a l'aplicació Project Timesheet Mobile, els usuaris reben un error que s'assembla a un dels exemples següents:
 
-- "AADSTS50020: el compte d'usuari '[nom d'usuari]' del proveïdor d'identitats 'https://sts.windows.net/[identificador d'aplicació]' no existeix a l'inquilí '[identificador d'inquilí]' i no pot accedir a l'aplicació '[identificador d'aplicació]' en aquest inquilí"."
-- "El compte d'usuari seleccionat no existeix a l'inquilí '[identificador d'inquilí]' i no pot accedir a l'aplicació '[identificador d'aplicació]' d'aquest inquilí."
+- "AADSTS50020: el compte d'usuari '[nom d'usuari]' del proveïdor d'identitats 'https://sts.windows.net/[identificador d'aplicació]' no existeix a l'inquilí '[identificador d'inquilí]' i no es pot accedir a l'aplicació '[identificador d'aplicació]' en aquest inquilí."
+- "El compte d'usuari seleccionat no existeix a l'inquilí '[identificador d'inquilí]' i no es pot accedir a l'aplicació '[identificador d'aplicació]' en aquest inquilí."
 
-**Explicació:** Aquests problemes són causats per un canvi que es va fer a Azure Active Directory (Azure AD) el maig de 2022 i que està relacionat amb usuaris externs. Com que aquest canvi no s'ha fet a les aplicacions de finances i operacions, pot afectar els clients de qualsevol versió de la plataforma o aplicació.
+**Explicació**: aquests errors estan provocats per un canvi fet a l'Azure Active Directory (Azure AD) el maig de 2022 i que està relacionat amb els usuaris externs. Com que aquest canvi no s'ha fet per a les aplicacions de finances i operacions, pot afectar els clients en qualsevol versió de la plataforma o aplicació.
 
-**Correcció:** tots els usuaris externs han de ser convidats a l'inquilí a través de Azure AD. Per obtenir més informació, vegeu [Convidar usuaris amb Azure Active Directory col·laboració](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration) B2B.
+**Solució**: cal convidar els usuaris externs a l'inquilí a través de l'Azure AD. Per obtenir més informació, vegeu [Convidar usuaris amb la col·laboració B2B de l'Azure Active Directory](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
 
 ## <a name="sign-in-to-the-app"></a>Iniciar la sessió a l'aplicació
 
@@ -59,11 +59,11 @@ Al Finance, l'aplicació mòbil Project Timesheet ha d'estar habilitada. Per hab
 
 3.  La primera vegada que inicieu la sessió, se us demanarà el vostre nom d'usuari i la vostra contrasenya. Introduïu les vostres credencials.
 
-4. Iniciareu la sessió a la vostra empresa predeterminada.
+4. Iniciareu la sessió a l'empresa per defecte.
 
 ## <a name="submit-a-project-timesheet"></a>Enviar un full d'hores del projecte
 
-Podeu crear i enviar un full d'hores del projecte a l'aplicació. Podeu basar un nou full d'hores en la informació d'un full d'hores anterior, línies desades o assignacions de projectes. Si ets designat com a delegat, també pots introduir un full d'hores per a un altre treballador. Per crear un full de temps com a delegat, seleccioneu el **botó Menú** i, a continuació, seleccioneu un nom de recurs.
+Podeu crear i enviar un full d'hores del projecte a l'aplicació. Podeu basar un nou full d'hores en la informació d'un full d'hores anterior, línies desades o assignacions de projectes. Si se us designa com a delegat, també podeu introduir un full d'hores per a un altre treballador. Per crear un full d'hores com a delegat, seleccioneu el botó **Menú** i, a continuació, seleccioneu un nom de recurs.
 
 La pàgina de full d'hores crearà un nou full d'hores per al període del full d'hores, en funció de la data actual. Es mostrarà la setmana de treball. Si el període de temps del full d'hores cobreix diverses setmanes, podeu seleccionar una altra setmana de treball des de les pestanyes de setmana de treball.
 Si hi ha un full d'hores per a la data actual, es mostrarà. Si heu de crear un nou full d'hores en un període de temps diferent, seleccioneu el botó **Menú** i, a continuació, seleccioneu **Full d'hores nou**.
@@ -80,24 +80,24 @@ La informació del projecte que es mostra depèn dels paràmetres mòbils que h�
 
 Al camp **Entitat jurídica**, seleccioneu l'entitat jurídica per a la qual heu dut a terme el treball del projecte. El camp **Entitat jurídica** només està disponible si s'ha habilitat la compatibilitat amb els fulls d'hores entre empreses per a la vostra entitat jurídica.
 
-Seleccioneu el client que està associat amb el projecte del full d'hores. Per a la versió inicial a la, no s'admet l'entrada Android per client, ja que primer heu de seleccionar el projecte. Si heu seleccionat primer el projecte, el camp **Client** s'emplena automàticament.
+Seleccioneu el client que està associat amb el projecte del full d'hores. Per a la versió inicial de l'Android, l'entrada per client no està admesa, ja que primer heu de seleccionar el projecte. Si heu seleccionat primer el projecte, el camp **Client** s'emplena automàticament.
 
-**Al camp Projecte**, seleccioneu el projecte per al qual introduïu l'hora. El camp **Client** s'emplena automàticament.
+Al camp **Projecte**, seleccioneu el projecte per al qual esteu introduint hores. El camp **Client** s'emplena automàticament.
 
 Les cerques de clients i projectes permeten cercar entre clients i projectes.
 
 Seleccioneu la informació als camps **Categoria**, **Activitat**, **Propietat de la línia**, **Grup d'impostos de vendes** i **Grup d'impostos de vendes d'articles** segons calgui. Aquests camps es poden substituir.
 
-El camp **Propietat de la línia** es definirà en un valor per defecte, segons els paràmetres de l'administració de projectes i la comptabilitat. Quan s'habiliten els paràmetres de projecte/categoria i categoria/recurs, el valor de **Propietat de la línia** es definirà en el valor per defecte que heu definit per a aquesta validació. Quan els paràmetres projecte/categoria i categoria/recurs no estiguin habilitats, el valor de la **propietat** de línia es representarà per defecte segons el camp Habilita la **propietat** de línia per defecte a la **pàgina Administració del projecte i paràmetres comptables**. El valor **Propietat de la línia** es pot substituir.
+El camp **Propietat de la línia** es definirà en un valor per defecte, segons els paràmetres de l'administració de projectes i la comptabilitat. Quan s'habiliten els paràmetres de projecte/categoria i categoria/recurs, el valor de **Propietat de la línia** es definirà en el valor per defecte que heu definit per a aquesta validació. Quan els paràmetres de projecte/categoria i categoria/recurs no estan habilitats, el valor de **Propietat de la línia** serà per defecte segons el camp **Habilita la propietat de línia per defecte** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**. El valor **Propietat de la línia** es pot substituir.
 
 Seleccioneu un dia per afegir-hi hores. Introduïu el nombre d'hores que heu treballat cada dia.
 
-Per afegir comentaris sobre les hores que entreu, feu clic a **Afegeix comentaris** i, a continuació, introduïu comentaris per a un públic intern, públic del client o tots dos.
+Per afegir comentaris sobre les hores que esteu introduint, feu clic a **Afegeix comentaris** i, a continuació, introduïu els comentaris per a un públic intern, públic del client o tots dos.
 Els comentaris interns els poden visualitzar per administradors de projectes. Els comentaris del client s'inclouen a les factures.
 
 Per desar la línia com a preferida, marqueu la casella de selecció i, a continuació, feu clic a **Desa com a preferida**.
 
-La dimensió financera i el suport adjunt no es proporcionen a l'aplicació mòbil.
+La dimensió financera i la compatibilitat amb els fitxers adjunts no es proporcionen a l'aplicació mòbil.
 
 Continueu afegint línies de projecte segons calgui per completar el vostre full d'hores.
 
@@ -105,7 +105,7 @@ Feu clic a **Envia** per enviar el full d'hores al flux de treball d'aprovació.
 
 ## <a name="review-timesheets"></a>Revisar els fulls d'hores
 
-Al menú hi ha disponible una llista dels fulls d'hores que cal revisar. Aquesta opció només està disponible si se us ha designat com a aprovador del flux de treball. Es permet l'aprovació de la capçalera i la línia. L'aprovació de nivell de línia ofereix la capacitat de marcar una o diverses línies per a la seva aprovació. Després de revisar la informació del full de temps, feu clic a **Aprova**, **Delega** o **Retorna** per continuar el flux de treball.
+Hi ha disponible una llista dels fulls d'hores que s'han de revisar al menú. Aquesta opció només està disponible si heu estat designat aprovador de fluxos de treball. Es permet l'aprovació de la capçalera i la línia. L'aprovació de nivell de línia ofereix la capacitat de marcar una o diverses línies per a la seva aprovació. Després de revisar la informació del full de temps, feu clic a **Aprova**, **Delega** o **Retorna** per continuar el flux de treball.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

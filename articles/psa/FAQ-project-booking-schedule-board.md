@@ -1,6 +1,6 @@
 ---
 title: Crear una reserva de projecte des del tauler de planificació
-description: En aquest article s'ofereix informació sobre com crear una reserva de projecte des del tauler de planificació.
+description: En aquest article es proporciona informació sobre com crear una reserva de projecte des del tauler de planificació.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Línies del subcontracte per als productes
-description: En aquest article s'explica com registrar les línies de subcontractació de productes i utilitzar els diferents camps per registrar les compres de productes als venedors.
+description: En aquest article s'explica com registrar les línies de subcontracte per als productes i utilitzar els diferents camps per registrar les compres de productes dels proveïdors.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

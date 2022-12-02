@@ -1,6 +1,6 @@
 ---
 title: Configuració de les oportunitats (bàsic)
-description: Aquest article proporciona informació sobre ofertes basades en projectes i línies d'oportunitat basades en projectes.
+description: Aquest article proporciona informació sobre els acords basats en projectes i les línies d'oportunitat basades en projectes.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Compliment de recursos per a recursos planificats
-description: Aquest article proporciona informació sobre els recursos previstos per a un projecte.
+description: Aquest article proporciona informació sobre els recursos planificats per a un projecte.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

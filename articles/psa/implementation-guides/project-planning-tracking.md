@@ -1,6 +1,6 @@
 ---
 title: Planificació i seguiment de projectes
-description: En aquest article s'ofereix un enllaç a la informació sobre la planificació i el seguiment a Project Service Automation.
+description: En aquest article s'enllaça a informació sobre les la planificació i el seguiment al Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933250"
 
 L'aplicació del Project Service ajuda les organitzacions de servei a identificar oportunitats, enviar ofertes, arribar a acords contractuals, administrar recursos, fer el seguiment del temps i les despeses, enviar factures als clients i lliurar els projectes a temps i dins del pressupost. 
 
-S'ha eliminat l'enllaç PDF que hi havia anteriorment en aquest article i el contingut s'ha traslladat als següents articles:
+S'ha suprimit l'enllaç PDF que abans es trobava en aquest article i s'ha mogut el contingut als articles següents:
 
 - [Planificació del projecte](../project-creating.md)
 - [Ingressos i costos del projecte](../project-estimating.md)
@@ -43,7 +43,7 @@ S'ha eliminat l'enllaç PDF que hi havia anteriorment en aquest article i el con
 - [Configuració del projecte](../project-settings.md)
 
 > [!NOTE]
-> Aquest article se suprimirà en una futura actualització de documentació. 
+> Aquest article s'eliminarà en una futura actualització de la documentació. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Recursos de línia de subcontracte
-description: En aquest article s'explica com especificar els recursos dedicats que proporciona el proveïdor per a una línia de subcontractació específica durant el temps.
+description: En aquest article s'explica com s'especifiquen els recursos dedicats que proporciona el proveïdor per a una línia de subcontracte específica per a temps.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

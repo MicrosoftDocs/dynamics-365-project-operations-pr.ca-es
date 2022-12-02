@@ -1,6 +1,6 @@
 ---
 title: Configurar els subcontractistes com a recursos que es poden reservar
-description: En aquest article s'explica com configurar i mantenir els recursos subcontractistes que es creen a partir d'usuaris i contactes en el sistema, perquè puguin associar-se a subcontractes en Microsoft Dynamics 365 Project Operations.
+description: En aquest article s'explica com es configuren i es fa el manteniment dels recursos subcontractius creats a partir dels usuaris i els contactes del sistema per tal que es puguin associar amb els subcontractes al Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

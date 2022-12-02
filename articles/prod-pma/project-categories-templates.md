@@ -1,6 +1,6 @@
 ---
-title: Sincronitzar les categories de despesa del projecte entre finances i operacions i Project Service Automation
-description: Aquest article descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar les categories de despeses del projecte entre Microsoft Dynamics 365 Finance i Dynamics 365 Project Service Automation.
+title: Sincronitzar categories de despeses del projecte entre les finances i operacions i el Project Service Automation
+description: Aquest article descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar categories de despesa entre el Microsoft Dynamics 365 Finance i el Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: ca-ES
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028920"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronitzar les categories de despesa del projecte entre finances i operacions i Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronitzar categories de despeses del projecte entre les finances i operacions i el Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-En aquest article es descriuen les plantilles i tasques subjacents que s'utilitzen per sincronitzar les categories de despeses del projecte entre Dynamics 365 Finance i Dynamics 365 Project Service Automation.
+Aquest article descriu les plantilles i tasques subjacents que s'utilitzen per sincronitzar categories de despesa entre el Dynamics 365 Finance i el Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - La integració de tasques de projecte, les categories de transaccions de despeses, les estimacions d'hores, les estimacions de despeses i el bloqueig de funcionalitats estan disponibles a la versió 8.0.
@@ -80,10 +80,10 @@ Les categories de despesa del projecte estan administrades al Finance i se sincr
 
 ### <a name="power-query"></a>Power Query
 
-Quan sincronitzeu amb el Project Service Automation, heu d'utilitzar Microsoft Power Query per a l'Excel per definir el tipus de facturació a la categoria de transacció. La plantilla Categories de transaccions de despesa del projecte (Fin and Ops a PSA) proporciona una columna i una assignació per defecte. Si creeu la vostra pròpia plantilla, heu d'afegir una columna condicional a Power Query. Seguiu aquests passos.
+Quan estigueu sincronitzant al Project Service Automation, heu d'utilitzar el Microsoft Power Query per a l'Excel per definir el tipus de facturació a la categoria de la transacció. La plantilla Categories de transaccions de despesa del projecte (Fin and Ops a PSA) proporciona una columna i una assignació per defecte. Si creeu una plantilla pròpia, heu d'afegir una columna condicional al Power Query. Seguiu aquests passos.
 
 1. Feu clic a la fletxa per obrir l'assignació de la tasca de categories de despesa del projecte a la plantilla Categories de transaccions de despesa del projecte (Fin and Ops a PSA).
-2. Feu clic a l'enllaç **Consulta avançada i filtratge** per obrir Power Query.
+2. Feu clic a l'enllaç **Consulta i filtratge avançats** per obrir el Power Query.
 2. Seleccioneu **Afegeix una columna condicional**.
 3. Introduïu un nom per a la columna nova, com ara **BillingType**.
 4. Introduïu la condició següent: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

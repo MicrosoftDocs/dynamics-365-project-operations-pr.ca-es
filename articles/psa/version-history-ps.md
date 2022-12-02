@@ -1,6 +1,6 @@
 ---
 title: Planificació de les versions d'actualització del Project Service 3.x
-description: Aquest article proporciona informació sobre les versions disponibles i properes de Dynamics 365 Project Service Automation.
+description: En aquest article es proporciona informació sobre les versions disponibles i futures del Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak

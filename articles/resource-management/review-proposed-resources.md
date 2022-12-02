@@ -1,6 +1,6 @@
 ---
 title: Revisió dels recursos proposats
-description: Aquest article proporciona informació sobre com proposar recursos del projecte.
+description: En aquest article es proporciona informació sobre la manera de proposar recursos de projecte.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -40,8 +40,8 @@ Per revisar els recursos proposats, seguiu aquests passos:
     Es produeixen les següents actualitzacions d'estat:
 
     - A la pàgina **Auxiliar de planificació**, els indicadors d'estat s'actualitzen per indicar que es proposa la reserva, no que es reserva de manera fixa.
-    - A la sol·licitud de recurs, el revisor de la sol·licitud hauria de canviar l'estat a **Revisió de necessitats**.
-    - A la **pestanya Equip** del projecte, el valor Estat **de sol·licitud del membre de l'equip genèric es** canvia automàticament a **Revisió de necessitats**.
+    - A la sol·licitud de recursos, el revisor de la sol·licitud hauria de canviar l'estat a **Necessita revisió**.
+    - A la pestanya **Equip** del projecte, el valor **Estat de la sol·licitud** del membre de l'equip genèric es canvia automàticament a **Necessita revisió**.
 
 L'administrador de projectes pot acceptar o rebutjar la proposta.
 

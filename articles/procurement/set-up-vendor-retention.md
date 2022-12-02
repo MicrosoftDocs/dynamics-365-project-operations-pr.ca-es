@@ -1,6 +1,6 @@
 ---
 title: Configuració de la retenció de proveïdors
-description: En aquest article s'explica com configurar la retenció del proveïdor.
+description: En aquest article s'explica com es configura la retenció de proveïdors.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929754"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-En aquest article s'ofereix informació sobre com configurar la retenció de proveïdors.
+Aquest article proporciona informació sobre com es configura la retenció de proveïdors.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Configurar un compte de retenció del proveïdor al llibre general
 
-1. A Dynamics 365 Finance, aneu a **Comptes de configuració de publicació** > **del llibre** > **major general per a transaccions automàtiques**.
+1. Al Dynamics 365 Finance, aneu a **Llibre general** > **Configuració de la comptabilització** > **Comptes per a transaccions automàtiques**.
 2. Afegiu una línia nova.
 3. Al camp **Tipus de comptabilització**, seleccioneu **Retenció de proveïdor**.
 4. Seleccioneu el compte principal per a la comptabilització de la retenció de proveïdor.

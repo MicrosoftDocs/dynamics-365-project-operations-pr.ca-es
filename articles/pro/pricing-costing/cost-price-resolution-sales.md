@@ -1,6 +1,6 @@
 ---
-title: Determineu les taxes de costos per a les estimacions i els reals del projecte
-description: Aquest article proporciona informació sobre com es determinen les taxes de costos per a les estimacions i els reals del projecte.
+title: Determinar els percentatges de cost de les estimacions i els valors reals del projecte
+description: En aquest article es proporciona informació sobre com es determinen els percentatges de cost de les estimacions i els valors reals del projecte.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -14,72 +14,72 @@ ms.contentlocale: ca-ES
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475218"
 ---
-# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determineu les taxes de costos per a les estimacions i els reals del projecte
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determinar els percentatges de cost de les estimacions i els valors reals del projecte
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Per determinar les taxes de cost sobre estimacions i reals a Microsoft Dynamics 365 Project Operations, el sistema utilitza primer la data i la moneda en l'estimació entrant o context real per determinar la llista de preus de cost. En el context actual específicament, el sistema utilitza el camp Data **de la** transacció per determinar quina llista de preus és aplicable. El **valor de la data** de transacció de l'estimació entrant o real es compara amb els **valors Inici efectiu (zona horària independent)** i **Final efectiu (zona horària independent)** de la llista de preus. Un cop determinada la llista de preus de cost, el sistema determina la taxa de cost. 
+Per determinar els percentatges de cost de les estimacions i els valors reals al Microsoft Dynamics 365 Project Operations, el sistema utilitza primer la data i la moneda de l'estimació entrant o del context real per determinar la llista de preus de cost. En el context real específicament, el sistema utilitza el camp **Data de transacció** per determinar quina llista de preus és aplicable. El valor de **Data de transacció** de l'estimació entrant o real es compara amb els valors d'**Inici efectiu (zona horària independent)** i **Final efectiu (independent de la zona horària)** de la llista de preus. Després de determinar la llista de preus de cost, el sistema determina el percentatge de cost. 
 
-## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinació de taxes de costos en l'estimació i contextos reals de Time
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinar els percentatges de cost en contextos de valors reals i estimacions per al temps
 
-El context d'estimació **del temps** es refereix a:
+El context d'estimació per a **Temps** fa referència a:
 
-- Detalls de la línia de pressupost per a **Time**.
-- Dades de la línia de contracte per a **Time**.
-- Assignacions de recursos sobre un projecte.
+- Detalls de la línia d'oferta per a **Temps**.
+- Detalls de la línia de contracte per a **Temps**.
+- Assignacions de recursos a un projecte.
 
-El context real del **temps** es refereix a:
+El context real per a **Temps** fa referència a:
 
-- Línies de diari d'entrada i correcció del **temps**.
-- Línies de diari que es creen quan s'envia una entrada de temps.
+- Línies del llibre diari d'entrada i de correcció per a **Temps**.
+- Línies del llibre diari que es creen en enviar una entrada de temps.
 
-Després de determinar una llista de preus de cost, el sistema completa els passos següents per introduir la tarifa de cost predeterminada.
+Després de determinar una llista de preus de cost, el sistema completa els següents passos per introduir el percentatge de cost per defecte.
 
-1. El sistema coincideix amb la combinació dels **camps Role** i **Resourcing Unit** en l'estimació o context real de **Time** amb les línies de preus de rol de la llista de preus. Aquesta coincidència suposa que utilitzeu les dimensions de preus estàndard per al cost laboral. Si heu configurat el sistema perquè coincideixi amb camps que no siguin o a **més de La funció** i **la unitat** de recursos, s'utilitza una combinació diferent per recuperar una línia de preus de rol coincident.
-1. Si el sistema troba una línia de preus de rol que té una taxa de cost per a la combinació d'unitats **de** funció **i** recurs, aquesta taxa de cost s'utilitza com a taxa de cost per defecte.
-1. Si el sistema no pot coincidir amb els valors de la **unitat** de funció **i** recurs, recupera les línies de preus de la funció que tenen valors coincidents per al **camp Funció**, però valors nuls per al **camp Unitat** de recursos. Després que el sistema tingui un registre de preus de funció coincident, la taxa de cost d'aquest registre s'utilitzarà com a taxa de cost predeterminada.
+1. El sistema compara la combinació dels camps **Funció** i **Unitat de recursos** en el context d'estimació o de valor real per al **Temps** amb les línies de preu per funció de la llista de preus. Aquesta comparació suposa que utilitzeu les mètriques de preus estàndard per al cost laboral. Si heu configurat el sistema perquè faci coincidir camps diferents de o a més de **Funció** i **Unitat de recursos**, s'utilitzarà una combinació diferent per recuperar una línia de preu per funció coincident.
+1. Si el sistema troba una línia de preu per funció que té un percentatge de cost per a la combinació de **Funció** i **Unitat de recursos**, aquest percentatge de cost és el percentatge de cost per defecte.
+1. Si el sistema no pot de fer coincidir els valors dels camps **Funció** i **Unitat de recursos**, recupera línies de preu per funció que tenen valors coincidents per al camp **Funció**, però valors nuls per al camp **Unitat de recursos**. Quan el sistema té un registre de preu per funció coincident, el percentatge de cost d'aquest registre s'utilitza com a percentatge de cost per defecte.
 
 > [!NOTE]
-> Si configureu una priorització diferent dels camps Funció **i** Unitat **de** recursos, o si teniu altres dimensions que tenen més prioritat, el comportament anterior canviarà en conseqüència. El sistema recupera registres de preus de funció que tenen valors que coincideixen amb cada valor de dimensió de preus per ordre de prioritat. Les files que tenen valors nuls per a aquestes dimensions són les últimes.
+> Si configureu una priorització diferent dels camps **Funció** i **Unitat de recursos**, o si teniu altres dimensions que tenen una prioritat més alta, aquest comportament canviarà en conseqüència. El sistema recupera registres de preu per funció que tenen valors que coincideixen amb cada valor de dimensió de preus per ordre de prioritat. Les files que tenen valors nuls per a aquestes dimensions són les darreres.
 
-## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Determinació de les taxes de cost en línies reals i d'estimació de despeses
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Determinació de percentatges de cost en línies de valors reals i estimacions per a les despeses
 
-El context d'estimació **de la despesa** es refereix a:
+El context d'estimació per a **Despesa** fa referència a:
 
-- Detalls de la línia de pressupostos per a **despeses**.
-- Dades de la línia de contractació de **despesa**.
-- Estimacions de despeses d'un projecte.
+- Detalls de la línia d'oferta per a **Despesa**.
+- Detalls de la línia de contracte per a **Despesa**.
+- Estimacions de despesa en un projecte.
 
-El context real de **la despesa** es refereix a:
+El context real per a **Despesa** fa referència a:
 
-- Registre i correcció de línies de registre de **despeses**.
-- Línies de diari que es creen quan s'envia una entrada de despeses.
+- Línies del llibre diari d'entrada i de correcció per a **Despesa**.
+- Línies del llibre diari que es creen en enviar una entrada de despesa.
 
-Després de determinar una llista de preus de cost, el sistema completa els passos següents per introduir la tarifa de cost predeterminada.
+Després de determinar una llista de preus de cost, el sistema completa els següents passos per introduir el percentatge de cost per defecte.
 
-1. El sistema coincideix amb la combinació dels **camps Categoria** i **Unitat** en l'estimació o context real de **Despesa** amb les línies de preus de categoria de la llista de preus.
-1. Si el sistema troba una línia de preus de categoria que té una taxa de cost per a la **combinació de categoria** i **unitat**, aquesta taxa de cost s'utilitza com a taxa de cost predeterminada.
-1. Si el sistema no pot coincidir amb els **valors Categoria** i **Unitat**, el preu s'estableix en **0** (zero) per defecte.
-1. En el context de l'estimació, si el sistema pot trobar una línia de preus de categoria coincident, però el mètode de preus és una altra cosa que **el preu per unitat**, la taxa de cost s'estableix en **0** (zero) per defecte.
+1. El sistema fa coincidir la combinació dels camps **Categoria** i **Unitat** del context d'estimació o de valor real per a **Despesa** amb les línies de preu de categoria de la llista de preus.
+1. Si el sistema troba una línia de preu per categoria que té un percentatge de cost per a la combinació de camps **Categoria** i **Unitat**, aquest percentatge de cost s'utilitza per defecte.
+1. Si el sistema no pot fer coincidir els valors de **Categoria** i **Unitat**, el preu es defineix com a **0** (zero) per defecte.
+1. En el context d'estimació, si el sistema no pot trobar una línia de preu de categoria que coincideixi, però el mètode de preus no és **Preu per unitat**, el percentatge de cost s'estableix en **0** (zero) per defecte.
 
-## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Determinació de taxes de costos en línies reals i d'estimació de Material
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Determinació de percentatges de cost de les línies de valor real i de previsió de materials
 
-El context d'estimació **del material** es refereix a:
+El context d'estimació per a **Material** fa referència a:
 
-- Detalls de la línia de pressupostos per a **Material**.
-- Dades de la línia de contracte de **Material**.
-- Estimacions de materials sobre un projecte.
+- Detalls de la línia d'oferta per a **Material**.
+- Detalls de la línia de contracte per a **Material**.
+- Estimacions de materials en un projecte.
 
-El context **real del material** es refereix a:
+El context real per a **Material** fa referència a:
 
-- Línies de diari d'entrada i correcció de **material**.
-- Línies de diari que es creen quan s'envia un registre d'ús de materials.
+- Línies del llibre diari d'entrada i de correcció per a **Material**.
+- Línies del llibre diari que es creen en enviar un registre d'ús de material.
 
-Després de determinar una llista de preus de cost, el sistema completa els passos següents per introduir la tarifa de cost predeterminada.
+Després de determinar una llista de preus de cost, el sistema completa els següents passos per introduir el percentatge de cost per defecte.
 
-1. El sistema utilitza la combinació dels **camps Producte** i **Unitat** en el context estimatiu o real de **Material** contra les línies d'articles de la llista de preus de la llista de preus.
-1. Si el sistema troba una línia d'articles de llista de preus que té una taxa de cost per a la **combinació Producte** i **Unitat**, aquesta taxa de cost s'utilitza com a taxa de cost predeterminada.
-1. Si el sistema no pot coincidir amb els **valors Producte** i **Unitat**, el cost unitari es defineix com a **0** (zero) per defecte.
-1. En l'estimació o en el context real, si el sistema pot trobar una línia d'articles de llista de preus coincidents, però el mètode de preus és una altra cosa que **l'import** de la moneda, el cost unitari s'estableix en **0** per defecte. Aquest comportament es produeix perquè Project Operations només admet el mètode de preus de l'import **de la** moneda per als materials que s'utilitzen en un projecte.
+1. El sistema utilitza la combinació dels camps **Producte** i **Unitat** del context d'estimació o de valor real per a **Material** amb les línies d'element de la llista de preus de la llista de preus.
+1. Si el sistema troba un element de la llista de preus que té un percentatge de cost per a la combinació de camps **Producte** i **Unitat**, aquest percentatge de cost s'utilitza per defecte.
+1. Si el sistema no pot fer coincidir els valors de **Producte** i **Unitat**, el cost unitari s'estableix en **0** (zero) per defecte.
+1. En el context d'estimació o valors reals, si el sistema no pot trobar una línia d'element de la llista de preus que coincideixi, però el mètode de preus no és **Quantitat de moneda**, el percentatge de cost s'estableix en **0** (zero) per defecte. Aquest comportament es produeix perquè el Project Operations només admet el mètode de preus **Import monetari** per als materials que s'utilitzen en un projecte.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

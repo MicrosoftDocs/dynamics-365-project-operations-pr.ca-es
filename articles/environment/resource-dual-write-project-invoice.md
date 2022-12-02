@@ -1,6 +1,6 @@
 ---
 title: Integració de la factura del projecte
-description: Aquest article proporciona informació sobre la integració de doble escriptura del Project Operations per a la facturació dels clients.
+description: Aquest article proporciona informació sobre la integració de doble escriptura del Project Operations per a factures de clients.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
@@ -16,14 +16,14 @@ ms.locfileid: "9029012"
 ---
 # <a name="project-invoice-integration"></a>Integració de la factura del projecte
 
-Aquest article proporciona informació sobre la integració de doble escriptura del Project Operations per a la facturació dels clients.
+Aquest article proporciona informació sobre la integració de doble escriptura del Project Operations per a factures de clients.
 
-Al Project Operations, l'administrador del projecte administra els treballs pendents de facturació del projecte i crea una factura proforma per al client al Microsoft Dataverse. En funció d'aquesta factura proforma, el responsable del compte a cobrar o el comptable del projecte crea una factura orientada al client. La integració de doble escriptura garanteix que els detalls de les factures proforma se sincronitzin amb les aplicacions de finances i operacions. Un cop publicada la factura orientada al client, el sistema actualitza els valors reals del projecte rellevants al Dataverse amb el detall de comptabilitat. El gràfic següent proporciona una visió general conceptual d'alt nivell d'aquesta integració.
+Al Project Operations, l'administrador del projecte administra els treballs pendents de facturació del projecte i crea una factura proforma per al client al Microsoft Dataverse. En funció d'aquesta factura proforma, el responsable del compte a cobrar o el comptable del projecte crea una factura orientada al client. La integració amb doble escriptura garanteix que els detalls de la factura proforma se sincronitzin amb les aplicacions de finances i operacions. Un cop publicada la factura orientada al client, el sistema actualitza els valors reals del projecte rellevants al Dataverse amb el detall de comptabilitat. El gràfic següent proporciona una visió general conceptual d'alt nivell d'aquesta integració.
 
    ![Integració de la factura del projecte.](./media/DW5Invoicing.png)
 
-Després que el gestor de projectes confirmi la factura proforma, la informació de Dataverse la capçalera de factura proforma se sincronitza amb les aplicacions de finances i operacions mitjançant el mapa de taula de doble escriptura, **proposta de factura del projecte V2 (factures)**. Es tracta d'una integració unidireccional des de les aplicacions de Dataverse finances i operacions. No s'admet la creació ni la supressió de propostes de factures del projecte directament a les aplicacions finances i operacions.
+Quan l'administrador del projecte confirma la factura proforma al Dataverse, la informació de la capçalera de la factura proforma se sincronitza amb les aplicacions de finances i operacions amb l'assignació de taules de doble escriptura **Proposta de factura del projecte V2 (factures)**. Es tracta d'una integració única del Dataverse a les aplicacions de finances i operacions. La creació o supressió de propostes de factura del projecte directament a les aplicacions de finances i operacions no estan admeses.
 
-La confirmació de la factura al Dataverse també activa la lògica empresarial per crear registres relacionats amb la facturació a l'entitat **Valors reals**. Aquests registres se sincronitzen amb les finances i les operacions mitjançant el mapa de taula de doble escriptura, **Project Operations integration reals (msdyn\_ actuals).** Per obtenir més informació, vegeu [Estimacions i valors reals del projecte](resource-dual-write-estimates-actuals.md). 
+La confirmació de la factura al Dataverse també activa la lògica empresarial per crear registres relacionats amb la facturació a l'entitat **Valors reals**. Aquests registres se sincronitzen amb les finances i operacions mitjançant l'assignació de taules de doble escriptura, **Valors reals d'integració del Project Operations (msdyn\_actuals).** Per obtenir més informació, vegeu [Estimacions i valors reals del projecte](resource-dual-write-estimates-actuals.md). 
 
 El procés periòdic **Importa una còpia intermèdia d'un formulari** crea les línies de proposta de factura del projecte. Aquest procés es basa en els detalls dels valors reals de vendes facturats a la taula **Còpia intermèdia dels valors reals**. Per obtenir més informació, vegeu [Administració de propostes de factura del projecte](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals). 

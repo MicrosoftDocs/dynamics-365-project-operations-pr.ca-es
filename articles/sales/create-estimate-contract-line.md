@@ -1,6 +1,6 @@
 ---
 title: Estimació d'una línia de contracte del projecte
-description: En aquest article s'ofereix informació sobre les estimacions d'una línia de contracte del projecte.
+description: Aquest article proporciona informació sobre les estimacions en una línia de contracte del projecte.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

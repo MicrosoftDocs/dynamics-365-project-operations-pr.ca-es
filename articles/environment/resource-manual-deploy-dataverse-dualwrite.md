@@ -1,6 +1,6 @@
 ---
 title: Implementació manual de l'aplicació Dataverse del Project Operations amb compatibilitat amb l'escriptura doble
-description: En aquest article s'explica com implementar manualment l'aplicació Project Operations Dataverse perquè admeti escriptura dual.
+description: En aquest article s'explica com implementar manualment l'aplicació Dataverse del Project Operations per tal que admeti l'escriptura doble.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028552"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-En aquest article s'explica com implementar manualment Microsoft Dynamics 365 Project Operations Microsoft Dataverse de manera que admeti escriptura dual. El Project Operations detecta la configuració de l'entorn i afegeix compatibilitat addicional per a l'escriptura doble si es compleixen els requisits previs.
+En aquest article s'explica com implementar manualment l'aplicació Microsoft Dynamics 365 Project Operations al Microsoft Dataverse per tal que admeti l'escriptura doble. El Project Operations detecta la configuració de l'entorn i afegeix compatibilitat addicional per a l'escriptura doble si es compleixen els requisits previs.
 
-Durant la implementació a través Microsoft Dynamics de Lifecycle Services (LCS), si heu seguit les instruccions d'aquest article, podeu ometre la implementació de la Microsoft Power Platform integració (abans coneguda com a Common Data Service entorn).
+Durant la implementació amb el Microsoft Dynamics Lifecycle Services (LCS), si heu seguit les instruccions d'aquest article, podeu ometre la implementació de la integració del Microsoft Power Platform (coneguda anteriorment com a entorn del Common Data Service).
 
 El procés d'implementació del Project Operations al Dataverse per tal que admeti l'escriptura doble té quatre passos principals:
 
@@ -37,7 +37,7 @@ Per completar aquest procediment, heu d'iniciar la sessió com a administrador.
 3. Seleccioneu el tipus d'entorn. Si us heu registrat per obtenir l'oferta de prova, seleccioneu **Prova (basada en subscripció)**.
 4. Confirmeu la regió d'implementació.
 5. Habiliteu l'opció **Crea una base de dades per a aquest entorn**. 
-6. Confirmeu l'idioma i, a continuació, confirmeu que la moneda coincideixi amb la moneda de les vostres aplicacions de finances i operacions.
+6. Confirmeu la llengua i, a continuació, confirmeu que la moneda coincideixi amb la moneda de les aplicacions de finances i operacions.
 7. Habiliteu l'opció **Aplicacions del Dynamics 365** i confirmeu que el camp **Implementa automàticament aquestes aplicacions** estigui definit com a **Cap**.
 8. Afegiu un grup de seguretat, si és obligatori.
 9. Seleccioneu **Desa** per crear l'entorn.
@@ -62,4 +62,4 @@ Aquest procediment només es pot completar si heu completat els procediments ant
 
 ## <a name="link-your-environments"></a><a name="link"></a>Enllaçar els entorns
 
-Un cop implementat l'entorn Dataverse, podeu configurar l'enllaç a les aplicacions de finances i operacions. Seguiu els passos que es mostren a [Utilitzar l'auxiliar d'escriptura doble per enllaçar els entorns](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Un cop implementat l'entorn del Dataverse, podeu configurar l'enllaç a les aplicacions de finances i operacions. Seguiu els passos que es mostren a [Utilitzar l'auxiliar d'escriptura doble per enllaçar els entorns](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

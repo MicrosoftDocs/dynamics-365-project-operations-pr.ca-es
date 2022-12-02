@@ -1,6 +1,6 @@
 ---
 title: Ofertes i línies d'oferta
-description: En aquest article s'ofereix informació sobre les ofertes i les línies d'oferta.
+description: En aquest article es proporciona informació sobre les ofertes i les línies d'oferta.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -39,7 +39,7 @@ Al Dynamics 365 Project Service Automation, hi ha dos tipus d'ofertes: ofertes d
 - Una oferta de vendes no inclou els camps i els conceptes inclosos en una oferta de projecte que té camps. Els camps inclouen **Unitat de contractació**, **Administrador de comptes** i **Nom del contacte de la factura**.  
 - Les ofertes de vendes i d'ofertes de projectes també s'identifiquen per un camp basat en conjunt d'opcions que s'anomena **Tipus**. Per a una oferta de vendes, aquest camp té el valor **Basada en un element**. Per a una oferta de projecte, té el valor **Basada en el treball**.
 
-Aquest article se centrarà en els detalls de les cites del projecte.
+Aquest article se centrarà en els detalls de les ofertes del projecte.
 
 Una oferta de projecte al PSA pot tenir diversos elements de línia o línies d'oferta. De fet, una oferta de projecte té dues quadrícules per als elements de línia. Una quadrícula és per a les línies basades en projectes que permeten estimacions detallades. L'altra quadrícula és per a les línies basades en productes que utilitzen un preu d'unitat senzill i un enfocament basat en la quantitat.
 

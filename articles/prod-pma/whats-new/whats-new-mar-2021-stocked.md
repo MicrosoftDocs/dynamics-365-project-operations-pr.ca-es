@@ -1,6 +1,6 @@
 ---
 title: Novetats o canvis al Project Operations a març de 2021 per a escenaris basats en producció/mantinguts en existències
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de març de 2021 del Project Operations per a escenaris basats en la producció o en estoc.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de març de 2021 del Project Operations per a escenaris basats en producció/mantinguts en existències.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "9028736"
 
 _**S'aplica a:** Project Operations per a escenaris basats en producció/mantinguts en existències_
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
-- Administració i comptabilitat de projectes en Dynamics 365 Finance'entorn versió 10.0.17
+- Administració de projectes i comptabilitat en l'entorn del Dynamics 365 Finance, versió 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 En aquesta versió s'inclouen les característiques següents:
@@ -121,7 +121,7 @@ En aquesta versió s'inclouen les característiques següents:
 | Administració i comptabilitat de projectes | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | El mètode de classe d'estructura de desglossament del treball heretat, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** és obsolet.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualitzacions reglamentàries
-Per obtenir informació sobre les actualitzacions reguladores de les aplicacions de finances i operacions, vegeu [Actualitzacions normatives](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
+Per obtenir informació sobre les actualitzacions reglamentàries de les aplicacions de finances i operacions, vegeu [Actualitzacions reglamentàries](/dynamics365/finance/localizations/regulatory-updates). També podeu iniciar sessió al LCS i veure les actualitzacions reglamentàries planificades mitjançant l'eina de cerca de problemes. La cerca de problemes us permet cercar per país, tipus de funció i llançament.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

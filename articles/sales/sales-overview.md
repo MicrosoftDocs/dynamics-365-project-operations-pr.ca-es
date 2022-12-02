@@ -1,6 +1,6 @@
 ---
 title: Informació general del procés de vendes
-description: En aquest article s'ofereix informació sobre els processos bàsics de venda.
+description: Aquest article proporciona informació sobre els processos bàsics de vendes.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview

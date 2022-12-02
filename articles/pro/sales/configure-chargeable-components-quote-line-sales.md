@@ -1,6 +1,6 @@
 ---
 title: Configuració dels components imputables d'una línia d'oferta
-description: En aquest article s'ofereix informació sobre la configuració de components carregables i no cobrables en una línia d'oferta basada en projectes.
+description: Aquest article proporciona informació sobre la configuració de components imputables i no imputables en una línia d'oferta basada en el projecte.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

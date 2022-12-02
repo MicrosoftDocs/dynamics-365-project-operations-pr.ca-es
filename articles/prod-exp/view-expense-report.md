@@ -1,6 +1,6 @@
 ---
 title: Visualitzar un informe de despeses des del llibre major general o Compres i proveïment
-description: En aquest article s'explica com podeu veure l'informe de despeses original en què s'ha publicat una transacció.
+description: Aquest article explica com visualitzar l'informe de despeses original en què va aparèixer una transacció.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

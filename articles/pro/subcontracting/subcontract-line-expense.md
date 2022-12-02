@@ -1,6 +1,6 @@
 ---
 title: Línies de subcontracte per a categories de despeses
-description: En aquest article s'explica com registrar les línies de subcontractació per a despeses i utilitzar els camps per registrar la compra de temps als proveïdors.
+description: En aquest article s'explica com registrar línies de subcontracte per a despeses i utilitzar els camps per registrar la compra de temps a proveïdors.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

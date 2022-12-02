@@ -1,6 +1,6 @@
 ---
 title: Informació general de la implementació del Project Operations per a escenaris basats en recursos/no mantinguts en existències
-description: En aquest article s'ofereix informació sobre el tipus de desplegament, Operacions del projecte per a escenaris basats en recursos o no emmagatzemats.
+description: En aquest article es proporciona informació sobre el tipus d'implementació del Project Operations per a escenaris basats en recursos/no mantinguts en existències.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ El tipus d'implementació, Dynamics 365 Project Operations per a escenaris basat
 - Reconeixement d'ingressos del projecte
 - Extensibilitat a través del Power Platform
 
-Aquest tipus de desplegament proporciona una extensió de la funcionalitat proporcionada per Dynamics 365 Finance i Dynamics 365 Supply Chain Management aplicacions.
+Aquest tipus de implementació proporciona una extensió de la funcionalitat proporcionada per les aplicacions Dynamics 365 Finance i Dynamics 365 Supply Chain Management.
 
 Utilitzeu aquest tipus d'implementació si l'expectativa del Project Operations és utilitzar el cicle de vida complet del projecte amb els següents requisits:
 

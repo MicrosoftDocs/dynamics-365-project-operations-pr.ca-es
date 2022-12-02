@@ -1,6 +1,6 @@
 ---
 title: Càlcul de costos de les línies d'oferta basades en productes
-description: En aquest article s'ofereix informació sobre l'aplicació d'un preu de cost a una línia d'oferta basada en productes.
+description: En aquest article es proporciona informació sobre l'aplicació d'un preu de cost a una línia d'oferta basada en productes.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

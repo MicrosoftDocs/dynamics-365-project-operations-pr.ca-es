@@ -1,6 +1,6 @@
 ---
 title: Administració d'unitats complexes, com ara per usuari o per mes, de les línies d'oferta basades en productes (bàsic)
-description: En aquest article s'ofereix informació sobre la gestió d'unitats complexes per a les línies d'oferta basades en productes.
+description: En aquest article s'ofereix informació sobre l'administració d'unitats complexes per a línies d'oferta basades en projectes.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

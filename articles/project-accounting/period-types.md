@@ -1,6 +1,6 @@
 ---
 title: Tipus de períodes
-description: En aquest article s'ofereix informació sobre com configurar els tipus de períodes per a l'estimació d'ingressos.
+description: En aquest article es proporciona informació sobre com configurar els tipus de períodes per a l'estimació dels ingressos.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930950"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Un tipus de període defineix la freqüència amb què es calculen els ingressos d'un projecte. En aquest article s'ofereix informació sobre com configurar els tipus de períodes per a l'estimació d'ingressos. 
+Un tipus de període defineix la freqüència amb què es calculen els ingressos d'un projecte. En aquest article es proporciona informació sobre com configurar els tipus de períodes per a l'estimació dels ingressos. 
 
 ## <a name="create-and-work-with-period-types"></a>Crear i treballar amb tipus de períodes
 Per crear i treballar amb tipus de períodes, seguiu aquests passos:
 
-1. A l'entorn Dynamics 365 Finance, aneu als **tipus de períodes d'estimació d'estimacions** > **de** > **gestió de projectes i comptabilitat** > **·**.
+1. A l'entorn del Dynamics 365 Finance, aneu a **Gestió de projectes i comptabilitat** > **Configuració** > **Estimacions** > **Tipus de períodes**.
 2. Seleccioneu **Crea** per crear un tipus de període nou. Introduïu un nom i una descripció.
 3. Al camp **Freqüència**, seleccioneu un valor:
 

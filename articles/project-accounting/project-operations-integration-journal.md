@@ -1,6 +1,6 @@
 ---
 title: Llibre diari d'integració del Project Operations
-description: Aquest article proporciona informació sobre com treballar amb la revista Integration in Project Operations.
+description: Aquest article proporciona informació sobre com treballar amb el diari d'integració al Project Operations.
 author: sigitac
 ms.date: 09/22/2022
 ms.topic: article
@@ -17,16 +17,16 @@ ms.locfileid: "9541065"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Les entrades de temps, despeses, tarifes i materials creen **transaccions reals** que representen la visió operativa del treball realitzat contra un projecte. El Dynamics 365 Project Operations proporciona als comptables una eina per revisar les transaccions i ajustar els atributs comptables segons calgui. Un cop finalitzada la revisió i els ajustos, les transaccions es comptabilitzen al llibre diari del projecte i al llibre diari general. Un comptable pot realitzar aquestes activitats mitjançant el **diari Project Operations Integration** (**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration** journal.
+Les entrades de temps, despesa, tarifa i material creen transaccions de **Valor real** que representen la visualització operativa del treball completat en relació amb un projecte. El Dynamics 365 Project Operations proporciona als comptables una eina per revisar les transaccions i ajustar els atributs comptables segons calgui. Un cop finalitzada la revisió i els ajustos, les transaccions es comptabilitzen al llibre diari del projecte i al llibre diari general. Un comptable pot realitzar aquestes activitats a través del diari **Integració del Project Operations** (**Dynamics 365 Finance** > **Administració de projectes i comptabilitat** > **Diaris** > **Integració del Project Operations**.
 
 ![Flux del diari d'integració.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Crear registres al diari d'integració del Project Operations
 
-Els registres al diari d'integració del Project Operations es creen mitjançant un procés periòdic, **Importa de la taula intermèdia**. Podeu executar aquest procés anant a **Dynamics 365 Finance** > **Gestió de projectes i comptabilitat d'operacions** > **periòdiques** > **del projecte Integració d'operacions** > **import des de la taula** de posada en escena. Podeu executar el procés de manera interactiva o configurar el procés perquè s'executi en segon pla segons calgui.
+Els registres al diari d'integració del Project Operations es creen mitjançant un procés periòdic, **Importa de la taula intermèdia**. Podeu executar aquest procés anant a **Dynamics 365 Finance** > **Administració de projectes i comptabilitat** > **Periòdic** > **Integració del Project Operations** > **Importa d'una taula intermèdia**. Podeu executar el procés de manera interactiva o configurar el procés perquè s'executi en segon pla segons calgui.
 
 Quan s'executa el procés periòdic, es troben els valors reals que encara no s'han afegit al diari d'integració del Project Operations. Es crea una línia del llibre diari per a cada transacció real.
-El sistema agrupa les línies de diari en revistes separades en funció del valor seleccionat al camp de la **revista** Period unit on Project Operations Integration (**Finance** > **Project Management and accounting** > **Setup** > **Project management and accounting Accounting Project management and accounting parameters**, **Project Operations on Dynamics 365 Customer Engagement** tab). Els valors possibles per a aquest camp inclouen:
+El sistema agrupa les línies de diari en diaris separats en funció del valor seleccionat en el camp **Unitat periòdica al diari d'integració del Project Operations** (**Finance** > **Administració de projectes i comptabilitat** > **Configuració** > **Paràmetres de l'administració de projectes i la comptabilitat**, pestanya **Project Operations al Dynamics 365 Customer Engagement**). Els valors possibles per a aquest camp inclouen:
 
   - **Dies**: els valors reals s'agrupen per data de transacció. Es crea un diari separat per a cada dia.
   - **Mesos**: els valors reals s'agrupen per mes natural. Es crea un diari separat per a cada mes.
@@ -40,37 +40,37 @@ Les línies del llibre diari es creen a partir dels valors reals del projecte. L
   - El camp **Comprovant** mostra el número de comprovant per a cada transacció real. La seqüència de números de comprovant es defineix a la pestanya **Seqüències numèriques**, a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**. A cada línia se li assigna un número nou. Un cop comptabilitzat el comprovant, podeu veure com es relacionen els costos i les transaccions de vendes no facturades seleccionant **Comprovants relacionats** a la pàgina **Transacció de comprovant**.
   - El camp **Categoria** representa una transacció de projecte i per defecte té el valor en funció de la categoria de transacció del valor real del projecte relacionat.
     - Si **Categoria de transacció** es defineix al valor real del projecte i hi ha una **Categoria de projecte** relacionada en una entitat jurídica determinada, la categoria per defecte és aquesta categoria de projecte.
-    - Si **la categoria** Transaccions no està definida al Projecte real, el sistema utilitza el valor del camp Valors per defecte de la **categoria Projecte a la** pestanya Operacions **del projecte a Dynamics 365 Customer Engagement** de la **pàgina Administració del projecte i paràmetres comptables**.
+    - Si **Categoria de transacció** no s'ha definit al valor real del projecte, el sistema utilitza el valor del camp **Valors per defecte de la categoria de projecte** a la pestanya **Project Operations al Dynamics 365 Customer Engagement** de la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**.
   - El camp **Recurs** representa el recurs de projecte relacionat amb aquesta transacció. El recurs s'utilitza com a referència a les propostes de factura del projecte als clients.
-  - El **camp Tipus de canvi** mor per defecte del tipus **de canvi de** divises establert en Dynamics 365 Finance. Si falta la configuració del tipus de canvi, el procés periòdic **Importa de l'intermedi** no afegirà el registre a un diari i s'afegirà un missatge d'error al registre d'execució de la feina.
-  - El camp **Propietat de la línia** representa el tipus de facturació als valors reals del projecte. La propietat de línia i l'assignació del tipus de facturació es defineixen a la **pestanya Operacions del projecte a Dynamics 365 Customer Engagement** de la **pàgina Administració del projecte i paràmetres comptables**.
+  - El camp **Tipus de canvi** pren per defecte el **Tipus de canvi de moneda** establert al Dynamics 365 Finance. Si falta la configuració del tipus de canvi, el procés periòdic **Importa de l'intermedi** no afegirà el registre a un diari i s'afegirà un missatge d'error al registre d'execució de la feina.
+  - El camp **Propietat de la línia** representa el tipus de facturació als valors reals del projecte. L'assignació de propietats de línia i tipus de facturació es defineix a la pestanya **Project Operations al Dynamics 365 Customer Engagement** a la pàgina **Paràmetres de l'administració de projectes i la comptabilitat**.
 
 Només es poden actualitzar els atributs comptables següents a les línies del llibre diari d'integració del Project Operations:
 
 - **Grup d'impostos de les vendes de facturació** i **Grup d'impostos de les vendes d'articles de facturació**
 - **Dimensions financeres** (mitjançant l'acció **Distribueix els imports**)
 
-Les línies de diari d'integració es poden suprimir. Tanmateix, totes les línies no publicades es tornaran a inserir al diari després de tornar a executar el procés d'importació des de la **posada en escena** periòdica.
+Es poden suprimir les línies del diari d'integració. Amb tot, però qualsevol línia sense comptabilitzar s'inserirà de nou al llibre diari després de tornar a executar el procés periòdic **Importa de l'intermedi**.
 
-### <a name="post-the-project-operations-integration-journal"></a>Publicar el diari d'integració d'operacions del projecte
+### <a name="post-the-project-operations-integration-journal"></a>Publicar el diari d'integració del Project Operations
 
 Quan comptabilitzeu el diari d'integració, es creen transaccions al subdiari del projecte i al diari general. S'utilitzen en la facturació dels clients descendent, el reconeixement d'ingressos i els informes financers.
 
-El diari d'integració del Project Operations seleccionat es pot publicar mitjançant **Post** a la pàgina del diari d'integració project operations. Totes les revistes es poden publicar automàticament executant un procés a **la revista** > **d'integració** > **post Project Operations de Periodics** Project Operations.
+El diari d'integració amb el Project Operations seleccionat es pot publicar mitjançant **Publica** a la pàgina del diari d'integració del Project Operations. Tots els diaris es poden publicar automàticament executant un procés a **Periódics** > **Integració del Project Operations** > **Publica el diari d'integració del Project Operations**.
 
-La publicació es pot realitzar de manera interactiva o per lots. Tingueu en compte que totes les revistes que tinguin més de 100 línies es publicaran automàticament en un lot. Per obtenir un millor rendiment quan les revistes que tenen moltes línies es publiquen en un lot, habiliteu el diari d'integració **Post Project Operations mitjançant la funció de diverses tasques** per lots a l'espai **de treball de gestió** de funcions. 
+La publicació es pot fer de manera interactiva o per lots. Heu de tenir en compte que tots els diaris que tenen més de 100 línies es publicaran automàticament en un lot. Per millorar el rendiment quan es publiquen diaris que tenen moltes línies en un lot, habiliteu la característica **Publica el diari d'integració del Project Operations amb diverses tasques per lots** a l'àrea de treball **Administració de la característica**. 
 
-#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Transferiu totes les línies que tenen errors de publicació a una nova revista
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Transferir totes les línies que tenen errors de publicació en un nou diari
 
 > [!NOTE]
-> Per utilitzar aquesta capacitat, habiliteu Transferir totes les **línies amb la publicació d'errors a una nova funció de diari** d'integració del Project Operations a l'espai de treball De gestió **de** funcions.
+> Per utilitzar aquesta capacitat, habiliteu la característica **Transfereix totes les línies amb errors de publicació en un nou diari d'integració del Project Operations** a l'àrea de treball **Administració de la característica**.
 
-Aquesta característica ajuda a millorar l'experiència amb el diari d'integració project operations. Quan està habilitat, els problemes de sincronització de doble escriptura i els problemes de configuració ja no impedeixen que es publiquin revistes vàlides. Durant la publicació al diari d'integració project operations, el sistema valida totes les línies de la revista. Publica totes les línies que no tenen errors i crea un nou diari per a totes les línies que tenen errors de publicació.
+Aquesta característica ajuda a millorar l'experiència amb la integració del Project Operations. Quan està habilitat, els problemes de temporització de l'escriptura doble ja no impedeixen la publicació de diaris vàlids. Durant la publicació en el diari d'integració del Project Operations, el sistema valida cada línia del diari. Publica totes les línies que no tenen errors i crea un diari nou per a totes les línies que tenen errors de publicació.
 
-Per revisar les revistes que han publicat línies d'error, aneu a **Gestió de projectes i comptabilitat** \> **Revista d'integració** de Project \>**Operations** i filtreu la llista de revistes mitjançant el camp Original de la **revista.** La il·lustració següent mostra un exemple on les revistes de la pàgina de la **revista** d'integració d'operacions del projecte s'han filtrat d'aquesta manera.
+Per revisar els diaris que tenen línies amb errors de publicació, aneu a **Administració de projectes i comptabilitat** \> **Diaris** \> **Diari d'integració del Project Operations** i filtreu la llista de diaris mitjançant el camp **Diari original**. A la il·lustració següent es mostra un exemple en què els diaris de la pàgina **Diari de la integració del Project Operations** s'ha filtrat d'aquesta manera.
 
-![Diari original que es mostra a la pàgina del diari d'integració del Project Operations.](./media/transferLines-originalJournal.png)
+![Diari original mostrat a la pàgina del diari d'integració del Project Operations.](./media/transferLines-originalJournal.png)
 
-Si es configura un treball per lots periòdics per publicar la revista d'integració, es tornarà a temptar la publicació i es publicaran les revistes si s'ha solucionat el problema de temps. La resta de revistes s'han d'investigar manualment revisant els registres i prenent les mesures necessàries.
+Si es configura un treball per lots periòdic per publicar el diari d'integració, la publicació es tornarà a intentar i els diaris es publicaran si el problema de temporització s'ha corregit. La resta de diaris s'han d'investigar manualment revisant els registres i realitzant l'acció necessària.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: 'Novetats del maig de 2021: Project Operations per a escenaris basats en recursos/no mantinguts en existències'
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de maig de 2021 de Project Operations per a escenaris basats en recursos o no emmagatzemats.
+description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió del maig de 2021 del Project Operations per a escenaris basats en recursos/no mantinguts en existències.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029977"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Aquest article s'aplica als components i versions següents Dynamics 365 Project Operations:
+Aquest article s'aplica als components i versions següents del Dynamics 365 Project Operations:
 
 - Project Operations a l'entorn del Dynamics 365 Dataverse, versió 4.10.0.186
-- Administració i comptabilitat de projectes en entorns d'aplicacions de finances i operacions versió 10.0.18
+- Administració de projectes i comptabilitat en entorns d'aplicacions de finances i operacions versió 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Característiques incloses en aquesta versió
 
@@ -41,7 +41,7 @@ A la llista següent es mostren les assignacions de doble escriptura que s'han m
 | Entitat d'exportació de la línia de factura del proveïdor del projecte de la integració del Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Actualitzacions de qualitat |
 | Projectes V2 (msdyn\_projects) | 1.0.0.2 | Actualitzacions de qualitat |
 
-Executeu sempre la versió més recent del mapa al vostre entorn i habiliteu tots els mapes de taula relacionats a mesura que actualitzeu la versió de la solució Project Operations Dataverse i de les aplicacions de finances i operacions. És possible que algunes característiques i capacitats no funcionin correctament si la versió més recent del mapa no s'activa. Podeu veure la versió activa de l'assignació a la columna **Versió** de la pàgina **Escriptura doble**. Per activar una versió nova de l'assignació, seleccioneu **Versions de l'assignació de la taula**, seleccioneu la versió més recent i després deseu la versió seleccionada. Si heu personalitzat una assignació de taules llesta per al seu ús, torneu a aplicar els canvis. Per a més informació, vegeu [Administració del cicle de vida de les aplicacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Executeu sempre la versió més recent de l'assignació a l'entorn i habiliteu totes les assignacions de taules relacionades a mida que actualitzeu la versió de la solució del Project Operations al Dataverse i de les aplicacions de finances i operacions. És possible que algunes característiques i capacitats no funcionin correctament si la versió més recent del mapa no s'activa. Podeu veure la versió activa de l'assignació a la columna **Versió** de la pàgina **Escriptura doble**. Per activar una versió nova de l'assignació, seleccioneu **Versions de l'assignació de la taula**, seleccioneu la versió més recent i després deseu la versió seleccionada. Si heu personalitzat una assignació de taules llesta per al seu ús, torneu a aplicar els canvis. Per a més informació, vegeu [Administració del cicle de vida de les aplicacions](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les instruccions de la secció [Problemes de columnes de la taula que falten](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) de la guia de detecció d'errors de doble escriptura.
 
@@ -67,7 +67,7 @@ Si teniu qualsevol problema relacionat amb l'inici de l'assignació, seguiu les 
 | Entrada de temps | 2202476 | La pàgina **Entrada de temps** utilitza ara el control de quadrícula reactiva i corregeix problemes com ara la mala alineació de la quadrícula. |
 | Entrada de temps | 2223377 | L'entrada de temps s'amaga de la secció **Relacionat** a la pàgina **Recurs reservable** per evitar la confusió amb la usabilitat. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració i comptabilitat de projectes en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administració de projectes i comptabilitat al Dynamics 365 Finance
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |

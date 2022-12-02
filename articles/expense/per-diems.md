@@ -1,6 +1,6 @@
 ---
 title: Dietes
-description: En aquest article s'ofereix informació sobre les regles de per diem que s'utilitzen en la gestió de despeses.
+description: En aquest article es proporciona informació sobre les regles de dietes que s'utilitzen a l'administració de despeses.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

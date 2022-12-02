@@ -1,6 +1,6 @@
 ---
 title: Detalls de la capçalera per als subcontractes
-description: En aquest article s'explica la funcionalitat proporcionada a la capçalera del subcontractat a Project Operations.
+description: En aquest article s'explica la funcionalitat proporcionada a la capçalera del subcontracte a Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522548"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-En aquest article s'explica la funcionalitat proporcionada a la capçalera del subcontractat a Dynamics 365 Project Operations.
+En aquest article s'explica la funcionalitat proporcionada a la capçalera del subcontracte al Dynamics 365 Project Operations.
 
 Quan un Administrador de projectes planifica i executa projectes, pot recórrer a subcontractistes i comprar productes i serveis a proveïdors. Quan un Administrador de projectes ha de comprar productes o serveis, pot crear un subcontracte al Project Operations.
 

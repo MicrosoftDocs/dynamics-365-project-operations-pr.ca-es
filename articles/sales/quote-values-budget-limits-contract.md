@@ -1,6 +1,6 @@
 ---
 title: Configuració de les ofertes dels projectes
-description: En aquest article s'ofereix informació sobre la informació i la configuració que s'apliquen i impacten les ofertes del projecte.
+description: Aquest article proporciona informació sobre la informació i la configuració que s'apliquen i tenen un impacten en les ofertes del projecte.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Informació general de les aplicacions mòbils del projecte
-description: Aquest article proporciona informació general sobre les aplicacions relacionades amb el temps del projecte per a Microsoft Dynamics 365 Project Timesheet, Project Time Entry i Els meus fulls de temps/Fulls d'hores que estan disponibles en un dispositiu mòbil.
+description: En aquest article es proporciona informació general sobre les aplicacions relacionades amb el temps del projecte per al Microsoft Dynamics 365 Project Timesheet, Entrada de temps del projecte i Els meus fulls d'hores/Fulls d'hores disponibles en un dispositiu mòbil.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,11 +29,11 @@ Hi ha tres aplicacions mòbils relacionades amb el temps del projecte disponible
 
 ## <a name="project-timesheet-mobile-app"></a>Aplicació mòbil Project timesheet
 
-L'aplicació mòbil Dynamics 365 Project Timesheet permet que els usuaris presentin i aprovin els fulls d'hores per als projectes en el seu dispositiu mòbil. Aquesta aplicació mòbil mostra la funcionalitat del full d'hores a l'àrea de gestió de projectes i comptabilitat de Dynamics 365 Finance. Ajuda a millorar la productivitat i l'eficiència de l'usuari, i també ajuda amb l'entrada oportuna i l'aprovació dels fulls d'hores del projecte.
+L'aplicació mòbil Dynamics 365 Project Timesheet permet que els usuaris presentin i aprovin els fulls d'hores per als projectes en el seu dispositiu mòbil. Aquesta aplicació mòbil ofereix la funcionalitat de fulls d'hores a l'àrea d'administració de projectes i comptabilitat del Dynamics 365 Finance. Ajuda a millorar la productivitat i l'eficiència de l'usuari, i també ajuda amb l'entrada oportuna i l'aprovació dels fulls d'hores del projecte.
 
 ## <a name="project-time-entry-workspace"></a>Àrea de treball Entrada de temps del projecte
 
-L'àrea de treball Entrada de temps del projecte permet als usuaris introduir i desar el temps en un projecte. No obstant, no permet que els usuaris presentin o aprovin els fulls d'hores del projecte. Només es pot utilitzar per a l'entrada de temps. Aquest espai de treball mòbil està pensat per ser utilitzat juntament amb l'aplicació mòbil de finances i operacions.
+L'àrea de treball Entrada de temps del projecte permet als usuaris introduir i desar el temps en un projecte. No obstant, no permet que els usuaris presentin o aprovin els fulls d'hores del projecte. Només es pot utilitzar per a l'entrada de temps. Aquesta àrea de treball mòbil està dissenyada per utilitzar-se juntament amb l'aplicació mòbil de finances i operacions.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Els meus fulls d'hores/Fulls d'hores per a la meva revisió
 

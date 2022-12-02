@@ -1,6 +1,6 @@
 ---
 title: Assignació de projectes i tasques a una línia de contracte basada en projectes (bàsic)
-description: En aquest article s'ofereix informació sobre l'addició i eliminació de projectes i tasques a una línia de contracte.
+description: Aquest article proporciona informació sobre l'addició i eliminació de projectes i tasques a una línia de contracte.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

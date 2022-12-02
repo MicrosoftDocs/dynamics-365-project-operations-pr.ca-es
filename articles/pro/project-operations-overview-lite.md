@@ -1,6 +1,6 @@
 ---
 title: Informació general de la implementació bàsica
-description: Aquest article proporciona informació sobre el desplegament de Lite de Dynamics 365 Project Operations.
+description: En aquest article es proporciona informació sobre la implementació bàsica del Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

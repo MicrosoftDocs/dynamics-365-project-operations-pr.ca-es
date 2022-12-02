@@ -1,6 +1,6 @@
 ---
 title: 'Novetats de juliol del 2022: implementació de la versió bàsica del Project Operations'
-description: Aquest article proporciona informació sobre les actualitzacions de qualitat disponibles a la versió de juliol de 2022 de la implementació del Microsoft Dynamics 365 Project Operations lite.
+description: En aquest article es proporciona informació sobre les actualitzacions de qualitat que estan disponibles a la versió de juliol de 2022 de la implementació bàsica del Microsoft Dynamics 365 Project Operations.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
@@ -18,25 +18,25 @@ ms.locfileid: "9403985"
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Aquest article s'aplica als components i versions de Microsoft Dynamics 365 Project Operations següents:
+Aquest article s'aplica als components i les versions següents del Microsoft Dynamics 365 Project Operations:
 
-- Project Operations en una Dataverse versió d'entorn 4.44.0.22
+- Project Operations en un entorn del Dataverse, versió 4.44.0.22
 
 ## <a name="quality-updates"></a>Actualitzacions de qualitat
 
 | Àrea de característiques | Número de referència | Actualització de qualitat |
 | --- | --- | --- |
-| Implementació i configuració | 2761472 | Es gestiona un error d'instal·lació del Project Operations. |
-| Facturació i preus | 2746940 | El nom de la línia subcontractada ha de tenir una longitud màxima de 100 caràcters. |
-| Facturació i preus | 2739162 | Els clients han de poder veure els botons de la cinta a la vista de quadrícula real. |
-| Planificació i seguiment de projectes | 2730318 | Validació actualitzada per a caràcters no admesos en l'assignatura del projecte. |
-| Facturació i preus | 2705361 | Els reals de vendes facturats per fites s'han d'incloure als camps de seguiment del projecte. |
-| Facturació i preus | 2675880 | Eviteu que un projecte estigui vinculat a una línia de contracte que no estigui basada en la feina. |
-| Facturació i preus | 2664396 | Si es desa una llista de preus d'un pressupost sense pressupost, hi ha d'haver un error que indiqui que l'oferta no es pot buidar. |
-| Facturació i preus | 2184019 | La **pestanya Facturació** basada en tasques no s'ha de mostrar per als projectes que no tenen cap contracte ni pressupost de suport. |
-| Temps i despesa | 2754459 | Quan el flux de núvol de planificació recurrent estigui inactiu, mostreu el bàner i ometeu el processament d'async. |
-| Facturació i preus | 2724391 | Es llança una excepció incorrecta quan la regla de facturació dividida del contracte de projecte no té un valor de client. |
-| Facturació i preus | 2708638 | El registre no s'ha trobat mentre es cercava mitjançant la cerca a la quadrícula a Usos i aprovacions de materials per a usos de materials.|
-| Facturació i preus | 2686977 | Evitar la validació de la línia de factures durant la creació de factures. |
-| Facturació i preus | 2683032 | La còpia de funcions i categories encarregades no supera els 5000 registres.|
-| Facturació i preus | 2673363 | El % de consum de costos en el projecte es corromp quan existeixen estimacions i reals tant d'esforç com de despeses per a un projecte. |
+| Implementació i configuració | 2761472 | Es resol un error d'instal·lació del Project Operations. |
+| Facturació i preus | 2746940 | El nom de la línia de subcontracte ha de tenir una longitud màxima de 100 caràcters. |
+| Facturació i preus | 2739162 | Els clients han de poder veure els botons de la franja a la visualització de la quadrícula de valors reals. |
+| Planificació i seguiment de projectes | 2730318 | S'ha actualitzat la validació de caràcters no admesos en el tema del projecte. |
+| Facturació i preus | 2705361 | S'han d'incloure els valors reals de les vendes facturades als camps de seguiment del projecte. |
+| Facturació i preus | 2675880 | Eviteu que un projecte s'enllaci amb una línia de contracte que no estigui basada en el treball. |
+| Facturació i preus | 2664396 | Si una llista de preus de l'oferta es desa sense cap oferta, ha d'haver-hi un error que indiqui que l'oferta no pot estar buida. |
+| Facturació i preus | 2184019 | La pestanya **Facturació basada en tasques** no s'ha de mostrar per als projectes que no tenen cap contracte o oferta de suport. |
+| Temps i despesa | 2754459 | Quan el flux de núvol de planificació recurrent està inactiu, mostra el bàner i omet el processament asíncron. |
+| Facturació i preus | 2724391 | Es produeix una excepció incorrecta quan falta un valor de client a la regla de facturació per divisió de contractes del projecte. |
+| Facturació i preus | 2708638 | El registre no s'ha trobat quan es cercava amb la cerca de quadrícula a Usos de materials i Aprovacions per a Usos de materials.|
+| Facturació i preus | 2686977 | Evitar la validació de la línia de factura durant la creació de la factura. |
+| Facturació i preus | 2683032 | La còpia de funcions i categories que es poden cobrar no s'escala més enllà dels 5.000 registres.|
+| Facturació i preus | 2673363 | El % de consum del cost al Projecte es malmet quan existeixen estimacions d'Esforç i Despesa i els valors reals per a un projecte. |

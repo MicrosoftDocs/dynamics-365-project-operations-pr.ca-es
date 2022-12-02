@@ -1,6 +1,6 @@
 ---
 title: Creació de recursos
-description: En aquest article trobareu un enllaç a informació sobre com crear recursos que es poden reservar.
+description: En aquest article es proporciona un enllaç a informació sobre la manera de crear recursos que es poden reservar.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cot
 
 Podeu utilitzar Dynamics 365 Field Service per crear recursos que es poden reservar per utilitzar-los al vostre entorn de Dynamics 365 Project Operations. Per crear aquests recursos, vegeu [Definir recursos que es poden reservar](/dynamics365/field-service/set-up-bookable-resources).
 
-Project Operations admet els tipus de recursos següents:
+El Project Operations admet els tipus de recursos següents:
 - Compte
 - Contacte
 - User

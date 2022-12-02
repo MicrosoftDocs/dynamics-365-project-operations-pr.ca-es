@@ -1,6 +1,6 @@
 ---
 title: Configuració de categories del projecte
-description: En aquest article s'ofereix informació sobre la configuració de categories de projectes.
+description: Aquest article proporciona informació sobre la configuració de categories de projectes.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Les categories de transaccions es defineixen al mòdul Project Operations.
 
 ## <a name="shared-categories"></a>Categories compartides
 
-El Dynamics 365 utilitza el concepte categories compartides per categoritzar les despeses en diferents aplicacions, com ara Dynamics 365 Finance, Dynamics 365 Supply Chain i Dynamics 365 Project Operations. Per a cada categoria de transacció creada, el Project Operations crea automàticament quatre categories compartides relacionades: hores, despeses, càrrecs i article. Podeu revisar i ajustar les categories compartides anant a **Administració de projectes i comptabilitat** \> **Configuració** \> **Categories** \> **Categories compartides**.
+El Dynamics 365 utilitza el concepte de categories compartides per categoritzar les despeses d'aplicacions diferents, com ara el Dynamics 365 Finance, el Dynamics 365 Supply Chain i el Dynamics 365 Project Operations. Per a cada categoria de transacció creada, el Project Operations crea automàticament quatre categories compartides relacionades: hores, despeses, càrrecs i article. Podeu revisar i ajustar les categories compartides anant a **Administració de projectes i comptabilitat** \> **Configuració** \> **Categories** \> **Categories compartides**.
 
 ## <a name="project-categories"></a>Categories del projecte
 

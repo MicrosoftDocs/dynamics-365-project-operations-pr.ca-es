@@ -1,6 +1,6 @@
 ---
 title: Manteniment dels membres de l'equip
-description: En aquest article s'ofereix informació sobre la reserva de recursos amb nom als equips del projecte i l'assignació a tasques.
+description: En aquest article es proporciona informació sobre la reserva de recursos amb nom a equips de projecte i assignar-los a tasques.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

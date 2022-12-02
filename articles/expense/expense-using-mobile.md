@@ -1,6 +1,6 @@
 ---
 title: Aplicació mòbil de despeses
-description: En aquest article s'ofereix informació sobre l'àrea de treball mòbil gestió de despeses.
+description: En aquest article es proporciona informació l'administració de despeses amb l'àrea de treball mòbil.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8930214"
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-En aquest article s'ofereix informació sobre l'àrea **de treball mòbil gestió** de despeses. Aquesta àrea de treball permet que els usuaris capturin i carreguin un rebut per tal que el puguin adjuntar a un informe de despeses més endavant. Els usuaris també poden crear ràpidament una línia de despesa mitjançant un rebut adjunt i crear i administrar els informes de despeses. A més, els aprovadors poden utilitzar l'àrea de treball mòbil **Administració de despeses** per veure els informes de despeses que se'ls assignin i aprovar o rebutjar aquests informes de despeses.
+En aquest article es proporciona informació l'**Administració de despeses** amb l'àrea de treball mòbil. Aquesta àrea de treball permet que els usuaris capturin i carreguin un rebut per tal que el puguin adjuntar a un informe de despeses més endavant. Els usuaris també poden crear ràpidament una línia de despesa mitjançant un rebut adjunt i crear i administrar els informes de despeses. A més, els aprovadors poden utilitzar l'àrea de treball mòbil **Administració de despeses** per veure els informes de despeses que se'ls assignin i aprovar o rebutjar aquests informes de despeses.
 
 Aquesta àrea de treball mòbil està dissenyada per utilitzar-se amb l'aplicació mòbil Dynamics 365 Unified Ops.
 
@@ -47,7 +47,7 @@ També podeu utilitzar aquestes característiques:
 - Enviar un informe de despeses per a la seva aprovació i reemborsament.
 - Aprovar o rebutjar els informes de despeses en què sou un aprovador assignat.
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisits previs si utilitzeu Dynamics 365 Finance
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Requisits previs si utilitzeu el Dynamics 365 Finance
 
 Si el Finance s'ha implementat per a la vostra organització, l'administrador del sistema ha de publicar l'àrea de treball mòbil **Administració de despeses**. 
 
@@ -100,7 +100,7 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 
 10. Seleccioneu **Fet**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Aprovar un informe de despeses mitjançant l'espai de treball mòbil gestió de despeses
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Aprovar un informe de despeses mitjançant l'àrea de treball mòbil d'Administració de despeses
 
 1. Al dispositiu mòbil, obriu l'àrea de treball **Administració de despeses**.
 2. **Aprovacions de despeses** mostra el nombre d'informes de despeses que teniu assignats per a la seva aprovació. El nombre s'actualitza aproximadament cada 30 minuts. Seleccioneu **Aprovacions de despeses**.
@@ -113,7 +113,7 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 6. Introduïu qualsevol comentari per a l'acció d'aprovació.
 7. Seleccioneu **Fet**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Creeu un nou informe de despeses i envieu-lo per a la seva aprovació mitjançant l'espai de treball mòbil gestió de despeses
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Crear un informe de despeses nou i enviar-lo per a l'aprovació mitjançant l'àrea de treball mòbil d'Administració de despeses
 
 1. Al dispositiu mòbil, obriu l'àrea de treball **Administració de despeses**.
 2. Seleccioneu **Entrada de despesa**.
@@ -204,28 +204,28 @@ Baixeu i instal·leu l'aplicació mòbil del Dynamics 365 Unified Ops:
 
 ## <a name="frequently-asked-questions"></a>Preguntes freqüents
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Per què l'aplicació mòbil Expense no introdueix la forma de pagament de manera predeterminada?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Per què l'aplicació mòbil de despeses no introdueix el mètode de pagament per defecte?
 
-Les organitzacions poden personalitzar la configuració de la **forma de** pagament per defecte per a cada categoria de despesa a mesura que es crea. A més, quan configureu les formes de pagament, podeu definir el camp Mètode de **pagament** per defecte com a **Importa només**.
+Les organitzacions poden personalitzar la configuració del **Mètode de pagament per defecte** de cada categoria de despesa a mesura que es creen. A més, quan configureu els mètodes de pagament, podeu definir el camp **Mètode de pagament per defecte** com a **Només importació**.
 
-Quan **la importació només** està habilitada per a una forma de pagament, la forma de pagament no s'introdueix per defecte. Estarà en blanc en les categories de despeses on es configura aquesta forma de pagament. Aquest comportament és coherent tant en l'experiència web com en l'experiència mòbil.
+Quan s'habilita **Només importació** per a un mètode de pagament, el mètode de pagament no s'introdueix per defecte. Estarà en blanc a les categories de despesa on es configuri aquest mètode de pagament. Aquest comportament és coherent tant a l'experiència web com a l'experiència mòbil.
     
-Quan **la importació només** no està habilitada per a una forma de pagament, el valor definit s'introdueix per defecte per a les categories de despeses en què està configurada aquesta forma de pagament. No obstant això, hi ha un problema conegut en què el valor per defecte no s'introdueix a l'aplicació mòbil Expense. Per resoldre aquest problema, seleccioneu manualment una forma de pagament abans de desar l'informe de despeses. 
+Quan no s'habilita **Només importació** per a un mètode de pagament, el valor definit s'introdueix per defecte per a les categories de despesa en què es configura aquest mètode de pagament. Tanmateix, hi ha un problema conegut en què el valor per defecte no s'introdueix a l'aplicació mòbil de despeses. Per resoldre aquest problema, seleccioneu manualment un mètode de pagament abans de desar l'informe de despeses. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Per què no puc afegir ni editar dimensions financeres a l'aplicació mòbil Expense?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Per què no puc afegir o editar dimensions financeres a l'aplicació mòbil de despeses?
 
-No s'admet l'entrada de dimensions i distribucions. Per treballar al voltant d'aquesta limitació, podeu establir aquests camps de manera predeterminada a l'aplicació mòbil configurant les dimensions financeres predeterminades per projecte o empleat.
+L'entrada de dimensions i distribucions no està admesa. Per resoldre aquesta limitació, podeu establir aquests camps per defecte a l'aplicació mòbil configurant les dimensions financeres per defecte per projecte o empleat.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Per què de vegades veig un error de sincronització a l'aplicació mòbil Expense?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Per què de vegades veig un error de sincronització a l'aplicació mòbil de despeses?
 
-Si les línies de despeses no compleixen els requisits de la política i l'usuari envia l'informe de despeses sense abordar l'advertiment de la norma, les dades mòbils no se sincronitzen amb el servidor i es produeix un error de sincronització. Tots els informes de despeses que s'enviïn després d'un error de sincronització es mantindran en un estat fallit i provocaran més errors de sincronització. L'única manera de solucionar aquesta situació és suprimir manualment les notificacions de sincronització. Aquest problema s'ha abordat aturant l'enviament d'informes de despeses quan no s'han abordat els advertiments de polítiques, de manera que s'evitin els errors de sincronització.
+Si les línies de despesa no compleixen els requisits de la norma i l'usuari envia l'informe de despeses sense respondre a l'advertiment de la norma, les dades mòbils no se sincronitzen amb el servidor i es produeix un error de sincronització. Tots els informes de despeses que s'envien després d'un error de sincronització es mantindran en un estat amb errors i produiran més errors de sincronització. L'única manera de corregir aquesta situació és suprimir manualment les notificacions de sincronització. Aquest problema s'ha resolt aturant els enviaments d'informes de despeses quan els advertiments de la norma no s'han adreçat, de manera que s'evitin els errors de sincronització.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Per què la validació de projectes i categories no es reflecteix correctament a l'aplicació mòbil Expense?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Per què la validació del projecte i de la categoria no es reflecteix correctament a l'aplicació mòbil de despeses?
 
-Aquesta validació no és compatible actualment. No obstant això, es podria afegir suport en el futur. 
+Aquesta validació no s'admet actualment. Amb tot, aquesta compatibilitat s'afegirà en el futur. 
 
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Quins tipus de documents s'admeten a l'aplicació mòbil Expense?
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Quins tipus de documents estan admesos a l'aplicació mòbil de despeses?
 
-L'aplicació mòbil Expense només admet imatges. Actualment no és compatible amb PDF ni altres documents.
+L'aplicació mòbil de despeses només admet imatges. Actualment no admet PDF ni altres documents.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

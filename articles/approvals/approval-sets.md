@@ -1,6 +1,6 @@
 ---
 title: Conjunts d'aprovacions
-description: En aquest article s'explica com treballar amb conjunts d'aprovació, sol·licituds i subconjunts d'aquestes operacions.
+description: En aquest article s'explica com es treballa amb els conjunts d'aprovació, les sol·licituds i els subconjunts d'aquestes operacions.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
@@ -26,17 +26,17 @@ Les aprovacions que estan a la cua per al processament són visibles a la visual
 
 El camp **Vida del conjunt d'aprovació** registra el nombre d'intents restants per processar el conjunt abans que es marqui com a error.
 
-Els conjunts d'aprovació es processen mitjançant l'activació periòdica basada en un **flux al** núvol anomenat **Project Service - Programes d'aprovació de projectes de planificació recurrent**. Això es troba a la **solució** anomenada **Project Operations**. 
+Els conjunts d'aprovació es processen mitjançant l'activació periòdica basada en un **Flux de núvol** anomenat **Project Service: planifica de manera recurrent els conjunts d'aprovacions del projecte**. Es troba a la **Solució** anomenada **Project Operations**. 
 
-Assegureu-vos que el flux estigui activat completant els passos següents.
+Assegureu-vos que el flux s'hagi activat completant els passos següents.
 
 1. Com a administrador, inicieu la sessió a [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. A l'extrem superior dret, canvieu a l'entorn per al Dynamics 365 Project Operations qual utilitzeu.
-3. Seleccioneu **Solucions** per llistar les solucions que s'instal·len a l'entorn.
-4. A la llista de solucions, seleccioneu **Operacions** de projecte.
-5. Canvieu el filtre de **All** a **Cloud Flows**.
-6. Verifiqueu que el flux de **Project Service - Planificació recurrent dels conjunts** d'aprovació de projectes està definit com a **Activat**. Si no és així, seleccioneu el flux i, a **continuació, seleccioneu** Activa.
-7. Verifiqueu que el processament es produeixi cada cinc minuts revisant la **llista De feines** del sistema a l'àrea Configuració **de l'entorn** Operacions Dataverse del projecte.
+2. A la cantonada superior dreta, canvieu a l'entorn que utilitzeu per al Dynamics 365 Project Operations.
+3. Seleccioneu **Solucions** per enumerar les solucions que hi ha instal·lades a l'entorn.
+4. A la llista de solucions, seleccioneu **Project Operations**.
+5. Canvieu el filtre de **Tots** a **Fluxos de núvol**.
+6. Verifiqueu que el flux **Project Service: planifica de manera recurrent els conjunts d'aprovacions del projecte** estigui definit com a **Activat**. Si no ho està, seleccioneu el flux i, a continuació, seleccioneu **Activa**.
+7. Verifiqueu que el processament es produeixi cada cinc minuts revisant la llista **Feines del sistema** de l'àrea **Configuració** de l'entorn de Project Operations del Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Aprovacions i conjunts d'aprovació amb errors
 A la visualització **Aprovacions amb error** s'enumeren totes les aprovacions que requereixen la intervenció de l'usuari. Obriu els registres del conjunt d'aprovació associats per identificar la causa de l'error.
@@ -45,7 +45,7 @@ Si seleccioneu **Torna-ho a provar**, el recompte de vida del conjunt d'aprovaci
 ## <a name="configure-approval-sets"></a>Configurar conjunts d'aprovacions
 
 ### <a name="enable-the-approval-sets-feature"></a>Habilitar la característica Conjunts d'aprovació
-Abans d'habilitar la característica Conjunts d'aprovació, comproveu que no s'estiguin processant aprovacions actualment. Un cop habilitada aquesta funció, no es pot desactivar.
+Abans d'habilitar la característica Conjunts d'aprovació, comproveu que no s'estiguin processant aprovacions actualment. Un cop habilitada, aquesta característica no es pot inhabilitar.
 
 - Aneu a la pàgina **Paràmetres del projecte** i seleccioneu **Control de característiques** > **Habilita les aprovacions modernes**.
 

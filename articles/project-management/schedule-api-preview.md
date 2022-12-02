@@ -1,6 +1,6 @@
 ---
 title: Utilitzar les API de planificació de projectes per fer operacions amb entitats de planificació
-description: Aquest article proporciona informació i mostres per utilitzar API de planificació de projectes.
+description: En aquest article es proporciona informació i exemples per utilitzar les API de planificació de projectes.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -34,7 +34,7 @@ A la taula següent es proporciona una llista completa de les entitats de planif
 | Membre de l'equip del projecte     | msdyn_projectteam           |
 | Llistes de comprovació del projecte      | msdyn_projectchecklist      |
 | Etiqueta del projecte           | msdyn_projectlabel          |
-| Tasca del projecte per etiquetar   | msdyn_projecttasktolabel    |
+| Tasca de projecte que s'ha d'etiqueta   | msdyn_projecttasktolabel    |
 | Esprint del projecte          | msdyn_projectsprint         |
 
 **OperationSet**
@@ -45,16 +45,16 @@ OperationSet és un patró d'unitat de treball que es pot utilitzar quan diverse
 
 A continuació es mostra una llista de les API de planificació de projectes actuals.
 
-| **Api**                                 | Descripció                                                                                                                       |
+| **API**                                 | Descripció                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Aquesta API s'utilitza per crear un projecte. El projecte i el cub de projecte per defecte es creen immediatament.                         |
+| **msdyn_CreateProjectV1**               | Aquesta API s'utilitza per crear un projecte. El projecte i el dipòsit per defecte del projecte es creen immediatament.                         |
 | **msdyn_CreateTeamMemberV1**            | Aquesta API s'utilitza per crear un membre de l'equip del projecte. El registre del membre de l'equip es crea immediatament.                                  |
-| **msdyn_CreateOperationSetV1**          | Aquesta API s'utilitza per programar diverses sol·licituds que s'han de realitzar dins d'una transacció.                                        |
+| **msdyn_CreateOperationSetV1**          | Aquesta API s'utilitza per planificar diverses sol·licituds que s'han de fer dins d'una transacció.                                        |
 | **msdyn_PssCreateV1**                   | Aquesta API s'utilitza per crear una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació de creació. |
 | **msdyn_PssUpdateV1**                   | Aquesta API s'utilitza per actualitzar una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació d'actualització  |
 | **msdyn_PssDeleteV1**                   | Aquesta API s'utilitza per suprimir una entitat. L'entitat pot ser qualsevol de les entitats de planificació de projectes que admeten l'operació de supressió. |
-| **msdyn_ExecuteOperationSetV1**         | Aquesta API s'utilitza per executar totes les operacions dins del conjunt d'operacions donat.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | Aquesta API s'utilitza per actualitzar un contorn de treball planificat per a l'assignació de recursos.                                                        |
+| **msdyn_ExecuteOperationSetV1**         | Aquesta API s'utilitza per executar totes les operacions dins del conjunt d'operacions determinat.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Aquesta API s'utilitza per actualitzar un contorn de treball planificat d'una assignació de recursos.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Com que els registres amb **CreateProjectV1** i **CreateTeamMemberV1** es creen 
 
 | **Entitat de planificació**   | **Creació** | **Actualització** | **Delete** | **Consideracions importants**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tasca del projecte            | Sí        | Sí        | Sí        | Els **camps Progrés**, **EsforçComplet** i **EsforçRemaining** es poden editar al Project for the Web, però no es poden editar al Project Operations.                                                                                                                                                                                             |
-| Dependència de les tasques del projecte | Sí        | No         | Sí        | Els registres de dependència de les tasques del projecte no s'actualitzen. En lloc d'això, es pot suprimir un registre antic i crear un registre nou.                                                                                                                                                                                                                                 |
-| Assignació de recursos     | Sí        | Sí\*      | Sí        | No s'admeten les operacions amb els camps següents: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** i **PlannedWork**. Els registres d'assignació de recursos no s'actualitzen. En lloc d'això, es pot suprimir el registre antic i es pot crear un registre nou. S'ha proporcionat una API independent per actualitzar els contorns de l'assignació de recursos. |
-| Dipòsit de projecte          | Sí        | Sí        | Sí        | El cub per defecte es crea mitjançant l'API **CreateProjectV1**. El suport per crear i suprimir cubs de projecte es va afegir a la versió 16 d'actualització.                                                                                                                                                                                                   |
+| Tasca del projecte            | Sí        | Sí        | Sí        | Els camps **Progrés**, **EffortCompleted** i **EffortRemaining** es poden editar a Project for the Web, però no es poden editar al Project Operations.                                                                                                                                                                                             |
+| Dependència de les tasques del projecte | Sí        | No         | Sí        | Els registres de dependència de les tasques del projecte no s'actualitzen. En lloc d'això, es pot suprimir un registre antic i crear-ne un de nou.                                                                                                                                                                                                                                 |
+| Assignació de recursos     | Sí        | Sí\*      | Sí        | No s'admeten les operacions amb els camps següents: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** i **PlannedWork**. Els registres d'assignació de recursos no s'actualitzen. En lloc d'això, es pot suprimir el registre antic i crear-ne un de nou. S'ha proporcionat una API diferent per actualitzar els contorns d'Assignació de recursos. |
+| Dipòsit de projecte          | Sí        | Sí        | Sí        | El dipòsit per defecte es crea amb l'API **CreateProjectV1**. La compatibilitat per crear i suprimir dipòsits de projectes s'ha afegit a la versió 16 d'actualització.                                                                                                                                                                                                   |
 | Membre de l'equip del projecte     | Sí        | Sí        | Sí        | Per a l'operació de creació, utilitzeu l'API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Project                 | Sí        | Sí        |            | Les operacions amb els camps següents no estan admeses: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** i **Duration**.                                                                                       |
 | Llistes de comprovació del projecte      | Sí        | Sí        | Sí        |                                                                                                                                                                                                                                                                                                                                                         |
-| Etiqueta del projecte           | No         | Sí        | No         | Els noms de les etiquetes es poden canviar. Aquesta característica només està disponible per al Project for the Web                                                                                                                                                                                                                                                                      |
-| Tasca del projecte per etiquetar   | Sí        | No         | Sí        | Aquesta característica només està disponible per al Project for the Web                                                                                                                                                                                                                                                                                                  |
-| Esprint del projecte          | Sí        | Sí        | Sí        | El **camp Inici** ha de tenir una data anterior al **camp Meta**. Els esprints per a un mateix projecte no es poden superposar entre si. Aquesta característica només està disponible per al Project for the Web                                                                                                                                                                    |
+| Etiqueta del projecte           | No         | Sí        | No         | Els noms de les etiquetes es poden canviar. Aquesta característica només està disponible a Project for the Web                                                                                                                                                                                                                                                                      |
+| Tasca de projecte que s'ha d'etiqueta   | Sí        | No         | Sí        | Aquesta característica només està disponible a Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Esprint del projecte          | Sí        | Sí        | Sí        | El camp **Inici** ha de tenir una data anterior al camp **Acabament**. Els esprints del mateix projecte no es poden superposar entre si. Aquesta característica només està disponible a Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ La propietat ID és opcional. Si es proporciona, el sistema intenta utilitzar-la
 
 A continuació es mostra una llista de limitacions i problemes coneguts:
 
--   Les API project schedule només les poden utilitzar **els usuaris amb llicència** de Microsoft Project. No les poden utilitzar:
+-   Només els **Usuaris amb llicència del Microsoft Project** poden utilitzar les API de planificació de projectes. No les poden utilitzar:
     -   Usuaris de l'aplicació
     -   Usuaris del sistema
     -   Usuaris d'integració
@@ -94,37 +94,37 @@ A continuació es mostra una llista de limitacions i problemes coneguts:
 -   Cada **OperationSet** només pot tenir un màxim de 100 operacions.
 -   Cada usuari només pot tenir un màxim de 10 **OperationSets** oberts.
 -   El Project Operations actualment admet un màxim de 500 tasques totals en un projecte.
--   Cada operació de contorn d'assignació de recursos d'actualització compta com una única operació.
--   Cada llista de contorns actualitzats pot contenir un màxim de 100 talls de temps.
+-   Cada operació Actualitza el contorn d'assignació de recursos es compta com una única operació.
+-   Cada llista de contorns actualitzats pot contenir un màxim de 100 porcions de temps.
 -   Actualment no hi ha estats d'error i registres d'error d'**OperationSet** disponibles.
 -   Hi ha un màxim de 400 esprints per projecte.
--   [Límits i límits en projectes i tasques](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Actualment, les etiquetes només estan disponibles per al Project for the Web.
+-   [Límits dels projectes i les tasques](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Actualment, les etiquetes només estan disponibles a Project for the Web.
 
 **Gestió d'errors**
 
 -   Per revisar els errors generats a partir dels conjunts d'operacions, aneu a **Configuració** \> **Integració de la planificació** \> **Conjunts d'operacions**.
 -   Per revisar els errors generats a partir del servei de planificació de projectes, aneu a **Configuració** \> **Integració de la planificació** \> **Registres d’errors de PSS**.
 
-**Edició de contorns d'assignació de recursos**
+**Edició dels contorns de l'assignació de recursos**
 
-A diferència de totes les altres API de planificació de projectes que actualitzen una entitat, l'API de contorn d'assignació de recursos és l'única responsable de les actualitzacions a un sol camp, msdyn_plannedwork, en una sola entitat, msydn_resourceassignment.
+A diferència de la resta d'API de planificació de projectes que actualitzen una entitat, l'API de contorn d'assignació de recursos només és responsable de les actualitzacions d'un sol camp, msdyn_plannedwork, en una única entitat, msydn_resourceassignment.
 
-El mode d'horari donat és:
+El mode de planificació proporcionat és:
 
 -   **unitats fixes**
--   El calendari del projecte és 9-5p és 9-5pst, dl, dt, dijous, divendres (NO HI HA DIMECRES DE TREBALL)
--   I el calendari de recursos és 9-1p PST de dilluns a divendres
+-   el calendari del projecte és de 9 a 5 hores, dilluns, dimarts, dijous, divendres (NO ES TREBALLA ELS DIMECRES)
+-   i el calendari de recursos és 9-1p PST de dilluns a divendres
 
-Aquesta tasca té una durada d'una setmana, quatre hores diàries. Això es deu al fet que el calendari de recursos és de 9-1 PST, o quatre hores al dia.
+Aquesta assignació és per a una setmana, quatre hores al dia. Això es deu a que el calendari del recurs és de 9 a 1 PST, o quatre hores al dia.
 
-| &nbsp;     | Tasca | Data d’inici | Data d’acabament  | Quantitat | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Tasca | Data d’inici | Data d’acabament  | Quantitat | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 treballador |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9-1 treballador |  T1  | 13/6/2022  | 17/6/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Per exemple, si vols que el treballador només treballi tres hores cada dia d'aquesta setmana i permeti una hora per a altres tasques.
+Per exemple, si voleu que el treballador només treballi tres hores cada dia aquesta setmana i tingui una hora per a altres tasques.
 
-#### <a name="updatedcontours-sample-payload"></a>Actualitzada Càrrega útil de mostra de Contorns:
+#### <a name="updatedcontours-sample-payload"></a>Càrrega d'exemple UpdatedContours:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Per exemple, si vols que el treballador només treballi tres hores cada dia d'aq
 }]
 ```
 
-Aquesta és l'assignació després que s'executi l'API Update Contour Schedule.
+Aquesta és l'assignació després d'executar l'API de planificació de contorn d'actualització.
 
-| &nbsp;     | Tasca | Data d’inici | Data d’acabament  | Quantitat | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Tasca | Data d’inici | Data d’acabament  | Quantitat | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 treballador | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9-1 treballador | T1   | 13/6/2022  | 17/6/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Escenari d'exemple**
@@ -195,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-** Mostres addicionals
+**Exemples addicionals
 
 ```csharp
 #region Call actions --- Sample code ----

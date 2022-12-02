@@ -1,6 +1,6 @@
 ---
 title: Confirmació d'un contracte de projecte
-description: En aquest article s'ofereix informació sobre com confirmar un contracte a Project Operations.
+description: Aquest article proporciona informació sobre com confirmar un contracte al Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

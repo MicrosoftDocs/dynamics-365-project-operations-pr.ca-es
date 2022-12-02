@@ -1,6 +1,6 @@
 ---
 title: Informació general de les línies de contracte basades en projectes
-description: En aquest article s'ofereix informació sobre el treball amb línies de contracte basades en projectes.
+description: Aquest article proporciona informació sobre com treballar amb línies de contracte basades en projectes.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

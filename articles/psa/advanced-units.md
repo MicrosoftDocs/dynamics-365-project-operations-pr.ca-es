@@ -1,6 +1,6 @@
 ---
 title: Grups d'unitats i unitats
-description: Aquest article proporciona informació sobre grups i unitats d'unitats.
+description: En aquest article es proporciona informació sobre els grups d'unitats i les unitats.
 author: rumant
 ms.custom:
 - dyn365-projectservice

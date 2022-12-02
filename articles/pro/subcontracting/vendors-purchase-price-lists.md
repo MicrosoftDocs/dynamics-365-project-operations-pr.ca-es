@@ -1,6 +1,6 @@
 ---
 title: Administració del proveïdor i de la llista de preus de compra al Project Operations
-description: Aquest article proporciona informació que us ajudarà a crear i mantenir dades de proveïdors i llistes de preus de compra per a la subcontractació.
+description: Aquest article proporciona informació que us ajudarà a crear i mantenir dades del proveïdor i llistes de preu de compra per a la subcontractació.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

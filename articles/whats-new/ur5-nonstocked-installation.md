@@ -1,6 +1,6 @@
 ---
 title: Actualitzeu el Project Operations a l'entorn de finances
-description: En aquest article es proporciona informació sobre com actualitzar les Operacions del Projecte a l'entorn Dynamics 365 Finance.
+description: Aquest article proporciona informació sobre com actualitzar el Project Operations al vostre entorn del Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030023"
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
 
-En aquest article es proporciona informació sobre com actualitzar Dynamics 365 Project Operations a l'entorn Dynamics 365 Finance. Hi ha tres procediments que són necessaris per actualitzar el Project Operations a l'actualització 5 (UR5):
+Aquest article proporciona informació sobre com actualitzar el Dynamics 365 Project Operations al vostre entorn del Dynamics 365 Finance. Hi ha tres procediments que són necessaris per actualitzar el Project Operations a l'actualització 5 (UR5):
 
 - [Importa el paquet al vostre projecte de visualització prèvia](#import)
 - [Aplica l'actualització](#apply)
@@ -119,7 +119,7 @@ Les actualitzacions següents per als privilegis de seguretat per a les entitats
 4. A la pàgina **Vversió de l'assignació de la taula**, apliqueu una versió nova del mapa a cadascuna de les tres entitats.
 5. A la pàgina **Escriptura doble**, seleccioneu executa per reiniciar les assignacions.
 6. A la llista de mapes, seleccioneu l'assignació **Llibre major (msdyn_ledgers)** amb tots els requisits previs i activeu la casella de selecció **Sincronització inicial**. 
-7. Al camp Màster per a la **sincronització** inicial, seleccioneu **Aplicacions** financeres i operatives i, a continuació, Seleccioneu **Executa**.
+7. Al camp **Mestre per a la sincronització inicial**, seleccioneu **Aplicacions de finances i operacions** i, a continuació, seleccioneu **Executa**.
  
  ![Sincronització de l'assignació de llibres majors.](media/DW6.png)
  

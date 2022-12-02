@@ -1,6 +1,6 @@
 ---
 title: Versions d'assignació de doble escriptura del Project Operations
-description: Aquest article proporciona la llista de mapes de doble escriptura necessaris per a Dynamics 365 Project Operations.
+description: En aquest article es proporciona la llista d'assignacions de doble escriptura necessàries per al Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Les assignacions següents són els requisits previs necessaris per a la soluci�
 
 | Assignació de taules | Sincronització inicial |
 | --- | --- |
-| Llibre major (msdyn_ledgers) | Requereix la sincronització inicial per a l'assignació de taules i tots els requisits previs. Master for initial sync són les aplicacions de finances i operacions. |
+| Llibre major (msdyn_ledgers) | Requereix la sincronització inicial per a l'assignació de taules i tots els requisits previs. El patró per a la sincronització inicial són les aplicacions de finances i operacions. |
 | Entitats jurídiques (cdm_companies) | No és obligatori. El sistema emplena aquesta entitat automàticament quan s'enllacen entorns amb doble escriptura. |
 | Clients V3 (comptes) | No és necessari per al proveïment. |
 | Proveïdors V2 (msdyn_vendors) | No és necessari per al proveïment. |
 
-1. A la llista d'assignacions, seleccioneu l'assignació Llibre major **(msdyn\_ledgers)** amb tots els requisits previs i activeu la casella de selecció **Sincronització inicial**. Al camp Màster per a la **sincronització** inicial, seleccioneu **Aplicacions** de finances i operacions tant per al mapa del llibre major com per a tots els mapes de prerequisits. Seleccioneu **Executa**.
+1. A la llista d'assignacions, seleccioneu l'assignació Llibre major **(msdyn\_ledgers)** amb tots els requisits previs i activeu la casella de selecció **Sincronització inicial**. Al camp **Patró per a la sincronització inicial**, seleccioneu **Aplicacions de finances i operacions** tant per a l'assignació del llibre de comptabilitat com per a totes les assignacions de requisits previs. Seleccioneu **Executa**.
 
 ![Sincronització de l'assignació de llibres majors.](media/DW6.png)
 
@@ -40,13 +40,13 @@ Les assignacions següents són els requisits previs necessaris per a la soluci�
 
 Les assignacions següents són necessàries per a una solució del Project Operations. Les versions d'un mapa amb doble escriptura es mostren a partir de l'actualització del maig del 2021 del Project Operations, la versió 4.10.0.186.
 
-| Assignació d'entitats | Versió més recent | Sincronització inicial | Versió Dynamics 365 Finance necessària |
+| Assignació d'entitats | Versió més recent | Sincronització inicial | Versió necessària del Dynamics 365 Finance |
 | --- | --- | --- | --- |
 | Entitat d'integració per a les relacions de transaccions del projecte (msdyn\_transactionconnections) | 1.0.0.0 | No és necessari per al proveïment. ||
 | Capçaleres de contracte del projecte (comandes de vendes) | 1.0.0.1 | No és necessari per al proveïment. ||
 | Línies de contracte del projecte (salesorderdetails) | 1.0.0.0 | No és necessari per al proveïment. ||
 | Origen del fons del projecte (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | No és necessari per al proveïment. ||
-| Taula d'integració de projectes per a estimacions de materials (msdyn\_ estimatelines) | 1.0.0.0 | No és necessari per al proveïment. ||
+| Taula d'integració del projecte per a estimacions de materials (msdyn\_estimatelines) | 1.0.0.0 | No és necessari per al proveïment. ||
 | Propostes de factura del projecte V2 (factures) | 1.0.0.3 | No és necessari per al proveïment. ||
 | Valors reals d'integració del Project Operations (msdyn_actuals) | 1.0.0.15 | No és necessari per al proveïment. |10.0.29 o posterior|
 | Fites de línia de contracte d'integració al Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | No és necessari per al proveïment. ||
