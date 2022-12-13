@@ -1,23 +1,23 @@
 ---
-title: Assignació de projectes i tasques a una línia d'oferta basada en projectes
-description: En aquest article es proporciona informació sobre com assignar projectes i tasques a una línia de tasca basada en projectes.
+title: Mapejar projectes i tasques per projectar línies de pressupostos
+description: Aquest article proporciona informació sobre com mapejar projectes i tasques per projectar línies de pressupost.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917150"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824196"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Assignació de projectes i tasques a una línia d'oferta basada en projectes
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapejar projectes i tasques per projectar línies de pressupostos
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-A les línies d'ofertes basades en projectes, podeu assignar les tasques específiques d'un projecte que ja està associat a una línia d'oferta.
+A les línies de pressupost del projecte, podeu assignar les tasques específiques d'un projecte que ja està associat a una línia de pressupost.
 
 Quan assigneu tasques a una línia d'oferta, els elements següents que heu definit a la línia d'oferta només s'aplicaran a aquestes tasques:
 

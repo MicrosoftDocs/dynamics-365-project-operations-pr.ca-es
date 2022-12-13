@@ -1,5 +1,5 @@
 ---
-title: Tancament d'una oferta (bàsic)
+title: Tancament de les ofertes de projectes
 description: En aquest article es proporciona informació sobre el tancament d'una oferta al Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916920"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826163"
 ---
-# <a name="close-a-quote---lite"></a>Tancament d'una oferta (bàsic)
+# <a name="close-project-quotes"></a>Tancament de les ofertes de projectes
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
@@ -30,7 +30,7 @@ Si l'oferta està unida a una oportunitat, la resta d'ofertes de projectes a l'o
 
 Si hi ha valors reals per al temps en un projecte mentre encara està adjunt a un esborrany d'oferta, només es registra el cost del temps o la despesa. Després de tancar una oferta com a guanyada, l'aplicació refactoritzarà els costos revertint els valors reals del cost més antics i tornant a crear valors reals de cost nous. L'aplicació processarà els valors reals d'aquests costos en funció del mètode de facturació de la línia de contracte del projecte associat. Si el valors reals del cost fan referència a una línia de contracte de temps i materials, es creen els valors reals de vendes no facturats corresponents per al moment en què l'oferta es tanqui i es creï el contracte del projecte. Si els valors reals del cost fan referència a una línia de contracte de preu fix, l'aplicació deixarà de reprocessar els valors reals del cost que es basen en les regles de facturació fraccionades per als clients de contracte del projecte.
 
-## <a name="closing-a-quote-as-lost"></a>Tancament d'una oferta com a perduda:
+## <a name="closing-a-quote-as-lost"></a>Tancar un pressupost com a perdut
 
 Quan tanqueu una oferta de projecte com a Perduda, l'estat es defineix com a Tancat i la raó per a l'estat és Perdut. En tancar l'oferta, l'oferta del projecte passa a ser només de lectura. Com que no es pot tornar a obrir una oferta tancada, abans de tancar una oferta, un quadre de diàleg de confirmació confirmarà els canvis.
 

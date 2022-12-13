@@ -1,23 +1,23 @@
 ---
-title: Administració de diversos clients en una oferta de projecte
+title: Gestionar diversos clients en una oferta basada en projectes
 description: Aquest article proporciona informació sobre com treballar en les ofertes que impliquen diversos clients que finançaran el projecte.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928190"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825136"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Administració de diversos clients en una oferta de projecte
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Gestionar diversos clients en una oferta basada en projectes
 
-_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
+_**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
-Les ofertes del projecte admeten l'escenari en què la proposta implica diversos clients que finançaran el tracte. La pestanya **Resum** de l'oferta té el camp **Client potencial**, que identifica el client principal del tracte. Altres clients per al tracte es poden configurar a la pestanya **Clients** de l'oferta del projecte.
+Les cotitzacions basades en projectes donen suport a l'escenari en què la proposta implica diversos clients que finançaran l'acord. La pestanya **Resum** de l'oferta té el camp **Client potencial**, que identifica el client principal del tracte. Altres clients per al tracte es poden configurar a la pestanya **Clients** de l'oferta del projecte.
 
 Tots els clients de l'oferta de la pestanya **Clients** de l'oferta del projecte són per defecte clients de la línia d'oferta a les línies d'oferta basades en projectes **noves** creades per a l'oferta. Totes les línies de l'oferta basades en projectes no hereten els registres de client d'oferta nova que s'hagin creat després.
 

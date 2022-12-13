@@ -1,17 +1,17 @@
 ---
-title: 'Ofertes: conceptes clau (bàsic)'
+title: Conceptes únics per a ofertes de projecte
 description: En aquest article es proporciona informació sobre l'ús d'ofertes de projectes al Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916966"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825881"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Conceptes únics per a ofertes de projecte
 
@@ -82,9 +82,13 @@ Les planificacions de factura són específiques de cada línia d'oferta i tamb�
 
 Les ofertes del Project Operations es basen en les ofertes del Dynamics 365 Sales. No obstant, hi ha algunes diferències importants en la funcionalitat que heu de tenir en compte:
 
-- No s'admeten les accions **Revisa** ni **Activa**.
+
 - Les ofertes del Project Operations tenen dos tipus de línies diferents. Una és per als projectes i l'altra és per als productes.
 - Les ofertes del Project Operations tenen el seu propi formulari i elements de la interfície d'usuari, regles de negoci, lògica empresarial en complements i scripts de client que les fan úniques de les ofertes del Sales.
+- Els pressupostos de vendes us permeten adjuntar diverses comandes a un pressupost de vendes. En operacions de projecte, només es pot adjuntar un contracte de projecte a un pressupost de projecte.
+- Quan guanyeu un pressupost de vendes, l'oportunitat relacionada pot romandre oberta. Quan es guanya una oferta de projecte, l'oportunitat relacionada es tanca.
+- Un pressupost de vendes no inclou alguns camps ni conceptes que s'inclouen en un pressupost de projecte. Els camps inclouen **Unitat de contractació**, **Administrador de comptes** i **Nom del contacte de la factura**.  
+- **Tipus**: les ofertes de vendes i d'ofertes de projectes també s'identifiquen pel camp basat en conjunt d'opcions, **Tipus**. Per a una oferta de vendes, aquest camp té el valor **Basada en un element**. Per a una oferta de projecte, té el valor **Basada en el treball**.
 
 Per aquests motius, no es recomana utilitzar una oferta del Sales i una oferta del Project Operations indistintament.
 

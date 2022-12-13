@@ -1,19 +1,19 @@
 ---
-title: Administració d'oportunitats basades en projectes
+title: Administració d'oportunitats dels projectes
 description: Aquest article proporciona informació sobre com treballar amb oportunitats relacionades amb els projectes.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 56eba38476dd5b49f0043eee5d411d51f9bf56b8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933204"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825290"
 ---
-# <a name="manage-project-based-opportunities"></a>Administració d'oportunitats basades en projectes
+# <a name="manage-project-opportunities"></a>Administració d'oportunitats dels projectes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 

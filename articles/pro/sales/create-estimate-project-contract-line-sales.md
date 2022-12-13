@@ -1,32 +1,32 @@
 ---
-title: Estimació d'una línia de contracte basada en projectes (bàsic)
+title: Estimar una línia de contracte projec
 description: Aquest article proporciona informació sobre l'estimació d'una línia de contracte basada en projectes.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914390"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824755"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Estimació d'una línia de contracte basada en projectes (bàsic)
+# <a name="estimate-a-project-contract-line"></a>Estimació d'una línia de contracte del projecte
 
 _**S'aplica a:** implementació bàsica: tracte de facturació proforma_
 
-Al Dynamics 365 Project Operations, una línia de contracte basada en projectes té detalls que ajuden a estimar el cost i els ingressos potencials del treball dedicat a realitzar la línia de contracte.
+En Dynamics 365 Project Operations, una línia de contracte de projecte té detalls que ajuden a estimar el cost i els ingressos potencials de l'obra implicada per lliurar la línia de contracte.
 
-Per estimar una línia de contracte basada en projectes, aneu a la pestanya **Detall de línia contracte** de la **línia de contracte** basada en projectes.  Hi ha dues maneres de crear una estimació en una línia de contracte basada en projectes:
+Per estimar una línia de contracte de projecte, aneu a la pestanya Detall **de la** línia de contracte de la línia de contracte basada en **projectes**.  Hi ha dues maneres de crear una estimació en una línia de contracte basada en projectes:
 
    - Crear una estimació directament a la línia de contracte afegint manualment els detalls de la línia de contracte.
    - Crear un projecte i un pla de projecte i després associar el projecte i les tasques a la línia de contracte del projecte. Això permet el procés pel qual podeu importar l'estimació del pla de projecte a la línia de contracte segons els components inclosos en la línia de contracte.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Crear una estimació directament en una línia de contracte basada en projectes
 
-Per crear una estimació directament en una línia de contracte basada en projecte, seguiu aquests passos:
+Per crear una estimació directament sobre una línia de contracte de projecte, seguiu aquests passos:
 
 1. Aneu a la línia de contracte i seleccioneu la pestanya **Detall de la línia contracte**. Les línies que creeu en aquesta pestanya es resumeixen i es mostren com el **valor contractat** per a aquesta **línia contracte**. 
 2. A la subquadrícula **Detalls de la línia de contracte**, seleccioneu **Nou detall de línia contracte**. S'obre un control lliscant de creació ràpida. Els camps següents estan disponibles a la pàgina **Detalls de la línia de contracte**.

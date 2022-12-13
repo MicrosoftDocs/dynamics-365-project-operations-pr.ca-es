@@ -1,23 +1,23 @@
 ---
-title: Assignació de projectes i tasques a una línia de contracte basada en projectes (bàsic)
+title: Assignació de projectes i tasques en una línia de contracte
 description: Aquest article proporciona informació sobre l'addició i eliminació de projectes i tasques a una línia de contracte.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932514"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825046"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Assignació de projectes i tasques a una línia de contracte basat en projecte 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Assignació de projectes i tasques en una línia de contracte 
 
 _**S'aplica a:** Implementació bàsica: tracte de facturació proforma, Project Operations per a escenaris basats en recursos/sense cotització_
 
-A les línies de contracte basades en projectes, podeu assignar tasques específiques en un projecte a la línia de contracte.
+A les línies de contracte del projecte, podeu assignar tasques específiques d'un projecte a la línia de contracte.
 
 Quan assigneu tasques específiques a una línia de contracte, el mètode de facturació, les opcions d'imputabilitat, els límits que no s'han de superar i els clients definits a la línia de contracte només seran aplicables a aquestes tasques específiques.
 
@@ -25,7 +25,7 @@ Si teniu un escenari on una fase d'un projecte, per exemple la fase Prototip, é
 
 Totes les altres fases de l'estructura del desglossament del treball del projecte (WBS) es poden associar a la línia de contracte basada en temps i material.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Associar tasques a línies de contracte basades en projectes
+## <a name="associate-tasks-to-project-contract-lines"></a>Associar tasques a línies contractuals de projectes
 
 Les tasques es poden associar a les línies de contracte des de la pestanya **Tasques imputables** de la pàgina **Línia de contracte** o des de la pestanya **Facturació de tasques** de la pàgina **Projecte**.
 

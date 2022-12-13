@@ -1,27 +1,27 @@
 ---
-title: Planificacions de facturació en línies d'oferta basades en projectes
+title: Planificacions de factures en línies de pressupostos de projectes
 description: En aquest article es proporciona informació sobre la creació e planificacions i fites de facturació per a línies d'oferta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918300"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825740"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Planificacions de facturació en línies d'oferta basades en projectes
+# <a name="invoice-schedules-on-project-quote-lines"></a>Planificacions de factures en línies de pressupostos de projectes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització, implementació lleugera per a la facturació proforma_
 
-Una línia d'oferta basada en projectes proporciona la capacitat d'expressar una planificació de factura. Això és opcional durant la fase d'oferta perquè l'aplicació no admet la facturació d'un projecte quan està lligat a una línia d'oferta. Només es permet la facturació després de guanyar l'oferta. L'únic impacte descendent de la creació d'una planificació de factura durant la fase d'oferta és que aquesta planificació de factura es copiarà a la línia de contracte basada en projectes. Si no creeu cap planificació de factura durant la fase d'oferta, podreu fer-ho en la línia de contracte basada en projectes.
+Una línia de pressupost de projecte dóna la possibilitat d'expressar un calendari de factures. Això és opcional durant la fase d'oferta perquè l'aplicació no admet la facturació d'un projecte quan està lligat a una línia d'oferta. Només es permet la facturació després de guanyar l'oferta. L'únic impacte descendent de la creació d'una planificació de factura durant la fase d'oferta és que aquesta planificació de factura es copiarà a la línia de contracte basada en projectes. Si no creeu cap planificació de factura durant la fase d'oferta, podreu fer-ho en la línia de contracte basada en projectes.
 
 En general, la finalitat de les planificacions de factura és permetre la creació automàtica d'esborranys de factures per a una línia de contracte basada en projectes. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Crear una planificació de factura de temps i materials per a una oferta basada en projectes
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Crear una planificació de la factura de temps i material per a una línia de pressupost de projecte
 
 Quan el mètode de facturació d'una línia d'oferta basada en projectes és de temps i material, el sistema genera una planificació de factura basada en la data. Per generar automàticament una planificació de factura basada en la data, seguiu els passos següents.
 
@@ -36,7 +36,7 @@ Quan el mètode de facturació d'una línia d'oferta basada en projectes és de 
     - **Data límit de la transacció** es defineix al dia abans de la **Data d'execució de la factura**.
     - **Estat d'execució** es defineix automàticament a **No executat**. Quan la feina de creació de la factura automàtica s'executa per a una determinada data d'execució de la factura, s'actualitzarà aquest camp a **Execució correcta** o **Error d'execució**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Crear una planificació de factura de preu fix per a una línia d'oferta basada en projectes
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Crear una planificació de factures de preu fix per a una línia de pressupost de projecte
 
 Quan la línia d'oferta basada en projectes té un mètode de facturació **Fix**, el sistema crea una planificació de factura basada en fites. Completeu els passos següents per generar automàticament aquesta planificació per a un conjunt fix de fites que es distribueixen de manera equitativa per al període de calendari.
 

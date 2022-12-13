@@ -1,31 +1,29 @@
 ---
-title: Administració de clients potencials
+title: Gestionar clients potencials basats en projectes
 description: Aquest article proporciona informació sobre l'administració de clients potencials basats en projectes.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920186"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825787"
 ---
-# <a name="manage-leads"></a>Administració de clients potencials
+# <a name="manage-project-based-leads"></a>Gestionar clients potencials basats en projectes
 
 _**S'aplica a:** Project Operations per a escenaris basats en recursos/sense cotització_
 
 Els clients potencials basats en projectes es poden administrar i qualificar al Project Operations. El procés d'administració de clients potencials inclou la creació de clients potencials basats en el treball i la qualificació dels clients potencials. 
 
-## <a name="project-sales-leads"></a>Clients potencials de vendes del projecte
-
 A la secció **Vendes**, a la subfinestra de navegació esquerra, obriu la pàgina de la llista **Clients potencials** per veure una llista de tots els registres de client potencial del sistema. La llista de clients potencials que es mostren són basats en treball i altres tipus de clients potencials que es poden crear si també teniu les aplicacions Dynamics 365 Sales o Dynamics 365 Field Service.
 
 Podeu crear una visualització filtrada per veure només els clients potencials basats en projectes mitjançant la creació d'un filtre al valor **Tipus**. Per exemple, podeu seleccionar si voleu que només es mostrin clients potencials basats en el treball.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Crear un client potencial nou per a un acord basat en projectes
+## <a name="create-a-new-project-based-lead"></a>Crear un client potencial nou basat en projectes 
 
 Quan es qualifica un client potencial basat en un projecte, es crearà una oportunitat i un compte. Una oportunitat basada en projectes és el punt de partida per a les activitats de cerca de vendes en la fase d'oportunitat. Les oportunitats basades en projectes tenen capacitats úniques necessàries per vendre treball del projecte. Aquestes capacitats inclouen:
 

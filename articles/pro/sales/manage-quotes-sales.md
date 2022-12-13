@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911630"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826069"
 ---
 # <a name="manage-project-quotes"></a>Administració de les ofertes de projectes
 
@@ -23,7 +23,7 @@ Al Dynamics 365 Project Operations, les ofertes de projectes estan dissenyades p
   - Detalls de la línia d'oferta que identifiquen i estimen la feina de cada component d'alt nivell o línia d'oferta. La planificació o les estimacions de dates i els aspectes financers per al treball estan vinculats a la línia d'oferta.
   - Els models de contractació i els components imputables estan configurats per a cada línia d'oferta. Aquesta configuració ajuda a estimar la propagació d'ingressos, despeses i rendibilitat per a cada línia d'oferta i l'oferta global.
 
-## <a name="view-all-project-based-quotes"></a>Visualitzar totes les ofertes basades en projectes
+## <a name="view-all-project-quotes"></a>Veure totes les cotitzacions del projecte
 
 Es pot veure una llista de totes les ofertes de projecte a la pàgina de llista **Ofertes**. 
 

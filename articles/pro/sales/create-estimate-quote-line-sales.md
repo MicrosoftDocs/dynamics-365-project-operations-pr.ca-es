@@ -1,21 +1,21 @@
 ---
-title: Estimació d'una línia d'oferta basada en projectes
-description: En aquest article es proporciona informació sobre com crear una estimació en una línia d'oferta basada en projectes.
+title: Estimació d'una línia d'oferta de projecte
+description: Aquest article proporciona informació sobre com crear una estimació en una línia de pressupost de projecte.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ca-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914344"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825975"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Estimació d'una línia d'oferta basada en projectes
+# <a name="estimate-a-project-quote-line"></a>Estimació d'una línia d'oferta de projecte
 
-_**S'aplica a:** implementació bàsica: tracte de facturació proforma_
+_**S'aplica a:** Implementació bàsica: tracte de facturació proforma, Project Operations per a escenaris basats en recursos/sense cotització_
 
 Una línia d'oferta basada en projectes conté detalls que ajuden a estimar el cost i els possibles ingressos del treball implicat per lliurar la línia d'oferta.
 
@@ -24,7 +24,7 @@ Per estimar una línia d'oferta basada en projectes, a la línia d'oferta basada
 - Creeu manualment l'estimació directament a la línia d'oferta mitjançant els detalls de la línia d'oferta. 
 - Crear un projecte i un pla de projecte i, a continuació, associar el projecte i les tasques del projecte a la línia d'oferta. El procés per importar les estimacions del pla del projecte a la línia d'oferta segons la informació que heu facilitat s'habilitarà.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Creació d'estimacions directament en una línia d'oferta basada en projectes
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Creeu estimacions directament sobre una línia de pressupost de projecte
 
 Per crear una estimació en una línia d'oferta basada en projectes, seleccioneu la pestanya **Detalls de la línia d'oferta**. L'element de línia que creeu en aquesta pestanya resumirà el valor ofert per a aquesta línia d'oferta. 
 
@@ -68,8 +68,7 @@ La moneda del detall de la línia d'oferta per al cost es pren per defecte de la
 
 Els càlculs de rendibilitat converteixen l'import en els detalls de la línia d'oferta per al cost i les vendes a la moneda base de l'entorn per informar del marge previst global de l'oferta.
 
-> [!NOTA
-> > Podrien ocórrer errors d'arrodoniment de moneda i canvis de marges a causa de la manca de tipus de canvi amb data d'efectivitat. Utilitzeu aquests càlculs només als contractes de projecte, ja que són aproximacions i no són per a l'ús reglamentari real ni per a altres informes que requereixin una major precisió d'arrodoniment i coneixement de la data de vigència dels tipus de canvi.
+> [! NOTA Els errors d'arrodoniment de divises i els marges canviats es podrien produir a causa de la manca de data de tipus de canvi efectius. Utilitzeu aquests càlculs només als contractes de projecte, ja que són aproximacions i no són per a l'ús reglamentari real ni per a altres informes que requereixin una major precisió d'arrodoniment i coneixement de la data de vigència dels tipus de canvi.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
