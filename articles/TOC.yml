@@ -846,7 +846,7 @@
               items:
                 - name: Contractes basats en avançaments i bestretes
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configuració d'una planificació de bestretaConfiguració d'una planificació de bestreta
+                - name: Configuració d'una planificació de bestreta
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Creació d'un avançament ad hoc en un contracte de projecte
                   href: pro/sales/create-ad-hoc-advance-sales.md
